@@ -1,0 +1,32 @@
+{
+  "name": "bdsl",
+  "scopeName": "source.bdsl",
+  "repository": {
+    "WORD": {
+      "match": "[0-9a-zA-Z_]+"
+    }
+  },
+  "patterns": [
+    {
+      "match": "(#|<#>).*",
+      "name": "comment.line"
+    },
+    {
+      "match": "\\$[0-9a-zA-Z_]+",
+      "name": "macroinvoke"
+    },
+    {
+      "match": "<!>",
+      "name": "phaseproperty"
+    },
+    {
+      "match": "!!\\{.*",
+      "name": "macro"
+    },
+    {
+      "begin": "^!\\{",
+      "end": "!}",
+      "name": "macro"
+    }
+  ]
+}
