@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.SBV2
+  commentId: T:Danmokou.DMath.SBV2
+  id: SBV2
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SBV2
+  nameWithType: SBV2
+  fullName: Danmokou.DMath.SBV2
+  type: Delegate
+  source:
+    id: SBV2
+    path: ''
+    startLine: 6656
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA function that converts a SimpleBullet into a Vector2.\n"
+  example: []
+  syntax:
+    content: public delegate Vector2 SBV2(ref BulletManager.SimpleBullet sb);
+    parameters:
+    - id: sb
+      type: BulletManager.SimpleBullet
+    return:
+      type: Vector2
+    content.vb: Public Delegate Function SBV2(ByRef sb As BulletManager.SimpleBullet) As Vector2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: BulletManager.SimpleBullet
+  isExternal: true
+  name: BulletManager.SimpleBullet
+  nameWithType: BulletManager.SimpleBullet
+  fullName: BulletManager.SimpleBullet
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2

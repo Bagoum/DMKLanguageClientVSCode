@@ -1,0 +1,890 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMRV2
+  commentId: T:Danmokou.DMath.Functions.ExMRV2
+  id: ExMRV2
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMRV2.Angle(tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.AnglePhi(tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.NRot(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.NX(tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.NY(tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.Rot(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.RX(tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.RXY(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.RY(tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.V2V2F(ev2,ev2,tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.V2V3(ev2,ev3)
+  - Danmokou.DMath.Functions.ExMRV2.Zero
+  langs:
+  - csharp
+  - vb
+  name: ExMRV2
+  nameWithType: ExMRV2
+  fullName: Danmokou.DMath.Functions.ExMRV2
+  type: Class
+  source:
+    id: ExMRV2
+    path: ''
+    startLine: 7465
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that return V2RV2.\n"
+  example: []
+  syntax:
+    content: public static class ExMRV2
+    content.vb: Public Module ExMRV2
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMRV2.V2V3(ev2,ev3)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.V2V3(ev2,ev3)
+  id: V2V3(ev2,ev3)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: V2V3(ev2, ev3)
+  nameWithType: ExMRV2.V2V3(ev2, ev3)
+  fullName: Danmokou.DMath.Functions.ExMRV2.V2V3(ev2, ev3)
+  type: Method
+  source:
+    id: V2V3
+    path: ''
+    startLine: 7473
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from a nonrotational vector and a rotational vector3.\n"
+  example: []
+  syntax:
+    content: public static trv2 V2V3(ev2 nrot, ev3 rot)
+    parameters:
+    - id: nrot
+      type: ev2
+      description: Nonrotational component
+    - id: rot
+      type: ev3
+      description: Rotational component (x,y,angle)
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function V2V3(nrot As ev2, rot As ev3) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.V2V3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.V2V2F(ev2,ev2,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.V2V2F(ev2,ev2,tfloat)
+  id: V2V2F(ev2,ev2,tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: V2V2F(ev2, ev2, tfloat)
+  nameWithType: ExMRV2.V2V2F(ev2, ev2, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.V2V2F(ev2, ev2, tfloat)
+  type: Method
+  source:
+    id: V2V2F
+    path: ''
+    startLine: 7486
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from two vectors and a float.\n"
+  example: []
+  syntax:
+    content: public static trv2 V2V2F(ev2 nrot, ev2 rot, tfloat angle)
+    parameters:
+    - id: nrot
+      type: ev2
+      description: Nonrotational x,y
+    - id: rot
+      type: ev2
+      description: Rotational x,y
+    - id: angle
+      type: tfloat
+      description: Rotational angle (degrees)
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function V2V2F(nrot As ev2, rot As ev2, angle As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.V2V2F*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.NRot(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.NRot(tfloat,tfloat,tfloat)
+  id: NRot(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: NRot(tfloat, tfloat, tfloat)
+  nameWithType: ExMRV2.NRot(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.NRot(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: NRot
+    path: ''
+    startLine: 7499
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from three floats. RX and RY are set to zero.\n"
+  example: []
+  syntax:
+    content: public static trv2 NRot(tfloat nx, tfloat ny, tfloat angle)
+    parameters:
+    - id: nx
+      type: tfloat
+      description: Nonrotational x
+    - id: ny
+      type: tfloat
+      description: Nonrotational y
+    - id: angle
+      type: tfloat
+      description: Rotational angle (degrees)
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function NRot(nx As tfloat, ny As tfloat, angle As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.NRot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.Rot(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.Rot(tfloat,tfloat,tfloat)
+  id: Rot(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: Rot(tfloat, tfloat, tfloat)
+  nameWithType: ExMRV2.Rot(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.Rot(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: Rot
+    path: ''
+    startLine: 7508
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from three floats. NX and NY are set to zero.\n"
+  example: []
+  syntax:
+    content: public static trv2 Rot(tfloat rx, tfloat ry, tfloat angle)
+    parameters:
+    - id: rx
+      type: tfloat
+      description: Rotational x
+    - id: ry
+      type: tfloat
+      description: Rotational y
+    - id: angle
+      type: tfloat
+      description: Rotational angle (degrees)
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function Rot(rx As tfloat, ry As tfloat, angle As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.Rot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.NX(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.NX(tfloat)
+  id: NX(tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: NX(tfloat)
+  nameWithType: ExMRV2.NX(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.NX(tfloat)
+  type: Method
+  source:
+    id: NX
+    path: ''
+    startLine: 7514
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from a nonrotational X component only. Everything else is zero.\n"
+  example: []
+  syntax:
+    content: public static trv2 NX(tfloat nx)
+    parameters:
+    - id: nx
+      type: tfloat
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function NX(nx As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.NX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.NY(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.NY(tfloat)
+  id: NY(tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: NY(tfloat)
+  nameWithType: ExMRV2.NY(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.NY(tfloat)
+  type: Method
+  source:
+    id: NY
+    path: ''
+    startLine: 7519
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from a nonrotational Y component only. Everything else is zero.\n"
+  example: []
+  syntax:
+    content: public static trv2 NY(tfloat ny)
+    parameters:
+    - id: ny
+      type: tfloat
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function NY(ny As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.NY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.RXY(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.RXY(tfloat,tfloat)
+  id: RXY(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: RXY(tfloat, tfloat)
+  nameWithType: ExMRV2.RXY(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.RXY(tfloat, tfloat)
+  type: Method
+  source:
+    id: RXY
+    path: ''
+    startLine: 7526
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from a rotational X and Y. Everything else is set to zero.\n"
+  example: []
+  syntax:
+    content: public static trv2 RXY(tfloat rx, tfloat ry)
+    parameters:
+    - id: rx
+      type: tfloat
+      description: Rotational x
+    - id: ry
+      type: tfloat
+      description: Rotational y
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function RXY(rx As tfloat, ry As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.RXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.RX(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.RX(tfloat)
+  id: RX(tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: RX(tfloat)
+  nameWithType: ExMRV2.RX(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.RX(tfloat)
+  type: Method
+  source:
+    id: RX
+    path: ''
+    startLine: 7531
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from a rotational X component only. Everything else is zero.\n"
+  example: []
+  syntax:
+    content: public static trv2 RX(tfloat rx)
+    parameters:
+    - id: rx
+      type: tfloat
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function RX(rx As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.RX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.RY(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.RY(tfloat)
+  id: RY(tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: RY(tfloat)
+  nameWithType: ExMRV2.RY(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.RY(tfloat)
+  type: Method
+  source:
+    id: RY
+    path: ''
+    startLine: 7536
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from a rotational Y component only. Everything else is zero.\n"
+  example: []
+  syntax:
+    content: public static trv2 RY(tfloat ry)
+    parameters:
+    - id: ry
+      type: tfloat
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function RY(ry As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.RY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.Angle(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.Angle(tfloat)
+  id: Angle(tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: Angle(tfloat)
+  nameWithType: ExMRV2.Angle(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.Angle(tfloat)
+  type: Method
+  source:
+    id: Angle
+    path: ''
+    startLine: 7541
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a V2RV2 from a rotational angle component only. Everything else is zero.\n"
+  example: []
+  syntax:
+    content: public static trv2 Angle(tfloat a)
+    parameters:
+    - id: a
+      type: tfloat
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function Angle(a As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.Angle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.AnglePhi(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.AnglePhi(tfloat)
+  id: AnglePhi(tfloat)
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: AnglePhi(tfloat)
+  nameWithType: ExMRV2.AnglePhi(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.AnglePhi(tfloat)
+  type: Method
+  source:
+    id: AnglePhi
+    path: ''
+    startLine: 7547
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n= Angle(360h / RPT)\n"
+  example: []
+  syntax:
+    content: public static trv2 AnglePhi(tfloat rpt)
+    parameters:
+    - id: rpt
+      type: tfloat
+    return:
+      type: trv2
+    content.vb: Public Shared Function AnglePhi(rpt As tfloat) As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.AnglePhi*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMRV2.Zero
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.Zero
+  id: Zero
+  parent: Danmokou.DMath.Functions.ExMRV2
+  langs:
+  - csharp
+  - vb
+  name: Zero()
+  nameWithType: ExMRV2.Zero()
+  fullName: Danmokou.DMath.Functions.ExMRV2.Zero()
+  type: Method
+  source:
+    id: Zero
+    path: ''
+    startLine: 7555
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the zero V2RV2.\n"
+  example: []
+  syntax:
+    content: public static trv2 Zero()
+    return:
+      type: trv2
+      description: ''
+    content.vb: Public Shared Function Zero As trv2
+  overload: Danmokou.DMath.Functions.ExMRV2.Zero*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMRV2.V2V3*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.V2V3
+  name: V2V3
+  nameWithType: ExMRV2.V2V3
+  fullName: Danmokou.DMath.Functions.ExMRV2.V2V3
+- uid: ev2
+  isExternal: true
+  name: ev2
+  nameWithType: ev2
+  fullName: ev2
+- uid: ev3
+  isExternal: true
+  name: ev3
+  nameWithType: ev3
+  fullName: ev3
+- uid: trv2
+  isExternal: true
+  name: trv2
+  nameWithType: trv2
+  fullName: trv2
+- uid: Danmokou.DMath.Functions.ExMRV2.V2V2F*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.V2V2F
+  name: V2V2F
+  nameWithType: ExMRV2.V2V2F
+  fullName: Danmokou.DMath.Functions.ExMRV2.V2V2F
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: Danmokou.DMath.Functions.ExMRV2.NRot*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.NRot
+  name: NRot
+  nameWithType: ExMRV2.NRot
+  fullName: Danmokou.DMath.Functions.ExMRV2.NRot
+- uid: Danmokou.DMath.Functions.ExMRV2.Rot*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.Rot
+  name: Rot
+  nameWithType: ExMRV2.Rot
+  fullName: Danmokou.DMath.Functions.ExMRV2.Rot
+- uid: Danmokou.DMath.Functions.ExMRV2.NX*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.NX
+  name: NX
+  nameWithType: ExMRV2.NX
+  fullName: Danmokou.DMath.Functions.ExMRV2.NX
+- uid: Danmokou.DMath.Functions.ExMRV2.NY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.NY
+  name: NY
+  nameWithType: ExMRV2.NY
+  fullName: Danmokou.DMath.Functions.ExMRV2.NY
+- uid: Danmokou.DMath.Functions.ExMRV2.RXY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.RXY
+  name: RXY
+  nameWithType: ExMRV2.RXY
+  fullName: Danmokou.DMath.Functions.ExMRV2.RXY
+- uid: Danmokou.DMath.Functions.ExMRV2.RX*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.RX
+  name: RX
+  nameWithType: ExMRV2.RX
+  fullName: Danmokou.DMath.Functions.ExMRV2.RX
+- uid: Danmokou.DMath.Functions.ExMRV2.RY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.RY
+  name: RY
+  nameWithType: ExMRV2.RY
+  fullName: Danmokou.DMath.Functions.ExMRV2.RY
+- uid: Danmokou.DMath.Functions.ExMRV2.Angle*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.Angle
+  name: Angle
+  nameWithType: ExMRV2.Angle
+  fullName: Danmokou.DMath.Functions.ExMRV2.Angle
+- uid: Danmokou.DMath.Functions.ExMRV2.AnglePhi*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.AnglePhi
+  name: AnglePhi
+  nameWithType: ExMRV2.AnglePhi
+  fullName: Danmokou.DMath.Functions.ExMRV2.AnglePhi
+- uid: Danmokou.DMath.Functions.ExMRV2.Zero*
+  commentId: Overload:Danmokou.DMath.Functions.ExMRV2.Zero
+  name: Zero
+  nameWithType: ExMRV2.Zero
+  fullName: Danmokou.DMath.Functions.ExMRV2.Zero

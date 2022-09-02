@@ -1,0 +1,916 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.Events
+  commentId: T:Danmokou.Core.Events
+  id: Events
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.Events.CreateRuntimeEvent``1(System.String,Danmokou.Core.Events.RuntimeEventType,Danmokou.Core.Events.RuntimeEvent{``0}@)
+  - Danmokou.Core.Events.CreateRuntimeEventCreator``1(System.String,Danmokou.Core.Events.RuntimeEventType)
+  - Danmokou.Core.Events.exProcRuntimeEvent``1
+  - Danmokou.Core.Events.FindAnyRuntimeEvent(System.String)
+  - Danmokou.Core.Events.FindRuntimeEvent``1(System.String)
+  - Danmokou.Core.Events.ProcRuntimeEvent``1(System.String,``0)
+  - Danmokou.Core.Events.SceneCleared
+  langs:
+  - csharp
+  - vb
+  name: Events
+  nameWithType: Events
+  fullName: Danmokou.Core.Events
+  type: Class
+  source:
+    id: Events
+    path: ''
+    startLine: 345
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nModule for managing events.\n"
+  example: []
+  syntax:
+    content: public static class Events
+    content.vb: Public Module Events
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Core.Events.CreateRuntimeEventCreator``1(System.String,Danmokou.Core.Events.RuntimeEventType)
+  commentId: M:Danmokou.Core.Events.CreateRuntimeEventCreator``1(System.String,Danmokou.Core.Events.RuntimeEventType)
+  id: CreateRuntimeEventCreator``1(System.String,Danmokou.Core.Events.RuntimeEventType)
+  parent: Danmokou.Core.Events
+  langs:
+  - csharp
+  - vb
+  name: CreateRuntimeEventCreator<T>(String, Events.RuntimeEventType)
+  nameWithType: Events.CreateRuntimeEventCreator<T>(String, Events.RuntimeEventType)
+  fullName: Danmokou.Core.Events.CreateRuntimeEventCreator<T>(System.String, Danmokou.Core.Events.RuntimeEventType)
+  type: Method
+  source:
+    id: CreateRuntimeEventCreator
+    path: ''
+    startLine: 353
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public static Func<IDisposable> CreateRuntimeEventCreator<T>(string name, Events.RuntimeEventType typ)
+    parameters:
+    - id: name
+      type: System.String
+    - id: typ
+      type: Danmokou.Core.Events.RuntimeEventType
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{System.IDisposable}
+    content.vb: Public Shared Function CreateRuntimeEventCreator(Of T)(name As String, typ As Events.RuntimeEventType) As Func(Of IDisposable)
+  overload: Danmokou.Core.Events.CreateRuntimeEventCreator*
+  nameWithType.vb: Events.CreateRuntimeEventCreator(Of T)(String, Events.RuntimeEventType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Core.Events.CreateRuntimeEventCreator(Of T)(System.String, Danmokou.Core.Events.RuntimeEventType)
+  name.vb: CreateRuntimeEventCreator(Of T)(String, Events.RuntimeEventType)
+- uid: Danmokou.Core.Events.CreateRuntimeEvent``1(System.String,Danmokou.Core.Events.RuntimeEventType,Danmokou.Core.Events.RuntimeEvent{``0}@)
+  commentId: M:Danmokou.Core.Events.CreateRuntimeEvent``1(System.String,Danmokou.Core.Events.RuntimeEventType,Danmokou.Core.Events.RuntimeEvent{``0}@)
+  id: CreateRuntimeEvent``1(System.String,Danmokou.Core.Events.RuntimeEventType,Danmokou.Core.Events.RuntimeEvent{``0}@)
+  parent: Danmokou.Core.Events
+  langs:
+  - csharp
+  - vb
+  name: CreateRuntimeEvent<T>(String, Events.RuntimeEventType, out Events.RuntimeEvent<T>)
+  nameWithType: Events.CreateRuntimeEvent<T>(String, Events.RuntimeEventType, out Events.RuntimeEvent<T>)
+  fullName: Danmokou.Core.Events.CreateRuntimeEvent<T>(System.String, Danmokou.Core.Events.RuntimeEventType, out Danmokou.Core.Events.RuntimeEvent<T>)
+  type: Method
+  source:
+    id: CreateRuntimeEvent
+    path: ''
+    startLine: 356
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public static IDisposable CreateRuntimeEvent<T>(string name, Events.RuntimeEventType typ, out Events.RuntimeEvent<T> ev)
+    parameters:
+    - id: name
+      type: System.String
+    - id: typ
+      type: Danmokou.Core.Events.RuntimeEventType
+    - id: ev
+      type: Danmokou.Core.Events.RuntimeEvent{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.IDisposable
+    content.vb: Public Shared Function CreateRuntimeEvent(Of T)(name As String, typ As Events.RuntimeEventType, ByRef ev As Events.RuntimeEvent(Of T)) As IDisposable
+  overload: Danmokou.Core.Events.CreateRuntimeEvent*
+  nameWithType.vb: Events.CreateRuntimeEvent(Of T)(String, Events.RuntimeEventType, ByRef Events.RuntimeEvent(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Core.Events.CreateRuntimeEvent(Of T)(System.String, Danmokou.Core.Events.RuntimeEventType, ByRef Danmokou.Core.Events.RuntimeEvent(Of T))
+  name.vb: CreateRuntimeEvent(Of T)(String, Events.RuntimeEventType, ByRef Events.RuntimeEvent(Of T))
+- uid: Danmokou.Core.Events.FindAnyRuntimeEvent(System.String)
+  commentId: M:Danmokou.Core.Events.FindAnyRuntimeEvent(System.String)
+  id: FindAnyRuntimeEvent(System.String)
+  parent: Danmokou.Core.Events
+  langs:
+  - csharp
+  - vb
+  name: FindAnyRuntimeEvent(String)
+  nameWithType: Events.FindAnyRuntimeEvent(String)
+  fullName: Danmokou.Core.Events.FindAnyRuntimeEvent(System.String)
+  type: Method
+  source:
+    id: FindAnyRuntimeEvent
+    path: ''
+    startLine: 437
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public static Events.RuntimeEvent FindAnyRuntimeEvent(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: Danmokou.Core.Events.RuntimeEvent
+    content.vb: Public Shared Function FindAnyRuntimeEvent(name As String) As Events.RuntimeEvent
+  overload: Danmokou.Core.Events.FindAnyRuntimeEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Core.Events.FindRuntimeEvent``1(System.String)
+  commentId: M:Danmokou.Core.Events.FindRuntimeEvent``1(System.String)
+  id: FindRuntimeEvent``1(System.String)
+  parent: Danmokou.Core.Events
+  langs:
+  - csharp
+  - vb
+  name: FindRuntimeEvent<T>(String)
+  nameWithType: Events.FindRuntimeEvent<T>(String)
+  fullName: Danmokou.Core.Events.FindRuntimeEvent<T>(System.String)
+  type: Method
+  source:
+    id: FindRuntimeEvent
+    path: ''
+    startLine: 441
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public static Events.RuntimeEvent<T> FindRuntimeEvent<T>(string name)
+    parameters:
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.Core.Events.RuntimeEvent{{T}}
+    content.vb: Public Shared Function FindRuntimeEvent(Of T)(name As String) As Events.RuntimeEvent(Of T)
+  overload: Danmokou.Core.Events.FindRuntimeEvent*
+  nameWithType.vb: Events.FindRuntimeEvent(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Core.Events.FindRuntimeEvent(Of T)(System.String)
+  name.vb: FindRuntimeEvent(Of T)(String)
+- uid: Danmokou.Core.Events.ProcRuntimeEvent``1(System.String,``0)
+  commentId: M:Danmokou.Core.Events.ProcRuntimeEvent``1(System.String,``0)
+  id: ProcRuntimeEvent``1(System.String,``0)
+  parent: Danmokou.Core.Events
+  langs:
+  - csharp
+  - vb
+  name: ProcRuntimeEvent<T>(String, T)
+  nameWithType: Events.ProcRuntimeEvent<T>(String, T)
+  fullName: Danmokou.Core.Events.ProcRuntimeEvent<T>(System.String, T)
+  type: Method
+  source:
+    id: ProcRuntimeEvent
+    path: ''
+    startLine: 446
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public static void ProcRuntimeEvent<T>(string name, T value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub ProcRuntimeEvent(Of T)(name As String, value As T)
+  overload: Danmokou.Core.Events.ProcRuntimeEvent*
+  nameWithType.vb: Events.ProcRuntimeEvent(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Core.Events.ProcRuntimeEvent(Of T)(System.String, T)
+  name.vb: ProcRuntimeEvent(Of T)(String, T)
+- uid: Danmokou.Core.Events.exProcRuntimeEvent``1
+  commentId: M:Danmokou.Core.Events.exProcRuntimeEvent``1
+  id: exProcRuntimeEvent``1
+  parent: Danmokou.Core.Events
+  langs:
+  - csharp
+  - vb
+  name: exProcRuntimeEvent<T>()
+  nameWithType: Events.exProcRuntimeEvent<T>()
+  fullName: Danmokou.Core.Events.exProcRuntimeEvent<T>()
+  type: Method
+  source:
+    id: exProcRuntimeEvent
+    path: ''
+    startLine: 450
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public static ExFunction exProcRuntimeEvent<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: ExFunction
+    content.vb: Public Shared Function exProcRuntimeEvent(Of T) As ExFunction
+  overload: Danmokou.Core.Events.exProcRuntimeEvent*
+  nameWithType.vb: Events.exProcRuntimeEvent(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Core.Events.exProcRuntimeEvent(Of T)()
+  name.vb: exProcRuntimeEvent(Of T)()
+- uid: Danmokou.Core.Events.SceneCleared
+  commentId: F:Danmokou.Core.Events.SceneCleared
+  id: SceneCleared
+  parent: Danmokou.Core.Events
+  langs:
+  - csharp
+  - vb
+  name: SceneCleared
+  nameWithType: Events.SceneCleared
+  fullName: Danmokou.Core.Events.SceneCleared
+  type: Field
+  source:
+    id: SceneCleared
+    path: ''
+    startLine: 455
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public static readonly Event<Unit> SceneCleared
+    return:
+      type: Event{Unit}
+    content.vb: 'Public Shared ReadOnly SceneCleared As '
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Core.Events.CreateRuntimeEventCreator*
+  commentId: Overload:Danmokou.Core.Events.CreateRuntimeEventCreator
+  name: CreateRuntimeEventCreator
+  nameWithType: Events.CreateRuntimeEventCreator
+  fullName: Danmokou.Core.Events.CreateRuntimeEventCreator
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.Core.Events.RuntimeEventType
+  commentId: T:Danmokou.Core.Events.RuntimeEventType
+  parent: Danmokou.Core
+  name: Events.RuntimeEventType
+  nameWithType: Events.RuntimeEventType
+  fullName: Danmokou.Core.Events.RuntimeEventType
+- uid: System.Func{System.IDisposable}
+  commentId: T:System.Func{System.IDisposable}
+  parent: System
+  definition: System.Func`1
+  name: Func<IDisposable>
+  nameWithType: Func<IDisposable>
+  fullName: System.Func<System.IDisposable>
+  nameWithType.vb: Func(Of IDisposable)
+  fullName.vb: System.Func(Of System.IDisposable)
+  name.vb: Func(Of IDisposable)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IDisposable
+    name: IDisposable
+    nameWithType: IDisposable
+    fullName: System.IDisposable
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IDisposable
+    name: IDisposable
+    nameWithType: IDisposable
+    fullName: System.IDisposable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Core.Events.CreateRuntimeEvent*
+  commentId: Overload:Danmokou.Core.Events.CreateRuntimeEvent
+  name: CreateRuntimeEvent
+  nameWithType: Events.CreateRuntimeEvent
+  fullName: Danmokou.Core.Events.CreateRuntimeEvent
+- uid: Danmokou.Core.Events.RuntimeEvent{{T}}
+  commentId: T:Danmokou.Core.Events.RuntimeEvent{``0}
+  parent: Danmokou.Core
+  definition: Danmokou.Core.Events.RuntimeEvent`1
+  name: Events.RuntimeEvent<T>
+  nameWithType: Events.RuntimeEvent<T>
+  fullName: Danmokou.Core.Events.RuntimeEvent<T>
+  nameWithType.vb: Events.RuntimeEvent(Of T)
+  fullName.vb: Danmokou.Core.Events.RuntimeEvent(Of T)
+  name.vb: Events.RuntimeEvent(Of T)
+  spec.csharp:
+  - uid: Danmokou.Core.Events.RuntimeEvent`1
+    name: Events.RuntimeEvent
+    nameWithType: Events.RuntimeEvent
+    fullName: Danmokou.Core.Events.RuntimeEvent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.Core.Events.RuntimeEvent`1
+    name: Events.RuntimeEvent
+    nameWithType: Events.RuntimeEvent
+    fullName: Danmokou.Core.Events.RuntimeEvent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Danmokou.Core.Events.RuntimeEvent`1
+  commentId: T:Danmokou.Core.Events.RuntimeEvent`1
+  name: Events.RuntimeEvent<T>
+  nameWithType: Events.RuntimeEvent<T>
+  fullName: Danmokou.Core.Events.RuntimeEvent<T>
+  nameWithType.vb: Events.RuntimeEvent(Of T)
+  fullName.vb: Danmokou.Core.Events.RuntimeEvent(Of T)
+  name.vb: Events.RuntimeEvent(Of T)
+  spec.csharp:
+  - uid: Danmokou.Core.Events.RuntimeEvent`1
+    name: Events.RuntimeEvent
+    nameWithType: Events.RuntimeEvent
+    fullName: Danmokou.Core.Events.RuntimeEvent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.Core.Events.RuntimeEvent`1
+    name: Events.RuntimeEvent
+    nameWithType: Events.RuntimeEvent
+    fullName: Danmokou.Core.Events.RuntimeEvent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Core.Events.FindAnyRuntimeEvent*
+  commentId: Overload:Danmokou.Core.Events.FindAnyRuntimeEvent
+  name: FindAnyRuntimeEvent
+  nameWithType: Events.FindAnyRuntimeEvent
+  fullName: Danmokou.Core.Events.FindAnyRuntimeEvent
+- uid: Danmokou.Core.Events.RuntimeEvent
+  commentId: T:Danmokou.Core.Events.RuntimeEvent
+  parent: Danmokou.Core
+  name: Events.RuntimeEvent
+  nameWithType: Events.RuntimeEvent
+  fullName: Danmokou.Core.Events.RuntimeEvent
+- uid: Danmokou.Core.Events.FindRuntimeEvent*
+  commentId: Overload:Danmokou.Core.Events.FindRuntimeEvent
+  name: FindRuntimeEvent
+  nameWithType: Events.FindRuntimeEvent
+  fullName: Danmokou.Core.Events.FindRuntimeEvent
+- uid: Danmokou.Core.Events.ProcRuntimeEvent*
+  commentId: Overload:Danmokou.Core.Events.ProcRuntimeEvent
+  name: ProcRuntimeEvent
+  nameWithType: Events.ProcRuntimeEvent
+  fullName: Danmokou.Core.Events.ProcRuntimeEvent
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Danmokou.Core.Events.exProcRuntimeEvent*
+  commentId: Overload:Danmokou.Core.Events.exProcRuntimeEvent
+  name: exProcRuntimeEvent
+  nameWithType: Events.exProcRuntimeEvent
+  fullName: Danmokou.Core.Events.exProcRuntimeEvent
+- uid: ExFunction
+  commentId: '!:ExFunction'
+  isExternal: true
+  name: ExFunction
+  nameWithType: ExFunction
+  fullName: ExFunction
+- uid: Event{Unit}
+  commentId: '!:Event{Unit}'
+  definition: Event`1
+  name: Event<Unit>
+  nameWithType: Event<Unit>
+  fullName: Event<Unit>
+  nameWithType.vb: Event(Of Unit)
+  fullName.vb: Event(Of Unit)
+  name.vb: Event(Of Unit)
+  spec.csharp:
+  - uid: Event`1
+    name: Event
+    nameWithType: Event
+    fullName: Event
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Unit
+    name: Unit
+    nameWithType: Unit
+    fullName: Unit
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Event`1
+    name: Event
+    nameWithType: Event
+    fullName: Event
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Unit
+    name: Unit
+    nameWithType: Unit
+    fullName: Unit
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Event`1
+  commentId: '!:Event`1'
+  isExternal: true
+  name: Event<>
+  nameWithType: Event<>
+  fullName: Event<>
+  nameWithType.vb: Event(Of )
+  fullName.vb: Event(Of )
+  name.vb: Event(Of )
+  spec.csharp:
+  - uid: Event`1
+    name: Event
+    nameWithType: Event
+    fullName: Event
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Event`1
+    name: Event
+    nameWithType: Event
+    fullName: Event
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

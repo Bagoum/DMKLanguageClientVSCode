@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  commentId: T:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  id: CurvedTileRenderLaser.LaserControls
+  parent: Danmokou.Graphics
+  children:
+  - Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXGT(System.Single,Pred)
+  - Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXLT(System.Single,Pred)
+  - Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYGT(System.Single,Pred)
+  - Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYLT(System.Single,Pred)
+  - Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.SM(LPred,Danmokou.SM.StateMachine)
+  langs:
+  - csharp
+  - vb
+  name: CurvedTileRenderLaser.LaserControls
+  nameWithType: CurvedTileRenderLaser.LaserControls
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  type: Class
+  source:
+    id: LaserControls
+    path: ''
+    startLine: 6105
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Graphics
+  summary: "\nRepository for functions that can be applied to lasers via the `bulletl-control` command.\nNote lasers can also be affected by `beh-control`, but these functions deal specifically with laser draw-paths.\nThese functions are executed at *every point* on the laser during its construction.\n"
+  example: []
+  syntax:
+    content: public static class LaserControls
+    content.vb: Public Module LaserControls
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXGT(System.Single,Pred)
+  commentId: M:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXGT(System.Single,Pred)
+  id: FlipXGT(System.Single,Pred)
+  parent: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  langs:
+  - csharp
+  - vb
+  name: FlipXGT(Single, Pred)
+  nameWithType: CurvedTileRenderLaser.LaserControls.FlipXGT(Single, Pred)
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXGT(System.Single, Pred)
+  type: Method
+  source:
+    id: FlipXGT
+    path: ''
+    startLine: 6113
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Graphics
+  summary: "\nFlip the x-velocity and x-position of laser paths around a wall on the right.\n"
+  example: []
+  syntax:
+    content: public static CurvedTileRenderLaser.cLaserControl FlipXGT(float wall, Pred cond)
+    parameters:
+    - id: wall
+      type: System.Single
+      description: X-position of wall
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Graphics.CurvedTileRenderLaser.cLaserControl
+      description: ''
+    content.vb: Public Shared Function FlipXGT(wall As Single, cond As Pred) As CurvedTileRenderLaser.cLaserControl
+  overload: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXGT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXLT(System.Single,Pred)
+  commentId: M:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXLT(System.Single,Pred)
+  id: FlipXLT(System.Single,Pred)
+  parent: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  langs:
+  - csharp
+  - vb
+  name: FlipXLT(Single, Pred)
+  nameWithType: CurvedTileRenderLaser.LaserControls.FlipXLT(Single, Pred)
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXLT(System.Single, Pred)
+  type: Method
+  source:
+    id: FlipXLT
+    path: ''
+    startLine: 6129
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Graphics
+  summary: "\nFlip the x-velocity and x-position of laser paths around a wall on the left.\n"
+  example: []
+  syntax:
+    content: public static CurvedTileRenderLaser.cLaserControl FlipXLT(float wall, Pred cond)
+    parameters:
+    - id: wall
+      type: System.Single
+      description: X-position of wall
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Graphics.CurvedTileRenderLaser.cLaserControl
+      description: ''
+    content.vb: Public Shared Function FlipXLT(wall As Single, cond As Pred) As CurvedTileRenderLaser.cLaserControl
+  overload: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXLT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYGT(System.Single,Pred)
+  commentId: M:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYGT(System.Single,Pred)
+  id: FlipYGT(System.Single,Pred)
+  parent: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  langs:
+  - csharp
+  - vb
+  name: FlipYGT(Single, Pred)
+  nameWithType: CurvedTileRenderLaser.LaserControls.FlipYGT(Single, Pred)
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYGT(System.Single, Pred)
+  type: Method
+  source:
+    id: FlipYGT
+    path: ''
+    startLine: 6145
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Graphics
+  summary: "\nFlip the y-velocity and y-position of laser paths around a wall on the top.\n"
+  example: []
+  syntax:
+    content: public static CurvedTileRenderLaser.cLaserControl FlipYGT(float wall, Pred cond)
+    parameters:
+    - id: wall
+      type: System.Single
+      description: Y-position of wall
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Graphics.CurvedTileRenderLaser.cLaserControl
+      description: ''
+    content.vb: Public Shared Function FlipYGT(wall As Single, cond As Pred) As CurvedTileRenderLaser.cLaserControl
+  overload: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYGT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYLT(System.Single,Pred)
+  commentId: M:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYLT(System.Single,Pred)
+  id: FlipYLT(System.Single,Pred)
+  parent: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  langs:
+  - csharp
+  - vb
+  name: FlipYLT(Single, Pred)
+  nameWithType: CurvedTileRenderLaser.LaserControls.FlipYLT(Single, Pred)
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYLT(System.Single, Pred)
+  type: Method
+  source:
+    id: FlipYLT
+    path: ''
+    startLine: 6161
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Graphics
+  summary: "\nFlip the y-velocity and y-position of laser paths around a wall on the bottom.\n"
+  example: []
+  syntax:
+    content: public static CurvedTileRenderLaser.cLaserControl FlipYLT(float wall, Pred cond)
+    parameters:
+    - id: wall
+      type: System.Single
+      description: Y-position of wall
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Graphics.CurvedTileRenderLaser.cLaserControl
+      description: ''
+    content.vb: Public Shared Function FlipYLT(wall As Single, cond As Pred) As CurvedTileRenderLaser.cLaserControl
+  overload: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYLT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.SM(LPred,Danmokou.SM.StateMachine)
+  commentId: M:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.SM(LPred,Danmokou.SM.StateMachine)
+  id: SM(LPred,Danmokou.SM.StateMachine)
+  parent: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  langs:
+  - csharp
+  - vb
+  name: SM(LPred, StateMachine)
+  nameWithType: CurvedTileRenderLaser.LaserControls.SM(LPred, StateMachine)
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.SM(LPred, Danmokou.SM.StateMachine)
+  type: Method
+  source:
+    id: SM
+    path: ''
+    startLine: 6172
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Graphics
+  syntax:
+    content: public static CurvedTileRenderLaser.cLaserControl SM(LPred cond, StateMachine sm)
+    parameters:
+    - id: cond
+      type: LPred
+    - id: sm
+      type: Danmokou.SM.StateMachine
+    return:
+      type: Danmokou.Graphics.CurvedTileRenderLaser.cLaserControl
+    content.vb: Public Shared Function SM(cond As LPred, sm As StateMachine) As CurvedTileRenderLaser.cLaserControl
+  overload: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.SM*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.Graphics
+  commentId: N:Danmokou.Graphics
+  name: Danmokou.Graphics
+  nameWithType: Danmokou.Graphics
+  fullName: Danmokou.Graphics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXGT*
+  commentId: Overload:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXGT
+  name: FlipXGT
+  nameWithType: CurvedTileRenderLaser.LaserControls.FlipXGT
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXGT
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Pred
+  isExternal: true
+  name: Pred
+  nameWithType: Pred
+  fullName: Pred
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.cLaserControl
+  commentId: T:Danmokou.Graphics.CurvedTileRenderLaser.cLaserControl
+  parent: Danmokou.Graphics
+  name: CurvedTileRenderLaser.cLaserControl
+  nameWithType: CurvedTileRenderLaser.cLaserControl
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.cLaserControl
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXLT*
+  commentId: Overload:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXLT
+  name: FlipXLT
+  nameWithType: CurvedTileRenderLaser.LaserControls.FlipXLT
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipXLT
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYGT*
+  commentId: Overload:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYGT
+  name: FlipYGT
+  nameWithType: CurvedTileRenderLaser.LaserControls.FlipYGT
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYGT
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYLT*
+  commentId: Overload:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYLT
+  name: FlipYLT
+  nameWithType: CurvedTileRenderLaser.LaserControls.FlipYLT
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.FlipYLT
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.SM*
+  commentId: Overload:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.SM
+  name: SM
+  nameWithType: CurvedTileRenderLaser.LaserControls.SM
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls.SM
+- uid: LPred
+  commentId: '!:LPred'
+  isExternal: true
+  name: LPred
+  nameWithType: LPred
+  fullName: LPred
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM

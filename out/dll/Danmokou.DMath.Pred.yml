@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Pred
+  commentId: T:Danmokou.DMath.Pred
+  id: Pred
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Pred
+  nameWithType: Pred
+  fullName: Danmokou.DMath.Pred
+  type: Delegate
+  source:
+    id: Pred
+    path: ''
+    startLine: 6685
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA function that converts ParametricInfo into a boolean.\n"
+  example: []
+  syntax:
+    content: public delegate bool Pred(ParametricInfo bpi);
+    parameters:
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Delegate Function Pred(bpi As ParametricInfo) As Boolean
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

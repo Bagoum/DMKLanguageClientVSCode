@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.SAAngle
+  commentId: T:Danmokou.Core.SAAngle
+  id: SAAngle
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.SAAngle.ORIGINAL
+  - Danmokou.Core.SAAngle.ORIGINAL_BANK
+  - Danmokou.Core.SAAngle.REL_ORIGIN_BANK
+  - Danmokou.Core.SAAngle.TANGENT_BANK
+  langs:
+  - csharp
+  - vb
+  name: SAAngle
+  nameWithType: SAAngle
+  fullName: Danmokou.Core.SAAngle
+  type: Enum
+  source:
+    id: SAAngle
+    path: ''
+    startLine: 1019
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nHandling for setting the angle when using an SAOffset command.\n"
+  example: []
+  syntax:
+    content: public enum SAAngle
+    content.vb: Public Enum SAAngle
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.SAAngle.ORIGINAL
+  commentId: F:Danmokou.Core.SAAngle.ORIGINAL
+  id: ORIGINAL
+  parent: Danmokou.Core.SAAngle
+  langs:
+  - csharp
+  - vb
+  name: ORIGINAL
+  nameWithType: SAAngle.ORIGINAL
+  fullName: Danmokou.Core.SAAngle.ORIGINAL
+  type: Field
+  source:
+    id: ORIGINAL
+    path: ''
+    startLine: 1024
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(o) The angle from the parent is not modified.\nIf you add an angle offset, the entire summon will rotate.\n"
+  example: []
+  syntax:
+    content: ORIGINAL = 0
+    return:
+      type: Danmokou.Core.SAAngle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.SAAngle.ORIGINAL_BANK
+  commentId: F:Danmokou.Core.SAAngle.ORIGINAL_BANK
+  id: ORIGINAL_BANK
+  parent: Danmokou.Core.SAAngle
+  langs:
+  - csharp
+  - vb
+  name: ORIGINAL_BANK
+  nameWithType: SAAngle.ORIGINAL_BANK
+  fullName: Danmokou.Core.SAAngle.ORIGINAL_BANK
+  type: Field
+  source:
+    id: ORIGINAL_BANK
+    path: ''
+    startLine: 1030
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(bo) The angle from the parent is banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
+  example: []
+  syntax:
+    content: ORIGINAL_BANK = 1
+    return:
+      type: Danmokou.Core.SAAngle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.SAAngle.REL_ORIGIN_BANK
+  commentId: F:Danmokou.Core.SAAngle.REL_ORIGIN_BANK
+  id: REL_ORIGIN_BANK
+  parent: Danmokou.Core.SAAngle
+  langs:
+  - csharp
+  - vb
+  name: REL_ORIGIN_BANK
+  nameWithType: SAAngle.REL_ORIGIN_BANK
+  fullName: Danmokou.Core.SAAngle.REL_ORIGIN_BANK
+  type: Field
+  source:
+    id: REL_ORIGIN_BANK
+    path: ''
+    startLine: 1036
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(br) The angle is set to the position of the summon, then banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
+  example: []
+  syntax:
+    content: REL_ORIGIN_BANK = 2
+    return:
+      type: Danmokou.Core.SAAngle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.SAAngle.TANGENT_BANK
+  commentId: F:Danmokou.Core.SAAngle.TANGENT_BANK
+  id: TANGENT_BANK
+  parent: Danmokou.Core.SAAngle
+  langs:
+  - csharp
+  - vb
+  name: TANGENT_BANK
+  nameWithType: SAAngle.TANGENT_BANK
+  fullName: Danmokou.Core.SAAngle.TANGENT_BANK
+  type: Field
+  source:
+    id: TANGENT_BANK
+    path: ''
+    startLine: 1042
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(bt) The angle is set to the tangent on the summon curve, then banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
+  example: []
+  syntax:
+    content: TANGENT_BANK = 3
+    return:
+      type: Danmokou.Core.SAAngle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.SAAngle
+  commentId: T:Danmokou.Core.SAAngle
+  parent: Danmokou.Core
+  name: SAAngle
+  nameWithType: SAAngle
+  fullName: Danmokou.Core.SAAngle

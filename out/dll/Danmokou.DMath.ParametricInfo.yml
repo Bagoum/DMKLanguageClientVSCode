@@ -1,0 +1,1023 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  id: ParametricInfo
+  parent: Danmokou.DMath
+  children:
+  - Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
+  - Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
+  - Danmokou.DMath.ParametricInfo.CopyCtx(System.UInt32)
+  - Danmokou.DMath.ParametricInfo.CopyWithT(System.Single)
+  - Danmokou.DMath.ParametricInfo.ctx
+  - Danmokou.DMath.ParametricInfo.Dispose
+  - Danmokou.DMath.ParametricInfo.FlipSimple(System.Boolean,System.Single)
+  - Danmokou.DMath.ParametricInfo.id
+  - Danmokou.DMath.ParametricInfo.index
+  - Danmokou.DMath.ParametricInfo.loc
+  - Danmokou.DMath.ParametricInfo.LocV2
+  - Danmokou.DMath.ParametricInfo.Rehash
+  - Danmokou.DMath.ParametricInfo.t
+  - Danmokou.DMath.ParametricInfo.WithRandomId(Vector3,System.Int32)
+  - Danmokou.DMath.ParametricInfo.WithRandomId(Vector3,System.Int32,System.Single)
+  - Danmokou.DMath.ParametricInfo.Zero
+  langs:
+  - csharp
+  - vb
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+  type: Struct
+  source:
+    id: ParametricInfo
+    path: ''
+    startLine: 6551
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA struct containing the input required for a parametric equation.\n"
+  example: []
+  syntax:
+    content: public struct ParametricInfo
+    content.vb: Public Structure ParametricInfo
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Danmokou.DMath.ParametricInfo.Zero
+  commentId: F:Danmokou.DMath.ParametricInfo.Zero
+  id: Zero
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: ParametricInfo.Zero
+  fullName: Danmokou.DMath.ParametricInfo.Zero
+  type: Field
+  source:
+    id: Zero
+    path: ''
+    startLine: 6552
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static ParametricInfo Zero
+    return:
+      type: Danmokou.DMath.ParametricInfo
+    content.vb: Public Shared Zero As ParametricInfo
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.ParametricInfo.id
+  commentId: F:Danmokou.DMath.ParametricInfo.id
+  id: id
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: ParametricInfo.id
+  fullName: Danmokou.DMath.ParametricInfo.id
+  type: Field
+  source:
+    id: id
+    path: ''
+    startLine: 6554
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: Random ID
+  example: []
+  syntax:
+    content: public readonly uint id
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly id As UInteger
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.ParametricInfo.index
+  commentId: F:Danmokou.DMath.ParametricInfo.index
+  id: index
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: ParametricInfo.index
+  fullName: Danmokou.DMath.ParametricInfo.index
+  type: Field
+  source:
+    id: index
+    path: ''
+    startLine: 6556
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: Firing index
+  example: []
+  syntax:
+    content: public readonly int index
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly index As Integer
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.ParametricInfo.loc
+  commentId: F:Danmokou.DMath.ParametricInfo.loc
+  id: loc
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: loc
+  nameWithType: ParametricInfo.loc
+  fullName: Danmokou.DMath.ParametricInfo.loc
+  type: Field
+  source:
+    id: loc
+    path: ''
+    startLine: 6558
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: Global position
+  example: []
+  syntax:
+    content: public Vector3 loc
+    return:
+      type: Vector3
+    content.vb: Public loc As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.ParametricInfo.t
+  commentId: F:Danmokou.DMath.ParametricInfo.t
+  id: t
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: t
+  nameWithType: ParametricInfo.t
+  fullName: Danmokou.DMath.ParametricInfo.t
+  type: Field
+  source:
+    id: t
+    path: ''
+    startLine: 6560
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: Life-time (with minor adjustment)
+  example: []
+  syntax:
+    content: public float t
+    return:
+      type: System.Single
+    content.vb: Public t As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.ParametricInfo.ctx
+  commentId: F:Danmokou.DMath.ParametricInfo.ctx
+  id: ctx
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: ctx
+  nameWithType: ParametricInfo.ctx
+  fullName: Danmokou.DMath.ParametricInfo.ctx
+  type: Field
+  source:
+    id: ctx
+    path: ''
+    startLine: 6562
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: Context containing additional bound variables
+  example: []
+  syntax:
+    content: public FiringCtx ctx
+    return:
+      type: Danmokou.DMath.FiringCtx
+    content.vb: Public ctx As FiringCtx
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.ParametricInfo.LocV2
+  commentId: P:Danmokou.DMath.ParametricInfo.LocV2
+  id: LocV2
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: LocV2
+  nameWithType: ParametricInfo.LocV2
+  fullName: Danmokou.DMath.ParametricInfo.LocV2
+  type: Property
+  source:
+    id: LocV2
+    path: ''
+    startLine: 6567
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nGlobal location as a Vector2 (ignores Z-coordinate)\n"
+  example: []
+  syntax:
+    content: public readonly Vector2 LocV2 { get; }
+    parameters: []
+    return:
+      type: Vector2
+    content.vb: Public ReadOnly Property LocV2 As Vector2
+  overload: Danmokou.DMath.ParametricInfo.LocV2*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.ParametricInfo.WithRandomId(Vector3,System.Int32,System.Single)
+  commentId: M:Danmokou.DMath.ParametricInfo.WithRandomId(Vector3,System.Int32,System.Single)
+  id: WithRandomId(Vector3,System.Int32,System.Single)
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: WithRandomId(Vector3, Int32, Single)
+  nameWithType: ParametricInfo.WithRandomId(Vector3, Int32, Single)
+  fullName: Danmokou.DMath.ParametricInfo.WithRandomId(Vector3, System.Int32, System.Single)
+  type: Method
+  source:
+    id: WithRandomId
+    path: ''
+    startLine: 6570
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static ParametricInfo WithRandomId(Vector3 position, int findex, float t)
+    parameters:
+    - id: position
+      type: Vector3
+    - id: findex
+      type: System.Int32
+    - id: t
+      type: System.Single
+    return:
+      type: Danmokou.DMath.ParametricInfo
+    content.vb: Public Shared Function WithRandomId(position As Vector3, findex As Integer, t As Single) As ParametricInfo
+  overload: Danmokou.DMath.ParametricInfo.WithRandomId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.ParametricInfo.WithRandomId(Vector3,System.Int32)
+  commentId: M:Danmokou.DMath.ParametricInfo.WithRandomId(Vector3,System.Int32)
+  id: WithRandomId(Vector3,System.Int32)
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: WithRandomId(Vector3, Int32)
+  nameWithType: ParametricInfo.WithRandomId(Vector3, Int32)
+  fullName: Danmokou.DMath.ParametricInfo.WithRandomId(Vector3, System.Int32)
+  type: Method
+  source:
+    id: WithRandomId
+    path: ''
+    startLine: 6571
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static ParametricInfo WithRandomId(Vector3 position, int findex)
+    parameters:
+    - id: position
+      type: Vector3
+    - id: findex
+      type: System.Int32
+    return:
+      type: Danmokou.DMath.ParametricInfo
+    content.vb: Public Shared Function WithRandomId(position As Vector3, findex As Integer) As ParametricInfo
+  overload: Danmokou.DMath.ParametricInfo.WithRandomId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
+  commentId: M:Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
+  id: '#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)'
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: ParametricInfo(in Movement, Int32, Nullable<UInt32>, Single, FiringCtx)
+  nameWithType: ParametricInfo.ParametricInfo(in Movement, Int32, Nullable<UInt32>, Single, FiringCtx)
+  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo(in Danmokou.DMath.Movement, System.Int32, System.Nullable<System.UInt32>, System.Single, Danmokou.DMath.FiringCtx)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6573
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public ParametricInfo(in Movement mov, int findex = 0, uint? id = null, float t = 0F, FiringCtx ctx = null)
+    parameters:
+    - id: mov
+      type: Danmokou.DMath.Movement
+    - id: findex
+      type: System.Int32
+    - id: id
+      type: System.Nullable{System.UInt32}
+    - id: t
+      type: System.Single
+    - id: ctx
+      type: Danmokou.DMath.FiringCtx
+    content.vb: Public Sub New(ByRef mov As Movement, findex As Integer = 0, id As UInteger? = Nothing, t As Single = 0F, ctx As FiringCtx = Nothing)
+  overload: Danmokou.DMath.ParametricInfo.#ctor*
+  nameWithType.vb: ParametricInfo.ParametricInfo(ByRef Movement, Int32, Nullable(Of UInt32), Single, FiringCtx)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.ParametricInfo.ParametricInfo(ByRef Danmokou.DMath.Movement, System.Int32, System.Nullable(Of System.UInt32), System.Single, Danmokou.DMath.FiringCtx)
+  name.vb: ParametricInfo(ByRef Movement, Int32, Nullable(Of UInt32), Single, FiringCtx)
+- uid: Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
+  commentId: M:Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
+  id: '#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)'
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: ParametricInfo(Vector3, Int32, Nullable<UInt32>, Single, FiringCtx)
+  nameWithType: ParametricInfo.ParametricInfo(Vector3, Int32, Nullable<UInt32>, Single, FiringCtx)
+  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo(Vector3, System.Int32, System.Nullable<System.UInt32>, System.Single, Danmokou.DMath.FiringCtx)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6575
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public ParametricInfo(Vector3 position, int findex = 0, uint? id = null, float t = 0F, FiringCtx ctx = null)
+    parameters:
+    - id: position
+      type: Vector3
+    - id: findex
+      type: System.Int32
+    - id: id
+      type: System.Nullable{System.UInt32}
+    - id: t
+      type: System.Single
+    - id: ctx
+      type: Danmokou.DMath.FiringCtx
+    content.vb: Public Sub New(position As Vector3, findex As Integer = 0, id As UInteger? = Nothing, t As Single = 0F, ctx As FiringCtx = Nothing)
+  overload: Danmokou.DMath.ParametricInfo.#ctor*
+  nameWithType.vb: ParametricInfo.ParametricInfo(Vector3, Int32, Nullable(Of UInt32), Single, FiringCtx)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.ParametricInfo.ParametricInfo(Vector3, System.Int32, System.Nullable(Of System.UInt32), System.Single, Danmokou.DMath.FiringCtx)
+  name.vb: ParametricInfo(Vector3, Int32, Nullable(Of UInt32), Single, FiringCtx)
+- uid: Danmokou.DMath.ParametricInfo.Rehash
+  commentId: M:Danmokou.DMath.ParametricInfo.Rehash
+  id: Rehash
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: Rehash()
+  nameWithType: ParametricInfo.Rehash()
+  fullName: Danmokou.DMath.ParametricInfo.Rehash()
+  type: Method
+  source:
+    id: Rehash
+    path: ''
+    startLine: 6583
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public ParametricInfo Rehash()
+    return:
+      type: Danmokou.DMath.ParametricInfo
+    content.vb: Public Function Rehash As ParametricInfo
+  overload: Danmokou.DMath.ParametricInfo.Rehash*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.ParametricInfo.CopyWithT(System.Single)
+  commentId: M:Danmokou.DMath.ParametricInfo.CopyWithT(System.Single)
+  id: CopyWithT(System.Single)
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: CopyWithT(Single)
+  nameWithType: ParametricInfo.CopyWithT(Single)
+  fullName: Danmokou.DMath.ParametricInfo.CopyWithT(System.Single)
+  type: Method
+  source:
+    id: CopyWithT
+    path: ''
+    startLine: 6584
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public ParametricInfo CopyWithT(float newT)
+    parameters:
+    - id: newT
+      type: System.Single
+    return:
+      type: Danmokou.DMath.ParametricInfo
+    content.vb: Public Function CopyWithT(newT As Single) As ParametricInfo
+  overload: Danmokou.DMath.ParametricInfo.CopyWithT*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.ParametricInfo.CopyCtx(System.UInt32)
+  commentId: M:Danmokou.DMath.ParametricInfo.CopyCtx(System.UInt32)
+  id: CopyCtx(System.UInt32)
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: CopyCtx(UInt32)
+  nameWithType: ParametricInfo.CopyCtx(UInt32)
+  fullName: Danmokou.DMath.ParametricInfo.CopyCtx(System.UInt32)
+  type: Method
+  source:
+    id: CopyCtx
+    path: ''
+    startLine: 6586
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public ParametricInfo CopyCtx(uint newId)
+    parameters:
+    - id: newId
+      type: System.UInt32
+    return:
+      type: Danmokou.DMath.ParametricInfo
+    content.vb: Public Function CopyCtx(newId As UInteger) As ParametricInfo
+  overload: Danmokou.DMath.ParametricInfo.CopyCtx*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.ParametricInfo.FlipSimple(System.Boolean,System.Single)
+  commentId: M:Danmokou.DMath.ParametricInfo.FlipSimple(System.Boolean,System.Single)
+  id: FlipSimple(System.Boolean,System.Single)
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: FlipSimple(Boolean, Single)
+  nameWithType: ParametricInfo.FlipSimple(Boolean, Single)
+  fullName: Danmokou.DMath.ParametricInfo.FlipSimple(System.Boolean, System.Single)
+  type: Method
+  source:
+    id: FlipSimple
+    path: ''
+    startLine: 6593
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nFlips the position around an X or Y axis.\n"
+  example: []
+  syntax:
+    content: public void FlipSimple(bool y, float around)
+    parameters:
+    - id: y
+      type: System.Boolean
+      description: Iff true, flips Y values around an X axis. Else, flips X values around a Y axis.
+    - id: around
+      type: System.Single
+      description: Location of the axis.
+    content.vb: Public Sub FlipSimple(y As Boolean, around As Single)
+  overload: Danmokou.DMath.ParametricInfo.FlipSimple*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.ParametricInfo.Dispose
+  commentId: M:Danmokou.DMath.ParametricInfo.Dispose
+  id: Dispose
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ParametricInfo.Dispose()
+  fullName: Danmokou.DMath.ParametricInfo.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 6601
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Danmokou.DMath.ParametricInfo.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.DMath.FiringCtx
+  commentId: T:Danmokou.DMath.FiringCtx
+  parent: Danmokou.DMath
+  name: FiringCtx
+  nameWithType: FiringCtx
+  fullName: Danmokou.DMath.FiringCtx
+- uid: Danmokou.DMath.ParametricInfo.LocV2*
+  commentId: Overload:Danmokou.DMath.ParametricInfo.LocV2
+  name: LocV2
+  nameWithType: ParametricInfo.LocV2
+  fullName: Danmokou.DMath.ParametricInfo.LocV2
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Danmokou.DMath.ParametricInfo.WithRandomId*
+  commentId: Overload:Danmokou.DMath.ParametricInfo.WithRandomId
+  name: WithRandomId
+  nameWithType: ParametricInfo.WithRandomId
+  fullName: Danmokou.DMath.ParametricInfo.WithRandomId
+- uid: Danmokou.DMath.ParametricInfo.#ctor*
+  commentId: Overload:Danmokou.DMath.ParametricInfo.#ctor
+  name: ParametricInfo
+  nameWithType: ParametricInfo.ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo
+- uid: Danmokou.DMath.Movement
+  commentId: T:Danmokou.DMath.Movement
+  parent: Danmokou.DMath
+  name: Movement
+  nameWithType: Movement
+  fullName: Danmokou.DMath.Movement
+- uid: System.Nullable{System.UInt32}
+  commentId: T:System.Nullable{System.UInt32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<UInt32>
+  nameWithType: Nullable<UInt32>
+  fullName: System.Nullable<System.UInt32>
+  nameWithType.vb: Nullable(Of UInt32)
+  fullName.vb: System.Nullable(Of System.UInt32)
+  name.vb: Nullable(Of UInt32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.ParametricInfo.Rehash*
+  commentId: Overload:Danmokou.DMath.ParametricInfo.Rehash
+  name: Rehash
+  nameWithType: ParametricInfo.Rehash
+  fullName: Danmokou.DMath.ParametricInfo.Rehash
+- uid: Danmokou.DMath.ParametricInfo.CopyWithT*
+  commentId: Overload:Danmokou.DMath.ParametricInfo.CopyWithT
+  name: CopyWithT
+  nameWithType: ParametricInfo.CopyWithT
+  fullName: Danmokou.DMath.ParametricInfo.CopyWithT
+- uid: Danmokou.DMath.ParametricInfo.CopyCtx*
+  commentId: Overload:Danmokou.DMath.ParametricInfo.CopyCtx
+  name: CopyCtx
+  nameWithType: ParametricInfo.CopyCtx
+  fullName: Danmokou.DMath.ParametricInfo.CopyCtx
+- uid: Danmokou.DMath.ParametricInfo.FlipSimple*
+  commentId: Overload:Danmokou.DMath.ParametricInfo.FlipSimple
+  name: FlipSimple
+  nameWithType: ParametricInfo.FlipSimple
+  fullName: Danmokou.DMath.ParametricInfo.FlipSimple
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.DMath.ParametricInfo.Dispose*
+  commentId: Overload:Danmokou.DMath.ParametricInfo.Dispose
+  name: Dispose
+  nameWithType: ParametricInfo.Dispose
+  fullName: Danmokou.DMath.ParametricInfo.Dispose

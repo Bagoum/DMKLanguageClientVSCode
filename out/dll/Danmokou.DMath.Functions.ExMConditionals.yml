@@ -1,0 +1,716 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMConditionals
+  commentId: T:Danmokou.DMath.Functions.ExMConditionals
+  id: ExMConditionals
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMConditionals.If``1(tbool,TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMConditionals.If0``1(tfloat,TEx{``0})
+  - Danmokou.DMath.Functions.ExMConditionals.If1``1(tfloat,TEx{``0})
+  - Danmokou.DMath.Functions.ExMConditionals.IfN0``1(tfloat,TEx{``0})
+  - Danmokou.DMath.Functions.ExMConditionals.IfN1``1(tfloat,TEx{``0})
+  - Danmokou.DMath.Functions.ExMConditionals.Pred10(tbool)
+  langs:
+  - csharp
+  - vb
+  name: ExMConditionals
+  nameWithType: ExMConditionals
+  fullName: Danmokou.DMath.Functions.ExMConditionals
+  type: Class
+  source:
+    id: ExMConditionals
+    path: ''
+    startLine: 10819
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM\" data-throw-if-not-resolved=\"false\"></xref>. This class contains functions related to conditionals.\n"
+  example: []
+  syntax:
+    content: public static class ExMConditionals
+    content.vb: Public Module ExMConditionals
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMConditionals.Pred10(tbool)
+  commentId: M:Danmokou.DMath.Functions.ExMConditionals.Pred10(tbool)
+  id: Pred10(tbool)
+  parent: Danmokou.DMath.Functions.ExMConditionals
+  langs:
+  - csharp
+  - vb
+  name: Pred10(tbool)
+  nameWithType: ExMConditionals.Pred10(tbool)
+  fullName: Danmokou.DMath.Functions.ExMConditionals.Pred10(tbool)
+  type: Method
+  source:
+    id: Pred10
+    path: ''
+    startLine: 10825
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConvert a boolean into a 1/0 value.\n"
+  example: []
+  syntax:
+    content: public static tfloat Pred10(tbool pred)
+    parameters:
+    - id: pred
+      type: tbool
+    return:
+      type: tfloat
+    content.vb: Public Shared Function Pred10(pred As tbool) As tfloat
+  overload: Danmokou.DMath.Functions.ExMConditionals.Pred10*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConditionals.If``1(tbool,TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMConditionals.If``1(tbool,TEx{``0},TEx{``0})
+  id: If``1(tbool,TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMConditionals
+  langs:
+  - csharp
+  - vb
+  name: If<T>(tbool, TEx<T>, TEx<T>)
+  nameWithType: ExMConditionals.If<T>(tbool, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMConditionals.If<T>(tbool, TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: If
+    path: ''
+    startLine: 10829
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIf the predicate is true, return the true branch, otherwise the false branch.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> If<T>(tbool pred, TEx<T> iftrue, TEx<T> iffalse)
+    parameters:
+    - id: pred
+      type: tbool
+    - id: iftrue
+      type: TEx{{T}}
+    - id: iffalse
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function If(Of T)(pred As tbool, iftrue As TEx(Of T), iffalse As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMConditionals.If*
+  nameWithType.vb: ExMConditionals.If(Of T)(tbool, TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMConditionals.If(Of T)(tbool, TEx(Of T), TEx(Of T))
+  name.vb: If(Of T)(tbool, TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMConditionals.IfN0``1(tfloat,TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMConditionals.IfN0``1(tfloat,TEx{``0})
+  id: IfN0``1(tfloat,TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMConditionals
+  langs:
+  - csharp
+  - vb
+  name: IfN0<T>(tfloat, TEx<T>)
+  nameWithType: ExMConditionals.IfN0<T>(tfloat, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMConditionals.IfN0<T>(tfloat, TEx<T>)
+  type: Method
+  source:
+    id: IfN0
+    path: ''
+    startLine: 10834
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIf the switcher is nonzero, return the result, otherwise the default value.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> IfN0<T>(tfloat switcher, TEx<T> result)
+    parameters:
+    - id: switcher
+      type: tfloat
+    - id: result
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function IfN0(Of T)(switcher As tfloat, result As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMConditionals.IfN0*
+  nameWithType.vb: ExMConditionals.IfN0(Of T)(tfloat, TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMConditionals.IfN0(Of T)(tfloat, TEx(Of T))
+  name.vb: IfN0(Of T)(tfloat, TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMConditionals.If0``1(tfloat,TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMConditionals.If0``1(tfloat,TEx{``0})
+  id: If0``1(tfloat,TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMConditionals
+  langs:
+  - csharp
+  - vb
+  name: If0<T>(tfloat, TEx<T>)
+  nameWithType: ExMConditionals.If0<T>(tfloat, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMConditionals.If0<T>(tfloat, TEx<T>)
+  type: Method
+  source:
+    id: If0
+    path: ''
+    startLine: 10839
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIf the switcher is zero, return the result, otherwise the default value.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> If0<T>(tfloat switcher, TEx<T> result)
+    parameters:
+    - id: switcher
+      type: tfloat
+    - id: result
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function If0(Of T)(switcher As tfloat, result As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMConditionals.If0*
+  nameWithType.vb: ExMConditionals.If0(Of T)(tfloat, TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMConditionals.If0(Of T)(tfloat, TEx(Of T))
+  name.vb: If0(Of T)(tfloat, TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMConditionals.IfN1``1(tfloat,TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMConditionals.IfN1``1(tfloat,TEx{``0})
+  id: IfN1``1(tfloat,TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMConditionals
+  langs:
+  - csharp
+  - vb
+  name: IfN1<T>(tfloat, TEx<T>)
+  nameWithType: ExMConditionals.IfN1<T>(tfloat, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMConditionals.IfN1<T>(tfloat, TEx<T>)
+  type: Method
+  source:
+    id: IfN1
+    path: ''
+    startLine: 10844
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIf the switcher is not 1, return the result, otherwise the default value.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> IfN1<T>(tfloat switcher, TEx<T> result)
+    parameters:
+    - id: switcher
+      type: tfloat
+    - id: result
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function IfN1(Of T)(switcher As tfloat, result As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMConditionals.IfN1*
+  nameWithType.vb: ExMConditionals.IfN1(Of T)(tfloat, TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMConditionals.IfN1(Of T)(tfloat, TEx(Of T))
+  name.vb: IfN1(Of T)(tfloat, TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMConditionals.If1``1(tfloat,TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMConditionals.If1``1(tfloat,TEx{``0})
+  id: If1``1(tfloat,TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMConditionals
+  langs:
+  - csharp
+  - vb
+  name: If1<T>(tfloat, TEx<T>)
+  nameWithType: ExMConditionals.If1<T>(tfloat, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMConditionals.If1<T>(tfloat, TEx<T>)
+  type: Method
+  source:
+    id: If1
+    path: ''
+    startLine: 10849
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIf the switcher is 1, return the result, otherwise the default value.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> If1<T>(tfloat switcher, TEx<T> result)
+    parameters:
+    - id: switcher
+      type: tfloat
+    - id: result
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function If1(Of T)(switcher As tfloat, result As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMConditionals.If1*
+  nameWithType.vb: ExMConditionals.If1(Of T)(tfloat, TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMConditionals.If1(Of T)(tfloat, TEx(Of T))
+  name.vb: If1(Of T)(tfloat, TEx(Of T))
+references:
+- uid: Danmokou.DMath.Functions.ExM
+  commentId: T:Danmokou.DMath.Functions.ExM
+  name: ExM
+  nameWithType: ExM
+  fullName: Danmokou.DMath.Functions.ExM
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMConditionals.Pred10*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConditionals.Pred10
+  name: Pred10
+  nameWithType: ExMConditionals.Pred10
+  fullName: Danmokou.DMath.Functions.ExMConditionals.Pred10
+- uid: tbool
+  isExternal: true
+  name: tbool
+  nameWithType: tbool
+  fullName: tbool
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: Danmokou.DMath.Functions.ExMConditionals.If*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConditionals.If
+  name: If
+  nameWithType: ExMConditionals.If
+  fullName: Danmokou.DMath.Functions.ExMConditionals.If
+- uid: TEx{{T}}
+  commentId: '!:TEx{``0}'
+  definition: TEx`1
+  name: TEx<T>
+  nameWithType: TEx<T>
+  fullName: TEx<T>
+  nameWithType.vb: TEx(Of T)
+  fullName.vb: TEx(Of T)
+  name.vb: TEx(Of T)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx`1
+  isExternal: true
+  name: TEx<>
+  nameWithType: TEx<>
+  fullName: TEx<>
+  nameWithType.vb: TEx(Of )
+  fullName.vb: TEx(Of )
+  name.vb: TEx(Of )
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.ExMConditionals.IfN0*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConditionals.IfN0
+  name: IfN0
+  nameWithType: ExMConditionals.IfN0
+  fullName: Danmokou.DMath.Functions.ExMConditionals.IfN0
+- uid: Danmokou.DMath.Functions.ExMConditionals.If0*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConditionals.If0
+  name: If0
+  nameWithType: ExMConditionals.If0
+  fullName: Danmokou.DMath.Functions.ExMConditionals.If0
+- uid: Danmokou.DMath.Functions.ExMConditionals.IfN1*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConditionals.IfN1
+  name: IfN1
+  nameWithType: ExMConditionals.IfN1
+  fullName: Danmokou.DMath.Functions.ExMConditionals.IfN1
+- uid: Danmokou.DMath.Functions.ExMConditionals.If1*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConditionals.If1
+  name: If1
+  nameWithType: ExMConditionals.If1
+  fullName: Danmokou.DMath.Functions.ExMConditionals.If1

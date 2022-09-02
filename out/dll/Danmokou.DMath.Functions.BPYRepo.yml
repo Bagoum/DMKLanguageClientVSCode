@@ -1,0 +1,1502 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.BPYRepo
+  commentId: T:Danmokou.DMath.Functions.BPYRepo
+  id: BPYRepo
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.BPYRepo.AngleTo(ExTP)
+  - Danmokou.DMath.Functions.BPYRepo.AngleToPlayer
+  - Danmokou.DMath.Functions.BPYRepo.DistTo(ExTP)
+  - Danmokou.DMath.Functions.BPYRepo.LogsumShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.LogsumShiftAT(ExBPY,ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.LogsumShiftT(ExBPY,ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.pDH
+  - Danmokou.DMath.Functions.BPYRepo.pDL
+  - Danmokou.DMath.Functions.BPYRepo.Pivot(ExBPY,ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.Rehash(ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT(ExBPY,ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.BPYRepo.StarRot1
+  - Danmokou.DMath.Functions.BPYRepo.StarRot2
+  - Danmokou.DMath.Functions.BPYRepo.StarRot3
+  - Danmokou.DMath.Functions.BPYRepo.StarRot4
+  - Danmokou.DMath.Functions.BPYRepo.StarRotB1
+  - Danmokou.DMath.Functions.BPYRepo.StarRotB2
+  - Danmokou.DMath.Functions.BPYRepo.StarRotB3
+  - Danmokou.DMath.Functions.BPYRepo.StarRotB4
+  - Danmokou.DMath.Functions.BPYRepo.tDH
+  - Danmokou.DMath.Functions.BPYRepo.tDL
+  - Danmokou.DMath.Functions.BPYRepo.tDN
+  - Danmokou.DMath.Functions.BPYRepo.ToLR(ExTP)
+  - Danmokou.DMath.Functions.BPYRepo.ToRL(ExTP)
+  langs:
+  - csharp
+  - vb
+  name: BPYRepo
+  nameWithType: BPYRepo
+  fullName: Danmokou.DMath.Functions.BPYRepo
+  type: Class
+  source:
+    id: BPYRepo
+    path: ''
+    startLine: 8100
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that take in parametric information and return a number.\n"
+  example: []
+  syntax:
+    content: public static class BPYRepo
+    content.vb: Public Module BPYRepo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.BPYRepo.Rehash(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.Rehash(ExBPY)
+  id: Rehash(ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: Rehash(ExBPY)
+  nameWithType: BPYRepo.Rehash(ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.Rehash(ExBPY)
+  type: Method
+  source:
+    id: Rehash
+    path: ''
+    startLine: 7172
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRandom calls are dependent on the object&apos;s parametric ID.\nThis function rehashes the ID for the child call, so\nany other random parametrics will no longer be dependent on the child call.\n"
+  example: []
+  syntax:
+    content: public static ExBPY Rehash(ExBPY b)
+    parameters:
+    - id: b
+      type: ExBPY
+      description: Target parametric-number function
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function Rehash(b As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.Rehash*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.Pivot(ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.Pivot(ExBPY,ExBPY,ExBPY,ExBPY)
+  id: Pivot(ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: Pivot(ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: BPYRepo.Pivot(ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.Pivot(ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: Pivot
+    path: ''
+    startLine: 7181
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.Parametrics.Pivot(ExBPY%2cExBPY%2cExTP%2cExTP)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY Pivot(ExBPY pivotVar, ExBPY pivot, ExBPY f1, ExBPY f2)
+    parameters:
+    - id: pivotVar
+      type: ExBPY
+    - id: pivot
+      type: ExBPY
+    - id: f1
+      type: ExBPY
+    - id: f2
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function Pivot(pivotVar As ExBPY, pivot As ExBPY, f1 As ExBPY, f2 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.Pivot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  id: SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: SoftmaxShift(String, ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: BPYRepo.SoftmaxShift(String, ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String, ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: SoftmaxShift
+    path: ''
+    startLine: 7202
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSmoothly pivot from one function to another.\nFunctionality is similar to Pivot, but you must specify the direction, and because this relies on softmax,\nthe value f2(t) - f2(pivot) + f1(pivot) must always be greater than f1(pivot) after the pivot point\nand less than before the pivot point (when sharpness is positive).\n"
+  example: []
+  syntax:
+    content: public static ExBPY SoftmaxShift(string pivotVar, ExBPY sharpness, ExBPY pivot, ExBPY f1, ExBPY f2)
+    parameters:
+    - id: pivotVar
+      type: System.String
+      description: The variable upon which pivoting is performed. Should be either &quot;p&quot; (firing index) or &quot;t&quot; (time) or a reference variable.
+    - id: sharpness
+      type: ExBPY
+      description: >-
+        The higher the absolute value of this, the more quickly the result will converge.
+
+        Set negative for softmin.
+    - id: pivot
+      type: ExBPY
+      description: The value of the variable at which pivoting is performed
+    - id: f1
+      type: ExBPY
+      description: Starting equation
+    - id: f2
+      type: ExBPY
+      description: Equation after pivot
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function SoftmaxShift(pivotVar As String, sharpness As ExBPY, pivot As ExBPY, f1 As ExBPY, f2 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.SoftmaxShift*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT(ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT(ExBPY,ExBPY,ExBPY,ExBPY)
+  id: SoftmaxShiftT(ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: SoftmaxShiftT(ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: BPYRepo.SoftmaxShiftT(ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT(ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: SoftmaxShiftT
+    path: ''
+    startLine: 7204
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY SoftmaxShiftT(ExBPY sharpness, ExBPY pivot, ExBPY f1, ExBPY f2)
+    parameters:
+    - id: sharpness
+      type: ExBPY
+    - id: pivot
+      type: ExBPY
+    - id: f1
+      type: ExBPY
+    - id: f2
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function SoftmaxShiftT(sharpness As ExBPY, pivot As ExBPY, f1 As ExBPY, f2 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
+  id: SoftmaxShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: SoftmaxShiftT3(ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: BPYRepo.SoftmaxShiftT3(ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT3(ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: SoftmaxShiftT3
+    path: ''
+    startLine: 7206
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY SoftmaxShiftT3(ExBPY sharp, ExBPY pivot, ExBPY sharp2, ExBPY pivot2, ExBPY f1, ExBPY f2, ExBPY f3)
+    parameters:
+    - id: sharp
+      type: ExBPY
+    - id: pivot
+      type: ExBPY
+    - id: sharp2
+      type: ExBPY
+    - id: pivot2
+      type: ExBPY
+    - id: f1
+      type: ExBPY
+    - id: f2
+      type: ExBPY
+    - id: f3
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function SoftmaxShiftT3(sharp As ExBPY, pivot As ExBPY, sharp2 As ExBPY, pivot2 As ExBPY, f1 As ExBPY, f2 As ExBPY, f3 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.LogsumShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.LogsumShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  id: LogsumShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: LogsumShift(String, ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: BPYRepo.LogsumShift(String, ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.LogsumShift(System.String, ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: LogsumShift
+    path: ''
+    startLine: 7214
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String%2cExBPY%2cExBPY%2cExBPY%2cExBPY)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY LogsumShift(string pivotVar, ExBPY sharpness, ExBPY pivot, ExBPY f1, ExBPY f2)
+    parameters:
+    - id: pivotVar
+      type: System.String
+    - id: sharpness
+      type: ExBPY
+    - id: pivot
+      type: ExBPY
+    - id: f1
+      type: ExBPY
+    - id: f2
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function LogsumShift(pivotVar As String, sharpness As ExBPY, pivot As ExBPY, f1 As ExBPY, f2 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.LogsumShift*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT(ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.LogsumShiftT(ExBPY,ExBPY,ExBPY,ExBPY)
+  id: LogsumShiftT(ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: LogsumShiftT(ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: BPYRepo.LogsumShiftT(ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT(ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: LogsumShiftT
+    path: ''
+    startLine: 7220
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nLogsumshift using t as a pivot variable\n"
+  example: []
+  syntax:
+    content: public static ExBPY LogsumShiftT(ExBPY sharpness, ExBPY pivot, ExBPY f1, ExBPY f2)
+    parameters:
+    - id: sharpness
+      type: ExBPY
+    - id: pivot
+      type: ExBPY
+    - id: f1
+      type: ExBPY
+    - id: f2
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function LogsumShiftT(sharpness As ExBPY, pivot As ExBPY, f1 As ExBPY, f2 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
+  id: LogsumShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: LogsumShiftT3(ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: BPYRepo.LogsumShiftT3(ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3(ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: LogsumShiftT3
+    path: ''
+    startLine: 7225
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nLogsumshift twice, using t as a pivot variable, first from f1 to f2 and then from f2 to f3\n"
+  example: []
+  syntax:
+    content: public static ExBPY LogsumShiftT3(ExBPY sharp, ExBPY pivot, ExBPY sharp2, ExBPY pivot2, ExBPY f1, ExBPY f2, ExBPY f3)
+    parameters:
+    - id: sharp
+      type: ExBPY
+    - id: pivot
+      type: ExBPY
+    - id: sharp2
+      type: ExBPY
+    - id: pivot2
+      type: ExBPY
+    - id: f1
+      type: ExBPY
+    - id: f2
+      type: ExBPY
+    - id: f3
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function LogsumShiftT3(sharp As ExBPY, pivot As ExBPY, sharp2 As ExBPY, pivot2 As ExBPY, f1 As ExBPY, f2 As ExBPY, f3 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.LogsumShiftAT(ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.LogsumShiftAT(ExBPY,ExBPY,ExBPY,ExBPY)
+  id: LogsumShiftAT(ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: LogsumShiftAT(ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: BPYRepo.LogsumShiftAT(ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.BPYRepo.LogsumShiftAT(ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: LogsumShiftAT
+    path: ''
+    startLine: 7231
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nLogsumshift using &amp;t as a pivot variable. Make sure this is defined in a higher-level let statement.\n"
+  example: []
+  syntax:
+    content: public static ExBPY LogsumShiftAT(ExBPY sharpness, ExBPY pivot, ExBPY f1, ExBPY f2)
+    parameters:
+    - id: sharpness
+      type: ExBPY
+    - id: pivot
+      type: ExBPY
+    - id: f1
+      type: ExBPY
+    - id: f2
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function LogsumShiftAT(sharpness As ExBPY, pivot As ExBPY, f1 As ExBPY, f2 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.LogsumShiftAT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRot1
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.StarRot1
+  id: StarRot1
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: StarRot1()
+  nameWithType: BPYRepo.StarRot1()
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRot1()
+  type: Method
+  source:
+    id: StarRot1
+    path: ''
+    startLine: 7237
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDefault randomized star rotation (slow) in one direction.\n"
+  example: []
+  syntax:
+    content: public static ExBPY StarRot1()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function StarRot1 As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.StarRot1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRotB1
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.StarRotB1
+  id: StarRotB1
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: StarRotB1()
+  nameWithType: BPYRepo.StarRotB1()
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRotB1()
+  type: Method
+  source:
+    id: StarRotB1
+    path: ''
+    startLine: 7241
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDefault randomized star rotation (slow) in two directions.\n"
+  example: []
+  syntax:
+    content: public static ExBPY StarRotB1()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function StarRotB1 As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.StarRotB1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRot2
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.StarRot2
+  id: StarRot2
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: StarRot2()
+  nameWithType: BPYRepo.StarRot2()
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRot2()
+  type: Method
+  source:
+    id: StarRot2
+    path: ''
+    startLine: 7245
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDefault randomized star rotation (medium) in one direction.\n"
+  example: []
+  syntax:
+    content: public static ExBPY StarRot2()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function StarRot2 As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.StarRot2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRotB2
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.StarRotB2
+  id: StarRotB2
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: StarRotB2()
+  nameWithType: BPYRepo.StarRotB2()
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRotB2()
+  type: Method
+  source:
+    id: StarRotB2
+    path: ''
+    startLine: 7249
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDefault randomized star rotation (medium) in two directions.\n"
+  example: []
+  syntax:
+    content: public static ExBPY StarRotB2()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function StarRotB2 As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.StarRotB2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRot3
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.StarRot3
+  id: StarRot3
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: StarRot3()
+  nameWithType: BPYRepo.StarRot3()
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRot3()
+  type: Method
+  source:
+    id: StarRot3
+    path: ''
+    startLine: 7253
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDefault randomized star rotation (fast) in one direction.\n"
+  example: []
+  syntax:
+    content: public static ExBPY StarRot3()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function StarRot3 As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.StarRot3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRotB3
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.StarRotB3
+  id: StarRotB3
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: StarRotB3()
+  nameWithType: BPYRepo.StarRotB3()
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRotB3()
+  type: Method
+  source:
+    id: StarRotB3
+    path: ''
+    startLine: 7257
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDefault randomized star rotation (fast) in two directions.\n"
+  example: []
+  syntax:
+    content: public static ExBPY StarRotB3()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function StarRotB3 As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.StarRotB3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRot4
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.StarRot4
+  id: StarRot4
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: StarRot4()
+  nameWithType: BPYRepo.StarRot4()
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRot4()
+  type: Method
+  source:
+    id: StarRot4
+    path: ''
+    startLine: 7261
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDefault randomized star rotation (very fast) in one direction.\n"
+  example: []
+  syntax:
+    content: public static ExBPY StarRot4()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function StarRot4 As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.StarRot4*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRotB4
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.StarRotB4
+  id: StarRotB4
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: StarRotB4()
+  nameWithType: BPYRepo.StarRotB4()
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRotB4()
+  type: Method
+  source:
+    id: StarRotB4
+    path: ''
+    startLine: 7265
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDefault randomized star rotation (very fast) in two directions.\n"
+  example: []
+  syntax:
+    content: public static ExBPY StarRotB4()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function StarRotB4 As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.StarRotB4*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.DistTo(ExTP)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.DistTo(ExTP)
+  id: DistTo(ExTP)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: DistTo(ExTP)
+  nameWithType: BPYRepo.DistTo(ExTP)
+  fullName: Danmokou.DMath.Functions.BPYRepo.DistTo(ExTP)
+  type: Method
+  source:
+    id: DistTo
+    path: ''
+    startLine: 7272
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet distance (square root) from current location to a point.\n"
+  example: []
+  syntax:
+    content: public static ExBPY DistTo(ExTP loc)
+    parameters:
+    - id: loc
+      type: ExTP
+      description: ''
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function DistTo(loc As ExTP) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.DistTo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.tDN
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.tDN
+  id: tDN
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: tDN()
+  nameWithType: BPYRepo.tDN()
+  fullName: Danmokou.DMath.Functions.BPYRepo.tDN()
+  type: Method
+  source:
+    id: tDN
+    path: ''
+    startLine: 7277
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns T / DN.\n"
+  example: []
+  syntax:
+    content: public static ExBPY tDN()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function tDN As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.tDN*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.tDH
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.tDH
+  id: tDH
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: tDH()
+  nameWithType: BPYRepo.tDH()
+  fullName: Danmokou.DMath.Functions.BPYRepo.tDH()
+  type: Method
+  source:
+    id: tDH
+    path: ''
+    startLine: 7282
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns T / DH.\n"
+  example: []
+  syntax:
+    content: public static ExBPY tDH()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function tDH As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.tDH*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.tDL
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.tDL
+  id: tDL
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: tDL()
+  nameWithType: BPYRepo.tDL()
+  fullName: Danmokou.DMath.Functions.BPYRepo.tDL()
+  type: Method
+  source:
+    id: tDL
+    path: ''
+    startLine: 7287
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns T / DL.\n"
+  example: []
+  syntax:
+    content: public static ExBPY tDL()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function tDL As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.tDL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.pDH
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.pDH
+  id: pDH
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: pDH()
+  nameWithType: BPYRepo.pDH()
+  fullName: Danmokou.DMath.Functions.BPYRepo.pDH()
+  type: Method
+  source:
+    id: pDH
+    path: ''
+    startLine: 7291
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns P / DH.\n"
+  example: []
+  syntax:
+    content: public static ExBPY pDH()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function pDH As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.pDH*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.pDL
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.pDL
+  id: pDL
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: pDL()
+  nameWithType: BPYRepo.pDL()
+  fullName: Danmokou.DMath.Functions.BPYRepo.pDL()
+  type: Method
+  source:
+    id: pDL
+    path: ''
+    startLine: 7296
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns P / DL.\n"
+  example: []
+  syntax:
+    content: public static ExBPY pDL()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function pDL As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.pDL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.AngleToPlayer
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.AngleToPlayer
+  id: AngleToPlayer
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: AngleToPlayer()
+  nameWithType: BPYRepo.AngleToPlayer()
+  fullName: Danmokou.DMath.Functions.BPYRepo.AngleToPlayer()
+  type: Method
+  source:
+    id: AngleToPlayer
+    path: ''
+    startLine: 8106
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns Atan(Player.Loc - this.Loc) in degrees.\n"
+  example: []
+  syntax:
+    content: public static ExBPY AngleToPlayer()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function AngleToPlayer As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.AngleToPlayer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.AngleTo(ExTP)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.AngleTo(ExTP)
+  id: AngleTo(ExTP)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: AngleTo(ExTP)
+  nameWithType: BPYRepo.AngleTo(ExTP)
+  fullName: Danmokou.DMath.Functions.BPYRepo.AngleTo(ExTP)
+  type: Method
+  source:
+    id: AngleTo
+    path: ''
+    startLine: 8110
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns Atan(loc - this.Loc) in degrees.\n"
+  example: []
+  syntax:
+    content: public static ExBPY AngleTo(ExTP loc)
+    parameters:
+    - id: loc
+      type: ExTP
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function AngleTo(loc As ExTP) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.AngleTo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.ToLR(ExTP)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.ToLR(ExTP)
+  id: ToLR(ExTP)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: ToLR(ExTP)
+  nameWithType: BPYRepo.ToLR(ExTP)
+  fullName: Danmokou.DMath.Functions.BPYRepo.ToLR(ExTP)
+  type: Method
+  source:
+    id: ToLR
+    path: ''
+    startLine: 8115
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns the x-position of the left/right wall that the location is closer to.\n"
+  example: []
+  syntax:
+    content: public static ExBPY ToLR(ExTP loc)
+    parameters:
+    - id: loc
+      type: ExTP
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function ToLR(loc As ExTP) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.ToLR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.ToRL(ExTP)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.ToRL(ExTP)
+  id: ToRL(ExTP)
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: ToRL(ExTP)
+  nameWithType: BPYRepo.ToRL(ExTP)
+  fullName: Danmokou.DMath.Functions.BPYRepo.ToRL(ExTP)
+  type: Method
+  source:
+    id: ToRL
+    path: ''
+    startLine: 8120
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns the x-position of the left/right wall that the location is farther from.\n"
+  example: []
+  syntax:
+    content: public static ExBPY ToRL(ExTP loc)
+    parameters:
+    - id: loc
+      type: ExTP
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function ToRL(loc As ExTP) As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.ToRL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.BPYRepo.Rehash*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.Rehash
+  name: Rehash
+  nameWithType: BPYRepo.Rehash
+  fullName: Danmokou.DMath.Functions.BPYRepo.Rehash
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: Danmokou.DMath.Functions.Parametrics.Pivot(ExBPY,ExBPY,ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Pivot(ExBPY,ExBPY,ExTP,ExTP)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.BPYRepo.Pivot*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.Pivot
+  name: Pivot
+  nameWithType: BPYRepo.Pivot
+  fullName: Danmokou.DMath.Functions.BPYRepo.Pivot
+- uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShift*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.SoftmaxShift
+  name: SoftmaxShift
+  nameWithType: BPYRepo.SoftmaxShift
+  fullName: Danmokou.DMath.Functions.BPYRepo.SoftmaxShift
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT
+  name: SoftmaxShiftT
+  nameWithType: BPYRepo.SoftmaxShiftT
+  fullName: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT
+- uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT3*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT3
+  name: SoftmaxShiftT3
+  nameWithType: BPYRepo.SoftmaxShiftT3
+  fullName: Danmokou.DMath.Functions.BPYRepo.SoftmaxShiftT3
+- uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.BPYRepo.LogsumShift*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.LogsumShift
+  name: LogsumShift
+  nameWithType: BPYRepo.LogsumShift
+  fullName: Danmokou.DMath.Functions.BPYRepo.LogsumShift
+- uid: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.LogsumShiftT
+  name: LogsumShiftT
+  nameWithType: BPYRepo.LogsumShiftT
+  fullName: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT
+- uid: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3
+  name: LogsumShiftT3
+  nameWithType: BPYRepo.LogsumShiftT3
+  fullName: Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3
+- uid: Danmokou.DMath.Functions.BPYRepo.LogsumShiftAT*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.LogsumShiftAT
+  name: LogsumShiftAT
+  nameWithType: BPYRepo.LogsumShiftAT
+  fullName: Danmokou.DMath.Functions.BPYRepo.LogsumShiftAT
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRot1*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.StarRot1
+  name: StarRot1
+  nameWithType: BPYRepo.StarRot1
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRot1
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRotB1*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.StarRotB1
+  name: StarRotB1
+  nameWithType: BPYRepo.StarRotB1
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRotB1
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRot2*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.StarRot2
+  name: StarRot2
+  nameWithType: BPYRepo.StarRot2
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRot2
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRotB2*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.StarRotB2
+  name: StarRotB2
+  nameWithType: BPYRepo.StarRotB2
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRotB2
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRot3*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.StarRot3
+  name: StarRot3
+  nameWithType: BPYRepo.StarRot3
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRot3
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRotB3*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.StarRotB3
+  name: StarRotB3
+  nameWithType: BPYRepo.StarRotB3
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRotB3
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRot4*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.StarRot4
+  name: StarRot4
+  nameWithType: BPYRepo.StarRot4
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRot4
+- uid: Danmokou.DMath.Functions.BPYRepo.StarRotB4*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.StarRotB4
+  name: StarRotB4
+  nameWithType: BPYRepo.StarRotB4
+  fullName: Danmokou.DMath.Functions.BPYRepo.StarRotB4
+- uid: Danmokou.DMath.Functions.BPYRepo.DistTo*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.DistTo
+  name: DistTo
+  nameWithType: BPYRepo.DistTo
+  fullName: Danmokou.DMath.Functions.BPYRepo.DistTo
+- uid: ExTP
+  isExternal: true
+  name: ExTP
+  nameWithType: ExTP
+  fullName: ExTP
+- uid: Danmokou.DMath.Functions.BPYRepo.tDN*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.tDN
+  name: tDN
+  nameWithType: BPYRepo.tDN
+  fullName: Danmokou.DMath.Functions.BPYRepo.tDN
+- uid: Danmokou.DMath.Functions.BPYRepo.tDH*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.tDH
+  name: tDH
+  nameWithType: BPYRepo.tDH
+  fullName: Danmokou.DMath.Functions.BPYRepo.tDH
+- uid: Danmokou.DMath.Functions.BPYRepo.tDL*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.tDL
+  name: tDL
+  nameWithType: BPYRepo.tDL
+  fullName: Danmokou.DMath.Functions.BPYRepo.tDL
+- uid: Danmokou.DMath.Functions.BPYRepo.pDH*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.pDH
+  name: pDH
+  nameWithType: BPYRepo.pDH
+  fullName: Danmokou.DMath.Functions.BPYRepo.pDH
+- uid: Danmokou.DMath.Functions.BPYRepo.pDL*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.pDL
+  name: pDL
+  nameWithType: BPYRepo.pDL
+  fullName: Danmokou.DMath.Functions.BPYRepo.pDL
+- uid: Danmokou.DMath.Functions.BPYRepo.AngleToPlayer*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.AngleToPlayer
+  name: AngleToPlayer
+  nameWithType: BPYRepo.AngleToPlayer
+  fullName: Danmokou.DMath.Functions.BPYRepo.AngleToPlayer
+- uid: Danmokou.DMath.Functions.BPYRepo.AngleTo*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.AngleTo
+  name: AngleTo
+  nameWithType: BPYRepo.AngleTo
+  fullName: Danmokou.DMath.Functions.BPYRepo.AngleTo
+- uid: Danmokou.DMath.Functions.BPYRepo.ToLR*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.ToLR
+  name: ToLR
+  nameWithType: BPYRepo.ToLR
+  fullName: Danmokou.DMath.Functions.BPYRepo.ToLR
+- uid: Danmokou.DMath.Functions.BPYRepo.ToRL*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.ToRL
+  name: ToRL
+  nameWithType: BPYRepo.ToRL
+  fullName: Danmokou.DMath.Functions.BPYRepo.ToRL

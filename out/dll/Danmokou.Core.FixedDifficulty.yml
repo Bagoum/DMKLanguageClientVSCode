@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.FixedDifficulty
+  commentId: T:Danmokou.Core.FixedDifficulty
+  id: FixedDifficulty
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.FixedDifficulty.Easy
+  - Danmokou.Core.FixedDifficulty.Hard
+  - Danmokou.Core.FixedDifficulty.Lunatic
+  - Danmokou.Core.FixedDifficulty.Normal
+  langs:
+  - csharp
+  - vb
+  name: FixedDifficulty
+  nameWithType: FixedDifficulty
+  fullName: Danmokou.Core.FixedDifficulty
+  type: Enum
+  source:
+    id: FixedDifficulty
+    path: ''
+    startLine: 1157
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum FixedDifficulty
+    content.vb: Public Enum FixedDifficulty
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.FixedDifficulty.Easy
+  commentId: F:Danmokou.Core.FixedDifficulty.Easy
+  id: Easy
+  parent: Danmokou.Core.FixedDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Easy
+  nameWithType: FixedDifficulty.Easy
+  fullName: Danmokou.Core.FixedDifficulty.Easy
+  type: Field
+  source:
+    id: Easy
+    path: ''
+    startLine: 1158
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Easy = 20
+    return:
+      type: Danmokou.Core.FixedDifficulty
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.FixedDifficulty.Normal
+  commentId: F:Danmokou.Core.FixedDifficulty.Normal
+  id: Normal
+  parent: Danmokou.Core.FixedDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: FixedDifficulty.Normal
+  fullName: Danmokou.Core.FixedDifficulty.Normal
+  type: Field
+  source:
+    id: Normal
+    path: ''
+    startLine: 1159
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Normal = 30
+    return:
+      type: Danmokou.Core.FixedDifficulty
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.FixedDifficulty.Hard
+  commentId: F:Danmokou.Core.FixedDifficulty.Hard
+  id: Hard
+  parent: Danmokou.Core.FixedDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Hard
+  nameWithType: FixedDifficulty.Hard
+  fullName: Danmokou.Core.FixedDifficulty.Hard
+  type: Field
+  source:
+    id: Hard
+    path: ''
+    startLine: 1160
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Hard = 40
+    return:
+      type: Danmokou.Core.FixedDifficulty
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.FixedDifficulty.Lunatic
+  commentId: F:Danmokou.Core.FixedDifficulty.Lunatic
+  id: Lunatic
+  parent: Danmokou.Core.FixedDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Lunatic
+  nameWithType: FixedDifficulty.Lunatic
+  fullName: Danmokou.Core.FixedDifficulty.Lunatic
+  type: Field
+  source:
+    id: Lunatic
+    path: ''
+    startLine: 1161
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Lunatic = 50
+    return:
+      type: Danmokou.Core.FixedDifficulty
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.FixedDifficulty
+  commentId: T:Danmokou.Core.FixedDifficulty
+  parent: Danmokou.Core
+  name: FixedDifficulty
+  nameWithType: FixedDifficulty
+  fullName: Danmokou.Core.FixedDifficulty

@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.SPCF
+  commentId: T:Danmokou.DMath.SPCF
+  id: SPCF
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SPCF
+  nameWithType: SPCF
+  fullName: Danmokou.DMath.SPCF
+  type: Delegate
+  source:
+    id: SPCF
+    path: ''
+    startLine: 6716
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA pool control function performing some operation on a simple bullet pool.\n<br />The returned disposable can be used to cancel the effect.\n"
+  example: []
+  syntax:
+    content: public delegate IDisposable SPCF(string pool, ICancellee cT);
+    parameters:
+    - id: pool
+      type: System.String
+    - id: cT
+      type: ICancellee
+    return:
+      type: System.IDisposable
+    content.vb: Public Delegate Function SPCF(pool As String, cT As ICancellee) As IDisposable
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ICancellee
+  isExternal: true
+  name: ICancellee
+  nameWithType: ICancellee
+  fullName: ICancellee
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

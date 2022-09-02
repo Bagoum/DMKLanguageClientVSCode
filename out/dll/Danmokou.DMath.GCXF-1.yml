@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.GCXF`1
+  commentId: T:Danmokou.DMath.GCXF`1
+  id: GCXF`1
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GCXF<T>
+  nameWithType: GCXF<T>
+  fullName: Danmokou.DMath.GCXF<T>
+  type: Delegate
+  source:
+    id: GCXF
+    path: ''
+    startLine: 6695
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA wrapper type used for functions that operate over a GCX.\n"
+  example: []
+  syntax:
+    content: public delegate T GCXF<T>(GenCtx gcx);
+    parameters:
+    - id: gcx
+      type: GenCtx
+    typeParameters:
+    - id: T
+      description: Return object type (eg. float, v2, rv2)
+    return:
+      type: '{T}'
+    content.vb: Public Delegate Function GCXF(Of T)(gcx As GenCtx) As T
+  nameWithType.vb: GCXF(Of T)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: Danmokou.DMath.GCXF(Of T)
+  name.vb: GCXF(Of T)
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

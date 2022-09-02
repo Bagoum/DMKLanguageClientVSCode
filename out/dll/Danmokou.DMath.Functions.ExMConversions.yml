@@ -1,0 +1,1282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMConversions
+  commentId: T:Danmokou.DMath.Functions.ExMConversions
+  id: ExMConversions
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMConversions.ConvertBasis(ev2,ev2)
+  - Danmokou.DMath.Functions.ExMConversions.CrossProduct(ev3,ev3)
+  - Danmokou.DMath.Functions.ExMConversions.DeconvertBasis(ev2,ev2)
+  - Danmokou.DMath.Functions.ExMConversions.FromSphere(tfloat,ev2)
+  - Danmokou.DMath.Functions.ExMConversions.Polar2ToXY(ev2)
+  - Danmokou.DMath.Functions.ExMConversions.PolarToXY(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMConversions.PolarToXYRad(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMConversions.Rotate(tfloat,tv2)
+  - Danmokou.DMath.Functions.ExMConversions.Rotate2(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMConversions.RotateCS(tfloat,tfloat,ev2)
+  - Danmokou.DMath.Functions.ExMConversions.RotateCS2(efloat,efloat,efloat,efloat)
+  - Danmokou.DMath.Functions.ExMConversions.RotateInPlane(tfloat,tv3,ev3)
+  - Danmokou.DMath.Functions.ExMConversions.RotateRad(tfloat,tv2)
+  - Danmokou.DMath.Functions.ExMConversions.RotateRad2(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMConversions.RotateV(ev2,ev2)
+  - Danmokou.DMath.Functions.ExMConversions.RotateV2(ev2,efloat,efloat)
+  - Danmokou.DMath.Functions.ExMConversions.RV2ToPolar(trv2)
+  - Danmokou.DMath.Functions.ExMConversions.RV2ToXY(erv2)
+  - Danmokou.DMath.Functions.ExMConversions.ToSphere(ev3)
+  - Danmokou.DMath.Functions.ExMConversions.XYToPolar(ev2)
+  - Danmokou.DMath.Functions.ExMConversions.XYToPolarRad(ev2)
+  langs:
+  - csharp
+  - vb
+  name: ExMConversions
+  nameWithType: ExMConversions
+  fullName: Danmokou.DMath.Functions.ExMConversions
+  type: Class
+  source:
+    id: ExMConversions
+    path: ''
+    startLine: 10878
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM\" data-throw-if-not-resolved=\"false\"></xref>. This class contains functions related to coordinate conversion.\n"
+  example: []
+  syntax:
+    content: public static class ExMConversions
+    content.vb: Public Module ExMConversions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMConversions.Polar2ToXY(ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.Polar2ToXY(ev2)
+  id: Polar2ToXY(ev2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: Polar2ToXY(ev2)
+  nameWithType: ExMConversions.Polar2ToXY(ev2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.Polar2ToXY(ev2)
+  type: Method
+  source:
+    id: Polar2ToXY
+    path: ''
+    startLine: 10881
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv2 Polar2ToXY(ev2 rt)
+    parameters:
+    - id: rt
+      type: ev2
+    return:
+      type: tv2
+    content.vb: Public Shared Function Polar2ToXY(rt As ev2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.Polar2ToXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.PolarToXY(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.PolarToXY(tfloat,tfloat)
+  id: PolarToXY(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: PolarToXY(tfloat, tfloat)
+  nameWithType: ExMConversions.PolarToXY(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMConversions.PolarToXY(tfloat, tfloat)
+  type: Method
+  source:
+    id: PolarToXY
+    path: ''
+    startLine: 10885
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConvert polar coordinates (theta in degrees) to Cartesian coordinates.\n"
+  example: []
+  syntax:
+    content: public static tv2 PolarToXY(tfloat r, tfloat theta)
+    parameters:
+    - id: r
+      type: tfloat
+    - id: theta
+      type: tfloat
+    return:
+      type: tv2
+    content.vb: Public Shared Function PolarToXY(r As tfloat, theta As tfloat) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.PolarToXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.PolarToXYRad(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.PolarToXYRad(tfloat,tfloat)
+  id: PolarToXYRad(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: PolarToXYRad(tfloat, tfloat)
+  nameWithType: ExMConversions.PolarToXYRad(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMConversions.PolarToXYRad(tfloat, tfloat)
+  type: Method
+  source:
+    id: PolarToXYRad
+    path: ''
+    startLine: 10890
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConvert polar coordinates (theta in radians) to Cartesian coordinates.\n"
+  example: []
+  syntax:
+    content: public static tv2 PolarToXYRad(tfloat r, tfloat theta)
+    parameters:
+    - id: r
+      type: tfloat
+    - id: theta
+      type: tfloat
+    return:
+      type: tv2
+    content.vb: Public Shared Function PolarToXYRad(r As tfloat, theta As tfloat) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.PolarToXYRad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.XYToPolar(ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.XYToPolar(ev2)
+  id: XYToPolar(ev2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: XYToPolar(ev2)
+  nameWithType: ExMConversions.XYToPolar(ev2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.XYToPolar(ev2)
+  type: Method
+  source:
+    id: XYToPolar
+    path: ''
+    startLine: 10895
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConvert Cartesian coordinates to polar coordinates (theta in degrees).\n"
+  example: []
+  syntax:
+    content: public static tv2 XYToPolar(ev2 v2)
+    parameters:
+    - id: v2
+      type: ev2
+    return:
+      type: tv2
+    content.vb: Public Shared Function XYToPolar(v2 As ev2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.XYToPolar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.XYToPolarRad(ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.XYToPolarRad(ev2)
+  id: XYToPolarRad(ev2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: XYToPolarRad(ev2)
+  nameWithType: ExMConversions.XYToPolarRad(ev2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.XYToPolarRad(ev2)
+  type: Method
+  source:
+    id: XYToPolarRad
+    path: ''
+    startLine: 10899
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConvert Cartesian coordinates to polar coordinates (theta in radians).\n"
+  example: []
+  syntax:
+    content: public static tv2 XYToPolarRad(ev2 v2)
+    parameters:
+    - id: v2
+      type: ev2
+    return:
+      type: tv2
+    content.vb: Public Shared Function XYToPolarRad(v2 As ev2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.XYToPolarRad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RV2ToXY(erv2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RV2ToXY(erv2)
+  id: RV2ToXY(erv2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RV2ToXY(erv2)
+  nameWithType: ExMConversions.RV2ToXY(erv2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RV2ToXY(erv2)
+  type: Method
+  source:
+    id: RV2ToXY
+    path: ''
+    startLine: 10904
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConverts an RV2 to Cartesian coordinates via TrueLocation.\n"
+  example: []
+  syntax:
+    content: public static tv2 RV2ToXY(erv2 v2rv2)
+    parameters:
+    - id: v2rv2
+      type: erv2
+    return:
+      type: tv2
+    content.vb: Public Shared Function RV2ToXY(v2rv2 As erv2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.RV2ToXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RV2ToPolar(trv2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RV2ToPolar(trv2)
+  id: RV2ToPolar(trv2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RV2ToPolar(trv2)
+  nameWithType: ExMConversions.RV2ToPolar(trv2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RV2ToPolar(trv2)
+  type: Method
+  source:
+    id: RV2ToPolar
+    path: ''
+    startLine: 10911
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConverts an RV2 to polar coordinates (theta in degrees) via TrueLocation and XYToPolar.\n"
+  example: []
+  syntax:
+    content: public static tv2 RV2ToPolar(trv2 v2rv2)
+    parameters:
+    - id: v2rv2
+      type: trv2
+    return:
+      type: tv2
+    content.vb: Public Shared Function RV2ToPolar(v2rv2 As trv2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.RV2ToPolar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.Rotate(tfloat,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.Rotate(tfloat,tv2)
+  id: Rotate(tfloat,tv2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: Rotate(tfloat, tv2)
+  nameWithType: ExMConversions.Rotate(tfloat, tv2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.Rotate(tfloat, tv2)
+  type: Method
+  source:
+    id: Rotate
+    path: ''
+    startLine: 10916
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate a V2 by some degrees counterclockwise.\n"
+  example: []
+  syntax:
+    content: public static tv2 Rotate(tfloat ang_deg, tv2 v2)
+    parameters:
+    - id: ang_deg
+      type: tfloat
+    - id: v2
+      type: tv2
+    return:
+      type: tv2
+    content.vb: Public Shared Function Rotate(ang_deg As tfloat, v2 As tv2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.Rotate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateRad(tfloat,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RotateRad(tfloat,tv2)
+  id: RotateRad(tfloat,tv2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RotateRad(tfloat, tv2)
+  nameWithType: ExMConversions.RotateRad(tfloat, tv2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateRad(tfloat, tv2)
+  type: Method
+  source:
+    id: RotateRad
+    path: ''
+    startLine: 10921
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate a V2 by some radians counterclockwise.\n"
+  example: []
+  syntax:
+    content: public static tv2 RotateRad(tfloat ang_rad, tv2 v2)
+    parameters:
+    - id: ang_rad
+      type: tfloat
+    - id: v2
+      type: tv2
+    return:
+      type: tv2
+    content.vb: Public Shared Function RotateRad(ang_rad As tfloat, v2 As tv2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.RotateRad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.Rotate2(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.Rotate2(tfloat,tfloat,tfloat)
+  id: Rotate2(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: Rotate2(tfloat, tfloat, tfloat)
+  nameWithType: ExMConversions.Rotate2(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMConversions.Rotate2(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: Rotate2
+    path: ''
+    startLine: 10926
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate an (x,y) pair by some degrees counterclockwise.\n"
+  example: []
+  syntax:
+    content: public static tv2 Rotate2(tfloat ang_deg, tfloat xv, tfloat yv)
+    parameters:
+    - id: ang_deg
+      type: tfloat
+    - id: xv
+      type: tfloat
+    - id: yv
+      type: tfloat
+    return:
+      type: tv2
+    content.vb: Public Shared Function Rotate2(ang_deg As tfloat, xv As tfloat, yv As tfloat) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.Rotate2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateRad2(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RotateRad2(tfloat,tfloat,tfloat)
+  id: RotateRad2(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RotateRad2(tfloat, tfloat, tfloat)
+  nameWithType: ExMConversions.RotateRad2(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateRad2(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: RotateRad2
+    path: ''
+    startLine: 10931
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate an (x,y) pair by some radians counterclockwise.\n"
+  example: []
+  syntax:
+    content: public static tv2 RotateRad2(tfloat ang_rad, tfloat xv, tfloat yv)
+    parameters:
+    - id: ang_rad
+      type: tfloat
+    - id: xv
+      type: tfloat
+    - id: yv
+      type: tfloat
+    return:
+      type: tv2
+    content.vb: Public Shared Function RotateRad2(ang_rad As tfloat, xv As tfloat, yv As tfloat) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.RotateRad2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateV(ev2,ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RotateV(ev2,ev2)
+  id: RotateV(ev2,ev2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RotateV(ev2, ev2)
+  nameWithType: ExMConversions.RotateV(ev2, ev2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateV(ev2, ev2)
+  type: Method
+  source:
+    id: RotateV
+    path: ''
+    startLine: 10935
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate a V2 by a vector containing cosine and sine values counterclockwise.\n"
+  example: []
+  syntax:
+    content: public static tv2 RotateV(ev2 cossin, ev2 v2)
+    parameters:
+    - id: cossin
+      type: ev2
+    - id: v2
+      type: ev2
+    return:
+      type: tv2
+    content.vb: Public Shared Function RotateV(cossin As ev2, v2 As ev2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.RotateV*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateV2(ev2,efloat,efloat)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RotateV2(ev2,efloat,efloat)
+  id: RotateV2(ev2,efloat,efloat)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RotateV2(ev2, efloat, efloat)
+  nameWithType: ExMConversions.RotateV2(ev2, efloat, efloat)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateV2(ev2, efloat, efloat)
+  type: Method
+  source:
+    id: RotateV2
+    path: ''
+    startLine: 10943
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate a V2 by a vector containing cosine and sine values counterclockwise.\n"
+  example: []
+  syntax:
+    content: public static tv2 RotateV2(ev2 cossin, efloat xv, efloat yv)
+    parameters:
+    - id: cossin
+      type: ev2
+    - id: xv
+      type: efloat
+    - id: yv
+      type: efloat
+    return:
+      type: tv2
+    content.vb: Public Shared Function RotateV2(cossin As ev2, xv As efloat, yv As efloat) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.RotateV2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateCS(tfloat,tfloat,ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RotateCS(tfloat,tfloat,ev2)
+  id: RotateCS(tfloat,tfloat,ev2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RotateCS(tfloat, tfloat, ev2)
+  nameWithType: ExMConversions.RotateCS(tfloat, tfloat, ev2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateCS(tfloat, tfloat, ev2)
+  type: Method
+  source:
+    id: RotateCS
+    path: ''
+    startLine: 10950
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate a V2 by a calculated cosine and sine value counterclockwise.\n"
+  example: []
+  syntax:
+    content: public static tv2 RotateCS(tfloat cos, tfloat sin, ev2 v2)
+    parameters:
+    - id: cos
+      type: tfloat
+    - id: sin
+      type: tfloat
+    - id: v2
+      type: ev2
+    return:
+      type: tv2
+    content.vb: Public Shared Function RotateCS(cos As tfloat, sin As tfloat, v2 As ev2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.RotateCS*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateCS2(efloat,efloat,efloat,efloat)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RotateCS2(efloat,efloat,efloat,efloat)
+  id: RotateCS2(efloat,efloat,efloat,efloat)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RotateCS2(efloat, efloat, efloat, efloat)
+  nameWithType: ExMConversions.RotateCS2(efloat, efloat, efloat, efloat)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateCS2(efloat, efloat, efloat, efloat)
+  type: Method
+  source:
+    id: RotateCS2
+    path: ''
+    startLine: 10957
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate an (x,y) pair by a calculated cosine and sine value counterclockwise.\n"
+  example: []
+  syntax:
+    content: public static tv2 RotateCS2(efloat cos, efloat sin, efloat xv, efloat yv)
+    parameters:
+    - id: cos
+      type: efloat
+    - id: sin
+      type: efloat
+    - id: xv
+      type: efloat
+    - id: yv
+      type: efloat
+    return:
+      type: tv2
+    content.vb: Public Shared Function RotateCS2(cos As efloat, sin As efloat, xv As efloat, yv As efloat) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.RotateCS2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.ConvertBasis(ev2,ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.ConvertBasis(ev2,ev2)
+  id: ConvertBasis(ev2,ev2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: ConvertBasis(ev2, ev2)
+  nameWithType: ExMConversions.ConvertBasis(ev2, ev2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.ConvertBasis(ev2, ev2)
+  type: Method
+  source:
+    id: ConvertBasis
+    path: ''
+    startLine: 10962
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv2 ConvertBasis(ev2 source, ev2 basis1)
+    parameters:
+    - id: source
+      type: ev2
+    - id: basis1
+      type: ev2
+    return:
+      type: tv2
+    content.vb: Public Shared Function ConvertBasis(source As ev2, basis1 As ev2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.ConvertBasis*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.DeconvertBasis(ev2,ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.DeconvertBasis(ev2,ev2)
+  id: DeconvertBasis(ev2,ev2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: DeconvertBasis(ev2, ev2)
+  nameWithType: ExMConversions.DeconvertBasis(ev2, ev2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.DeconvertBasis(ev2, ev2)
+  type: Method
+  source:
+    id: DeconvertBasis
+    path: ''
+    startLine: 10970
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv2 DeconvertBasis(ev2 source, ev2 basis1)
+    parameters:
+    - id: source
+      type: ev2
+    - id: basis1
+      type: ev2
+    return:
+      type: tv2
+    content.vb: Public Shared Function DeconvertBasis(source As ev2, basis1 As ev2) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.DeconvertBasis*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.ToSphere(ev3)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.ToSphere(ev3)
+  id: ToSphere(ev3)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: ToSphere(ev3)
+  nameWithType: ExMConversions.ToSphere(ev3)
+  fullName: Danmokou.DMath.Functions.ExMConversions.ToSphere(ev3)
+  type: Method
+  source:
+    id: ToSphere
+    path: ''
+    startLine: 10975
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the unit spherical coordinates for a vector3.\n"
+  example: []
+  syntax:
+    content: public static tv2 ToSphere(ev3 source)
+    parameters:
+    - id: source
+      type: ev3
+    return:
+      type: tv2
+    content.vb: Public Shared Function ToSphere(source As ev3) As tv2
+  overload: Danmokou.DMath.Functions.ExMConversions.ToSphere*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.FromSphere(tfloat,ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.FromSphere(tfloat,ev2)
+  id: FromSphere(tfloat,ev2)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: FromSphere(tfloat, ev2)
+  nameWithType: ExMConversions.FromSphere(tfloat, ev2)
+  fullName: Danmokou.DMath.Functions.ExMConversions.FromSphere(tfloat, ev2)
+  type: Method
+  source:
+    id: FromSphere
+    path: ''
+    startLine: 10980
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv3 FromSphere(tfloat radius, ev2 sphere)
+    parameters:
+    - id: radius
+      type: tfloat
+    - id: sphere
+      type: ev2
+    return:
+      type: tv3
+    content.vb: Public Shared Function FromSphere(radius As tfloat, sphere As ev2) As tv3
+  overload: Danmokou.DMath.Functions.ExMConversions.FromSphere*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.CrossProduct(ev3,ev3)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.CrossProduct(ev3,ev3)
+  id: CrossProduct(ev3,ev3)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: CrossProduct(ev3, ev3)
+  nameWithType: ExMConversions.CrossProduct(ev3, ev3)
+  fullName: Danmokou.DMath.Functions.ExMConversions.CrossProduct(ev3, ev3)
+  type: Method
+  source:
+    id: CrossProduct
+    path: ''
+    startLine: 10990
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv3 CrossProduct(ev3 v1, ev3 v2)
+    parameters:
+    - id: v1
+      type: ev3
+    - id: v2
+      type: ev3
+    return:
+      type: tv3
+    content.vb: Public Shared Function CrossProduct(v1 As ev3, v2 As ev3) As tv3
+  overload: Danmokou.DMath.Functions.ExMConversions.CrossProduct*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateInPlane(tfloat,tv3,ev3)
+  commentId: M:Danmokou.DMath.Functions.ExMConversions.RotateInPlane(tfloat,tv3,ev3)
+  id: RotateInPlane(tfloat,tv3,ev3)
+  parent: Danmokou.DMath.Functions.ExMConversions
+  langs:
+  - csharp
+  - vb
+  name: RotateInPlane(tfloat, tv3, ev3)
+  nameWithType: ExMConversions.RotateInPlane(tfloat, tv3, ev3)
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateInPlane(tfloat, tv3, ev3)
+  type: Method
+  source:
+    id: RotateInPlane
+    path: ''
+    startLine: 10998
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nNote: requires that normalVec and planeVec are perpendicular.\n"
+  example: []
+  syntax:
+    content: public static tv3 RotateInPlane(tfloat rot, tv3 normalVec, ev3 planeVec)
+    parameters:
+    - id: rot
+      type: tfloat
+    - id: normalVec
+      type: tv3
+    - id: planeVec
+      type: ev3
+    return:
+      type: tv3
+    content.vb: Public Shared Function RotateInPlane(rot As tfloat, normalVec As tv3, planeVec As ev3) As tv3
+  overload: Danmokou.DMath.Functions.ExMConversions.RotateInPlane*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions.ExM
+  commentId: T:Danmokou.DMath.Functions.ExM
+  name: ExM
+  nameWithType: ExM
+  fullName: Danmokou.DMath.Functions.ExM
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMConversions.Polar2ToXY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.Polar2ToXY
+  name: Polar2ToXY
+  nameWithType: ExMConversions.Polar2ToXY
+  fullName: Danmokou.DMath.Functions.ExMConversions.Polar2ToXY
+- uid: ev2
+  isExternal: true
+  name: ev2
+  nameWithType: ev2
+  fullName: ev2
+- uid: tv2
+  isExternal: true
+  name: tv2
+  nameWithType: tv2
+  fullName: tv2
+- uid: Danmokou.DMath.Functions.ExMConversions.PolarToXY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.PolarToXY
+  name: PolarToXY
+  nameWithType: ExMConversions.PolarToXY
+  fullName: Danmokou.DMath.Functions.ExMConversions.PolarToXY
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: Danmokou.DMath.Functions.ExMConversions.PolarToXYRad*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.PolarToXYRad
+  name: PolarToXYRad
+  nameWithType: ExMConversions.PolarToXYRad
+  fullName: Danmokou.DMath.Functions.ExMConversions.PolarToXYRad
+- uid: Danmokou.DMath.Functions.ExMConversions.XYToPolar*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.XYToPolar
+  name: XYToPolar
+  nameWithType: ExMConversions.XYToPolar
+  fullName: Danmokou.DMath.Functions.ExMConversions.XYToPolar
+- uid: Danmokou.DMath.Functions.ExMConversions.XYToPolarRad*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.XYToPolarRad
+  name: XYToPolarRad
+  nameWithType: ExMConversions.XYToPolarRad
+  fullName: Danmokou.DMath.Functions.ExMConversions.XYToPolarRad
+- uid: Danmokou.DMath.Functions.ExMConversions.RV2ToXY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RV2ToXY
+  name: RV2ToXY
+  nameWithType: ExMConversions.RV2ToXY
+  fullName: Danmokou.DMath.Functions.ExMConversions.RV2ToXY
+- uid: erv2
+  commentId: '!:erv2'
+  isExternal: true
+  name: erv2
+  nameWithType: erv2
+  fullName: erv2
+- uid: Danmokou.DMath.Functions.ExMConversions.RV2ToPolar*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RV2ToPolar
+  name: RV2ToPolar
+  nameWithType: ExMConversions.RV2ToPolar
+  fullName: Danmokou.DMath.Functions.ExMConversions.RV2ToPolar
+- uid: trv2
+  isExternal: true
+  name: trv2
+  nameWithType: trv2
+  fullName: trv2
+- uid: Danmokou.DMath.Functions.ExMConversions.Rotate*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.Rotate
+  name: Rotate
+  nameWithType: ExMConversions.Rotate
+  fullName: Danmokou.DMath.Functions.ExMConversions.Rotate
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateRad*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RotateRad
+  name: RotateRad
+  nameWithType: ExMConversions.RotateRad
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateRad
+- uid: Danmokou.DMath.Functions.ExMConversions.Rotate2*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.Rotate2
+  name: Rotate2
+  nameWithType: ExMConversions.Rotate2
+  fullName: Danmokou.DMath.Functions.ExMConversions.Rotate2
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateRad2*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RotateRad2
+  name: RotateRad2
+  nameWithType: ExMConversions.RotateRad2
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateRad2
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateV*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RotateV
+  name: RotateV
+  nameWithType: ExMConversions.RotateV
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateV
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateV2*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RotateV2
+  name: RotateV2
+  nameWithType: ExMConversions.RotateV2
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateV2
+- uid: efloat
+  isExternal: true
+  name: efloat
+  nameWithType: efloat
+  fullName: efloat
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateCS*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RotateCS
+  name: RotateCS
+  nameWithType: ExMConversions.RotateCS
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateCS
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateCS2*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RotateCS2
+  name: RotateCS2
+  nameWithType: ExMConversions.RotateCS2
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateCS2
+- uid: Danmokou.DMath.Functions.ExMConversions.ConvertBasis*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.ConvertBasis
+  name: ConvertBasis
+  nameWithType: ExMConversions.ConvertBasis
+  fullName: Danmokou.DMath.Functions.ExMConversions.ConvertBasis
+- uid: Danmokou.DMath.Functions.ExMConversions.DeconvertBasis*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.DeconvertBasis
+  name: DeconvertBasis
+  nameWithType: ExMConversions.DeconvertBasis
+  fullName: Danmokou.DMath.Functions.ExMConversions.DeconvertBasis
+- uid: Danmokou.DMath.Functions.ExMConversions.ToSphere*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.ToSphere
+  name: ToSphere
+  nameWithType: ExMConversions.ToSphere
+  fullName: Danmokou.DMath.Functions.ExMConversions.ToSphere
+- uid: ev3
+  isExternal: true
+  name: ev3
+  nameWithType: ev3
+  fullName: ev3
+- uid: Danmokou.DMath.Functions.ExMConversions.FromSphere*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.FromSphere
+  name: FromSphere
+  nameWithType: ExMConversions.FromSphere
+  fullName: Danmokou.DMath.Functions.ExMConversions.FromSphere
+- uid: tv3
+  isExternal: true
+  name: tv3
+  nameWithType: tv3
+  fullName: tv3
+- uid: Danmokou.DMath.Functions.ExMConversions.CrossProduct*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.CrossProduct
+  name: CrossProduct
+  nameWithType: ExMConversions.CrossProduct
+  fullName: Danmokou.DMath.Functions.ExMConversions.CrossProduct
+- uid: Danmokou.DMath.Functions.ExMConversions.RotateInPlane*
+  commentId: Overload:Danmokou.DMath.Functions.ExMConversions.RotateInPlane
+  name: RotateInPlane
+  nameWithType: ExMConversions.RotateInPlane
+  fullName: Danmokou.DMath.Functions.ExMConversions.RotateInPlane

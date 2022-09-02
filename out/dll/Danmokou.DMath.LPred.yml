@@ -1,0 +1,71 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.LPred
+  commentId: T:Danmokou.DMath.LPred
+  id: LPred
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LPred
+  nameWithType: LPred
+  fullName: Danmokou.DMath.LPred
+  type: Delegate
+  source:
+    id: LPred
+    path: ''
+    startLine: 6689
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA function that converts ParametricInfo and a laser lifetime into a Vector2.\n"
+  example: []
+  syntax:
+    content: public delegate bool LPred(ParametricInfo bpi, float lT);
+    parameters:
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+    - id: lT
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Delegate Function LPred(bpi As ParametricInfo, lT As Single) As Boolean
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

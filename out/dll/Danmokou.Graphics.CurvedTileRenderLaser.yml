@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Graphics.CurvedTileRenderLaser
+  commentId: T:Danmokou.Graphics.CurvedTileRenderLaser
+  id: CurvedTileRenderLaser
+  parent: Danmokou.Graphics
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: CurvedTileRenderLaser
+  nameWithType: CurvedTileRenderLaser
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser
+  type: Class
+  source:
+    id: CurvedTileRenderLaser
+    path: ''
+    startLine: 5630
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Graphics
+  syntax:
+    content: 'public class CurvedTileRenderLaser : CurvedTileRender'
+    content.vb: >-
+      Public Class CurvedTileRenderLaser
+          Inherits CurvedTileRender
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Danmokou.Graphics
+  commentId: N:Danmokou.Graphics
+  name: Danmokou.Graphics
+  nameWithType: Danmokou.Graphics
+  fullName: Danmokou.Graphics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

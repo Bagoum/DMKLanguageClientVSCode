@@ -1,0 +1,1267 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.TSMReflection
+  commentId: T:Danmokou.SM.TSMReflection
+  id: TSMReflection
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.TSMReflection.Confirm
+  - Danmokou.SM.TSMReflection.ContinuedText(System.String)
+  - Danmokou.SM.TSMReflection.ContinuedTextNewline(System.String)
+  - Danmokou.SM.TSMReflection.FadeStandIn(System.String,System.Single)
+  - Danmokou.SM.TSMReflection.FadeStandOut(System.String,System.Single)
+  - Danmokou.SM.TSMReflection.Place(Danmokou.SM.TSMReflection.StandLocation,System.String)
+  - Danmokou.SM.TSMReflection.RawSummon(System.String)
+  - Danmokou.SM.TSMReflection.Re(Danmokou.SM.StateMachine)
+  - Danmokou.SM.TSMReflection.Set(Danmokou.SM.StateMachine[])
+  - Danmokou.SM.TSMReflection.SetEmote(System.String,System.String)
+  - Danmokou.SM.TSMReflection.SetStandOpacity(System.String,System.Single)
+  - Danmokou.SM.TSMReflection.SpeakL(System.String)
+  - Danmokou.SM.TSMReflection.SpeakLC
+  - Danmokou.SM.TSMReflection.SpeakLCE(System.String)
+  - Danmokou.SM.TSMReflection.SpeakLE(System.String,System.String)
+  - Danmokou.SM.TSMReflection.SpeakR(System.String)
+  - Danmokou.SM.TSMReflection.SpeakRC
+  - Danmokou.SM.TSMReflection.SpeakRCE(System.String)
+  - Danmokou.SM.TSMReflection.SpeakRE(System.String,System.String)
+  - Danmokou.SM.TSMReflection.Text(System.String)
+  - Danmokou.SM.TSMReflection.TextConfirm(System.String)
+  - Danmokou.SM.TSMReflection.Wait(Danmokou.SM.Synchronizer)
+  langs:
+  - csharp
+  - vb
+  name: TSMReflection
+  nameWithType: TSMReflection
+  fullName: Danmokou.SM.TSMReflection
+  type: Class
+  source:
+    id: TSMReflection
+    path: ''
+    startLine: 16496
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static class TSMReflection
+    content.vb: Public Module TSMReflection
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.SM.TSMReflection.Re(Danmokou.SM.StateMachine)
+  commentId: M:Danmokou.SM.TSMReflection.Re(Danmokou.SM.StateMachine)
+  id: Re(Danmokou.SM.StateMachine)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: Re(StateMachine)
+  nameWithType: TSMReflection.Re(StateMachine)
+  fullName: Danmokou.SM.TSMReflection.Re(Danmokou.SM.StateMachine)
+  type: Method
+  source:
+    id: Re
+    path: ''
+    startLine: 16545
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern Re(StateMachine sm)
+    parameters:
+    - id: sm
+      type: Danmokou.SM.StateMachine
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function Re(sm As StateMachine) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.Re*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.Wait(Danmokou.SM.Synchronizer)
+  commentId: M:Danmokou.SM.TSMReflection.Wait(Danmokou.SM.Synchronizer)
+  id: Wait(Danmokou.SM.Synchronizer)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: Wait(Synchronizer)
+  nameWithType: TSMReflection.Wait(Synchronizer)
+  fullName: Danmokou.SM.TSMReflection.Wait(Danmokou.SM.Synchronizer)
+  type: Method
+  source:
+    id: Wait
+    path: ''
+    startLine: 16546
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern Wait(Synchronizer synchr)
+    parameters:
+    - id: synchr
+      type: Danmokou.SM.Synchronizer
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function Wait(synchr As Synchronizer) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.Wait*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.Confirm
+  commentId: M:Danmokou.SM.TSMReflection.Confirm
+  id: Confirm
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: Confirm()
+  nameWithType: TSMReflection.Confirm()
+  fullName: Danmokou.SM.TSMReflection.Confirm()
+  type: Method
+  source:
+    id: Confirm
+    path: ''
+    startLine: 16551
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern Confirm()
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function Confirm As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.Confirm*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.Place(Danmokou.SM.TSMReflection.StandLocation,System.String)
+  commentId: M:Danmokou.SM.TSMReflection.Place(Danmokou.SM.TSMReflection.StandLocation,System.String)
+  id: Place(Danmokou.SM.TSMReflection.StandLocation,System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: Place(TSMReflection.StandLocation, String)
+  nameWithType: TSMReflection.Place(TSMReflection.StandLocation, String)
+  fullName: Danmokou.SM.TSMReflection.Place(Danmokou.SM.TSMReflection.StandLocation, System.String)
+  type: Method
+  source:
+    id: Place
+    path: ''
+    startLine: 16554
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern Place(TSMReflection.StandLocation location, string profile_key)
+    parameters:
+    - id: location
+      type: Danmokou.SM.TSMReflection.StandLocation
+    - id: profile_key
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function Place(location As TSMReflection.StandLocation, profile_key As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.Place*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SetStandOpacity(System.String,System.Single)
+  commentId: M:Danmokou.SM.TSMReflection.SetStandOpacity(System.String,System.Single)
+  id: SetStandOpacity(System.String,System.Single)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SetStandOpacity(String, Single)
+  nameWithType: TSMReflection.SetStandOpacity(String, Single)
+  fullName: Danmokou.SM.TSMReflection.SetStandOpacity(System.String, System.Single)
+  type: Method
+  source:
+    id: SetStandOpacity
+    path: ''
+    startLine: 16572
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SetStandOpacity(string profile_key, float opacity)
+    parameters:
+    - id: profile_key
+      type: System.String
+    - id: opacity
+      type: System.Single
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SetStandOpacity(profile_key As String, opacity As Single) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SetStandOpacity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.FadeStandIn(System.String,System.Single)
+  commentId: M:Danmokou.SM.TSMReflection.FadeStandIn(System.String,System.Single)
+  id: FadeStandIn(System.String,System.Single)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: FadeStandIn(String, Single)
+  nameWithType: TSMReflection.FadeStandIn(String, Single)
+  fullName: Danmokou.SM.TSMReflection.FadeStandIn(System.String, System.Single)
+  type: Method
+  source:
+    id: FadeStandIn
+    path: ''
+    startLine: 16577
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern FadeStandIn(string profile_key, float time)
+    parameters:
+    - id: profile_key
+      type: System.String
+    - id: time
+      type: System.Single
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function FadeStandIn(profile_key As String, time As Single) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.FadeStandIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.FadeStandOut(System.String,System.Single)
+  commentId: M:Danmokou.SM.TSMReflection.FadeStandOut(System.String,System.Single)
+  id: FadeStandOut(System.String,System.Single)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: FadeStandOut(String, Single)
+  nameWithType: TSMReflection.FadeStandOut(String, Single)
+  fullName: Danmokou.SM.TSMReflection.FadeStandOut(System.String, System.Single)
+  type: Method
+  source:
+    id: FadeStandOut
+    path: ''
+    startLine: 16578
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern FadeStandOut(string profile_key, float time)
+    parameters:
+    - id: profile_key
+      type: System.String
+    - id: time
+      type: System.Single
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function FadeStandOut(profile_key As String, time As Single) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.FadeStandOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.Text(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.Text(System.String)
+  id: Text(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: Text(String)
+  nameWithType: TSMReflection.Text(String)
+  fullName: Danmokou.SM.TSMReflection.Text(System.String)
+  type: Method
+  source:
+    id: Text
+    path: ''
+    startLine: 16585
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern Text(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function Text(text As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.Text*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.ContinuedText(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.ContinuedText(System.String)
+  id: ContinuedText(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: ContinuedText(String)
+  nameWithType: TSMReflection.ContinuedText(String)
+  fullName: Danmokou.SM.TSMReflection.ContinuedText(System.String)
+  type: Method
+  source:
+    id: ContinuedText
+    path: ''
+    startLine: 16587
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern ContinuedText(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function ContinuedText(text As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.ContinuedText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.ContinuedTextNewline(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.ContinuedTextNewline(System.String)
+  id: ContinuedTextNewline(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: ContinuedTextNewline(String)
+  nameWithType: TSMReflection.ContinuedTextNewline(String)
+  fullName: Danmokou.SM.TSMReflection.ContinuedTextNewline(System.String)
+  type: Method
+  source:
+    id: ContinuedTextNewline
+    path: ''
+    startLine: 16589
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern ContinuedTextNewline(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function ContinuedTextNewline(text As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.ContinuedTextNewline*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.TextConfirm(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.TextConfirm(System.String)
+  id: TextConfirm(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: TextConfirm(String)
+  nameWithType: TSMReflection.TextConfirm(String)
+  fullName: Danmokou.SM.TSMReflection.TextConfirm(System.String)
+  type: Method
+  source:
+    id: TextConfirm
+    path: ''
+    startLine: 16591
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern TextConfirm(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function TextConfirm(text As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.TextConfirm*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SpeakL(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.SpeakL(System.String)
+  id: SpeakL(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SpeakL(String)
+  nameWithType: TSMReflection.SpeakL(String)
+  fullName: Danmokou.SM.TSMReflection.SpeakL(System.String)
+  type: Method
+  source:
+    id: SpeakL
+    path: ''
+    startLine: 16613
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SpeakL(string profile)
+    parameters:
+    - id: profile
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SpeakL(profile As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SpeakL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SpeakR(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.SpeakR(System.String)
+  id: SpeakR(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SpeakR(String)
+  nameWithType: TSMReflection.SpeakR(String)
+  fullName: Danmokou.SM.TSMReflection.SpeakR(System.String)
+  type: Method
+  source:
+    id: SpeakR
+    path: ''
+    startLine: 16615
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SpeakR(string profile)
+    parameters:
+    - id: profile
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SpeakR(profile As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SpeakR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SpeakLE(System.String,System.String)
+  commentId: M:Danmokou.SM.TSMReflection.SpeakLE(System.String,System.String)
+  id: SpeakLE(System.String,System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SpeakLE(String, String)
+  nameWithType: TSMReflection.SpeakLE(String, String)
+  fullName: Danmokou.SM.TSMReflection.SpeakLE(System.String, System.String)
+  type: Method
+  source:
+    id: SpeakLE
+    path: ''
+    startLine: 16617
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SpeakLE(string profile, string e)
+    parameters:
+    - id: profile
+      type: System.String
+    - id: e
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SpeakLE(profile As String, e As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SpeakLE*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SpeakRE(System.String,System.String)
+  commentId: M:Danmokou.SM.TSMReflection.SpeakRE(System.String,System.String)
+  id: SpeakRE(System.String,System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SpeakRE(String, String)
+  nameWithType: TSMReflection.SpeakRE(String, String)
+  fullName: Danmokou.SM.TSMReflection.SpeakRE(System.String, System.String)
+  type: Method
+  source:
+    id: SpeakRE
+    path: ''
+    startLine: 16619
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SpeakRE(string profile, string e)
+    parameters:
+    - id: profile
+      type: System.String
+    - id: e
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SpeakRE(profile As String, e As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SpeakRE*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SpeakLC
+  commentId: M:Danmokou.SM.TSMReflection.SpeakLC
+  id: SpeakLC
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SpeakLC()
+  nameWithType: TSMReflection.SpeakLC()
+  fullName: Danmokou.SM.TSMReflection.SpeakLC()
+  type: Method
+  source:
+    id: SpeakLC
+    path: ''
+    startLine: 16621
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SpeakLC()
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SpeakLC As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SpeakLC*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SpeakRC
+  commentId: M:Danmokou.SM.TSMReflection.SpeakRC
+  id: SpeakRC
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SpeakRC()
+  nameWithType: TSMReflection.SpeakRC()
+  fullName: Danmokou.SM.TSMReflection.SpeakRC()
+  type: Method
+  source:
+    id: SpeakRC
+    path: ''
+    startLine: 16623
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SpeakRC()
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SpeakRC As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SpeakRC*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SpeakLCE(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.SpeakLCE(System.String)
+  id: SpeakLCE(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SpeakLCE(String)
+  nameWithType: TSMReflection.SpeakLCE(String)
+  fullName: Danmokou.SM.TSMReflection.SpeakLCE(System.String)
+  type: Method
+  source:
+    id: SpeakLCE
+    path: ''
+    startLine: 16625
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SpeakLCE(string e)
+    parameters:
+    - id: e
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SpeakLCE(e As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SpeakLCE*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SpeakRCE(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.SpeakRCE(System.String)
+  id: SpeakRCE(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SpeakRCE(String)
+  nameWithType: TSMReflection.SpeakRCE(String)
+  fullName: Danmokou.SM.TSMReflection.SpeakRCE(System.String)
+  type: Method
+  source:
+    id: SpeakRCE
+    path: ''
+    startLine: 16627
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SpeakRCE(string e)
+    parameters:
+    - id: e
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SpeakRCE(e As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SpeakRCE*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.SetEmote(System.String,System.String)
+  commentId: M:Danmokou.SM.TSMReflection.SetEmote(System.String,System.String)
+  id: SetEmote(System.String,System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: SetEmote(String, String)
+  nameWithType: TSMReflection.SetEmote(String, String)
+  fullName: Danmokou.SM.TSMReflection.SetEmote(System.String, System.String)
+  type: Method
+  source:
+    id: SetEmote
+    path: ''
+    startLine: 16630
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern SetEmote(string profile, string e)
+    parameters:
+    - id: profile
+      type: System.String
+    - id: e
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function SetEmote(profile As String, e As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.SetEmote*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.TSMReflection.Set(Danmokou.SM.StateMachine[])
+  commentId: M:Danmokou.SM.TSMReflection.Set(Danmokou.SM.StateMachine[])
+  id: Set(Danmokou.SM.StateMachine[])
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: Set(StateMachine[])
+  nameWithType: TSMReflection.Set(StateMachine[])
+  fullName: Danmokou.SM.TSMReflection.Set(Danmokou.SM.StateMachine[])
+  type: Method
+  source:
+    id: Set
+    path: ''
+    startLine: 16637
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern Set(StateMachine[] states)
+    parameters:
+    - id: states
+      type: Danmokou.SM.StateMachine[]
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function Set(states As StateMachine()) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.Set*
+  nameWithType.vb: TSMReflection.Set(StateMachine())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.TSMReflection.Set(Danmokou.SM.StateMachine())
+  name.vb: Set(StateMachine())
+- uid: Danmokou.SM.TSMReflection.RawSummon(System.String)
+  commentId: M:Danmokou.SM.TSMReflection.RawSummon(System.String)
+  id: RawSummon(System.String)
+  parent: Danmokou.SM.TSMReflection
+  langs:
+  - csharp
+  - vb
+  name: RawSummon(String)
+  nameWithType: TSMReflection.RawSummon(String)
+  fullName: Danmokou.SM.TSMReflection.RawSummon(System.String)
+  type: Method
+  source:
+    id: RawSummon
+    path: ''
+    startLine: 16644
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static TTaskPattern RawSummon(string prefabName)
+    parameters:
+    - id: prefabName
+      type: System.String
+    return:
+      type: Danmokou.SM.TTaskPattern
+    content.vb: Public Shared Function RawSummon(prefabName As String) As TTaskPattern
+  overload: Danmokou.SM.TSMReflection.RawSummon*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.TSMReflection.Re*
+  commentId: Overload:Danmokou.SM.TSMReflection.Re
+  name: Re
+  nameWithType: TSMReflection.Re
+  fullName: Danmokou.SM.TSMReflection.Re
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.TTaskPattern
+  commentId: T:Danmokou.SM.TTaskPattern
+  parent: Danmokou.SM
+  name: TTaskPattern
+  nameWithType: TTaskPattern
+  fullName: Danmokou.SM.TTaskPattern
+- uid: Danmokou.SM.TSMReflection.Wait*
+  commentId: Overload:Danmokou.SM.TSMReflection.Wait
+  name: Wait
+  nameWithType: TSMReflection.Wait
+  fullName: Danmokou.SM.TSMReflection.Wait
+- uid: Danmokou.SM.Synchronizer
+  commentId: T:Danmokou.SM.Synchronizer
+  parent: Danmokou.SM
+  name: Synchronizer
+  nameWithType: Synchronizer
+  fullName: Danmokou.SM.Synchronizer
+- uid: Danmokou.SM.TSMReflection.Confirm*
+  commentId: Overload:Danmokou.SM.TSMReflection.Confirm
+  name: Confirm
+  nameWithType: TSMReflection.Confirm
+  fullName: Danmokou.SM.TSMReflection.Confirm
+- uid: Danmokou.SM.TSMReflection.Place*
+  commentId: Overload:Danmokou.SM.TSMReflection.Place
+  name: Place
+  nameWithType: TSMReflection.Place
+  fullName: Danmokou.SM.TSMReflection.Place
+- uid: Danmokou.SM.TSMReflection.StandLocation
+  commentId: T:Danmokou.SM.TSMReflection.StandLocation
+  parent: Danmokou.SM
+  name: TSMReflection.StandLocation
+  nameWithType: TSMReflection.StandLocation
+  fullName: Danmokou.SM.TSMReflection.StandLocation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.SM.TSMReflection.SetStandOpacity*
+  commentId: Overload:Danmokou.SM.TSMReflection.SetStandOpacity
+  name: SetStandOpacity
+  nameWithType: TSMReflection.SetStandOpacity
+  fullName: Danmokou.SM.TSMReflection.SetStandOpacity
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.SM.TSMReflection.FadeStandIn*
+  commentId: Overload:Danmokou.SM.TSMReflection.FadeStandIn
+  name: FadeStandIn
+  nameWithType: TSMReflection.FadeStandIn
+  fullName: Danmokou.SM.TSMReflection.FadeStandIn
+- uid: Danmokou.SM.TSMReflection.FadeStandOut*
+  commentId: Overload:Danmokou.SM.TSMReflection.FadeStandOut
+  name: FadeStandOut
+  nameWithType: TSMReflection.FadeStandOut
+  fullName: Danmokou.SM.TSMReflection.FadeStandOut
+- uid: Danmokou.SM.TSMReflection.Text*
+  commentId: Overload:Danmokou.SM.TSMReflection.Text
+  name: Text
+  nameWithType: TSMReflection.Text
+  fullName: Danmokou.SM.TSMReflection.Text
+- uid: Danmokou.SM.TSMReflection.ContinuedText*
+  commentId: Overload:Danmokou.SM.TSMReflection.ContinuedText
+  name: ContinuedText
+  nameWithType: TSMReflection.ContinuedText
+  fullName: Danmokou.SM.TSMReflection.ContinuedText
+- uid: Danmokou.SM.TSMReflection.ContinuedTextNewline*
+  commentId: Overload:Danmokou.SM.TSMReflection.ContinuedTextNewline
+  name: ContinuedTextNewline
+  nameWithType: TSMReflection.ContinuedTextNewline
+  fullName: Danmokou.SM.TSMReflection.ContinuedTextNewline
+- uid: Danmokou.SM.TSMReflection.TextConfirm*
+  commentId: Overload:Danmokou.SM.TSMReflection.TextConfirm
+  name: TextConfirm
+  nameWithType: TSMReflection.TextConfirm
+  fullName: Danmokou.SM.TSMReflection.TextConfirm
+- uid: Danmokou.SM.TSMReflection.SpeakL*
+  commentId: Overload:Danmokou.SM.TSMReflection.SpeakL
+  name: SpeakL
+  nameWithType: TSMReflection.SpeakL
+  fullName: Danmokou.SM.TSMReflection.SpeakL
+- uid: Danmokou.SM.TSMReflection.SpeakR*
+  commentId: Overload:Danmokou.SM.TSMReflection.SpeakR
+  name: SpeakR
+  nameWithType: TSMReflection.SpeakR
+  fullName: Danmokou.SM.TSMReflection.SpeakR
+- uid: Danmokou.SM.TSMReflection.SpeakLE*
+  commentId: Overload:Danmokou.SM.TSMReflection.SpeakLE
+  name: SpeakLE
+  nameWithType: TSMReflection.SpeakLE
+  fullName: Danmokou.SM.TSMReflection.SpeakLE
+- uid: Danmokou.SM.TSMReflection.SpeakRE*
+  commentId: Overload:Danmokou.SM.TSMReflection.SpeakRE
+  name: SpeakRE
+  nameWithType: TSMReflection.SpeakRE
+  fullName: Danmokou.SM.TSMReflection.SpeakRE
+- uid: Danmokou.SM.TSMReflection.SpeakLC*
+  commentId: Overload:Danmokou.SM.TSMReflection.SpeakLC
+  name: SpeakLC
+  nameWithType: TSMReflection.SpeakLC
+  fullName: Danmokou.SM.TSMReflection.SpeakLC
+- uid: Danmokou.SM.TSMReflection.SpeakRC*
+  commentId: Overload:Danmokou.SM.TSMReflection.SpeakRC
+  name: SpeakRC
+  nameWithType: TSMReflection.SpeakRC
+  fullName: Danmokou.SM.TSMReflection.SpeakRC
+- uid: Danmokou.SM.TSMReflection.SpeakLCE*
+  commentId: Overload:Danmokou.SM.TSMReflection.SpeakLCE
+  name: SpeakLCE
+  nameWithType: TSMReflection.SpeakLCE
+  fullName: Danmokou.SM.TSMReflection.SpeakLCE
+- uid: Danmokou.SM.TSMReflection.SpeakRCE*
+  commentId: Overload:Danmokou.SM.TSMReflection.SpeakRCE
+  name: SpeakRCE
+  nameWithType: TSMReflection.SpeakRCE
+  fullName: Danmokou.SM.TSMReflection.SpeakRCE
+- uid: Danmokou.SM.TSMReflection.SetEmote*
+  commentId: Overload:Danmokou.SM.TSMReflection.SetEmote
+  name: SetEmote
+  nameWithType: TSMReflection.SetEmote
+  fullName: Danmokou.SM.TSMReflection.SetEmote
+- uid: Danmokou.SM.TSMReflection.Set*
+  commentId: Overload:Danmokou.SM.TSMReflection.Set
+  name: Set
+  nameWithType: TSMReflection.Set
+  fullName: Danmokou.SM.TSMReflection.Set
+- uid: Danmokou.SM.StateMachine[]
+  isExternal: true
+  name: StateMachine[]
+  nameWithType: StateMachine[]
+  fullName: Danmokou.SM.StateMachine[]
+  nameWithType.vb: StateMachine()
+  fullName.vb: Danmokou.SM.StateMachine()
+  name.vb: StateMachine()
+  spec.csharp:
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.SM.TSMReflection.RawSummon*
+  commentId: Overload:Danmokou.SM.TSMReflection.RawSummon
+  name: RawSummon
+  nameWithType: TSMReflection.RawSummon
+  fullName: Danmokou.SM.TSMReflection.RawSummon

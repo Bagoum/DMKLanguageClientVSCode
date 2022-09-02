@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku
+  commentId: N:Danmokou.Danmaku
+  id: Danmokou.Danmaku
+  children:
+  - Danmokou.Danmaku.BulletManager
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: Danmokou.Danmaku
+  nameWithType: Danmokou.Danmaku
+  fullName: Danmokou.Danmaku
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Danmokou.Danmaku.BulletManager
+  commentId: T:Danmokou.Danmaku.BulletManager
+  name: BulletManager
+  nameWithType: BulletManager
+  fullName: Danmokou.Danmaku.BulletManager
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  commentId: T:Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  name: BulletManager.SimpleBulletControls
+  nameWithType: BulletManager.SimpleBulletControls
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  commentId: T:Danmokou.Danmaku.BulletManager.SimplePoolControls
+  name: BulletManager.SimplePoolControls
+  nameWithType: BulletManager.SimplePoolControls
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls

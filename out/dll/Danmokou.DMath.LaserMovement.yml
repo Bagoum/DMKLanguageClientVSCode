@@ -1,0 +1,781 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.LaserMovement
+  commentId: T:Danmokou.DMath.LaserMovement
+  id: LaserMovement
+  parent: Danmokou.DMath
+  children:
+  - Danmokou.DMath.LaserMovement.#ctor(Danmokou.DMath.LVTP,Vector2,V2RV2)
+  - Danmokou.DMath.LaserMovement.#ctor(System.Single,Danmokou.DMath.BPY)
+  - Danmokou.DMath.LaserMovement.cos_rot
+  - Danmokou.DMath.LaserMovement.flipX
+  - Danmokou.DMath.LaserMovement.FlipX
+  - Danmokou.DMath.LaserMovement.flipY
+  - Danmokou.DMath.LaserMovement.FlipY
+  - Danmokou.DMath.LaserMovement.isSimple
+  - Danmokou.DMath.LaserMovement.ResetFlip
+  - Danmokou.DMath.LaserMovement.rootPos
+  - Danmokou.DMath.LaserMovement.RotationDeg(Danmokou.DMath.ParametricInfo)
+  - Danmokou.DMath.LaserMovement.sin_rot
+  - Danmokou.DMath.LaserMovement.Update(System.Single@,Danmokou.DMath.ParametricInfo@,Vector2@,System.Single@)
+  langs:
+  - csharp
+  - vb
+  name: LaserMovement
+  nameWithType: LaserMovement
+  fullName: Danmokou.DMath.LaserMovement
+  type: Struct
+  source:
+    id: LaserMovement
+    path: ''
+    startLine: 6931
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nAn &quot;extension&quot; of the Movement struct to describe the nested movement function of a laser.\n"
+  example: []
+  syntax:
+    content: public struct LaserMovement
+    content.vb: Public Structure LaserMovement
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Danmokou.DMath.LaserMovement.cos_rot
+  commentId: F:Danmokou.DMath.LaserMovement.cos_rot
+  id: cos_rot
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: cos_rot
+  nameWithType: LaserMovement.cos_rot
+  fullName: Danmokou.DMath.LaserMovement.cos_rot
+  type: Field
+  source:
+    id: cos_rot
+    path: ''
+    startLine: 6935
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly float cos_rot
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly cos_rot As Single
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LaserMovement.sin_rot
+  commentId: F:Danmokou.DMath.LaserMovement.sin_rot
+  id: sin_rot
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: sin_rot
+  nameWithType: LaserMovement.sin_rot
+  fullName: Danmokou.DMath.LaserMovement.sin_rot
+  type: Field
+  source:
+    id: sin_rot
+    path: ''
+    startLine: 6937
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly float sin_rot
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly sin_rot As Single
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LaserMovement.rootPos
+  commentId: F:Danmokou.DMath.LaserMovement.rootPos
+  id: rootPos
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: rootPos
+  nameWithType: LaserMovement.rootPos
+  fullName: Danmokou.DMath.LaserMovement.rootPos
+  type: Field
+  source:
+    id: rootPos
+    path: ''
+    startLine: 6939
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public Vector2 rootPos
+    return:
+      type: Vector2
+    content.vb: Public rootPos As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LaserMovement.flipX
+  commentId: F:Danmokou.DMath.LaserMovement.flipX
+  id: flipX
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: flipX
+  nameWithType: LaserMovement.flipX
+  fullName: Danmokou.DMath.LaserMovement.flipX
+  type: Field
+  source:
+    id: flipX
+    path: ''
+    startLine: 6942
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float flipX
+    return:
+      type: System.Single
+    content.vb: Public flipX As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LaserMovement.flipY
+  commentId: F:Danmokou.DMath.LaserMovement.flipY
+  id: flipY
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: flipY
+  nameWithType: LaserMovement.flipY
+  fullName: Danmokou.DMath.LaserMovement.flipY
+  type: Field
+  source:
+    id: flipY
+    path: ''
+    startLine: 6943
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float flipY
+    return:
+      type: System.Single
+    content.vb: Public flipY As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LaserMovement.isSimple
+  commentId: F:Danmokou.DMath.LaserMovement.isSimple
+  id: isSimple
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: isSimple
+  nameWithType: LaserMovement.isSimple
+  fullName: Danmokou.DMath.LaserMovement.isSimple
+  type: Field
+  source:
+    id: isSimple
+    path: ''
+    startLine: 6946
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly bool isSimple
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly isSimple As Boolean
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LaserMovement.#ctor(Danmokou.DMath.LVTP,Vector2,V2RV2)
+  commentId: M:Danmokou.DMath.LaserMovement.#ctor(Danmokou.DMath.LVTP,Vector2,V2RV2)
+  id: '#ctor(Danmokou.DMath.LVTP,Vector2,V2RV2)'
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: LaserMovement(LVTP, Vector2, V2RV2)
+  nameWithType: LaserMovement.LaserMovement(LVTP, Vector2, V2RV2)
+  fullName: Danmokou.DMath.LaserMovement.LaserMovement(Danmokou.DMath.LVTP, Vector2, V2RV2)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6948
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public LaserMovement(LVTP path, Vector2 parentLoc, V2RV2 localLoc)
+    parameters:
+    - id: path
+      type: Danmokou.DMath.LVTP
+    - id: parentLoc
+      type: Vector2
+    - id: localLoc
+      type: V2RV2
+    content.vb: Public Sub New(path As LVTP, parentLoc As Vector2, localLoc As V2RV2)
+  overload: Danmokou.DMath.LaserMovement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LaserMovement.#ctor(System.Single,Danmokou.DMath.BPY)
+  commentId: M:Danmokou.DMath.LaserMovement.#ctor(System.Single,Danmokou.DMath.BPY)
+  id: '#ctor(System.Single,Danmokou.DMath.BPY)'
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: LaserMovement(Single, BPY)
+  nameWithType: LaserMovement.LaserMovement(Single, BPY)
+  fullName: Danmokou.DMath.LaserMovement.LaserMovement(System.Single, Danmokou.DMath.BPY)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6967
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nSimple laser variant: fires in a straight line.\n"
+  example: []
+  syntax:
+    content: public LaserMovement(float base_rot_deg, BPY frame_rot)
+    parameters:
+    - id: base_rot_deg
+      type: System.Single
+      description: ''
+    - id: frame_rot
+      type: Danmokou.DMath.BPY
+      description: ''
+    content.vb: Public Sub New(base_rot_deg As Single, frame_rot As BPY)
+  overload: Danmokou.DMath.LaserMovement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LaserMovement.Update(System.Single@,Danmokou.DMath.ParametricInfo@,Vector2@,System.Single@)
+  commentId: M:Danmokou.DMath.LaserMovement.Update(System.Single@,Danmokou.DMath.ParametricInfo@,Vector2@,System.Single@)
+  id: Update(System.Single@,Danmokou.DMath.ParametricInfo@,Vector2@,System.Single@)
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: Update(in Single, ref ParametricInfo, out Vector2, in Single)
+  nameWithType: LaserMovement.Update(in Single, ref ParametricInfo, out Vector2, in Single)
+  fullName: Danmokou.DMath.LaserMovement.Update(in System.Single, ref Danmokou.DMath.ParametricInfo, out Vector2, in System.Single)
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 6981
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void Update(in float lt, ref ParametricInfo bpi, out Vector2 delta, in float dT)
+    parameters:
+    - id: lt
+      type: System.Single
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+    - id: delta
+      type: Vector2
+    - id: dT
+      type: System.Single
+    content.vb: Public Sub Update(ByRef lt As Single, ByRef bpi As ParametricInfo, ByRef delta As Vector2, ByRef dT As Single)
+  overload: Danmokou.DMath.LaserMovement.Update*
+  nameWithType.vb: LaserMovement.Update(ByRef Single, ByRef ParametricInfo, ByRef Vector2, ByRef Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.LaserMovement.Update(ByRef System.Single, ByRef Danmokou.DMath.ParametricInfo, ByRef Vector2, ByRef System.Single)
+  name.vb: Update(ByRef Single, ByRef ParametricInfo, ByRef Vector2, ByRef Single)
+- uid: Danmokou.DMath.LaserMovement.RotationDeg(Danmokou.DMath.ParametricInfo)
+  commentId: M:Danmokou.DMath.LaserMovement.RotationDeg(Danmokou.DMath.ParametricInfo)
+  id: RotationDeg(Danmokou.DMath.ParametricInfo)
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: RotationDeg(ParametricInfo)
+  nameWithType: LaserMovement.RotationDeg(ParametricInfo)
+  fullName: Danmokou.DMath.LaserMovement.RotationDeg(Danmokou.DMath.ParametricInfo)
+  type: Method
+  source:
+    id: RotationDeg
+    path: ''
+    startLine: 6998
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float RotationDeg(ParametricInfo bpi)
+    parameters:
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+    return:
+      type: System.Single
+    content.vb: Public Function RotationDeg(bpi As ParametricInfo) As Single
+  overload: Danmokou.DMath.LaserMovement.RotationDeg*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LaserMovement.FlipX
+  commentId: M:Danmokou.DMath.LaserMovement.FlipX
+  id: FlipX
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: FlipX()
+  nameWithType: LaserMovement.FlipX()
+  fullName: Danmokou.DMath.LaserMovement.FlipX()
+  type: Method
+  source:
+    id: FlipX
+    path: ''
+    startLine: 7001
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void FlipX()
+    content.vb: Public Sub FlipX
+  overload: Danmokou.DMath.LaserMovement.FlipX*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LaserMovement.FlipY
+  commentId: M:Danmokou.DMath.LaserMovement.FlipY
+  id: FlipY
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: FlipY()
+  nameWithType: LaserMovement.FlipY()
+  fullName: Danmokou.DMath.LaserMovement.FlipY()
+  type: Method
+  source:
+    id: FlipY
+    path: ''
+    startLine: 7006
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void FlipY()
+    content.vb: Public Sub FlipY
+  overload: Danmokou.DMath.LaserMovement.FlipY*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LaserMovement.ResetFlip
+  commentId: M:Danmokou.DMath.LaserMovement.ResetFlip
+  id: ResetFlip
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: ResetFlip()
+  nameWithType: LaserMovement.ResetFlip()
+  fullName: Danmokou.DMath.LaserMovement.ResetFlip()
+  type: Method
+  source:
+    id: ResetFlip
+    path: ''
+    startLine: 7010
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void ResetFlip()
+    content.vb: Public Sub ResetFlip
+  overload: Danmokou.DMath.LaserMovement.ResetFlip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.DMath.LaserMovement.#ctor*
+  commentId: Overload:Danmokou.DMath.LaserMovement.#ctor
+  name: LaserMovement
+  nameWithType: LaserMovement.LaserMovement
+  fullName: Danmokou.DMath.LaserMovement.LaserMovement
+- uid: Danmokou.DMath.LVTP
+  commentId: T:Danmokou.DMath.LVTP
+  parent: Danmokou.DMath
+  name: LVTP
+  nameWithType: LVTP
+  fullName: Danmokou.DMath.LVTP
+- uid: V2RV2
+  isExternal: true
+  name: V2RV2
+  nameWithType: V2RV2
+  fullName: V2RV2
+- uid: Danmokou.DMath.BPY
+  commentId: T:Danmokou.DMath.BPY
+  parent: Danmokou.DMath
+  name: BPY
+  nameWithType: BPY
+  fullName: Danmokou.DMath.BPY
+- uid: Danmokou.DMath.LaserMovement.Update*
+  commentId: Overload:Danmokou.DMath.LaserMovement.Update
+  name: Update
+  nameWithType: LaserMovement.Update
+  fullName: Danmokou.DMath.LaserMovement.Update
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: Danmokou.DMath.LaserMovement.RotationDeg*
+  commentId: Overload:Danmokou.DMath.LaserMovement.RotationDeg
+  name: RotationDeg
+  nameWithType: LaserMovement.RotationDeg
+  fullName: Danmokou.DMath.LaserMovement.RotationDeg
+- uid: Danmokou.DMath.LaserMovement.FlipX*
+  commentId: Overload:Danmokou.DMath.LaserMovement.FlipX
+  name: FlipX
+  nameWithType: LaserMovement.FlipX
+  fullName: Danmokou.DMath.LaserMovement.FlipX
+- uid: Danmokou.DMath.LaserMovement.FlipY*
+  commentId: Overload:Danmokou.DMath.LaserMovement.FlipY
+  name: FlipY
+  nameWithType: LaserMovement.FlipY
+  fullName: Danmokou.DMath.LaserMovement.FlipY
+- uid: Danmokou.DMath.LaserMovement.ResetFlip*
+  commentId: Overload:Danmokou.DMath.LaserMovement.ResetFlip
+  name: ResetFlip
+  nameWithType: LaserMovement.ResetFlip
+  fullName: Danmokou.DMath.LaserMovement.ResetFlip

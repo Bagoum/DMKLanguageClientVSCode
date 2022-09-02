@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.SyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.SyncPattern
+  id: SyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SyncPattern
+  nameWithType: SyncPattern
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern
+  type: Delegate
+  source:
+    id: SyncPattern
+    path: ''
+    startLine: 4601
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public delegate void SyncPattern(SyncHandoff sbh);
+    parameters:
+    - id: sbh
+      type: Danmokou.Danmaku.Patterns.SyncHandoff
+    content.vb: Public Delegate Sub SyncPattern(sbh As SyncHandoff)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.SyncHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncHandoff
+  nameWithType: SyncHandoff
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff

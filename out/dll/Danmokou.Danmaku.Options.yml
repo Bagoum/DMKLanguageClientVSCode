@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Options
+  commentId: N:Danmokou.Danmaku.Options
+  id: Danmokou.Danmaku.Options
+  children:
+  - Danmokou.Danmaku.Options.BehOption
+  - Danmokou.Danmaku.Options.GenCtxProperty
+  - Danmokou.Danmaku.Options.LaserOption
+  - Danmokou.Danmaku.Options.SBOption
+  langs:
+  - csharp
+  - vb
+  name: Danmokou.Danmaku.Options
+  nameWithType: Danmokou.Danmaku.Options
+  fullName: Danmokou.Danmaku.Options
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Danmokou.Danmaku.Options.BehOption
+  commentId: T:Danmokou.Danmaku.Options.BehOption
+  parent: Danmokou.Danmaku.Options
+  name: BehOption
+  nameWithType: BehOption
+  fullName: Danmokou.Danmaku.Options.BehOption
+- uid: Danmokou.Danmaku.Options.GenCtxProperty
+  commentId: T:Danmokou.Danmaku.Options.GenCtxProperty
+  parent: Danmokou.Danmaku.Options
+  name: GenCtxProperty
+  nameWithType: GenCtxProperty
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty
+- uid: Danmokou.Danmaku.Options.LaserOption
+  commentId: T:Danmokou.Danmaku.Options.LaserOption
+  parent: Danmokou.Danmaku.Options
+  name: LaserOption
+  nameWithType: LaserOption
+  fullName: Danmokou.Danmaku.Options.LaserOption
+- uid: Danmokou.Danmaku.Options.SBOption
+  commentId: T:Danmokou.Danmaku.Options.SBOption
+  parent: Danmokou.Danmaku.Options
+  name: SBOption
+  nameWithType: SBOption
+  fullName: Danmokou.Danmaku.Options.SBOption
+- uid: Danmokou.Danmaku.Options
+  commentId: N:Danmokou.Danmaku.Options
+  name: Danmokou.Danmaku.Options
+  nameWithType: Danmokou.Danmaku.Options
+  fullName: Danmokou.Danmaku.Options

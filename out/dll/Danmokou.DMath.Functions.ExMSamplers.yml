@@ -1,0 +1,632 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMSamplers
+  commentId: T:Danmokou.DMath.Functions.ExMSamplers
+  id: ExMSamplers
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMSamplers.SampleIf``1(ExPred,System.Func{TExArgCtx,TEx{``0}})
+  - Danmokou.DMath.Functions.ExMSamplers.SS0``1(System.Func{TExArgCtx,TEx{``0}})
+  - Danmokou.DMath.Functions.ExMSamplers.StopSampling``1(ExBPY,System.Func{TExArgCtx,TEx{``0}})
+  langs:
+  - csharp
+  - vb
+  name: ExMSamplers
+  nameWithType: ExMSamplers
+  fullName: Danmokou.DMath.Functions.ExMSamplers
+  type: Class
+  source:
+    id: ExMSamplers
+    path: ''
+    startLine: 12024
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM\" data-throw-if-not-resolved=\"false\"></xref>. This class contains functions related to subsamplers.\n"
+  example: []
+  syntax:
+    content: public static class ExMSamplers
+    content.vb: Public Module ExMSamplers
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMSamplers.StopSampling``1(ExBPY,System.Func{TExArgCtx,TEx{``0}})
+  commentId: M:Danmokou.DMath.Functions.ExMSamplers.StopSampling``1(ExBPY,System.Func{TExArgCtx,TEx{``0}})
+  id: StopSampling``1(ExBPY,System.Func{TExArgCtx,TEx{``0}})
+  parent: Danmokou.DMath.Functions.ExMSamplers
+  langs:
+  - csharp
+  - vb
+  name: StopSampling<T>(ExBPY, Func<TExArgCtx, TEx<T>>)
+  nameWithType: ExMSamplers.StopSampling<T>(ExBPY, Func<TExArgCtx, TEx<T>>)
+  fullName: Danmokou.DMath.Functions.ExMSamplers.StopSampling<T>(ExBPY, System.Func<TExArgCtx, TEx<T>>)
+  type: Method
+  source:
+    id: StopSampling
+    path: ''
+    startLine: 12034
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIf the input time is less than the reference time, evaluate the invokee. Otherwise, return the last returned evaluation.\n<br />You can call this with zero sampling time, and it will sample the invokee once. However, in this case SS0 is preferred.\n"
+  example: []
+  syntax:
+    content: public static Func<TExArgCtx, TEx<T>> StopSampling<T>(ExBPY time, Func<TExArgCtx, TEx<T>> p)
+    parameters:
+    - id: time
+      type: ExBPY
+      description: Time at which to stop sampling
+    - id: p
+      type: System.Func{TExArgCtx,TEx{{T}}}
+      description: Target function
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{TExArgCtx,TEx{{T}}}
+      description: ''
+    content.vb: Public Shared Function StopSampling(Of T)(time As ExBPY, p As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+  overload: Danmokou.DMath.Functions.ExMSamplers.StopSampling*
+  nameWithType.vb: ExMSamplers.StopSampling(Of T)(ExBPY, Func(Of TExArgCtx, TEx(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMSamplers.StopSampling(Of T)(ExBPY, System.Func(Of TExArgCtx, TEx(Of T)))
+  name.vb: StopSampling(Of T)(ExBPY, Func(Of TExArgCtx, TEx(Of T)))
+- uid: Danmokou.DMath.Functions.ExMSamplers.SampleIf``1(ExPred,System.Func{TExArgCtx,TEx{``0}})
+  commentId: M:Danmokou.DMath.Functions.ExMSamplers.SampleIf``1(ExPred,System.Func{TExArgCtx,TEx{``0}})
+  id: SampleIf``1(ExPred,System.Func{TExArgCtx,TEx{``0}})
+  parent: Danmokou.DMath.Functions.ExMSamplers
+  langs:
+  - csharp
+  - vb
+  name: SampleIf<T>(ExPred, Func<TExArgCtx, TEx<T>>)
+  nameWithType: ExMSamplers.SampleIf<T>(ExPred, Func<TExArgCtx, TEx<T>>)
+  fullName: Danmokou.DMath.Functions.ExMSamplers.SampleIf<T>(ExPred, System.Func<TExArgCtx, TEx<T>>)
+  type: Method
+  source:
+    id: SampleIf
+    path: ''
+    startLine: 12042
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIf the condition is true, evaluate the invokee. Otherwise, return the last returned evaluation.\n<br />You can call this with zero sampling time, and it will sample the invokee once. However, in this case SS0 is preferred.\n"
+  example: []
+  syntax:
+    content: public static Func<TExArgCtx, TEx<T>> SampleIf<T>(ExPred cond, Func<TExArgCtx, TEx<T>> p)
+    parameters:
+    - id: cond
+      type: ExPred
+    - id: p
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    content.vb: Public Shared Function SampleIf(Of T)(cond As ExPred, p As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+  overload: Danmokou.DMath.Functions.ExMSamplers.SampleIf*
+  nameWithType.vb: ExMSamplers.SampleIf(Of T)(ExPred, Func(Of TExArgCtx, TEx(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMSamplers.SampleIf(Of T)(ExPred, System.Func(Of TExArgCtx, TEx(Of T)))
+  name.vb: SampleIf(Of T)(ExPred, Func(Of TExArgCtx, TEx(Of T)))
+- uid: Danmokou.DMath.Functions.ExMSamplers.SS0``1(System.Func{TExArgCtx,TEx{``0}})
+  commentId: M:Danmokou.DMath.Functions.ExMSamplers.SS0``1(System.Func{TExArgCtx,TEx{``0}})
+  id: SS0``1(System.Func{TExArgCtx,TEx{``0}})
+  parent: Danmokou.DMath.Functions.ExMSamplers
+  langs:
+  - csharp
+  - vb
+  name: SS0<T>(Func<TExArgCtx, TEx<T>>)
+  nameWithType: ExMSamplers.SS0<T>(Func<TExArgCtx, TEx<T>>)
+  fullName: Danmokou.DMath.Functions.ExMSamplers.SS0<T>(System.Func<TExArgCtx, TEx<T>>)
+  type: Method
+  source:
+    id: SS0
+    path: ''
+    startLine: 12057
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSamples an invokee exactly once.\n"
+  example: []
+  syntax:
+    content: public static Func<TExArgCtx, TEx<T>> SS0<T>(Func<TExArgCtx, TEx<T>> p)
+    parameters:
+    - id: p
+      type: System.Func{TExArgCtx,TEx{{T}}}
+      description: Target function
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{TExArgCtx,TEx{{T}}}
+      description: ''
+    content.vb: Public Shared Function SS0(Of T)(p As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+  overload: Danmokou.DMath.Functions.ExMSamplers.SS0*
+  nameWithType.vb: ExMSamplers.SS0(Of T)(Func(Of TExArgCtx, TEx(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMSamplers.SS0(Of T)(System.Func(Of TExArgCtx, TEx(Of T)))
+  name.vb: SS0(Of T)(Func(Of TExArgCtx, TEx(Of T)))
+references:
+- uid: Danmokou.DMath.Functions.ExM
+  commentId: T:Danmokou.DMath.Functions.ExM
+  name: ExM
+  nameWithType: ExM
+  fullName: Danmokou.DMath.Functions.ExM
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMSamplers.StopSampling*
+  commentId: Overload:Danmokou.DMath.Functions.ExMSamplers.StopSampling
+  name: StopSampling
+  nameWithType: ExMSamplers.StopSampling
+  fullName: Danmokou.DMath.Functions.ExMSamplers.StopSampling
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: System.Func{TExArgCtx,TEx{{T}}}
+  commentId: T:System.Func{TExArgCtx,TEx{``0}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<T>>
+  nameWithType: Func<TExArgCtx, TEx<T>>
+  fullName: System.Func<TExArgCtx, TEx<T>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of T))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of T))
+  name.vb: Func(Of TExArgCtx, TEx(Of T))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.ExMSamplers.SampleIf*
+  commentId: Overload:Danmokou.DMath.Functions.ExMSamplers.SampleIf
+  name: SampleIf
+  nameWithType: ExMSamplers.SampleIf
+  fullName: Danmokou.DMath.Functions.ExMSamplers.SampleIf
+- uid: ExPred
+  isExternal: true
+  name: ExPred
+  nameWithType: ExPred
+  fullName: ExPred
+- uid: Danmokou.DMath.Functions.ExMSamplers.SS0*
+  commentId: Overload:Danmokou.DMath.Functions.ExMSamplers.SS0
+  name: SS0
+  nameWithType: ExMSamplers.SS0
+  fullName: Danmokou.DMath.Functions.ExMSamplers.SS0

@@ -1,0 +1,1061 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1
+  commentId: T:Danmokou.Danmaku.Patterns.LoopControl`1
+  id: LoopControl`1
+  parent: Danmokou.Danmaku.Patterns
+  children:
+  - Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff,System.Boolean@)
+  - Danmokou.Danmaku.Patterns.LoopControl`1.FinishIteration
+  - Danmokou.Danmaku.Patterns.LoopControl`1.GCX
+  - Danmokou.Danmaku.Patterns.LoopControl`1.GetFiringIndex(Parametrization,System.Int32,System.Int32,System.Nullable{System.Int32})
+  - Danmokou.Danmaku.Patterns.LoopControl`1.Handoff
+  - Danmokou.Danmaku.Patterns.LoopControl`1.IAmDone(System.Boolean)
+  - Danmokou.Danmaku.Patterns.LoopControl`1.IsUnpaused
+  - Danmokou.Danmaku.Patterns.LoopControl`1.PrepareIteration
+  - Danmokou.Danmaku.Patterns.LoopControl`1.PrepareLastIteration
+  - Danmokou.Danmaku.Patterns.LoopControl`1.props
+  - Danmokou.Danmaku.Patterns.LoopControl`1.Remains
+  - Danmokou.Danmaku.Patterns.LoopControl`1.RemainsExceptLast
+  - Danmokou.Danmaku.Patterns.LoopControl`1.times
+  - Danmokou.Danmaku.Patterns.LoopControl`1.WaitStep
+  langs:
+  - csharp
+  - vb
+  name: LoopControl<T>
+  nameWithType: LoopControl<T>
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>
+  type: Struct
+  source:
+    id: LoopControl
+    path: ''
+    startLine: 5005
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public struct LoopControl<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Structure LoopControl(Of T)
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  nameWithType.vb: LoopControl(Of T)
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T)
+  name.vb: LoopControl(Of T)
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.props
+  commentId: F:Danmokou.Danmaku.Patterns.LoopControl`1.props
+  id: props
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: props
+  nameWithType: LoopControl<T>.props
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.props
+  type: Field
+  source:
+    id: props
+    path: ''
+    startLine: 5006
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly GenCtxProperties<T> props
+    return:
+      type: GenCtxProperties{{T}}
+    content.vb: Public ReadOnly props As GenCtxProperties(Of T)
+  nameWithType.vb: LoopControl(Of T).props
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).props
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.times
+  commentId: F:Danmokou.Danmaku.Patterns.LoopControl`1.times
+  id: times
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: times
+  nameWithType: LoopControl<T>.times
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.times
+  type: Field
+  source:
+    id: times
+    path: ''
+    startLine: 5009
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly int times
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly times As Integer
+  nameWithType.vb: LoopControl(Of T).times
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).times
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.Handoff
+  commentId: P:Danmokou.Danmaku.Patterns.LoopControl`1.Handoff
+  id: Handoff
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: Handoff
+  nameWithType: LoopControl<T>.Handoff
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.Handoff
+  type: Property
+  source:
+    id: Handoff
+    path: ''
+    startLine: 5012
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly CommonHandoff Handoff { get; }
+    parameters: []
+    return:
+      type: Danmokou.Danmaku.Patterns.CommonHandoff
+    content.vb: Public ReadOnly Property Handoff As CommonHandoff
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.Handoff*
+  nameWithType.vb: LoopControl(Of T).Handoff
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).Handoff
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.GCX
+  commentId: P:Danmokou.Danmaku.Patterns.LoopControl`1.GCX
+  id: GCX
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: GCX
+  nameWithType: LoopControl<T>.GCX
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.GCX
+  type: Property
+  source:
+    id: GCX
+    path: ''
+    startLine: 5013
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly GenCtx GCX { get; }
+    parameters: []
+    return:
+      type: GenCtx
+    content.vb: Public ReadOnly Property GCX As GenCtx
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.GCX*
+  nameWithType.vb: LoopControl(Of T).GCX
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).GCX
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff,System.Boolean@)
+  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff,System.Boolean@)
+  id: '#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff,System.Boolean@)'
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: LoopControl(GenCtxProperties<T>, CommonHandoff, out Boolean)
+  nameWithType: LoopControl<T>.LoopControl(GenCtxProperties<T>, CommonHandoff, out Boolean)
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.LoopControl(GenCtxProperties<T>, Danmokou.Danmaku.Patterns.CommonHandoff, out System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5014
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public LoopControl(GenCtxProperties<T> props, CommonHandoff _ch, out bool isClipped)
+    parameters:
+    - id: props
+      type: GenCtxProperties{{T}}
+    - id: _ch
+      type: Danmokou.Danmaku.Patterns.CommonHandoff
+    - id: isClipped
+      type: System.Boolean
+    content.vb: Public Sub New(props As GenCtxProperties(Of T), _ch As CommonHandoff, ByRef isClipped As Boolean)
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.#ctor*
+  nameWithType.vb: LoopControl(Of T).LoopControl(GenCtxProperties(Of T), CommonHandoff, ByRef Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).LoopControl(GenCtxProperties(Of T), Danmokou.Danmaku.Patterns.CommonHandoff, ByRef System.Boolean)
+  name.vb: LoopControl(GenCtxProperties(Of T), CommonHandoff, ByRef Boolean)
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.RemainsExceptLast
+  commentId: P:Danmokou.Danmaku.Patterns.LoopControl`1.RemainsExceptLast
+  id: RemainsExceptLast
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: RemainsExceptLast
+  nameWithType: LoopControl<T>.RemainsExceptLast
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.RemainsExceptLast
+  type: Property
+  source:
+    id: RemainsExceptLast
+    path: ''
+    startLine: 5075
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly bool RemainsExceptLast { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property RemainsExceptLast As Boolean
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.RemainsExceptLast*
+  nameWithType.vb: LoopControl(Of T).RemainsExceptLast
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).RemainsExceptLast
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.Remains
+  commentId: P:Danmokou.Danmaku.Patterns.LoopControl`1.Remains
+  id: Remains
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: Remains
+  nameWithType: LoopControl<T>.Remains
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.Remains
+  type: Property
+  source:
+    id: Remains
+    path: ''
+    startLine: 5076
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly bool Remains { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Remains As Boolean
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.Remains*
+  nameWithType.vb: LoopControl(Of T).Remains
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).Remains
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.IsUnpaused
+  commentId: P:Danmokou.Danmaku.Patterns.LoopControl`1.IsUnpaused
+  id: IsUnpaused
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: IsUnpaused
+  nameWithType: LoopControl<T>.IsUnpaused
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.IsUnpaused
+  type: Property
+  source:
+    id: IsUnpaused
+    path: ''
+    startLine: 5078
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly bool IsUnpaused { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsUnpaused As Boolean
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.IsUnpaused*
+  nameWithType.vb: LoopControl(Of T).IsUnpaused
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).IsUnpaused
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.WaitStep
+  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.WaitStep
+  id: WaitStep
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: WaitStep()
+  nameWithType: LoopControl<T>.WaitStep()
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.WaitStep()
+  type: Method
+  source:
+    id: WaitStep
+    path: ''
+    startLine: 5082
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public void WaitStep()
+    content.vb: Public Sub WaitStep
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.WaitStep*
+  nameWithType.vb: LoopControl(Of T).WaitStep()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).WaitStep()
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.GetFiringIndex(Parametrization,System.Int32,System.Int32,System.Nullable{System.Int32})
+  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.GetFiringIndex(Parametrization,System.Int32,System.Int32,System.Nullable{System.Int32})
+  id: GetFiringIndex(Parametrization,System.Int32,System.Int32,System.Nullable{System.Int32})
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: GetFiringIndex(Parametrization, Int32, Int32, Nullable<Int32>)
+  nameWithType: LoopControl<T>.GetFiringIndex(Parametrization, Int32, Int32, Nullable<Int32>)
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.GetFiringIndex(Parametrization, System.Int32, System.Int32, System.Nullable<System.Int32>)
+  type: Method
+  source:
+    id: GetFiringIndex
+    path: ''
+    startLine: 5089
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static int GetFiringIndex(Parametrization p, int parentIndex, int thisIndex, int? thisRpt)
+    parameters:
+    - id: p
+      type: Parametrization
+    - id: parentIndex
+      type: System.Int32
+    - id: thisIndex
+      type: System.Int32
+    - id: thisRpt
+      type: System.Nullable{System.Int32}
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetFiringIndex(p As Parametrization, parentIndex As Integer, thisIndex As Integer, thisRpt As Integer?) As Integer
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.GetFiringIndex*
+  nameWithType.vb: LoopControl(Of T).GetFiringIndex(Parametrization, Int32, Int32, Nullable(Of Int32))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).GetFiringIndex(Parametrization, System.Int32, System.Int32, System.Nullable(Of System.Int32))
+  name.vb: GetFiringIndex(Parametrization, Int32, Int32, Nullable(Of Int32))
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.PrepareIteration
+  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.PrepareIteration
+  id: PrepareIteration
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: PrepareIteration()
+  nameWithType: LoopControl<T>.PrepareIteration()
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.PrepareIteration()
+  type: Method
+  source:
+    id: PrepareIteration
+    path: ''
+    startLine: 5111
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public bool PrepareIteration()
+    return:
+      type: System.Boolean
+    content.vb: Public Function PrepareIteration As Boolean
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.PrepareIteration*
+  nameWithType.vb: LoopControl(Of T).PrepareIteration()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).PrepareIteration()
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.PrepareLastIteration
+  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.PrepareLastIteration
+  id: PrepareLastIteration
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: PrepareLastIteration()
+  nameWithType: LoopControl<T>.PrepareLastIteration()
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.PrepareLastIteration()
+  type: Method
+  source:
+    id: PrepareLastIteration
+    path: ''
+    startLine: 5168
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public bool PrepareLastIteration()
+    return:
+      type: System.Boolean
+    content.vb: Public Function PrepareLastIteration As Boolean
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.PrepareLastIteration*
+  nameWithType.vb: LoopControl(Of T).PrepareLastIteration()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).PrepareLastIteration()
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.FinishIteration
+  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.FinishIteration
+  id: FinishIteration
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: FinishIteration()
+  nameWithType: LoopControl<T>.FinishIteration()
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.FinishIteration()
+  type: Method
+  source:
+    id: FinishIteration
+    path: ''
+    startLine: 5175
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public void FinishIteration()
+    content.vb: Public Sub FinishIteration
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.FinishIteration*
+  nameWithType.vb: LoopControl(Of T).FinishIteration()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).FinishIteration()
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.IAmDone(System.Boolean)
+  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.IAmDone(System.Boolean)
+  id: IAmDone(System.Boolean)
+  parent: Danmokou.Danmaku.Patterns.LoopControl`1
+  langs:
+  - csharp
+  - vb
+  name: IAmDone(Boolean)
+  nameWithType: LoopControl<T>.IAmDone(Boolean)
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.IAmDone(System.Boolean)
+  type: Method
+  source:
+    id: IAmDone
+    path: ''
+    startLine: 5180
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public void IAmDone(bool normalEnd)
+    parameters:
+    - id: normalEnd
+      type: System.Boolean
+    content.vb: Public Sub IAmDone(normalEnd As Boolean)
+  overload: Danmokou.Danmaku.Patterns.LoopControl`1.IAmDone*
+  nameWithType.vb: LoopControl(Of T).IAmDone(Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).IAmDone(System.Boolean)
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GenCtxProperties{{T}}
+  commentId: '!:GenCtxProperties{`0}'
+  definition: GenCtxProperties`1
+  name: GenCtxProperties<T>
+  nameWithType: GenCtxProperties<T>
+  fullName: GenCtxProperties<T>
+  nameWithType.vb: GenCtxProperties(Of T)
+  fullName.vb: GenCtxProperties(Of T)
+  name.vb: GenCtxProperties(Of T)
+  spec.csharp:
+  - uid: GenCtxProperties`1
+    name: GenCtxProperties
+    nameWithType: GenCtxProperties
+    fullName: GenCtxProperties
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GenCtxProperties`1
+    name: GenCtxProperties
+    nameWithType: GenCtxProperties
+    fullName: GenCtxProperties
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GenCtxProperties`1
+  isExternal: true
+  name: GenCtxProperties<>
+  nameWithType: GenCtxProperties<>
+  fullName: GenCtxProperties<>
+  nameWithType.vb: GenCtxProperties(Of )
+  fullName.vb: GenCtxProperties(Of )
+  name.vb: GenCtxProperties(Of )
+  spec.csharp:
+  - uid: GenCtxProperties`1
+    name: GenCtxProperties
+    nameWithType: GenCtxProperties
+    fullName: GenCtxProperties
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GenCtxProperties`1
+    name: GenCtxProperties
+    nameWithType: GenCtxProperties
+    fullName: GenCtxProperties
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.Handoff*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.Handoff
+  name: Handoff
+  nameWithType: LoopControl<T>.Handoff
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.Handoff
+  nameWithType.vb: LoopControl(Of T).Handoff
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).Handoff
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.CommonHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: CommonHandoff
+  nameWithType: CommonHandoff
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.GCX*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.GCX
+  name: GCX
+  nameWithType: LoopControl<T>.GCX
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.GCX
+  nameWithType.vb: LoopControl(Of T).GCX
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).GCX
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.#ctor*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.#ctor
+  name: LoopControl
+  nameWithType: LoopControl<T>.LoopControl
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.LoopControl
+  nameWithType.vb: LoopControl(Of T).LoopControl
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).LoopControl
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.RemainsExceptLast*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.RemainsExceptLast
+  name: RemainsExceptLast
+  nameWithType: LoopControl<T>.RemainsExceptLast
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.RemainsExceptLast
+  nameWithType.vb: LoopControl(Of T).RemainsExceptLast
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).RemainsExceptLast
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.Remains*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.Remains
+  name: Remains
+  nameWithType: LoopControl<T>.Remains
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.Remains
+  nameWithType.vb: LoopControl(Of T).Remains
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).Remains
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.IsUnpaused*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.IsUnpaused
+  name: IsUnpaused
+  nameWithType: LoopControl<T>.IsUnpaused
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.IsUnpaused
+  nameWithType.vb: LoopControl(Of T).IsUnpaused
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).IsUnpaused
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.WaitStep*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.WaitStep
+  name: WaitStep
+  nameWithType: LoopControl<T>.WaitStep
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.WaitStep
+  nameWithType.vb: LoopControl(Of T).WaitStep
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).WaitStep
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.GetFiringIndex*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.GetFiringIndex
+  name: GetFiringIndex
+  nameWithType: LoopControl<T>.GetFiringIndex
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.GetFiringIndex
+  nameWithType.vb: LoopControl(Of T).GetFiringIndex
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).GetFiringIndex
+- uid: Parametrization
+  isExternal: true
+  name: Parametrization
+  nameWithType: Parametrization
+  fullName: Parametrization
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.PrepareIteration*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.PrepareIteration
+  name: PrepareIteration
+  nameWithType: LoopControl<T>.PrepareIteration
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.PrepareIteration
+  nameWithType.vb: LoopControl(Of T).PrepareIteration
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).PrepareIteration
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.PrepareLastIteration*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.PrepareLastIteration
+  name: PrepareLastIteration
+  nameWithType: LoopControl<T>.PrepareLastIteration
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.PrepareLastIteration
+  nameWithType.vb: LoopControl(Of T).PrepareLastIteration
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).PrepareLastIteration
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.FinishIteration*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.FinishIteration
+  name: FinishIteration
+  nameWithType: LoopControl<T>.FinishIteration
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.FinishIteration
+  nameWithType.vb: LoopControl(Of T).FinishIteration
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).FinishIteration
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.IAmDone*
+  commentId: Overload:Danmokou.Danmaku.Patterns.LoopControl`1.IAmDone
+  name: IAmDone
+  nameWithType: LoopControl<T>.IAmDone
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.IAmDone
+  nameWithType.vb: LoopControl(Of T).IAmDone
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).IAmDone

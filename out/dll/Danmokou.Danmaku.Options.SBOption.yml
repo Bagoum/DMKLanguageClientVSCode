@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Options.SBOption
+  commentId: T:Danmokou.Danmaku.Options.SBOption
+  id: SBOption
+  parent: Danmokou.Danmaku.Options
+  children:
+  - Danmokou.Danmaku.Options.SBOption.Dir(System.Func{TExArgCtx,TEx{System.Single}})
+  - Danmokou.Danmaku.Options.SBOption.Dir2(GCXU{SBV2})
+  - Danmokou.Danmaku.Options.SBOption.Player(System.Int32,System.Int32,System.String)
+  - Danmokou.Danmaku.Options.SBOption.Scale(GCXU{BPY})
+  langs:
+  - csharp
+  - vb
+  name: SBOption
+  nameWithType: SBOption
+  fullName: Danmokou.Danmaku.Options.SBOption
+  type: Class
+  source:
+    id: SBOption
+    path: ''
+    startLine: 3902
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nProperties that modify the behavior of simple bullets.\n"
+  example: []
+  syntax:
+    content: public class SBOption
+    content.vb: Public Class SBOption
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.Danmaku.Options.SBOption.Scale(GCXU{BPY})
+  commentId: M:Danmokou.Danmaku.Options.SBOption.Scale(GCXU{BPY})
+  id: Scale(GCXU{BPY})
+  parent: Danmokou.Danmaku.Options.SBOption
+  langs:
+  - csharp
+  - vb
+  name: Scale(GCXU<BPY>)
+  nameWithType: SBOption.Scale(GCXU<BPY>)
+  fullName: Danmokou.Danmaku.Options.SBOption.Scale(GCXU<BPY>)
+  type: Method
+  source:
+    id: Scale
+    path: ''
+    startLine: 3907
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nGive the bullet a custom scale.\n"
+  example: []
+  syntax:
+    content: public static SBOption Scale(GCXU<BPY> scale)
+    parameters:
+    - id: scale
+      type: GCXU{BPY}
+    return:
+      type: Danmokou.Danmaku.Options.SBOption
+    content.vb: Public Shared Function Scale(scale As GCXU(Of BPY)) As SBOption
+  overload: Danmokou.Danmaku.Options.SBOption.Scale*
+  nameWithType.vb: SBOption.Scale(GCXU(Of BPY))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.SBOption.Scale(GCXU(Of BPY))
+  name.vb: Scale(GCXU(Of BPY))
+- uid: Danmokou.Danmaku.Options.SBOption.Dir(System.Func{TExArgCtx,TEx{System.Single}})
+  commentId: M:Danmokou.Danmaku.Options.SBOption.Dir(System.Func{TExArgCtx,TEx{System.Single}})
+  id: Dir(System.Func{TExArgCtx,TEx{System.Single}})
+  parent: Danmokou.Danmaku.Options.SBOption
+  langs:
+  - csharp
+  - vb
+  name: Dir(Func<TExArgCtx, TEx<Single>>)
+  nameWithType: SBOption.Dir(Func<TExArgCtx, TEx<Single>>)
+  fullName: Danmokou.Danmaku.Options.SBOption.Dir(System.Func<TExArgCtx, TEx<System.Single>>)
+  type: Method
+  source:
+    id: Dir
+    path: ''
+    startLine: 3911
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nGive the bullet a custom rotation function, in degrees.\n"
+  example: []
+  syntax:
+    content: public static SBOption Dir(Func<TExArgCtx, TEx<float>> dir)
+    parameters:
+    - id: dir
+      type: System.Func{TExArgCtx,TEx{System.Single}}
+    return:
+      type: Danmokou.Danmaku.Options.SBOption
+    content.vb: Public Shared Function Dir(dir As Func(Of TExArgCtx, TEx(Of Single))) As SBOption
+  overload: Danmokou.Danmaku.Options.SBOption.Dir*
+  nameWithType.vb: SBOption.Dir(Func(Of TExArgCtx, TEx(Of Single)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.SBOption.Dir(System.Func(Of TExArgCtx, TEx(Of System.Single)))
+  name.vb: Dir(Func(Of TExArgCtx, TEx(Of Single)))
+- uid: Danmokou.Danmaku.Options.SBOption.Dir2(GCXU{SBV2})
+  commentId: M:Danmokou.Danmaku.Options.SBOption.Dir2(GCXU{SBV2})
+  id: Dir2(GCXU{SBV2})
+  parent: Danmokou.Danmaku.Options.SBOption
+  langs:
+  - csharp
+  - vb
+  name: Dir2(GCXU<SBV2>)
+  nameWithType: SBOption.Dir2(GCXU<SBV2>)
+  fullName: Danmokou.Danmaku.Options.SBOption.Dir2(GCXU<SBV2>)
+  type: Method
+  source:
+    id: Dir2
+    path: ''
+    startLine: 3915
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nGive the bullet a custom rotation function, in cos/sin coordinates.\n"
+  example: []
+  syntax:
+    content: public static SBOption Dir2(GCXU<SBV2> dir)
+    parameters:
+    - id: dir
+      type: GCXU{SBV2}
+    return:
+      type: Danmokou.Danmaku.Options.SBOption
+    content.vb: Public Shared Function Dir2(dir As GCXU(Of SBV2)) As SBOption
+  overload: Danmokou.Danmaku.Options.SBOption.Dir2*
+  nameWithType.vb: SBOption.Dir2(GCXU(Of SBV2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.SBOption.Dir2(GCXU(Of SBV2))
+  name.vb: Dir2(GCXU(Of SBV2))
+- uid: Danmokou.Danmaku.Options.SBOption.Player(System.Int32,System.Int32,System.String)
+  commentId: M:Danmokou.Danmaku.Options.SBOption.Player(System.Int32,System.Int32,System.String)
+  id: Player(System.Int32,System.Int32,System.String)
+  parent: Danmokou.Danmaku.Options.SBOption
+  langs:
+  - csharp
+  - vb
+  name: Player(Int32, Int32, String)
+  nameWithType: SBOption.Player(Int32, Int32, String)
+  fullName: Danmokou.Danmaku.Options.SBOption.Player(System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    id: Player
+    path: ''
+    startLine: 3923
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nMark the bullet as a player shot.\n"
+  example: []
+  syntax:
+    content: public static SBOption Player(int bossDmg, int stageDmg, string effStrategy)
+    parameters:
+    - id: bossDmg
+      type: System.Int32
+      description: Damage against boss enemies
+    - id: stageDmg
+      type: System.Int32
+      description: Damage against stage enemies
+    - id: effStrategy
+      type: System.String
+      description: On-hit effect
+    return:
+      type: Danmokou.Danmaku.Options.SBOption
+    content.vb: Public Shared Function Player(bossDmg As Integer, stageDmg As Integer, effStrategy As String) As SBOption
+  overload: Danmokou.Danmaku.Options.SBOption.Player*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.Danmaku.Options
+  commentId: N:Danmokou.Danmaku.Options
+  name: Danmokou.Danmaku.Options
+  nameWithType: Danmokou.Danmaku.Options
+  fullName: Danmokou.Danmaku.Options
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Danmaku.Options.SBOption.Scale*
+  commentId: Overload:Danmokou.Danmaku.Options.SBOption.Scale
+  name: Scale
+  nameWithType: SBOption.Scale
+  fullName: Danmokou.Danmaku.Options.SBOption.Scale
+- uid: GCXU{BPY}
+  commentId: '!:GCXU{BPY}'
+  definition: GCXU`1
+  name: GCXU<BPY>
+  nameWithType: GCXU<BPY>
+  fullName: GCXU<BPY>
+  nameWithType.vb: GCXU(Of BPY)
+  fullName.vb: GCXU(Of BPY)
+  name.vb: GCXU(Of BPY)
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BPY
+    name: BPY
+    nameWithType: BPY
+    fullName: BPY
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BPY
+    name: BPY
+    nameWithType: BPY
+    fullName: BPY
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.SBOption
+  commentId: T:Danmokou.Danmaku.Options.SBOption
+  parent: Danmokou.Danmaku.Options
+  name: SBOption
+  nameWithType: SBOption
+  fullName: Danmokou.Danmaku.Options.SBOption
+- uid: GCXU`1
+  isExternal: true
+  name: GCXU<>
+  nameWithType: GCXU<>
+  fullName: GCXU<>
+  nameWithType.vb: GCXU(Of )
+  fullName.vb: GCXU(Of )
+  name.vb: GCXU(Of )
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.SBOption.Dir*
+  commentId: Overload:Danmokou.Danmaku.Options.SBOption.Dir
+  name: Dir
+  nameWithType: SBOption.Dir
+  fullName: Danmokou.Danmaku.Options.SBOption.Dir
+- uid: System.Func{TExArgCtx,TEx{System.Single}}
+  commentId: T:System.Func{TExArgCtx,TEx{System.Single}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<Single>>
+  nameWithType: Func<TExArgCtx, TEx<Single>>
+  fullName: System.Func<TExArgCtx, TEx<System.Single>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of Single))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of System.Single))
+  name.vb: Func(Of TExArgCtx, TEx(Of Single))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.SBOption.Dir2*
+  commentId: Overload:Danmokou.Danmaku.Options.SBOption.Dir2
+  name: Dir2
+  nameWithType: SBOption.Dir2
+  fullName: Danmokou.Danmaku.Options.SBOption.Dir2
+- uid: GCXU{SBV2}
+  commentId: '!:GCXU{SBV2}'
+  definition: GCXU`1
+  name: GCXU<SBV2>
+  nameWithType: GCXU<SBV2>
+  fullName: GCXU<SBV2>
+  nameWithType.vb: GCXU(Of SBV2)
+  fullName.vb: GCXU(Of SBV2)
+  name.vb: GCXU(Of SBV2)
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SBV2
+    name: SBV2
+    nameWithType: SBV2
+    fullName: SBV2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SBV2
+    name: SBV2
+    nameWithType: SBV2
+    fullName: SBV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.SBOption.Player*
+  commentId: Overload:Danmokou.Danmaku.Options.SBOption.Player
+  name: Player
+  nameWithType: SBOption.Player
+  fullName: Danmokou.Danmaku.Options.SBOption.Player
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

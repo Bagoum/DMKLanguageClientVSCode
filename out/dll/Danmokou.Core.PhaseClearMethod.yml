@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.PhaseClearMethod
+  commentId: T:Danmokou.Core.PhaseClearMethod
+  id: PhaseClearMethod
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.PhaseClearMethod.CANCELLED
+  - Danmokou.Core.PhaseClearMethod.HP
+  - Danmokou.Core.PhaseClearMethod.PHOTO
+  - Danmokou.Core.PhaseClearMethod.TIMEOUT
+  langs:
+  - csharp
+  - vb
+  name: PhaseClearMethod
+  nameWithType: PhaseClearMethod
+  fullName: Danmokou.Core.PhaseClearMethod
+  type: Enum
+  source:
+    id: PhaseClearMethod
+    path: ''
+    startLine: 1207
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum PhaseClearMethod
+    content.vb: Public Enum PhaseClearMethod
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.PhaseClearMethod.HP
+  commentId: F:Danmokou.Core.PhaseClearMethod.HP
+  id: HP
+  parent: Danmokou.Core.PhaseClearMethod
+  langs:
+  - csharp
+  - vb
+  name: HP
+  nameWithType: PhaseClearMethod.HP
+  fullName: Danmokou.Core.PhaseClearMethod.HP
+  type: Field
+  source:
+    id: HP
+    path: ''
+    startLine: 1208
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: HP = 0
+    return:
+      type: Danmokou.Core.PhaseClearMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.PhaseClearMethod.PHOTO
+  commentId: F:Danmokou.Core.PhaseClearMethod.PHOTO
+  id: PHOTO
+  parent: Danmokou.Core.PhaseClearMethod
+  langs:
+  - csharp
+  - vb
+  name: PHOTO
+  nameWithType: PhaseClearMethod.PHOTO
+  fullName: Danmokou.Core.PhaseClearMethod.PHOTO
+  type: Field
+  source:
+    id: PHOTO
+    path: ''
+    startLine: 1209
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: PHOTO = 1
+    return:
+      type: Danmokou.Core.PhaseClearMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.PhaseClearMethod.TIMEOUT
+  commentId: F:Danmokou.Core.PhaseClearMethod.TIMEOUT
+  id: TIMEOUT
+  parent: Danmokou.Core.PhaseClearMethod
+  langs:
+  - csharp
+  - vb
+  name: TIMEOUT
+  nameWithType: PhaseClearMethod.TIMEOUT
+  fullName: Danmokou.Core.PhaseClearMethod.TIMEOUT
+  type: Field
+  source:
+    id: TIMEOUT
+    path: ''
+    startLine: 1210
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: TIMEOUT = 2
+    return:
+      type: Danmokou.Core.PhaseClearMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.PhaseClearMethod.CANCELLED
+  commentId: F:Danmokou.Core.PhaseClearMethod.CANCELLED
+  id: CANCELLED
+  parent: Danmokou.Core.PhaseClearMethod
+  langs:
+  - csharp
+  - vb
+  name: CANCELLED
+  nameWithType: PhaseClearMethod.CANCELLED
+  fullName: Danmokou.Core.PhaseClearMethod.CANCELLED
+  type: Field
+  source:
+    id: CANCELLED
+    path: ''
+    startLine: 1211
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: CANCELLED = 3
+    return:
+      type: Danmokou.Core.PhaseClearMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.PhaseClearMethod
+  commentId: T:Danmokou.Core.PhaseClearMethod
+  parent: Danmokou.Core
+  name: PhaseClearMethod
+  nameWithType: PhaseClearMethod
+  fullName: Danmokou.Core.PhaseClearMethod

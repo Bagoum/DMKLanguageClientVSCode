@@ -1,0 +1,1349 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMEasers
+  commentId: T:Danmokou.DMath.Functions.ExMEasers
+  id: ExMEasers
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMEasers.CEInBack(efloat,efloat)
+  - Danmokou.DMath.Functions.ExMEasers.CEIOBack(efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.CEOutBack(efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EBounce2(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EInBack(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EInBounce(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EInElastic(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EInQuad(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EInQuart(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EInSine(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EIOBack(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EIOBounce(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EIOElastic(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EIOQuad(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EIOQuart(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EIOSine(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.ELinear(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EOutBack(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EOutBounce(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EOutElastic(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EOutQuad(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EOutQuart(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.EOutSine(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.ESine010(tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.ESoftmod010(tfloat)
+  langs:
+  - csharp
+  - vb
+  name: ExMEasers
+  nameWithType: ExMEasers
+  fullName: Danmokou.DMath.Functions.ExMEasers
+  type: Class
+  source:
+    id: ExMEasers
+    path: ''
+    startLine: 11169
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM\" data-throw-if-not-resolved=\"false\"></xref>. This class contains easing functions.\n"
+  example: []
+  syntax:
+    content: public static class ExMEasers
+    content.vb: Public Module ExMEasers
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMEasers.EInSine(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EInSine(tfloat)
+  id: EInSine(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EInSine(tfloat)
+  nameWithType: ExMEasers.EInSine(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInSine(tfloat)
+  type: Method
+  source:
+    id: EInSine
+    path: ''
+    startLine: 11176
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIn-Sine easing function.\n"
+  example: []
+  syntax:
+    content: public static tfloat EInSine(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EInSine(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EInSine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutSine(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EOutSine(tfloat)
+  id: EOutSine(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EOutSine(tfloat)
+  nameWithType: ExMEasers.EOutSine(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutSine(tfloat)
+  type: Method
+  source:
+    id: EOutSine
+    path: ''
+    startLine: 11181
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nOut-Sine easing function.\n"
+  example: []
+  syntax:
+    content: public static tfloat EOutSine(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EOutSine(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EOutSine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOSine(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EIOSine(tfloat)
+  id: EIOSine(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EIOSine(tfloat)
+  nameWithType: ExMEasers.EIOSine(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOSine(tfloat)
+  type: Method
+  source:
+    id: EIOSine
+    path: ''
+    startLine: 11186
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIn-Out-Sine easing function.\n"
+  example: []
+  syntax:
+    content: public static tfloat EIOSine(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EIOSine(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EIOSine*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EInQuad(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EInQuad(tfloat)
+  id: EInQuad(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EInQuad(tfloat)
+  nameWithType: ExMEasers.EInQuad(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInQuad(tfloat)
+  type: Method
+  source:
+    id: EInQuad
+    path: ''
+    startLine: 11189
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EInQuad(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EInQuad(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EInQuad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutQuad(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EOutQuad(tfloat)
+  id: EOutQuad(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EOutQuad(tfloat)
+  nameWithType: ExMEasers.EOutQuad(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutQuad(tfloat)
+  type: Method
+  source:
+    id: EOutQuad
+    path: ''
+    startLine: 11190
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EOutQuad(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EOutQuad(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EOutQuad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOQuad(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EIOQuad(tfloat)
+  id: EIOQuad(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EIOQuad(tfloat)
+  nameWithType: ExMEasers.EIOQuad(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOQuad(tfloat)
+  type: Method
+  source:
+    id: EIOQuad
+    path: ''
+    startLine: 11191
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EIOQuad(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EIOQuad(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EIOQuad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EInQuart(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EInQuart(tfloat)
+  id: EInQuart(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EInQuart(tfloat)
+  nameWithType: ExMEasers.EInQuart(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInQuart(tfloat)
+  type: Method
+  source:
+    id: EInQuart
+    path: ''
+    startLine: 11198
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EInQuart(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EInQuart(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EInQuart*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutQuart(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EOutQuart(tfloat)
+  id: EOutQuart(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EOutQuart(tfloat)
+  nameWithType: ExMEasers.EOutQuart(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutQuart(tfloat)
+  type: Method
+  source:
+    id: EOutQuart
+    path: ''
+    startLine: 11199
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EOutQuart(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EOutQuart(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EOutQuart*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOQuart(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EIOQuart(tfloat)
+  id: EIOQuart(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EIOQuart(tfloat)
+  nameWithType: ExMEasers.EIOQuart(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOQuart(tfloat)
+  type: Method
+  source:
+    id: EIOQuart
+    path: ''
+    startLine: 11200
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EIOQuart(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EIOQuart(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EIOQuart*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EInBack(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EInBack(tfloat)
+  id: EInBack(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EInBack(tfloat)
+  nameWithType: ExMEasers.EInBack(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInBack(tfloat)
+  type: Method
+  source:
+    id: EInBack
+    path: ''
+    startLine: 11209
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EInBack(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EInBack(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EInBack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutBack(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EOutBack(tfloat)
+  id: EOutBack(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EOutBack(tfloat)
+  nameWithType: ExMEasers.EOutBack(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutBack(tfloat)
+  type: Method
+  source:
+    id: EOutBack
+    path: ''
+    startLine: 11210
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EOutBack(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EOutBack(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EOutBack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOBack(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EIOBack(tfloat)
+  id: EIOBack(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EIOBack(tfloat)
+  nameWithType: ExMEasers.EIOBack(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOBack(tfloat)
+  type: Method
+  source:
+    id: EIOBack
+    path: ''
+    startLine: 11211
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EIOBack(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EIOBack(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EIOBack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EInElastic(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EInElastic(tfloat)
+  id: EInElastic(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EInElastic(tfloat)
+  nameWithType: ExMEasers.EInElastic(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInElastic(tfloat)
+  type: Method
+  source:
+    id: EInElastic
+    path: ''
+    startLine: 11213
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EInElastic(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EInElastic(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EInElastic*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutElastic(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EOutElastic(tfloat)
+  id: EOutElastic(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EOutElastic(tfloat)
+  nameWithType: ExMEasers.EOutElastic(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutElastic(tfloat)
+  type: Method
+  source:
+    id: EOutElastic
+    path: ''
+    startLine: 11215
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EOutElastic(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EOutElastic(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EOutElastic*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOElastic(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EIOElastic(tfloat)
+  id: EIOElastic(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EIOElastic(tfloat)
+  nameWithType: ExMEasers.EIOElastic(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOElastic(tfloat)
+  type: Method
+  source:
+    id: EIOElastic
+    path: ''
+    startLine: 11217
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EIOElastic(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EIOElastic(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EIOElastic*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EInBounce(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EInBounce(tfloat)
+  id: EInBounce(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EInBounce(tfloat)
+  nameWithType: ExMEasers.EInBounce(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInBounce(tfloat)
+  type: Method
+  source:
+    id: EInBounce
+    path: ''
+    startLine: 11227
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EInBounce(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EInBounce(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EInBounce*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutBounce(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EOutBounce(tfloat)
+  id: EOutBounce(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EOutBounce(tfloat)
+  nameWithType: ExMEasers.EOutBounce(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutBounce(tfloat)
+  type: Method
+  source:
+    id: EOutBounce
+    path: ''
+    startLine: 11228
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EOutBounce(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EOutBounce(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EOutBounce*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOBounce(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EIOBounce(tfloat)
+  id: EIOBounce(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EIOBounce(tfloat)
+  nameWithType: ExMEasers.EIOBounce(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOBounce(tfloat)
+  type: Method
+  source:
+    id: EIOBounce
+    path: ''
+    startLine: 11239
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EIOBounce(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EIOBounce(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EIOBounce*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.ELinear(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.ELinear(tfloat)
+  id: ELinear(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: ELinear(tfloat)
+  nameWithType: ExMEasers.ELinear(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.ELinear(tfloat)
+  type: Method
+  source:
+    id: ELinear
+    path: ''
+    startLine: 11249
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nLinear easing function (ie. y = x).\n"
+  example: []
+  syntax:
+    content: public static tfloat ELinear(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function ELinear(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.ELinear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.EBounce2(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.EBounce2(tfloat)
+  id: EBounce2(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: EBounce2(tfloat)
+  nameWithType: ExMEasers.EBounce2(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.EBounce2(tfloat)
+  type: Method
+  source:
+    id: EBounce2
+    path: ''
+    startLine: 11251
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat EBounce2(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function EBounce2(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.EBounce2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.ESine010(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.ESine010(tfloat)
+  id: ESine010(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: ESine010(tfloat)
+  nameWithType: ExMEasers.ESine010(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.ESine010(tfloat)
+  type: Method
+  source:
+    id: ESine010
+    path: ''
+    startLine: 11270
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSine easing function with 010 pattern.\n"
+  example: []
+  syntax:
+    content: public static tfloat ESine010(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function ESine010(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.ESine010*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.ESoftmod010(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.ESoftmod010(tfloat)
+  id: ESoftmod010(tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: ESoftmod010(tfloat)
+  nameWithType: ExMEasers.ESoftmod010(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.ESoftmod010(tfloat)
+  type: Method
+  source:
+    id: ESoftmod010
+    path: ''
+    startLine: 11274
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSoftmod easing function with 010 pattern.\n"
+  example: []
+  syntax:
+    content: public static tfloat ESoftmod010(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function ESoftmod010(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.ESoftmod010*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.CEInBack(efloat,efloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEInBack(efloat,efloat)
+  id: CEInBack(efloat,efloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: CEInBack(efloat, efloat)
+  nameWithType: ExMEasers.CEInBack(efloat, efloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEInBack(efloat, efloat)
+  type: Method
+  source:
+    id: CEInBack
+    path: ''
+    startLine: 11278
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat CEInBack(efloat p1, efloat x)
+    parameters:
+    - id: p1
+      type: efloat
+    - id: x
+      type: efloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function CEInBack(p1 As efloat, x As efloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.CEInBack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.CEOutBack(efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEOutBack(efloat,tfloat)
+  id: CEOutBack(efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: CEOutBack(efloat, tfloat)
+  nameWithType: ExMEasers.CEOutBack(efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEOutBack(efloat, tfloat)
+  type: Method
+  source:
+    id: CEOutBack
+    path: ''
+    startLine: 11281
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat CEOutBack(efloat p1, tfloat x)
+    parameters:
+    - id: p1
+      type: efloat
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function CEOutBack(p1 As efloat, x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.CEOutBack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMEasers.CEIOBack(efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEIOBack(efloat,tfloat)
+  id: CEIOBack(efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMEasers
+  langs:
+  - csharp
+  - vb
+  name: CEIOBack(efloat, tfloat)
+  nameWithType: ExMEasers.CEIOBack(efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEIOBack(efloat, tfloat)
+  type: Method
+  source:
+    id: CEIOBack
+    path: ''
+    startLine: 11284
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat CEIOBack(efloat p1, tfloat x)
+    parameters:
+    - id: p1
+      type: efloat
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function CEIOBack(p1 As efloat, x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMEasers.CEIOBack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions.ExM
+  commentId: T:Danmokou.DMath.Functions.ExM
+  name: ExM
+  nameWithType: ExM
+  fullName: Danmokou.DMath.Functions.ExM
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMEasers.EInSine*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EInSine
+  name: EInSine
+  nameWithType: ExMEasers.EInSine
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInSine
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutSine*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EOutSine
+  name: EOutSine
+  nameWithType: ExMEasers.EOutSine
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutSine
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOSine*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EIOSine
+  name: EIOSine
+  nameWithType: ExMEasers.EIOSine
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOSine
+- uid: Danmokou.DMath.Functions.ExMEasers.EInQuad*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EInQuad
+  name: EInQuad
+  nameWithType: ExMEasers.EInQuad
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInQuad
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutQuad*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EOutQuad
+  name: EOutQuad
+  nameWithType: ExMEasers.EOutQuad
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutQuad
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOQuad*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EIOQuad
+  name: EIOQuad
+  nameWithType: ExMEasers.EIOQuad
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOQuad
+- uid: Danmokou.DMath.Functions.ExMEasers.EInQuart*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EInQuart
+  name: EInQuart
+  nameWithType: ExMEasers.EInQuart
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInQuart
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutQuart*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EOutQuart
+  name: EOutQuart
+  nameWithType: ExMEasers.EOutQuart
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutQuart
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOQuart*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EIOQuart
+  name: EIOQuart
+  nameWithType: ExMEasers.EIOQuart
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOQuart
+- uid: Danmokou.DMath.Functions.ExMEasers.EInBack*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EInBack
+  name: EInBack
+  nameWithType: ExMEasers.EInBack
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInBack
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutBack*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EOutBack
+  name: EOutBack
+  nameWithType: ExMEasers.EOutBack
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutBack
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOBack*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EIOBack
+  name: EIOBack
+  nameWithType: ExMEasers.EIOBack
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOBack
+- uid: Danmokou.DMath.Functions.ExMEasers.EInElastic*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EInElastic
+  name: EInElastic
+  nameWithType: ExMEasers.EInElastic
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInElastic
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutElastic*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EOutElastic
+  name: EOutElastic
+  nameWithType: ExMEasers.EOutElastic
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutElastic
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOElastic*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EIOElastic
+  name: EIOElastic
+  nameWithType: ExMEasers.EIOElastic
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOElastic
+- uid: Danmokou.DMath.Functions.ExMEasers.EInBounce*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EInBounce
+  name: EInBounce
+  nameWithType: ExMEasers.EInBounce
+  fullName: Danmokou.DMath.Functions.ExMEasers.EInBounce
+- uid: Danmokou.DMath.Functions.ExMEasers.EOutBounce*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EOutBounce
+  name: EOutBounce
+  nameWithType: ExMEasers.EOutBounce
+  fullName: Danmokou.DMath.Functions.ExMEasers.EOutBounce
+- uid: Danmokou.DMath.Functions.ExMEasers.EIOBounce*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EIOBounce
+  name: EIOBounce
+  nameWithType: ExMEasers.EIOBounce
+  fullName: Danmokou.DMath.Functions.ExMEasers.EIOBounce
+- uid: Danmokou.DMath.Functions.ExMEasers.ELinear*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.ELinear
+  name: ELinear
+  nameWithType: ExMEasers.ELinear
+  fullName: Danmokou.DMath.Functions.ExMEasers.ELinear
+- uid: Danmokou.DMath.Functions.ExMEasers.EBounce2*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.EBounce2
+  name: EBounce2
+  nameWithType: ExMEasers.EBounce2
+  fullName: Danmokou.DMath.Functions.ExMEasers.EBounce2
+- uid: Danmokou.DMath.Functions.ExMEasers.ESine010*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.ESine010
+  name: ESine010
+  nameWithType: ExMEasers.ESine010
+  fullName: Danmokou.DMath.Functions.ExMEasers.ESine010
+- uid: Danmokou.DMath.Functions.ExMEasers.ESoftmod010*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.ESoftmod010
+  name: ESoftmod010
+  nameWithType: ExMEasers.ESoftmod010
+  fullName: Danmokou.DMath.Functions.ExMEasers.ESoftmod010
+- uid: Danmokou.DMath.Functions.ExMEasers.CEInBack*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.CEInBack
+  name: CEInBack
+  nameWithType: ExMEasers.CEInBack
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEInBack
+- uid: efloat
+  isExternal: true
+  name: efloat
+  nameWithType: efloat
+  fullName: efloat
+- uid: Danmokou.DMath.Functions.ExMEasers.CEOutBack*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.CEOutBack
+  name: CEOutBack
+  nameWithType: ExMEasers.CEOutBack
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEOutBack
+- uid: Danmokou.DMath.Functions.ExMEasers.CEIOBack*
+  commentId: Overload:Danmokou.DMath.Functions.ExMEasers.CEIOBack
+  name: CEIOBack
+  nameWithType: ExMEasers.CEIOBack
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEIOBack

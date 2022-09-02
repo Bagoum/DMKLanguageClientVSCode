@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.TTaskPattern
+  commentId: T:Danmokou.SM.TTaskPattern
+  id: TTaskPattern
+  parent: Danmokou.SM
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TTaskPattern
+  nameWithType: TTaskPattern
+  fullName: Danmokou.SM.TTaskPattern
+  type: Delegate
+  source:
+    id: TTaskPattern
+    path: ''
+    startLine: 13216
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSM-like invocation for text SMs.\n"
+  example: []
+  syntax:
+    content: public delegate Task TTaskPattern(SMHandoff smh);
+    parameters:
+    - id: smh
+      type: Danmokou.SM.SMHandoff
+    return:
+      type: Task
+    content.vb: Public Delegate Function TTaskPattern(smh As SMHandoff) As Task
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: Danmokou.SM.SMHandoff
+  commentId: T:Danmokou.SM.SMHandoff
+  parent: Danmokou.SM
+  name: SMHandoff
+  nameWithType: SMHandoff
+  fullName: Danmokou.SM.SMHandoff
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task

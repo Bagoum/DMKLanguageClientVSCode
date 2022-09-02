@@ -1,0 +1,919 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.SoftcullProperties
+  commentId: T:Danmokou.SM.SoftcullProperties
+  id: SoftcullProperties
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.SoftcullProperties.#ctor(System.String,System.String)
+  - Danmokou.SM.SoftcullProperties.#ctor(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  - Danmokou.SM.SoftcullProperties.advance
+  - Danmokou.SM.SoftcullProperties.AdvanceTime(Vector2)
+  - Danmokou.SM.SoftcullProperties.autocullTarget
+  - Danmokou.SM.SoftcullProperties.center
+  - Danmokou.SM.SoftcullProperties.DefaultPool
+  - Danmokou.SM.SoftcullProperties.maxDist
+  - Danmokou.SM.SoftcullProperties.minDist
+  - Danmokou.SM.SoftcullProperties.OverTimeDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  - Danmokou.SM.SoftcullProperties.sendToC
+  - Danmokou.SM.SoftcullProperties.SynchronousDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SoftcullProperties
+  nameWithType: SoftcullProperties
+  fullName: Danmokou.SM.SoftcullProperties
+  type: Class
+  source:
+    id: SoftcullProperties
+    path: ''
+    startLine: 14823
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: 'public class SoftcullProperties : IEquatable<SoftcullProperties>'
+    content.vb: >-
+      Public Class SoftcullProperties
+          Implements IEquatable(Of SoftcullProperties)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Danmokou.SM.SoftcullProperties}
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.SoftcullProperties.center
+  commentId: P:Danmokou.SM.SoftcullProperties.center
+  id: center
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: center
+  nameWithType: SoftcullProperties.center
+  fullName: Danmokou.SM.SoftcullProperties.center
+  type: Property
+  source:
+    id: center
+    path: ''
+    startLine: 14824
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public Vector2 center { get; }
+    parameters: []
+    return:
+      type: Vector2
+    content.vb: Public ReadOnly Property center As Vector2
+  overload: Danmokou.SM.SoftcullProperties.center*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.SoftcullProperties.advance
+  commentId: P:Danmokou.SM.SoftcullProperties.advance
+  id: advance
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: advance
+  nameWithType: SoftcullProperties.advance
+  fullName: Danmokou.SM.SoftcullProperties.advance
+  type: Property
+  source:
+    id: advance
+    path: ''
+    startLine: 14825
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public float advance { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property advance As Single
+  overload: Danmokou.SM.SoftcullProperties.advance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.SoftcullProperties.minDist
+  commentId: P:Danmokou.SM.SoftcullProperties.minDist
+  id: minDist
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: minDist
+  nameWithType: SoftcullProperties.minDist
+  fullName: Danmokou.SM.SoftcullProperties.minDist
+  type: Property
+  source:
+    id: minDist
+    path: ''
+    startLine: 14826
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public float minDist { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property minDist As Single
+  overload: Danmokou.SM.SoftcullProperties.minDist*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.SoftcullProperties.maxDist
+  commentId: P:Danmokou.SM.SoftcullProperties.maxDist
+  id: maxDist
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: maxDist
+  nameWithType: SoftcullProperties.maxDist
+  fullName: Danmokou.SM.SoftcullProperties.maxDist
+  type: Property
+  source:
+    id: maxDist
+    path: ''
+    startLine: 14827
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public float maxDist { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property maxDist As Single
+  overload: Danmokou.SM.SoftcullProperties.maxDist*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.SoftcullProperties.autocullTarget
+  commentId: P:Danmokou.SM.SoftcullProperties.autocullTarget
+  id: autocullTarget
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: autocullTarget
+  nameWithType: SoftcullProperties.autocullTarget
+  fullName: Danmokou.SM.SoftcullProperties.autocullTarget
+  type: Property
+  source:
+    id: autocullTarget
+    path: ''
+    startLine: 14828
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public string autocullTarget { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property autocullTarget As String
+  overload: Danmokou.SM.SoftcullProperties.autocullTarget*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.SoftcullProperties.DefaultPool
+  commentId: P:Danmokou.SM.SoftcullProperties.DefaultPool
+  id: DefaultPool
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: DefaultPool
+  nameWithType: SoftcullProperties.DefaultPool
+  fullName: Danmokou.SM.SoftcullProperties.DefaultPool
+  type: Property
+  source:
+    id: DefaultPool
+    path: ''
+    startLine: 14830
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public string DefaultPool { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DefaultPool As String
+  overload: Danmokou.SM.SoftcullProperties.DefaultPool*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.SoftcullProperties.sendToC
+  commentId: F:Danmokou.SM.SoftcullProperties.sendToC
+  id: sendToC
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: sendToC
+  nameWithType: SoftcullProperties.sendToC
+  fullName: Danmokou.SM.SoftcullProperties.sendToC
+  type: Field
+  source:
+    id: sendToC
+    path: ''
+    startLine: 14831
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public readonly bool sendToC
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly sendToC As Boolean
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.SoftcullProperties.#ctor(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  commentId: M:Danmokou.SM.SoftcullProperties.#ctor(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  id: '#ctor(Vector2,System.Single,System.Single,System.Single,System.String,System.String)'
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: SoftcullProperties(Vector2, Single, Single, Single, String, String)
+  nameWithType: SoftcullProperties.SoftcullProperties(Vector2, Single, Single, Single, String, String)
+  fullName: Danmokou.SM.SoftcullProperties.SoftcullProperties(Vector2, System.Single, System.Single, System.Single, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14833
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public SoftcullProperties(Vector2 center, float advance, float minDist, float maxDist, string target, string dflt = null)
+    parameters:
+    - id: center
+      type: Vector2
+    - id: advance
+      type: System.Single
+    - id: minDist
+      type: System.Single
+    - id: maxDist
+      type: System.Single
+    - id: target
+      type: System.String
+    - id: dflt
+      type: System.String
+    content.vb: Public Sub New(center As Vector2, advance As Single, minDist As Single, maxDist As Single, target As String, dflt As String = Nothing)
+  overload: Danmokou.SM.SoftcullProperties.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.SoftcullProperties.OverTimeDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  commentId: M:Danmokou.SM.SoftcullProperties.OverTimeDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  id: OverTimeDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: OverTimeDefault(Vector2, Single, Single, Single, String, String)
+  nameWithType: SoftcullProperties.OverTimeDefault(Vector2, Single, Single, Single, String, String)
+  fullName: Danmokou.SM.SoftcullProperties.OverTimeDefault(Vector2, System.Single, System.Single, System.Single, System.String, System.String)
+  type: Method
+  source:
+    id: OverTimeDefault
+    path: ''
+    startLine: 14843
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static SoftcullProperties OverTimeDefault(Vector2 center, float advance, float minDist, float maxDist, string target = null, string dflt = null)
+    parameters:
+    - id: center
+      type: Vector2
+    - id: advance
+      type: System.Single
+    - id: minDist
+      type: System.Single
+    - id: maxDist
+      type: System.Single
+    - id: target
+      type: System.String
+    - id: dflt
+      type: System.String
+    return:
+      type: Danmokou.SM.SoftcullProperties
+    content.vb: Public Shared Function OverTimeDefault(center As Vector2, advance As Single, minDist As Single, maxDist As Single, target As String = Nothing, dflt As String = Nothing) As SoftcullProperties
+  overload: Danmokou.SM.SoftcullProperties.OverTimeDefault*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.SoftcullProperties.SynchronousDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  commentId: M:Danmokou.SM.SoftcullProperties.SynchronousDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  id: SynchronousDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: SynchronousDefault(Vector2, Single, Single, Single, String, String)
+  nameWithType: SoftcullProperties.SynchronousDefault(Vector2, Single, Single, Single, String, String)
+  fullName: Danmokou.SM.SoftcullProperties.SynchronousDefault(Vector2, System.Single, System.Single, System.Single, System.String, System.String)
+  type: Method
+  source:
+    id: SynchronousDefault
+    path: ''
+    startLine: 14847
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static SoftcullProperties SynchronousDefault(Vector2 center, float advance, float minDist, float maxDist, string target = null, string dflt = null)
+    parameters:
+    - id: center
+      type: Vector2
+    - id: advance
+      type: System.Single
+    - id: minDist
+      type: System.Single
+    - id: maxDist
+      type: System.Single
+    - id: target
+      type: System.String
+    - id: dflt
+      type: System.String
+    return:
+      type: Danmokou.SM.SoftcullProperties
+    content.vb: Public Shared Function SynchronousDefault(center As Vector2, advance As Single, minDist As Single, maxDist As Single, target As String = Nothing, dflt As String = Nothing) As SoftcullProperties
+  overload: Danmokou.SM.SoftcullProperties.SynchronousDefault*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.SoftcullProperties.#ctor(System.String,System.String)
+  commentId: M:Danmokou.SM.SoftcullProperties.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: SoftcullProperties(String, String)
+  nameWithType: SoftcullProperties.SoftcullProperties(String, String)
+  fullName: Danmokou.SM.SoftcullProperties.SoftcullProperties(System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14852
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public SoftcullProperties(string target, string dflt)
+    parameters:
+    - id: target
+      type: System.String
+    - id: dflt
+      type: System.String
+    content.vb: Public Sub New(target As String, dflt As String)
+  overload: Danmokou.SM.SoftcullProperties.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.SoftcullProperties.AdvanceTime(Vector2)
+  commentId: M:Danmokou.SM.SoftcullProperties.AdvanceTime(Vector2)
+  id: AdvanceTime(Vector2)
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: AdvanceTime(Vector2)
+  nameWithType: SoftcullProperties.AdvanceTime(Vector2)
+  fullName: Danmokou.SM.SoftcullProperties.AdvanceTime(Vector2)
+  type: Method
+  source:
+    id: AdvanceTime
+    path: ''
+    startLine: 14856
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public float AdvanceTime(Vector2 location)
+    parameters:
+    - id: location
+      type: Vector2
+    return:
+      type: System.Single
+    content.vb: Public Function AdvanceTime(location As Vector2) As Single
+  overload: Danmokou.SM.SoftcullProperties.AdvanceTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IEquatable{Danmokou.SM.SoftcullProperties}
+  commentId: T:System.IEquatable{Danmokou.SM.SoftcullProperties}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<SoftcullProperties>
+  nameWithType: IEquatable<SoftcullProperties>
+  fullName: System.IEquatable<Danmokou.SM.SoftcullProperties>
+  nameWithType.vb: IEquatable(Of SoftcullProperties)
+  fullName.vb: System.IEquatable(Of Danmokou.SM.SoftcullProperties)
+  name.vb: IEquatable(Of SoftcullProperties)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.SM.SoftcullProperties
+    name: SoftcullProperties
+    nameWithType: SoftcullProperties
+    fullName: Danmokou.SM.SoftcullProperties
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.SM.SoftcullProperties
+    name: SoftcullProperties
+    nameWithType: SoftcullProperties
+    fullName: Danmokou.SM.SoftcullProperties
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.SoftcullProperties.center*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.center
+  name: center
+  nameWithType: SoftcullProperties.center
+  fullName: Danmokou.SM.SoftcullProperties.center
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Danmokou.SM.SoftcullProperties.advance*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.advance
+  name: advance
+  nameWithType: SoftcullProperties.advance
+  fullName: Danmokou.SM.SoftcullProperties.advance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.SM.SoftcullProperties.minDist*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.minDist
+  name: minDist
+  nameWithType: SoftcullProperties.minDist
+  fullName: Danmokou.SM.SoftcullProperties.minDist
+- uid: Danmokou.SM.SoftcullProperties.maxDist*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.maxDist
+  name: maxDist
+  nameWithType: SoftcullProperties.maxDist
+  fullName: Danmokou.SM.SoftcullProperties.maxDist
+- uid: Danmokou.SM.SoftcullProperties.autocullTarget*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.autocullTarget
+  name: autocullTarget
+  nameWithType: SoftcullProperties.autocullTarget
+  fullName: Danmokou.SM.SoftcullProperties.autocullTarget
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.SM.SoftcullProperties.DefaultPool*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.DefaultPool
+  name: DefaultPool
+  nameWithType: SoftcullProperties.DefaultPool
+  fullName: Danmokou.SM.SoftcullProperties.DefaultPool
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.SM.SoftcullProperties.#ctor*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.#ctor
+  name: SoftcullProperties
+  nameWithType: SoftcullProperties.SoftcullProperties
+  fullName: Danmokou.SM.SoftcullProperties.SoftcullProperties
+- uid: Danmokou.SM.SoftcullProperties.OverTimeDefault*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.OverTimeDefault
+  name: OverTimeDefault
+  nameWithType: SoftcullProperties.OverTimeDefault
+  fullName: Danmokou.SM.SoftcullProperties.OverTimeDefault
+- uid: Danmokou.SM.SoftcullProperties
+  commentId: T:Danmokou.SM.SoftcullProperties
+  parent: Danmokou.SM
+  name: SoftcullProperties
+  nameWithType: SoftcullProperties
+  fullName: Danmokou.SM.SoftcullProperties
+- uid: Danmokou.SM.SoftcullProperties.SynchronousDefault*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.SynchronousDefault
+  name: SynchronousDefault
+  nameWithType: SoftcullProperties.SynchronousDefault
+  fullName: Danmokou.SM.SoftcullProperties.SynchronousDefault
+- uid: Danmokou.SM.SoftcullProperties.AdvanceTime*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.AdvanceTime
+  name: AdvanceTime
+  nameWithType: SoftcullProperties.AdvanceTime
+  fullName: Danmokou.SM.SoftcullProperties.AdvanceTime

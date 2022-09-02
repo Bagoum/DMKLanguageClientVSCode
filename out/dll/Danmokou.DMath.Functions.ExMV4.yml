@@ -1,0 +1,955 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMV4
+  commentId: T:Danmokou.DMath.Functions.ExMV4
+  id: ExMV4
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMV4.Black
+  - Danmokou.DMath.Functions.ExMV4.Blue
+  - Danmokou.DMath.Functions.ExMV4.Green
+  - Danmokou.DMath.Functions.ExMV4.MulA(tfloat,tv4)
+  - Danmokou.DMath.Functions.ExMV4.Orange
+  - Danmokou.DMath.Functions.ExMV4.Palette(System.String,Palette.Shade)
+  - Danmokou.DMath.Functions.ExMV4.Pink
+  - Danmokou.DMath.Functions.ExMV4.Purple
+  - Danmokou.DMath.Functions.ExMV4.Red
+  - Danmokou.DMath.Functions.ExMV4.RGB(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV4.RGBA(tfloat,tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV4.Teal
+  - Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,ev3)
+  - Danmokou.DMath.Functions.ExMV4.WithA(tfloat,tv4)
+  - Danmokou.DMath.Functions.ExMV4.Yellow
+  langs:
+  - csharp
+  - vb
+  name: ExMV4
+  nameWithType: ExMV4
+  fullName: Danmokou.DMath.Functions.ExMV4
+  type: Class
+  source:
+    id: ExMV4
+    path: ''
+    startLine: 7832
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that return V4.\n<br />Note that these are also used for colors, in the format R G B A (0-1 floats).\n"
+  example: []
+  syntax:
+    content: public static class ExMV4
+    content.vb: Public Module ExMV4
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMV4.Black
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Black
+  id: Black
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Black()
+  nameWithType: ExMV4.Black()
+  fullName: Danmokou.DMath.Functions.ExMV4.Black()
+  type: Method
+  source:
+    id: Black
+    path: ''
+    startLine: 7834
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Black()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Black As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Black*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Purple
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Purple
+  id: Purple
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Purple()
+  nameWithType: ExMV4.Purple()
+  fullName: Danmokou.DMath.Functions.ExMV4.Purple()
+  type: Method
+  source:
+    id: Purple
+    path: ''
+    startLine: 7835
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Purple()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Purple As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Purple*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Teal
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Teal
+  id: Teal
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Teal()
+  nameWithType: ExMV4.Teal()
+  fullName: Danmokou.DMath.Functions.ExMV4.Teal()
+  type: Method
+  source:
+    id: Teal
+    path: ''
+    startLine: 7836
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Teal()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Teal As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Teal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Green
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Green
+  id: Green
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Green()
+  nameWithType: ExMV4.Green()
+  fullName: Danmokou.DMath.Functions.ExMV4.Green()
+  type: Method
+  source:
+    id: Green
+    path: ''
+    startLine: 7837
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Green()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Green As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Green*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Orange
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Orange
+  id: Orange
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Orange()
+  nameWithType: ExMV4.Orange()
+  fullName: Danmokou.DMath.Functions.ExMV4.Orange()
+  type: Method
+  source:
+    id: Orange
+    path: ''
+    startLine: 7838
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Orange()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Orange As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Orange*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Yellow
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Yellow
+  id: Yellow
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Yellow()
+  nameWithType: ExMV4.Yellow()
+  fullName: Danmokou.DMath.Functions.ExMV4.Yellow()
+  type: Method
+  source:
+    id: Yellow
+    path: ''
+    startLine: 7839
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Yellow()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Yellow As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Yellow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Red
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Red
+  id: Red
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Red()
+  nameWithType: ExMV4.Red()
+  fullName: Danmokou.DMath.Functions.ExMV4.Red()
+  type: Method
+  source:
+    id: Red
+    path: ''
+    startLine: 7840
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Red()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Red As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Red*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Pink
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Pink
+  id: Pink
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Pink()
+  nameWithType: ExMV4.Pink()
+  fullName: Danmokou.DMath.Functions.ExMV4.Pink()
+  type: Method
+  source:
+    id: Pink
+    path: ''
+    startLine: 7841
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Pink()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Pink As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Pink*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Blue
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Blue
+  id: Blue
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Blue()
+  nameWithType: ExMV4.Blue()
+  fullName: Danmokou.DMath.Functions.ExMV4.Blue()
+  type: Method
+  source:
+    id: Blue
+    path: ''
+    startLine: 7842
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Blue()
+    return:
+      type: tv4
+    content.vb: Public Shared Function Blue As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Blue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.Palette(System.String,Palette.Shade)
+  commentId: M:Danmokou.DMath.Functions.ExMV4.Palette(System.String,Palette.Shade)
+  id: Palette(System.String,Palette.Shade)
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: Palette(String, Palette.Shade)
+  nameWithType: ExMV4.Palette(String, Palette.Shade)
+  fullName: Danmokou.DMath.Functions.ExMV4.Palette(System.String, Palette.Shade)
+  type: Method
+  source:
+    id: Palette
+    path: ''
+    startLine: 7844
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv4 Palette(string palette, Palette.Shade shade)
+    parameters:
+    - id: palette
+      type: System.String
+    - id: shade
+      type: Palette.Shade
+    return:
+      type: tv4
+    content.vb: Public Shared Function Palette(palette As String, shade As Palette.Shade) As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.Palette*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.RGB(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV4.RGB(tfloat,tfloat,tfloat)
+  id: RGB(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: RGB(tfloat, tfloat, tfloat)
+  nameWithType: ExMV4.RGB(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV4.RGB(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: RGB
+    path: ''
+    startLine: 7851
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a color from R, G, B components. Alpha is set to 1.\n"
+  example: []
+  syntax:
+    content: public static tv4 RGB(tfloat r, tfloat g, tfloat b)
+    parameters:
+    - id: r
+      type: tfloat
+    - id: g
+      type: tfloat
+    - id: b
+      type: tfloat
+    return:
+      type: tv4
+    content.vb: Public Shared Function RGB(r As tfloat, g As tfloat, b As tfloat) As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.RGB*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.RGBA(tfloat,tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV4.RGBA(tfloat,tfloat,tfloat,tfloat)
+  id: RGBA(tfloat,tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: RGBA(tfloat, tfloat, tfloat, tfloat)
+  nameWithType: ExMV4.RGBA(tfloat, tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV4.RGBA(tfloat, tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: RGBA
+    path: ''
+    startLine: 7855
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a color from R, G, B, A components.\n"
+  example: []
+  syntax:
+    content: public static tv4 RGBA(tfloat r, tfloat g, tfloat b, tfloat a)
+    parameters:
+    - id: r
+      type: tfloat
+    - id: g
+      type: tfloat
+    - id: b
+      type: tfloat
+    - id: a
+      type: tfloat
+    return:
+      type: tv4
+    content.vb: Public Shared Function RGBA(r As tfloat, g As tfloat, b As tfloat, a As tfloat) As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.RGBA*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,ev3)
+  commentId: M:Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,ev3)
+  id: TP3A(tfloat,ev3)
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: TP3A(tfloat, ev3)
+  nameWithType: ExMV4.TP3A(tfloat, ev3)
+  fullName: Danmokou.DMath.Functions.ExMV4.TP3A(tfloat, ev3)
+  type: Method
+  source:
+    id: TP3A
+    path: ''
+    startLine: 7860
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a color from a vector3 containing R, G, B components and an separate alpha component.\n"
+  example: []
+  syntax:
+    content: public static tv4 TP3A(tfloat a, ev3 tp)
+    parameters:
+    - id: a
+      type: tfloat
+    - id: tp
+      type: ev3
+    return:
+      type: tv4
+    content.vb: Public Shared Function TP3A(a As tfloat, tp As ev3) As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.TP3A*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.WithA(tfloat,tv4)
+  commentId: M:Danmokou.DMath.Functions.ExMV4.WithA(tfloat,tv4)
+  id: WithA(tfloat,tv4)
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: WithA(tfloat, tv4)
+  nameWithType: ExMV4.WithA(tfloat, tv4)
+  fullName: Danmokou.DMath.Functions.ExMV4.WithA(tfloat, tv4)
+  type: Method
+  source:
+    id: WithA
+    path: ''
+    startLine: 7865
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nCombine the R,G,B components of a vector4 and a separate alpha component.\n"
+  example: []
+  syntax:
+    content: public static tv4 WithA(tfloat a, tv4 tp)
+    parameters:
+    - id: a
+      type: tfloat
+    - id: tp
+      type: tv4
+    return:
+      type: tv4
+    content.vb: Public Shared Function WithA(a As tfloat, tp As tv4) As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.WithA*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV4.MulA(tfloat,tv4)
+  commentId: M:Danmokou.DMath.Functions.ExMV4.MulA(tfloat,tv4)
+  id: MulA(tfloat,tv4)
+  parent: Danmokou.DMath.Functions.ExMV4
+  langs:
+  - csharp
+  - vb
+  name: MulA(tfloat, tv4)
+  nameWithType: ExMV4.MulA(tfloat, tv4)
+  fullName: Danmokou.DMath.Functions.ExMV4.MulA(tfloat, tv4)
+  type: Method
+  source:
+    id: MulA
+    path: ''
+    startLine: 7876
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMultiply a color&apos;s alpha component by a float value.\n"
+  example: []
+  syntax:
+    content: public static tv4 MulA(tfloat a, tv4 tp)
+    parameters:
+    - id: a
+      type: tfloat
+    - id: tp
+      type: tv4
+    return:
+      type: tv4
+    content.vb: Public Shared Function MulA(a As tfloat, tp As tv4) As tv4
+  overload: Danmokou.DMath.Functions.ExMV4.MulA*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMV4.Black*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Black
+  name: Black
+  nameWithType: ExMV4.Black
+  fullName: Danmokou.DMath.Functions.ExMV4.Black
+- uid: tv4
+  isExternal: true
+  name: tv4
+  nameWithType: tv4
+  fullName: tv4
+- uid: Danmokou.DMath.Functions.ExMV4.Purple*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Purple
+  name: Purple
+  nameWithType: ExMV4.Purple
+  fullName: Danmokou.DMath.Functions.ExMV4.Purple
+- uid: Danmokou.DMath.Functions.ExMV4.Teal*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Teal
+  name: Teal
+  nameWithType: ExMV4.Teal
+  fullName: Danmokou.DMath.Functions.ExMV4.Teal
+- uid: Danmokou.DMath.Functions.ExMV4.Green*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Green
+  name: Green
+  nameWithType: ExMV4.Green
+  fullName: Danmokou.DMath.Functions.ExMV4.Green
+- uid: Danmokou.DMath.Functions.ExMV4.Orange*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Orange
+  name: Orange
+  nameWithType: ExMV4.Orange
+  fullName: Danmokou.DMath.Functions.ExMV4.Orange
+- uid: Danmokou.DMath.Functions.ExMV4.Yellow*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Yellow
+  name: Yellow
+  nameWithType: ExMV4.Yellow
+  fullName: Danmokou.DMath.Functions.ExMV4.Yellow
+- uid: Danmokou.DMath.Functions.ExMV4.Red*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Red
+  name: Red
+  nameWithType: ExMV4.Red
+  fullName: Danmokou.DMath.Functions.ExMV4.Red
+- uid: Danmokou.DMath.Functions.ExMV4.Pink*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Pink
+  name: Pink
+  nameWithType: ExMV4.Pink
+  fullName: Danmokou.DMath.Functions.ExMV4.Pink
+- uid: Danmokou.DMath.Functions.ExMV4.Blue*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Blue
+  name: Blue
+  nameWithType: ExMV4.Blue
+  fullName: Danmokou.DMath.Functions.ExMV4.Blue
+- uid: Danmokou.DMath.Functions.ExMV4.Palette*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.Palette
+  name: Palette
+  nameWithType: ExMV4.Palette
+  fullName: Danmokou.DMath.Functions.ExMV4.Palette
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Palette.Shade
+  commentId: '!:Palette.Shade'
+  isExternal: true
+  name: Palette.Shade
+  nameWithType: Palette.Shade
+  fullName: Palette.Shade
+- uid: Danmokou.DMath.Functions.ExMV4.RGB*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.RGB
+  name: RGB
+  nameWithType: ExMV4.RGB
+  fullName: Danmokou.DMath.Functions.ExMV4.RGB
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: Danmokou.DMath.Functions.ExMV4.RGBA*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.RGBA
+  name: RGBA
+  nameWithType: ExMV4.RGBA
+  fullName: Danmokou.DMath.Functions.ExMV4.RGBA
+- uid: Danmokou.DMath.Functions.ExMV4.TP3A*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.TP3A
+  name: TP3A
+  nameWithType: ExMV4.TP3A
+  fullName: Danmokou.DMath.Functions.ExMV4.TP3A
+- uid: ev3
+  isExternal: true
+  name: ev3
+  nameWithType: ev3
+  fullName: ev3
+- uid: Danmokou.DMath.Functions.ExMV4.WithA*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.WithA
+  name: WithA
+  nameWithType: ExMV4.WithA
+  fullName: Danmokou.DMath.Functions.ExMV4.WithA
+- uid: Danmokou.DMath.Functions.ExMV4.MulA*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV4.MulA
+  name: MulA
+  nameWithType: ExMV4.MulA
+  fullName: Danmokou.DMath.Functions.ExMV4.MulA

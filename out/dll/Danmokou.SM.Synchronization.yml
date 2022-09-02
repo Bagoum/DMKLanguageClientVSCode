@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.Synchronization
+  commentId: T:Danmokou.SM.Synchronization
+  id: Synchronization
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.Synchronization.Delay(System.Single,Danmokou.SM.Synchronizer)
+  - Danmokou.SM.Synchronization.Time(GCXF{System.Single})
+  langs:
+  - csharp
+  - vb
+  name: Synchronization
+  nameWithType: Synchronization
+  fullName: Danmokou.SM.Synchronization
+  type: Class
+  source:
+    id: Synchronization
+    path: ''
+    startLine: 13164
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSynchronization events for use in SMs.\n"
+  example: []
+  syntax:
+    content: public static class Synchronization
+    content.vb: Public Module Synchronization
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.SM.Synchronization.Time(GCXF{System.Single})
+  commentId: M:Danmokou.SM.Synchronization.Time(GCXF{System.Single})
+  id: Time(GCXF{System.Single})
+  parent: Danmokou.SM.Synchronization
+  langs:
+  - csharp
+  - vb
+  name: Time(GCXF<Single>)
+  nameWithType: Synchronization.Time(GCXF<Single>)
+  fullName: Danmokou.SM.Synchronization.Time(GCXF<System.Single>)
+  type: Method
+  source:
+    id: Time
+    path: ''
+    startLine: 13180
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nWait for some number of seconds.\n"
+  example: []
+  syntax:
+    content: public static Synchronizer Time(GCXF<float> time)
+    parameters:
+    - id: time
+      type: GCXF{System.Single}
+    return:
+      type: Danmokou.SM.Synchronizer
+    content.vb: Public Shared Function Time(time As GCXF(Of Single)) As Synchronizer
+  overload: Danmokou.SM.Synchronization.Time*
+  nameWithType.vb: Synchronization.Time(GCXF(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.Synchronization.Time(GCXF(Of System.Single))
+  name.vb: Time(GCXF(Of Single))
+- uid: Danmokou.SM.Synchronization.Delay(System.Single,Danmokou.SM.Synchronizer)
+  commentId: M:Danmokou.SM.Synchronization.Delay(System.Single,Danmokou.SM.Synchronizer)
+  id: Delay(System.Single,Danmokou.SM.Synchronizer)
+  parent: Danmokou.SM.Synchronization
+  langs:
+  - csharp
+  - vb
+  name: Delay(Single, Synchronizer)
+  nameWithType: Synchronization.Delay(Single, Synchronizer)
+  fullName: Danmokou.SM.Synchronization.Delay(System.Single, Danmokou.SM.Synchronizer)
+  type: Method
+  source:
+    id: Delay
+    path: ''
+    startLine: 13186
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nWait for the synchronization event, and then wait some number of seconds.\n"
+  example: []
+  syntax:
+    content: public static Synchronizer Delay(float time, Synchronizer synchr)
+    parameters:
+    - id: time
+      type: System.Single
+    - id: synchr
+      type: Danmokou.SM.Synchronizer
+    return:
+      type: Danmokou.SM.Synchronizer
+    content.vb: Public Shared Function Delay(time As Single, synchr As Synchronizer) As Synchronizer
+  overload: Danmokou.SM.Synchronization.Delay*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.Synchronization.Time*
+  commentId: Overload:Danmokou.SM.Synchronization.Time
+  name: Time
+  nameWithType: Synchronization.Time
+  fullName: Danmokou.SM.Synchronization.Time
+- uid: GCXF{System.Single}
+  commentId: '!:GCXF{System.Single}'
+  definition: GCXF`1
+  name: GCXF<Single>
+  nameWithType: GCXF<Single>
+  fullName: GCXF<System.Single>
+  nameWithType.vb: GCXF(Of Single)
+  fullName.vb: GCXF(Of System.Single)
+  name.vb: GCXF(Of Single)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.Synchronizer
+  commentId: T:Danmokou.SM.Synchronizer
+  parent: Danmokou.SM
+  name: Synchronizer
+  nameWithType: Synchronizer
+  fullName: Danmokou.SM.Synchronizer
+- uid: GCXF`1
+  isExternal: true
+  name: GCXF<>
+  nameWithType: GCXF<>
+  fullName: GCXF<>
+  nameWithType.vb: GCXF(Of )
+  fullName.vb: GCXF(Of )
+  name.vb: GCXF(Of )
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.Synchronization.Delay*
+  commentId: Overload:Danmokou.SM.Synchronization.Delay
+  name: Delay
+  nameWithType: Synchronization.Delay
+  fullName: Danmokou.SM.Synchronization.Delay
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

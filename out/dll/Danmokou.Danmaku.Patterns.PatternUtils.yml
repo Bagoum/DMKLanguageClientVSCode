@@ -1,0 +1,630 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.PatternUtils
+  commentId: T:Danmokou.Danmaku.Patterns.PatternUtils
+  id: PatternUtils
+  parent: Danmokou.Danmaku.Patterns
+  children:
+  - Danmokou.Danmaku.Patterns.PatternUtils.BRV2
+  - Danmokou.Danmaku.Patterns.PatternUtils.HV2(System.String)
+  - Danmokou.Danmaku.Patterns.PatternUtils.RV2Zero
+  langs:
+  - csharp
+  - vb
+  name: PatternUtils
+  nameWithType: PatternUtils
+  fullName: Danmokou.Danmaku.Patterns.PatternUtils
+  type: Class
+  source:
+    id: PatternUtils
+    path: ''
+    startLine: 4462
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static class PatternUtils
+    content.vb: Public Module PatternUtils
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Danmaku.Patterns.PatternUtils.BRV2
+  commentId: P:Danmokou.Danmaku.Patterns.PatternUtils.BRV2
+  id: BRV2
+  parent: Danmokou.Danmaku.Patterns.PatternUtils
+  langs:
+  - csharp
+  - vb
+  name: BRV2
+  nameWithType: PatternUtils.BRV2
+  fullName: Danmokou.Danmaku.Patterns.PatternUtils.BRV2
+  type: Property
+  source:
+    id: BRV2
+    path: ''
+    startLine: 4463
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static ExBPRV2 BRV2 { get; }
+    parameters: []
+    return:
+      type: ExBPRV2
+    content.vb: Public Shared ReadOnly Property BRV2 As ExBPRV2
+  overload: Danmokou.Danmaku.Patterns.PatternUtils.BRV2*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.PatternUtils.RV2Zero
+  commentId: P:Danmokou.Danmaku.Patterns.PatternUtils.RV2Zero
+  id: RV2Zero
+  parent: Danmokou.Danmaku.Patterns.PatternUtils
+  langs:
+  - csharp
+  - vb
+  name: RV2Zero
+  nameWithType: PatternUtils.RV2Zero
+  fullName: Danmokou.Danmaku.Patterns.PatternUtils.RV2Zero
+  type: Property
+  source:
+    id: RV2Zero
+    path: ''
+    startLine: 4464
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static GCXF<V2RV2> RV2Zero { get; }
+    parameters: []
+    return:
+      type: GCXF{V2RV2}
+    content.vb: Public Shared ReadOnly Property RV2Zero As GCXF(Of V2RV2)
+  overload: Danmokou.Danmaku.Patterns.PatternUtils.RV2Zero*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.PatternUtils.HV2(System.String)
+  commentId: M:Danmokou.Danmaku.Patterns.PatternUtils.HV2(System.String)
+  id: HV2(System.String)
+  parent: Danmokou.Danmaku.Patterns.PatternUtils
+  langs:
+  - csharp
+  - vb
+  name: HV2(String)
+  nameWithType: PatternUtils.HV2(String)
+  fullName: Danmokou.Danmaku.Patterns.PatternUtils.HV2(System.String)
+  type: Method
+  source:
+    id: HV2
+    path: ''
+    startLine: 4466
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static ReflectEx.Hoist<Vector2> HV2(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: ReflectEx.Hoist{Vector2}
+    content.vb: Public Shared Function HV2(key As String) As ReflectEx.Hoist(Of Vector2)
+  overload: Danmokou.Danmaku.Patterns.PatternUtils.HV2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Danmaku.Patterns.PatternUtils.BRV2*
+  commentId: Overload:Danmokou.Danmaku.Patterns.PatternUtils.BRV2
+  name: BRV2
+  nameWithType: PatternUtils.BRV2
+  fullName: Danmokou.Danmaku.Patterns.PatternUtils.BRV2
+- uid: ExBPRV2
+  isExternal: true
+  name: ExBPRV2
+  nameWithType: ExBPRV2
+  fullName: ExBPRV2
+- uid: Danmokou.Danmaku.Patterns.PatternUtils.RV2Zero*
+  commentId: Overload:Danmokou.Danmaku.Patterns.PatternUtils.RV2Zero
+  name: RV2Zero
+  nameWithType: PatternUtils.RV2Zero
+  fullName: Danmokou.Danmaku.Patterns.PatternUtils.RV2Zero
+- uid: GCXF{V2RV2}
+  commentId: '!:GCXF{V2RV2}'
+  definition: GCXF`1
+  name: GCXF<V2RV2>
+  nameWithType: GCXF<V2RV2>
+  fullName: GCXF<V2RV2>
+  nameWithType.vb: GCXF(Of V2RV2)
+  fullName.vb: GCXF(Of V2RV2)
+  name.vb: GCXF(Of V2RV2)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GCXF`1
+  isExternal: true
+  name: GCXF<>
+  nameWithType: GCXF<>
+  fullName: GCXF<>
+  nameWithType.vb: GCXF(Of )
+  fullName.vb: GCXF(Of )
+  name.vb: GCXF(Of )
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.PatternUtils.HV2*
+  commentId: Overload:Danmokou.Danmaku.Patterns.PatternUtils.HV2
+  name: HV2
+  nameWithType: PatternUtils.HV2
+  fullName: Danmokou.Danmaku.Patterns.PatternUtils.HV2
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ReflectEx.Hoist{Vector2}
+  commentId: '!:ReflectEx.Hoist{Vector2}'
+  definition: ReflectEx.Hoist`1
+  name: ReflectEx.Hoist<Vector2>
+  nameWithType: ReflectEx.Hoist<Vector2>
+  fullName: ReflectEx.Hoist<Vector2>
+  nameWithType.vb: ReflectEx.Hoist(Of Vector2)
+  fullName.vb: ReflectEx.Hoist(Of Vector2)
+  name.vb: ReflectEx.Hoist(Of Vector2)
+  spec.csharp:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ReflectEx.Hoist`1
+  isExternal: true
+  name: ReflectEx.Hoist<>
+  nameWithType: ReflectEx.Hoist<>
+  fullName: ReflectEx.Hoist<>
+  nameWithType.vb: ReflectEx.Hoist(Of )
+  fullName.vb: ReflectEx.Hoist(Of )
+  name.vb: ReflectEx.Hoist(Of )
+  spec.csharp:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

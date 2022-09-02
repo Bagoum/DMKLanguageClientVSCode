@@ -1,0 +1,1125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Movement
+  commentId: T:Danmokou.DMath.Movement
+  id: Movement
+  parent: Danmokou.DMath
+  children:
+  - Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP)
+  - Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP,Vector2,System.Single)
+  - Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP,Vector2,V2RV2)
+  - Danmokou.DMath.Movement.#ctor(Vector2,System.Single)
+  - Danmokou.DMath.Movement.#ctor(Vector2,V2RV2)
+  - Danmokou.DMath.Movement.#ctor(Vector2,Vector2)
+  - Danmokou.DMath.Movement.angle
+  - Danmokou.DMath.Movement.cos_rot
+  - Danmokou.DMath.Movement.Direction
+  - Danmokou.DMath.Movement.flipX
+  - Danmokou.DMath.Movement.FlipX
+  - Danmokou.DMath.Movement.flipY
+  - Danmokou.DMath.Movement.FlipY
+  - Danmokou.DMath.Movement.IsEmpty
+  - Danmokou.DMath.Movement.None
+  - Danmokou.DMath.Movement.rootPos
+  - Danmokou.DMath.Movement.sin_rot
+  - Danmokou.DMath.Movement.UpdateDeltaAssignDelta(Danmokou.DMath.ParametricInfo@,Vector3@,System.Single@)
+  - Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection,System.Int32)
+  - Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex,Ex)
+  - Danmokou.DMath.Movement.UpdateZero(Danmokou.DMath.ParametricInfo@)
+  - Danmokou.DMath.Movement.WithNoMovement
+  langs:
+  - csharp
+  - vb
+  name: Movement
+  nameWithType: Movement
+  fullName: Danmokou.DMath.Movement
+  type: Struct
+  source:
+    id: Movement
+    path: ''
+    startLine: 6757
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA struct that can move objects along specific paths in space.\n"
+  example: []
+  syntax:
+    content: public struct Movement
+    content.vb: Public Structure Movement
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Danmokou.DMath.Movement.rootPos
+  commentId: F:Danmokou.DMath.Movement.rootPos
+  id: rootPos
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: rootPos
+  nameWithType: Movement.rootPos
+  fullName: Danmokou.DMath.Movement.rootPos
+  type: Field
+  source:
+    id: rootPos
+    path: ''
+    startLine: 6763
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public Vector2 rootPos
+    return:
+      type: Vector2
+    content.vb: Public rootPos As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.angle
+  commentId: F:Danmokou.DMath.Movement.angle
+  id: angle
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: angle
+  nameWithType: Movement.angle
+  fullName: Danmokou.DMath.Movement.angle
+  type: Field
+  source:
+    id: angle
+    path: ''
+    startLine: 6765
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float angle
+    return:
+      type: System.Single
+    content.vb: Public angle As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.cos_rot
+  commentId: F:Danmokou.DMath.Movement.cos_rot
+  id: cos_rot
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: cos_rot
+  nameWithType: Movement.cos_rot
+  fullName: Danmokou.DMath.Movement.cos_rot
+  type: Field
+  source:
+    id: cos_rot
+    path: ''
+    startLine: 6766
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float cos_rot
+    return:
+      type: System.Single
+    content.vb: Public cos_rot As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.sin_rot
+  commentId: F:Danmokou.DMath.Movement.sin_rot
+  id: sin_rot
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: sin_rot
+  nameWithType: Movement.sin_rot
+  fullName: Danmokou.DMath.Movement.sin_rot
+  type: Field
+  source:
+    id: sin_rot
+    path: ''
+    startLine: 6767
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float sin_rot
+    return:
+      type: System.Single
+    content.vb: Public sin_rot As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.flipX
+  commentId: F:Danmokou.DMath.Movement.flipX
+  id: flipX
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: flipX
+  nameWithType: Movement.flipX
+  fullName: Danmokou.DMath.Movement.flipX
+  type: Field
+  source:
+    id: flipX
+    path: ''
+    startLine: 6768
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float flipX
+    return:
+      type: System.Single
+    content.vb: Public flipX As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.flipY
+  commentId: F:Danmokou.DMath.Movement.flipY
+  id: flipY
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: flipY
+  nameWithType: Movement.flipY
+  fullName: Danmokou.DMath.Movement.flipY
+  type: Field
+  source:
+    id: flipY
+    path: ''
+    startLine: 6769
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float flipY
+    return:
+      type: System.Single
+    content.vb: Public flipY As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.Direction
+  commentId: P:Danmokou.DMath.Movement.Direction
+  id: Direction
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: Movement.Direction
+  fullName: Danmokou.DMath.Movement.Direction
+  type: Property
+  source:
+    id: Direction
+    path: ''
+    startLine: 6770
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Vector2 Direction { get; }
+    parameters: []
+    return:
+      type: Vector2
+    content.vb: Public ReadOnly Property Direction As Vector2
+  overload: Danmokou.DMath.Movement.Direction*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP,Vector2,V2RV2)
+  commentId: M:Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP,Vector2,V2RV2)
+  id: '#ctor(Danmokou.DMath.VTP,Vector2,V2RV2)'
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: Movement(VTP, Vector2, V2RV2)
+  nameWithType: Movement.Movement(VTP, Vector2, V2RV2)
+  fullName: Danmokou.DMath.Movement.Movement(Danmokou.DMath.VTP, Vector2, V2RV2)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6778
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nCreate a velocity configuration.\n"
+  example: []
+  syntax:
+    content: public Movement(VTP path, Vector2 parentLoc, V2RV2 localLoc)
+    parameters:
+    - id: path
+      type: Danmokou.DMath.VTP
+      description: Movement descriptor
+    - id: parentLoc
+      type: Vector2
+      description: Global location of parent. Set to zero if using a transform parent
+    - id: localLoc
+      type: V2RV2
+      description: Location of this relative to parent. Only distinguished from parent for applying modifiers.
+    content.vb: Public Sub New(path As VTP, parentLoc As Vector2, localLoc As V2RV2)
+  overload: Danmokou.DMath.Movement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP,Vector2,System.Single)
+  commentId: M:Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP,Vector2,System.Single)
+  id: '#ctor(Danmokou.DMath.VTP,Vector2,System.Single)'
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: Movement(VTP, Vector2, Single)
+  nameWithType: Movement.Movement(VTP, Vector2, Single)
+  fullName: Danmokou.DMath.Movement.Movement(Danmokou.DMath.VTP, Vector2, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6788
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public Movement(VTP vtp, Vector2 rootPos, float ang)
+    parameters:
+    - id: vtp
+      type: Danmokou.DMath.VTP
+    - id: rootPos
+      type: Vector2
+    - id: ang
+      type: System.Single
+    content.vb: Public Sub New(vtp As VTP, rootPos As Vector2, ang As Single)
+  overload: Danmokou.DMath.Movement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.WithNoMovement
+  commentId: M:Danmokou.DMath.Movement.WithNoMovement
+  id: WithNoMovement
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: WithNoMovement()
+  nameWithType: Movement.WithNoMovement()
+  fullName: Danmokou.DMath.Movement.WithNoMovement()
+  type: Method
+  source:
+    id: WithNoMovement
+    path: ''
+    startLine: 6798
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public Movement WithNoMovement()
+    return:
+      type: Danmokou.DMath.Movement
+    content.vb: Public Function WithNoMovement As Movement
+  overload: Danmokou.DMath.Movement.WithNoMovement*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP)
+  commentId: M:Danmokou.DMath.Movement.#ctor(Danmokou.DMath.VTP)
+  id: '#ctor(Danmokou.DMath.VTP)'
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: Movement(VTP)
+  nameWithType: Movement.Movement(VTP)
+  fullName: Danmokou.DMath.Movement.Movement(Danmokou.DMath.VTP)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6800
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public Movement(VTP path)
+    parameters:
+    - id: path
+      type: Danmokou.DMath.VTP
+    content.vb: Public Sub New(path As VTP)
+  overload: Danmokou.DMath.Movement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.#ctor(Vector2,V2RV2)
+  commentId: M:Danmokou.DMath.Movement.#ctor(Vector2,V2RV2)
+  id: '#ctor(Vector2,V2RV2)'
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: Movement(Vector2, V2RV2)
+  nameWithType: Movement.Movement(Vector2, V2RV2)
+  fullName: Danmokou.DMath.Movement.Movement(Vector2, V2RV2)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6807
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nCreate a shell velocity configuration with no movement.\n"
+  example: []
+  syntax:
+    content: public Movement(Vector2 parentLoc, V2RV2 localPos)
+    parameters:
+    - id: parentLoc
+      type: Vector2
+      description: Global location of parent. Set to zero if using a transform parent
+    - id: localPos
+      type: V2RV2
+      description: Location of this relative to parent
+    content.vb: Public Sub New(parentLoc As Vector2, localPos As V2RV2)
+  overload: Danmokou.DMath.Movement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.None
+  commentId: P:Danmokou.DMath.Movement.None
+  id: None
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Movement.None
+  fullName: Danmokou.DMath.Movement.None
+  type: Property
+  source:
+    id: None
+    path: ''
+    startLine: 6809
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static readonly Movement None { get; }
+    parameters: []
+    return:
+      type: Danmokou.DMath.Movement
+    content.vb: Public Shared ReadOnly Property None As Movement
+  overload: Danmokou.DMath.Movement.None*
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.Movement.#ctor(Vector2,Vector2)
+  commentId: M:Danmokou.DMath.Movement.#ctor(Vector2,Vector2)
+  id: '#ctor(Vector2,Vector2)'
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: Movement(Vector2, Vector2)
+  nameWithType: Movement.Movement(Vector2, Vector2)
+  fullName: Danmokou.DMath.Movement.Movement(Vector2, Vector2)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6811
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public Movement(Vector2 loc, Vector2 dir)
+    parameters:
+    - id: loc
+      type: Vector2
+    - id: dir
+      type: Vector2
+    content.vb: Public Sub New(loc As Vector2, dir As Vector2)
+  overload: Danmokou.DMath.Movement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.#ctor(Vector2,System.Single)
+  commentId: M:Danmokou.DMath.Movement.#ctor(Vector2,System.Single)
+  id: '#ctor(Vector2,System.Single)'
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: Movement(Vector2, Single)
+  nameWithType: Movement.Movement(Vector2, Single)
+  fullName: Danmokou.DMath.Movement.Movement(Vector2, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6820
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public Movement(Vector2 loc, float angleDeg)
+    parameters:
+    - id: loc
+      type: Vector2
+    - id: angleDeg
+      type: System.Single
+    content.vb: Public Sub New(loc As Vector2, angleDeg As Single)
+  overload: Danmokou.DMath.Movement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.UpdateZero(Danmokou.DMath.ParametricInfo@)
+  commentId: M:Danmokou.DMath.Movement.UpdateZero(Danmokou.DMath.ParametricInfo@)
+  id: UpdateZero(Danmokou.DMath.ParametricInfo@)
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: UpdateZero(ref ParametricInfo)
+  nameWithType: Movement.UpdateZero(ref ParametricInfo)
+  fullName: Danmokou.DMath.Movement.UpdateZero(ref Danmokou.DMath.ParametricInfo)
+  type: Method
+  source:
+    id: UpdateZero
+    path: ''
+    startLine: 6833
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nInitialize a parametric info container.\nbpi.t should contain the desired starting time of the container. This function will set it to zero and\nincrementally update it until it reaches its initial value.\n"
+  example: []
+  syntax:
+    content: public Vector2 UpdateZero(ref ParametricInfo bpi)
+    parameters:
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+      description: Parametric info
+    return:
+      type: Vector2
+      description: Direction to face
+    content.vb: Public Function UpdateZero(ByRef bpi As ParametricInfo) As Vector2
+  overload: Danmokou.DMath.Movement.UpdateZero*
+  nameWithType.vb: Movement.UpdateZero(ByRef ParametricInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.Movement.UpdateZero(ByRef Danmokou.DMath.ParametricInfo)
+  name.vb: UpdateZero(ByRef ParametricInfo)
+- uid: Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection,System.Int32)
+  commentId: M:Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection,System.Int32)
+  id: UpdateDeltaNoTime(BulletManager.SimpleBulletCollection,System.Int32)
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: UpdateDeltaNoTime(BulletManager.SimpleBulletCollection, Int32)
+  nameWithType: Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection, Int32)
+  fullName: Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection, System.Int32)
+  type: Method
+  source:
+    id: UpdateDeltaNoTime
+    path: ''
+    startLine: 6889
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void UpdateDeltaNoTime(BulletManager.SimpleBulletCollection sbc, int ii)
+    parameters:
+    - id: sbc
+      type: BulletManager.SimpleBulletCollection
+    - id: ii
+      type: System.Int32
+    content.vb: Public Sub UpdateDeltaNoTime(sbc As BulletManager.SimpleBulletCollection, ii As Integer)
+  overload: Danmokou.DMath.Movement.UpdateDeltaNoTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex,Ex)
+  commentId: M:Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex,Ex)
+  id: UpdateDeltaNoTime(Ex,Ex)
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: UpdateDeltaNoTime(Ex, Ex)
+  nameWithType: Movement.UpdateDeltaNoTime(Ex, Ex)
+  fullName: Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex, Ex)
+  type: Method
+  source:
+    id: UpdateDeltaNoTime
+    path: ''
+    startLine: 6899
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public Ex UpdateDeltaNoTime(Ex sbc, Ex ii)
+    parameters:
+    - id: sbc
+      type: Ex
+    - id: ii
+      type: Ex
+    return:
+      type: Ex
+    content.vb: Public Function UpdateDeltaNoTime(sbc As Ex, ii As Ex) As Ex
+  overload: Danmokou.DMath.Movement.UpdateDeltaNoTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.UpdateDeltaAssignDelta(Danmokou.DMath.ParametricInfo@,Vector3@,System.Single@)
+  commentId: M:Danmokou.DMath.Movement.UpdateDeltaAssignDelta(Danmokou.DMath.ParametricInfo@,Vector3@,System.Single@)
+  id: UpdateDeltaAssignDelta(Danmokou.DMath.ParametricInfo@,Vector3@,System.Single@)
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: UpdateDeltaAssignDelta(ref ParametricInfo, ref Vector3, in Single)
+  nameWithType: Movement.UpdateDeltaAssignDelta(ref ParametricInfo, ref Vector3, in Single)
+  fullName: Danmokou.DMath.Movement.UpdateDeltaAssignDelta(ref Danmokou.DMath.ParametricInfo, ref Vector3, in System.Single)
+  type: Method
+  source:
+    id: UpdateDeltaAssignDelta
+    path: ''
+    startLine: 6910
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nUpdate a BPI according to the velocity description.\nDoesn&apos;t calculate normalized direction.\n<br />Assigns <code data-dev-comment-type=\"paramref\" class=\"paramref\">delta</code>, but if the inner VTP is two-dimensional,\nit may not assign the z-dimension.\n"
+  example: []
+  syntax:
+    content: public void UpdateDeltaAssignDelta(ref ParametricInfo bpi, ref Vector3 delta, in float dT)
+    parameters:
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+      description: Parametric info
+    - id: delta
+      type: Vector3
+      description: The delta moved this update (assigned in addition to BPI.loc)
+    - id: dT
+      type: System.Single
+      description: Delta time
+    content.vb: Public Sub UpdateDeltaAssignDelta(ByRef bpi As ParametricInfo, ByRef delta As Vector3, ByRef dT As Single)
+  overload: Danmokou.DMath.Movement.UpdateDeltaAssignDelta*
+  nameWithType.vb: Movement.UpdateDeltaAssignDelta(ByRef ParametricInfo, ByRef Vector3, ByRef Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.Movement.UpdateDeltaAssignDelta(ByRef Danmokou.DMath.ParametricInfo, ByRef Vector3, ByRef System.Single)
+  name.vb: UpdateDeltaAssignDelta(ByRef ParametricInfo, ByRef Vector3, ByRef Single)
+- uid: Danmokou.DMath.Movement.FlipX
+  commentId: M:Danmokou.DMath.Movement.FlipX
+  id: FlipX
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: FlipX()
+  nameWithType: Movement.FlipX()
+  fullName: Danmokou.DMath.Movement.FlipX()
+  type: Method
+  source:
+    id: FlipX
+    path: ''
+    startLine: 6919
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void FlipX()
+    content.vb: Public Sub FlipX
+  overload: Danmokou.DMath.Movement.FlipX*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.FlipY
+  commentId: M:Danmokou.DMath.Movement.FlipY
+  id: FlipY
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: FlipY()
+  nameWithType: Movement.FlipY()
+  fullName: Danmokou.DMath.Movement.FlipY()
+  type: Method
+  source:
+    id: FlipY
+    path: ''
+    startLine: 6922
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void FlipY()
+    content.vb: Public Sub FlipY
+  overload: Danmokou.DMath.Movement.FlipY*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.Movement.IsEmpty
+  commentId: M:Danmokou.DMath.Movement.IsEmpty
+  id: IsEmpty
+  parent: Danmokou.DMath.Movement
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty()
+  nameWithType: Movement.IsEmpty()
+  fullName: Danmokou.DMath.Movement.IsEmpty()
+  type: Method
+  source:
+    id: IsEmpty
+    path: ''
+    startLine: 6925
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public bool IsEmpty()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsEmpty As Boolean
+  overload: Danmokou.DMath.Movement.IsEmpty*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.DMath.Movement.Direction*
+  commentId: Overload:Danmokou.DMath.Movement.Direction
+  name: Direction
+  nameWithType: Movement.Direction
+  fullName: Danmokou.DMath.Movement.Direction
+- uid: Danmokou.DMath.Movement.#ctor*
+  commentId: Overload:Danmokou.DMath.Movement.#ctor
+  name: Movement
+  nameWithType: Movement.Movement
+  fullName: Danmokou.DMath.Movement.Movement
+- uid: Danmokou.DMath.VTP
+  commentId: T:Danmokou.DMath.VTP
+  parent: Danmokou.DMath
+  name: VTP
+  nameWithType: VTP
+  fullName: Danmokou.DMath.VTP
+- uid: V2RV2
+  isExternal: true
+  name: V2RV2
+  nameWithType: V2RV2
+  fullName: V2RV2
+- uid: Danmokou.DMath.Movement.WithNoMovement*
+  commentId: Overload:Danmokou.DMath.Movement.WithNoMovement
+  name: WithNoMovement
+  nameWithType: Movement.WithNoMovement
+  fullName: Danmokou.DMath.Movement.WithNoMovement
+- uid: Danmokou.DMath.Movement
+  commentId: T:Danmokou.DMath.Movement
+  parent: Danmokou.DMath
+  name: Movement
+  nameWithType: Movement
+  fullName: Danmokou.DMath.Movement
+- uid: Danmokou.DMath.Movement.None*
+  commentId: Overload:Danmokou.DMath.Movement.None
+  name: None
+  nameWithType: Movement.None
+  fullName: Danmokou.DMath.Movement.None
+- uid: Danmokou.DMath.Movement.UpdateZero*
+  commentId: Overload:Danmokou.DMath.Movement.UpdateZero
+  name: UpdateZero
+  nameWithType: Movement.UpdateZero
+  fullName: Danmokou.DMath.Movement.UpdateZero
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: Danmokou.DMath.Movement.UpdateDeltaNoTime*
+  commentId: Overload:Danmokou.DMath.Movement.UpdateDeltaNoTime
+  name: UpdateDeltaNoTime
+  nameWithType: Movement.UpdateDeltaNoTime
+  fullName: Danmokou.DMath.Movement.UpdateDeltaNoTime
+- uid: BulletManager.SimpleBulletCollection
+  isExternal: true
+  name: BulletManager.SimpleBulletCollection
+  nameWithType: BulletManager.SimpleBulletCollection
+  fullName: BulletManager.SimpleBulletCollection
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Ex
+  isExternal: true
+  name: Ex
+  nameWithType: Ex
+  fullName: Ex
+- uid: Danmokou.DMath.Movement.UpdateDeltaAssignDelta*
+  commentId: Overload:Danmokou.DMath.Movement.UpdateDeltaAssignDelta
+  name: UpdateDeltaAssignDelta
+  nameWithType: Movement.UpdateDeltaAssignDelta
+  fullName: Danmokou.DMath.Movement.UpdateDeltaAssignDelta
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Danmokou.DMath.Movement.FlipX*
+  commentId: Overload:Danmokou.DMath.Movement.FlipX
+  name: FlipX
+  nameWithType: Movement.FlipX
+  fullName: Danmokou.DMath.Movement.FlipX
+- uid: Danmokou.DMath.Movement.FlipY*
+  commentId: Overload:Danmokou.DMath.Movement.FlipY
+  name: FlipY
+  nameWithType: Movement.FlipY
+  fullName: Danmokou.DMath.Movement.FlipY
+- uid: Danmokou.DMath.Movement.IsEmpty*
+  commentId: Overload:Danmokou.DMath.Movement.IsEmpty
+  name: IsEmpty
+  nameWithType: Movement.IsEmpty
+  fullName: Danmokou.DMath.Movement.IsEmpty
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

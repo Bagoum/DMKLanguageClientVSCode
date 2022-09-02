@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Graphics
+  commentId: N:Danmokou.Graphics
+  id: Danmokou.Graphics
+  children:
+  - Danmokou.Graphics.CurvedTileRenderLaser
+  - Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  - Danmokou.Graphics.CurvedTileRenderLaser.PoolControls
+  langs:
+  - csharp
+  - vb
+  name: Danmokou.Graphics
+  nameWithType: Danmokou.Graphics
+  fullName: Danmokou.Graphics
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Danmokou.Graphics.CurvedTileRenderLaser
+  commentId: T:Danmokou.Graphics.CurvedTileRenderLaser
+  name: CurvedTileRenderLaser
+  nameWithType: CurvedTileRenderLaser
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  commentId: T:Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+  name: CurvedTileRenderLaser.LaserControls
+  nameWithType: CurvedTileRenderLaser.LaserControls
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.LaserControls
+- uid: Danmokou.Graphics.CurvedTileRenderLaser.PoolControls
+  commentId: T:Danmokou.Graphics.CurvedTileRenderLaser.PoolControls
+  name: CurvedTileRenderLaser.PoolControls
+  nameWithType: CurvedTileRenderLaser.PoolControls
+  fullName: Danmokou.Graphics.CurvedTileRenderLaser.PoolControls

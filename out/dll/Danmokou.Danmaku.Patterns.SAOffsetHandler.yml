@@ -1,0 +1,679 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.SAOffsetHandler
+  commentId: T:Danmokou.Danmaku.Patterns.SAOffsetHandler
+  id: SAOffsetHandler
+  parent: Danmokou.Danmaku.Patterns
+  children:
+  - Danmokou.Danmaku.Patterns.SAOffsetHandler.#ctor(SAAngle,GCXF{System.Single},GCXF{Vector2})
+  - Danmokou.Danmaku.Patterns.SAOffsetHandler.Locate(GenCtx)
+  langs:
+  - csharp
+  - vb
+  name: SAOffsetHandler
+  nameWithType: SAOffsetHandler
+  fullName: Danmokou.Danmaku.Patterns.SAOffsetHandler
+  type: Class
+  source:
+    id: SAOffsetHandler
+    path: ''
+    startLine: 5213
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: 'public class SAOffsetHandler : SummonAlongHandler'
+    content.vb: >-
+      Public Class SAOffsetHandler
+          Inherits SummonAlongHandler
+  inheritance:
+  - System.Object
+  - Danmokou.Danmaku.Patterns.SummonAlongHandler
+  inheritedMembers:
+  - Danmokou.Danmaku.Patterns.SummonAlongHandler.Angle(GenCtx,V2RV2,V2RV2)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.Danmaku.Patterns.SAOffsetHandler.#ctor(SAAngle,GCXF{System.Single},GCXF{Vector2})
+  commentId: M:Danmokou.Danmaku.Patterns.SAOffsetHandler.#ctor(SAAngle,GCXF{System.Single},GCXF{Vector2})
+  id: '#ctor(SAAngle,GCXF{System.Single},GCXF{Vector2})'
+  parent: Danmokou.Danmaku.Patterns.SAOffsetHandler
+  langs:
+  - csharp
+  - vb
+  name: SAOffsetHandler(SAAngle, GCXF<Single>, GCXF<Vector2>)
+  nameWithType: SAOffsetHandler.SAOffsetHandler(SAAngle, GCXF<Single>, GCXF<Vector2>)
+  fullName: Danmokou.Danmaku.Patterns.SAOffsetHandler.SAOffsetHandler(SAAngle, GCXF<System.Single>, GCXF<Vector2>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5215
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public SAOffsetHandler(SAAngle sah, GCXF<float> offsetAngle, GCXF<Vector2> nextLocation)
+    parameters:
+    - id: sah
+      type: SAAngle
+    - id: offsetAngle
+      type: GCXF{System.Single}
+    - id: nextLocation
+      type: GCXF{Vector2}
+    content.vb: Public Sub New(sah As SAAngle, offsetAngle As GCXF(Of Single), nextLocation As GCXF(Of Vector2))
+  overload: Danmokou.Danmaku.Patterns.SAOffsetHandler.#ctor*
+  nameWithType.vb: SAOffsetHandler.SAOffsetHandler(SAAngle, GCXF(Of Single), GCXF(Of Vector2))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.SAOffsetHandler.SAOffsetHandler(SAAngle, GCXF(Of System.Single), GCXF(Of Vector2))
+  name.vb: SAOffsetHandler(SAAngle, GCXF(Of Single), GCXF(Of Vector2))
+- uid: Danmokou.Danmaku.Patterns.SAOffsetHandler.Locate(GenCtx)
+  commentId: M:Danmokou.Danmaku.Patterns.SAOffsetHandler.Locate(GenCtx)
+  id: Locate(GenCtx)
+  parent: Danmokou.Danmaku.Patterns.SAOffsetHandler
+  langs:
+  - csharp
+  - vb
+  name: Locate(GenCtx)
+  nameWithType: SAOffsetHandler.Locate(GenCtx)
+  fullName: Danmokou.Danmaku.Patterns.SAOffsetHandler.Locate(GenCtx)
+  type: Method
+  source:
+    id: Locate
+    path: ''
+    startLine: 5219
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public override Vector2 Locate(GenCtx gcx)
+    parameters:
+    - id: gcx
+      type: GenCtx
+    return:
+      type: Vector2
+    content.vb: Public Overrides Function Locate(gcx As GenCtx) As Vector2
+  overridden: Danmokou.Danmaku.Patterns.SummonAlongHandler.Locate(GenCtx)
+  overload: Danmokou.Danmaku.Patterns.SAOffsetHandler.Locate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.Danmaku.Patterns.SummonAlongHandler
+  commentId: T:Danmokou.Danmaku.Patterns.SummonAlongHandler
+  parent: Danmokou.Danmaku.Patterns
+  name: SummonAlongHandler
+  nameWithType: SummonAlongHandler
+  fullName: Danmokou.Danmaku.Patterns.SummonAlongHandler
+- uid: Danmokou.Danmaku.Patterns.SummonAlongHandler.Angle(GenCtx,V2RV2,V2RV2)
+  commentId: M:Danmokou.Danmaku.Patterns.SummonAlongHandler.Angle(GenCtx,V2RV2,V2RV2)
+  parent: Danmokou.Danmaku.Patterns.SummonAlongHandler
+  isExternal: true
+  name: Angle(GenCtx, V2RV2, V2RV2)
+  nameWithType: SummonAlongHandler.Angle(GenCtx, V2RV2, V2RV2)
+  fullName: Danmokou.Danmaku.Patterns.SummonAlongHandler.Angle(GenCtx, V2RV2, V2RV2)
+  spec.csharp:
+  - uid: Danmokou.Danmaku.Patterns.SummonAlongHandler.Angle(GenCtx,V2RV2,V2RV2)
+    name: Angle
+    nameWithType: SummonAlongHandler.Angle
+    fullName: Danmokou.Danmaku.Patterns.SummonAlongHandler.Angle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: GenCtx
+    name: GenCtx
+    nameWithType: GenCtx
+    fullName: GenCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.Danmaku.Patterns.SummonAlongHandler.Angle(GenCtx,V2RV2,V2RV2)
+    name: Angle
+    nameWithType: SummonAlongHandler.Angle
+    fullName: Danmokou.Danmaku.Patterns.SummonAlongHandler.Angle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: GenCtx
+    name: GenCtx
+    nameWithType: GenCtx
+    fullName: GenCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Danmaku.Patterns.SAOffsetHandler.#ctor*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SAOffsetHandler.#ctor
+  name: SAOffsetHandler
+  nameWithType: SAOffsetHandler.SAOffsetHandler
+  fullName: Danmokou.Danmaku.Patterns.SAOffsetHandler.SAOffsetHandler
+- uid: SAAngle
+  isExternal: true
+  name: SAAngle
+  nameWithType: SAAngle
+  fullName: SAAngle
+- uid: GCXF{System.Single}
+  commentId: '!:GCXF{System.Single}'
+  definition: GCXF`1
+  name: GCXF<Single>
+  nameWithType: GCXF<Single>
+  fullName: GCXF<System.Single>
+  nameWithType.vb: GCXF(Of Single)
+  fullName.vb: GCXF(Of System.Single)
+  name.vb: GCXF(Of Single)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GCXF{Vector2}
+  commentId: '!:GCXF{Vector2}'
+  definition: GCXF`1
+  name: GCXF<Vector2>
+  nameWithType: GCXF<Vector2>
+  fullName: GCXF<Vector2>
+  nameWithType.vb: GCXF(Of Vector2)
+  fullName.vb: GCXF(Of Vector2)
+  name.vb: GCXF(Of Vector2)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GCXF`1
+  isExternal: true
+  name: GCXF<>
+  nameWithType: GCXF<>
+  fullName: GCXF<>
+  nameWithType.vb: GCXF(Of )
+  fullName.vb: GCXF(Of )
+  name.vb: GCXF(Of )
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.SummonAlongHandler.Locate(GenCtx)
+  commentId: M:Danmokou.Danmaku.Patterns.SummonAlongHandler.Locate(GenCtx)
+  parent: Danmokou.Danmaku.Patterns.SummonAlongHandler
+  isExternal: true
+  name: Locate(GenCtx)
+  nameWithType: SummonAlongHandler.Locate(GenCtx)
+  fullName: Danmokou.Danmaku.Patterns.SummonAlongHandler.Locate(GenCtx)
+  spec.csharp:
+  - uid: Danmokou.Danmaku.Patterns.SummonAlongHandler.Locate(GenCtx)
+    name: Locate
+    nameWithType: SummonAlongHandler.Locate
+    fullName: Danmokou.Danmaku.Patterns.SummonAlongHandler.Locate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: GenCtx
+    name: GenCtx
+    nameWithType: GenCtx
+    fullName: GenCtx
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.Danmaku.Patterns.SummonAlongHandler.Locate(GenCtx)
+    name: Locate
+    nameWithType: SummonAlongHandler.Locate
+    fullName: Danmokou.Danmaku.Patterns.SummonAlongHandler.Locate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: GenCtx
+    name: GenCtx
+    nameWithType: GenCtx
+    fullName: GenCtx
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.SAOffsetHandler.Locate*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SAOffsetHandler.Locate
+  name: Locate
+  nameWithType: SAOffsetHandler.Locate
+  fullName: Danmokou.Danmaku.Patterns.SAOffsetHandler.Locate
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2

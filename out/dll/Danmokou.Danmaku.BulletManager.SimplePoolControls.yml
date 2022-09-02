@@ -1,0 +1,702 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  commentId: T:Danmokou.Danmaku.BulletManager.SimplePoolControls
+  id: BulletManager.SimplePoolControls
+  parent: Danmokou.Danmaku
+  children:
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull(System.Boolean)
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete(System.Boolean)
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad(System.Single)
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor(TP4,TP4)
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll(System.String)
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint(TP4)
+  langs:
+  - csharp
+  - vb
+  name: BulletManager.SimplePoolControls
+  nameWithType: BulletManager.SimplePoolControls
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  type: Class
+  source:
+    id: SimplePoolControls
+    path: ''
+    startLine: 2081
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nPool controls for use with the `pool-control` SM command. These deal with simple bullets. As opposed to\n`bullet-control`, these commands affect the bullet pool instead of individual objects.\n"
+  example: []
+  syntax:
+    content: public static class SimplePoolControls
+    content.vb: Public Module SimplePoolControls
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset
+  id: Reset
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: BulletManager.SimplePoolControls.Reset()
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 2088
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nClear the bullet controls on a pool.\n<br />Note that this returns a null disposable.\n"
+  example: []
+  syntax:
+    content: public static SPCF Reset()
+    return:
+      type: SPCF
+      description: ''
+    content.vb: Public Shared Function Reset As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad(System.Single)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad(System.Single)
+  id: CullRad(System.Single)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: CullRad(Single)
+  nameWithType: BulletManager.SimplePoolControls.CullRad(Single)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad(System.Single)
+  type: Method
+  source:
+    id: CullRad
+    path: ''
+    startLine: 2099
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSet the cull radius on a pool.\nThis is reset automatically via clear phase.\n"
+  example: []
+  syntax:
+    content: public static SPCF CullRad(float r)
+    parameters:
+    - id: r
+      type: System.Single
+    return:
+      type: SPCF
+      description: ''
+    content.vb: Public Shared Function CullRad(r As Single) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull(System.Boolean)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull(System.Boolean)
+  id: AllowCull(System.Boolean)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: AllowCull(Boolean)
+  nameWithType: BulletManager.SimplePoolControls.AllowCull(Boolean)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull(System.Boolean)
+  type: Method
+  source:
+    id: AllowCull
+    path: ''
+    startLine: 2108
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSet whether or not a pool can cull bullets that are out of camera range.\nThis is reset automatically via clear phase.\n"
+  example: []
+  syntax:
+    content: public static SPCF AllowCull(bool cullActive)
+    parameters:
+    - id: cullActive
+      type: System.Boolean
+      description: True iff camera culling is allowed.
+    return:
+      type: SPCF
+      description: ''
+    content.vb: Public Shared Function AllowCull(cullActive As Boolean) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete(System.Boolean)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete(System.Boolean)
+  id: AllowDelete(System.Boolean)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: AllowDelete(Boolean)
+  nameWithType: BulletManager.SimplePoolControls.AllowDelete(Boolean)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete(System.Boolean)
+  type: Method
+  source:
+    id: AllowDelete
+    path: ''
+    startLine: 2116
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSet whether or not a pool&apos;s bullets can be deleted by effects\nsuch as photos, bombs, and player damage clears.\nThis is reset automatically via clear phase.\n"
+  example: []
+  syntax:
+    content: public static SPCF AllowDelete(bool deleteActive)
+    parameters:
+    - id: deleteActive
+      type: System.Boolean
+    return:
+      type: SPCF
+    content.vb: Public Shared Function AllowDelete(deleteActive As Boolean) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll(System.String)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll(System.String)
+  id: SoftCullAll(System.String)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: SoftCullAll(String)
+  nameWithType: BulletManager.SimplePoolControls.SoftCullAll(String)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll(System.String)
+  type: Method
+  source:
+    id: SoftCullAll
+    path: ''
+    startLine: 2125
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nUnconditionally softcull all bullets in a pool with an automatically-determined cull style.\n<br />Note that this returns a null disposable and is instead bounded by the cToken.\n"
+  example: []
+  syntax:
+    content: public static SPCF SoftCullAll(string targetFormat)
+    parameters:
+    - id: targetFormat
+      type: System.String
+      description: Base cull style, eg. cwheel
+    return:
+      type: SPCF
+      description: ''
+    content.vb: Public Shared Function SoftCullAll(targetFormat As String) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint(TP4)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint(TP4)
+  id: Tint(TP4)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: Tint(TP4)
+  nameWithType: BulletManager.SimplePoolControls.Tint(TP4)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint(TP4)
+  type: Method
+  source:
+    id: Tint
+    path: ''
+    startLine: 2140
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nTint the bullets in this pool. This is a multiplicative effect on the existing color.\n<br /> Note: This is a pool control, instead of a bullet option (as it is with lasers/pathers), to avoid bloating.\n<br /> Note: This can be used with all bullet styles, unlike Recolor.\n<br /> WARNING: This is a rendering function. Do not use `rand` (`brand` ok), or else replays will desync.\n"
+  example: []
+  syntax:
+    content: public static SPCF Tint(TP4 tint)
+    parameters:
+    - id: tint
+      type: TP4
+    return:
+      type: SPCF
+    content.vb: Public Shared Function Tint(tint As TP4) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor(TP4,TP4)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor(TP4,TP4)
+  id: Recolor(TP4,TP4)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: Recolor(TP4, TP4)
+  nameWithType: BulletManager.SimplePoolControls.Recolor(TP4, TP4)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor(TP4, TP4)
+  type: Method
+  source:
+    id: Recolor
+    path: ''
+    startLine: 2149
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nManually construct a two-color gradient for all bullets in this pool.\n<br /> Note: This is a pool control, instead of a bullet option (as it is with lasers/pathers), to avoid bloating.\n<br /> Note: This will error if you do not use it with the `recolor` palette.\n<br /> WARNING: This is a rendering function. Do not use `rand` (`brand` ok), or else replays will desync.\n"
+  example: []
+  syntax:
+    content: public static SPCF Recolor(TP4 black, TP4 white)
+    parameters:
+    - id: black
+      type: TP4
+    - id: white
+      type: TP4
+    return:
+      type: SPCF
+    content.vb: Public Shared Function Recolor(black As TP4, white As TP4) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ
+  id: SortZ
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: SortZ()
+  nameWithType: BulletManager.SimplePoolControls.SortZ()
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ()
+  type: Method
+  source:
+    id: SortZ
+    path: ''
+    startLine: 2155
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSort the bullets in the pool by z-axis (smallest Z on top).\n"
+  example: []
+  syntax:
+    content: public static SPCF SortZ()
+    return:
+      type: SPCF
+    content.vb: Public Shared Function SortZ As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.Danmaku
+  commentId: N:Danmokou.Danmaku
+  name: Danmokou.Danmaku
+  nameWithType: Danmokou.Danmaku
+  fullName: Danmokou.Danmaku
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset
+  name: Reset
+  nameWithType: BulletManager.SimplePoolControls.Reset
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset
+- uid: SPCF
+  isExternal: true
+  name: SPCF
+  nameWithType: SPCF
+  fullName: SPCF
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad
+  name: CullRad
+  nameWithType: BulletManager.SimplePoolControls.CullRad
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull
+  name: AllowCull
+  nameWithType: BulletManager.SimplePoolControls.AllowCull
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete
+  name: AllowDelete
+  nameWithType: BulletManager.SimplePoolControls.AllowDelete
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll
+  name: SoftCullAll
+  nameWithType: BulletManager.SimplePoolControls.SoftCullAll
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint
+  name: Tint
+  nameWithType: BulletManager.SimplePoolControls.Tint
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint
+- uid: TP4
+  isExternal: true
+  name: TP4
+  nameWithType: TP4
+  fullName: TP4
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor
+  name: Recolor
+  nameWithType: BulletManager.SimplePoolControls.Recolor
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ
+  name: SortZ
+  nameWithType: BulletManager.SimplePoolControls.SortZ
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ

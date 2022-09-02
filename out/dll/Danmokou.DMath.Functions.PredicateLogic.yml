@@ -1,0 +1,582 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.PredicateLogic
+  commentId: T:Danmokou.DMath.Functions.PredicateLogic
+  id: PredicateLogic
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.PredicateLogic.Circ(ExTP3)
+  - Danmokou.DMath.Functions.PredicateLogic.OnlyOnce(ExPred)
+  - Danmokou.DMath.Functions.PredicateLogic.Rect(CRect)
+  - Danmokou.DMath.Functions.PredicateLogic.RelCirc(BEHPointer,ExTP3)
+  - Danmokou.DMath.Functions.PredicateLogic.RelRect(BEHPointer,CRect)
+  langs:
+  - csharp
+  - vb
+  name: PredicateLogic
+  nameWithType: PredicateLogic
+  fullName: Danmokou.DMath.Functions.PredicateLogic
+  type: Class
+  source:
+    id: PredicateLogic
+    path: ''
+    startLine: 8196
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that take in parametric information and return true or false.\n"
+  example: []
+  syntax:
+    content: public static class PredicateLogic
+    content.vb: Public Module PredicateLogic
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.PredicateLogic.OnlyOnce(ExPred)
+  commentId: M:Danmokou.DMath.Functions.PredicateLogic.OnlyOnce(ExPred)
+  id: OnlyOnce(ExPred)
+  parent: Danmokou.DMath.Functions.PredicateLogic
+  langs:
+  - csharp
+  - vb
+  name: OnlyOnce(ExPred)
+  nameWithType: PredicateLogic.OnlyOnce(ExPred)
+  fullName: Danmokou.DMath.Functions.PredicateLogic.OnlyOnce(ExPred)
+  type: Method
+  source:
+    id: OnlyOnce
+    path: ''
+    startLine: 8204
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nNest a predicate such that it only returns True once for a single bullet.\n"
+  example: []
+  syntax:
+    content: public static ExPred OnlyOnce(ExPred pred)
+    parameters:
+    - id: pred
+      type: ExPred
+      description: ''
+    return:
+      type: ExPred
+      description: ''
+    content.vb: Public Shared Function OnlyOnce(pred As ExPred) As ExPred
+  overload: Danmokou.DMath.Functions.PredicateLogic.OnlyOnce*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.PredicateLogic.RelCirc(BEHPointer,ExTP3)
+  commentId: M:Danmokou.DMath.Functions.PredicateLogic.RelCirc(BEHPointer,ExTP3)
+  id: RelCirc(BEHPointer,ExTP3)
+  parent: Danmokou.DMath.Functions.PredicateLogic
+  langs:
+  - csharp
+  - vb
+  name: RelCirc(BEHPointer, ExTP3)
+  nameWithType: PredicateLogic.RelCirc(BEHPointer, ExTP3)
+  fullName: Danmokou.DMath.Functions.PredicateLogic.RelCirc(BEHPointer, ExTP3)
+  type: Method
+  source:
+    id: RelCirc
+    path: ''
+    startLine: 8223
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true if the object is in the given circle relative to a BehaviorEntity.\n"
+  example: []
+  syntax:
+    content: public static ExPred RelCirc(BEHPointer beh, ExTP3 circ)
+    parameters:
+    - id: beh
+      type: BEHPointer
+      description: Target BehaviorEntity
+    - id: circ
+      type: ExTP3
+      description: Relative circle
+    return:
+      type: ExPred
+      description: ''
+    content.vb: Public Shared Function RelCirc(beh As BEHPointer, circ As ExTP3) As ExPred
+  overload: Danmokou.DMath.Functions.PredicateLogic.RelCirc*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.PredicateLogic.Circ(ExTP3)
+  commentId: M:Danmokou.DMath.Functions.PredicateLogic.Circ(ExTP3)
+  id: Circ(ExTP3)
+  parent: Danmokou.DMath.Functions.PredicateLogic
+  langs:
+  - csharp
+  - vb
+  name: Circ(ExTP3)
+  nameWithType: PredicateLogic.Circ(ExTP3)
+  fullName: Danmokou.DMath.Functions.PredicateLogic.Circ(ExTP3)
+  type: Method
+  source:
+    id: Circ
+    path: ''
+    startLine: 8234
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true if the object is in the given circle.\n"
+  example: []
+  syntax:
+    content: public static ExPred Circ(ExTP3 circ)
+    parameters:
+    - id: circ
+      type: ExTP3
+      description: Circle in world-space
+    return:
+      type: ExPred
+      description: ''
+    content.vb: Public Shared Function Circ(circ As ExTP3) As ExPred
+  overload: Danmokou.DMath.Functions.PredicateLogic.Circ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.PredicateLogic.RelRect(BEHPointer,CRect)
+  commentId: M:Danmokou.DMath.Functions.PredicateLogic.RelRect(BEHPointer,CRect)
+  id: RelRect(BEHPointer,CRect)
+  parent: Danmokou.DMath.Functions.PredicateLogic
+  langs:
+  - csharp
+  - vb
+  name: RelRect(BEHPointer, CRect)
+  nameWithType: PredicateLogic.RelRect(BEHPointer, CRect)
+  fullName: Danmokou.DMath.Functions.PredicateLogic.RelRect(BEHPointer, CRect)
+  type: Method
+  source:
+    id: RelRect
+    path: ''
+    startLine: 8245
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true if the object is in the given rectangle relative to a BehaviorEntity.\n"
+  example: []
+  syntax:
+    content: public static ExPred RelRect(BEHPointer beh, CRect rect)
+    parameters:
+    - id: beh
+      type: BEHPointer
+      description: Target BehaviorEntity
+    - id: rect
+      type: CRect
+      description: Relative rectangle
+    return:
+      type: ExPred
+      description: ''
+    content.vb: Public Shared Function RelRect(beh As BEHPointer, rect As CRect) As ExPred
+  overload: Danmokou.DMath.Functions.PredicateLogic.RelRect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.PredicateLogic.Rect(CRect)
+  commentId: M:Danmokou.DMath.Functions.PredicateLogic.Rect(CRect)
+  id: Rect(CRect)
+  parent: Danmokou.DMath.Functions.PredicateLogic
+  langs:
+  - csharp
+  - vb
+  name: Rect(CRect)
+  nameWithType: PredicateLogic.Rect(CRect)
+  fullName: Danmokou.DMath.Functions.PredicateLogic.Rect(CRect)
+  type: Method
+  source:
+    id: Rect
+    path: ''
+    startLine: 8256
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true if the object is in the given rectangle.\n"
+  example: []
+  syntax:
+    content: public static ExPred Rect(CRect rect)
+    parameters:
+    - id: rect
+      type: CRect
+      description: Rectangle in world-space
+    return:
+      type: ExPred
+      description: ''
+    content.vb: Public Shared Function Rect(rect As CRect) As ExPred
+  overload: Danmokou.DMath.Functions.PredicateLogic.Rect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.PredicateLogic.OnlyOnce*
+  commentId: Overload:Danmokou.DMath.Functions.PredicateLogic.OnlyOnce
+  name: OnlyOnce
+  nameWithType: PredicateLogic.OnlyOnce
+  fullName: Danmokou.DMath.Functions.PredicateLogic.OnlyOnce
+- uid: ExPred
+  isExternal: true
+  name: ExPred
+  nameWithType: ExPred
+  fullName: ExPred
+- uid: Danmokou.DMath.Functions.PredicateLogic.RelCirc*
+  commentId: Overload:Danmokou.DMath.Functions.PredicateLogic.RelCirc
+  name: RelCirc
+  nameWithType: PredicateLogic.RelCirc
+  fullName: Danmokou.DMath.Functions.PredicateLogic.RelCirc
+- uid: BEHPointer
+  isExternal: true
+  name: BEHPointer
+  nameWithType: BEHPointer
+  fullName: BEHPointer
+- uid: ExTP3
+  isExternal: true
+  name: ExTP3
+  nameWithType: ExTP3
+  fullName: ExTP3
+- uid: Danmokou.DMath.Functions.PredicateLogic.Circ*
+  commentId: Overload:Danmokou.DMath.Functions.PredicateLogic.Circ
+  name: Circ
+  nameWithType: PredicateLogic.Circ
+  fullName: Danmokou.DMath.Functions.PredicateLogic.Circ
+- uid: Danmokou.DMath.Functions.PredicateLogic.RelRect*
+  commentId: Overload:Danmokou.DMath.Functions.PredicateLogic.RelRect
+  name: RelRect
+  nameWithType: PredicateLogic.RelRect
+  fullName: Danmokou.DMath.Functions.PredicateLogic.RelRect
+- uid: CRect
+  isExternal: true
+  name: CRect
+  nameWithType: CRect
+  fullName: CRect
+- uid: Danmokou.DMath.Functions.PredicateLogic.Rect*
+  commentId: Overload:Danmokou.DMath.Functions.PredicateLogic.Rect
+  name: Rect
+  nameWithType: PredicateLogic.Rect
+  fullName: Danmokou.DMath.Functions.PredicateLogic.Rect

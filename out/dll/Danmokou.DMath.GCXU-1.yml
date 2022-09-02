@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.GCXU`1
+  commentId: T:Danmokou.DMath.GCXU`1
+  id: GCXU`1
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GCXU<Fn>
+  nameWithType: GCXU<Fn>
+  fullName: Danmokou.DMath.GCXU<Fn>
+  type: Delegate
+  source:
+    id: GCXU
+    path: ''
+    startLine: 6701
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA wrapper type used to upload values from a GCX to private data hoisting before providing a delegate to a new object.\n"
+  example: []
+  syntax:
+    content: public delegate Fn GCXU<Fn>(GenCtx gcx, FiringCtx fctx);
+    parameters:
+    - id: gcx
+      type: GenCtx
+    - id: fctx
+      type: Danmokou.DMath.FiringCtx
+    typeParameters:
+    - id: Fn
+      description: Delegate type (eg. TP, BPY, Pred)
+    return:
+      type: '{Fn}'
+    content.vb: Public Delegate Function GCXU(Of Fn)(gcx As GenCtx, fctx As FiringCtx) As Fn
+  nameWithType.vb: GCXU(Of Fn)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: Danmokou.DMath.GCXU(Of Fn)
+  name.vb: GCXU(Of Fn)
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx
+- uid: Danmokou.DMath.FiringCtx
+  commentId: T:Danmokou.DMath.FiringCtx
+  parent: Danmokou.DMath
+  name: FiringCtx
+  nameWithType: FiringCtx
+  fullName: Danmokou.DMath.FiringCtx
+- uid: '{Fn}'
+  commentId: '!:Fn'
+  definition: Fn
+  name: Fn
+  nameWithType: Fn
+  fullName: Fn
+- uid: Fn
+  commentId: '!:Fn'
+  name: Fn
+  nameWithType: Fn
+  fullName: Fn

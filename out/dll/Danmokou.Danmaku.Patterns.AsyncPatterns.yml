@@ -1,0 +1,1664 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncPatterns
+  id: AsyncPatterns
+  parent: Danmokou.Danmaku.Patterns
+  children:
+  - Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR(Danmokou.Danmaku.Patterns.SyncPattern,GenCtxProperty[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay(GCXF{System.Single},Danmokou.Danmaku.Patterns.SyncPattern)
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.COnce(Danmokou.Danmaku.Patterns.SyncPattern)
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption(GCXF{System.Single},GCXF{System.Single},ExBPY,ExBPY,ExBPY,GenCtxProperty[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat(GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern},Danmokou.Danmaku.Patterns.SyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d(ExBPY,ExBPY,ExBPY,GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr(ExBPY,ExBPY,ExBPY,ExBPRV2,GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption(GCXF{System.Single},GCXF{System.Single},ExBPY,ExBPY,ExBPY)
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat(GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern},Danmokou.Danmaku.Patterns.AsyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d(ExBPY,ExBPY,ExBPY,GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.ICacheLoc(Danmokou.Danmaku.Patterns.AsyncPattern)
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.IColor(System.String,Danmokou.Danmaku.Patterns.AsyncPattern)
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay(GCXF{System.Single},Danmokou.Danmaku.Patterns.AsyncPattern)
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.IParent(System.String,Danmokou.Danmaku.Patterns.AsyncPattern)
+  - Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP(GCXF{System.Single},Danmokou.Danmaku.Patterns.AsyncPattern)
+  langs:
+  - csharp
+  - vb
+  name: AsyncPatterns
+  nameWithType: AsyncPatterns
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns
+  type: Class
+  source:
+    id: AsyncPatterns
+    path: ''
+    startLine: 4553
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nFunctions that describe actions performed over time.\nThe full type is Func{AsyncHandoff, IEnumerator}.\n"
+  example: []
+  syntax:
+    content: public static class AsyncPatterns
+    content.vb: Public Module AsyncPatterns
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat(GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern},Danmokou.Danmaku.Patterns.SyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat(GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern},Danmokou.Danmaku.Patterns.SyncPattern[])
+  id: GCRepeat(GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern},Danmokou.Danmaku.Patterns.SyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GCRepeat(GenCtxProperties<AsyncPattern>, SyncPattern[])
+  nameWithType: AsyncPatterns.GCRepeat(GenCtxProperties<AsyncPattern>, SyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat(GenCtxProperties<Danmokou.Danmaku.Patterns.AsyncPattern>, Danmokou.Danmaku.Patterns.SyncPattern[])
+  type: Method
+  source:
+    id: GCRepeat
+    path: ''
+    startLine: 4179
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nThe generic C-level repeater function.\nTakes any number of functionality-modifying properties as an array.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GCRepeat(GenCtxProperties<AsyncPattern> props, SyncPattern[] target)
+    parameters:
+    - id: props
+      type: GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern}
+      description: Array of properties
+    - id: target
+      type: Danmokou.Danmaku.Patterns.SyncPattern[]
+      description: Child SyncPatterns to run
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function GCRepeat(props As GenCtxProperties(Of AsyncPattern), target As SyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat*
+  nameWithType.vb: AsyncPatterns.GCRepeat(GenCtxProperties(Of AsyncPattern), SyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat(GenCtxProperties(Of Danmokou.Danmaku.Patterns.AsyncPattern), Danmokou.Danmaku.Patterns.SyncPattern())
+  name.vb: GCRepeat(GenCtxProperties(Of AsyncPattern), SyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  id: GCRepeat2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GCRepeat2(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], SyncPattern[])
+  nameWithType: AsyncPatterns.GCRepeat2(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], SyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2(GCXF<System.Single>, GCXF<System.Single>, GCXF<V2RV2>, GenCtxProperty[], Danmokou.Danmaku.Patterns.SyncPattern[])
+  type: Method
+  source:
+    id: GCRepeat2
+    path: ''
+    startLine: 4218
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nLike GCRepeat, but has specific handling for the WAIT, TIMES, and rpp properties.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GCRepeat2(GCXF<float> wait, GCXF<float> times, GCXF<V2RV2> rpp, GenCtxProperty[] props, SyncPattern[] target)
+    parameters:
+    - id: wait
+      type: GCXF{System.Single}
+      description: Frames to wait between invocations
+    - id: times
+      type: GCXF{System.Single}
+      description: Number of invocations
+    - id: rpp
+      type: GCXF{V2RV2}
+      description: Amount to increment rv2 between invocations
+    - id: props
+      type: GenCtxProperty[]
+      description: Other properties
+    - id: target
+      type: Danmokou.Danmaku.Patterns.SyncPattern[]
+      description: Child SyncPatterns to run
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function GCRepeat2(wait As GCXF(Of Single), times As GCXF(Of Single), rpp As GCXF(Of V2RV2), props As GenCtxProperty(), target As SyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2*
+  nameWithType.vb: AsyncPatterns.GCRepeat2(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), SyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2(GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of V2RV2), GenCtxProperty(), Danmokou.Danmaku.Patterns.SyncPattern())
+  name.vb: GCRepeat2(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), SyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d(ExBPY,ExBPY,ExBPY,GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d(ExBPY,ExBPY,ExBPY,GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  id: GCRepeat2d(ExBPY,ExBPY,ExBPY,GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GCRepeat2d(ExBPY, ExBPY, ExBPY, GCXF<V2RV2>, GenCtxProperty[], SyncPattern[])
+  nameWithType: AsyncPatterns.GCRepeat2d(ExBPY, ExBPY, ExBPY, GCXF<V2RV2>, GenCtxProperty[], SyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d(ExBPY, ExBPY, ExBPY, GCXF<V2RV2>, GenCtxProperty[], Danmokou.Danmaku.Patterns.SyncPattern[])
+  type: Method
+  source:
+    id: GCRepeat2d
+    path: ''
+    startLine: 4233
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nLike GCRepeat, but has specific handling for the WAIT, TIMES, and rpp properties,\nwhere WAIT and TIMES are mutated by the difficulty reference (wait / difficulty, times * difficulty)\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GCRepeat2d(ExBPY difficulty, ExBPY wait, ExBPY times, GCXF<V2RV2> rpp, GenCtxProperty[] props, SyncPattern[] target)
+    parameters:
+    - id: difficulty
+      type: ExBPY
+      description: Difficulty multiplier
+    - id: wait
+      type: ExBPY
+      description: Frames to wait between invocations
+    - id: times
+      type: ExBPY
+      description: Number of invocations
+    - id: rpp
+      type: GCXF{V2RV2}
+      description: Amount to increment rv2 between invocations
+    - id: props
+      type: GenCtxProperty[]
+      description: Other properties
+    - id: target
+      type: Danmokou.Danmaku.Patterns.SyncPattern[]
+      description: Child SyncPatterns to run
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function GCRepeat2d(difficulty As ExBPY, wait As ExBPY, times As ExBPY, rpp As GCXF(Of V2RV2), props As GenCtxProperty(), target As SyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d*
+  nameWithType.vb: AsyncPatterns.GCRepeat2d(ExBPY, ExBPY, ExBPY, GCXF(Of V2RV2), GenCtxProperty(), SyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d(ExBPY, ExBPY, ExBPY, GCXF(Of V2RV2), GenCtxProperty(), Danmokou.Danmaku.Patterns.SyncPattern())
+  name.vb: GCRepeat2d(ExBPY, ExBPY, ExBPY, GCXF(Of V2RV2), GenCtxProperty(), SyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr(ExBPY,ExBPY,ExBPY,ExBPRV2,GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr(ExBPY,ExBPY,ExBPY,ExBPRV2,GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  id: GCRepeat2dr(ExBPY,ExBPY,ExBPY,ExBPRV2,GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GCRepeat2dr(ExBPY, ExBPY, ExBPY, ExBPRV2, GenCtxProperty[], SyncPattern[])
+  nameWithType: AsyncPatterns.GCRepeat2dr(ExBPY, ExBPY, ExBPY, ExBPRV2, GenCtxProperty[], SyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr(ExBPY, ExBPY, ExBPY, ExBPRV2, GenCtxProperty[], Danmokou.Danmaku.Patterns.SyncPattern[])
+  type: Method
+  source:
+    id: GCRepeat2dr
+    path: ''
+    startLine: 4240
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nLike GCRepeat, but has specific handling for the WAIT, TIMES, and rpp properties,\nwhere all three are adjusted for difficulty.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GCRepeat2dr(ExBPY difficulty, ExBPY wait, ExBPY times, ExBPRV2 rpp, GenCtxProperty[] props, SyncPattern[] target)
+    parameters:
+    - id: difficulty
+      type: ExBPY
+    - id: wait
+      type: ExBPY
+    - id: times
+      type: ExBPY
+    - id: rpp
+      type: ExBPRV2
+    - id: props
+      type: GenCtxProperty[]
+    - id: target
+      type: Danmokou.Danmaku.Patterns.SyncPattern[]
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    content.vb: Public Shared Function GCRepeat2dr(difficulty As ExBPY, wait As ExBPY, times As ExBPY, rpp As ExBPRV2, props As GenCtxProperty(), target As SyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr*
+  nameWithType.vb: AsyncPatterns.GCRepeat2dr(ExBPY, ExBPY, ExBPY, ExBPRV2, GenCtxProperty(), SyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr(ExBPY, ExBPY, ExBPY, ExBPRV2, GenCtxProperty(), Danmokou.Danmaku.Patterns.SyncPattern())
+  name.vb: GCRepeat2dr(ExBPY, ExBPY, ExBPY, ExBPRV2, GenCtxProperty(), SyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  id: GCRepeatFRV2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GCRepeatFRV2(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], SyncPattern[])
+  nameWithType: AsyncPatterns.GCRepeatFRV2(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], SyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2(GCXF<System.Single>, GCXF<System.Single>, GCXF<V2RV2>, GenCtxProperty[], Danmokou.Danmaku.Patterns.SyncPattern[])
+  type: Method
+  source:
+    id: GCRepeatFRV2
+    path: ''
+    startLine: 4244
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static AsyncPattern GCRepeatFRV2(GCXF<float> wait, GCXF<float> times, GCXF<V2RV2> frv2, GenCtxProperty[] props, SyncPattern[] target)
+    parameters:
+    - id: wait
+      type: GCXF{System.Single}
+    - id: times
+      type: GCXF{System.Single}
+    - id: frv2
+      type: GCXF{V2RV2}
+    - id: props
+      type: GenCtxProperty[]
+    - id: target
+      type: Danmokou.Danmaku.Patterns.SyncPattern[]
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    content.vb: Public Shared Function GCRepeatFRV2(wait As GCXF(Of Single), times As GCXF(Of Single), frv2 As GCXF(Of V2RV2), props As GenCtxProperty(), target As SyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2*
+  nameWithType.vb: AsyncPatterns.GCRepeatFRV2(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), SyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2(GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of V2RV2), GenCtxProperty(), Danmokou.Danmaku.Patterns.SyncPattern())
+  name.vb: GCRepeatFRV2(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), SyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  id: GCRepeat3(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.SyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GCRepeat3(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], SyncPattern[])
+  nameWithType: AsyncPatterns.GCRepeat3(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], SyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3(GCXF<System.Single>, GCXF<System.Single>, GCXF<V2RV2>, GenCtxProperty[], Danmokou.Danmaku.Patterns.SyncPattern[])
+  type: Method
+  source:
+    id: GCRepeat3
+    path: ''
+    startLine: 4256
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nLike GCRepeat, but has specific handling for the WAIT, FOR, and rpp properties (times is set to infinity).\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GCRepeat3(GCXF<float> wait, GCXF<float> forTime, GCXF<V2RV2> rpp, GenCtxProperty[] props, SyncPattern[] target)
+    parameters:
+    - id: wait
+      type: GCXF{System.Single}
+      description: Frames to wait between invocations
+    - id: forTime
+      type: GCXF{System.Single}
+      description: Maximum length of time to run these invocations for
+    - id: rpp
+      type: GCXF{V2RV2}
+      description: Amount to increment rv2 between invocations
+    - id: props
+      type: GenCtxProperty[]
+      description: Other properties
+    - id: target
+      type: Danmokou.Danmaku.Patterns.SyncPattern[]
+      description: Child SyncPatterns to run
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function GCRepeat3(wait As GCXF(Of Single), forTime As GCXF(Of Single), rpp As GCXF(Of V2RV2), props As GenCtxProperty(), target As SyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3*
+  nameWithType.vb: AsyncPatterns.GCRepeat3(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), SyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3(GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of V2RV2), GenCtxProperty(), Danmokou.Danmaku.Patterns.SyncPattern())
+  name.vb: GCRepeat3(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), SyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR(Danmokou.Danmaku.Patterns.SyncPattern,GenCtxProperty[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR(Danmokou.Danmaku.Patterns.SyncPattern,GenCtxProperty[])
+  id: _AsGCR(Danmokou.Danmaku.Patterns.SyncPattern,GenCtxProperty[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: _AsGCR(SyncPattern, GenCtxProperty[])
+  nameWithType: AsyncPatterns._AsGCR(SyncPattern, GenCtxProperty[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR(Danmokou.Danmaku.Patterns.SyncPattern, GenCtxProperty[])
+  type: Method
+  source:
+    id: _AsGCR
+    path: ''
+    startLine: 4259
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static AsyncPattern _AsGCR(SyncPattern target, params GenCtxProperty[] props)
+    parameters:
+    - id: target
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    - id: props
+      type: GenCtxProperty[]
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    content.vb: Public Shared Function _AsGCR(target As SyncPattern, ParamArray props As GenCtxProperty()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR*
+  nameWithType.vb: AsyncPatterns._AsGCR(SyncPattern, GenCtxProperty())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR(Danmokou.Danmaku.Patterns.SyncPattern, GenCtxProperty())
+  name.vb: _AsGCR(SyncPattern, GenCtxProperty())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.COnce(Danmokou.Danmaku.Patterns.SyncPattern)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.COnce(Danmokou.Danmaku.Patterns.SyncPattern)
+  id: COnce(Danmokou.Danmaku.Patterns.SyncPattern)
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: COnce(SyncPattern)
+  nameWithType: AsyncPatterns.COnce(SyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.COnce(Danmokou.Danmaku.Patterns.SyncPattern)
+  type: Method
+  source:
+    id: COnce
+    path: ''
+    startLine: 4281
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nExecute the child SyncPattern once.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern COnce(SyncPattern target)
+    parameters:
+    - id: target
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: Child SyncPattern to run unchanged
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function COnce(target As SyncPattern) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.COnce*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay(GCXF{System.Single},Danmokou.Danmaku.Patterns.SyncPattern)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay(GCXF{System.Single},Danmokou.Danmaku.Patterns.SyncPattern)
+  id: CDelay(GCXF{System.Single},Danmokou.Danmaku.Patterns.SyncPattern)
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: CDelay(GCXF<Single>, SyncPattern)
+  nameWithType: AsyncPatterns.CDelay(GCXF<Single>, SyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay(GCXF<System.Single>, Danmokou.Danmaku.Patterns.SyncPattern)
+  type: Method
+  source:
+    id: CDelay
+    path: ''
+    startLine: 4291
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nDelay a synchronous invokee by a given number of frames.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern CDelay(GCXF<float> delay, SyncPattern next)
+    parameters:
+    - id: delay
+      type: GCXF{System.Single}
+      description: Frame delay
+    - id: next
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: Synchronous invokee to delay
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function CDelay(delay As GCXF(Of Single), next As SyncPattern) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay*
+  nameWithType.vb: AsyncPatterns.CDelay(GCXF(Of Single), SyncPattern)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay(GCXF(Of System.Single), Danmokou.Danmaku.Patterns.SyncPattern)
+  name.vb: CDelay(GCXF(Of Single), SyncPattern)
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat(GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern},Danmokou.Danmaku.Patterns.AsyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat(GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern},Danmokou.Danmaku.Patterns.AsyncPattern[])
+  id: GIRepeat(GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern},Danmokou.Danmaku.Patterns.AsyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GIRepeat(GenCtxProperties<AsyncPattern>, AsyncPattern[])
+  nameWithType: AsyncPatterns.GIRepeat(GenCtxProperties<AsyncPattern>, AsyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat(GenCtxProperties<Danmokou.Danmaku.Patterns.AsyncPattern>, Danmokou.Danmaku.Patterns.AsyncPattern[])
+  type: Method
+  source:
+    id: GIRepeat
+    path: ''
+    startLine: 4307
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nThe generic I-level repeater function.\nTakes any number of functionality-modifying properties as an array.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GIRepeat(GenCtxProperties<AsyncPattern> props, AsyncPattern[] target)
+    parameters:
+    - id: props
+      type: GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern}
+      description: Array of properties
+    - id: target
+      type: Danmokou.Danmaku.Patterns.AsyncPattern[]
+      description: Child AsyncPatterns to run
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function GIRepeat(props As GenCtxProperties(Of AsyncPattern), target As AsyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat*
+  nameWithType.vb: AsyncPatterns.GIRepeat(GenCtxProperties(Of AsyncPattern), AsyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat(GenCtxProperties(Of Danmokou.Danmaku.Patterns.AsyncPattern), Danmokou.Danmaku.Patterns.AsyncPattern())
+  name.vb: GIRepeat(GenCtxProperties(Of AsyncPattern), AsyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  id: GIRepeat2(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GIRepeat2(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], AsyncPattern[])
+  nameWithType: AsyncPatterns.GIRepeat2(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], AsyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2(GCXF<System.Single>, GCXF<System.Single>, GCXF<V2RV2>, GenCtxProperty[], Danmokou.Danmaku.Patterns.AsyncPattern[])
+  type: Method
+  source:
+    id: GIRepeat2
+    path: ''
+    startLine: 4345
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nLike GIRepeat, but has specific handling for the WAIT, TIMES, and rpp properties.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GIRepeat2(GCXF<float> wait, GCXF<float> times, GCXF<V2RV2> rpp, GenCtxProperty[] props, AsyncPattern[] target)
+    parameters:
+    - id: wait
+      type: GCXF{System.Single}
+      description: Frames to wait between invocations
+    - id: times
+      type: GCXF{System.Single}
+      description: Number of invocations
+    - id: rpp
+      type: GCXF{V2RV2}
+      description: Amount to increment rv2 between invocations
+    - id: props
+      type: GenCtxProperty[]
+      description: Other properties
+    - id: target
+      type: Danmokou.Danmaku.Patterns.AsyncPattern[]
+      description: Child AsyncPatterns to run
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function GIRepeat2(wait As GCXF(Of Single), times As GCXF(Of Single), rpp As GCXF(Of V2RV2), props As GenCtxProperty(), target As AsyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2*
+  nameWithType.vb: AsyncPatterns.GIRepeat2(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), AsyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2(GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of V2RV2), GenCtxProperty(), Danmokou.Danmaku.Patterns.AsyncPattern())
+  name.vb: GIRepeat2(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), AsyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d(ExBPY,ExBPY,ExBPY,GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d(ExBPY,ExBPY,ExBPY,GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  id: GIRepeat2d(ExBPY,ExBPY,ExBPY,GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GIRepeat2d(ExBPY, ExBPY, ExBPY, GCXF<V2RV2>, GenCtxProperty[], AsyncPattern[])
+  nameWithType: AsyncPatterns.GIRepeat2d(ExBPY, ExBPY, ExBPY, GCXF<V2RV2>, GenCtxProperty[], AsyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d(ExBPY, ExBPY, ExBPY, GCXF<V2RV2>, GenCtxProperty[], Danmokou.Danmaku.Patterns.AsyncPattern[])
+  type: Method
+  source:
+    id: GIRepeat2d
+    path: ''
+    startLine: 4360
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nLike GIRepeat, but has specific handling for the WAIT, TIMES, and rpp properties,\nwhere WAIT and TIMES are mutated by the difficulty reference (wait / difficulty, times * difficulty)\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GIRepeat2d(ExBPY difficulty, ExBPY wait, ExBPY times, GCXF<V2RV2> rpp, GenCtxProperty[] props, AsyncPattern[] target)
+    parameters:
+    - id: difficulty
+      type: ExBPY
+      description: Difficulty multiplier
+    - id: wait
+      type: ExBPY
+      description: Frames to wait between invocations
+    - id: times
+      type: ExBPY
+      description: Number of invocations
+    - id: rpp
+      type: GCXF{V2RV2}
+      description: Amount to increment rv2 between invocations
+    - id: props
+      type: GenCtxProperty[]
+      description: Other properties
+    - id: target
+      type: Danmokou.Danmaku.Patterns.AsyncPattern[]
+      description: Child AsyncPatterns to run
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function GIRepeat2d(difficulty As ExBPY, wait As ExBPY, times As ExBPY, rpp As GCXF(Of V2RV2), props As GenCtxProperty(), target As AsyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d*
+  nameWithType.vb: AsyncPatterns.GIRepeat2d(ExBPY, ExBPY, ExBPY, GCXF(Of V2RV2), GenCtxProperty(), AsyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d(ExBPY, ExBPY, ExBPY, GCXF(Of V2RV2), GenCtxProperty(), Danmokou.Danmaku.Patterns.AsyncPattern())
+  name.vb: GIRepeat2d(ExBPY, ExBPY, ExBPY, GCXF(Of V2RV2), GenCtxProperty(), AsyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  id: GIRepeat3(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2},GenCtxProperty[],Danmokou.Danmaku.Patterns.AsyncPattern[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: GIRepeat3(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], AsyncPattern[])
+  nameWithType: AsyncPatterns.GIRepeat3(GCXF<Single>, GCXF<Single>, GCXF<V2RV2>, GenCtxProperty[], AsyncPattern[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3(GCXF<System.Single>, GCXF<System.Single>, GCXF<V2RV2>, GenCtxProperty[], Danmokou.Danmaku.Patterns.AsyncPattern[])
+  type: Method
+  source:
+    id: GIRepeat3
+    path: ''
+    startLine: 4373
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nLike GIRepeat, but has specific handling for the WAIT, FOR, and rpp properties (times is set to infinity).\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern GIRepeat3(GCXF<float> wait, GCXF<float> forTime, GCXF<V2RV2> rpp, GenCtxProperty[] props, AsyncPattern[] target)
+    parameters:
+    - id: wait
+      type: GCXF{System.Single}
+      description: Frames to wait between invocations
+    - id: forTime
+      type: GCXF{System.Single}
+      description: Maximum length of time to run these invocations for
+    - id: rpp
+      type: GCXF{V2RV2}
+      description: Amount to increment rv2 between invocations
+    - id: props
+      type: GenCtxProperty[]
+      description: Other properties
+    - id: target
+      type: Danmokou.Danmaku.Patterns.AsyncPattern[]
+      description: Child AsyncPatterns to run
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function GIRepeat3(wait As GCXF(Of Single), forTime As GCXF(Of Single), rpp As GCXF(Of V2RV2), props As GenCtxProperty(), target As AsyncPattern()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3*
+  nameWithType.vb: AsyncPatterns.GIRepeat3(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), AsyncPattern())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3(GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of V2RV2), GenCtxProperty(), Danmokou.Danmaku.Patterns.AsyncPattern())
+  name.vb: GIRepeat3(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), AsyncPattern())
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay(GCXF{System.Single},Danmokou.Danmaku.Patterns.AsyncPattern)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay(GCXF{System.Single},Danmokou.Danmaku.Patterns.AsyncPattern)
+  id: IDelay(GCXF{System.Single},Danmokou.Danmaku.Patterns.AsyncPattern)
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: IDelay(GCXF<Single>, AsyncPattern)
+  nameWithType: AsyncPatterns.IDelay(GCXF<Single>, AsyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay(GCXF<System.Single>, Danmokou.Danmaku.Patterns.AsyncPattern)
+  type: Method
+  source:
+    id: IDelay
+    path: ''
+    startLine: 4387
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nDelay an asynchronous invokee by a given number of frames.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern IDelay(GCXF<float> delay, AsyncPattern next)
+    parameters:
+    - id: delay
+      type: GCXF{System.Single}
+      description: Frame delay
+    - id: next
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: Asynchronous invokee to delay
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function IDelay(delay As GCXF(Of Single), next As AsyncPattern) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay*
+  nameWithType.vb: AsyncPatterns.IDelay(GCXF(Of Single), AsyncPattern)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay(GCXF(Of System.Single), Danmokou.Danmaku.Patterns.AsyncPattern)
+  name.vb: IDelay(GCXF(Of Single), AsyncPattern)
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.IColor(System.String,Danmokou.Danmaku.Patterns.AsyncPattern)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.IColor(System.String,Danmokou.Danmaku.Patterns.AsyncPattern)
+  id: IColor(System.String,Danmokou.Danmaku.Patterns.AsyncPattern)
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: IColor(String, AsyncPattern)
+  nameWithType: AsyncPatterns.IColor(String, AsyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.IColor(System.String, Danmokou.Danmaku.Patterns.AsyncPattern)
+  type: Method
+  source:
+    id: IColor
+    path: ''
+    startLine: 4389
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static AsyncPattern IColor(string color, AsyncPattern ap)
+    parameters:
+    - id: color
+      type: System.String
+    - id: ap
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    content.vb: Public Shared Function IColor(color As String, ap As AsyncPattern) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.IColor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP(GCXF{System.Single},Danmokou.Danmaku.Patterns.AsyncPattern)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP(GCXF{System.Single},Danmokou.Danmaku.Patterns.AsyncPattern)
+  id: ISetP(GCXF{System.Single},Danmokou.Danmaku.Patterns.AsyncPattern)
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: ISetP(GCXF<Single>, AsyncPattern)
+  nameWithType: AsyncPatterns.ISetP(GCXF<Single>, AsyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP(GCXF<System.Single>, Danmokou.Danmaku.Patterns.AsyncPattern)
+  type: Method
+  source:
+    id: ISetP
+    path: ''
+    startLine: 4391
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static AsyncPattern ISetP(GCXF<float> p, AsyncPattern ap)
+    parameters:
+    - id: p
+      type: GCXF{System.Single}
+    - id: ap
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    content.vb: Public Shared Function ISetP(p As GCXF(Of Single), ap As AsyncPattern) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP*
+  nameWithType.vb: AsyncPatterns.ISetP(GCXF(Of Single), AsyncPattern)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP(GCXF(Of System.Single), Danmokou.Danmaku.Patterns.AsyncPattern)
+  name.vb: ISetP(GCXF(Of Single), AsyncPattern)
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.IParent(System.String,Danmokou.Danmaku.Patterns.AsyncPattern)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.IParent(System.String,Danmokou.Danmaku.Patterns.AsyncPattern)
+  id: IParent(System.String,Danmokou.Danmaku.Patterns.AsyncPattern)
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: IParent(String, AsyncPattern)
+  nameWithType: AsyncPatterns.IParent(String, AsyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.IParent(System.String, Danmokou.Danmaku.Patterns.AsyncPattern)
+  type: Method
+  source:
+    id: IParent
+    path: ''
+    startLine: 4408
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nAny firees will be assigned the transform parent with the given BehaviorEntity ID.\n<br />Currently, this only works for lasers.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern IParent(string behid, AsyncPattern next)
+    parameters:
+    - id: behid
+      type: System.String
+      description: BehaviorEntity ID
+    - id: next
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: Asynchronous invokee to modify
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function IParent(behid As String, next As AsyncPattern) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.IParent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.ICacheLoc(Danmokou.Danmaku.Patterns.AsyncPattern)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.ICacheLoc(Danmokou.Danmaku.Patterns.AsyncPattern)
+  id: ICacheLoc(Danmokou.Danmaku.Patterns.AsyncPattern)
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: ICacheLoc(AsyncPattern)
+  nameWithType: AsyncPatterns.ICacheLoc(AsyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.ICacheLoc(Danmokou.Danmaku.Patterns.AsyncPattern)
+  type: Method
+  source:
+    id: ICacheLoc
+    path: ''
+    startLine: 4424
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nSaves the current location of the executing parent so all bullets fired will fire from\nthe saved position.\n"
+  example: []
+  syntax:
+    content: public static AsyncPattern ICacheLoc(AsyncPattern next)
+    parameters:
+    - id: next
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: Asynchronous invokee to modify
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+      description: ''
+    content.vb: Public Shared Function ICacheLoc(next As AsyncPattern) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.ICacheLoc*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption(GCXF{System.Single},GCXF{System.Single},ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption(GCXF{System.Single},GCXF{System.Single},ExBPY,ExBPY,ExBPY)
+  id: gEruption(GCXF{System.Single},GCXF{System.Single},ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: gEruption(GCXF<Single>, GCXF<Single>, ExBPY, ExBPY, ExBPY)
+  nameWithType: AsyncPatterns.gEruption(GCXF<Single>, GCXF<Single>, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption(GCXF<System.Single>, GCXF<System.Single>, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: gEruption
+    path: ''
+    startLine: 4554
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static AsyncPattern gEruption(GCXF<float> wait, GCXF<float> times, ExBPY angleOffset, ExBPY speed, ExBPY gravity)
+    parameters:
+    - id: wait
+      type: GCXF{System.Single}
+    - id: times
+      type: GCXF{System.Single}
+    - id: angleOffset
+      type: ExBPY
+    - id: speed
+      type: ExBPY
+    - id: gravity
+      type: ExBPY
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    content.vb: Public Shared Function gEruption(wait As GCXF(Of Single), times As GCXF(Of Single), angleOffset As ExBPY, speed As ExBPY, gravity As ExBPY) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption*
+  nameWithType.vb: AsyncPatterns.gEruption(GCXF(Of Single), GCXF(Of Single), ExBPY, ExBPY, ExBPY)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption(GCXF(Of System.Single), GCXF(Of System.Single), ExBPY, ExBPY, ExBPY)
+  name.vb: gEruption(GCXF(Of Single), GCXF(Of Single), ExBPY, ExBPY, ExBPY)
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption(GCXF{System.Single},GCXF{System.Single},ExBPY,ExBPY,ExBPY,GenCtxProperty[])
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption(GCXF{System.Single},GCXF{System.Single},ExBPY,ExBPY,ExBPY,GenCtxProperty[])
+  id: Eruption(GCXF{System.Single},GCXF{System.Single},ExBPY,ExBPY,ExBPY,GenCtxProperty[])
+  parent: Danmokou.Danmaku.Patterns.AsyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: Eruption(GCXF<Single>, GCXF<Single>, ExBPY, ExBPY, ExBPY, GenCtxProperty[])
+  nameWithType: AsyncPatterns.Eruption(GCXF<Single>, GCXF<Single>, ExBPY, ExBPY, ExBPY, GenCtxProperty[])
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption(GCXF<System.Single>, GCXF<System.Single>, ExBPY, ExBPY, ExBPY, GenCtxProperty[])
+  type: Method
+  source:
+    id: Eruption
+    path: ''
+    startLine: 4556
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static AsyncPattern Eruption(GCXF<float> wait, GCXF<float> times, ExBPY angleOffset, ExBPY speed, ExBPY gravity, GenCtxProperty[] props)
+    parameters:
+    - id: wait
+      type: GCXF{System.Single}
+    - id: times
+      type: GCXF{System.Single}
+    - id: angleOffset
+      type: ExBPY
+    - id: speed
+      type: ExBPY
+    - id: gravity
+      type: ExBPY
+    - id: props
+      type: GenCtxProperty[]
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    content.vb: Public Shared Function Eruption(wait As GCXF(Of Single), times As GCXF(Of Single), angleOffset As ExBPY, speed As ExBPY, gravity As ExBPY, props As GenCtxProperty()) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption*
+  nameWithType.vb: AsyncPatterns.Eruption(GCXF(Of Single), GCXF(Of Single), ExBPY, ExBPY, ExBPY, GenCtxProperty())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption(GCXF(Of System.Single), GCXF(Of System.Single), ExBPY, ExBPY, ExBPY, GenCtxProperty())
+  name.vb: Eruption(GCXF(Of Single), GCXF(Of Single), ExBPY, ExBPY, ExBPY, GenCtxProperty())
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat
+  name: GCRepeat
+  nameWithType: AsyncPatterns.GCRepeat
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat
+- uid: GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern}
+  commentId: '!:GenCtxProperties{Danmokou.Danmaku.Patterns.AsyncPattern}'
+  definition: GenCtxProperties`1
+  name: GenCtxProperties<AsyncPattern>
+  nameWithType: GenCtxProperties<AsyncPattern>
+  fullName: GenCtxProperties<Danmokou.Danmaku.Patterns.AsyncPattern>
+  nameWithType.vb: GenCtxProperties(Of AsyncPattern)
+  fullName.vb: GenCtxProperties(Of Danmokou.Danmaku.Patterns.AsyncPattern)
+  name.vb: GenCtxProperties(Of AsyncPattern)
+  spec.csharp:
+  - uid: GenCtxProperties`1
+    name: GenCtxProperties
+    nameWithType: GenCtxProperties
+    fullName: GenCtxProperties
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.Danmaku.Patterns.AsyncPattern
+    name: AsyncPattern
+    nameWithType: AsyncPattern
+    fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GenCtxProperties`1
+    name: GenCtxProperties
+    nameWithType: GenCtxProperties
+    fullName: GenCtxProperties
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.Danmaku.Patterns.AsyncPattern
+    name: AsyncPattern
+    nameWithType: AsyncPattern
+    fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.SyncPattern[]
+  isExternal: true
+  name: SyncPattern[]
+  nameWithType: SyncPattern[]
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern[]
+  nameWithType.vb: SyncPattern()
+  fullName.vb: Danmokou.Danmaku.Patterns.SyncPattern()
+  name.vb: SyncPattern()
+  spec.csharp:
+  - uid: Danmokou.Danmaku.Patterns.SyncPattern
+    name: SyncPattern
+    nameWithType: SyncPattern
+    fullName: Danmokou.Danmaku.Patterns.SyncPattern
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Danmokou.Danmaku.Patterns.SyncPattern
+    name: SyncPattern
+    nameWithType: SyncPattern
+    fullName: Danmokou.Danmaku.Patterns.SyncPattern
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  name: AsyncPattern
+  nameWithType: AsyncPattern
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+- uid: GenCtxProperties`1
+  isExternal: true
+  name: GenCtxProperties<>
+  nameWithType: GenCtxProperties<>
+  fullName: GenCtxProperties<>
+  nameWithType.vb: GenCtxProperties(Of )
+  fullName.vb: GenCtxProperties(Of )
+  name.vb: GenCtxProperties(Of )
+  spec.csharp:
+  - uid: GenCtxProperties`1
+    name: GenCtxProperties
+    nameWithType: GenCtxProperties
+    fullName: GenCtxProperties
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GenCtxProperties`1
+    name: GenCtxProperties
+    nameWithType: GenCtxProperties
+    fullName: GenCtxProperties
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2
+  name: GCRepeat2
+  nameWithType: AsyncPatterns.GCRepeat2
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2
+- uid: GCXF{System.Single}
+  commentId: '!:GCXF{System.Single}'
+  definition: GCXF`1
+  name: GCXF<Single>
+  nameWithType: GCXF<Single>
+  fullName: GCXF<System.Single>
+  nameWithType.vb: GCXF(Of Single)
+  fullName.vb: GCXF(Of System.Single)
+  name.vb: GCXF(Of Single)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GCXF{V2RV2}
+  commentId: '!:GCXF{V2RV2}'
+  definition: GCXF`1
+  name: GCXF<V2RV2>
+  nameWithType: GCXF<V2RV2>
+  fullName: GCXF<V2RV2>
+  nameWithType.vb: GCXF(Of V2RV2)
+  fullName.vb: GCXF(Of V2RV2)
+  name.vb: GCXF(Of V2RV2)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GenCtxProperty[]
+  isExternal: true
+  name: GenCtxProperty[]
+  nameWithType: GenCtxProperty[]
+  fullName: GenCtxProperty[]
+  nameWithType.vb: GenCtxProperty()
+  fullName.vb: GenCtxProperty()
+  name.vb: GenCtxProperty()
+  spec.csharp:
+  - uid: GenCtxProperty
+    name: GenCtxProperty
+    nameWithType: GenCtxProperty
+    fullName: GenCtxProperty
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: GenCtxProperty
+    name: GenCtxProperty
+    nameWithType: GenCtxProperty
+    fullName: GenCtxProperty
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: GCXF`1
+  isExternal: true
+  name: GCXF<>
+  nameWithType: GCXF<>
+  fullName: GCXF<>
+  nameWithType.vb: GCXF(Of )
+  fullName.vb: GCXF(Of )
+  name.vb: GCXF(Of )
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d
+  name: GCRepeat2d
+  nameWithType: AsyncPatterns.GCRepeat2d
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2d
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr
+  name: GCRepeat2dr
+  nameWithType: AsyncPatterns.GCRepeat2dr
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat2dr
+- uid: ExBPRV2
+  isExternal: true
+  name: ExBPRV2
+  nameWithType: ExBPRV2
+  fullName: ExBPRV2
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2
+  name: GCRepeatFRV2
+  nameWithType: AsyncPatterns.GCRepeatFRV2
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeatFRV2
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3
+  name: GCRepeat3
+  nameWithType: AsyncPatterns.GCRepeat3
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GCRepeat3
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR
+  name: _AsGCR
+  nameWithType: AsyncPatterns._AsGCR
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns._AsGCR
+- uid: Danmokou.Danmaku.Patterns.SyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.SyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncPattern
+  nameWithType: SyncPattern
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.COnce*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.COnce
+  name: COnce
+  nameWithType: AsyncPatterns.COnce
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.COnce
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay
+  name: CDelay
+  nameWithType: AsyncPatterns.CDelay
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.CDelay
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat
+  name: GIRepeat
+  nameWithType: AsyncPatterns.GIRepeat
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern[]
+  isExternal: true
+  name: AsyncPattern[]
+  nameWithType: AsyncPattern[]
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern[]
+  nameWithType.vb: AsyncPattern()
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPattern()
+  name.vb: AsyncPattern()
+  spec.csharp:
+  - uid: Danmokou.Danmaku.Patterns.AsyncPattern
+    name: AsyncPattern
+    nameWithType: AsyncPattern
+    fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Danmokou.Danmaku.Patterns.AsyncPattern
+    name: AsyncPattern
+    nameWithType: AsyncPattern
+    fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2
+  name: GIRepeat2
+  nameWithType: AsyncPatterns.GIRepeat2
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d
+  name: GIRepeat2d
+  nameWithType: AsyncPatterns.GIRepeat2d
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat2d
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3
+  name: GIRepeat3
+  nameWithType: AsyncPatterns.GIRepeat3
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.GIRepeat3
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay
+  name: IDelay
+  nameWithType: AsyncPatterns.IDelay
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.IDelay
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.IColor*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.IColor
+  name: IColor
+  nameWithType: AsyncPatterns.IColor
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.IColor
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP
+  name: ISetP
+  nameWithType: AsyncPatterns.ISetP
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.ISetP
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.IParent*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.IParent
+  name: IParent
+  nameWithType: AsyncPatterns.IParent
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.IParent
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.ICacheLoc*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.ICacheLoc
+  name: ICacheLoc
+  nameWithType: AsyncPatterns.ICacheLoc
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.ICacheLoc
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption
+  name: gEruption
+  nameWithType: AsyncPatterns.gEruption
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.gEruption
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption
+  name: Eruption
+  nameWithType: AsyncPatterns.Eruption
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns.Eruption

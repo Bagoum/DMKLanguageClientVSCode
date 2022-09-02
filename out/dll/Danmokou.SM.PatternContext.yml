@@ -1,0 +1,504 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.PatternContext
+  commentId: T:Danmokou.SM.PatternContext
+  id: PatternContext
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.PatternContext.#ctor(Danmokou.SM.PatternSM)
+  - Danmokou.SM.PatternContext.Props
+  - Danmokou.SM.PatternContext.SM
+  langs:
+  - csharp
+  - vb
+  name: PatternContext
+  nameWithType: PatternContext
+  fullName: Danmokou.SM.PatternContext
+  type: Class
+  source:
+    id: PatternContext
+    path: ''
+    startLine: 14992
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: 'public class PatternContext : SMContext'
+    content.vb: >-
+      Public Class PatternContext
+          Inherits SMContext
+  inheritance:
+  - System.Object
+  - Danmokou.SM.SMContext
+  inheritedMembers:
+  - Danmokou.SM.SMContext.PhaseObjects
+  - Danmokou.SM.SMContext.CleanupObjects
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.PatternContext.SM
+  commentId: P:Danmokou.SM.PatternContext.SM
+  id: SM
+  parent: Danmokou.SM.PatternContext
+  langs:
+  - csharp
+  - vb
+  name: SM
+  nameWithType: PatternContext.SM
+  fullName: Danmokou.SM.PatternContext.SM
+  type: Property
+  source:
+    id: SM
+    path: ''
+    startLine: 14993
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PatternSM SM { get; }
+    parameters: []
+    return:
+      type: Danmokou.SM.PatternSM
+    content.vb: Public ReadOnly Property SM As PatternSM
+  overload: Danmokou.SM.PatternContext.SM*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PatternContext.Props
+  commentId: P:Danmokou.SM.PatternContext.Props
+  id: Props
+  parent: Danmokou.SM.PatternContext
+  langs:
+  - csharp
+  - vb
+  name: Props
+  nameWithType: PatternContext.Props
+  fullName: Danmokou.SM.PatternContext.Props
+  type: Property
+  source:
+    id: Props
+    path: ''
+    startLine: 14994
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PatternProperties Props { get; }
+    parameters: []
+    return:
+      type: Danmokou.SM.PatternProperties
+    content.vb: Public ReadOnly Property Props As PatternProperties
+  overload: Danmokou.SM.PatternContext.Props*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PatternContext.#ctor(Danmokou.SM.PatternSM)
+  commentId: M:Danmokou.SM.PatternContext.#ctor(Danmokou.SM.PatternSM)
+  id: '#ctor(Danmokou.SM.PatternSM)'
+  parent: Danmokou.SM.PatternContext
+  langs:
+  - csharp
+  - vb
+  name: PatternContext(PatternSM)
+  nameWithType: PatternContext.PatternContext(PatternSM)
+  fullName: Danmokou.SM.PatternContext.PatternContext(Danmokou.SM.PatternSM)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14996
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PatternContext(PatternSM sm)
+    parameters:
+    - id: sm
+      type: Danmokou.SM.PatternSM
+    content.vb: Public Sub New(sm As PatternSM)
+  overload: Danmokou.SM.PatternContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.SMContext
+  commentId: T:Danmokou.SM.SMContext
+  parent: Danmokou.SM
+  name: SMContext
+  nameWithType: SMContext
+  fullName: Danmokou.SM.SMContext
+- uid: Danmokou.SM.SMContext.PhaseObjects
+  commentId: P:Danmokou.SM.SMContext.PhaseObjects
+  parent: Danmokou.SM.SMContext
+  name: PhaseObjects
+  nameWithType: SMContext.PhaseObjects
+  fullName: Danmokou.SM.SMContext.PhaseObjects
+- uid: Danmokou.SM.SMContext.CleanupObjects
+  commentId: M:Danmokou.SM.SMContext.CleanupObjects
+  parent: Danmokou.SM.SMContext
+  name: CleanupObjects()
+  nameWithType: SMContext.CleanupObjects()
+  fullName: Danmokou.SM.SMContext.CleanupObjects()
+  spec.csharp:
+  - uid: Danmokou.SM.SMContext.CleanupObjects
+    name: CleanupObjects
+    nameWithType: SMContext.CleanupObjects
+    fullName: Danmokou.SM.SMContext.CleanupObjects
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.SMContext.CleanupObjects
+    name: CleanupObjects
+    nameWithType: SMContext.CleanupObjects
+    fullName: Danmokou.SM.SMContext.CleanupObjects
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.PatternContext.SM*
+  commentId: Overload:Danmokou.SM.PatternContext.SM
+  name: SM
+  nameWithType: PatternContext.SM
+  fullName: Danmokou.SM.PatternContext.SM
+- uid: Danmokou.SM.PatternSM
+  commentId: T:Danmokou.SM.PatternSM
+  parent: Danmokou.SM
+  name: PatternSM
+  nameWithType: PatternSM
+  fullName: Danmokou.SM.PatternSM
+- uid: Danmokou.SM.PatternContext.Props*
+  commentId: Overload:Danmokou.SM.PatternContext.Props
+  name: Props
+  nameWithType: PatternContext.Props
+  fullName: Danmokou.SM.PatternContext.Props
+- uid: Danmokou.SM.PatternProperties
+  commentId: T:Danmokou.SM.PatternProperties
+  parent: Danmokou.SM
+  name: PatternProperties
+  nameWithType: PatternProperties
+  fullName: Danmokou.SM.PatternProperties
+- uid: Danmokou.SM.PatternContext.#ctor*
+  commentId: Overload:Danmokou.SM.PatternContext.#ctor
+  name: PatternContext
+  nameWithType: PatternContext.PatternContext
+  fullName: Danmokou.SM.PatternContext.PatternContext

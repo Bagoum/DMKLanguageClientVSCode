@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.AnimatorControllerLASM.Animate
+  commentId: T:Danmokou.SM.AnimatorControllerLASM.Animate
+  id: AnimatorControllerLASM.Animate
+  parent: Danmokou.SM
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AnimatorControllerLASM.Animate
+  nameWithType: AnimatorControllerLASM.Animate
+  fullName: Danmokou.SM.AnimatorControllerLASM.Animate
+  type: Delegate
+  source:
+    id: Animate
+    path: ''
+    startLine: 13309
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public delegate Task Animate(SMHandoff smh);
+    parameters:
+    - id: smh
+      type: Danmokou.SM.SMHandoff
+    return:
+      type: Task
+    content.vb: Public Delegate Function Animate(smh As SMHandoff) As Task
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: Danmokou.SM.SMHandoff
+  commentId: T:Danmokou.SM.SMHandoff
+  parent: Danmokou.SM
+  name: SMHandoff
+  nameWithType: SMHandoff
+  fullName: Danmokou.SM.SMHandoff
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task

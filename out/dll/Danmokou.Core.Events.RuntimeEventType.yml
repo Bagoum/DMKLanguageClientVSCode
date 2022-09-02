@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.Events.RuntimeEventType
+  commentId: T:Danmokou.Core.Events.RuntimeEventType
+  id: Events.RuntimeEventType
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.Events.RuntimeEventType.Normal
+  - Danmokou.Core.Events.RuntimeEventType.Trigger
+  langs:
+  - csharp
+  - vb
+  name: Events.RuntimeEventType
+  nameWithType: Events.RuntimeEventType
+  fullName: Danmokou.Core.Events.RuntimeEventType
+  type: Enum
+  source:
+    id: RuntimeEventType
+    path: ''
+    startLine: 346
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum RuntimeEventType
+    content.vb: Public Enum RuntimeEventType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.Events.RuntimeEventType.Normal
+  commentId: F:Danmokou.Core.Events.RuntimeEventType.Normal
+  id: Normal
+  parent: Danmokou.Core.Events.RuntimeEventType
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: Events.RuntimeEventType.Normal
+  fullName: Danmokou.Core.Events.RuntimeEventType.Normal
+  type: Field
+  source:
+    id: Normal
+    path: ''
+    startLine: 347
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Normal = 0
+    return:
+      type: Danmokou.Core.Events.RuntimeEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Events.RuntimeEventType.Trigger
+  commentId: F:Danmokou.Core.Events.RuntimeEventType.Trigger
+  id: Trigger
+  parent: Danmokou.Core.Events.RuntimeEventType
+  langs:
+  - csharp
+  - vb
+  name: Trigger
+  nameWithType: Events.RuntimeEventType.Trigger
+  fullName: Danmokou.Core.Events.RuntimeEventType.Trigger
+  type: Field
+  source:
+    id: Trigger
+    path: ''
+    startLine: 348
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Trigger = 1
+    return:
+      type: Danmokou.Core.Events.RuntimeEventType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.Events.RuntimeEventType
+  commentId: T:Danmokou.Core.Events.RuntimeEventType
+  parent: Danmokou.Core
+  name: Events.RuntimeEventType
+  nameWithType: Events.RuntimeEventType
+  fullName: Danmokou.Core.Events.RuntimeEventType

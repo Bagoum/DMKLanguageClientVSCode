@@ -1,0 +1,1086 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.PhaseContext
+  commentId: T:Danmokou.SM.PhaseContext
+  id: PhaseContext
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.PhaseContext.#ctor(Danmokou.SM.PatternContext,System.Int32,Danmokou.SM.PhaseProperties)
+  - Danmokou.SM.PhaseContext.Background
+  - Danmokou.SM.PhaseContext.BgTransitionIn
+  - Danmokou.SM.PhaseContext.BgTransitionOut
+  - Danmokou.SM.PhaseContext.Boss
+  - Danmokou.SM.PhaseContext.BossPhotoHP
+  - Danmokou.SM.PhaseContext.GetSpellCutin(GameObject@)
+  - Danmokou.SM.PhaseContext.Index
+  - Danmokou.SM.PhaseContext.Pattern
+  - Danmokou.SM.PhaseContext.PhaseType
+  - Danmokou.SM.PhaseContext.Props
+  langs:
+  - csharp
+  - vb
+  name: PhaseContext
+  nameWithType: PhaseContext
+  fullName: Danmokou.SM.PhaseContext
+  type: Class
+  source:
+    id: PhaseContext
+    path: ''
+    startLine: 15001
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: 'public class PhaseContext : SMContext'
+    content.vb: >-
+      Public Class PhaseContext
+          Inherits SMContext
+  inheritance:
+  - System.Object
+  - Danmokou.SM.SMContext
+  inheritedMembers:
+  - Danmokou.SM.SMContext.PhaseObjects
+  - Danmokou.SM.SMContext.CleanupObjects
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.PhaseContext.Pattern
+  commentId: P:Danmokou.SM.PhaseContext.Pattern
+  id: Pattern
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: Pattern
+  nameWithType: PhaseContext.Pattern
+  fullName: Danmokou.SM.PhaseContext.Pattern
+  type: Property
+  source:
+    id: Pattern
+    path: ''
+    startLine: 15002
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PatternContext Pattern { get; }
+    parameters: []
+    return:
+      type: Danmokou.SM.PatternContext
+    content.vb: Public ReadOnly Property Pattern As PatternContext
+  overload: Danmokou.SM.PhaseContext.Pattern*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.Index
+  commentId: P:Danmokou.SM.PhaseContext.Index
+  id: Index
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: PhaseContext.Index
+  fullName: Danmokou.SM.PhaseContext.Index
+  type: Property
+  source:
+    id: Index
+    path: ''
+    startLine: 15003
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: Danmokou.SM.PhaseContext.Index*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.Props
+  commentId: P:Danmokou.SM.PhaseContext.Props
+  id: Props
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: Props
+  nameWithType: PhaseContext.Props
+  fullName: Danmokou.SM.PhaseContext.Props
+  type: Property
+  source:
+    id: Props
+    path: ''
+    startLine: 15004
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PhaseProperties Props { get; }
+    parameters: []
+    return:
+      type: Danmokou.SM.PhaseProperties
+    content.vb: Public ReadOnly Property Props As PhaseProperties
+  overload: Danmokou.SM.PhaseContext.Props*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.BossPhotoHP
+  commentId: P:Danmokou.SM.PhaseContext.BossPhotoHP
+  id: BossPhotoHP
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: BossPhotoHP
+  nameWithType: PhaseContext.BossPhotoHP
+  fullName: Danmokou.SM.PhaseContext.BossPhotoHP
+  type: Property
+  source:
+    id: BossPhotoHP
+    path: ''
+    startLine: 15006
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public int? BossPhotoHP { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public ReadOnly Property BossPhotoHP As Integer?
+  overload: Danmokou.SM.PhaseContext.BossPhotoHP*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.Boss
+  commentId: P:Danmokou.SM.PhaseContext.Boss
+  id: Boss
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: Boss
+  nameWithType: PhaseContext.Boss
+  fullName: Danmokou.SM.PhaseContext.Boss
+  type: Property
+  source:
+    id: Boss
+    path: ''
+    startLine: 15007
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public BossConfig? Boss { get; }
+    parameters: []
+    return:
+      type: System.Nullable{BossConfig}
+    content.vb: Public ReadOnly Property Boss As BossConfig?
+  overload: Danmokou.SM.PhaseContext.Boss*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.PhaseType
+  commentId: P:Danmokou.SM.PhaseContext.PhaseType
+  id: PhaseType
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: PhaseType
+  nameWithType: PhaseContext.PhaseType
+  fullName: Danmokou.SM.PhaseContext.PhaseType
+  type: Property
+  source:
+    id: PhaseType
+    path: ''
+    startLine: 15008
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PhaseType? PhaseType { get; }
+    parameters: []
+    return:
+      type: System.Nullable{PhaseType}
+    content.vb: Public ReadOnly Property PhaseType As PhaseType?
+  overload: Danmokou.SM.PhaseContext.PhaseType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.Background
+  commentId: P:Danmokou.SM.PhaseContext.Background
+  id: Background
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: Background
+  nameWithType: PhaseContext.Background
+  fullName: Danmokou.SM.PhaseContext.Background
+  type: Property
+  source:
+    id: Background
+    path: ''
+    startLine: 15009
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public GameObject? Background { get; }
+    parameters: []
+    return:
+      type: System.Nullable{GameObject}
+    content.vb: Public ReadOnly Property Background As GameObject?
+  overload: Danmokou.SM.PhaseContext.Background*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.BgTransitionIn
+  commentId: P:Danmokou.SM.PhaseContext.BgTransitionIn
+  id: BgTransitionIn
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: BgTransitionIn
+  nameWithType: PhaseContext.BgTransitionIn
+  fullName: Danmokou.SM.PhaseContext.BgTransitionIn
+  type: Property
+  source:
+    id: BgTransitionIn
+    path: ''
+    startLine: 15011
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public SOBgTransition? BgTransitionIn { get; }
+    parameters: []
+    return:
+      type: System.Nullable{SOBgTransition}
+    content.vb: Public ReadOnly Property BgTransitionIn As SOBgTransition?
+  overload: Danmokou.SM.PhaseContext.BgTransitionIn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.BgTransitionOut
+  commentId: P:Danmokou.SM.PhaseContext.BgTransitionOut
+  id: BgTransitionOut
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: BgTransitionOut
+  nameWithType: PhaseContext.BgTransitionOut
+  fullName: Danmokou.SM.PhaseContext.BgTransitionOut
+  type: Property
+  source:
+    id: BgTransitionOut
+    path: ''
+    startLine: 15013
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public SOBgTransition? BgTransitionOut { get; }
+    parameters: []
+    return:
+      type: System.Nullable{SOBgTransition}
+    content.vb: Public ReadOnly Property BgTransitionOut As SOBgTransition?
+  overload: Danmokou.SM.PhaseContext.BgTransitionOut*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PhaseContext.#ctor(Danmokou.SM.PatternContext,System.Int32,Danmokou.SM.PhaseProperties)
+  commentId: M:Danmokou.SM.PhaseContext.#ctor(Danmokou.SM.PatternContext,System.Int32,Danmokou.SM.PhaseProperties)
+  id: '#ctor(Danmokou.SM.PatternContext,System.Int32,Danmokou.SM.PhaseProperties)'
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: PhaseContext(PatternContext, Int32, PhaseProperties)
+  nameWithType: PhaseContext.PhaseContext(PatternContext, Int32, PhaseProperties)
+  fullName: Danmokou.SM.PhaseContext.PhaseContext(Danmokou.SM.PatternContext, System.Int32, Danmokou.SM.PhaseProperties)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15016
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PhaseContext(PatternContext pattern, int index, PhaseProperties props)
+    parameters:
+    - id: pattern
+      type: Danmokou.SM.PatternContext
+    - id: index
+      type: System.Int32
+    - id: props
+      type: Danmokou.SM.PhaseProperties
+    content.vb: Public Sub New(pattern As PatternContext, index As Integer, props As PhaseProperties)
+  overload: Danmokou.SM.PhaseContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.PhaseContext.GetSpellCutin(GameObject@)
+  commentId: M:Danmokou.SM.PhaseContext.GetSpellCutin(GameObject@)
+  id: GetSpellCutin(GameObject@)
+  parent: Danmokou.SM.PhaseContext
+  langs:
+  - csharp
+  - vb
+  name: GetSpellCutin(out GameObject)
+  nameWithType: PhaseContext.GetSpellCutin(out GameObject)
+  fullName: Danmokou.SM.PhaseContext.GetSpellCutin(out GameObject)
+  type: Method
+  source:
+    id: GetSpellCutin
+    path: ''
+    startLine: 15022
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public bool GetSpellCutin(out GameObject go)
+    parameters:
+    - id: go
+      type: GameObject
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSpellCutin(ByRef go As GameObject) As Boolean
+  overload: Danmokou.SM.PhaseContext.GetSpellCutin*
+  nameWithType.vb: PhaseContext.GetSpellCutin(ByRef GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.SM.PhaseContext.GetSpellCutin(ByRef GameObject)
+  name.vb: GetSpellCutin(ByRef GameObject)
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.SMContext
+  commentId: T:Danmokou.SM.SMContext
+  parent: Danmokou.SM
+  name: SMContext
+  nameWithType: SMContext
+  fullName: Danmokou.SM.SMContext
+- uid: Danmokou.SM.SMContext.PhaseObjects
+  commentId: P:Danmokou.SM.SMContext.PhaseObjects
+  parent: Danmokou.SM.SMContext
+  name: PhaseObjects
+  nameWithType: SMContext.PhaseObjects
+  fullName: Danmokou.SM.SMContext.PhaseObjects
+- uid: Danmokou.SM.SMContext.CleanupObjects
+  commentId: M:Danmokou.SM.SMContext.CleanupObjects
+  parent: Danmokou.SM.SMContext
+  name: CleanupObjects()
+  nameWithType: SMContext.CleanupObjects()
+  fullName: Danmokou.SM.SMContext.CleanupObjects()
+  spec.csharp:
+  - uid: Danmokou.SM.SMContext.CleanupObjects
+    name: CleanupObjects
+    nameWithType: SMContext.CleanupObjects
+    fullName: Danmokou.SM.SMContext.CleanupObjects
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.SMContext.CleanupObjects
+    name: CleanupObjects
+    nameWithType: SMContext.CleanupObjects
+    fullName: Danmokou.SM.SMContext.CleanupObjects
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.PhaseContext.Pattern*
+  commentId: Overload:Danmokou.SM.PhaseContext.Pattern
+  name: Pattern
+  nameWithType: PhaseContext.Pattern
+  fullName: Danmokou.SM.PhaseContext.Pattern
+- uid: Danmokou.SM.PatternContext
+  commentId: T:Danmokou.SM.PatternContext
+  parent: Danmokou.SM
+  name: PatternContext
+  nameWithType: PatternContext
+  fullName: Danmokou.SM.PatternContext
+- uid: Danmokou.SM.PhaseContext.Index*
+  commentId: Overload:Danmokou.SM.PhaseContext.Index
+  name: Index
+  nameWithType: PhaseContext.Index
+  fullName: Danmokou.SM.PhaseContext.Index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Danmokou.SM.PhaseContext.Props*
+  commentId: Overload:Danmokou.SM.PhaseContext.Props
+  name: Props
+  nameWithType: PhaseContext.Props
+  fullName: Danmokou.SM.PhaseContext.Props
+- uid: Danmokou.SM.PhaseProperties
+  commentId: T:Danmokou.SM.PhaseProperties
+  parent: Danmokou.SM
+  name: PhaseProperties
+  nameWithType: PhaseProperties
+  fullName: Danmokou.SM.PhaseProperties
+- uid: Danmokou.SM.PhaseContext.BossPhotoHP*
+  commentId: Overload:Danmokou.SM.PhaseContext.BossPhotoHP
+  name: BossPhotoHP
+  nameWithType: PhaseContext.BossPhotoHP
+  fullName: Danmokou.SM.PhaseContext.BossPhotoHP
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PhaseContext.Boss*
+  commentId: Overload:Danmokou.SM.PhaseContext.Boss
+  name: Boss
+  nameWithType: PhaseContext.Boss
+  fullName: Danmokou.SM.PhaseContext.Boss
+- uid: System.Nullable{BossConfig}
+  commentId: T:System.Nullable{BossConfig}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<BossConfig>
+  nameWithType: Nullable<BossConfig>
+  fullName: System.Nullable<BossConfig>
+  nameWithType.vb: Nullable(Of BossConfig)
+  fullName.vb: System.Nullable(Of BossConfig)
+  name.vb: Nullable(Of BossConfig)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BossConfig
+    name: BossConfig
+    nameWithType: BossConfig
+    fullName: BossConfig
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BossConfig
+    name: BossConfig
+    nameWithType: BossConfig
+    fullName: BossConfig
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PhaseContext.PhaseType*
+  commentId: Overload:Danmokou.SM.PhaseContext.PhaseType
+  name: PhaseType
+  nameWithType: PhaseContext.PhaseType
+  fullName: Danmokou.SM.PhaseContext.PhaseType
+- uid: System.Nullable{PhaseType}
+  commentId: T:System.Nullable{PhaseType}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<PhaseType>
+  nameWithType: Nullable<PhaseType>
+  fullName: System.Nullable<PhaseType>
+  nameWithType.vb: Nullable(Of PhaseType)
+  fullName.vb: System.Nullable(Of PhaseType)
+  name.vb: Nullable(Of PhaseType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PhaseType
+    name: PhaseType
+    nameWithType: PhaseType
+    fullName: PhaseType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PhaseType
+    name: PhaseType
+    nameWithType: PhaseType
+    fullName: PhaseType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PhaseContext.Background*
+  commentId: Overload:Danmokou.SM.PhaseContext.Background
+  name: Background
+  nameWithType: PhaseContext.Background
+  fullName: Danmokou.SM.PhaseContext.Background
+- uid: System.Nullable{GameObject}
+  commentId: T:System.Nullable{GameObject}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<GameObject>
+  nameWithType: Nullable<GameObject>
+  fullName: System.Nullable<GameObject>
+  nameWithType.vb: Nullable(Of GameObject)
+  fullName.vb: System.Nullable(Of GameObject)
+  name.vb: Nullable(Of GameObject)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PhaseContext.BgTransitionIn*
+  commentId: Overload:Danmokou.SM.PhaseContext.BgTransitionIn
+  name: BgTransitionIn
+  nameWithType: PhaseContext.BgTransitionIn
+  fullName: Danmokou.SM.PhaseContext.BgTransitionIn
+- uid: System.Nullable{SOBgTransition}
+  commentId: T:System.Nullable{SOBgTransition}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<SOBgTransition>
+  nameWithType: Nullable<SOBgTransition>
+  fullName: System.Nullable<SOBgTransition>
+  nameWithType.vb: Nullable(Of SOBgTransition)
+  fullName.vb: System.Nullable(Of SOBgTransition)
+  name.vb: Nullable(Of SOBgTransition)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SOBgTransition
+    name: SOBgTransition
+    nameWithType: SOBgTransition
+    fullName: SOBgTransition
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SOBgTransition
+    name: SOBgTransition
+    nameWithType: SOBgTransition
+    fullName: SOBgTransition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PhaseContext.BgTransitionOut*
+  commentId: Overload:Danmokou.SM.PhaseContext.BgTransitionOut
+  name: BgTransitionOut
+  nameWithType: PhaseContext.BgTransitionOut
+  fullName: Danmokou.SM.PhaseContext.BgTransitionOut
+- uid: Danmokou.SM.PhaseContext.#ctor*
+  commentId: Overload:Danmokou.SM.PhaseContext.#ctor
+  name: PhaseContext
+  nameWithType: PhaseContext.PhaseContext
+  fullName: Danmokou.SM.PhaseContext.PhaseContext
+- uid: Danmokou.SM.PhaseContext.GetSpellCutin*
+  commentId: Overload:Danmokou.SM.PhaseContext.GetSpellCutin
+  name: GetSpellCutin
+  nameWithType: PhaseContext.GetSpellCutin
+  fullName: Danmokou.SM.PhaseContext.GetSpellCutin
+- uid: GameObject
+  commentId: '!:GameObject'
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

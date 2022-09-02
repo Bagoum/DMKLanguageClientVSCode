@@ -1,0 +1,1477 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMPred
+  commentId: T:Danmokou.DMath.Functions.ExMPred
+  id: ExMPred
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMPred.And(tbool,tbool)
+  - Danmokou.DMath.Functions.ExMPred.DivBy(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Eq(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Even(tfloat)
+  - Danmokou.DMath.Functions.ExMPred.False
+  - Danmokou.DMath.Functions.ExMPred.Geq(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Gt(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.In(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Leq(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Lt(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Neq(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Not(tbool)
+  - Danmokou.DMath.Functions.ExMPred.Odd(tfloat)
+  - Danmokou.DMath.Functions.ExMPred.OffScreen(TEx{Vector2})
+  - Danmokou.DMath.Functions.ExMPred.OffScreenBy(TEx{System.Single},TEx{Vector2})
+  - Danmokou.DMath.Functions.ExMPred.OnScreen(EEx{Vector2})
+  - Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx{System.Single},EEx{Vector2})
+  - Danmokou.DMath.Functions.ExMPred.Or(tbool,tbool)
+  - Danmokou.DMath.Functions.ExMPred.True
+  langs:
+  - csharp
+  - vb
+  name: ExMPred
+  nameWithType: ExMPred
+  fullName: Danmokou.DMath.Functions.ExMPred
+  type: Class
+  source:
+    id: ExMPred
+    path: ''
+    startLine: 7996
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that return boolean values.\n"
+  example: []
+  syntax:
+    content: public static class ExMPred
+    content.vb: Public Module ExMPred
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMPred.True
+  commentId: M:Danmokou.DMath.Functions.ExMPred.True
+  id: "True"
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: True()
+  nameWithType: ExMPred.True()
+  fullName: Danmokou.DMath.Functions.ExMPred.True()
+  type: Method
+  source:
+    id: "True"
+    path: ''
+    startLine: 7327
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true.\n"
+  example: []
+  syntax:
+    content: public static tbool True()
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function True As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.True*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.False
+  commentId: M:Danmokou.DMath.Functions.ExMPred.False
+  id: "False"
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: False()
+  nameWithType: ExMPred.False()
+  fullName: Danmokou.DMath.Functions.ExMPred.False()
+  type: Method
+  source:
+    id: "False"
+    path: ''
+    startLine: 7333
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns false.\n"
+  example: []
+  syntax:
+    content: public static tbool False()
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function False As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.False*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Not(tbool)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Not(tbool)
+  id: Not(tbool)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Not(tbool)
+  nameWithType: ExMPred.Not(tbool)
+  fullName: Danmokou.DMath.Functions.ExMPred.Not(tbool)
+  type: Method
+  source:
+    id: Not
+    path: ''
+    startLine: 7339
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the argument is false.\n"
+  example: []
+  syntax:
+    content: public static tbool Not(tbool pred)
+    parameters:
+    - id: pred
+      type: tbool
+    return:
+      type: tbool
+    content.vb: Public Shared Function Not(pred As tbool) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Not*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.And(tbool,tbool)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.And(tbool,tbool)
+  id: And(tbool,tbool)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: And(tbool, tbool)
+  nameWithType: ExMPred.And(tbool, tbool)
+  fullName: Danmokou.DMath.Functions.ExMPred.And(tbool, tbool)
+  type: Method
+  source:
+    id: And
+    path: ''
+    startLine: 7346
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff both arguments are true.\n"
+  example: []
+  syntax:
+    content: public static tbool And(tbool pr1, tbool pr2)
+    parameters:
+    - id: pr1
+      type: tbool
+      description: First predicate
+    - id: pr2
+      type: tbool
+      description: Second predicate
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function And(pr1 As tbool, pr2 As tbool) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.And*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Or(tbool,tbool)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Or(tbool,tbool)
+  id: Or(tbool,tbool)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Or(tbool, tbool)
+  nameWithType: ExMPred.Or(tbool, tbool)
+  fullName: Danmokou.DMath.Functions.ExMPred.Or(tbool, tbool)
+  type: Method
+  source:
+    id: Or
+    path: ''
+    startLine: 7356
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff one or more arguments are true.\n"
+  example: []
+  syntax:
+    content: public static tbool Or(tbool pr1, tbool pr2)
+    parameters:
+    - id: pr1
+      type: tbool
+      description: First predicate
+    - id: pr2
+      type: tbool
+      description: Second predicate
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function Or(pr1 As tbool, pr2 As tbool) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Or*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Eq(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Eq(tfloat,tfloat)
+  id: Eq(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Eq(tfloat, tfloat)
+  nameWithType: ExMPred.Eq(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.Eq(tfloat, tfloat)
+  type: Method
+  source:
+    id: Eq
+    path: ''
+    startLine: 7364
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the first argument is equal to the second.\n"
+  example: []
+  syntax:
+    content: public static tbool Eq(tfloat b1, tfloat b2)
+    parameters:
+    - id: b1
+      type: tfloat
+    - id: b2
+      type: tfloat
+    return:
+      type: tbool
+    content.vb: Public Shared Function Eq(b1 As tfloat, b2 As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Eq*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Neq(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Neq(tfloat,tfloat)
+  id: Neq(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Neq(tfloat, tfloat)
+  nameWithType: ExMPred.Neq(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.Neq(tfloat, tfloat)
+  type: Method
+  source:
+    id: Neq
+    path: ''
+    startLine: 7370
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the first argument is not equal to the second.\n"
+  example: []
+  syntax:
+    content: public static tbool Neq(tfloat b1, tfloat b2)
+    parameters:
+    - id: b1
+      type: tfloat
+    - id: b2
+      type: tfloat
+    return:
+      type: tbool
+    content.vb: Public Shared Function Neq(b1 As tfloat, b2 As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Neq*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Gt(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Gt(tfloat,tfloat)
+  id: Gt(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Gt(tfloat, tfloat)
+  nameWithType: ExMPred.Gt(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.Gt(tfloat, tfloat)
+  type: Method
+  source:
+    id: Gt
+    path: ''
+    startLine: 7380
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the first argument is greater than the second.\n"
+  example: []
+  syntax:
+    content: public static tbool Gt(tfloat b1, tfloat b2)
+    parameters:
+    - id: b1
+      type: tfloat
+      description: First BPY function
+    - id: b2
+      type: tfloat
+      description: Second BPY function
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function Gt(b1 As tfloat, b2 As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Gt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Geq(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Geq(tfloat,tfloat)
+  id: Geq(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Geq(tfloat, tfloat)
+  nameWithType: ExMPred.Geq(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.Geq(tfloat, tfloat)
+  type: Method
+  source:
+    id: Geq
+    path: ''
+    startLine: 7390
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the first argument is greater than or equal to the second.\n"
+  example: []
+  syntax:
+    content: public static tbool Geq(tfloat b1, tfloat b2)
+    parameters:
+    - id: b1
+      type: tfloat
+      description: First BPY function
+    - id: b2
+      type: tfloat
+      description: Second BPY function
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function Geq(b1 As tfloat, b2 As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Geq*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Lt(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Lt(tfloat,tfloat)
+  id: Lt(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Lt(tfloat, tfloat)
+  nameWithType: ExMPred.Lt(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.Lt(tfloat, tfloat)
+  type: Method
+  source:
+    id: Lt
+    path: ''
+    startLine: 7400
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the first argument is less than the second.\n"
+  example: []
+  syntax:
+    content: public static tbool Lt(tfloat b1, tfloat b2)
+    parameters:
+    - id: b1
+      type: tfloat
+      description: First BPY function
+    - id: b2
+      type: tfloat
+      description: Second BPY function
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function Lt(b1 As tfloat, b2 As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Lt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Leq(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Leq(tfloat,tfloat)
+  id: Leq(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Leq(tfloat, tfloat)
+  nameWithType: ExMPred.Leq(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.Leq(tfloat, tfloat)
+  type: Method
+  source:
+    id: Leq
+    path: ''
+    startLine: 7410
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the first argument is less than or equal to the second.\n"
+  example: []
+  syntax:
+    content: public static tbool Leq(tfloat b1, tfloat b2)
+    parameters:
+    - id: b1
+      type: tfloat
+      description: First BPY function
+    - id: b2
+      type: tfloat
+      description: Second BPY function
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function Leq(b1 As tfloat, b2 As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Leq*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.In(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.In(tfloat,tfloat,tfloat)
+  id: In(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: In(tfloat, tfloat, tfloat)
+  nameWithType: ExMPred.In(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.In(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: In
+    path: ''
+    startLine: 7421
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the first argument is strictly between the second and third.\n"
+  example: []
+  syntax:
+    content: public static tbool In(tfloat b, tfloat br1, tfloat br2)
+    parameters:
+    - id: b
+      type: tfloat
+      description: First BPY function
+    - id: br1
+      type: tfloat
+      description: Lower bound BPY function
+    - id: br2
+      type: tfloat
+      description: Upper bound BPY function
+    return:
+      type: tbool
+      description: ''
+    content.vb: Public Shared Function In(b As tfloat, br1 As tfloat, br2 As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.In*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.DivBy(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.DivBy(tfloat,tfloat)
+  id: DivBy(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: DivBy(tfloat, tfloat)
+  nameWithType: ExMPred.DivBy(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.DivBy(tfloat, tfloat)
+  type: Method
+  source:
+    id: DivBy
+    path: ''
+    startLine: 7433
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tbool DivBy(tfloat by, tfloat x)
+    parameters:
+    - id: by
+      type: tfloat
+    - id: x
+      type: tfloat
+    return:
+      type: tbool
+    content.vb: Public Shared Function DivBy(by As tfloat, x As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.DivBy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Even(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Even(tfloat)
+  id: Even(tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Even(tfloat)
+  nameWithType: ExMPred.Even(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.Even(tfloat)
+  type: Method
+  source:
+    id: Even
+    path: ''
+    startLine: 7437
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns true if the number is even.\n"
+  example: []
+  syntax:
+    content: public static tbool Even(tfloat b)
+    parameters:
+    - id: b
+      type: tfloat
+    return:
+      type: tbool
+    content.vb: Public Shared Function Even(b As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Even*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.Odd(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Odd(tfloat)
+  id: Odd(tfloat)
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: Odd(tfloat)
+  nameWithType: ExMPred.Odd(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMPred.Odd(tfloat)
+  type: Method
+  source:
+    id: Odd
+    path: ''
+    startLine: 7441
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns true if the number is odd.\n"
+  example: []
+  syntax:
+    content: public static tbool Odd(tfloat b)
+    parameters:
+    - id: b
+      type: tfloat
+    return:
+      type: tbool
+    content.vb: Public Shared Function Odd(b As tfloat) As tbool
+  overload: Danmokou.DMath.Functions.ExMPred.Odd*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMPred.OnScreen(EEx{Vector2})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.OnScreen(EEx{Vector2})
+  id: OnScreen(EEx{Vector2})
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: OnScreen(EEx<Vector2>)
+  nameWithType: ExMPred.OnScreen(EEx<Vector2>)
+  fullName: Danmokou.DMath.Functions.ExMPred.OnScreen(EEx<Vector2>)
+  type: Method
+  source:
+    id: OnScreen
+    path: ''
+    startLine: 8002
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true iff the location is within the playing field.\n"
+  example: []
+  syntax:
+    content: public static TEx<bool> OnScreen(EEx<Vector2> loc)
+    parameters:
+    - id: loc
+      type: EEx{Vector2}
+      description: ''
+    return:
+      type: TEx{System.Boolean}
+      description: ''
+    content.vb: Public Shared Function OnScreen(loc As EEx(Of Vector2)) As TEx(Of Boolean)
+  overload: Danmokou.DMath.Functions.ExMPred.OnScreen*
+  nameWithType.vb: ExMPred.OnScreen(EEx(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.OnScreen(EEx(Of Vector2))
+  name.vb: OnScreen(EEx(Of Vector2))
+- uid: Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx{System.Single},EEx{Vector2})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx{System.Single},EEx{Vector2})
+  id: OnScreenBy(EEx{System.Single},EEx{Vector2})
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: OnScreenBy(EEx<Single>, EEx<Vector2>)
+  nameWithType: ExMPred.OnScreenBy(EEx<Single>, EEx<Vector2>)
+  fullName: Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx<System.Single>, EEx<Vector2>)
+  type: Method
+  source:
+    id: OnScreenBy
+    path: ''
+    startLine: 8010
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true if the location is within BY units (square expansion) of the edge of the playing field.\n"
+  example: []
+  syntax:
+    content: public static TEx<bool> OnScreenBy(EEx<float> by, EEx<Vector2> loc)
+    parameters:
+    - id: by
+      type: EEx{System.Single}
+    - id: loc
+      type: EEx{Vector2}
+    return:
+      type: TEx{System.Boolean}
+    content.vb: Public Shared Function OnScreenBy(by As EEx(Of Single), loc As EEx(Of Vector2)) As TEx(Of Boolean)
+  overload: Danmokou.DMath.Functions.ExMPred.OnScreenBy*
+  nameWithType.vb: ExMPred.OnScreenBy(EEx(Of Single), EEx(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx(Of System.Single), EEx(Of Vector2))
+  name.vb: OnScreenBy(EEx(Of Single), EEx(Of Vector2))
+- uid: Danmokou.DMath.Functions.ExMPred.OffScreen(TEx{Vector2})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.OffScreen(TEx{Vector2})
+  id: OffScreen(TEx{Vector2})
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: OffScreen(TEx<Vector2>)
+  nameWithType: ExMPred.OffScreen(TEx<Vector2>)
+  fullName: Danmokou.DMath.Functions.ExMPred.OffScreen(TEx<Vector2>)
+  type: Method
+  source:
+    id: OffScreen
+    path: ''
+    startLine: 8019
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true if the location not within the playing field.\n"
+  example: []
+  syntax:
+    content: public static TEx<bool> OffScreen(TEx<Vector2> loc)
+    parameters:
+    - id: loc
+      type: TEx{Vector2}
+    return:
+      type: TEx{System.Boolean}
+    content.vb: Public Shared Function OffScreen(loc As TEx(Of Vector2)) As TEx(Of Boolean)
+  overload: Danmokou.DMath.Functions.ExMPred.OffScreen*
+  nameWithType.vb: ExMPred.OffScreen(TEx(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.OffScreen(TEx(Of Vector2))
+  name.vb: OffScreen(TEx(Of Vector2))
+- uid: Danmokou.DMath.Functions.ExMPred.OffScreenBy(TEx{System.Single},TEx{Vector2})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.OffScreenBy(TEx{System.Single},TEx{Vector2})
+  id: OffScreenBy(TEx{System.Single},TEx{Vector2})
+  parent: Danmokou.DMath.Functions.ExMPred
+  langs:
+  - csharp
+  - vb
+  name: OffScreenBy(TEx<Single>, TEx<Vector2>)
+  nameWithType: ExMPred.OffScreenBy(TEx<Single>, TEx<Vector2>)
+  fullName: Danmokou.DMath.Functions.ExMPred.OffScreenBy(TEx<System.Single>, TEx<Vector2>)
+  type: Method
+  source:
+    id: OffScreenBy
+    path: ''
+    startLine: 8024
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn true if the location is more than BY units (square expansion) outside of the playing field.\n"
+  example: []
+  syntax:
+    content: public static TEx<bool> OffScreenBy(TEx<float> f, TEx<Vector2> loc)
+    parameters:
+    - id: f
+      type: TEx{System.Single}
+    - id: loc
+      type: TEx{Vector2}
+    return:
+      type: TEx{System.Boolean}
+    content.vb: Public Shared Function OffScreenBy(f As TEx(Of Single), loc As TEx(Of Vector2)) As TEx(Of Boolean)
+  overload: Danmokou.DMath.Functions.ExMPred.OffScreenBy*
+  nameWithType.vb: ExMPred.OffScreenBy(TEx(Of Single), TEx(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.OffScreenBy(TEx(Of System.Single), TEx(Of Vector2))
+  name.vb: OffScreenBy(TEx(Of Single), TEx(Of Vector2))
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMPred.True*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.True
+  name: "True"
+  nameWithType: ExMPred.True
+  fullName: Danmokou.DMath.Functions.ExMPred.True
+- uid: tbool
+  isExternal: true
+  name: tbool
+  nameWithType: tbool
+  fullName: tbool
+- uid: Danmokou.DMath.Functions.ExMPred.False*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.False
+  name: "False"
+  nameWithType: ExMPred.False
+  fullName: Danmokou.DMath.Functions.ExMPred.False
+- uid: Danmokou.DMath.Functions.ExMPred.Not*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Not
+  name: Not
+  nameWithType: ExMPred.Not
+  fullName: Danmokou.DMath.Functions.ExMPred.Not
+- uid: Danmokou.DMath.Functions.ExMPred.And*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.And
+  name: And
+  nameWithType: ExMPred.And
+  fullName: Danmokou.DMath.Functions.ExMPred.And
+- uid: Danmokou.DMath.Functions.ExMPred.Or*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Or
+  name: Or
+  nameWithType: ExMPred.Or
+  fullName: Danmokou.DMath.Functions.ExMPred.Or
+- uid: Danmokou.DMath.Functions.ExMPred.Eq*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Eq
+  name: Eq
+  nameWithType: ExMPred.Eq
+  fullName: Danmokou.DMath.Functions.ExMPred.Eq
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: Danmokou.DMath.Functions.ExMPred.Neq*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Neq
+  name: Neq
+  nameWithType: ExMPred.Neq
+  fullName: Danmokou.DMath.Functions.ExMPred.Neq
+- uid: Danmokou.DMath.Functions.ExMPred.Gt*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Gt
+  name: Gt
+  nameWithType: ExMPred.Gt
+  fullName: Danmokou.DMath.Functions.ExMPred.Gt
+- uid: Danmokou.DMath.Functions.ExMPred.Geq*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Geq
+  name: Geq
+  nameWithType: ExMPred.Geq
+  fullName: Danmokou.DMath.Functions.ExMPred.Geq
+- uid: Danmokou.DMath.Functions.ExMPred.Lt*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Lt
+  name: Lt
+  nameWithType: ExMPred.Lt
+  fullName: Danmokou.DMath.Functions.ExMPred.Lt
+- uid: Danmokou.DMath.Functions.ExMPred.Leq*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Leq
+  name: Leq
+  nameWithType: ExMPred.Leq
+  fullName: Danmokou.DMath.Functions.ExMPred.Leq
+- uid: Danmokou.DMath.Functions.ExMPred.In*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.In
+  name: In
+  nameWithType: ExMPred.In
+  fullName: Danmokou.DMath.Functions.ExMPred.In
+- uid: Danmokou.DMath.Functions.ExMPred.DivBy*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.DivBy
+  name: DivBy
+  nameWithType: ExMPred.DivBy
+  fullName: Danmokou.DMath.Functions.ExMPred.DivBy
+- uid: Danmokou.DMath.Functions.ExMPred.Even*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Even
+  name: Even
+  nameWithType: ExMPred.Even
+  fullName: Danmokou.DMath.Functions.ExMPred.Even
+- uid: Danmokou.DMath.Functions.ExMPred.Odd*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.Odd
+  name: Odd
+  nameWithType: ExMPred.Odd
+  fullName: Danmokou.DMath.Functions.ExMPred.Odd
+- uid: Danmokou.DMath.Functions.ExMPred.OnScreen*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.OnScreen
+  name: OnScreen
+  nameWithType: ExMPred.OnScreen
+  fullName: Danmokou.DMath.Functions.ExMPred.OnScreen
+- uid: EEx{Vector2}
+  commentId: '!:EEx{Vector2}'
+  definition: EEx`1
+  name: EEx<Vector2>
+  nameWithType: EEx<Vector2>
+  fullName: EEx<Vector2>
+  nameWithType.vb: EEx(Of Vector2)
+  fullName.vb: EEx(Of Vector2)
+  name.vb: EEx(Of Vector2)
+  spec.csharp:
+  - uid: EEx`1
+    name: EEx
+    nameWithType: EEx
+    fullName: EEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: EEx`1
+    name: EEx
+    nameWithType: EEx
+    fullName: EEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx{System.Boolean}
+  commentId: '!:TEx{System.Boolean}'
+  definition: TEx`1
+  name: TEx<Boolean>
+  nameWithType: TEx<Boolean>
+  fullName: TEx<System.Boolean>
+  nameWithType.vb: TEx(Of Boolean)
+  fullName.vb: TEx(Of System.Boolean)
+  name.vb: TEx(Of Boolean)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EEx`1
+  isExternal: true
+  name: EEx<>
+  nameWithType: EEx<>
+  fullName: EEx<>
+  nameWithType.vb: EEx(Of )
+  fullName.vb: EEx(Of )
+  name.vb: EEx(Of )
+  spec.csharp:
+  - uid: EEx`1
+    name: EEx
+    nameWithType: EEx
+    fullName: EEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: EEx`1
+    name: EEx
+    nameWithType: EEx
+    fullName: EEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx`1
+  isExternal: true
+  name: TEx<>
+  nameWithType: TEx<>
+  fullName: TEx<>
+  nameWithType.vb: TEx(Of )
+  fullName.vb: TEx(Of )
+  name.vb: TEx(Of )
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.ExMPred.OnScreenBy*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.OnScreenBy
+  name: OnScreenBy
+  nameWithType: ExMPred.OnScreenBy
+  fullName: Danmokou.DMath.Functions.ExMPred.OnScreenBy
+- uid: EEx{System.Single}
+  commentId: '!:EEx{System.Single}'
+  definition: EEx`1
+  name: EEx<Single>
+  nameWithType: EEx<Single>
+  fullName: EEx<System.Single>
+  nameWithType.vb: EEx(Of Single)
+  fullName.vb: EEx(Of System.Single)
+  name.vb: EEx(Of Single)
+  spec.csharp:
+  - uid: EEx`1
+    name: EEx
+    nameWithType: EEx
+    fullName: EEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: EEx`1
+    name: EEx
+    nameWithType: EEx
+    fullName: EEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.ExMPred.OffScreen*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.OffScreen
+  name: OffScreen
+  nameWithType: ExMPred.OffScreen
+  fullName: Danmokou.DMath.Functions.ExMPred.OffScreen
+- uid: TEx{Vector2}
+  commentId: '!:TEx{Vector2}'
+  definition: TEx`1
+  name: TEx<Vector2>
+  nameWithType: TEx<Vector2>
+  fullName: TEx<Vector2>
+  nameWithType.vb: TEx(Of Vector2)
+  fullName.vb: TEx(Of Vector2)
+  name.vb: TEx(Of Vector2)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.ExMPred.OffScreenBy*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.OffScreenBy
+  name: OffScreenBy
+  nameWithType: ExMPred.OffScreenBy
+  fullName: Danmokou.DMath.Functions.ExMPred.OffScreenBy
+- uid: TEx{System.Single}
+  commentId: '!:TEx{System.Single}'
+  definition: TEx`1
+  name: TEx<Single>
+  nameWithType: TEx<Single>
+  fullName: TEx<System.Single>
+  nameWithType.vb: TEx(Of Single)
+  fullName.vb: TEx(Of System.Single)
+  name.vb: TEx(Of Single)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

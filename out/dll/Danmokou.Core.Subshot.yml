@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.Subshot
+  commentId: T:Danmokou.Core.Subshot
+  id: Subshot
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.Subshot.TYPE_D
+  - Danmokou.Core.Subshot.TYPE_K
+  - Danmokou.Core.Subshot.TYPE_M
+  langs:
+  - csharp
+  - vb
+  name: Subshot
+  nameWithType: Subshot
+  fullName: Danmokou.Core.Subshot
+  type: Enum
+  source:
+    id: Subshot
+    path: ''
+    startLine: 1272
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum Subshot
+    content.vb: Public Enum Subshot
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.Subshot.TYPE_D
+  commentId: F:Danmokou.Core.Subshot.TYPE_D
+  id: TYPE_D
+  parent: Danmokou.Core.Subshot
+  langs:
+  - csharp
+  - vb
+  name: TYPE_D
+  nameWithType: Subshot.TYPE_D
+  fullName: Danmokou.Core.Subshot.TYPE_D
+  type: Field
+  source:
+    id: TYPE_D
+    path: ''
+    startLine: 1273
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: TYPE_D = 0
+    return:
+      type: Danmokou.Core.Subshot
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Subshot.TYPE_M
+  commentId: F:Danmokou.Core.Subshot.TYPE_M
+  id: TYPE_M
+  parent: Danmokou.Core.Subshot
+  langs:
+  - csharp
+  - vb
+  name: TYPE_M
+  nameWithType: Subshot.TYPE_M
+  fullName: Danmokou.Core.Subshot.TYPE_M
+  type: Field
+  source:
+    id: TYPE_M
+    path: ''
+    startLine: 1274
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: TYPE_M = 1
+    return:
+      type: Danmokou.Core.Subshot
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Subshot.TYPE_K
+  commentId: F:Danmokou.Core.Subshot.TYPE_K
+  id: TYPE_K
+  parent: Danmokou.Core.Subshot
+  langs:
+  - csharp
+  - vb
+  name: TYPE_K
+  nameWithType: Subshot.TYPE_K
+  fullName: Danmokou.Core.Subshot.TYPE_K
+  type: Field
+  source:
+    id: TYPE_K
+    path: ''
+    startLine: 1275
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: TYPE_K = 2
+    return:
+      type: Danmokou.Core.Subshot
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.Subshot
+  commentId: T:Danmokou.Core.Subshot
+  parent: Danmokou.Core
+  name: Subshot
+  nameWithType: Subshot
+  fullName: Danmokou.Core.Subshot

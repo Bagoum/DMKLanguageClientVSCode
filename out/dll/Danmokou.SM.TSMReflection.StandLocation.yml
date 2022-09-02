@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.TSMReflection.StandLocation
+  commentId: T:Danmokou.SM.TSMReflection.StandLocation
+  id: TSMReflection.StandLocation
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.TSMReflection.StandLocation.CENTER
+  - Danmokou.SM.TSMReflection.StandLocation.LEFT1
+  - Danmokou.SM.TSMReflection.StandLocation.LEFT2
+  - Danmokou.SM.TSMReflection.StandLocation.RIGHT1
+  - Danmokou.SM.TSMReflection.StandLocation.RIGHT2
+  langs:
+  - csharp
+  - vb
+  name: TSMReflection.StandLocation
+  nameWithType: TSMReflection.StandLocation
+  fullName: Danmokou.SM.TSMReflection.StandLocation
+  type: Enum
+  source:
+    id: StandLocation
+    path: ''
+    startLine: 16499
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public enum StandLocation
+    content.vb: Public Enum StandLocation
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.SM.TSMReflection.StandLocation.LEFT1
+  commentId: F:Danmokou.SM.TSMReflection.StandLocation.LEFT1
+  id: LEFT1
+  parent: Danmokou.SM.TSMReflection.StandLocation
+  langs:
+  - csharp
+  - vb
+  name: LEFT1
+  nameWithType: TSMReflection.StandLocation.LEFT1
+  fullName: Danmokou.SM.TSMReflection.StandLocation.LEFT1
+  type: Field
+  source:
+    id: LEFT1
+    path: ''
+    startLine: 16500
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: LEFT1 = 0
+    return:
+      type: Danmokou.SM.TSMReflection.StandLocation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.SM.TSMReflection.StandLocation.LEFT2
+  commentId: F:Danmokou.SM.TSMReflection.StandLocation.LEFT2
+  id: LEFT2
+  parent: Danmokou.SM.TSMReflection.StandLocation
+  langs:
+  - csharp
+  - vb
+  name: LEFT2
+  nameWithType: TSMReflection.StandLocation.LEFT2
+  fullName: Danmokou.SM.TSMReflection.StandLocation.LEFT2
+  type: Field
+  source:
+    id: LEFT2
+    path: ''
+    startLine: 16501
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: LEFT2 = 1
+    return:
+      type: Danmokou.SM.TSMReflection.StandLocation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.SM.TSMReflection.StandLocation.RIGHT1
+  commentId: F:Danmokou.SM.TSMReflection.StandLocation.RIGHT1
+  id: RIGHT1
+  parent: Danmokou.SM.TSMReflection.StandLocation
+  langs:
+  - csharp
+  - vb
+  name: RIGHT1
+  nameWithType: TSMReflection.StandLocation.RIGHT1
+  fullName: Danmokou.SM.TSMReflection.StandLocation.RIGHT1
+  type: Field
+  source:
+    id: RIGHT1
+    path: ''
+    startLine: 16502
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: RIGHT1 = 2
+    return:
+      type: Danmokou.SM.TSMReflection.StandLocation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.SM.TSMReflection.StandLocation.RIGHT2
+  commentId: F:Danmokou.SM.TSMReflection.StandLocation.RIGHT2
+  id: RIGHT2
+  parent: Danmokou.SM.TSMReflection.StandLocation
+  langs:
+  - csharp
+  - vb
+  name: RIGHT2
+  nameWithType: TSMReflection.StandLocation.RIGHT2
+  fullName: Danmokou.SM.TSMReflection.StandLocation.RIGHT2
+  type: Field
+  source:
+    id: RIGHT2
+    path: ''
+    startLine: 16503
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: RIGHT2 = 3
+    return:
+      type: Danmokou.SM.TSMReflection.StandLocation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.SM.TSMReflection.StandLocation.CENTER
+  commentId: F:Danmokou.SM.TSMReflection.StandLocation.CENTER
+  id: CENTER
+  parent: Danmokou.SM.TSMReflection.StandLocation
+  langs:
+  - csharp
+  - vb
+  name: CENTER
+  nameWithType: TSMReflection.StandLocation.CENTER
+  fullName: Danmokou.SM.TSMReflection.StandLocation.CENTER
+  type: Field
+  source:
+    id: CENTER
+    path: ''
+    startLine: 16504
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: CENTER = 4
+    return:
+      type: Danmokou.SM.TSMReflection.StandLocation
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: Danmokou.SM.TSMReflection.StandLocation
+  commentId: T:Danmokou.SM.TSMReflection.StandLocation
+  parent: Danmokou.SM
+  name: TSMReflection.StandLocation
+  nameWithType: TSMReflection.StandLocation
+  fullName: Danmokou.SM.TSMReflection.StandLocation

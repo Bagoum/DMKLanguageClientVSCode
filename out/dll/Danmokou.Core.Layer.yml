@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.Layer
+  commentId: T:Danmokou.Core.Layer
+  id: Layer
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.Layer.HighFX
+  - Danmokou.Core.Layer.HighProjectile
+  - Danmokou.Core.Layer.LowFX
+  - Danmokou.Core.Layer.LowProjectile
+  langs:
+  - csharp
+  - vb
+  name: Layer
+  nameWithType: Layer
+  fullName: Danmokou.Core.Layer
+  type: Enum
+  source:
+    id: Layer
+    path: ''
+    startLine: 1200
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum Layer
+    content.vb: Public Enum Layer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.Layer.LowProjectile
+  commentId: F:Danmokou.Core.Layer.LowProjectile
+  id: LowProjectile
+  parent: Danmokou.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: LowProjectile
+  nameWithType: Layer.LowProjectile
+  fullName: Danmokou.Core.Layer.LowProjectile
+  type: Field
+  source:
+    id: LowProjectile
+    path: ''
+    startLine: 1201
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: LowProjectile = 0
+    return:
+      type: Danmokou.Core.Layer
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Layer.HighProjectile
+  commentId: F:Danmokou.Core.Layer.HighProjectile
+  id: HighProjectile
+  parent: Danmokou.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: HighProjectile
+  nameWithType: Layer.HighProjectile
+  fullName: Danmokou.Core.Layer.HighProjectile
+  type: Field
+  source:
+    id: HighProjectile
+    path: ''
+    startLine: 1202
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: HighProjectile = 1
+    return:
+      type: Danmokou.Core.Layer
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Layer.LowFX
+  commentId: F:Danmokou.Core.Layer.LowFX
+  id: LowFX
+  parent: Danmokou.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: LowFX
+  nameWithType: Layer.LowFX
+  fullName: Danmokou.Core.Layer.LowFX
+  type: Field
+  source:
+    id: LowFX
+    path: ''
+    startLine: 1203
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: LowFX = 2
+    return:
+      type: Danmokou.Core.Layer
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Layer.HighFX
+  commentId: F:Danmokou.Core.Layer.HighFX
+  id: HighFX
+  parent: Danmokou.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: HighFX
+  nameWithType: Layer.HighFX
+  fullName: Danmokou.Core.Layer.HighFX
+  type: Field
+  source:
+    id: HighFX
+    path: ''
+    startLine: 1204
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: HighFX = 3
+    return:
+      type: Danmokou.Core.Layer
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.Layer
+  commentId: T:Danmokou.Core.Layer
+  parent: Danmokou.Core
+  name: Layer
+  nameWithType: Layer
+  fullName: Danmokou.Core.Layer

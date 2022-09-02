@@ -1,0 +1,812 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.SyncHandoff
+  id: SyncHandoff
+  parent: Danmokou.Danmaku.Patterns
+  children:
+  - Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff,System.Single,System.String)
+  - Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator,SMHandoff)
+  - Danmokou.Danmaku.Patterns.SyncHandoff.bc
+  - Danmokou.Danmaku.Patterns.SyncHandoff.ch
+  - Danmokou.Danmaku.Patterns.SyncHandoff.Copy(System.String)
+  - Danmokou.Danmaku.Patterns.SyncHandoff.Dispose
+  - Danmokou.Danmaku.Patterns.SyncHandoff.GCX
+  - Danmokou.Danmaku.Patterns.SyncHandoff.index
+  - Danmokou.Danmaku.Patterns.SyncHandoff.op_Implicit(Danmokou.Danmaku.Patterns.SyncHandoff)~GenCtx
+  - Danmokou.Danmaku.Patterns.SyncHandoff.RV2
+  - Danmokou.Danmaku.Patterns.SyncHandoff.timeOffset
+  langs:
+  - csharp
+  - vb
+  name: SyncHandoff
+  nameWithType: SyncHandoff
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff
+  type: Struct
+  source:
+    id: SyncHandoff
+    path: ''
+    startLine: 4636
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nA struct containing information for SyncPattern execution.\n<br />The caller is responsible for disposing this after it is done.\n"
+  example: []
+  syntax:
+    content: 'public struct SyncHandoff : IDisposable'
+    content.vb: >-
+      Public Structure SyncHandoff
+          Implements IDisposable
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.ch
+  commentId: F:Danmokou.Danmaku.Patterns.SyncHandoff.ch
+  id: ch
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: ch
+  nameWithType: SyncHandoff.ch
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.ch
+  type: Field
+  source:
+    id: ch
+    path: ''
+    startLine: 4637
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public CommonHandoff ch
+    return:
+      type: Danmokou.Danmaku.Patterns.CommonHandoff
+    content.vb: Public ch As CommonHandoff
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.bc
+  commentId: P:Danmokou.Danmaku.Patterns.SyncHandoff.bc
+  id: bc
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: bc
+  nameWithType: SyncHandoff.bc
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.bc
+  type: Property
+  source:
+    id: bc
+    path: ''
+    startLine: 4638
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly DelegatedCreator bc { get; }
+    parameters: []
+    return:
+      type: DelegatedCreator
+    content.vb: Public ReadOnly Property bc As DelegatedCreator
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.bc*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.RV2
+  commentId: P:Danmokou.Danmaku.Patterns.SyncHandoff.RV2
+  id: RV2
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: RV2
+  nameWithType: SyncHandoff.RV2
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.RV2
+  type: Property
+  source:
+    id: RV2
+    path: ''
+    startLine: 4639
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly V2RV2 RV2 { get; }
+    parameters: []
+    return:
+      type: V2RV2
+    content.vb: Public ReadOnly Property RV2 As V2RV2
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.RV2*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.index
+  commentId: P:Danmokou.Danmaku.Patterns.SyncHandoff.index
+  id: index
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: SyncHandoff.index
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.index
+  type: Property
+  source:
+    id: index
+    path: ''
+    startLine: 4640
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly int index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property index As Integer
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.index*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.timeOffset
+  commentId: F:Danmokou.Danmaku.Patterns.SyncHandoff.timeOffset
+  id: timeOffset
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: timeOffset
+  nameWithType: SyncHandoff.timeOffset
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.timeOffset
+  type: Field
+  source:
+    id: timeOffset
+    path: ''
+    startLine: 4644
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nStarting time of summoned objects (seconds)\n"
+  example: []
+  syntax:
+    content: public readonly float timeOffset
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly timeOffset As Single
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.GCX
+  commentId: P:Danmokou.Danmaku.Patterns.SyncHandoff.GCX
+  id: GCX
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: GCX
+  nameWithType: SyncHandoff.GCX
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.GCX
+  type: Property
+  source:
+    id: GCX
+    path: ''
+    startLine: 4645
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly GenCtx GCX { get; }
+    parameters: []
+    return:
+      type: GenCtx
+    content.vb: Public ReadOnly Property GCX As GenCtx
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.GCX*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator,SMHandoff)
+  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator,SMHandoff)
+  id: '#ctor(DelegatedCreator,SMHandoff)'
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: SyncHandoff(DelegatedCreator, SMHandoff)
+  nameWithType: SyncHandoff.SyncHandoff(DelegatedCreator, SMHandoff)
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff(DelegatedCreator, SMHandoff)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 4650
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nThe common handoff is copied from SMH.\n"
+  example: []
+  syntax:
+    content: public SyncHandoff(DelegatedCreator bc, SMHandoff smh)
+    parameters:
+    - id: bc
+      type: DelegatedCreator
+    - id: smh
+      type: SMHandoff
+    content.vb: Public Sub New(bc As DelegatedCreator, smh As SMHandoff)
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff,System.Single,System.String)
+  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff,System.Single,System.String)
+  id: '#ctor(Danmokou.Danmaku.Patterns.CommonHandoff,System.Single,System.String)'
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: SyncHandoff(CommonHandoff, Single, String)
+  nameWithType: SyncHandoff.SyncHandoff(CommonHandoff, Single, String)
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff(Danmokou.Danmaku.Patterns.CommonHandoff, System.Single, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 4658
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nThe common handoff is copied.\n"
+  example: []
+  syntax:
+    content: public SyncHandoff(CommonHandoff ch, float extraTimeSeconds, string newStyle = null)
+    parameters:
+    - id: ch
+      type: Danmokou.Danmaku.Patterns.CommonHandoff
+    - id: extraTimeSeconds
+      type: System.Single
+    - id: newStyle
+      type: System.String
+    content.vb: Public Sub New(ch As CommonHandoff, extraTimeSeconds As Single, newStyle As String = Nothing)
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.op_Implicit(Danmokou.Danmaku.Patterns.SyncHandoff)~GenCtx
+  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.op_Implicit(Danmokou.Danmaku.Patterns.SyncHandoff)~GenCtx
+  id: op_Implicit(Danmokou.Danmaku.Patterns.SyncHandoff)~GenCtx
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: Implicit(SyncHandoff to GenCtx)
+  nameWithType: SyncHandoff.Implicit(SyncHandoff to GenCtx)
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.Implicit(Danmokou.Danmaku.Patterns.SyncHandoff to GenCtx)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 4663
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static implicit operator GenCtx(SyncHandoff sbh)
+    parameters:
+    - id: sbh
+      type: Danmokou.Danmaku.Patterns.SyncHandoff
+    return:
+      type: GenCtx
+    content.vb: Public Shared Widening Operator CType(sbh As SyncHandoff) As GenCtx
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.op_Implicit*
+  nameWithType.vb: SyncHandoff.Widening(SyncHandoff to GenCtx)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.SyncHandoff.Widening(Danmokou.Danmaku.Patterns.SyncHandoff to GenCtx)
+  name.vb: Widening(SyncHandoff to GenCtx)
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.Copy(System.String)
+  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.Copy(System.String)
+  id: Copy(System.String)
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: Copy(String)
+  nameWithType: SyncHandoff.Copy(String)
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.Copy(System.String)
+  type: Method
+  source:
+    id: Copy
+    path: ''
+    startLine: 4665
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public SyncHandoff Copy(string newStyle)
+    parameters:
+    - id: newStyle
+      type: System.String
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncHandoff
+    content.vb: Public Function Copy(newStyle As String) As SyncHandoff
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.Copy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.Dispose
+  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.Dispose
+  id: Dispose
+  parent: Danmokou.Danmaku.Patterns.SyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SyncHandoff.Dispose()
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 4667
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Danmokou.Danmaku.Patterns.SyncHandoff.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.CommonHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: CommonHandoff
+  nameWithType: CommonHandoff
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.bc*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncHandoff.bc
+  name: bc
+  nameWithType: SyncHandoff.bc
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.bc
+- uid: DelegatedCreator
+  isExternal: true
+  name: DelegatedCreator
+  nameWithType: DelegatedCreator
+  fullName: DelegatedCreator
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.RV2*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncHandoff.RV2
+  name: RV2
+  nameWithType: SyncHandoff.RV2
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.RV2
+- uid: V2RV2
+  isExternal: true
+  name: V2RV2
+  nameWithType: V2RV2
+  fullName: V2RV2
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.index*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncHandoff.index
+  name: index
+  nameWithType: SyncHandoff.index
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.GCX*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncHandoff.GCX
+  name: GCX
+  nameWithType: SyncHandoff.GCX
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.GCX
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncHandoff.#ctor
+  name: SyncHandoff
+  nameWithType: SyncHandoff.SyncHandoff
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff
+- uid: SMHandoff
+  isExternal: true
+  name: SMHandoff
+  nameWithType: SMHandoff
+  fullName: SMHandoff
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.op_Implicit*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncHandoff.op_Implicit
+  name: Implicit
+  nameWithType: SyncHandoff.Implicit
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.Implicit
+  nameWithType.vb: SyncHandoff.Widening
+  fullName.vb: Danmokou.Danmaku.Patterns.SyncHandoff.Widening
+  name.vb: Widening
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.SyncHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncHandoff
+  nameWithType: SyncHandoff
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.Copy*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncHandoff.Copy
+  name: Copy
+  nameWithType: SyncHandoff.Copy
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.Copy
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.Dispose*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncHandoff.Dispose
+  name: Dispose
+  nameWithType: SyncHandoff.Dispose
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

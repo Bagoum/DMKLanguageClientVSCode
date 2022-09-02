@@ -1,0 +1,1420 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo
+  commentId: T:Danmokou.DMath.Functions.AtomicBPYRepo
+  id: AtomicBPYRepo
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.AtomicBPYRepo.BRand(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.BRand01
+  - Danmokou.DMath.Functions.AtomicBPYRepo.BRand2(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1
+  - Danmokou.DMath.Functions.AtomicBPYRepo.Const(System.Single)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P1
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P1M(System.Int32)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma(System.Int32[])
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf(ExBPY[])
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P1Mf(ExBPY)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P2
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P2M(System.Int32)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma(System.Int32[])
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf(ExBPY[])
+  - Danmokou.DMath.Functions.AtomicBPYRepo.P2Mf(ExBPY)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.PM(System.Int32,System.Int32)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.PMa(System.Int32,System.Int32[])
+  - Danmokou.DMath.Functions.AtomicBPYRepo.PMaf(ExBPY,ExBPY[])
+  - Danmokou.DMath.Functions.AtomicBPYRepo.PMf(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.T
+  - Danmokou.DMath.Functions.AtomicBPYRepo.X
+  - Danmokou.DMath.Functions.AtomicBPYRepo.Y
+  - Danmokou.DMath.Functions.AtomicBPYRepo.Z
+  langs:
+  - csharp
+  - vb
+  name: AtomicBPYRepo
+  nameWithType: AtomicBPYRepo
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo
+  type: Class
+  source:
+    id: AtomicBPYRepo
+    path: ''
+    startLine: 7044
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.BPYRepo\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public static class AtomicBPYRepo
+    content.vb: Public Module AtomicBPYRepo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.T
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.T
+  id: T
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: T()
+  nameWithType: AtomicBPYRepo.T()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.T()
+  type: Method
+  source:
+    id: T
+    path: ''
+    startLine: 7051
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the parametric time, or if this is a float function, the input value.\n"
+  example: []
+  syntax:
+    content: public static ExBPY T()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function T As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.T*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P
+  id: P
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P()
+  nameWithType: AtomicBPYRepo.P()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P()
+  type: Method
+  source:
+    id: P
+    path: ''
+    startLine: 7056
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the parametric firing index.\n"
+  example: []
+  syntax:
+    content: public static ExBPY P()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function P As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P1
+  id: P1
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P1()
+  nameWithType: AtomicBPYRepo.P1()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1()
+  type: Method
+  source:
+    id: P1
+    path: ''
+    startLine: 7061
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM.P1(Ex)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY P1()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function P1 As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1M(System.Int32)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P1M(System.Int32)
+  id: P1M(System.Int32)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P1M(Int32)
+  nameWithType: AtomicBPYRepo.P1M(Int32)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1M(System.Int32)
+  type: Method
+  source:
+    id: P1M
+    path: ''
+    startLine: 7066
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM.P1M(System.Int32%2cEx)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY P1M(int mod)
+    parameters:
+    - id: mod
+      type: System.Int32
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function P1M(mod As Integer) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P1M*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma(System.Int32[])
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma(System.Int32[])
+  id: P1Ma(System.Int32[])
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P1Ma(Int32[])
+  nameWithType: AtomicBPYRepo.P1Ma(Int32[])
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma(System.Int32[])
+  type: Method
+  source:
+    id: P1Ma
+    path: ''
+    startLine: 7068
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY P1Ma(int[] children)
+    parameters:
+    - id: children
+      type: System.Int32[]
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function P1Ma(children As Integer()) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma*
+  nameWithType.vb: AtomicBPYRepo.P1Ma(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma(System.Int32())
+  name.vb: P1Ma(Int32())
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1Mf(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P1Mf(ExBPY)
+  id: P1Mf(ExBPY)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P1Mf(ExBPY)
+  nameWithType: AtomicBPYRepo.P1Mf(ExBPY)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1Mf(ExBPY)
+  type: Method
+  source:
+    id: P1Mf
+    path: ''
+    startLine: 7070
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY P1Mf(ExBPY mod)
+    parameters:
+    - id: mod
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function P1Mf(mod As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P1Mf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf(ExBPY[])
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf(ExBPY[])
+  id: P1Maf(ExBPY[])
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P1Maf(ExBPY[])
+  nameWithType: AtomicBPYRepo.P1Maf(ExBPY[])
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf(ExBPY[])
+  type: Method
+  source:
+    id: P1Maf
+    path: ''
+    startLine: 7072
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY P1Maf(ExBPY[] children)
+    parameters:
+    - id: children
+      type: ExBPY[]
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function P1Maf(children As ExBPY()) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf*
+  nameWithType.vb: AtomicBPYRepo.P1Maf(ExBPY())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf(ExBPY())
+  name.vb: P1Maf(ExBPY())
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P2
+  id: P2
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P2()
+  nameWithType: AtomicBPYRepo.P2()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2()
+  type: Method
+  source:
+    id: P2
+    path: ''
+    startLine: 7079
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM.P2(Ex)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY P2()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function P2 As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2M(System.Int32)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P2M(System.Int32)
+  id: P2M(System.Int32)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P2M(Int32)
+  nameWithType: AtomicBPYRepo.P2M(Int32)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2M(System.Int32)
+  type: Method
+  source:
+    id: P2M
+    path: ''
+    startLine: 7085
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM.P2M(System.Int32%2cEx)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY P2M(int mod)
+    parameters:
+    - id: mod
+      type: System.Int32
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function P2M(mod As Integer) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P2M*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma(System.Int32[])
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma(System.Int32[])
+  id: P2Ma(System.Int32[])
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P2Ma(Int32[])
+  nameWithType: AtomicBPYRepo.P2Ma(Int32[])
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma(System.Int32[])
+  type: Method
+  source:
+    id: P2Ma
+    path: ''
+    startLine: 7087
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY P2Ma(int[] children)
+    parameters:
+    - id: children
+      type: System.Int32[]
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function P2Ma(children As Integer()) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma*
+  nameWithType.vb: AtomicBPYRepo.P2Ma(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma(System.Int32())
+  name.vb: P2Ma(Int32())
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2Mf(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P2Mf(ExBPY)
+  id: P2Mf(ExBPY)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P2Mf(ExBPY)
+  nameWithType: AtomicBPYRepo.P2Mf(ExBPY)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2Mf(ExBPY)
+  type: Method
+  source:
+    id: P2Mf
+    path: ''
+    startLine: 7089
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY P2Mf(ExBPY mod)
+    parameters:
+    - id: mod
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function P2Mf(mod As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P2Mf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf(ExBPY[])
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf(ExBPY[])
+  id: P2Maf(ExBPY[])
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: P2Maf(ExBPY[])
+  nameWithType: AtomicBPYRepo.P2Maf(ExBPY[])
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf(ExBPY[])
+  type: Method
+  source:
+    id: P2Maf
+    path: ''
+    startLine: 7091
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY P2Maf(ExBPY[] children)
+    parameters:
+    - id: children
+      type: ExBPY[]
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function P2Maf(children As ExBPY()) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf*
+  nameWithType.vb: AtomicBPYRepo.P2Maf(ExBPY())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf(ExBPY())
+  name.vb: P2Maf(ExBPY())
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.PM(System.Int32,System.Int32)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.PM(System.Int32,System.Int32)
+  id: PM(System.Int32,System.Int32)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: PM(Int32, Int32)
+  nameWithType: AtomicBPYRepo.PM(Int32, Int32)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.PM(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: PM
+    path: ''
+    startLine: 7097
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM.PM(System.Int32%2cSystem.Int32%2cEx)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY PM(int self, int children)
+    parameters:
+    - id: self
+      type: System.Int32
+    - id: children
+      type: System.Int32
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function PM(self As Integer, children As Integer) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.PM*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.PMa(System.Int32,System.Int32[])
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.PMa(System.Int32,System.Int32[])
+  id: PMa(System.Int32,System.Int32[])
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: PMa(Int32, Int32[])
+  nameWithType: AtomicBPYRepo.PMa(Int32, Int32[])
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.PMa(System.Int32, System.Int32[])
+  type: Method
+  source:
+    id: PMa
+    path: ''
+    startLine: 7099
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY PMa(int self, int[] children)
+    parameters:
+    - id: self
+      type: System.Int32
+    - id: children
+      type: System.Int32[]
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function PMa(self As Integer, children As Integer()) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.PMa*
+  nameWithType.vb: AtomicBPYRepo.PMa(Int32, Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.AtomicBPYRepo.PMa(System.Int32, System.Int32())
+  name.vb: PMa(Int32, Int32())
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.PMf(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.PMf(ExBPY,ExBPY)
+  id: PMf(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: PMf(ExBPY, ExBPY)
+  nameWithType: AtomicBPYRepo.PMf(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.PMf(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: PMf
+    path: ''
+    startLine: 7101
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY PMf(ExBPY self, ExBPY children)
+    parameters:
+    - id: self
+      type: ExBPY
+    - id: children
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function PMf(self As ExBPY, children As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.PMf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.PMaf(ExBPY,ExBPY[])
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.PMaf(ExBPY,ExBPY[])
+  id: PMaf(ExBPY,ExBPY[])
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: PMaf(ExBPY, ExBPY[])
+  nameWithType: AtomicBPYRepo.PMaf(ExBPY, ExBPY[])
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.PMaf(ExBPY, ExBPY[])
+  type: Method
+  source:
+    id: PMaf
+    path: ''
+    startLine: 7103
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY PMaf(ExBPY self, ExBPY[] children)
+    parameters:
+    - id: self
+      type: ExBPY
+    - id: children
+      type: ExBPY[]
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function PMaf(self As ExBPY, children As ExBPY()) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.PMaf*
+  nameWithType.vb: AtomicBPYRepo.PMaf(ExBPY, ExBPY())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.AtomicBPYRepo.PMaf(ExBPY, ExBPY())
+  name.vb: PMaf(ExBPY, ExBPY())
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.X
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.X
+  id: X
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: X()
+  nameWithType: AtomicBPYRepo.X()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.X()
+  type: Method
+  source:
+    id: X
+    path: ''
+    startLine: 7110
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the parametric x-position, or, if this is a float function, the input value.\n"
+  example: []
+  syntax:
+    content: public static ExBPY X()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function X As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.X*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.Y
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.Y
+  id: Y
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: Y()
+  nameWithType: AtomicBPYRepo.Y()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.Y()
+  type: Method
+  source:
+    id: Y
+    path: ''
+    startLine: 7115
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the parametric y-position.\n"
+  example: []
+  syntax:
+    content: public static ExBPY Y()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function Y As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.Y*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.Z
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.Z
+  id: Z
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: Z()
+  nameWithType: AtomicBPYRepo.Z()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.Z()
+  type: Method
+  source:
+    id: Z
+    path: ''
+    startLine: 7120
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the parametric z-position.\n"
+  example: []
+  syntax:
+    content: public static ExBPY Z()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function Z As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.Z*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRand(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.BRand(ExBPY,ExBPY)
+  id: BRand(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: BRand(ExBPY, ExBPY)
+  nameWithType: AtomicBPYRepo.BRand(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.BRand(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: BRand
+    path: ''
+    startLine: 7131
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn a random number as a deterministic function of the parametric ID.\n"
+  example: []
+  syntax:
+    content: public static ExBPY BRand(ExBPY from, ExBPY to)
+    parameters:
+    - id: from
+      type: ExBPY
+      description: Minimum
+    - id: to
+      type: ExBPY
+      description: Maximum
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function BRand(from As ExBPY, to As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.BRand*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRand2(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.BRand2(ExBPY,ExBPY)
+  id: BRand2(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: BRand2(ExBPY, ExBPY)
+  nameWithType: AtomicBPYRepo.BRand2(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.BRand2(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: BRand2
+    path: ''
+    startLine: 7139
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn a random number as a deterministic function of the parametric ID.\n<br />This function returns a different value from <xref href=\"Danmokou.DMath.Functions.AtomicBPYRepo.BRand(ExBPY%2cExBPY)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY BRand2(ExBPY from, ExBPY to)
+    parameters:
+    - id: from
+      type: ExBPY
+      description: Minimum
+    - id: to
+      type: ExBPY
+      description: Maximum
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function BRand2(from As ExBPY, to As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.BRand2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRand01
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.BRand01
+  id: BRand01
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: BRand01()
+  nameWithType: AtomicBPYRepo.BRand01()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.BRand01()
+  type: Method
+  source:
+    id: BRand01
+    path: ''
+    startLine: 7145
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn either 0 or 1 based on the parametric ID.\n"
+  example: []
+  syntax:
+    content: public static ExBPY BRand01()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function BRand01 As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.BRand01*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1
+  id: BRandpm1
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: BRandpm1()
+  nameWithType: AtomicBPYRepo.BRandpm1()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1()
+  type: Method
+  source:
+    id: BRandpm1
+    path: ''
+    startLine: 7151
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn either -1 or 1 based on the parametric ID.\n"
+  example: []
+  syntax:
+    content: public static ExBPY BRandpm1()
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function BRandpm1 As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.Const(System.Single)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.Const(System.Single)
+  id: Const(System.Single)
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: Const(Single)
+  nameWithType: AtomicBPYRepo.Const(Single)
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.Const(System.Single)
+  type: Method
+  source:
+    id: Const
+    path: ''
+    startLine: 7153
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY Const(float x)
+    parameters:
+    - id: x
+      type: System.Single
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function Const(x As Single) As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.Const*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions.BPYRepo
+  commentId: T:Danmokou.DMath.Functions.BPYRepo
+  name: BPYRepo
+  nameWithType: BPYRepo
+  fullName: Danmokou.DMath.Functions.BPYRepo
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.T*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.T
+  name: T
+  nameWithType: AtomicBPYRepo.T
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.T
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P
+  name: P
+  nameWithType: AtomicBPYRepo.P
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P
+- uid: Danmokou.DMath.Functions.ExM.P1(Ex)
+  commentId: M:Danmokou.DMath.Functions.ExM.P1(Ex)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P1
+  name: P1
+  nameWithType: AtomicBPYRepo.P1
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1
+- uid: Danmokou.DMath.Functions.ExM.P1M(System.Int32,Ex)
+  commentId: M:Danmokou.DMath.Functions.ExM.P1M(System.Int32,Ex)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1M*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P1M
+  name: P1M
+  nameWithType: AtomicBPYRepo.P1M
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1M
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma
+  name: P1Ma
+  nameWithType: AtomicBPYRepo.P1Ma
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1Ma
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1Mf*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P1Mf
+  name: P1Mf
+  nameWithType: AtomicBPYRepo.P1Mf
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1Mf
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf
+  name: P1Maf
+  nameWithType: AtomicBPYRepo.P1Maf
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P1Maf
+- uid: ExBPY[]
+  isExternal: true
+  name: ExBPY[]
+  nameWithType: ExBPY[]
+  fullName: ExBPY[]
+  nameWithType.vb: ExBPY()
+  fullName.vb: ExBPY()
+  name.vb: ExBPY()
+  spec.csharp:
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.DMath.Functions.ExM.P2(Ex)
+  commentId: M:Danmokou.DMath.Functions.ExM.P2(Ex)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P2
+  name: P2
+  nameWithType: AtomicBPYRepo.P2
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2
+- uid: Danmokou.DMath.Functions.ExM.P2M(System.Int32,Ex)
+  commentId: M:Danmokou.DMath.Functions.ExM.P2M(System.Int32,Ex)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2M*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P2M
+  name: P2M
+  nameWithType: AtomicBPYRepo.P2M
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2M
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma
+  name: P2Ma
+  nameWithType: AtomicBPYRepo.P2Ma
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2Ma
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2Mf*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P2Mf
+  name: P2Mf
+  nameWithType: AtomicBPYRepo.P2Mf
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2Mf
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf
+  name: P2Maf
+  nameWithType: AtomicBPYRepo.P2Maf
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.P2Maf
+- uid: Danmokou.DMath.Functions.ExM.PM(System.Int32,System.Int32,Ex)
+  commentId: M:Danmokou.DMath.Functions.ExM.PM(System.Int32,System.Int32,Ex)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.PM*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.PM
+  name: PM
+  nameWithType: AtomicBPYRepo.PM
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.PM
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.PMa*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.PMa
+  name: PMa
+  nameWithType: AtomicBPYRepo.PMa
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.PMa
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.PMf*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.PMf
+  name: PMf
+  nameWithType: AtomicBPYRepo.PMf
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.PMf
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.PMaf*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.PMaf
+  name: PMaf
+  nameWithType: AtomicBPYRepo.PMaf
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.PMaf
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.X*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.X
+  name: X
+  nameWithType: AtomicBPYRepo.X
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.X
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.Y*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.Y
+  name: Y
+  nameWithType: AtomicBPYRepo.Y
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.Y
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.Z*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.Z
+  name: Z
+  nameWithType: AtomicBPYRepo.Z
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.Z
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRand*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.BRand
+  name: BRand
+  nameWithType: AtomicBPYRepo.BRand
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.BRand
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRand(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.BRand(ExBPY,ExBPY)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRand2*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.BRand2
+  name: BRand2
+  nameWithType: AtomicBPYRepo.BRand2
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.BRand2
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRand01*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.BRand01
+  name: BRand01
+  nameWithType: AtomicBPYRepo.BRand01
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.BRand01
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1
+  name: BRandpm1
+  nameWithType: AtomicBPYRepo.BRandpm1
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.Const*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.Const
+  name: Const
+  nameWithType: AtomicBPYRepo.Const
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.Const
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

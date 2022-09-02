@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  id: Danmokou.DMath
+  children:
+  - Danmokou.DMath.BPRV2
+  - Danmokou.DMath.BPY
+  - Danmokou.DMath.CoordF
+  - Danmokou.DMath.FiringCtx
+  - Danmokou.DMath.FiringCtx.DataType
+  - Danmokou.DMath.GCXF`1
+  - Danmokou.DMath.GCXU`1
+  - Danmokou.DMath.LaserMovement
+  - Danmokou.DMath.LimitedTimeMovement
+  - Danmokou.DMath.LocationHelpers
+  - Danmokou.DMath.LPred
+  - Danmokou.DMath.LVTP
+  - Danmokou.DMath.Movement
+  - Danmokou.DMath.ParametricInfo
+  - Danmokou.DMath.Pred
+  - Danmokou.DMath.RootedVTP
+  - Danmokou.DMath.SBCF
+  - Danmokou.DMath.SBF
+  - Danmokou.DMath.SBV2
+  - Danmokou.DMath.SPCF
+  - Danmokou.DMath.TP
+  - Danmokou.DMath.TP3
+  - Danmokou.DMath.TP4
+  - Danmokou.DMath.VTP
+  langs:
+  - csharp
+  - vb
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Danmokou.DMath.LocationHelpers
+  commentId: T:Danmokou.DMath.LocationHelpers
+  name: LocationHelpers
+  nameWithType: LocationHelpers
+  fullName: Danmokou.DMath.LocationHelpers
+- uid: Danmokou.DMath.FiringCtx
+  commentId: T:Danmokou.DMath.FiringCtx
+  parent: Danmokou.DMath
+  name: FiringCtx
+  nameWithType: FiringCtx
+  fullName: Danmokou.DMath.FiringCtx
+- uid: Danmokou.DMath.FiringCtx.DataType
+  commentId: T:Danmokou.DMath.FiringCtx.DataType
+  parent: Danmokou.DMath
+  name: FiringCtx.DataType
+  nameWithType: FiringCtx.DataType
+  fullName: Danmokou.DMath.FiringCtx.DataType
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: Danmokou.DMath.CoordF
+  commentId: T:Danmokou.DMath.CoordF
+  name: CoordF
+  nameWithType: CoordF
+  fullName: Danmokou.DMath.CoordF
+- uid: Danmokou.DMath.VTP
+  commentId: T:Danmokou.DMath.VTP
+  parent: Danmokou.DMath
+  name: VTP
+  nameWithType: VTP
+  fullName: Danmokou.DMath.VTP
+- uid: Danmokou.DMath.LVTP
+  commentId: T:Danmokou.DMath.LVTP
+  parent: Danmokou.DMath
+  name: LVTP
+  nameWithType: LVTP
+  fullName: Danmokou.DMath.LVTP
+- uid: Danmokou.DMath.RootedVTP
+  commentId: T:Danmokou.DMath.RootedVTP
+  parent: Danmokou.DMath
+  name: RootedVTP
+  nameWithType: RootedVTP
+  fullName: Danmokou.DMath.RootedVTP
+- uid: Danmokou.DMath.TP
+  commentId: T:Danmokou.DMath.TP
+  parent: Danmokou.DMath
+  name: TP
+  nameWithType: TP
+  fullName: Danmokou.DMath.TP
+- uid: Danmokou.DMath.SBV2
+  commentId: T:Danmokou.DMath.SBV2
+  name: SBV2
+  nameWithType: SBV2
+  fullName: Danmokou.DMath.SBV2
+- uid: Danmokou.DMath.TP3
+  commentId: T:Danmokou.DMath.TP3
+  name: TP3
+  nameWithType: TP3
+  fullName: Danmokou.DMath.TP3
+- uid: Danmokou.DMath.TP4
+  commentId: T:Danmokou.DMath.TP4
+  name: TP4
+  nameWithType: TP4
+  fullName: Danmokou.DMath.TP4
+- uid: Danmokou.DMath.BPY
+  commentId: T:Danmokou.DMath.BPY
+  parent: Danmokou.DMath
+  name: BPY
+  nameWithType: BPY
+  fullName: Danmokou.DMath.BPY
+- uid: Danmokou.DMath.SBF
+  commentId: T:Danmokou.DMath.SBF
+  name: SBF
+  nameWithType: SBF
+  fullName: Danmokou.DMath.SBF
+- uid: Danmokou.DMath.BPRV2
+  commentId: T:Danmokou.DMath.BPRV2
+  name: BPRV2
+  nameWithType: BPRV2
+  fullName: Danmokou.DMath.BPRV2
+- uid: Danmokou.DMath.Pred
+  commentId: T:Danmokou.DMath.Pred
+  parent: Danmokou.DMath
+  name: Pred
+  nameWithType: Pred
+  fullName: Danmokou.DMath.Pred
+- uid: Danmokou.DMath.LPred
+  commentId: T:Danmokou.DMath.LPred
+  name: LPred
+  nameWithType: LPred
+  fullName: Danmokou.DMath.LPred
+- uid: Danmokou.DMath.GCXF`1
+  commentId: T:Danmokou.DMath.GCXF`1
+  name: GCXF<T>
+  nameWithType: GCXF<T>
+  fullName: Danmokou.DMath.GCXF<T>
+  nameWithType.vb: GCXF(Of T)
+  fullName.vb: Danmokou.DMath.GCXF(Of T)
+  name.vb: GCXF(Of T)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.GCXU`1
+  commentId: T:Danmokou.DMath.GCXU`1
+  name: GCXU<Fn>
+  nameWithType: GCXU<Fn>
+  fullName: Danmokou.DMath.GCXU<Fn>
+  nameWithType.vb: GCXU(Of Fn)
+  fullName.vb: Danmokou.DMath.GCXU(Of Fn)
+  name.vb: GCXU(Of Fn)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: Fn
+    nameWithType: Fn
+    fullName: Fn
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: Fn
+    nameWithType: Fn
+    fullName: Fn
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.SBCF
+  commentId: T:Danmokou.DMath.SBCF
+  name: SBCF
+  nameWithType: SBCF
+  fullName: Danmokou.DMath.SBCF
+- uid: Danmokou.DMath.SPCF
+  commentId: T:Danmokou.DMath.SPCF
+  name: SPCF
+  nameWithType: SPCF
+  fullName: Danmokou.DMath.SPCF
+- uid: Danmokou.DMath.LimitedTimeMovement
+  commentId: T:Danmokou.DMath.LimitedTimeMovement
+  name: LimitedTimeMovement
+  nameWithType: LimitedTimeMovement
+  fullName: Danmokou.DMath.LimitedTimeMovement
+- uid: Danmokou.DMath.Movement
+  commentId: T:Danmokou.DMath.Movement
+  parent: Danmokou.DMath
+  name: Movement
+  nameWithType: Movement
+  fullName: Danmokou.DMath.Movement
+- uid: Danmokou.DMath.LaserMovement
+  commentId: T:Danmokou.DMath.LaserMovement
+  parent: Danmokou.DMath
+  name: LaserMovement
+  nameWithType: LaserMovement
+  fullName: Danmokou.DMath.LaserMovement
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath

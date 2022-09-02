@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  id: Danmokou.Danmaku.Patterns
+  children:
+  - Danmokou.Danmaku.Patterns.AsyncHandoff
+  - Danmokou.Danmaku.Patterns.AsyncPattern
+  - Danmokou.Danmaku.Patterns.AsyncPatterns
+  - Danmokou.Danmaku.Patterns.AtomicPatterns
+  - Danmokou.Danmaku.Patterns.CommonHandoff
+  - Danmokou.Danmaku.Patterns.LoopControl`1
+  - Danmokou.Danmaku.Patterns.PatternUtils
+  - Danmokou.Danmaku.Patterns.SAOffsetHandler
+  - Danmokou.Danmaku.Patterns.SummonAlongHandler
+  - Danmokou.Danmaku.Patterns.SyncHandoff
+  - Danmokou.Danmaku.Patterns.SyncPattern
+  - Danmokou.Danmaku.Patterns.SyncPatterns
+  langs:
+  - csharp
+  - vb
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterns
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncPatterns
+  name: AsyncPatterns
+  nameWithType: AsyncPatterns
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterns
+- uid: Danmokou.Danmaku.Patterns.PatternUtils
+  commentId: T:Danmokou.Danmaku.Patterns.PatternUtils
+  name: PatternUtils
+  nameWithType: PatternUtils
+  fullName: Danmokou.Danmaku.Patterns.PatternUtils
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns
+  commentId: T:Danmokou.Danmaku.Patterns.AtomicPatterns
+  name: AtomicPatterns
+  nameWithType: AtomicPatterns
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns
+- uid: Danmokou.Danmaku.Patterns.SyncPatterns
+  commentId: T:Danmokou.Danmaku.Patterns.SyncPatterns
+  name: SyncPatterns
+  nameWithType: SyncPatterns
+  fullName: Danmokou.Danmaku.Patterns.SyncPatterns
+- uid: Danmokou.Danmaku.Patterns.SyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.SyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncPattern
+  nameWithType: SyncPattern
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  name: AsyncPattern
+  nameWithType: AsyncPattern
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.CommonHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: CommonHandoff
+  nameWithType: CommonHandoff
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.SyncHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncHandoff
+  nameWithType: SyncHandoff
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff
+- uid: Danmokou.Danmaku.Patterns.AsyncHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: AsyncHandoff
+  nameWithType: AsyncHandoff
+  fullName: Danmokou.Danmaku.Patterns.AsyncHandoff
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1
+  commentId: T:Danmokou.Danmaku.Patterns.LoopControl`1
+  name: LoopControl<T>
+  nameWithType: LoopControl<T>
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>
+  nameWithType.vb: LoopControl(Of T)
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T)
+  name.vb: LoopControl(Of T)
+  spec.csharp:
+  - uid: Danmokou.Danmaku.Patterns.LoopControl`1
+    name: LoopControl
+    nameWithType: LoopControl
+    fullName: Danmokou.Danmaku.Patterns.LoopControl
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.Danmaku.Patterns.LoopControl`1
+    name: LoopControl
+    nameWithType: LoopControl
+    fullName: Danmokou.Danmaku.Patterns.LoopControl
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.SummonAlongHandler
+  commentId: T:Danmokou.Danmaku.Patterns.SummonAlongHandler
+  parent: Danmokou.Danmaku.Patterns
+  name: SummonAlongHandler
+  nameWithType: SummonAlongHandler
+  fullName: Danmokou.Danmaku.Patterns.SummonAlongHandler
+- uid: Danmokou.Danmaku.Patterns.SAOffsetHandler
+  commentId: T:Danmokou.Danmaku.Patterns.SAOffsetHandler
+  name: SAOffsetHandler
+  nameWithType: SAOffsetHandler
+  fullName: Danmokou.Danmaku.Patterns.SAOffsetHandler
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns

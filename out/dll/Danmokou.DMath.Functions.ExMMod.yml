@@ -1,0 +1,1148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMMod
+  commentId: T:Danmokou.DMath.Functions.ExMMod
+  id: ExMMod
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMMod.FlipXMod(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.FlipXPMMod(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.HMod(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.HNMod(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.Mod(efloat,efloat)
+  - Danmokou.DMath.Functions.ExMMod.Modh(efloat)
+  - Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,efloat,efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.MP1Mod(tfloat)
+  - Danmokou.DMath.Functions.ExMMod.PM1Mod(tfloat)
+  - Danmokou.DMath.Functions.ExMMod.PMZ1(tfloat)
+  - Danmokou.DMath.Functions.ExMMod.RangeMod(efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.RangeModh(tfloat)
+  - Danmokou.DMath.Functions.ExMMod.RangeSoftMod(efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.RemapIndex(efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(efloat,efloat)
+  - Danmokou.DMath.Functions.ExMMod.SoftMod(efloat,efloat)
+  - Danmokou.DMath.Functions.ExMMod.z1Mod(tfloat)
+  - Danmokou.DMath.Functions.ExMMod.Z1PM(tfloat)
+  langs:
+  - csharp
+  - vb
+  name: ExMMod
+  nameWithType: ExMMod
+  fullName: Danmokou.DMath.Functions.ExMMod
+  type: Class
+  source:
+    id: ExMMod
+    path: ''
+    startLine: 11777
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM\" data-throw-if-not-resolved=\"false\"></xref>. This class contains functions related to mod (remainder) operations.\n"
+  example: []
+  syntax:
+    content: public static class ExMMod
+    content.vb: Public Module ExMMod
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMMod.Mod(efloat,efloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.Mod(efloat,efloat)
+  id: Mod(efloat,efloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: Mod(efloat, efloat)
+  nameWithType: ExMMod.Mod(efloat, efloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.Mod(efloat, efloat)
+  type: Method
+  source:
+    id: Mod
+    path: ''
+    startLine: 11785
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the modulo (nonnegative) of one number by another. \n"
+  example: []
+  syntax:
+    content: public static tfloat Mod(efloat by, efloat x)
+    parameters:
+    - id: by
+      type: efloat
+      description: Modulo value
+    - id: x
+      type: efloat
+      description: Target value
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function Mod(by As efloat, x As efloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.Mod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.Modh(efloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.Modh(efloat)
+  id: Modh(efloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: Modh(efloat)
+  nameWithType: ExMMod.Modh(efloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.Modh(efloat)
+  type: Method
+  source:
+    id: Modh
+    path: ''
+    startLine: 11791
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n= Mod(1, 1/phi * x)\n"
+  example: []
+  syntax:
+    content: public static tfloat Modh(efloat x)
+    parameters:
+    - id: x
+      type: efloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function Modh(x As efloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.Modh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.SoftMod(efloat,efloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.SoftMod(efloat,efloat)
+  id: SoftMod(efloat,efloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: SoftMod(efloat, efloat)
+  nameWithType: ExMMod.SoftMod(efloat, efloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.SoftMod(efloat, efloat)
+  type: Method
+  source:
+    id: SoftMod
+    path: ''
+    startLine: 11817
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nPeriodize a value,\n&quot;bouncing off&quot; the endpoint instead of wrapping around.\n"
+  example:
+  - "\n<code>FSoftMod(X(), 4)(3.95) = 3.95\nFSoftMod(X(), 4)(4.05) = 3.95\nFSoftMod(X(), 4)(4.15) = 3.85</code>\n"
+  syntax:
+    content: public static tfloat SoftMod(efloat by, efloat x)
+    parameters:
+    - id: by
+      type: efloat
+      description: Period
+    - id: x
+      type: efloat
+      description: Value
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function SoftMod(by As efloat, x As efloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.SoftMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.RangeMod(efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RangeMod(efloat,tfloat)
+  id: RangeMod(efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: RangeMod(efloat, tfloat)
+  nameWithType: ExMMod.RangeMod(efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RangeMod(efloat, tfloat)
+  type: Method
+  source:
+    id: RangeMod
+    path: ''
+    startLine: 11839
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nPeriodize a value around a positive and negative endpoint.\n"
+  example:
+  - "\n<code>FSoftMod(X(), 4)(3.95) = 3.95\nFSoftMod(X(), 4)(4.05) = -3.95\nFSoftMod(X(), 4)(11) = 3\nFSoftMod(X(), 4)(12.05) = -3.95</code>\n"
+  syntax:
+    content: public static tfloat RangeMod(efloat by, tfloat x)
+    parameters:
+    - id: by
+      type: efloat
+      description: ''
+    - id: x
+      type: tfloat
+      description: ''
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function RangeMod(by As efloat, x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.RangeMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.RangeModh(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RangeModh(tfloat)
+  id: RangeModh(tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: RangeModh(tfloat)
+  nameWithType: ExMMod.RangeModh(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RangeModh(tfloat)
+  type: Method
+  source:
+    id: RangeModh
+    path: ''
+    startLine: 11844
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n= RangeMod(1, 2/phi * x)\n"
+  example: []
+  syntax:
+    content: public static tfloat RangeModh(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function RangeModh(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.RangeModh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.RangeSoftMod(efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RangeSoftMod(efloat,tfloat)
+  id: RangeSoftMod(efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: RangeSoftMod(efloat, tfloat)
+  nameWithType: ExMMod.RangeSoftMod(efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RangeSoftMod(efloat, tfloat)
+  type: Method
+  source:
+    id: RangeSoftMod
+    path: ''
+    startLine: 11860
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nPeriodize a value, bouncing it off a positive and negative endpoint.\n"
+  example:
+  - "\n<code>FSoftMod(X(), 4)(3.95) = 3.95\nFSoftMod(X(), 4)(4.05) = 3.95\nFSoftMod(X(), 4)(11) = -3\nFSoftMod(X(), 4)(12.05) = -3.95</code>\n"
+  syntax:
+    content: public static tfloat RangeSoftMod(efloat by, tfloat x)
+    parameters:
+    - id: by
+      type: efloat
+      description: ''
+    - id: x
+      type: tfloat
+      description: ''
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function RangeSoftMod(by As efloat, x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.RangeSoftMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,efloat,efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,efloat,efloat,tfloat)
+  id: ModWithPause(tfloat,efloat,efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: ModWithPause(tfloat, efloat, efloat, tfloat)
+  nameWithType: ExMMod.ModWithPause(tfloat, efloat, efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat, efloat, efloat, tfloat)
+  type: Method
+  source:
+    id: ModWithPause
+    path: ''
+    startLine: 11873
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nPeriodize the return value of the target function with a &quot;pause&quot; at the value pauseAt for pauseLen units.\nThe true period of this function is by + pauseLen, however the output only varies [0, by].\nDuring the pause time, the return value will be stuck at pauseAt.\n"
+  example: []
+  syntax:
+    content: public static tfloat ModWithPause(tfloat by, efloat pauseAt, efloat pauseLen, tfloat x)
+    parameters:
+    - id: by
+      type: tfloat
+      description: Naive period
+    - id: pauseAt
+      type: efloat
+      description: Time at which to pause
+    - id: pauseLen
+      type: efloat
+      description: Length for which to pause
+    - id: x
+      type: tfloat
+      description: Target function
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function ModWithPause(by As tfloat, pauseAt As efloat, pauseLen As efloat, x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.ModWithPause*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.HMod(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.HMod(tfloat,tfloat)
+  id: HMod(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: HMod(tfloat, tfloat)
+  nameWithType: ExMMod.HMod(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.HMod(tfloat, tfloat)
+  type: Method
+  source:
+    id: HMod
+    path: ''
+    startLine: 11903
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nUse this to draw &quot;wings&quot; where both go in the same direction.\n<br />Odd by: 0 is the center, [1,by/2-0.5] are one wing, and [by/2+0.5,by) are the other.\n<br />Even by: [0, by/2) are one wing, [by/2, by) are the other.\n"
+  example:
+  - "\n<code>HMod(X(), 9)(0) = HMod(X(), 9)(9) = 0\nHMod(X(), 9)(1) = 1\nHMod(X(), 9)(5) = 1\nHMod(X(), 9)(8) = 4\nHMod(X(), 8)(0) = HMod(X(), 8)(8) = HMod(X(), 8)(4) = 0\nHMod(X(), 8)(2) = 2\nHMod(X(), 8)(6) = 2</code>\n"
+  syntax:
+    content: public static tfloat HMod(tfloat by, tfloat x)
+    parameters:
+    - id: by
+      type: tfloat
+      description: Period (note all values are in the range [0, by/2-0.5]
+    - id: x
+      type: tfloat
+      description: Value
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function HMod(by As tfloat, x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.HMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.HNMod(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.HNMod(tfloat,tfloat)
+  id: HNMod(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: HNMod(tfloat, tfloat)
+  nameWithType: ExMMod.HNMod(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.HNMod(tfloat, tfloat)
+  type: Method
+  source:
+    id: HNMod
+    path: ''
+    startLine: 11930
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nUse this to draw &quot;wings&quot; where both go in opposite directions.\n<br />Odd by: 0 is the center, [1,by/2-0.5] are one wing, and [by/2+0.5,by) are the other.\n<br />Even by: [0, by/2) are one wing, [by/2, by) are the other.\n"
+  example:
+  - "\n<code>HNMod(X(), 9)(0) = HNMod(X(), 9)(9) = 0\nHNMod(X(), 9)(1) = 1\nHNMod(X(), 9)(5) = -1\nHNMod(X(), 9)(8) = -4\nHNMod(X(), 8)(0) = HNMod(X(), 8)(8) = 0.5\nHNMod(X(), 8)(3) = 3.5\nHNMod(X(), 8)(4) = -0.5</code>\n"
+  syntax:
+    content: public static tfloat HNMod(tfloat by, tfloat x)
+    parameters:
+    - id: by
+      type: tfloat
+      description: Period
+    - id: x
+      type: tfloat
+      description: Target function
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function HNMod(by As tfloat, x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.HNMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.PM1Mod(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.PM1Mod(tfloat)
+  id: PM1Mod(tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: PM1Mod(tfloat)
+  nameWithType: ExMMod.PM1Mod(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.PM1Mod(tfloat)
+  type: Method
+  source:
+    id: PM1Mod
+    path: ''
+    startLine: 11944
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns 1 if the value is even,\nand -1 if the value is odd.\n"
+  example: []
+  syntax:
+    content: public static tfloat PM1Mod(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function PM1Mod(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.PM1Mod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.MP1Mod(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.MP1Mod(tfloat)
+  id: MP1Mod(tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: MP1Mod(tfloat)
+  nameWithType: ExMMod.MP1Mod(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.MP1Mod(tfloat)
+  type: Method
+  source:
+    id: MP1Mod
+    path: ''
+    startLine: 11950
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns -1 if the value is even,\nand 1 if the value is odd.\n"
+  example: []
+  syntax:
+    content: public static tfloat MP1Mod(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function MP1Mod(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.MP1Mod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.z1Mod(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.z1Mod(tfloat)
+  id: z1Mod(tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: z1Mod(tfloat)
+  nameWithType: ExMMod.z1Mod(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.z1Mod(tfloat)
+  type: Method
+  source:
+    id: z1Mod
+    path: ''
+    startLine: 11956
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns 0 if the value is even,\nand 1 if the value is odd.\n"
+  example: []
+  syntax:
+    content: public static tfloat z1Mod(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function z1Mod(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.z1Mod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.FlipXMod(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.FlipXMod(tfloat,tfloat)
+  id: FlipXMod(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: FlipXMod(tfloat, tfloat)
+  nameWithType: ExMMod.FlipXMod(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.FlipXMod(tfloat, tfloat)
+  type: Method
+  source:
+    id: FlipXMod
+    path: ''
+    startLine: 11962
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns v if x is even,\nand 180-v if x is odd.\n"
+  example: []
+  syntax:
+    content: public static tfloat FlipXMod(tfloat x, tfloat v)
+    parameters:
+    - id: x
+      type: tfloat
+    - id: v
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function FlipXMod(x As tfloat, v As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.FlipXMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.FlipXPMMod(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.FlipXPMMod(tfloat,tfloat)
+  id: FlipXPMMod(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: FlipXPMMod(tfloat, tfloat)
+  nameWithType: ExMMod.FlipXPMMod(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.FlipXPMMod(tfloat, tfloat)
+  type: Method
+  source:
+    id: FlipXPMMod
+    path: ''
+    startLine: 11967
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns v if x is 1,\nand 180-v if x is -1.\n"
+  example: []
+  syntax:
+    content: public static tfloat FlipXPMMod(tfloat x, tfloat v)
+    parameters:
+    - id: x
+      type: tfloat
+    - id: v
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function FlipXPMMod(x As tfloat, v As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.FlipXPMMod*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.PMZ1(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.PMZ1(tfloat)
+  id: PMZ1(tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: PMZ1(tfloat)
+  nameWithType: ExMMod.PMZ1(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.PMZ1(tfloat)
+  type: Method
+  source:
+    id: PMZ1
+    path: ''
+    startLine: 11972
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConvert a value 1,-1 to 1,0.\n"
+  example: []
+  syntax:
+    content: public static tfloat PMZ1(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function PMZ1(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.PMZ1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.Z1PM(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.Z1PM(tfloat)
+  id: Z1PM(tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: Z1PM(tfloat)
+  nameWithType: ExMMod.Z1PM(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.Z1PM(tfloat)
+  type: Method
+  source:
+    id: Z1PM
+    path: ''
+    startLine: 11976
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nConvert a value 1,0 to 1,-1.\n"
+  example: []
+  syntax:
+    content: public static tfloat Z1PM(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function Z1PM(x As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.Z1PM*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.RemapIndex(efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RemapIndex(efloat,tfloat)
+  id: RemapIndex(efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: RemapIndex(efloat, tfloat)
+  nameWithType: ExMMod.RemapIndex(efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RemapIndex(efloat, tfloat)
+  type: Method
+  source:
+    id: RemapIndex
+    path: ''
+    startLine: 11985
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nUse Fermat&apos;s Little Theorem to reindex integers around a prime number mod.\n"
+  example: []
+  syntax:
+    content: public static tfloat RemapIndex(efloat mod, tfloat index)
+    parameters:
+    - id: mod
+      type: efloat
+    - id: index
+      type: tfloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function RemapIndex(mod As efloat, index As tfloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.RemapIndex*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(efloat,efloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(efloat,efloat)
+  id: RemapIndexLoop(efloat,efloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: RemapIndexLoop(efloat, efloat)
+  nameWithType: ExMMod.RemapIndexLoop(efloat, efloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(efloat, efloat)
+  type: Method
+  source:
+    id: RemapIndexLoop
+    path: ''
+    startLine: 11991
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nUse Fermat&apos;s Little Theorem to reindex integers around a prime number mod, localized to the region\n[mod\\*floor(index/mod), mod+mod\\*floor(index/mod)].\n"
+  example: []
+  syntax:
+    content: public static tfloat RemapIndexLoop(efloat mod, efloat index)
+    parameters:
+    - id: mod
+      type: efloat
+    - id: index
+      type: efloat
+    return:
+      type: tfloat
+    content.vb: Public Shared Function RemapIndexLoop(mod As efloat, index As efloat) As tfloat
+  overload: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions.ExM
+  commentId: T:Danmokou.DMath.Functions.ExM
+  name: ExM
+  nameWithType: ExM
+  fullName: Danmokou.DMath.Functions.ExM
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMMod.Mod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.Mod
+  name: Mod
+  nameWithType: ExMMod.Mod
+  fullName: Danmokou.DMath.Functions.ExMMod.Mod
+- uid: efloat
+  isExternal: true
+  name: efloat
+  nameWithType: efloat
+  fullName: efloat
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: Danmokou.DMath.Functions.ExMMod.Modh*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.Modh
+  name: Modh
+  nameWithType: ExMMod.Modh
+  fullName: Danmokou.DMath.Functions.ExMMod.Modh
+- uid: Danmokou.DMath.Functions.ExMMod.SoftMod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.SoftMod
+  name: SoftMod
+  nameWithType: ExMMod.SoftMod
+  fullName: Danmokou.DMath.Functions.ExMMod.SoftMod
+- uid: Danmokou.DMath.Functions.ExMMod.RangeMod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.RangeMod
+  name: RangeMod
+  nameWithType: ExMMod.RangeMod
+  fullName: Danmokou.DMath.Functions.ExMMod.RangeMod
+- uid: Danmokou.DMath.Functions.ExMMod.RangeModh*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.RangeModh
+  name: RangeModh
+  nameWithType: ExMMod.RangeModh
+  fullName: Danmokou.DMath.Functions.ExMMod.RangeModh
+- uid: Danmokou.DMath.Functions.ExMMod.RangeSoftMod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.RangeSoftMod
+  name: RangeSoftMod
+  nameWithType: ExMMod.RangeSoftMod
+  fullName: Danmokou.DMath.Functions.ExMMod.RangeSoftMod
+- uid: Danmokou.DMath.Functions.ExMMod.ModWithPause*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.ModWithPause
+  name: ModWithPause
+  nameWithType: ExMMod.ModWithPause
+  fullName: Danmokou.DMath.Functions.ExMMod.ModWithPause
+- uid: Danmokou.DMath.Functions.ExMMod.HMod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.HMod
+  name: HMod
+  nameWithType: ExMMod.HMod
+  fullName: Danmokou.DMath.Functions.ExMMod.HMod
+- uid: Danmokou.DMath.Functions.ExMMod.HNMod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.HNMod
+  name: HNMod
+  nameWithType: ExMMod.HNMod
+  fullName: Danmokou.DMath.Functions.ExMMod.HNMod
+- uid: Danmokou.DMath.Functions.ExMMod.PM1Mod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.PM1Mod
+  name: PM1Mod
+  nameWithType: ExMMod.PM1Mod
+  fullName: Danmokou.DMath.Functions.ExMMod.PM1Mod
+- uid: Danmokou.DMath.Functions.ExMMod.MP1Mod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.MP1Mod
+  name: MP1Mod
+  nameWithType: ExMMod.MP1Mod
+  fullName: Danmokou.DMath.Functions.ExMMod.MP1Mod
+- uid: Danmokou.DMath.Functions.ExMMod.z1Mod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.z1Mod
+  name: z1Mod
+  nameWithType: ExMMod.z1Mod
+  fullName: Danmokou.DMath.Functions.ExMMod.z1Mod
+- uid: Danmokou.DMath.Functions.ExMMod.FlipXMod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.FlipXMod
+  name: FlipXMod
+  nameWithType: ExMMod.FlipXMod
+  fullName: Danmokou.DMath.Functions.ExMMod.FlipXMod
+- uid: Danmokou.DMath.Functions.ExMMod.FlipXPMMod*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.FlipXPMMod
+  name: FlipXPMMod
+  nameWithType: ExMMod.FlipXPMMod
+  fullName: Danmokou.DMath.Functions.ExMMod.FlipXPMMod
+- uid: Danmokou.DMath.Functions.ExMMod.PMZ1*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.PMZ1
+  name: PMZ1
+  nameWithType: ExMMod.PMZ1
+  fullName: Danmokou.DMath.Functions.ExMMod.PMZ1
+- uid: Danmokou.DMath.Functions.ExMMod.Z1PM*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.Z1PM
+  name: Z1PM
+  nameWithType: ExMMod.Z1PM
+  fullName: Danmokou.DMath.Functions.ExMMod.Z1PM
+- uid: Danmokou.DMath.Functions.ExMMod.RemapIndex*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.RemapIndex
+  name: RemapIndex
+  nameWithType: ExMMod.RemapIndex
+  fullName: Danmokou.DMath.Functions.ExMMod.RemapIndex
+- uid: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.RemapIndexLoop
+  name: RemapIndexLoop
+  nameWithType: ExMMod.RemapIndexLoop
+  fullName: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop

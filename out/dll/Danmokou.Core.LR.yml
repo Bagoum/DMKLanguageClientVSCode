@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.LR
+  commentId: T:Danmokou.Core.LR
+  id: LR
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.LR.LEFT
+  - Danmokou.Core.LR.RIGHT
+  langs:
+  - csharp
+  - vb
+  name: LR
+  nameWithType: LR
+  fullName: Danmokou.Core.LR
+  type: Enum
+  source:
+    id: LR
+    path: ''
+    startLine: 289
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nA direction that is either LEFT or RIGHT.\n"
+  example: []
+  syntax:
+    content: public enum LR
+    content.vb: Public Enum LR
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.LR.LEFT
+  commentId: F:Danmokou.Core.LR.LEFT
+  id: LEFT
+  parent: Danmokou.Core.LR
+  langs:
+  - csharp
+  - vb
+  name: LEFT
+  nameWithType: LR.LEFT
+  fullName: Danmokou.Core.LR.LEFT
+  type: Field
+  source:
+    id: LEFT
+    path: ''
+    startLine: 290
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: LEFT = 0
+    return:
+      type: Danmokou.Core.LR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.LR.RIGHT
+  commentId: F:Danmokou.Core.LR.RIGHT
+  id: RIGHT
+  parent: Danmokou.Core.LR
+  langs:
+  - csharp
+  - vb
+  name: RIGHT
+  nameWithType: LR.RIGHT
+  fullName: Danmokou.Core.LR.RIGHT
+  type: Field
+  source:
+    id: RIGHT
+    path: ''
+    startLine: 291
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: RIGHT = 1
+    return:
+      type: Danmokou.Core.LR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.LR
+  commentId: T:Danmokou.Core.LR
+  parent: Danmokou.Core
+  name: LR
+  nameWithType: LR
+  fullName: Danmokou.Core.LR

@@ -1,0 +1,620 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.CSVTPRepo
+  commentId: T:Danmokou.DMath.Functions.CSVTPRepo
+  id: CSVTPRepo
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.CSVTPRepo.NROffset(Danmokou.DMath.TP)
+  - Danmokou.DMath.Functions.CSVTPRepo.NRVelocity(Danmokou.DMath.TP)
+  - Danmokou.DMath.Functions.CSVTPRepo.Offset(Danmokou.DMath.TP,Danmokou.DMath.TP)
+  - Danmokou.DMath.Functions.CSVTPRepo.ROffset(Danmokou.DMath.TP)
+  - Danmokou.DMath.Functions.CSVTPRepo.RVelocity(Danmokou.DMath.TP)
+  - Danmokou.DMath.Functions.CSVTPRepo.Velocity(Danmokou.DMath.TP,Danmokou.DMath.TP)
+  langs:
+  - csharp
+  - vb
+  name: CSVTPRepo
+  nameWithType: CSVTPRepo
+  fullName: Danmokou.DMath.Functions.CSVTPRepo
+  type: Class
+  source:
+    id: CSVTPRepo
+    path: ''
+    startLine: 9543
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static class CSVTPRepo
+    content.vb: Public Module CSVTPRepo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.CSVTPRepo.RVelocity(Danmokou.DMath.TP)
+  commentId: M:Danmokou.DMath.Functions.CSVTPRepo.RVelocity(Danmokou.DMath.TP)
+  id: RVelocity(Danmokou.DMath.TP)
+  parent: Danmokou.DMath.Functions.CSVTPRepo
+  langs:
+  - csharp
+  - vb
+  name: RVelocity(TP)
+  nameWithType: CSVTPRepo.RVelocity(TP)
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.RVelocity(Danmokou.DMath.TP)
+  type: Method
+  source:
+    id: RVelocity
+    path: ''
+    startLine: 9549
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n(C# code use) Movement with Cartesian rotational velocity only.\n"
+  example: []
+  syntax:
+    content: public static VTP RVelocity(TP rv)
+    parameters:
+    - id: rv
+      type: Danmokou.DMath.TP
+      description: Rotational velocity parametric
+    return:
+      type: Danmokou.DMath.VTP
+      description: ''
+    content.vb: Public Shared Function RVelocity(rv As TP) As VTP
+  overload: Danmokou.DMath.Functions.CSVTPRepo.RVelocity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.CSVTPRepo.NRVelocity(Danmokou.DMath.TP)
+  commentId: M:Danmokou.DMath.Functions.CSVTPRepo.NRVelocity(Danmokou.DMath.TP)
+  id: NRVelocity(Danmokou.DMath.TP)
+  parent: Danmokou.DMath.Functions.CSVTPRepo
+  langs:
+  - csharp
+  - vb
+  name: NRVelocity(TP)
+  nameWithType: CSVTPRepo.NRVelocity(TP)
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.NRVelocity(Danmokou.DMath.TP)
+  type: Method
+  source:
+    id: NRVelocity
+    path: ''
+    startLine: 9556
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n(C# code use) Movement with Cartesian nonrotational velocity only.\n"
+  example: []
+  syntax:
+    content: public static VTP NRVelocity(TP nrv)
+    parameters:
+    - id: nrv
+      type: Danmokou.DMath.TP
+      description: Nonrotational velocity parametric
+    return:
+      type: Danmokou.DMath.VTP
+      description: ''
+    content.vb: Public Shared Function NRVelocity(nrv As TP) As VTP
+  overload: Danmokou.DMath.Functions.CSVTPRepo.NRVelocity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.CSVTPRepo.Velocity(Danmokou.DMath.TP,Danmokou.DMath.TP)
+  commentId: M:Danmokou.DMath.Functions.CSVTPRepo.Velocity(Danmokou.DMath.TP,Danmokou.DMath.TP)
+  id: Velocity(Danmokou.DMath.TP,Danmokou.DMath.TP)
+  parent: Danmokou.DMath.Functions.CSVTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Velocity(TP, TP)
+  nameWithType: CSVTPRepo.Velocity(TP, TP)
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.Velocity(Danmokou.DMath.TP, Danmokou.DMath.TP)
+  type: Method
+  source:
+    id: Velocity
+    path: ''
+    startLine: 9564
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n(C# code use) Movement with Cartesian rotational velocity and nonrotational velocity.\n"
+  example: []
+  syntax:
+    content: public static VTP Velocity(TP rv, TP nrv)
+    parameters:
+    - id: rv
+      type: Danmokou.DMath.TP
+      description: Rotational velocity parametric
+    - id: nrv
+      type: Danmokou.DMath.TP
+      description: Nonrotational velocity parametric
+    return:
+      type: Danmokou.DMath.VTP
+      description: ''
+    content.vb: Public Shared Function Velocity(rv As TP, nrv As TP) As VTP
+  overload: Danmokou.DMath.Functions.CSVTPRepo.Velocity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.CSVTPRepo.ROffset(Danmokou.DMath.TP)
+  commentId: M:Danmokou.DMath.Functions.CSVTPRepo.ROffset(Danmokou.DMath.TP)
+  id: ROffset(Danmokou.DMath.TP)
+  parent: Danmokou.DMath.Functions.CSVTPRepo
+  langs:
+  - csharp
+  - vb
+  name: ROffset(TP)
+  nameWithType: CSVTPRepo.ROffset(TP)
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.ROffset(Danmokou.DMath.TP)
+  type: Method
+  source:
+    id: ROffset
+    path: ''
+    startLine: 9571
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n(C# code use) Movement with Cartesian rotational offset only.\n"
+  example: []
+  syntax:
+    content: public static VTP ROffset(TP rp)
+    parameters:
+    - id: rp
+      type: Danmokou.DMath.TP
+      description: Rotational offset parametric
+    return:
+      type: Danmokou.DMath.VTP
+      description: ''
+    content.vb: Public Shared Function ROffset(rp As TP) As VTP
+  overload: Danmokou.DMath.Functions.CSVTPRepo.ROffset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.CSVTPRepo.NROffset(Danmokou.DMath.TP)
+  commentId: M:Danmokou.DMath.Functions.CSVTPRepo.NROffset(Danmokou.DMath.TP)
+  id: NROffset(Danmokou.DMath.TP)
+  parent: Danmokou.DMath.Functions.CSVTPRepo
+  langs:
+  - csharp
+  - vb
+  name: NROffset(TP)
+  nameWithType: CSVTPRepo.NROffset(TP)
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.NROffset(Danmokou.DMath.TP)
+  type: Method
+  source:
+    id: NROffset
+    path: ''
+    startLine: 9578
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n(C# code use) Movement with Cartesian nonrotational offset only.\n"
+  example: []
+  syntax:
+    content: public static VTP NROffset(TP nrp)
+    parameters:
+    - id: nrp
+      type: Danmokou.DMath.TP
+      description: Nonrotational offset parametric
+    return:
+      type: Danmokou.DMath.VTP
+      description: ''
+    content.vb: Public Shared Function NROffset(nrp As TP) As VTP
+  overload: Danmokou.DMath.Functions.CSVTPRepo.NROffset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.CSVTPRepo.Offset(Danmokou.DMath.TP,Danmokou.DMath.TP)
+  commentId: M:Danmokou.DMath.Functions.CSVTPRepo.Offset(Danmokou.DMath.TP,Danmokou.DMath.TP)
+  id: Offset(Danmokou.DMath.TP,Danmokou.DMath.TP)
+  parent: Danmokou.DMath.Functions.CSVTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Offset(TP, TP)
+  nameWithType: CSVTPRepo.Offset(TP, TP)
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.Offset(Danmokou.DMath.TP, Danmokou.DMath.TP)
+  type: Method
+  source:
+    id: Offset
+    path: ''
+    startLine: 9586
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n(C# code use) Movement with Cartesian rotational offset and nonrotational offset.\n"
+  example: []
+  syntax:
+    content: public static VTP Offset(TP rp, TP nrp)
+    parameters:
+    - id: rp
+      type: Danmokou.DMath.TP
+      description: Rotational offset parametric
+    - id: nrp
+      type: Danmokou.DMath.TP
+      description: Nonrotational offset parametric
+    return:
+      type: Danmokou.DMath.VTP
+      description: ''
+    content.vb: Public Shared Function Offset(rp As TP, nrp As TP) As VTP
+  overload: Danmokou.DMath.Functions.CSVTPRepo.Offset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.CSVTPRepo.RVelocity*
+  commentId: Overload:Danmokou.DMath.Functions.CSVTPRepo.RVelocity
+  name: RVelocity
+  nameWithType: CSVTPRepo.RVelocity
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.RVelocity
+- uid: Danmokou.DMath.TP
+  commentId: T:Danmokou.DMath.TP
+  parent: Danmokou.DMath
+  name: TP
+  nameWithType: TP
+  fullName: Danmokou.DMath.TP
+- uid: Danmokou.DMath.VTP
+  commentId: T:Danmokou.DMath.VTP
+  parent: Danmokou.DMath
+  name: VTP
+  nameWithType: VTP
+  fullName: Danmokou.DMath.VTP
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: Danmokou.DMath.Functions.CSVTPRepo.NRVelocity*
+  commentId: Overload:Danmokou.DMath.Functions.CSVTPRepo.NRVelocity
+  name: NRVelocity
+  nameWithType: CSVTPRepo.NRVelocity
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.NRVelocity
+- uid: Danmokou.DMath.Functions.CSVTPRepo.Velocity*
+  commentId: Overload:Danmokou.DMath.Functions.CSVTPRepo.Velocity
+  name: Velocity
+  nameWithType: CSVTPRepo.Velocity
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.Velocity
+- uid: Danmokou.DMath.Functions.CSVTPRepo.ROffset*
+  commentId: Overload:Danmokou.DMath.Functions.CSVTPRepo.ROffset
+  name: ROffset
+  nameWithType: CSVTPRepo.ROffset
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.ROffset
+- uid: Danmokou.DMath.Functions.CSVTPRepo.NROffset*
+  commentId: Overload:Danmokou.DMath.Functions.CSVTPRepo.NROffset
+  name: NROffset
+  nameWithType: CSVTPRepo.NROffset
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.NROffset
+- uid: Danmokou.DMath.Functions.CSVTPRepo.Offset*
+  commentId: Overload:Danmokou.DMath.Functions.CSVTPRepo.Offset
+  name: Offset
+  nameWithType: CSVTPRepo.Offset
+  fullName: Danmokou.DMath.Functions.CSVTPRepo.Offset

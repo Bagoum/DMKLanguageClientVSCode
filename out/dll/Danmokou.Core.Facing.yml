@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.Facing
+  commentId: T:Danmokou.Core.Facing
+  id: Facing
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.Facing.DEROT
+  - Danmokou.Core.Facing.ORIGINAL
+  - Danmokou.Core.Facing.ROTVELOCITY
+  - Danmokou.Core.Facing.VELOCITY
+  langs:
+  - csharp
+  - vb
+  name: Facing
+  nameWithType: Facing
+  fullName: Danmokou.Core.Facing
+  type: Enum
+  source:
+    id: Facing
+    path: ''
+    startLine: 1094
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nEnum describing the direction in which a bullet is fired from a parent.\n"
+  example: []
+  syntax:
+    content: public enum Facing
+    content.vb: Public Enum Facing
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.Facing.ORIGINAL
+  commentId: F:Danmokou.Core.Facing.ORIGINAL
+  id: ORIGINAL
+  parent: Danmokou.Core.Facing
+  langs:
+  - csharp
+  - vb
+  name: ORIGINAL
+  nameWithType: Facing.ORIGINAL
+  fullName: Danmokou.Core.Facing.ORIGINAL
+  type: Field
+  source:
+    id: ORIGINAL
+    path: ''
+    startLine: 1099
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nStarts from original_angle. This is zero except for summons/bullets,\nfor which it is set to the V2RV2 angle of the summon.\n"
+  example: []
+  syntax:
+    content: ORIGINAL = 0
+    return:
+      type: Danmokou.Core.Facing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Facing.DEROT
+  commentId: F:Danmokou.Core.Facing.DEROT
+  id: DEROT
+  parent: Danmokou.Core.Facing
+  langs:
+  - csharp
+  - vb
+  name: DEROT
+  nameWithType: Facing.DEROT
+  fullName: Danmokou.Core.Facing.DEROT
+  type: Field
+  source:
+    id: DEROT
+    path: ''
+    startLine: 1103
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nStarts from 0.\n"
+  example: []
+  syntax:
+    content: DEROT = 1
+    return:
+      type: Danmokou.Core.Facing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Facing.VELOCITY
+  commentId: F:Danmokou.Core.Facing.VELOCITY
+  id: VELOCITY
+  parent: Danmokou.Core.Facing
+  langs:
+  - csharp
+  - vb
+  name: VELOCITY
+  nameWithType: Facing.VELOCITY
+  fullName: Danmokou.Core.Facing.VELOCITY
+  type: Field
+  source:
+    id: VELOCITY
+    path: ''
+    startLine: 1107
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nStarts from the angle of the last nonzero velocity delta.\n"
+  example: []
+  syntax:
+    content: VELOCITY = 2
+    return:
+      type: Danmokou.Core.Facing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Facing.ROTVELOCITY
+  commentId: F:Danmokou.Core.Facing.ROTVELOCITY
+  id: ROTVELOCITY
+  parent: Danmokou.Core.Facing
+  langs:
+  - csharp
+  - vb
+  name: ROTVELOCITY
+  nameWithType: Facing.ROTVELOCITY
+  fullName: Danmokou.Core.Facing.ROTVELOCITY
+  type: Field
+  source:
+    id: ROTVELOCITY
+    path: ''
+    startLine: 1111
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nStarts from original_angle + the velocity direction.\n"
+  example: []
+  syntax:
+    content: ROTVELOCITY = 3
+    return:
+      type: Danmokou.Core.Facing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.Facing
+  commentId: T:Danmokou.Core.Facing
+  parent: Danmokou.Core
+  name: Facing
+  nameWithType: Facing
+  fullName: Danmokou.Core.Facing

@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.NoBlockUSM
+  commentId: T:Danmokou.SM.NoBlockUSM
+  id: NoBlockUSM
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.NoBlockUSM.#ctor(Danmokou.SM.StateMachine)
+  - Danmokou.SM.NoBlockUSM.Start(Danmokou.SM.SMHandoff)
+  langs:
+  - csharp
+  - vb
+  name: NoBlockUSM
+  nameWithType: NoBlockUSM
+  fullName: Danmokou.SM.NoBlockUSM
+  type: Class
+  source:
+    id: NoBlockUSM
+    path: ''
+    startLine: 15659
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\n`~`: Run the child SM without blocking.\n"
+  example: []
+  syntax:
+    content: 'public class NoBlockUSM : UniversalSM'
+    content.vb: >-
+      Public Class NoBlockUSM
+          Inherits UniversalSM
+  inheritance:
+  - System.Object
+  - Danmokou.SM.StateMachine
+  - Danmokou.SM.UniversalSM
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.NoBlockUSM.#ctor(Danmokou.SM.StateMachine)
+  commentId: M:Danmokou.SM.NoBlockUSM.#ctor(Danmokou.SM.StateMachine)
+  id: '#ctor(Danmokou.SM.StateMachine)'
+  parent: Danmokou.SM.NoBlockUSM
+  langs:
+  - csharp
+  - vb
+  name: NoBlockUSM(StateMachine)
+  nameWithType: NoBlockUSM.NoBlockUSM(StateMachine)
+  fullName: Danmokou.SM.NoBlockUSM.NoBlockUSM(Danmokou.SM.StateMachine)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15660
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public NoBlockUSM(StateMachine state)
+    parameters:
+    - id: state
+      type: Danmokou.SM.StateMachine
+    content.vb: Public Sub New(state As StateMachine)
+  overload: Danmokou.SM.NoBlockUSM.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.NoBlockUSM.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.NoBlockUSM.Start(Danmokou.SM.SMHandoff)
+  id: Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.NoBlockUSM
+  langs:
+  - csharp
+  - vb
+  name: Start(SMHandoff)
+  nameWithType: NoBlockUSM.Start(SMHandoff)
+  fullName: Danmokou.SM.NoBlockUSM.Start(Danmokou.SM.SMHandoff)
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 15662
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public override Task Start(SMHandoff smh)
+    parameters:
+    - id: smh
+      type: Danmokou.SM.SMHandoff
+    return:
+      type: Task
+    content.vb: Public Overrides Function Start(smh As SMHandoff) As Task
+  overridden: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+  overload: Danmokou.SM.NoBlockUSM.Start*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.UniversalSM
+  commentId: T:Danmokou.SM.UniversalSM
+  parent: Danmokou.SM
+  name: UniversalSM
+  nameWithType: UniversalSM
+  fullName: Danmokou.SM.UniversalSM
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.NoBlockUSM.#ctor*
+  commentId: Overload:Danmokou.SM.NoBlockUSM.#ctor
+  name: NoBlockUSM
+  nameWithType: NoBlockUSM.NoBlockUSM
+  fullName: Danmokou.SM.NoBlockUSM.NoBlockUSM
+- uid: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.StateMachine
+  name: Start(SMHandoff)
+  nameWithType: StateMachine.Start(SMHandoff)
+  fullName: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+  spec.csharp:
+  - uid: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: StateMachine.Start
+    fullName: Danmokou.SM.StateMachine.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: StateMachine.Start
+    fullName: Danmokou.SM.StateMachine.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.NoBlockUSM.Start*
+  commentId: Overload:Danmokou.SM.NoBlockUSM.Start
+  name: Start
+  nameWithType: NoBlockUSM.Start
+  fullName: Danmokou.SM.NoBlockUSM.Start
+- uid: Danmokou.SM.SMHandoff
+  commentId: T:Danmokou.SM.SMHandoff
+  parent: Danmokou.SM
+  name: SMHandoff
+  nameWithType: SMHandoff
+  fullName: Danmokou.SM.SMHandoff
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task

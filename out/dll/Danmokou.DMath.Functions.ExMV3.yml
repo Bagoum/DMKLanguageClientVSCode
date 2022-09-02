@@ -1,0 +1,1160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMV3
+  commentId: T:Danmokou.DMath.Functions.ExMV3
+  id: ExMV3
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMV3.CylinderWrap(efloat,efloat,efloat,efloat,ev2)
+  - Danmokou.DMath.Functions.ExMV3.MultiplyX(tfloat,ev3)
+  - Danmokou.DMath.Functions.ExMV3.MultiplyY(tfloat,ev3)
+  - Danmokou.DMath.Functions.ExMV3.MultiplyZ(tfloat,ev3)
+  - Danmokou.DMath.Functions.ExMV3.PX(tfloat)
+  - Danmokou.DMath.Functions.ExMV3.PXY(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV3.PXYZ(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV3.PY(tfloat)
+  - Danmokou.DMath.Functions.ExMV3.PZ(tfloat)
+  - Danmokou.DMath.Functions.ExMV3.QRotate(tv3,tv3)
+  - Danmokou.DMath.Functions.ExMV3.TP3(tv2)
+  - Danmokou.DMath.Functions.ExMV3.V3Rotate(tv3,tv3)
+  - Danmokou.DMath.Functions.ExMV3.WithZ(ev2,tfloat)
+  - Danmokou.DMath.Functions.ExMV3.XYrZ(efloat,efloat,efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV3.XZrY(efloat,efloat,efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV3.YZrX(efloat,efloat,efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV3.Zero
+  langs:
+  - csharp
+  - vb
+  name: ExMV3
+  nameWithType: ExMV3
+  fullName: Danmokou.DMath.Functions.ExMV3
+  type: Class
+  source:
+    id: ExMV3
+    path: ''
+    startLine: 7635
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that return V3.\n"
+  example: []
+  syntax:
+    content: public static class ExMV3
+    content.vb: Public Module ExMV3
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMV3.WithZ(ev2,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.WithZ(ev2,tfloat)
+  id: WithZ(ev2,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: WithZ(ev2, tfloat)
+  nameWithType: ExMV3.WithZ(ev2, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.WithZ(ev2, tfloat)
+  type: Method
+  source:
+    id: WithZ
+    path: ''
+    startLine: 7640
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector3 from an XY (Vector2) and a Z-component.\n"
+  example: []
+  syntax:
+    content: public static tv3 WithZ(ev2 xy, tfloat z)
+    parameters:
+    - id: xy
+      type: ev2
+    - id: z
+      type: tfloat
+    return:
+      type: tv3
+    content.vb: Public Shared Function WithZ(xy As ev2, z As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.WithZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.PXYZ(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.PXYZ(tfloat,tfloat,tfloat)
+  id: PXYZ(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: PXYZ(tfloat, tfloat, tfloat)
+  nameWithType: ExMV3.PXYZ(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.PXYZ(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: PXYZ
+    path: ''
+    startLine: 7648
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector3 from three floats.\n"
+  example: []
+  syntax:
+    content: public static tv3 PXYZ(tfloat x, tfloat y, tfloat z)
+    parameters:
+    - id: x
+      type: tfloat
+      description: Float assigned to X-component
+    - id: y
+      type: tfloat
+      description: Float assigned to Y-component
+    - id: z
+      type: tfloat
+      description: Float assigned to Z-component
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function PXYZ(x As tfloat, y As tfloat, z As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.PXYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.PXY(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.PXY(tfloat,tfloat)
+  id: PXY(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: PXY(tfloat, tfloat)
+  nameWithType: ExMV3.PXY(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.PXY(tfloat, tfloat)
+  type: Method
+  source:
+    id: PXY
+    path: ''
+    startLine: 7655
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector3 from two floats.\n"
+  example: []
+  syntax:
+    content: public static tv3 PXY(tfloat x, tfloat y)
+    parameters:
+    - id: x
+      type: tfloat
+      description: Float assigned to X-component
+    - id: y
+      type: tfloat
+      description: Float assigned to Y-component
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function PXY(x As tfloat, y As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.PXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.PX(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.PX(tfloat)
+  id: PX(tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: PX(tfloat)
+  nameWithType: ExMV3.PX(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.PX(tfloat)
+  type: Method
+  source:
+    id: PX
+    path: ''
+    startLine: 7661
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector3 from one floats.\n"
+  example: []
+  syntax:
+    content: public static tv3 PX(tfloat x)
+    parameters:
+    - id: x
+      type: tfloat
+      description: Float assigned to X-component
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function PX(x As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.PX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.PY(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.PY(tfloat)
+  id: PY(tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: PY(tfloat)
+  nameWithType: ExMV3.PY(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.PY(tfloat)
+  type: Method
+  source:
+    id: PY
+    path: ''
+    startLine: 7667
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector3 from one float.\n"
+  example: []
+  syntax:
+    content: public static tv3 PY(tfloat y)
+    parameters:
+    - id: y
+      type: tfloat
+      description: Float assigned to Y-component
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function PY(y As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.PY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.PZ(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.PZ(tfloat)
+  id: PZ(tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: PZ(tfloat)
+  nameWithType: ExMV3.PZ(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.PZ(tfloat)
+  type: Method
+  source:
+    id: PZ
+    path: ''
+    startLine: 7673
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector3 from one float.\n"
+  example: []
+  syntax:
+    content: public static tv3 PZ(tfloat z)
+    parameters:
+    - id: z
+      type: tfloat
+      description: Float assigned to Z-component
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function PZ(z As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.PZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.TP3(tv2)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.TP3(tv2)
+  id: TP3(tv2)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: TP3(tv2)
+  nameWithType: ExMV3.TP3(tv2)
+  fullName: Danmokou.DMath.Functions.ExMV3.TP3(tv2)
+  type: Method
+  source:
+    id: TP3
+    path: ''
+    startLine: 7679
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector3 from a Vector2 (Z is set to zero)\n"
+  example: []
+  syntax:
+    content: public static tv3 TP3(tv2 tp)
+    parameters:
+    - id: tp
+      type: tv2
+      description: Parametric function to assign to x,y components
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function TP3(tp As tv2) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.TP3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.Zero
+  commentId: M:Danmokou.DMath.Functions.ExMV3.Zero
+  id: Zero
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: Zero()
+  nameWithType: ExMV3.Zero()
+  fullName: Danmokou.DMath.Functions.ExMV3.Zero()
+  type: Method
+  source:
+    id: Zero
+    path: ''
+    startLine: 7683
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nThe zero vector.\n"
+  example: []
+  syntax:
+    content: public static tv3 Zero()
+    return:
+      type: tv3
+    content.vb: Public Shared Function Zero As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.Zero*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.QRotate(tv3,tv3)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.QRotate(tv3,tv3)
+  id: QRotate(tv3,tv3)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: QRotate(tv3, tv3)
+  nameWithType: ExMV3.QRotate(tv3, tv3)
+  fullName: Danmokou.DMath.Functions.ExMV3.QRotate(tv3, tv3)
+  type: Method
+  source:
+    id: QRotate
+    path: ''
+    startLine: 7692
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate a Vector3 by a quaternion. In Unity the rotation order is ZXY.\nThe z-axis is mapped to IN.\n"
+  example: []
+  syntax:
+    content: public static tv3 QRotate(tv3 rotateBy, tv3 target)
+    parameters:
+    - id: rotateBy
+      type: tv3
+      description: Quaternion rotation, in degrees, xyz
+    - id: target
+      type: tv3
+      description: Target Vector3
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function QRotate(rotateBy As tv3, target As tv3) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.QRotate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.V3Rotate(tv3,tv3)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.V3Rotate(tv3,tv3)
+  id: V3Rotate(tv3,tv3)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: V3Rotate(tv3, tv3)
+  nameWithType: ExMV3.V3Rotate(tv3, tv3)
+  fullName: Danmokou.DMath.Functions.ExMV3.V3Rotate(tv3, tv3)
+  type: Method
+  source:
+    id: V3Rotate
+    path: ''
+    startLine: 7700
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate a v3 by a direction vector.\n"
+  example: []
+  syntax:
+    content: public static tv3 V3Rotate(tv3 rotateBy, tv3 target)
+    parameters:
+    - id: rotateBy
+      type: tv3
+      description: Direction vector (Normalization not required)
+    - id: target
+      type: tv3
+      description: Target v3
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function V3Rotate(rotateBy As tv3, target As tv3) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.V3Rotate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.XZrY(efloat,efloat,efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.XZrY(efloat,efloat,efloat,tfloat)
+  id: XZrY(efloat,efloat,efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: XZrY(efloat, efloat, efloat, tfloat)
+  nameWithType: ExMV3.XZrY(efloat, efloat, efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.XZrY(efloat, efloat, efloat, tfloat)
+  type: Method
+  source:
+    id: XZrY
+    path: ''
+    startLine: 7711
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nCreate a cylindrical equation along the Y-axis. \n"
+  example: []
+  syntax:
+    content: public static tv3 XZrY(efloat period, efloat radius, efloat time, tfloat h)
+    parameters:
+    - id: period
+      type: efloat
+      description: Period of rotation in the XZ-plane
+    - id: radius
+      type: efloat
+      description: Radius of function
+    - id: time
+      type: efloat
+      description: Time of rotation (t=0 -> X-axis)
+    - id: h
+      type: tfloat
+      description: Height (X-axis)
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function XZrY(period As efloat, radius As efloat, time As efloat, h As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.XZrY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.YZrX(efloat,efloat,efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.YZrX(efloat,efloat,efloat,tfloat)
+  id: YZrX(efloat,efloat,efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: YZrX(efloat, efloat, efloat, tfloat)
+  nameWithType: ExMV3.YZrX(efloat, efloat, efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.YZrX(efloat, efloat, efloat, tfloat)
+  type: Method
+  source:
+    id: YZrX
+    path: ''
+    startLine: 7723
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nCreate a cylindrical equation along the X-axis. \n"
+  example: []
+  syntax:
+    content: public static tv3 YZrX(efloat period, efloat radius, efloat time, tfloat h)
+    parameters:
+    - id: period
+      type: efloat
+      description: Period of rotation in the YZ-plane
+    - id: radius
+      type: efloat
+      description: Radius of function
+    - id: time
+      type: efloat
+      description: Time of rotation (t=0 -> Y-axis)
+    - id: h
+      type: tfloat
+      description: Height (X-axis)
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function YZrX(period As efloat, radius As efloat, time As efloat, h As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.YZrX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.XYrZ(efloat,efloat,efloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.XYrZ(efloat,efloat,efloat,tfloat)
+  id: XYrZ(efloat,efloat,efloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: XYrZ(efloat, efloat, efloat, tfloat)
+  nameWithType: ExMV3.XYrZ(efloat, efloat, efloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV3.XYrZ(efloat, efloat, efloat, tfloat)
+  type: Method
+  source:
+    id: XYrZ
+    path: ''
+    startLine: 7735
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nCreate a cylindrical equation along the Z-axis. \n"
+  example: []
+  syntax:
+    content: public static tv3 XYrZ(efloat period, efloat radius, efloat time, tfloat h)
+    parameters:
+    - id: period
+      type: efloat
+      description: Period of rotation in the XY-plane
+    - id: radius
+      type: efloat
+      description: Radius of function
+    - id: time
+      type: efloat
+      description: Time of rotation (t=0 -> X-axis)
+    - id: h
+      type: tfloat
+      description: Height (Z-axis)
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function XYrZ(period As efloat, radius As efloat, time As efloat, h As tfloat) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.XYrZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.MultiplyX(tfloat,ev3)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.MultiplyX(tfloat,ev3)
+  id: MultiplyX(tfloat,ev3)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: MultiplyX(tfloat, ev3)
+  nameWithType: ExMV3.MultiplyX(tfloat, ev3)
+  fullName: Danmokou.DMath.Functions.ExMV3.MultiplyX(tfloat, ev3)
+  type: Method
+  source:
+    id: MultiplyX
+    path: ''
+    startLine: 7745
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMultiply the x-component of a parametric equation by a function of input.\n"
+  example: []
+  syntax:
+    content: public static tv3 MultiplyX(tfloat f, ev3 tp)
+    parameters:
+    - id: f
+      type: tfloat
+      description: Function of input
+    - id: tp
+      type: ev3
+      description: Parametric equation
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function MultiplyX(f As tfloat, tp As ev3) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.MultiplyX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.MultiplyY(tfloat,ev3)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.MultiplyY(tfloat,ev3)
+  id: MultiplyY(tfloat,ev3)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: MultiplyY(tfloat, ev3)
+  nameWithType: ExMV3.MultiplyY(tfloat, ev3)
+  fullName: Danmokou.DMath.Functions.ExMV3.MultiplyY(tfloat, ev3)
+  type: Method
+  source:
+    id: MultiplyY
+    path: ''
+    startLine: 7755
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMultiply the y-component of a parametric equation by a function of input.\n"
+  example: []
+  syntax:
+    content: public static tv3 MultiplyY(tfloat f, ev3 tp)
+    parameters:
+    - id: f
+      type: tfloat
+      description: Function of input
+    - id: tp
+      type: ev3
+      description: Parametric equation
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function MultiplyY(f As tfloat, tp As ev3) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.MultiplyY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.MultiplyZ(tfloat,ev3)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.MultiplyZ(tfloat,ev3)
+  id: MultiplyZ(tfloat,ev3)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: MultiplyZ(tfloat, ev3)
+  nameWithType: ExMV3.MultiplyZ(tfloat, ev3)
+  fullName: Danmokou.DMath.Functions.ExMV3.MultiplyZ(tfloat, ev3)
+  type: Method
+  source:
+    id: MultiplyZ
+    path: ''
+    startLine: 7765
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMultiply the z-component of a parametric equation by a function of input.\n"
+  example: []
+  syntax:
+    content: public static tv3 MultiplyZ(tfloat f, ev3 tp)
+    parameters:
+    - id: f
+      type: tfloat
+      description: Function of input
+    - id: tp
+      type: ev3
+      description: Parametric equation
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function MultiplyZ(f As tfloat, tp As ev3) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.MultiplyZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV3.CylinderWrap(efloat,efloat,efloat,efloat,ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMV3.CylinderWrap(efloat,efloat,efloat,efloat,ev2)
+  id: CylinderWrap(efloat,efloat,efloat,efloat,ev2)
+  parent: Danmokou.DMath.Functions.ExMV3
+  langs:
+  - csharp
+  - vb
+  name: CylinderWrap(efloat, efloat, efloat, efloat, ev2)
+  nameWithType: ExMV3.CylinderWrap(efloat, efloat, efloat, efloat, ev2)
+  fullName: Danmokou.DMath.Functions.ExMV3.CylinderWrap(efloat, efloat, efloat, efloat, ev2)
+  type: Method
+  source:
+    id: CylinderWrap
+    path: ''
+    startLine: 7780
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nWrap a position equation around a cylinder.\n"
+  example: []
+  syntax:
+    content: public static tv3 CylinderWrap(efloat radius, efloat ang0, efloat maxWrap, efloat axisOff, ev2 position)
+    parameters:
+    - id: radius
+      type: efloat
+      description: Radius of the cylinder
+    - id: ang0
+      type: efloat
+      description: Starting angle offset (radians) on the cylinder. 0 = z-axis
+    - id: maxWrap
+      type: efloat
+      description: Maximum angle value (radians) of the wrap. After this, the function will continue along the tangent. Starting offset not included. Absolute value tested.
+    - id: axisOff
+      type: efloat
+      description: Offset angle (radians) of the axis of the cylinder from the y-axis
+    - id: position
+      type: ev2
+      description: Position equation
+    return:
+      type: tv3
+      description: ''
+    content.vb: Public Shared Function CylinderWrap(radius As efloat, ang0 As efloat, maxWrap As efloat, axisOff As efloat, position As ev2) As tv3
+  overload: Danmokou.DMath.Functions.ExMV3.CylinderWrap*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMV3.WithZ*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.WithZ
+  name: WithZ
+  nameWithType: ExMV3.WithZ
+  fullName: Danmokou.DMath.Functions.ExMV3.WithZ
+- uid: ev2
+  isExternal: true
+  name: ev2
+  nameWithType: ev2
+  fullName: ev2
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: tv3
+  isExternal: true
+  name: tv3
+  nameWithType: tv3
+  fullName: tv3
+- uid: Danmokou.DMath.Functions.ExMV3.PXYZ*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.PXYZ
+  name: PXYZ
+  nameWithType: ExMV3.PXYZ
+  fullName: Danmokou.DMath.Functions.ExMV3.PXYZ
+- uid: Danmokou.DMath.Functions.ExMV3.PXY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.PXY
+  name: PXY
+  nameWithType: ExMV3.PXY
+  fullName: Danmokou.DMath.Functions.ExMV3.PXY
+- uid: Danmokou.DMath.Functions.ExMV3.PX*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.PX
+  name: PX
+  nameWithType: ExMV3.PX
+  fullName: Danmokou.DMath.Functions.ExMV3.PX
+- uid: Danmokou.DMath.Functions.ExMV3.PY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.PY
+  name: PY
+  nameWithType: ExMV3.PY
+  fullName: Danmokou.DMath.Functions.ExMV3.PY
+- uid: Danmokou.DMath.Functions.ExMV3.PZ*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.PZ
+  name: PZ
+  nameWithType: ExMV3.PZ
+  fullName: Danmokou.DMath.Functions.ExMV3.PZ
+- uid: Danmokou.DMath.Functions.ExMV3.TP3*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.TP3
+  name: TP3
+  nameWithType: ExMV3.TP3
+  fullName: Danmokou.DMath.Functions.ExMV3.TP3
+- uid: tv2
+  isExternal: true
+  name: tv2
+  nameWithType: tv2
+  fullName: tv2
+- uid: Danmokou.DMath.Functions.ExMV3.Zero*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.Zero
+  name: Zero
+  nameWithType: ExMV3.Zero
+  fullName: Danmokou.DMath.Functions.ExMV3.Zero
+- uid: Danmokou.DMath.Functions.ExMV3.QRotate*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.QRotate
+  name: QRotate
+  nameWithType: ExMV3.QRotate
+  fullName: Danmokou.DMath.Functions.ExMV3.QRotate
+- uid: Danmokou.DMath.Functions.ExMV3.V3Rotate*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.V3Rotate
+  name: V3Rotate
+  nameWithType: ExMV3.V3Rotate
+  fullName: Danmokou.DMath.Functions.ExMV3.V3Rotate
+- uid: Danmokou.DMath.Functions.ExMV3.XZrY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.XZrY
+  name: XZrY
+  nameWithType: ExMV3.XZrY
+  fullName: Danmokou.DMath.Functions.ExMV3.XZrY
+- uid: efloat
+  isExternal: true
+  name: efloat
+  nameWithType: efloat
+  fullName: efloat
+- uid: Danmokou.DMath.Functions.ExMV3.YZrX*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.YZrX
+  name: YZrX
+  nameWithType: ExMV3.YZrX
+  fullName: Danmokou.DMath.Functions.ExMV3.YZrX
+- uid: Danmokou.DMath.Functions.ExMV3.XYrZ*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.XYrZ
+  name: XYrZ
+  nameWithType: ExMV3.XYrZ
+  fullName: Danmokou.DMath.Functions.ExMV3.XYrZ
+- uid: Danmokou.DMath.Functions.ExMV3.MultiplyX*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.MultiplyX
+  name: MultiplyX
+  nameWithType: ExMV3.MultiplyX
+  fullName: Danmokou.DMath.Functions.ExMV3.MultiplyX
+- uid: ev3
+  isExternal: true
+  name: ev3
+  nameWithType: ev3
+  fullName: ev3
+- uid: Danmokou.DMath.Functions.ExMV3.MultiplyY*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.MultiplyY
+  name: MultiplyY
+  nameWithType: ExMV3.MultiplyY
+  fullName: Danmokou.DMath.Functions.ExMV3.MultiplyY
+- uid: Danmokou.DMath.Functions.ExMV3.MultiplyZ*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.MultiplyZ
+  name: MultiplyZ
+  nameWithType: ExMV3.MultiplyZ
+  fullName: Danmokou.DMath.Functions.ExMV3.MultiplyZ
+- uid: Danmokou.DMath.Functions.ExMV3.CylinderWrap*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV3.CylinderWrap
+  name: CylinderWrap
+  nameWithType: ExMV3.CylinderWrap
+  fullName: Danmokou.DMath.Functions.ExMV3.CylinderWrap

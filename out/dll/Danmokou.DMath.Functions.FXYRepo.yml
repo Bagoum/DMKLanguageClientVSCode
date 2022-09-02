@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.FXYRepo
+  commentId: T:Danmokou.DMath.Functions.FXYRepo
+  id: FXYRepo
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  - Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  - Danmokou.DMath.Functions.FXYRepo.SoftmaxShift(ExBPY,ExBPY,ExBPY,ExBPY)
+  langs:
+  - csharp
+  - vb
+  name: FXYRepo
+  nameWithType: FXYRepo
+  fullName: Danmokou.DMath.Functions.FXYRepo
+  type: Class
+  source:
+    id: FXYRepo
+    path: ''
+    startLine: 7915
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nNumber>number functions. \n"
+  example: []
+  syntax:
+    content: public static class FXYRepo
+    content.vb: Public Module FXYRepo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  id: EaseF(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  parent: Danmokou.DMath.Functions.FXYRepo
+  langs:
+  - csharp
+  - vb
+  name: EaseF(Func<TEx<Single>, TEx<Single>>, Single, ExBPY)
+  nameWithType: FXYRepo.EaseF(Func<TEx<Single>, TEx<Single>>, Single, ExBPY)
+  fullName: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func<TEx<System.Single>, TEx<System.Single>>, System.Single, ExBPY)
+  type: Method
+  source:
+    id: EaseF
+    path: ''
+    startLine: 7926
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nApply a ease function on top of a target function that uses time as a controller.\n"
+  example: []
+  syntax:
+    content: public static ExBPY EaseF(Func<TEx<float>, TEx<float>> smoother, float maxTime, ExBPY f)
+    parameters:
+    - id: smoother
+      type: System.Func{TEx{System.Single},TEx{System.Single}}
+      description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
+    - id: maxTime
+      type: System.Single
+      description: Time over which to perform easing
+    - id: f
+      type: ExBPY
+      description: Target function
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function EaseF(smoother As Func(Of TEx(Of Single), TEx(Of Single)), maxTime As Single, f As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.FXYRepo.EaseF*
+  nameWithType.vb: FXYRepo.EaseF(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExBPY)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func(Of TEx(Of System.Single), TEx(Of System.Single)), System.Single, ExBPY)
+  name.vb: EaseF(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExBPY)
+- uid: Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  id: EaseFD(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  parent: Danmokou.DMath.Functions.FXYRepo
+  langs:
+  - csharp
+  - vb
+  name: EaseFD(Func<TEx<Single>, TEx<Single>>, Single, ExBPY)
+  nameWithType: FXYRepo.EaseFD(Func<TEx<Single>, TEx<Single>>, Single, ExBPY)
+  fullName: Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func<TEx<System.Single>, TEx<System.Single>>, System.Single, ExBPY)
+  type: Method
+  source:
+    id: EaseFD
+    path: ''
+    startLine: 7937
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nApply a ease function on top of a target derivative function that uses time as a controller.\n"
+  example: []
+  syntax:
+    content: public static ExBPY EaseFD(Func<TEx<float>, TEx<float>> smoother, float maxTime, ExBPY fd)
+    parameters:
+    - id: smoother
+      type: System.Func{TEx{System.Single},TEx{System.Single}}
+      description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
+    - id: maxTime
+      type: System.Single
+      description: Time over which to perform easing
+    - id: fd
+      type: ExBPY
+      description: Target function
+    return:
+      type: ExBPY
+      description: ''
+    content.vb: Public Shared Function EaseFD(smoother As Func(Of TEx(Of Single), TEx(Of Single)), maxTime As Single, fd As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.FXYRepo.EaseFD*
+  nameWithType.vb: FXYRepo.EaseFD(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExBPY)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func(Of TEx(Of System.Single), TEx(Of System.Single)), System.Single, ExBPY)
+  name.vb: EaseFD(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExBPY)
+- uid: Danmokou.DMath.Functions.FXYRepo.SoftmaxShift(ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.FXYRepo.SoftmaxShift(ExBPY,ExBPY,ExBPY,ExBPY)
+  id: SoftmaxShift(ExBPY,ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.FXYRepo
+  langs:
+  - csharp
+  - vb
+  name: SoftmaxShift(ExBPY, ExBPY, ExBPY, ExBPY)
+  nameWithType: FXYRepo.SoftmaxShift(ExBPY, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.FXYRepo.SoftmaxShift(ExBPY, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: SoftmaxShift
+    path: ''
+    startLine: 7943
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String%2cExBPY%2cExBPY%2cExBPY%2cExBPY)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public static ExBPY SoftmaxShift(ExBPY sharpness, ExBPY pivot, ExBPY f1, ExBPY f2)
+    parameters:
+    - id: sharpness
+      type: ExBPY
+    - id: pivot
+      type: ExBPY
+    - id: f1
+      type: ExBPY
+    - id: f2
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function SoftmaxShift(sharpness As ExBPY, pivot As ExBPY, f1 As ExBPY, f2 As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.FXYRepo.SoftmaxShift*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMEasers
+  commentId: T:Danmokou.DMath.Functions.ExMEasers
+  name: ExMEasers
+  nameWithType: ExMEasers
+  fullName: Danmokou.DMath.Functions.ExMEasers
+- uid: Danmokou.DMath.Functions.FXYRepo.EaseF*
+  commentId: Overload:Danmokou.DMath.Functions.FXYRepo.EaseF
+  name: EaseF
+  nameWithType: FXYRepo.EaseF
+  fullName: Danmokou.DMath.Functions.FXYRepo.EaseF
+- uid: System.Func{TEx{System.Single},TEx{System.Single}}
+  commentId: T:System.Func{TEx{System.Single},TEx{System.Single}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TEx<Single>, TEx<Single>>
+  nameWithType: Func<TEx<Single>, TEx<Single>>
+  fullName: System.Func<TEx<System.Single>, TEx<System.Single>>
+  nameWithType.vb: Func(Of TEx(Of Single), TEx(Of Single))
+  fullName.vb: System.Func(Of TEx(Of System.Single), TEx(Of System.Single))
+  name.vb: Func(Of TEx(Of Single), TEx(Of Single))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.FXYRepo.EaseFD*
+  commentId: Overload:Danmokou.DMath.Functions.FXYRepo.EaseFD
+  name: EaseFD
+  nameWithType: FXYRepo.EaseFD
+  fullName: Danmokou.DMath.Functions.FXYRepo.EaseFD
+- uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
+  isExternal: true
+- uid: Danmokou.DMath.Functions.FXYRepo.SoftmaxShift*
+  commentId: Overload:Danmokou.DMath.Functions.FXYRepo.SoftmaxShift
+  name: SoftmaxShift
+  nameWithType: FXYRepo.SoftmaxShift
+  fullName: Danmokou.DMath.Functions.FXYRepo.SoftmaxShift

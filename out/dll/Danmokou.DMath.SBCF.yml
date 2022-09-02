@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.SBCF
+  commentId: T:Danmokou.DMath.SBCF
+  id: SBCF
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SBCF
+  nameWithType: SBCF
+  fullName: Danmokou.DMath.SBCF
+  type: Delegate
+  source:
+    id: SBCF
+    path: ''
+    startLine: 6710
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA bullet control function performing some operation on a SimpleBullet.\n<br />The cancellation token is stored in the BulletControl struct. It may be used by the control\nto bound nested summons (eg. via the SM control).\n"
+  example: []
+  syntax:
+    content: public delegate void SBCF(BulletManager.SimpleBulletCollection sbc, int ii, ParametricInfo bpi, ICancellee cT);
+    parameters:
+    - id: sbc
+      type: BulletManager.SimpleBulletCollection
+    - id: ii
+      type: System.Int32
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+    - id: cT
+      type: ICancellee
+    content.vb: Public Delegate Sub SBCF(sbc As BulletManager.SimpleBulletCollection, ii As Integer, bpi As ParametricInfo, cT As ICancellee)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: BulletManager.SimpleBulletCollection
+  isExternal: true
+  name: BulletManager.SimpleBulletCollection
+  nameWithType: BulletManager.SimpleBulletCollection
+  fullName: BulletManager.SimpleBulletCollection
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: ICancellee
+  isExternal: true
+  name: ICancellee
+  nameWithType: ICancellee
+  fullName: ICancellee
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

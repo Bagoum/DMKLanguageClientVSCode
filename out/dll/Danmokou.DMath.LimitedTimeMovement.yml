@@ -1,0 +1,621 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.LimitedTimeMovement
+  commentId: T:Danmokou.DMath.LimitedTimeMovement
+  id: LimitedTimeMovement
+  parent: Danmokou.DMath
+  children:
+  - Danmokou.DMath.LimitedTimeMovement.#ctor(Danmokou.DMath.VTP,System.Single,System.Action,ICancellee,Danmokou.DMath.ParametricInfo,Danmokou.DMath.Pred)
+  - Danmokou.DMath.LimitedTimeMovement.condition
+  - Danmokou.DMath.LimitedTimeMovement.cT
+  - Danmokou.DMath.LimitedTimeMovement.done
+  - Danmokou.DMath.LimitedTimeMovement.enabledFor
+  - Danmokou.DMath.LimitedTimeMovement.pi
+  - Danmokou.DMath.LimitedTimeMovement.ThisCannotContinue(Danmokou.DMath.ParametricInfo)
+  - Danmokou.DMath.LimitedTimeMovement.vtp
+  langs:
+  - csharp
+  - vb
+  name: LimitedTimeMovement
+  nameWithType: LimitedTimeMovement
+  fullName: Danmokou.DMath.LimitedTimeMovement
+  type: Struct
+  source:
+    id: LimitedTimeMovement
+    path: ''
+    startLine: 6735
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA struct containing configuration for moving a BehaviorEntity via the `move` StateMachine.\n"
+  example: []
+  syntax:
+    content: public readonly struct LimitedTimeMovement
+    content.vb: Public Structure LimitedTimeMovement
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - readonly
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Danmokou.DMath.LimitedTimeMovement.vtp
+  commentId: F:Danmokou.DMath.LimitedTimeMovement.vtp
+  id: vtp
+  parent: Danmokou.DMath.LimitedTimeMovement
+  langs:
+  - csharp
+  - vb
+  name: vtp
+  nameWithType: LimitedTimeMovement.vtp
+  fullName: Danmokou.DMath.LimitedTimeMovement.vtp
+  type: Field
+  source:
+    id: vtp
+    path: ''
+    startLine: 6736
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly VTP vtp
+    return:
+      type: Danmokou.DMath.VTP
+    content.vb: Public ReadOnly vtp As VTP
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LimitedTimeMovement.enabledFor
+  commentId: F:Danmokou.DMath.LimitedTimeMovement.enabledFor
+  id: enabledFor
+  parent: Danmokou.DMath.LimitedTimeMovement
+  langs:
+  - csharp
+  - vb
+  name: enabledFor
+  nameWithType: LimitedTimeMovement.enabledFor
+  fullName: Danmokou.DMath.LimitedTimeMovement.enabledFor
+  type: Field
+  source:
+    id: enabledFor
+    path: ''
+    startLine: 6737
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly float enabledFor
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly enabledFor As Single
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LimitedTimeMovement.done
+  commentId: F:Danmokou.DMath.LimitedTimeMovement.done
+  id: done
+  parent: Danmokou.DMath.LimitedTimeMovement
+  langs:
+  - csharp
+  - vb
+  name: done
+  nameWithType: LimitedTimeMovement.done
+  fullName: Danmokou.DMath.LimitedTimeMovement.done
+  type: Field
+  source:
+    id: done
+    path: ''
+    startLine: 6738
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Action done
+    return:
+      type: System.Action
+    content.vb: Public ReadOnly done As Action
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LimitedTimeMovement.cT
+  commentId: F:Danmokou.DMath.LimitedTimeMovement.cT
+  id: cT
+  parent: Danmokou.DMath.LimitedTimeMovement
+  langs:
+  - csharp
+  - vb
+  name: cT
+  nameWithType: LimitedTimeMovement.cT
+  fullName: Danmokou.DMath.LimitedTimeMovement.cT
+  type: Field
+  source:
+    id: cT
+    path: ''
+    startLine: 6739
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly ICancellee cT
+    return:
+      type: ICancellee
+    content.vb: Public ReadOnly cT As ICancellee
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LimitedTimeMovement.pi
+  commentId: F:Danmokou.DMath.LimitedTimeMovement.pi
+  id: pi
+  parent: Danmokou.DMath.LimitedTimeMovement
+  langs:
+  - csharp
+  - vb
+  name: pi
+  nameWithType: LimitedTimeMovement.pi
+  fullName: Danmokou.DMath.LimitedTimeMovement.pi
+  type: Field
+  source:
+    id: pi
+    path: ''
+    startLine: 6740
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly ParametricInfo pi
+    return:
+      type: Danmokou.DMath.ParametricInfo
+    content.vb: Public ReadOnly pi As ParametricInfo
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LimitedTimeMovement.condition
+  commentId: F:Danmokou.DMath.LimitedTimeMovement.condition
+  id: condition
+  parent: Danmokou.DMath.LimitedTimeMovement
+  langs:
+  - csharp
+  - vb
+  name: condition
+  nameWithType: LimitedTimeMovement.condition
+  fullName: Danmokou.DMath.LimitedTimeMovement.condition
+  type: Field
+  source:
+    id: condition
+    path: ''
+    startLine: 6741
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Pred condition
+    return:
+      type: Danmokou.DMath.Pred
+    content.vb: Public ReadOnly condition As Pred
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.LimitedTimeMovement.ThisCannotContinue(Danmokou.DMath.ParametricInfo)
+  commentId: M:Danmokou.DMath.LimitedTimeMovement.ThisCannotContinue(Danmokou.DMath.ParametricInfo)
+  id: ThisCannotContinue(Danmokou.DMath.ParametricInfo)
+  parent: Danmokou.DMath.LimitedTimeMovement
+  langs:
+  - csharp
+  - vb
+  name: ThisCannotContinue(ParametricInfo)
+  nameWithType: LimitedTimeMovement.ThisCannotContinue(ParametricInfo)
+  fullName: Danmokou.DMath.LimitedTimeMovement.ThisCannotContinue(Danmokou.DMath.ParametricInfo)
+  type: Method
+  source:
+    id: ThisCannotContinue
+    path: ''
+    startLine: 6742
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly bool ThisCannotContinue(ParametricInfo bpi)
+    parameters:
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ThisCannotContinue(bpi As ParametricInfo) As Boolean
+  overload: Danmokou.DMath.LimitedTimeMovement.ThisCannotContinue*
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.LimitedTimeMovement.#ctor(Danmokou.DMath.VTP,System.Single,System.Action,ICancellee,Danmokou.DMath.ParametricInfo,Danmokou.DMath.Pred)
+  commentId: M:Danmokou.DMath.LimitedTimeMovement.#ctor(Danmokou.DMath.VTP,System.Single,System.Action,ICancellee,Danmokou.DMath.ParametricInfo,Danmokou.DMath.Pred)
+  id: '#ctor(Danmokou.DMath.VTP,System.Single,System.Action,ICancellee,Danmokou.DMath.ParametricInfo,Danmokou.DMath.Pred)'
+  parent: Danmokou.DMath.LimitedTimeMovement
+  langs:
+  - csharp
+  - vb
+  name: LimitedTimeMovement(VTP, Single, Action, ICancellee, ParametricInfo, Pred)
+  nameWithType: LimitedTimeMovement.LimitedTimeMovement(VTP, Single, Action, ICancellee, ParametricInfo, Pred)
+  fullName: Danmokou.DMath.LimitedTimeMovement.LimitedTimeMovement(Danmokou.DMath.VTP, System.Single, System.Action, ICancellee, Danmokou.DMath.ParametricInfo, Danmokou.DMath.Pred)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6744
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public LimitedTimeMovement(VTP path, float enabledFor, Action done, ICancellee cT, ParametricInfo pi, Pred condition = null)
+    parameters:
+    - id: path
+      type: Danmokou.DMath.VTP
+    - id: enabledFor
+      type: System.Single
+    - id: done
+      type: System.Action
+    - id: cT
+      type: ICancellee
+    - id: pi
+      type: Danmokou.DMath.ParametricInfo
+    - id: condition
+      type: Danmokou.DMath.Pred
+    content.vb: Public Sub New(path As VTP, enabledFor As Single, done As Action, cT As ICancellee, pi As ParametricInfo, condition As Pred = Nothing)
+  overload: Danmokou.DMath.LimitedTimeMovement.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.VTP
+  commentId: T:Danmokou.DMath.VTP
+  parent: Danmokou.DMath
+  name: VTP
+  nameWithType: VTP
+  fullName: Danmokou.DMath.VTP
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: ICancellee
+  isExternal: true
+  name: ICancellee
+  nameWithType: ICancellee
+  fullName: ICancellee
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: Danmokou.DMath.Pred
+  commentId: T:Danmokou.DMath.Pred
+  parent: Danmokou.DMath
+  name: Pred
+  nameWithType: Pred
+  fullName: Danmokou.DMath.Pred
+- uid: Danmokou.DMath.LimitedTimeMovement.ThisCannotContinue*
+  commentId: Overload:Danmokou.DMath.LimitedTimeMovement.ThisCannotContinue
+  name: ThisCannotContinue
+  nameWithType: LimitedTimeMovement.ThisCannotContinue
+  fullName: Danmokou.DMath.LimitedTimeMovement.ThisCannotContinue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.DMath.LimitedTimeMovement.#ctor*
+  commentId: Overload:Danmokou.DMath.LimitedTimeMovement.#ctor
+  name: LimitedTimeMovement
+  nameWithType: LimitedTimeMovement.LimitedTimeMovement
+  fullName: Danmokou.DMath.LimitedTimeMovement.LimitedTimeMovement

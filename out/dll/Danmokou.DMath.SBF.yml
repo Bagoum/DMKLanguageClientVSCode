@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.SBF
+  commentId: T:Danmokou.DMath.SBF
+  id: SBF
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SBF
+  nameWithType: SBF
+  fullName: Danmokou.DMath.SBF
+  type: Delegate
+  source:
+    id: SBF
+    path: ''
+    startLine: 6675
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA function that converts a SimpleBullet into a float.\n"
+  example: []
+  syntax:
+    content: public delegate float SBF(ref BulletManager.SimpleBullet sb);
+    parameters:
+    - id: sb
+      type: BulletManager.SimpleBullet
+    return:
+      type: System.Single
+    content.vb: Public Delegate Function SBF(ByRef sb As BulletManager.SimpleBullet) As Single
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: BulletManager.SimpleBullet
+  isExternal: true
+  name: BulletManager.SimpleBullet
+  nameWithType: BulletManager.SimpleBullet
+  fullName: BulletManager.SimpleBullet
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

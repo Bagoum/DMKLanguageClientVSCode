@@ -1,0 +1,414 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.ItemType
+  commentId: T:Danmokou.Core.ItemType
+  id: ItemType
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.ItemType.FULLPOWER
+  - Danmokou.Core.ItemType.GEM
+  - Danmokou.Core.ItemType.LIFE
+  - Danmokou.Core.ItemType.ONEUP
+  - Danmokou.Core.ItemType.POWER
+  - Danmokou.Core.ItemType.POWERUP_D
+  - Danmokou.Core.ItemType.POWERUP_K
+  - Danmokou.Core.ItemType.POWERUP_M
+  - Danmokou.Core.ItemType.POWERUP_SHIFT
+  - Danmokou.Core.ItemType.PPP
+  - Danmokou.Core.ItemType.SMALL_VALUE
+  - Danmokou.Core.ItemType.VALUE
+  langs:
+  - csharp
+  - vb
+  name: ItemType
+  nameWithType: ItemType
+  fullName: Danmokou.Core.ItemType
+  type: Enum
+  source:
+    id: ItemType
+    path: ''
+    startLine: 1221
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum ItemType
+    content.vb: Public Enum ItemType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.ItemType.VALUE
+  commentId: F:Danmokou.Core.ItemType.VALUE
+  id: VALUE
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: VALUE
+  nameWithType: ItemType.VALUE
+  fullName: Danmokou.Core.ItemType.VALUE
+  type: Field
+  source:
+    id: VALUE
+    path: ''
+    startLine: 1225
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nValue item (blue)\n"
+  example: []
+  syntax:
+    content: VALUE = 0
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.SMALL_VALUE
+  commentId: F:Danmokou.Core.ItemType.SMALL_VALUE
+  id: SMALL_VALUE
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: SMALL_VALUE
+  nameWithType: ItemType.SMALL_VALUE
+  fullName: Danmokou.Core.ItemType.SMALL_VALUE
+  type: Field
+  source:
+    id: SMALL_VALUE
+    path: ''
+    startLine: 1229
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nSmall value item (blue)\n"
+  example: []
+  syntax:
+    content: SMALL_VALUE = 1
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.PPP
+  commentId: F:Danmokou.Core.ItemType.PPP
+  id: PPP
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: PPP
+  nameWithType: ItemType.PPP
+  fullName: Danmokou.Core.ItemType.PPP
+  type: Field
+  source:
+    id: PPP
+    path: ''
+    startLine: 1233
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nPoint++ item (green)\n"
+  example: []
+  syntax:
+    content: PPP = 2
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.LIFE
+  commentId: F:Danmokou.Core.ItemType.LIFE
+  id: LIFE
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: LIFE
+  nameWithType: ItemType.LIFE
+  fullName: Danmokou.Core.ItemType.LIFE
+  type: Field
+  source:
+    id: LIFE
+    path: ''
+    startLine: 1237
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nLife item (pink)\n"
+  example: []
+  syntax:
+    content: LIFE = 3
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.POWER
+  commentId: F:Danmokou.Core.ItemType.POWER
+  id: POWER
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: POWER
+  nameWithType: ItemType.POWER
+  fullName: Danmokou.Core.ItemType.POWER
+  type: Field
+  source:
+    id: POWER
+    path: ''
+    startLine: 1241
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nPower item (orange)\n"
+  example: []
+  syntax:
+    content: POWER = 4
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.FULLPOWER
+  commentId: F:Danmokou.Core.ItemType.FULLPOWER
+  id: FULLPOWER
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: FULLPOWER
+  nameWithType: ItemType.FULLPOWER
+  fullName: Danmokou.Core.ItemType.FULLPOWER
+  type: Field
+  source:
+    id: FULLPOWER
+    path: ''
+    startLine: 1245
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nFull power item (yellow)\n"
+  example: []
+  syntax:
+    content: FULLPOWER = 5
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.ONEUP
+  commentId: F:Danmokou.Core.ItemType.ONEUP
+  id: ONEUP
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: ONEUP
+  nameWithType: ItemType.ONEUP
+  fullName: Danmokou.Core.ItemType.ONEUP
+  type: Field
+  source:
+    id: ONEUP
+    path: ''
+    startLine: 1249
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n1-up item (green mushroom)\n"
+  example: []
+  syntax:
+    content: ONEUP = 6
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.GEM
+  commentId: F:Danmokou.Core.ItemType.GEM
+  id: GEM
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: GEM
+  nameWithType: ItemType.GEM
+  fullName: Danmokou.Core.ItemType.GEM
+  type: Field
+  source:
+    id: GEM
+    path: ''
+    startLine: 1253
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nSpecial meter refill item (rotating yellow prism)\n"
+  example: []
+  syntax:
+    content: GEM = 7
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.POWERUP_SHIFT
+  commentId: F:Danmokou.Core.ItemType.POWERUP_SHIFT
+  id: POWERUP_SHIFT
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: POWERUP_SHIFT
+  nameWithType: ItemType.POWERUP_SHIFT
+  fullName: Danmokou.Core.ItemType.POWERUP_SHIFT
+  type: Field
+  source:
+    id: POWERUP_SHIFT
+    path: ''
+    startLine: 1257
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nPowerup item that switches between modes D/M/K\n"
+  example: []
+  syntax:
+    content: POWERUP_SHIFT = 8
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.POWERUP_D
+  commentId: F:Danmokou.Core.ItemType.POWERUP_D
+  id: POWERUP_D
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: POWERUP_D
+  nameWithType: ItemType.POWERUP_D
+  fullName: Danmokou.Core.ItemType.POWERUP_D
+  type: Field
+  source:
+    id: POWERUP_D
+    path: ''
+    startLine: 1261
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nPowerup item always in mode D\n"
+  example: []
+  syntax:
+    content: POWERUP_D = 9
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.POWERUP_M
+  commentId: F:Danmokou.Core.ItemType.POWERUP_M
+  id: POWERUP_M
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: POWERUP_M
+  nameWithType: ItemType.POWERUP_M
+  fullName: Danmokou.Core.ItemType.POWERUP_M
+  type: Field
+  source:
+    id: POWERUP_M
+    path: ''
+    startLine: 1265
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nPowerup item always in mode M\n"
+  example: []
+  syntax:
+    content: POWERUP_M = 10
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.ItemType.POWERUP_K
+  commentId: F:Danmokou.Core.ItemType.POWERUP_K
+  id: POWERUP_K
+  parent: Danmokou.Core.ItemType
+  langs:
+  - csharp
+  - vb
+  name: POWERUP_K
+  nameWithType: ItemType.POWERUP_K
+  fullName: Danmokou.Core.ItemType.POWERUP_K
+  type: Field
+  source:
+    id: POWERUP_K
+    path: ''
+    startLine: 1269
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nPowerup item always in mode K\n"
+  example: []
+  syntax:
+    content: POWERUP_K = 11
+    return:
+      type: Danmokou.Core.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.ItemType
+  commentId: T:Danmokou.Core.ItemType
+  parent: Danmokou.Core
+  name: ItemType
+  nameWithType: ItemType
+  fullName: Danmokou.Core.ItemType

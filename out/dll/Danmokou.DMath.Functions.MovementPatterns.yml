@@ -1,0 +1,1654 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.MovementPatterns
+  commentId: T:Danmokou.DMath.Functions.MovementPatterns
+  id: MovementPatterns
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.MovementPatterns.AcrossL(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.AcrossR(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.BendDownHL(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.BendDownHR(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.BendUpL(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.BendUpR(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CircDown(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CircDown2L(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CircDown2R(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CornerL(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CornerLoop(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CornerR(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.Cross1(Danmokou.DMath.GCXF{System.Single},Danmokou.DMath.GCXF{System.Single},ExBPY,ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CrossDown(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CrossDown2(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CrossDownLoopBack(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CrossUp(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.CrossUp2(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.DipUp1(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.DipUp2(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.DipUp3(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.Down(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF{Vector2})
+  - Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  - Danmokou.DMath.Functions.MovementPatterns.t21(System.Single,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.th1(System.Single,ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.Up(ExBPY)
+  langs:
+  - csharp
+  - vb
+  name: MovementPatterns
+  nameWithType: MovementPatterns
+  fullName: Danmokou.DMath.Functions.MovementPatterns
+  type: Class
+  source:
+    id: MovementPatterns
+    path: ''
+    startLine: 8308
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static class MovementPatterns
+    content.vb: Public Module MovementPatterns
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF{Vector2})
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF{Vector2})
+  id: Null(Danmokou.DMath.GCXF{Vector2})
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: Null(GCXF<Vector2>)
+  nameWithType: MovementPatterns.Null(GCXF<Vector2>)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF<Vector2>)
+  type: Method
+  source:
+    id: "Null"
+    path: ''
+    startLine: 8311
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP Null(GCXF<Vector2> root)
+    parameters:
+    - id: root
+      type: Danmokou.DMath.GCXF{Vector2}
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function Null(root As GCXF(Of Vector2)) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.Null*
+  nameWithType.vb: MovementPatterns.Null(GCXF(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF(Of Vector2))
+  name.vb: Null(GCXF(Of Vector2))
+- uid: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  id: RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: RVTP(GCXF<Vector2>, GCXU<VTP>)
+  nameWithType: MovementPatterns.RVTP(GCXF<Vector2>, GCXU<VTP>)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF<Vector2>, Danmokou.DMath.GCXU<Danmokou.DMath.VTP>)
+  type: Method
+  source:
+    id: RVTP
+    path: ''
+    startLine: 8312
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP RVTP(GCXF<Vector2> root, GCXU<VTP> path)
+    parameters:
+    - id: root
+      type: Danmokou.DMath.GCXF{Vector2}
+    - id: path
+      type: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function RVTP(root As GCXF(Of Vector2), path As GCXU(Of VTP)) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.RVTP*
+  nameWithType.vb: MovementPatterns.RVTP(GCXF(Of Vector2), GCXU(Of VTP))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF(Of Vector2), Danmokou.DMath.GCXU(Of Danmokou.DMath.VTP))
+  name.vb: RVTP(GCXF(Of Vector2), GCXU(Of VTP))
+- uid: Danmokou.DMath.Functions.MovementPatterns.th1(System.Single,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.th1(System.Single,ExBPY)
+  id: th1(System.Single,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: th1(Single, ExBPY)
+  nameWithType: MovementPatterns.th1(Single, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.th1(System.Single, ExBPY)
+  type: Method
+  source:
+    id: th1
+    path: ''
+    startLine: 8319
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY th1(float pivot, ExBPY target)
+    parameters:
+    - id: pivot
+      type: System.Single
+    - id: target
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function th1(pivot As Single, target As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.MovementPatterns.th1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.t21(System.Single,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.t21(System.Single,ExBPY)
+  id: t21(System.Single,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: t21(Single, ExBPY)
+  nameWithType: MovementPatterns.t21(Single, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.t21(System.Single, ExBPY)
+  type: Method
+  source:
+    id: t21
+    path: ''
+    startLine: 8321
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExBPY t21(float pivot, ExBPY target)
+    parameters:
+    - id: pivot
+      type: System.Single
+    - id: target
+      type: ExBPY
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function t21(pivot As Single, target As ExBPY) As ExBPY
+  overload: Danmokou.DMath.Functions.MovementPatterns.t21*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.DipUp1(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.DipUp1(ExBPY,ExBPY)
+  id: DipUp1(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: DipUp1(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.DipUp1(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.DipUp1(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: DipUp1
+    path: ''
+    startLine: 8345
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP DipUp1(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function DipUp1(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.DipUp1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.DipUp2(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.DipUp2(ExBPY,ExBPY)
+  id: DipUp2(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: DipUp2(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.DipUp2(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.DipUp2(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: DipUp2
+    path: ''
+    startLine: 8351
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP DipUp2(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function DipUp2(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.DipUp2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.DipUp3(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.DipUp3(ExBPY,ExBPY)
+  id: DipUp3(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: DipUp3(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.DipUp3(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.DipUp3(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: DipUp3
+    path: ''
+    startLine: 8357
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP DipUp3(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function DipUp3(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.DipUp3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.Cross1(Danmokou.DMath.GCXF{System.Single},Danmokou.DMath.GCXF{System.Single},ExBPY,ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.Cross1(Danmokou.DMath.GCXF{System.Single},Danmokou.DMath.GCXF{System.Single},ExBPY,ExBPY,ExBPY)
+  id: Cross1(Danmokou.DMath.GCXF{System.Single},Danmokou.DMath.GCXF{System.Single},ExBPY,ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: Cross1(GCXF<Single>, GCXF<Single>, ExBPY, ExBPY, ExBPY)
+  nameWithType: MovementPatterns.Cross1(GCXF<Single>, GCXF<Single>, ExBPY, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Cross1(Danmokou.DMath.GCXF<System.Single>, Danmokou.DMath.GCXF<System.Single>, ExBPY, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: Cross1
+    path: ''
+    startLine: 8363
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP Cross1(GCXF<float> x, GCXF<float> y, ExBPY xmul, ExBPY ymul, ExBPY time)
+    parameters:
+    - id: x
+      type: Danmokou.DMath.GCXF{System.Single}
+    - id: y
+      type: Danmokou.DMath.GCXF{System.Single}
+    - id: xmul
+      type: ExBPY
+    - id: ymul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function Cross1(x As GCXF(Of Single), y As GCXF(Of Single), xmul As ExBPY, ymul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.Cross1*
+  nameWithType.vb: MovementPatterns.Cross1(GCXF(Of Single), GCXF(Of Single), ExBPY, ExBPY, ExBPY)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.MovementPatterns.Cross1(Danmokou.DMath.GCXF(Of System.Single), Danmokou.DMath.GCXF(Of System.Single), ExBPY, ExBPY, ExBPY)
+  name.vb: Cross1(GCXF(Of Single), GCXF(Of Single), ExBPY, ExBPY, ExBPY)
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossUp(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CrossUp(ExBPY,ExBPY)
+  id: CrossUp(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CrossUp(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.CrossUp(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossUp(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: CrossUp
+    path: ''
+    startLine: 8372
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CrossUp(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CrossUp(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CrossUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossDown(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CrossDown(ExBPY,ExBPY)
+  id: CrossDown(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CrossDown(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.CrossDown(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossDown(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: CrossDown
+    path: ''
+    startLine: 8374
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CrossDown(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CrossDown(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CrossDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossUp2(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CrossUp2(ExBPY,ExBPY)
+  id: CrossUp2(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CrossUp2(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.CrossUp2(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossUp2(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: CrossUp2
+    path: ''
+    startLine: 8376
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CrossUp2(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CrossUp2(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CrossUp2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossDown2(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CrossDown2(ExBPY,ExBPY)
+  id: CrossDown2(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CrossDown2(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.CrossDown2(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossDown2(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: CrossDown2
+    path: ''
+    startLine: 8378
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CrossDown2(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CrossDown2(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CrossDown2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossDownLoopBack(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CrossDownLoopBack(ExBPY,ExBPY)
+  id: CrossDownLoopBack(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CrossDownLoopBack(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.CrossDownLoopBack(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossDownLoopBack(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: CrossDownLoopBack
+    path: ''
+    startLine: 8383
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CrossDownLoopBack(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CrossDownLoopBack(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CrossDownLoopBack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CircDown(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CircDown(ExBPY,ExBPY)
+  id: CircDown(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CircDown(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.CircDown(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CircDown(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: CircDown
+    path: ''
+    startLine: 8391
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CircDown(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CircDown(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CircDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CornerLoop(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CornerLoop(ExBPY,ExBPY)
+  id: CornerLoop(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CornerLoop(ExBPY, ExBPY)
+  nameWithType: MovementPatterns.CornerLoop(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CornerLoop(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: CornerLoop
+    path: ''
+    startLine: 8396
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CornerLoop(ExBPY xmul, ExBPY time)
+    parameters:
+    - id: xmul
+      type: ExBPY
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CornerLoop(xmul As ExBPY, time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CornerLoop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CircDown2L(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CircDown2L(ExBPY)
+  id: CircDown2L(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CircDown2L(ExBPY)
+  nameWithType: MovementPatterns.CircDown2L(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CircDown2L(ExBPY)
+  type: Method
+  source:
+    id: CircDown2L
+    path: ''
+    startLine: 8403
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CircDown2L(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CircDown2L(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CircDown2L*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CircDown2R(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CircDown2R(ExBPY)
+  id: CircDown2R(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CircDown2R(ExBPY)
+  nameWithType: MovementPatterns.CircDown2R(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CircDown2R(ExBPY)
+  type: Method
+  source:
+    id: CircDown2R
+    path: ''
+    startLine: 8405
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CircDown2R(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CircDown2R(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CircDown2R*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.BendDownHL(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.BendDownHL(ExBPY)
+  id: BendDownHL(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: BendDownHL(ExBPY)
+  nameWithType: MovementPatterns.BendDownHL(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.BendDownHL(ExBPY)
+  type: Method
+  source:
+    id: BendDownHL
+    path: ''
+    startLine: 8408
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP BendDownHL(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function BendDownHL(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.BendDownHL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.BendDownHR(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.BendDownHR(ExBPY)
+  id: BendDownHR(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: BendDownHR(ExBPY)
+  nameWithType: MovementPatterns.BendDownHR(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.BendDownHR(ExBPY)
+  type: Method
+  source:
+    id: BendDownHR
+    path: ''
+    startLine: 8411
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP BendDownHR(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function BendDownHR(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.BendDownHR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.BendUpL(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.BendUpL(ExBPY)
+  id: BendUpL(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: BendUpL(ExBPY)
+  nameWithType: MovementPatterns.BendUpL(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.BendUpL(ExBPY)
+  type: Method
+  source:
+    id: BendUpL
+    path: ''
+    startLine: 8414
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP BendUpL(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function BendUpL(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.BendUpL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.BendUpR(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.BendUpR(ExBPY)
+  id: BendUpR(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: BendUpR(ExBPY)
+  nameWithType: MovementPatterns.BendUpR(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.BendUpR(ExBPY)
+  type: Method
+  source:
+    id: BendUpR
+    path: ''
+    startLine: 8416
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP BendUpR(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function BendUpR(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.BendUpR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CornerL(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CornerL(ExBPY)
+  id: CornerL(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CornerL(ExBPY)
+  nameWithType: MovementPatterns.CornerL(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CornerL(ExBPY)
+  type: Method
+  source:
+    id: CornerL
+    path: ''
+    startLine: 8419
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CornerL(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CornerL(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CornerL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.CornerR(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.CornerR(ExBPY)
+  id: CornerR(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: CornerR(ExBPY)
+  nameWithType: MovementPatterns.CornerR(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CornerR(ExBPY)
+  type: Method
+  source:
+    id: CornerR
+    path: ''
+    startLine: 8422
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP CornerR(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function CornerR(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.CornerR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.Up(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.Up(ExBPY)
+  id: Up(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: Up(ExBPY)
+  nameWithType: MovementPatterns.Up(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Up(ExBPY)
+  type: Method
+  source:
+    id: Up
+    path: ''
+    startLine: 8427
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP Up(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function Up(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.Up*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.Down(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.Down(ExBPY)
+  id: Down(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: Down(ExBPY)
+  nameWithType: MovementPatterns.Down(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Down(ExBPY)
+  type: Method
+  source:
+    id: Down
+    path: ''
+    startLine: 8428
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP Down(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function Down(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.Down*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.AcrossL(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.AcrossL(ExBPY)
+  id: AcrossL(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: AcrossL(ExBPY)
+  nameWithType: MovementPatterns.AcrossL(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.AcrossL(ExBPY)
+  type: Method
+  source:
+    id: AcrossL
+    path: ''
+    startLine: 8430
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP AcrossL(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function AcrossL(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.AcrossL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.MovementPatterns.AcrossR(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.AcrossR(ExBPY)
+  id: AcrossR(ExBPY)
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: AcrossR(ExBPY)
+  nameWithType: MovementPatterns.AcrossR(ExBPY)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.AcrossR(ExBPY)
+  type: Method
+  source:
+    id: AcrossR
+    path: ''
+    startLine: 8431
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP AcrossR(ExBPY time)
+    parameters:
+    - id: time
+      type: ExBPY
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function AcrossR(time As ExBPY) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.AcrossR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.MovementPatterns.Null*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.Null
+  name: "Null"
+  nameWithType: MovementPatterns.Null
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Null
+- uid: Danmokou.DMath.GCXF{Vector2}
+  commentId: T:Danmokou.DMath.GCXF{Vector2}
+  parent: Danmokou.DMath
+  definition: Danmokou.DMath.GCXF`1
+  name: GCXF<Vector2>
+  nameWithType: GCXF<Vector2>
+  fullName: Danmokou.DMath.GCXF<Vector2>
+  nameWithType.vb: GCXF(Of Vector2)
+  fullName.vb: Danmokou.DMath.GCXF(Of Vector2)
+  name.vb: GCXF(Of Vector2)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.RootedVTP
+  commentId: T:Danmokou.DMath.RootedVTP
+  parent: Danmokou.DMath
+  name: RootedVTP
+  nameWithType: RootedVTP
+  fullName: Danmokou.DMath.RootedVTP
+- uid: Danmokou.DMath.GCXF`1
+  commentId: T:Danmokou.DMath.GCXF`1
+  name: GCXF<T>
+  nameWithType: GCXF<T>
+  fullName: Danmokou.DMath.GCXF<T>
+  nameWithType.vb: GCXF(Of T)
+  fullName.vb: Danmokou.DMath.GCXF(Of T)
+  name.vb: GCXF(Of T)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: Danmokou.DMath.Functions.MovementPatterns.RVTP*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.RVTP
+  name: RVTP
+  nameWithType: MovementPatterns.RVTP
+  fullName: Danmokou.DMath.Functions.MovementPatterns.RVTP
+- uid: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+  commentId: T:Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+  parent: Danmokou.DMath
+  definition: Danmokou.DMath.GCXU`1
+  name: GCXU<VTP>
+  nameWithType: GCXU<VTP>
+  fullName: Danmokou.DMath.GCXU<Danmokou.DMath.VTP>
+  nameWithType.vb: GCXU(Of VTP)
+  fullName.vb: Danmokou.DMath.GCXU(Of Danmokou.DMath.VTP)
+  name.vb: GCXU(Of VTP)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.DMath.VTP
+    name: VTP
+    nameWithType: VTP
+    fullName: Danmokou.DMath.VTP
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.DMath.VTP
+    name: VTP
+    nameWithType: VTP
+    fullName: Danmokou.DMath.VTP
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.GCXU`1
+  commentId: T:Danmokou.DMath.GCXU`1
+  name: GCXU<Fn>
+  nameWithType: GCXU<Fn>
+  fullName: Danmokou.DMath.GCXU<Fn>
+  nameWithType.vb: GCXU(Of Fn)
+  fullName.vb: Danmokou.DMath.GCXU(Of Fn)
+  name.vb: GCXU(Of Fn)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: Fn
+    nameWithType: Fn
+    fullName: Fn
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: Fn
+    nameWithType: Fn
+    fullName: Fn
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.MovementPatterns.th1*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.th1
+  name: th1
+  nameWithType: MovementPatterns.th1
+  fullName: Danmokou.DMath.Functions.MovementPatterns.th1
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: Danmokou.DMath.Functions.MovementPatterns.t21*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.t21
+  name: t21
+  nameWithType: MovementPatterns.t21
+  fullName: Danmokou.DMath.Functions.MovementPatterns.t21
+- uid: Danmokou.DMath.Functions.MovementPatterns.DipUp1*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.DipUp1
+  name: DipUp1
+  nameWithType: MovementPatterns.DipUp1
+  fullName: Danmokou.DMath.Functions.MovementPatterns.DipUp1
+- uid: Danmokou.DMath.Functions.MovementPatterns.DipUp2*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.DipUp2
+  name: DipUp2
+  nameWithType: MovementPatterns.DipUp2
+  fullName: Danmokou.DMath.Functions.MovementPatterns.DipUp2
+- uid: Danmokou.DMath.Functions.MovementPatterns.DipUp3*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.DipUp3
+  name: DipUp3
+  nameWithType: MovementPatterns.DipUp3
+  fullName: Danmokou.DMath.Functions.MovementPatterns.DipUp3
+- uid: Danmokou.DMath.Functions.MovementPatterns.Cross1*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.Cross1
+  name: Cross1
+  nameWithType: MovementPatterns.Cross1
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Cross1
+- uid: Danmokou.DMath.GCXF{System.Single}
+  commentId: T:Danmokou.DMath.GCXF{System.Single}
+  parent: Danmokou.DMath
+  definition: Danmokou.DMath.GCXF`1
+  name: GCXF<Single>
+  nameWithType: GCXF<Single>
+  fullName: Danmokou.DMath.GCXF<System.Single>
+  nameWithType.vb: GCXF(Of Single)
+  fullName.vb: Danmokou.DMath.GCXF(Of System.Single)
+  name.vb: GCXF(Of Single)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossUp*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CrossUp
+  name: CrossUp
+  nameWithType: MovementPatterns.CrossUp
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossUp
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossDown*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CrossDown
+  name: CrossDown
+  nameWithType: MovementPatterns.CrossDown
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossDown
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossUp2*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CrossUp2
+  name: CrossUp2
+  nameWithType: MovementPatterns.CrossUp2
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossUp2
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossDown2*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CrossDown2
+  name: CrossDown2
+  nameWithType: MovementPatterns.CrossDown2
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossDown2
+- uid: Danmokou.DMath.Functions.MovementPatterns.CrossDownLoopBack*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CrossDownLoopBack
+  name: CrossDownLoopBack
+  nameWithType: MovementPatterns.CrossDownLoopBack
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CrossDownLoopBack
+- uid: Danmokou.DMath.Functions.MovementPatterns.CircDown*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CircDown
+  name: CircDown
+  nameWithType: MovementPatterns.CircDown
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CircDown
+- uid: Danmokou.DMath.Functions.MovementPatterns.CornerLoop*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CornerLoop
+  name: CornerLoop
+  nameWithType: MovementPatterns.CornerLoop
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CornerLoop
+- uid: Danmokou.DMath.Functions.MovementPatterns.CircDown2L*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CircDown2L
+  name: CircDown2L
+  nameWithType: MovementPatterns.CircDown2L
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CircDown2L
+- uid: Danmokou.DMath.Functions.MovementPatterns.CircDown2R*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CircDown2R
+  name: CircDown2R
+  nameWithType: MovementPatterns.CircDown2R
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CircDown2R
+- uid: Danmokou.DMath.Functions.MovementPatterns.BendDownHL*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.BendDownHL
+  name: BendDownHL
+  nameWithType: MovementPatterns.BendDownHL
+  fullName: Danmokou.DMath.Functions.MovementPatterns.BendDownHL
+- uid: Danmokou.DMath.Functions.MovementPatterns.BendDownHR*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.BendDownHR
+  name: BendDownHR
+  nameWithType: MovementPatterns.BendDownHR
+  fullName: Danmokou.DMath.Functions.MovementPatterns.BendDownHR
+- uid: Danmokou.DMath.Functions.MovementPatterns.BendUpL*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.BendUpL
+  name: BendUpL
+  nameWithType: MovementPatterns.BendUpL
+  fullName: Danmokou.DMath.Functions.MovementPatterns.BendUpL
+- uid: Danmokou.DMath.Functions.MovementPatterns.BendUpR*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.BendUpR
+  name: BendUpR
+  nameWithType: MovementPatterns.BendUpR
+  fullName: Danmokou.DMath.Functions.MovementPatterns.BendUpR
+- uid: Danmokou.DMath.Functions.MovementPatterns.CornerL*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CornerL
+  name: CornerL
+  nameWithType: MovementPatterns.CornerL
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CornerL
+- uid: Danmokou.DMath.Functions.MovementPatterns.CornerR*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.CornerR
+  name: CornerR
+  nameWithType: MovementPatterns.CornerR
+  fullName: Danmokou.DMath.Functions.MovementPatterns.CornerR
+- uid: Danmokou.DMath.Functions.MovementPatterns.Up*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.Up
+  name: Up
+  nameWithType: MovementPatterns.Up
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Up
+- uid: Danmokou.DMath.Functions.MovementPatterns.Down*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.Down
+  name: Down
+  nameWithType: MovementPatterns.Down
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Down
+- uid: Danmokou.DMath.Functions.MovementPatterns.AcrossL*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.AcrossL
+  name: AcrossL
+  nameWithType: MovementPatterns.AcrossL
+  fullName: Danmokou.DMath.Functions.MovementPatterns.AcrossL
+- uid: Danmokou.DMath.Functions.MovementPatterns.AcrossR*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.AcrossR
+  name: AcrossR
+  nameWithType: MovementPatterns.AcrossR
+  fullName: Danmokou.DMath.Functions.MovementPatterns.AcrossR

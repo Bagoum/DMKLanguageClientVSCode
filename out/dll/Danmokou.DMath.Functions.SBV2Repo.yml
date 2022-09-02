@@ -1,0 +1,498 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.SBV2Repo
+  commentId: T:Danmokou.DMath.Functions.SBV2Repo
+  id: SBV2Repo
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.SBV2Repo.AccDelta
+  - Danmokou.DMath.Functions.SBV2Repo.AccDeltaV3
+  - Danmokou.DMath.Functions.SBV2Repo.Dir
+  - Danmokou.DMath.Functions.SBV2Repo.Loc
+  langs:
+  - csharp
+  - vb
+  name: SBV2Repo
+  nameWithType: SBV2Repo
+  fullName: Danmokou.DMath.Functions.SBV2Repo
+  type: Class
+  source:
+    id: SBV2Repo
+    path: ''
+    startLine: 9158
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that get a vector2 value from a simple bullet.\n"
+  example: []
+  syntax:
+    content: public static class SBV2Repo
+    content.vb: Public Module SBV2Repo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.SBV2Repo.Loc
+  commentId: M:Danmokou.DMath.Functions.SBV2Repo.Loc
+  id: Loc
+  parent: Danmokou.DMath.Functions.SBV2Repo
+  langs:
+  - csharp
+  - vb
+  name: Loc()
+  nameWithType: SBV2Repo.Loc()
+  fullName: Danmokou.DMath.Functions.SBV2Repo.Loc()
+  type: Method
+  source:
+    id: Loc
+    path: ''
+    startLine: 9163
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the global location of the bullet.\n"
+  example: []
+  syntax:
+    content: public static ExTP Loc()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function Loc As ExTP
+  overload: Danmokou.DMath.Functions.SBV2Repo.Loc*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.SBV2Repo.Dir
+  commentId: M:Danmokou.DMath.Functions.SBV2Repo.Dir
+  id: Dir
+  parent: Danmokou.DMath.Functions.SBV2Repo
+  langs:
+  - csharp
+  - vb
+  name: Dir()
+  nameWithType: SBV2Repo.Dir()
+  fullName: Danmokou.DMath.Functions.SBV2Repo.Dir()
+  type: Method
+  source:
+    id: Dir
+    path: ''
+    startLine: 9167
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the direction of the bullet as a (cos, sin) vector.\n"
+  example: []
+  syntax:
+    content: public static ExTP Dir()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function Dir As ExTP
+  overload: Danmokou.DMath.Functions.SBV2Repo.Dir*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.SBV2Repo.AccDelta
+  commentId: M:Danmokou.DMath.Functions.SBV2Repo.AccDelta
+  id: AccDelta
+  parent: Danmokou.DMath.Functions.SBV2Repo
+  langs:
+  - csharp
+  - vb
+  name: AccDelta()
+  nameWithType: SBV2Repo.AccDelta()
+  fullName: Danmokou.DMath.Functions.SBV2Repo.AccDelta()
+  type: Method
+  source:
+    id: AccDelta
+    path: ''
+    startLine: 9172
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the delta movement of the bullet this frame.\n"
+  example: []
+  syntax:
+    content: public static ExTP AccDelta()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function AccDelta As ExTP
+  overload: Danmokou.DMath.Functions.SBV2Repo.AccDelta*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.SBV2Repo.AccDeltaV3
+  commentId: M:Danmokou.DMath.Functions.SBV2Repo.AccDeltaV3
+  id: AccDeltaV3
+  parent: Danmokou.DMath.Functions.SBV2Repo
+  langs:
+  - csharp
+  - vb
+  name: AccDeltaV3()
+  nameWithType: SBV2Repo.AccDeltaV3()
+  fullName: Danmokou.DMath.Functions.SBV2Repo.AccDeltaV3()
+  type: Method
+  source:
+    id: AccDeltaV3
+    path: ''
+    startLine: 9177
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the delta movement of the bullet this frame, including the Z-axis.\n"
+  example: []
+  syntax:
+    content: public static ExTP AccDeltaV3()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function AccDeltaV3 As ExTP
+  overload: Danmokou.DMath.Functions.SBV2Repo.AccDeltaV3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.SBV2Repo.Loc*
+  commentId: Overload:Danmokou.DMath.Functions.SBV2Repo.Loc
+  name: Loc
+  nameWithType: SBV2Repo.Loc
+  fullName: Danmokou.DMath.Functions.SBV2Repo.Loc
+- uid: ExTP
+  isExternal: true
+  name: ExTP
+  nameWithType: ExTP
+  fullName: ExTP
+- uid: Danmokou.DMath.Functions.SBV2Repo.Dir*
+  commentId: Overload:Danmokou.DMath.Functions.SBV2Repo.Dir
+  name: Dir
+  nameWithType: SBV2Repo.Dir
+  fullName: Danmokou.DMath.Functions.SBV2Repo.Dir
+- uid: Danmokou.DMath.Functions.SBV2Repo.AccDelta*
+  commentId: Overload:Danmokou.DMath.Functions.SBV2Repo.AccDelta
+  name: AccDelta
+  nameWithType: SBV2Repo.AccDelta
+  fullName: Danmokou.DMath.Functions.SBV2Repo.AccDelta
+- uid: Danmokou.DMath.Functions.SBV2Repo.AccDeltaV3*
+  commentId: Overload:Danmokou.DMath.Functions.SBV2Repo.AccDeltaV3
+  name: AccDeltaV3
+  nameWithType: SBV2Repo.AccDeltaV3
+  fullName: Danmokou.DMath.Functions.SBV2Repo.AccDeltaV3

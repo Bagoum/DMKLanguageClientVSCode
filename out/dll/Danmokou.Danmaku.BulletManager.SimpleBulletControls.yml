@@ -1,0 +1,2399 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  commentId: T:Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  id: BulletManager.SimpleBulletControls
+  parent: Danmokou.Danmaku
+  children:
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch(ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP(System.Int32,ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Copy(System.String,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.CopyNull(System.String,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Cull(ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0``1(System.String,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX(ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipY(ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYGT(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYLT(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force(ExPred,VTP)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze(ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide(ExPred,StateMachine)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle(System.String,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect(System.String,System.String,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[],ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[],ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX(System.String,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM(ExPred,StateMachine)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull(System.String,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr(SoftcullProperties,System.String,Pred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Time(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF(System.ValueTuple{System.String,ExBPY}[],ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2(System.ValueTuple{System.String,ExTP}[],ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.X(ExBPY,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Y(ExBPY,ExPred)
+  langs:
+  - csharp
+  - vb
+  name: BulletManager.SimpleBulletControls
+  nameWithType: BulletManager.SimpleBulletControls
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  type: Class
+  source:
+    id: SimpleBulletControls
+    path: ''
+    startLine: 1664
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nBullet controls for use with the `bullet-control` SM command. These deal with simple bullets.\n<br />All controls have a `cond` argument, which is a filtering condition. The control only affects bullets for which the condition is satisfied.\n"
+  example: []
+  syntax:
+    content: public static class SimpleBulletControls
+    content.vb: Public Module SimpleBulletControls
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.X(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.X(ExBPY,ExPred)
+  id: X(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: X(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.X(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.X(ExBPY, ExPred)
+  type: Method
+  source:
+    id: X
+    path: ''
+    startLine: 1673
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSet the x-position of bullets.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl X(ExBPY x, ExPred cond)
+    parameters:
+    - id: x
+      type: ExBPY
+      description: C value
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function X(x As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.X*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Y(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Y(ExBPY,ExPred)
+  id: Y(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Y(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Y(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Y(ExBPY, ExPred)
+  type: Method
+  source:
+    id: Y
+    path: ''
+    startLine: 1681
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSet the y-position of bullets.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Y(ExBPY y, ExPred cond)
+    parameters:
+    - id: y
+      type: ExBPY
+      description: Y value
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function Y(y As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Y*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Time(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Time(ExBPY,ExPred)
+  id: Time(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Time(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Time(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Time(ExBPY, ExPred)
+  type: Method
+  source:
+    id: Time
+    path: ''
+    startLine: 1689
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSet the time of bullets.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Time(ExBPY time, ExPred cond)
+    parameters:
+    - id: time
+      type: ExBPY
+      description: Time to set
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function Time(time As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Time*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle(System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle(System.String,ExPred)
+  id: Restyle(System.String,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Restyle(String, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Restyle(String, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle(System.String, ExPred)
+  type: Method
+  source:
+    id: Restyle
+    path: ''
+    startLine: 1698
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nChange the style of bullets, ie. transfer the bullet to another pool.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Restyle(string target, ExPred cond)
+    parameters:
+    - id: target
+      type: System.String
+      description: New style
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function Restyle(target As String, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Copy(System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Copy(System.String,ExPred)
+  id: Copy(System.String,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Copy(String, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Copy(String, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Copy(System.String, ExPred)
+  type: Method
+  source:
+    id: Copy
+    path: ''
+    startLine: 1710
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nCopy a bullet into another pool. A new ID will be given to the new bullet.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Copy(string style, ExPred cond)
+    parameters:
+    - id: style
+      type: System.String
+      description: Copied style
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function Copy(style As String, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Copy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect(System.String,System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect(System.String,System.String,ExPred)
+  id: RestyleEffect(System.String,System.String,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: RestyleEffect(String, String, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.RestyleEffect(String, String, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect(System.String, System.String, ExPred)
+  type: Method
+  source:
+    id: RestyleEffect
+    path: ''
+    startLine: 1723
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nRestyle a bullet and summon a softcull effect.\n<br />If the softcull style is null or empty, then will instead spawn a cull bullet.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl RestyleEffect(string copyStyle, string softcullStyle, ExPred cond)
+    parameters:
+    - id: copyStyle
+      type: System.String
+      description: Copied style
+    - id: softcullStyle
+      type: System.String
+      description: Softcull style
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function RestyleEffect(copyStyle As String, softcullStyle As String, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.CopyNull(System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.CopyNull(System.String,ExPred)
+  id: CopyNull(System.String,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: CopyNull(String, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.CopyNull(String, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.CopyNull(System.String, ExPred)
+  type: Method
+  source:
+    id: CopyNull
+    path: ''
+    startLine: 1735
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nCopy (nondestructively) a bullet into another pool, with no movement.\n<br />If the style is null or empty, then will instead spawn a <see cref=\"!:BulletManager.CulledBulletCollection\"></see> bullet.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl CopyNull(string style, ExPred cond)
+    parameters:
+    - id: style
+      type: System.String
+      description: Copied style
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function CopyNull(style As String, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.CopyNull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull(System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull(System.String,ExPred)
+  id: Softcull(System.String,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Softcull(String, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Softcull(String, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull(System.String, ExPred)
+  type: Method
+  source:
+    id: Softcull
+    path: ''
+    startLine: 1753
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nChange the bullets into a softcull-type bullet rather than destroying them directly.\nAlso leaves behind an afterimage of the bullet as it gets deleted in a <see cref=\"!:BulletManager.CulledBulletCollection\"></see>.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Softcull(string target, ExPred cond)
+    parameters:
+    - id: target
+      type: System.String
+      description: New style. Can be null or _ to skip the copying and only do the culled afterimage.
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function Softcull(target As String, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr(SoftcullProperties,System.String,Pred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr(SoftcullProperties,System.String,Pred)
+  id: Softcull_noexpr(SoftcullProperties,System.String,Pred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Softcull_noexpr(SoftcullProperties, String, Pred)
+  nameWithType: BulletManager.SimpleBulletControls.Softcull_noexpr(SoftcullProperties, String, Pred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr(SoftcullProperties, System.String, Pred)
+  type: Method
+  source:
+    id: Softcull_noexpr
+    path: ''
+    startLine: 1768
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSoftcull but without expressions. Used internally for runtime bullet controls.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.cBulletControl Softcull_noexpr(SoftcullProperties props, string target, Pred cond)
+    parameters:
+    - id: props
+      type: SoftcullProperties
+    - id: target
+      type: System.String
+    - id: cond
+      type: Pred
+    return:
+      type: Danmokou.Danmaku.BulletManager.cBulletControl
+    content.vb: Public Shared Function Softcull_noexpr(props As SoftcullProperties, target As String, cond As Pred) As BulletManager.cBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Cull(ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Cull(ExPred)
+  id: Cull(ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Cull(ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Cull(ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Cull(ExPred)
+  type: Method
+  source:
+    id: Cull
+    path: ''
+    startLine: 1786
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nDestroy bullets.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Cull(ExPred cond)
+    parameters:
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function Cull(cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Cull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX(ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX(ExPred)
+  id: FlipX(ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipX(ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.FlipX(ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX(ExPred)
+  type: Method
+  source:
+    id: FlipX
+    path: ''
+    startLine: 1796
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nFlip the X-velocity of bullets.\nUse <xref href=\"Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY%2cExPred)\" data-throw-if-not-resolved=\"false\"></xref>, etc instead for flipping against walls.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl FlipX(ExPred cond)
+    parameters:
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function FlipX(cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipY(ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipY(ExPred)
+  id: FlipY(ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipY(ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.FlipY(ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipY(ExPred)
+  type: Method
+  source:
+    id: FlipY
+    path: ''
+    startLine: 1805
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nFlip the Y-velocity of bullets.\nUse <xref href=\"Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY%2cExPred)\" data-throw-if-not-resolved=\"false\"></xref>, etc instead for flipping against walls.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl FlipY(ExPred cond)
+    parameters:
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function FlipY(cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY,ExPred)
+  id: FlipXGT(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipXGT(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.FlipXGT(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY, ExPred)
+  type: Method
+  source:
+    id: FlipXGT
+    path: ''
+    startLine: 1814
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nFlip the x-velocity and x-position of bullets around a wall on the right.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl FlipXGT(ExBPY wall, ExPred cond)
+    parameters:
+    - id: wall
+      type: ExBPY
+      description: X-position of wall
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function FlipXGT(wall As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT(ExBPY,ExPred)
+  id: FlipXLT(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipXLT(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.FlipXLT(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT(ExBPY, ExPred)
+  type: Method
+  source:
+    id: FlipXLT
+    path: ''
+    startLine: 1833
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nFlip the x-velocity and x-position of bullets around a wall on the left.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl FlipXLT(ExBPY wall, ExPred cond)
+    parameters:
+    - id: wall
+      type: ExBPY
+      description: X-position of wall
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function FlipXLT(wall As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYGT(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYGT(ExBPY,ExPred)
+  id: FlipYGT(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipYGT(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.FlipYGT(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYGT(ExBPY, ExPred)
+  type: Method
+  source:
+    id: FlipYGT
+    path: ''
+    startLine: 1851
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nFlip the y-velocity and y-position of bullets around a wall on the top.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl FlipYGT(ExBPY wall, ExPred cond)
+    parameters:
+    - id: wall
+      type: ExBPY
+      description: Y-position of wall
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function FlipYGT(wall As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYGT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYLT(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYLT(ExBPY,ExPred)
+  id: FlipYLT(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipYLT(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.FlipYLT(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYLT(ExBPY, ExPred)
+  type: Method
+  source:
+    id: FlipYLT
+    path: ''
+    startLine: 1869
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nFlip the y-velocity and y-position of bullets around a wall on the bottom.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl FlipYLT(ExBPY wall, ExPred cond)
+    parameters:
+    - id: wall
+      type: ExBPY
+      description: Y-position of wall
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function FlipYLT(wall As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYLT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX(ExBPY,ExPred)
+  id: DX(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: DX(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.DX(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX(ExBPY, ExPred)
+  type: Method
+  source:
+    id: DX
+    path: ''
+    startLine: 1887
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nAdd to the x-position of bullets. Useful for teleporting around the sides.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl DX(ExBPY by, ExPred cond)
+    parameters:
+    - id: by
+      type: ExBPY
+      description: Delta position
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function DX(by As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY(ExBPY,ExPred)
+  id: DY(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: DY(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.DY(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY(ExBPY, ExPred)
+  type: Method
+  source:
+    id: DY
+    path: ''
+    startLine: 1896
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nAdd to the y-position of bullets. Useful for teleporting around the sides.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl DY(ExBPY by, ExPred cond)
+    parameters:
+    - id: by
+      type: ExBPY
+      description: Delta position
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function DY(by As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT(ExBPY,ExPred)
+  id: DT(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: DT(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.DT(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT(ExBPY, ExPred)
+  type: Method
+  source:
+    id: DT
+    path: ''
+    startLine: 1905
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nAdd to the time of bullets.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl DT(ExBPY by, ExPred cond)
+    parameters:
+    - id: by
+      type: ExBPY
+      description: Delta time
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function DT(by As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown(ExBPY,ExPred)
+  id: Slowdown(ExBPY,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Slowdown(ExBPY, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Slowdown(ExBPY, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown(ExBPY, ExPred)
+  type: Method
+  source:
+    id: Slowdown
+    path: ''
+    startLine: 1914
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nChange the throttling of bullets.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Slowdown(ExBPY by, ExPred cond)
+    parameters:
+    - id: by
+      type: ExBPY
+      description: Speedup ratio (1 = no effect, 2 = twice as fast, 0 = frozen, -1 = backwards)
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function Slowdown(by As ExBPY, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze(ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze(ExPred)
+  id: Freeze(ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Freeze(ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Freeze(ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze(ExPred)
+  type: Method
+  source:
+    id: Freeze
+    path: ''
+    startLine: 1923
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nFreeze an object. It will still collide but it will not move.\n<br /> Note: the semantics of this are slightly different from BehCF.Freeze.\nThis function will run the update loop with a deltaTime of zero, so offset-based\nmovement functions dependent on public hoisting may still cause movements.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Freeze(ExPred cond)
+    parameters:
+    - id: cond
+      type: ExPred
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function Freeze(cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX(System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX(System.String,ExPred)
+  id: SFX(System.String,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: SFX(String, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.SFX(String, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX(System.String, ExPred)
+  type: Method
+  source:
+    id: SFX
+    path: ''
+    startLine: 1931
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nCreate a sound effect.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl SFX(string sfx, ExPred cond)
+    parameters:
+    - id: sfx
+      type: System.String
+      description: Sound effect
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function SFX(sfx As String, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force(ExPred,VTP)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force(ExPred,VTP)
+  id: Force(ExPred,VTP)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Force(ExPred, VTP)
+  nameWithType: BulletManager.SimpleBulletControls.Force(ExPred, VTP)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force(ExPred, VTP)
+  type: Method
+  source:
+    id: Force
+    path: ''
+    startLine: 1941
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nAdd external velocity to bullets. Note that position-based movement (offset, polar)\nwill probably not work properly with this.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Force(ExPred cond, VTP path)
+    parameters:
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    - id: path
+      type: VTP
+      description: External velocity
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+      description: ''
+    content.vb: Public Shared Function Force(cond As ExPred, path As VTP) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[],ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[],ExPred)
+  id: SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[],ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: SaveV2((ReflectEx.Hoist<Vector2> target, ExBPY indexer, ExTP valuer)[], ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.SaveV2((ReflectEx.Hoist<Vector2> target, ExBPY indexer, ExTP valuer)[], ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple<ReflectEx.Hoist<Vector2>, ExBPY, ExTP>[], ExPred)
+  type: Method
+  source:
+    id: SaveV2
+    path: ''
+    startLine: 1961
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSave vector2 values in public data hoisting.\n<br />Note: This is automatically called by the GuideEmpty function.\nYou should not need to use this yourself.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl SaveV2((ReflectEx.Hoist<Vector2> target, ExBPY indexer, ExTP valuer)[] targets, ExPred cond)
+    parameters:
+    - id: targets
+      type: System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[]
+      description: Several target, index, value tuples to save
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function SaveV2(targets As(target As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, valuer As ExTP)(Of ReflectEx.Hoist(Of Vector2) , ExBPY, ExTP)(), cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2*
+  nameWithType.vb: BulletManager.SimpleBulletControls.SaveV2((target As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, valuer As ExTP)(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)(), ExPred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)(), ExPred)
+  name.vb: SaveV2((target As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, valuer As ExTP)(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)(), ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[],ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[],ExPred)
+  id: SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[],ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: SaveF((ReflectEx.Hoist<Single> target, ExBPY indexer, ExBPY valuer)[], ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.SaveF((ReflectEx.Hoist<Single> target, ExBPY indexer, ExBPY valuer)[], ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple<ReflectEx.Hoist<System.Single>, ExBPY, ExBPY>[], ExPred)
+  type: Method
+  source:
+    id: SaveF
+    path: ''
+    startLine: 1975
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSave float values in public data hoisting.\n<br />Note: This is automatically called by the GuideEmpty function.\nYou should not need to use this yourself.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl SaveF((ReflectEx.Hoist<float> target, ExBPY indexer, ExBPY valuer)[] targets, ExPred cond)
+    parameters:
+    - id: targets
+      type: System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[]
+      description: Several target, index, value tuples to save
+    - id: cond
+      type: ExPred
+      description: Filter condition
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function SaveF(targets As(target As ReflectEx.Hoist(Of Single), indexer As ExBPY, valuer As ExBPY)(Of ReflectEx.Hoist(Of Single) , ExBPY, ExBPY)(), cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF*
+  nameWithType.vb: BulletManager.SimpleBulletControls.SaveF((target As ReflectEx.Hoist(Of Single), indexer As ExBPY, valuer As ExBPY)(Of ReflectEx.Hoist(Of Single), ExBPY, ExBPY)(), ExPred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple(Of ReflectEx.Hoist(Of System.Single), ExBPY, ExBPY)(), ExPred)
+  name.vb: SaveF((target As ReflectEx.Hoist(Of Single), indexer As ExBPY, valuer As ExBPY)(Of ReflectEx.Hoist(Of Single), ExBPY, ExBPY)(), ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2(System.ValueTuple{System.String,ExTP}[],ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2(System.ValueTuple{System.String,ExTP}[],ExPred)
+  id: UpdateV2(System.ValueTuple{System.String,ExTP}[],ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: UpdateV2((String target, ExTP valuer)[], ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.UpdateV2((String target, ExTP valuer)[], ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2(System.ValueTuple<System.String, ExTP>[], ExPred)
+  type: Method
+  source:
+    id: UpdateV2
+    path: ''
+    startLine: 1985
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nUpdate existing V2 values in the private data hoisting for the bullet.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl UpdateV2((string target, ExTP valuer)[] targets, ExPred cond)
+    parameters:
+    - id: targets
+      type: System.ValueTuple{System.String,ExTP}[]
+    - id: cond
+      type: ExPred
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function UpdateV2(targets As(target As String, valuer As ExTP)(Of String , ExTP)(), cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2*
+  nameWithType.vb: BulletManager.SimpleBulletControls.UpdateV2((target As String, valuer As ExTP)(Of String, ExTP)(), ExPred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2(System.ValueTuple(Of System.String, ExTP)(), ExPred)
+  name.vb: UpdateV2((target As String, valuer As ExTP)(Of String, ExTP)(), ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF(System.ValueTuple{System.String,ExBPY}[],ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF(System.ValueTuple{System.String,ExBPY}[],ExPred)
+  id: UpdateF(System.ValueTuple{System.String,ExBPY}[],ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: UpdateF((String target, ExBPY valuer)[], ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.UpdateF((String target, ExBPY valuer)[], ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF(System.ValueTuple<System.String, ExBPY>[], ExPred)
+  type: Method
+  source:
+    id: UpdateF
+    path: ''
+    startLine: 1991
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nUpdate existing float values in the private data hoisting for the bullet.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl UpdateF((string target, ExBPY valuer)[] targets, ExPred cond)
+    parameters:
+    - id: targets
+      type: System.ValueTuple{System.String,ExBPY}[]
+    - id: cond
+      type: ExPred
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function UpdateF(targets As(target As String, valuer As ExBPY)(Of String , ExBPY)(), cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF*
+  nameWithType.vb: BulletManager.SimpleBulletControls.UpdateF((target As String, valuer As ExBPY)(Of String, ExBPY)(), ExPred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF(System.ValueTuple(Of System.String, ExBPY)(), ExPred)
+  name.vb: UpdateF((target As String, valuer As ExBPY)(Of String, ExBPY)(), ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+  id: Event``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Event<T>(String, Func<TExArgCtx, TEx<T>>, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Event<T>(String, Func<TExArgCtx, TEx<T>>, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event<T>(System.String, System.Func<TExArgCtx, TEx<T>>, ExPred)
+  type: Method
+  source:
+    id: Event
+    path: ''
+    startLine: 1997
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nExecute an event if the condition is satisfied.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Event<T>(string ev, Func<TExArgCtx, TEx<T>> val, ExPred cond)
+    parameters:
+    - id: ev
+      type: System.String
+    - id: val
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    - id: cond
+      type: ExPred
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function Event(Of T)(ev As String, val As Func(Of TExArgCtx, TEx(Of T)), cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event*
+  nameWithType.vb: BulletManager.SimpleBulletControls.Event(Of T)(String, Func(Of TExArgCtx, TEx(Of T)), ExPred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event(Of T)(System.String, System.Func(Of TExArgCtx, TEx(Of T)), ExPred)
+  name.vb: Event(Of T)(String, Func(Of TExArgCtx, TEx(Of T)), ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0``1(System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0``1(System.String,ExPred)
+  id: Event0``1(System.String,ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Event0<T>(String, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Event0<T>(String, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0<T>(System.String, ExPred)
+  type: Method
+  source:
+    id: Event0
+    path: ''
+    startLine: 2005
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nExecute a unit event if the condition is satisfied.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Event0<T>(string ev, ExPred cond)
+    parameters:
+    - id: ev
+      type: System.String
+    - id: cond
+      type: ExPred
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function Event0(Of T)(ev As String, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0*
+  nameWithType.vb: BulletManager.SimpleBulletControls.Event0(Of T)(String, ExPred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0(Of T)(System.String, ExPred)
+  name.vb: Event0(Of T)(String, ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch(ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch(ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
+  id: Batch(ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: Batch(ExPred, BulletManager.exBulletControl[])
+  nameWithType: BulletManager.SimpleBulletControls.Batch(ExPred, BulletManager.exBulletControl[])
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch(ExPred, Danmokou.Danmaku.BulletManager.exBulletControl[])
+  type: Method
+  source:
+    id: Batch
+    path: ''
+    startLine: 2012
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nBatch several controls together under a single condition.\n<br />This is useful primarily when `restyle` or `cull` is combined with other conditions.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Batch(ExPred cond, BulletManager.exBulletControl[] over)
+    parameters:
+    - id: cond
+      type: ExPred
+    - id: over
+      type: Danmokou.Danmaku.BulletManager.exBulletControl[]
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function Batch(cond As ExPred, over As BulletManager.exBulletControl()) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch*
+  nameWithType.vb: BulletManager.SimpleBulletControls.Batch(ExPred, BulletManager.exBulletControl())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch(ExPred, Danmokou.Danmaku.BulletManager.exBulletControl())
+  name.vb: Batch(ExPred, BulletManager.exBulletControl())
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP(System.Int32,ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP(System.Int32,ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
+  id: BatchP(System.Int32,ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: BatchP(Int32, ExPred, BulletManager.exBulletControl[])
+  nameWithType: BulletManager.SimpleBulletControls.BatchP(Int32, ExPred, BulletManager.exBulletControl[])
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP(System.Int32, ExPred, Danmokou.Danmaku.BulletManager.exBulletControl[])
+  type: Method
+  source:
+    id: BatchP
+    path: ''
+    startLine: 2021
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nBatchp several controls together under a single condition.\n<br />Also, manually set the priority value. (Note that using BatchP instead of Batch can cause\n severe bugs when cull-based commands are moved outside out of their standard processing block.)\n<br />This is useful primarily when `restyle` or `cull` is combined with other conditions.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl BatchP(int priority, ExPred cond, BulletManager.exBulletControl[] over)
+    parameters:
+    - id: priority
+      type: System.Int32
+    - id: cond
+      type: ExPred
+    - id: over
+      type: Danmokou.Danmaku.BulletManager.exBulletControl[]
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function BatchP(priority As Integer, cond As ExPred, over As BulletManager.exBulletControl()) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP*
+  nameWithType.vb: BulletManager.SimpleBulletControls.BatchP(Int32, ExPred, BulletManager.exBulletControl())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP(System.Int32, ExPred, Danmokou.Danmaku.BulletManager.exBulletControl())
+  name.vb: BatchP(Int32, ExPred, BulletManager.exBulletControl())
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM(ExPred,StateMachine)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM(ExPred,StateMachine)
+  id: SM(ExPred,StateMachine)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: SM(ExPred, StateMachine)
+  nameWithType: BulletManager.SimpleBulletControls.SM(ExPred, StateMachine)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM(ExPred, StateMachine)
+  type: Method
+  source:
+    id: SM
+    path: ''
+    startLine: 2041
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nIf the condition is true, spawn an iNode at the position and run an SM on it.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl SM(ExPred cond, StateMachine target)
+    parameters:
+    - id: cond
+      type: ExPred
+    - id: target
+      type: StateMachine
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function SM(cond As ExPred, target As StateMachine) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide(ExPred,StateMachine)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide(ExPred,StateMachine)
+  id: OnCollide(ExPred,StateMachine)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: OnCollide(ExPred, StateMachine)
+  nameWithType: BulletManager.SimpleBulletControls.OnCollide(ExPred, StateMachine)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide(ExPred, StateMachine)
+  type: Method
+  source:
+    id: OnCollide
+    path: ''
+    startLine: 2054
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nWhen a bullet collides, if the condition is true, spawn an iNode at the position and run an SM on it.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl OnCollide(ExPred cond, StateMachine target)
+    parameters:
+    - id: cond
+      type: ExPred
+    - id: target
+      type: StateMachine
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function OnCollide(cond As ExPred, target As StateMachine) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.Danmaku
+  commentId: N:Danmokou.Danmaku
+  name: Danmokou.Danmaku
+  nameWithType: Danmokou.Danmaku
+  fullName: Danmokou.Danmaku
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.X*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.X
+  name: X
+  nameWithType: BulletManager.SimpleBulletControls.X
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.X
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: ExPred
+  isExternal: true
+  name: ExPred
+  nameWithType: ExPred
+  fullName: ExPred
+- uid: Danmokou.Danmaku.BulletManager.exBulletControl
+  commentId: T:Danmokou.Danmaku.BulletManager.exBulletControl
+  parent: Danmokou.Danmaku
+  name: BulletManager.exBulletControl
+  nameWithType: BulletManager.exBulletControl
+  fullName: Danmokou.Danmaku.BulletManager.exBulletControl
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Y*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Y
+  name: Y
+  nameWithType: BulletManager.SimpleBulletControls.Y
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Y
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Time*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Time
+  name: Time
+  nameWithType: BulletManager.SimpleBulletControls.Time
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Time
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle
+  name: Restyle
+  nameWithType: BulletManager.SimpleBulletControls.Restyle
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Copy*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Copy
+  name: Copy
+  nameWithType: BulletManager.SimpleBulletControls.Copy
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Copy
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect
+  name: RestyleEffect
+  nameWithType: BulletManager.SimpleBulletControls.RestyleEffect
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.CopyNull*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.CopyNull
+  name: CopyNull
+  nameWithType: BulletManager.SimpleBulletControls.CopyNull
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.CopyNull
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull
+  name: Softcull
+  nameWithType: BulletManager.SimpleBulletControls.Softcull
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr
+  name: Softcull_noexpr
+  nameWithType: BulletManager.SimpleBulletControls.Softcull_noexpr
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr
+- uid: SoftcullProperties
+  commentId: '!:SoftcullProperties'
+  isExternal: true
+  name: SoftcullProperties
+  nameWithType: SoftcullProperties
+  fullName: SoftcullProperties
+- uid: Pred
+  isExternal: true
+  name: Pred
+  nameWithType: Pred
+  fullName: Pred
+- uid: Danmokou.Danmaku.BulletManager.cBulletControl
+  commentId: T:Danmokou.Danmaku.BulletManager.cBulletControl
+  parent: Danmokou.Danmaku
+  name: BulletManager.cBulletControl
+  nameWithType: BulletManager.cBulletControl
+  fullName: Danmokou.Danmaku.BulletManager.cBulletControl
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Cull*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Cull
+  name: Cull
+  nameWithType: BulletManager.SimpleBulletControls.Cull
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Cull
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY,ExPred)
+  isExternal: true
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX
+  name: FlipX
+  nameWithType: BulletManager.SimpleBulletControls.FlipX
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipY*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipY
+  name: FlipY
+  nameWithType: BulletManager.SimpleBulletControls.FlipY
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipY
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT
+  name: FlipXGT
+  nameWithType: BulletManager.SimpleBulletControls.FlipXGT
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT
+  name: FlipXLT
+  nameWithType: BulletManager.SimpleBulletControls.FlipXLT
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYGT*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYGT
+  name: FlipYGT
+  nameWithType: BulletManager.SimpleBulletControls.FlipYGT
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYGT
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYLT*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYLT
+  name: FlipYLT
+  nameWithType: BulletManager.SimpleBulletControls.FlipYLT
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipYLT
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX
+  name: DX
+  nameWithType: BulletManager.SimpleBulletControls.DX
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY
+  name: DY
+  nameWithType: BulletManager.SimpleBulletControls.DY
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT
+  name: DT
+  nameWithType: BulletManager.SimpleBulletControls.DT
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown
+  name: Slowdown
+  nameWithType: BulletManager.SimpleBulletControls.Slowdown
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze
+  name: Freeze
+  nameWithType: BulletManager.SimpleBulletControls.Freeze
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX
+  name: SFX
+  nameWithType: BulletManager.SimpleBulletControls.SFX
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force
+  name: Force
+  nameWithType: BulletManager.SimpleBulletControls.Force
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force
+- uid: VTP
+  commentId: '!:VTP'
+  isExternal: true
+  name: VTP
+  nameWithType: VTP
+  fullName: VTP
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2
+  name: SaveV2
+  nameWithType: BulletManager.SimpleBulletControls.SaveV2
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2
+- uid: System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[]
+  isExternal: true
+  name: (T1, T2, T3)<ReflectEx.Hoist<Vector2>, ExBPY, ExTP>[]
+  nameWithType: (T1, T2, T3)<ReflectEx.Hoist<Vector2>, ExBPY, ExTP>[]
+  fullName: System.ValueTuple<ReflectEx.Hoist<Vector2>, ExBPY, ExTP>[]
+  nameWithType.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)()
+  fullName.vb: System.ValueTuple(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)()
+  name.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)()
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: (T1, T2, T3)
+    nameWithType: (T1, T2, T3)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExTP
+    name: ExTP
+    nameWithType: ExTP
+    fullName: ExTP
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: (T1, T2, T3)
+    nameWithType: (T1, T2, T3)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExTP
+    name: ExTP
+    nameWithType: ExTP
+    fullName: ExTP
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF
+  name: SaveF
+  nameWithType: BulletManager.SimpleBulletControls.SaveF
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF
+- uid: System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[]
+  isExternal: true
+  name: (T1, T2, T3)<ReflectEx.Hoist<Single>, ExBPY, ExBPY>[]
+  nameWithType: (T1, T2, T3)<ReflectEx.Hoist<Single>, ExBPY, ExBPY>[]
+  fullName: System.ValueTuple<ReflectEx.Hoist<System.Single>, ExBPY, ExBPY>[]
+  nameWithType.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Single), ExBPY, ExBPY)()
+  fullName.vb: System.ValueTuple(Of ReflectEx.Hoist(Of System.Single), ExBPY, ExBPY)()
+  name.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Single), ExBPY, ExBPY)()
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: (T1, T2, T3)
+    nameWithType: (T1, T2, T3)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: (T1, T2, T3)
+    nameWithType: (T1, T2, T3)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2
+  name: UpdateV2
+  nameWithType: BulletManager.SimpleBulletControls.UpdateV2
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2
+- uid: System.ValueTuple{System.String,ExTP}[]
+  isExternal: true
+  name: (T1, T2)<String, ExTP>[]
+  nameWithType: (T1, T2)<String, ExTP>[]
+  fullName: System.ValueTuple<System.String, ExTP>[]
+  nameWithType.vb: (T1, T2)(Of String, ExTP)()
+  fullName.vb: System.ValueTuple(Of System.String, ExTP)()
+  name.vb: (T1, T2)(Of String, ExTP)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExTP
+    name: ExTP
+    nameWithType: ExTP
+    fullName: ExTP
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExTP
+    name: ExTP
+    nameWithType: ExTP
+    fullName: ExTP
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF
+  name: UpdateF
+  nameWithType: BulletManager.SimpleBulletControls.UpdateF
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF
+- uid: System.ValueTuple{System.String,ExBPY}[]
+  isExternal: true
+  name: (T1, T2)<String, ExBPY>[]
+  nameWithType: (T1, T2)<String, ExBPY>[]
+  fullName: System.ValueTuple<System.String, ExBPY>[]
+  nameWithType.vb: (T1, T2)(Of String, ExBPY)()
+  fullName.vb: System.ValueTuple(Of System.String, ExBPY)()
+  name.vb: (T1, T2)(Of String, ExBPY)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event
+  name: Event
+  nameWithType: BulletManager.SimpleBulletControls.Event
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event
+- uid: System.Func{TExArgCtx,TEx{{T}}}
+  commentId: T:System.Func{TExArgCtx,TEx{``0}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<T>>
+  nameWithType: Func<TExArgCtx, TEx<T>>
+  fullName: System.Func<TExArgCtx, TEx<T>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of T))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of T))
+  name.vb: Func(Of TExArgCtx, TEx(Of T))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0
+  name: Event0
+  nameWithType: BulletManager.SimpleBulletControls.Event0
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch
+  name: Batch
+  nameWithType: BulletManager.SimpleBulletControls.Batch
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch
+- uid: Danmokou.Danmaku.BulletManager.exBulletControl[]
+  isExternal: true
+  name: BulletManager.exBulletControl[]
+  nameWithType: BulletManager.exBulletControl[]
+  fullName: Danmokou.Danmaku.BulletManager.exBulletControl[]
+  nameWithType.vb: BulletManager.exBulletControl()
+  fullName.vb: Danmokou.Danmaku.BulletManager.exBulletControl()
+  name.vb: BulletManager.exBulletControl()
+  spec.csharp:
+  - uid: Danmokou.Danmaku.BulletManager.exBulletControl
+    name: BulletManager.exBulletControl
+    nameWithType: BulletManager.exBulletControl
+    fullName: Danmokou.Danmaku.BulletManager.exBulletControl
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Danmokou.Danmaku.BulletManager.exBulletControl
+    name: BulletManager.exBulletControl
+    nameWithType: BulletManager.exBulletControl
+    fullName: Danmokou.Danmaku.BulletManager.exBulletControl
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP
+  name: BatchP
+  nameWithType: BulletManager.SimpleBulletControls.BatchP
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.BatchP
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM
+  name: SM
+  nameWithType: BulletManager.SimpleBulletControls.SM
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM
+- uid: StateMachine
+  isExternal: true
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: StateMachine
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide
+  name: OnCollide
+  nameWithType: BulletManager.SimpleBulletControls.OnCollide
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide

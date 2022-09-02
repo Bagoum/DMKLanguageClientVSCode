@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.Blocking
+  commentId: T:Danmokou.Core.Blocking
+  id: Blocking
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.Blocking.BLOCKING
+  - Danmokou.Core.Blocking.NONBLOCKING
+  langs:
+  - csharp
+  - vb
+  name: Blocking
+  nameWithType: Blocking
+  fullName: Danmokou.Core.Blocking
+  type: Enum
+  source:
+    id: Blocking
+    path: ''
+    startLine: 1047
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nEnum to describe an operation that may optionally block.\n"
+  example: []
+  syntax:
+    content: public enum Blocking
+    content.vb: Public Enum Blocking
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.Blocking.BLOCKING
+  commentId: F:Danmokou.Core.Blocking.BLOCKING
+  id: BLOCKING
+  parent: Danmokou.Core.Blocking
+  langs:
+  - csharp
+  - vb
+  name: BLOCKING
+  nameWithType: Blocking.BLOCKING
+  fullName: Danmokou.Core.Blocking.BLOCKING
+  type: Field
+  source:
+    id: BLOCKING
+    path: ''
+    startLine: 1051
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nThe operation is blocking and must finish before the next operation.\n"
+  example: []
+  syntax:
+    content: BLOCKING = 0
+    return:
+      type: Danmokou.Core.Blocking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Blocking.NONBLOCKING
+  commentId: F:Danmokou.Core.Blocking.NONBLOCKING
+  id: NONBLOCKING
+  parent: Danmokou.Core.Blocking
+  langs:
+  - csharp
+  - vb
+  name: NONBLOCKING
+  nameWithType: Blocking.NONBLOCKING
+  fullName: Danmokou.Core.Blocking.NONBLOCKING
+  type: Field
+  source:
+    id: NONBLOCKING
+    path: ''
+    startLine: 1055
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nThe operation is nonblocking; the next operation may begin immediately.\n"
+  example: []
+  syntax:
+    content: NONBLOCKING = 1
+    return:
+      type: Danmokou.Core.Blocking
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.Blocking
+  commentId: T:Danmokou.Core.Blocking
+  parent: Danmokou.Core
+  name: Blocking
+  nameWithType: Blocking
+  fullName: Danmokou.Core.Blocking

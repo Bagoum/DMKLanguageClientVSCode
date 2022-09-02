@@ -1,0 +1,486 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Behavior.BehaviorEntity.PoolControls
+  commentId: T:Danmokou.Behavior.BehaviorEntity.PoolControls
+  id: BehaviorEntity.PoolControls
+  parent: Danmokou.Behavior
+  children:
+  - Danmokou.Behavior.BehaviorEntity.PoolControls.AllowCull(System.Boolean)
+  - Danmokou.Behavior.BehaviorEntity.PoolControls.Reset
+  - Danmokou.Behavior.BehaviorEntity.PoolControls.SoftCullAll(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BehaviorEntity.PoolControls
+  nameWithType: BehaviorEntity.PoolControls
+  fullName: Danmokou.Behavior.BehaviorEntity.PoolControls
+  type: Class
+  source:
+    id: PoolControls
+    path: ''
+    startLine: 903
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nRepository for functions that can be applied to BehaviorEntities via the `behpool-control` command,\nincluding complex bullets such as lasers and pathers.\nThese functions are applied to the metadata applied to each BehaviorEntity style,\nrather than the objects themselves.\n"
+  example: []
+  syntax:
+    content: public static class PoolControls
+    content.vb: Public Module PoolControls
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Behavior.BehaviorEntity.PoolControls.Reset
+  commentId: M:Danmokou.Behavior.BehaviorEntity.PoolControls.Reset
+  id: Reset
+  parent: Danmokou.Behavior.BehaviorEntity.PoolControls
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: BehaviorEntity.PoolControls.Reset()
+  fullName: Danmokou.Behavior.BehaviorEntity.PoolControls.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 909
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nClear the bullet controls on a pool.\n"
+  example: []
+  syntax:
+    content: public static BehPF Reset()
+    return:
+      type: Danmokou.Behavior.BehPF
+      description: ''
+    content.vb: Public Shared Function Reset As BehPF
+  overload: Danmokou.Behavior.BehaviorEntity.PoolControls.Reset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.PoolControls.AllowCull(System.Boolean)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.PoolControls.AllowCull(System.Boolean)
+  id: AllowCull(System.Boolean)
+  parent: Danmokou.Behavior.BehaviorEntity.PoolControls
+  langs:
+  - csharp
+  - vb
+  name: AllowCull(Boolean)
+  nameWithType: BehaviorEntity.PoolControls.AllowCull(Boolean)
+  fullName: Danmokou.Behavior.BehaviorEntity.PoolControls.AllowCull(System.Boolean)
+  type: Method
+  source:
+    id: AllowCull
+    path: ''
+    startLine: 920
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nSet whether or not a pool can cull bullets that are out of camera range.\n"
+  example: []
+  syntax:
+    content: public static BehPF AllowCull(bool cullActive)
+    parameters:
+    - id: cullActive
+      type: System.Boolean
+      description: True iff camera culling is allowed.
+    return:
+      type: Danmokou.Behavior.BehPF
+      description: ''
+    content.vb: Public Shared Function AllowCull(cullActive As Boolean) As BehPF
+  overload: Danmokou.Behavior.BehaviorEntity.PoolControls.AllowCull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.PoolControls.SoftCullAll(System.String)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.PoolControls.SoftCullAll(System.String)
+  id: SoftCullAll(System.String)
+  parent: Danmokou.Behavior.BehaviorEntity.PoolControls
+  langs:
+  - csharp
+  - vb
+  name: SoftCullAll(String)
+  nameWithType: BehaviorEntity.PoolControls.SoftCullAll(String)
+  fullName: Danmokou.Behavior.BehaviorEntity.PoolControls.SoftCullAll(System.String)
+  type: Method
+  source:
+    id: SoftCullAll
+    path: ''
+    startLine: 928
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nUnconditionally softcull all bullets in a pool with an automatically-determined cull style.\n"
+  example: []
+  syntax:
+    content: public static BehPF SoftCullAll(string targetFormat)
+    parameters:
+    - id: targetFormat
+      type: System.String
+      description: Base cull style, eg. cwheel
+    return:
+      type: Danmokou.Behavior.BehPF
+      description: ''
+    content.vb: Public Shared Function SoftCullAll(targetFormat As String) As BehPF
+  overload: Danmokou.Behavior.BehaviorEntity.PoolControls.SoftCullAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.Behavior
+  commentId: N:Danmokou.Behavior
+  name: Danmokou.Behavior
+  nameWithType: Danmokou.Behavior
+  fullName: Danmokou.Behavior
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Behavior.BehaviorEntity.PoolControls.Reset*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.PoolControls.Reset
+  name: Reset
+  nameWithType: BehaviorEntity.PoolControls.Reset
+  fullName: Danmokou.Behavior.BehaviorEntity.PoolControls.Reset
+- uid: Danmokou.Behavior.BehPF
+  commentId: T:Danmokou.Behavior.BehPF
+  parent: Danmokou.Behavior
+  name: BehPF
+  nameWithType: BehPF
+  fullName: Danmokou.Behavior.BehPF
+- uid: Danmokou.Behavior.BehaviorEntity.PoolControls.AllowCull*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.PoolControls.AllowCull
+  name: AllowCull
+  nameWithType: BehaviorEntity.PoolControls.AllowCull
+  fullName: Danmokou.Behavior.BehaviorEntity.PoolControls.AllowCull
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.Behavior.BehaviorEntity.PoolControls.SoftCullAll*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.PoolControls.SoftCullAll
+  name: SoftCullAll
+  nameWithType: BehaviorEntity.PoolControls.SoftCullAll
+  fullName: Danmokou.Behavior.BehaviorEntity.PoolControls.SoftCullAll
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

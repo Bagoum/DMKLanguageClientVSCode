@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.EventLASM.EventTask
+  commentId: T:Danmokou.SM.EventLASM.EventTask
+  id: EventLASM.EventTask
+  parent: Danmokou.SM
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EventLASM.EventTask
+  nameWithType: EventLASM.EventTask
+  fullName: Danmokou.SM.EventLASM.EventTask
+  type: Delegate
+  source:
+    id: EventTask
+    path: ''
+    startLine: 13232
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public delegate Task EventTask(SMHandoff smh);
+    parameters:
+    - id: smh
+      type: Danmokou.SM.SMHandoff
+    return:
+      type: Task
+    content.vb: Public Delegate Function EventTask(smh As SMHandoff) As Task
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: Danmokou.SM.SMHandoff
+  commentId: T:Danmokou.SM.SMHandoff
+  parent: Danmokou.SM
+  name: SMHandoff
+  nameWithType: SMHandoff
+  fullName: Danmokou.SM.SMHandoff
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task

@@ -1,0 +1,669 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.CommonHandoff
+  id: CommonHandoff
+  parent: Danmokou.Danmaku.Patterns
+  children:
+  - Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx)
+  - Danmokou.Danmaku.Patterns.CommonHandoff.bc
+  - Danmokou.Danmaku.Patterns.CommonHandoff.Copy(System.String)
+  - Danmokou.Danmaku.Patterns.CommonHandoff.cT
+  - Danmokou.Danmaku.Patterns.CommonHandoff.Dispose
+  - Danmokou.Danmaku.Patterns.CommonHandoff.gcx
+  langs:
+  - csharp
+  - vb
+  name: CommonHandoff
+  nameWithType: CommonHandoff
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff
+  type: Struct
+  source:
+    id: CommonHandoff
+    path: ''
+    startLine: 4606
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: 'public struct CommonHandoff : IDisposable'
+    content.vb: >-
+      Public Structure CommonHandoff
+          Implements IDisposable
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.cT
+  commentId: F:Danmokou.Danmaku.Patterns.CommonHandoff.cT
+  id: cT
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: cT
+  nameWithType: CommonHandoff.cT
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.cT
+  type: Field
+  source:
+    id: cT
+    path: ''
+    startLine: 4607
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly ICancellee cT
+    return:
+      type: ICancellee
+    content.vb: Public ReadOnly cT As ICancellee
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.bc
+  commentId: F:Danmokou.Danmaku.Patterns.CommonHandoff.bc
+  id: bc
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: bc
+  nameWithType: CommonHandoff.bc
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.bc
+  type: Field
+  source:
+    id: bc
+    path: ''
+    startLine: 4608
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public DelegatedCreator bc
+    return:
+      type: DelegatedCreator
+    content.vb: Public bc As DelegatedCreator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.gcx
+  commentId: F:Danmokou.Danmaku.Patterns.CommonHandoff.gcx
+  id: gcx
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: gcx
+  nameWithType: CommonHandoff.gcx
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.gcx
+  type: Field
+  source:
+    id: gcx
+    path: ''
+    startLine: 4609
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly GenCtx gcx
+    return:
+      type: GenCtx
+    content.vb: Public ReadOnly gcx As GenCtx
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx)
+  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx)
+  id: '#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx)'
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: CommonHandoff(ICancellee, Nullable<DelegatedCreator>, GenCtx)
+  nameWithType: CommonHandoff.CommonHandoff(ICancellee, Nullable<DelegatedCreator>, GenCtx)
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.CommonHandoff(ICancellee, System.Nullable<DelegatedCreator>, GenCtx)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 4614
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nGCX is automatically copied.\n"
+  example: []
+  syntax:
+    content: public CommonHandoff(ICancellee cT, DelegatedCreator? bc, GenCtx gcx)
+    parameters:
+    - id: cT
+      type: ICancellee
+    - id: bc
+      type: System.Nullable{DelegatedCreator}
+    - id: gcx
+      type: GenCtx
+    content.vb: Public Sub New(cT As ICancellee, bc As DelegatedCreator?, gcx As GenCtx)
+  overload: Danmokou.Danmaku.Patterns.CommonHandoff.#ctor*
+  nameWithType.vb: CommonHandoff.CommonHandoff(ICancellee, Nullable(Of DelegatedCreator), GenCtx)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.CommonHandoff.CommonHandoff(ICancellee, System.Nullable(Of DelegatedCreator), GenCtx)
+  name.vb: CommonHandoff(ICancellee, Nullable(Of DelegatedCreator), GenCtx)
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.Copy(System.String)
+  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.Copy(System.String)
+  id: Copy(System.String)
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: Copy(String)
+  nameWithType: CommonHandoff.Copy(String)
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Copy(System.String)
+  type: Method
+  source:
+    id: Copy
+    path: ''
+    startLine: 4620
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly CommonHandoff Copy(string newStyle = null)
+    parameters:
+    - id: newStyle
+      type: System.String
+    return:
+      type: Danmokou.Danmaku.Patterns.CommonHandoff
+    content.vb: Public Function Copy(newStyle As String = Nothing) As CommonHandoff
+  overload: Danmokou.Danmaku.Patterns.CommonHandoff.Copy*
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.Dispose
+  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.Dispose
+  id: Dispose
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: CommonHandoff.Dispose()
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 4627
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public readonly void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Danmokou.Danmaku.Patterns.CommonHandoff.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: ICancellee
+  isExternal: true
+  name: ICancellee
+  nameWithType: ICancellee
+  fullName: ICancellee
+- uid: DelegatedCreator
+  isExternal: true
+  name: DelegatedCreator
+  nameWithType: DelegatedCreator
+  fullName: DelegatedCreator
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.#ctor*
+  commentId: Overload:Danmokou.Danmaku.Patterns.CommonHandoff.#ctor
+  name: CommonHandoff
+  nameWithType: CommonHandoff.CommonHandoff
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.CommonHandoff
+- uid: System.Nullable{DelegatedCreator}
+  commentId: T:System.Nullable{DelegatedCreator}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DelegatedCreator>
+  nameWithType: Nullable<DelegatedCreator>
+  fullName: System.Nullable<DelegatedCreator>
+  nameWithType.vb: Nullable(Of DelegatedCreator)
+  fullName.vb: System.Nullable(Of DelegatedCreator)
+  name.vb: Nullable(Of DelegatedCreator)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DelegatedCreator
+    name: DelegatedCreator
+    nameWithType: DelegatedCreator
+    fullName: DelegatedCreator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DelegatedCreator
+    name: DelegatedCreator
+    nameWithType: DelegatedCreator
+    fullName: DelegatedCreator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.Copy*
+  commentId: Overload:Danmokou.Danmaku.Patterns.CommonHandoff.Copy
+  name: Copy
+  nameWithType: CommonHandoff.Copy
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Copy
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.CommonHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: CommonHandoff
+  nameWithType: CommonHandoff
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.Dispose*
+  commentId: Overload:Danmokou.Danmaku.Patterns.CommonHandoff.Dispose
+  name: Dispose
+  nameWithType: CommonHandoff.Dispose
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

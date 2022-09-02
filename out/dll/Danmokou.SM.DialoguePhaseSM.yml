@@ -1,0 +1,762 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.DialoguePhaseSM
+  commentId: T:Danmokou.SM.DialoguePhaseSM
+  id: DialoguePhaseSM
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.DialoguePhaseSM.#ctor(Danmokou.SM.PhaseProperties,System.String)
+  langs:
+  - csharp
+  - vb
+  name: DialoguePhaseSM
+  nameWithType: DialoguePhaseSM
+  fullName: Danmokou.SM.DialoguePhaseSM
+  type: Class
+  source:
+    id: DialoguePhaseSM
+    path: ''
+    startLine: 13082
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: 'public class DialoguePhaseSM : PhaseSM'
+    content.vb: >-
+      Public Class DialoguePhaseSM
+          Inherits PhaseSM
+  inheritance:
+  - System.Object
+  - Danmokou.SM.StateMachine
+  - Danmokou.SM.SequentialSM
+  - Danmokou.SM.PhaseSM
+  inheritedMembers:
+  - Danmokou.SM.PhaseSM.props
+  - Danmokou.SM.PhaseSM.MakeContext(Danmokou.SM.PatternContext)
+  - Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
+  - Danmokou.SM.PhaseSM.Start(Danmokou.SM.SMHandoff)
+  - Danmokou.SM.PhaseSM.Start(Danmokou.SM.PhaseContext,Danmokou.SM.SMHandoff,System.Nullable{IUIManager},IReadOnlyList{Enemy},System.Action{System.Nullable{IBackgroundOrchestrator}})
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.DialoguePhaseSM.#ctor(Danmokou.SM.PhaseProperties,System.String)
+  commentId: M:Danmokou.SM.DialoguePhaseSM.#ctor(Danmokou.SM.PhaseProperties,System.String)
+  id: '#ctor(Danmokou.SM.PhaseProperties,System.String)'
+  parent: Danmokou.SM.DialoguePhaseSM
+  langs:
+  - csharp
+  - vb
+  name: DialoguePhaseSM(PhaseProperties, String)
+  nameWithType: DialoguePhaseSM.DialoguePhaseSM(PhaseProperties, String)
+  fullName: Danmokou.SM.DialoguePhaseSM.DialoguePhaseSM(Danmokou.SM.PhaseProperties, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13083
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public DialoguePhaseSM(PhaseProperties props, string file)
+    parameters:
+    - id: props
+      type: Danmokou.SM.PhaseProperties
+    - id: file
+      type: System.String
+    content.vb: Public Sub New(props As PhaseProperties, file As String)
+  overload: Danmokou.SM.DialoguePhaseSM.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.SequentialSM
+  commentId: T:Danmokou.SM.SequentialSM
+  parent: Danmokou.SM
+  name: SequentialSM
+  nameWithType: SequentialSM
+  fullName: Danmokou.SM.SequentialSM
+- uid: Danmokou.SM.PhaseSM
+  commentId: T:Danmokou.SM.PhaseSM
+  parent: Danmokou.SM
+  name: PhaseSM
+  nameWithType: PhaseSM
+  fullName: Danmokou.SM.PhaseSM
+- uid: Danmokou.SM.PhaseSM.props
+  commentId: F:Danmokou.SM.PhaseSM.props
+  parent: Danmokou.SM.PhaseSM
+  name: props
+  nameWithType: PhaseSM.props
+  fullName: Danmokou.SM.PhaseSM.props
+- uid: Danmokou.SM.PhaseSM.MakeContext(Danmokou.SM.PatternContext)
+  commentId: M:Danmokou.SM.PhaseSM.MakeContext(Danmokou.SM.PatternContext)
+  parent: Danmokou.SM.PhaseSM
+  name: MakeContext(PatternContext)
+  nameWithType: PhaseSM.MakeContext(PatternContext)
+  fullName: Danmokou.SM.PhaseSM.MakeContext(Danmokou.SM.PatternContext)
+  spec.csharp:
+  - uid: Danmokou.SM.PhaseSM.MakeContext(Danmokou.SM.PatternContext)
+    name: MakeContext
+    nameWithType: PhaseSM.MakeContext
+    fullName: Danmokou.SM.PhaseSM.MakeContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.PatternContext
+    name: PatternContext
+    nameWithType: PatternContext
+    fullName: Danmokou.SM.PatternContext
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.PhaseSM.MakeContext(Danmokou.SM.PatternContext)
+    name: MakeContext
+    nameWithType: PhaseSM.MakeContext
+    fullName: Danmokou.SM.PhaseSM.MakeContext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.PatternContext
+    name: PatternContext
+    nameWithType: PatternContext
+    fullName: Danmokou.SM.PatternContext
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
+  commentId: M:Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
+  parent: Danmokou.SM.PhaseSM
+  isExternal: true
+  name: PrePrepareBackgroundGraphics(PhaseContext, Nullable<IBackgroundOrchestrator>)
+  nameWithType: PhaseSM.PrePrepareBackgroundGraphics(PhaseContext, Nullable<IBackgroundOrchestrator>)
+  fullName: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext, System.Nullable<IBackgroundOrchestrator>)
+  nameWithType.vb: PhaseSM.PrePrepareBackgroundGraphics(PhaseContext, Nullable(Of IBackgroundOrchestrator))
+  fullName.vb: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext, System.Nullable(Of IBackgroundOrchestrator))
+  name.vb: PrePrepareBackgroundGraphics(PhaseContext, Nullable(Of IBackgroundOrchestrator))
+  spec.csharp:
+  - uid: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
+    name: PrePrepareBackgroundGraphics
+    nameWithType: PhaseSM.PrePrepareBackgroundGraphics
+    fullName: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.PhaseContext
+    name: PhaseContext
+    nameWithType: PhaseContext
+    fullName: Danmokou.SM.PhaseContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IBackgroundOrchestrator
+    name: IBackgroundOrchestrator
+    nameWithType: IBackgroundOrchestrator
+    fullName: IBackgroundOrchestrator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
+    name: PrePrepareBackgroundGraphics
+    nameWithType: PhaseSM.PrePrepareBackgroundGraphics
+    fullName: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.PhaseContext
+    name: PhaseContext
+    nameWithType: PhaseContext
+    fullName: Danmokou.SM.PhaseContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IBackgroundOrchestrator
+    name: IBackgroundOrchestrator
+    nameWithType: IBackgroundOrchestrator
+    fullName: IBackgroundOrchestrator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PhaseSM.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.PhaseSM.Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.PhaseSM
+  name: Start(SMHandoff)
+  nameWithType: PhaseSM.Start(SMHandoff)
+  fullName: Danmokou.SM.PhaseSM.Start(Danmokou.SM.SMHandoff)
+  spec.csharp:
+  - uid: Danmokou.SM.PhaseSM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: PhaseSM.Start
+    fullName: Danmokou.SM.PhaseSM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.PhaseSM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: PhaseSM.Start
+    fullName: Danmokou.SM.PhaseSM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PhaseSM.Start(Danmokou.SM.PhaseContext,Danmokou.SM.SMHandoff,System.Nullable{IUIManager},IReadOnlyList{Enemy},System.Action{System.Nullable{IBackgroundOrchestrator}})
+  commentId: M:Danmokou.SM.PhaseSM.Start(Danmokou.SM.PhaseContext,Danmokou.SM.SMHandoff,System.Nullable{IUIManager},IReadOnlyList{Enemy},System.Action{System.Nullable{IBackgroundOrchestrator}})
+  parent: Danmokou.SM.PhaseSM
+  isExternal: true
+  name: Start(PhaseContext, SMHandoff, Nullable<IUIManager>, IReadOnlyList<Enemy>, Action<Nullable<IBackgroundOrchestrator>>)
+  nameWithType: PhaseSM.Start(PhaseContext, SMHandoff, Nullable<IUIManager>, IReadOnlyList<Enemy>, Action<Nullable<IBackgroundOrchestrator>>)
+  fullName: Danmokou.SM.PhaseSM.Start(Danmokou.SM.PhaseContext, Danmokou.SM.SMHandoff, System.Nullable<IUIManager>, IReadOnlyList<Enemy>, System.Action<System.Nullable<IBackgroundOrchestrator>>)
+  nameWithType.vb: PhaseSM.Start(PhaseContext, SMHandoff, Nullable(Of IUIManager), IReadOnlyList(Of Enemy), Action(Of Nullable(Of IBackgroundOrchestrator)))
+  fullName.vb: Danmokou.SM.PhaseSM.Start(Danmokou.SM.PhaseContext, Danmokou.SM.SMHandoff, System.Nullable(Of IUIManager), IReadOnlyList(Of Enemy), System.Action(Of System.Nullable(Of IBackgroundOrchestrator)))
+  name.vb: Start(PhaseContext, SMHandoff, Nullable(Of IUIManager), IReadOnlyList(Of Enemy), Action(Of Nullable(Of IBackgroundOrchestrator)))
+  spec.csharp:
+  - uid: Danmokou.SM.PhaseSM.Start(Danmokou.SM.PhaseContext,Danmokou.SM.SMHandoff,System.Nullable{IUIManager},IReadOnlyList{Enemy},System.Action{System.Nullable{IBackgroundOrchestrator}})
+    name: Start
+    nameWithType: PhaseSM.Start
+    fullName: Danmokou.SM.PhaseSM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.PhaseContext
+    name: PhaseContext
+    nameWithType: PhaseContext
+    fullName: Danmokou.SM.PhaseContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IUIManager
+    name: IUIManager
+    nameWithType: IUIManager
+    fullName: IUIManager
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IBackgroundOrchestrator
+    name: IBackgroundOrchestrator
+    nameWithType: IBackgroundOrchestrator
+    fullName: IBackgroundOrchestrator
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.PhaseSM.Start(Danmokou.SM.PhaseContext,Danmokou.SM.SMHandoff,System.Nullable{IUIManager},IReadOnlyList{Enemy},System.Action{System.Nullable{IBackgroundOrchestrator}})
+    name: Start
+    nameWithType: PhaseSM.Start
+    fullName: Danmokou.SM.PhaseSM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.PhaseContext
+    name: PhaseContext
+    nameWithType: PhaseContext
+    fullName: Danmokou.SM.PhaseContext
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IUIManager
+    name: IUIManager
+    nameWithType: IUIManager
+    fullName: IUIManager
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Enemy
+    name: Enemy
+    nameWithType: Enemy
+    fullName: Enemy
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IBackgroundOrchestrator
+    name: IBackgroundOrchestrator
+    nameWithType: IBackgroundOrchestrator
+    fullName: IBackgroundOrchestrator
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.DialoguePhaseSM.#ctor*
+  commentId: Overload:Danmokou.SM.DialoguePhaseSM.#ctor
+  name: DialoguePhaseSM
+  nameWithType: DialoguePhaseSM.DialoguePhaseSM
+  fullName: Danmokou.SM.DialoguePhaseSM.DialoguePhaseSM
+- uid: Danmokou.SM.PhaseProperties
+  commentId: T:Danmokou.SM.PhaseProperties
+  parent: Danmokou.SM
+  name: PhaseProperties
+  nameWithType: PhaseProperties
+  fullName: Danmokou.SM.PhaseProperties
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,1548 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.VTPRepo
+  commentId: T:Danmokou.DMath.Functions.VTPRepo
+  id: VTPRepo
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.VTPRepo.DOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.VTPRepo.DTPOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
+  - Danmokou.DMath.Functions.VTPRepo.ExNoVTP
+  - Danmokou.DMath.Functions.VTPRepo.If(ExPred,ExVTP,ExVTP)
+  - Danmokou.DMath.Functions.VTPRepo.IsNone(Danmokou.DMath.VTP)
+  - Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias[],ExVTP)
+  - Danmokou.DMath.Functions.VTPRepo.LetFloats(System.ValueTuple{System.String,ExBPY}[],ExVTP)
+  - Danmokou.DMath.Functions.VTPRepo.LetV2s(System.ValueTuple{System.String,ExTP}[],ExVTP)
+  - Danmokou.DMath.Functions.VTPRepo.NoVTP
+  - Danmokou.DMath.Functions.VTPRepo.NROffset(ExTP)
+  - Danmokou.DMath.Functions.VTPRepo.NRVelocity(ExTP)
+  - Danmokou.DMath.Functions.VTPRepo.Null
+  - Danmokou.DMath.Functions.VTPRepo.Offset(ExTP,ExTP)
+  - Danmokou.DMath.Functions.VTPRepo.Offset3D(ExTP3,ExTP3)
+  - Danmokou.DMath.Functions.VTPRepo.Polar(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.VTPRepo.Polar2(ExTP)
+  - Danmokou.DMath.Functions.VTPRepo.ROffset(ExTP)
+  - Danmokou.DMath.Functions.VTPRepo.RVelocity(ExTP)
+  - Danmokou.DMath.Functions.VTPRepo.Velocity(ExTP,ExTP)
+  - Danmokou.DMath.Functions.VTPRepo.Velocity3D(ExTP3,ExTP3)
+  - Danmokou.DMath.Functions.VTPRepo.VPolar(ExBPY,ExBPY)
+  langs:
+  - csharp
+  - vb
+  name: VTPRepo
+  nameWithType: VTPRepo
+  fullName: Danmokou.DMath.Functions.VTPRepo
+  type: Class
+  source:
+    id: VTPRepo
+    path: ''
+    startLine: 9377
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRepository for movement functions.\n<br />All functions are in two dimensions unless they have the &quot;3D&quot; suffix.\n"
+  example: []
+  syntax:
+    content: public static class VTPRepo
+    content.vb: Public Module VTPRepo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.VTPRepo.IsNone(Danmokou.DMath.VTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.IsNone(Danmokou.DMath.VTP)
+  id: IsNone(Danmokou.DMath.VTP)
+  isExtensionMethod: true
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: IsNone(VTP)
+  nameWithType: VTPRepo.IsNone(VTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.IsNone(Danmokou.DMath.VTP)
+  type: Method
+  source:
+    id: IsNone
+    path: ''
+    startLine: 9379
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static bool IsNone(this VTP func)
+    parameters:
+    - id: func
+      type: Danmokou.DMath.VTP
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNone(func As VTP) As Boolean
+  overload: Danmokou.DMath.Functions.VTPRepo.IsNone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.ExNoVTP
+  commentId: F:Danmokou.DMath.Functions.VTPRepo.ExNoVTP
+  id: ExNoVTP
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: ExNoVTP
+  nameWithType: VTPRepo.ExNoVTP
+  fullName: Danmokou.DMath.Functions.VTPRepo.ExNoVTP
+  type: Field
+  source:
+    id: ExNoVTP
+    path: ''
+    startLine: 9382
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static readonly ExVTP ExNoVTP
+    return:
+      type: ExVTP
+    content.vb: Public Shared ReadOnly ExNoVTP As ExVTP
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.Functions.VTPRepo.NoVTP
+  commentId: F:Danmokou.DMath.Functions.VTPRepo.NoVTP
+  id: NoVTP
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: NoVTP
+  nameWithType: VTPRepo.NoVTP
+  fullName: Danmokou.DMath.Functions.VTPRepo.NoVTP
+  type: Field
+  source:
+    id: NoVTP
+    path: ''
+    startLine: 9383
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static readonly VTP NoVTP
+    return:
+      type: Danmokou.DMath.VTP
+    content.vb: Public Shared ReadOnly NoVTP As VTP
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.Functions.VTPRepo.Null
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.Null
+  id: "Null"
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Null()
+  nameWithType: VTPRepo.Null()
+  fullName: Danmokou.DMath.Functions.VTPRepo.Null()
+  type: Method
+  source:
+    id: "Null"
+    path: ''
+    startLine: 9389
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nNo movement.\n"
+  example: []
+  syntax:
+    content: public static ExVTP Null()
+    return:
+      type: ExVTP
+    content.vb: Public Shared Function Null As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.Null*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.If(ExPred,ExVTP,ExVTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.If(ExPred,ExVTP,ExVTP)
+  id: If(ExPred,ExVTP,ExVTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: If(ExPred, ExVTP, ExVTP)
+  nameWithType: VTPRepo.If(ExPred, ExVTP, ExVTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.If(ExPred, ExVTP, ExVTP)
+  type: Method
+  source:
+    id: If
+    path: ''
+    startLine: 9396
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSwitch between path functions based on a condition.\n<br />You can use this to smoothly switch from offset to velocity equations,\nbut switching from velocity to offset will give you strange results. \n"
+  example: []
+  syntax:
+    content: public static ExVTP If(ExPred cond, ExVTP ifTrue, ExVTP ifFalse)
+    parameters:
+    - id: cond
+      type: ExPred
+    - id: ifTrue
+      type: ExVTP
+    - id: ifFalse
+      type: ExVTP
+    return:
+      type: ExVTP
+    content.vb: Public Shared Function If(cond As ExPred, ifTrue As ExVTP, ifFalse As ExVTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.If*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.RVelocity(ExTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.RVelocity(ExTP)
+  id: RVelocity(ExTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: RVelocity(ExTP)
+  nameWithType: VTPRepo.RVelocity(ExTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.RVelocity(ExTP)
+  type: Method
+  source:
+    id: RVelocity
+    path: ''
+    startLine: 9404
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with Cartesian rotational velocity only.\n"
+  example: []
+  syntax:
+    content: public static ExVTP RVelocity(ExTP rv)
+    parameters:
+    - id: rv
+      type: ExTP
+      description: Rotational velocity parametric
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function RVelocity(rv As ExTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.RVelocity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.NRVelocity(ExTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.NRVelocity(ExTP)
+  id: NRVelocity(ExTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: NRVelocity(ExTP)
+  nameWithType: VTPRepo.NRVelocity(ExTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.NRVelocity(ExTP)
+  type: Method
+  source:
+    id: NRVelocity
+    path: ''
+    startLine: 9412
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with Cartesian nonrotational velocity only.\n"
+  example: []
+  syntax:
+    content: public static ExVTP NRVelocity(ExTP nrv)
+    parameters:
+    - id: nrv
+      type: ExTP
+      description: Nonrotational velocity parametric
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function NRVelocity(nrv As ExTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.NRVelocity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.Velocity(ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.Velocity(ExTP,ExTP)
+  id: Velocity(ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Velocity(ExTP, ExTP)
+  nameWithType: VTPRepo.Velocity(ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.Velocity(ExTP, ExTP)
+  type: Method
+  source:
+    id: Velocity
+    path: ''
+    startLine: 9421
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with Cartesian rotational velocity and nonrotational velocity.\n"
+  example: []
+  syntax:
+    content: public static ExVTP Velocity(ExTP rv, ExTP nrv)
+    parameters:
+    - id: rv
+      type: ExTP
+      description: Rotational velocity parametric
+    - id: nrv
+      type: ExTP
+      description: Nonrotational velocity parametric
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function Velocity(rv As ExTP, nrv As ExTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.Velocity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.Velocity3D(ExTP3,ExTP3)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.Velocity3D(ExTP3,ExTP3)
+  id: Velocity3D(ExTP3,ExTP3)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Velocity3D(ExTP3, ExTP3)
+  nameWithType: VTPRepo.Velocity3D(ExTP3, ExTP3)
+  fullName: Danmokou.DMath.Functions.VTPRepo.Velocity3D(ExTP3, ExTP3)
+  type: Method
+  source:
+    id: Velocity3D
+    path: ''
+    startLine: 9431
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with Cartesian rotational velocity and nonrotational velocity\nin three dimensions.\n"
+  example: []
+  syntax:
+    content: public static ExVTP Velocity3D(ExTP3 rv, ExTP3 nrv)
+    parameters:
+    - id: rv
+      type: ExTP3
+      description: Rotational velocity parametric
+    - id: nrv
+      type: ExTP3
+      description: Nonrotational velocity parametric
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function Velocity3D(rv As ExTP3, nrv As ExTP3) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.Velocity3D*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.ROffset(ExTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.ROffset(ExTP)
+  id: ROffset(ExTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: ROffset(ExTP)
+  nameWithType: VTPRepo.ROffset(ExTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.ROffset(ExTP)
+  type: Method
+  source:
+    id: ROffset
+    path: ''
+    startLine: 9438
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with Cartesian rotational offset only.\n"
+  example: []
+  syntax:
+    content: public static ExVTP ROffset(ExTP rp)
+    parameters:
+    - id: rp
+      type: ExTP
+      description: Rotational offset parametric
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function ROffset(rp As ExTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.ROffset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.NROffset(ExTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.NROffset(ExTP)
+  id: NROffset(ExTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: NROffset(ExTP)
+  nameWithType: VTPRepo.NROffset(ExTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.NROffset(ExTP)
+  type: Method
+  source:
+    id: NROffset
+    path: ''
+    startLine: 9445
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with Cartesian nonrotational offset only.\n"
+  example: []
+  syntax:
+    content: public static ExVTP NROffset(ExTP nrp)
+    parameters:
+    - id: nrp
+      type: ExTP
+      description: Nonrotational offset parametric
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function NROffset(nrp As ExTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.NROffset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.Offset(ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.Offset(ExTP,ExTP)
+  id: Offset(ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Offset(ExTP, ExTP)
+  nameWithType: VTPRepo.Offset(ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.Offset(ExTP, ExTP)
+  type: Method
+  source:
+    id: Offset
+    path: ''
+    startLine: 9453
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with Cartesian rotational offset and nonrotational offset.\n"
+  example: []
+  syntax:
+    content: public static ExVTP Offset(ExTP rp, ExTP nrp)
+    parameters:
+    - id: rp
+      type: ExTP
+      description: Rotational offset parametric
+    - id: nrp
+      type: ExTP
+      description: Nonrotational offset parametric
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function Offset(rp As ExTP, nrp As ExTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.Offset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.Offset3D(ExTP3,ExTP3)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.Offset3D(ExTP3,ExTP3)
+  id: Offset3D(ExTP3,ExTP3)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Offset3D(ExTP3, ExTP3)
+  nameWithType: VTPRepo.Offset3D(ExTP3, ExTP3)
+  fullName: Danmokou.DMath.Functions.VTPRepo.Offset3D(ExTP3, ExTP3)
+  type: Method
+  source:
+    id: Offset3D
+    path: ''
+    startLine: 9463
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with Cartesian rotational offset and nonrotational offset\nin three dimensions.\n"
+  example: []
+  syntax:
+    content: public static ExVTP Offset3D(ExTP3 rp, ExTP3 nrp)
+    parameters:
+    - id: rp
+      type: ExTP3
+      description: Rotational offset parametric
+    - id: nrp
+      type: ExTP3
+      description: Nonrotational offset parametric
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function Offset3D(rp As ExTP3, nrp As ExTP3) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.Offset3D*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.DOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.DOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExBPY)
+  id: DOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: DOffset(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExBPY)
+  nameWithType: VTPRepo.DOffset(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.VTPRepo.DOffset(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExBPY)
+  type: Method
+  source:
+    id: DOffset
+    path: ''
+    startLine: 9474
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nOffset function for dependent (empty-guided) fires.\nReduces to `offset (* RADIUS (@ HOISTDIR p)) (@ HOISTLOC p)`\n"
+  example: []
+  syntax:
+    content: public static ExVTP DOffset(ReflectEx.Hoist<Vector2> hoistLoc, ReflectEx.Hoist<Vector2> hoistDir, ExBPY indexer, ExBPY radius)
+    parameters:
+    - id: hoistLoc
+      type: ReflectEx.Hoist{Vector2}
+      description: Location of empty guider
+    - id: hoistDir
+      type: ReflectEx.Hoist{Vector2}
+      description: Direction of empty guider
+    - id: indexer
+      type: ExBPY
+      description: Indexer function for public hoisting
+    - id: radius
+      type: ExBPY
+      description: Radial offset of guided
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function DOffset(hoistLoc As ReflectEx.Hoist(Of Vector2), hoistDir As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, radius As ExBPY) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.DOffset*
+  nameWithType.vb: VTPRepo.DOffset(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExBPY)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.VTPRepo.DOffset(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExBPY)
+  name.vb: DOffset(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExBPY)
+- uid: Danmokou.DMath.Functions.VTPRepo.DTPOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.DTPOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
+  id: DTPOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: DTPOffset(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExTP)
+  nameWithType: VTPRepo.DTPOffset(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.DTPOffset(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExTP)
+  type: Method
+  source:
+    id: DTPOffset
+    path: ''
+    startLine: 9489
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nOffset function for dependent (empty-guided) fires.\nReduces to `offset (rotatev (@ HOISTDIR p) OFFSET) (@ HOISTLOC p)`\n"
+  example: []
+  syntax:
+    content: public static ExVTP DTPOffset(ReflectEx.Hoist<Vector2> hoistLoc, ReflectEx.Hoist<Vector2> hoistDir, ExBPY indexer, ExTP offset)
+    parameters:
+    - id: hoistLoc
+      type: ReflectEx.Hoist{Vector2}
+      description: Location of empty guider
+    - id: hoistDir
+      type: ReflectEx.Hoist{Vector2}
+      description: Direction of empty guider
+    - id: indexer
+      type: ExBPY
+      description: Indexer function for public hoisting
+    - id: offset
+      type: ExTP
+      description: Parametric offset of guided
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function DTPOffset(hoistLoc As ReflectEx.Hoist(Of Vector2), hoistDir As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, offset As ExTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.DTPOffset*
+  nameWithType.vb: VTPRepo.DTPOffset(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.VTPRepo.DTPOffset(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)
+  name.vb: DTPOffset(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)
+- uid: Danmokou.DMath.Functions.VTPRepo.Polar(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.Polar(ExBPY,ExBPY)
+  id: Polar(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Polar(ExBPY, ExBPY)
+  nameWithType: VTPRepo.Polar(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.VTPRepo.Polar(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: Polar
+    path: ''
+    startLine: 9501
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with polar rotational offset.\n"
+  example: []
+  syntax:
+    content: public static ExVTP Polar(ExBPY radius, ExBPY theta)
+    parameters:
+    - id: radius
+      type: ExBPY
+      description: Radius function
+    - id: theta
+      type: ExBPY
+      description: Theta function (degrees)
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function Polar(radius As ExBPY, theta As ExBPY) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.Polar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.Polar2(ExTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.Polar2(ExTP)
+  id: Polar2(ExTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: Polar2(ExTP)
+  nameWithType: VTPRepo.Polar2(ExTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.Polar2(ExTP)
+  type: Method
+  source:
+    id: Polar2
+    path: ''
+    startLine: 9508
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with polar rotational offset. Uses a vector2 instead of two floats. (This is slower.)\n"
+  example: []
+  syntax:
+    content: public static ExVTP Polar2(ExTP rt)
+    parameters:
+    - id: rt
+      type: ExTP
+      description: Radius function (X), Theta function (Y) (degrees)
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function Polar2(rt As ExTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.Polar2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.VPolar(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.VPolar(ExBPY,ExBPY)
+  id: VPolar(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: VPolar(ExBPY, ExBPY)
+  nameWithType: VTPRepo.VPolar(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.VTPRepo.VPolar(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: VPolar
+    path: ''
+    startLine: 9517
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMovement with polar rotational velocity.\n<br />Note: I&apos;m pretty sure this doesn&apos;t work at all.\n"
+  example: []
+  syntax:
+    content: public static ExVTP VPolar(ExBPY radius, ExBPY theta)
+    parameters:
+    - id: radius
+      type: ExBPY
+      description: Radius derivative function
+    - id: theta
+      type: ExBPY
+      description: Theta derivative function (degrees)
+    return:
+      type: ExVTP
+      description: ''
+    content.vb: Public Shared Function VPolar(radius As ExBPY, theta As ExBPY) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.VPolar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.LetFloats(System.ValueTuple{System.String,ExBPY}[],ExVTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.LetFloats(System.ValueTuple{System.String,ExBPY}[],ExVTP)
+  id: LetFloats(System.ValueTuple{System.String,ExBPY}[],ExVTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: LetFloats((String, ExBPY)[], ExVTP)
+  nameWithType: VTPRepo.LetFloats((String, ExBPY)[], ExVTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.LetFloats(System.ValueTuple<System.String, ExBPY>[], ExVTP)
+  type: Method
+  source:
+    id: LetFloats
+    path: ''
+    startLine: 9526
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nBind float values to the aliases and then execute the inner content with those aliases.\n"
+  example: []
+  syntax:
+    content: public static ExVTP LetFloats((string, ExBPY)[] aliases, ExVTP inner)
+    parameters:
+    - id: aliases
+      type: System.ValueTuple{System.String,ExBPY}[]
+    - id: inner
+      type: ExVTP
+    return:
+      type: ExVTP
+    content.vb: Public Shared Function LetFloats(aliases As(String, ExBPY)(Of String , ExBPY)(), inner As ExVTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.LetFloats*
+  nameWithType.vb: VTPRepo.LetFloats((String, ExBPY)(Of String, ExBPY)(), ExVTP)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.VTPRepo.LetFloats(System.ValueTuple(Of System.String, ExBPY)(), ExVTP)
+  name.vb: LetFloats((String, ExBPY)(Of String, ExBPY)(), ExVTP)
+- uid: Danmokou.DMath.Functions.VTPRepo.LetV2s(System.ValueTuple{System.String,ExTP}[],ExVTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.LetV2s(System.ValueTuple{System.String,ExTP}[],ExVTP)
+  id: LetV2s(System.ValueTuple{System.String,ExTP}[],ExVTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: LetV2s((String, ExTP)[], ExVTP)
+  nameWithType: VTPRepo.LetV2s((String, ExTP)[], ExVTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.LetV2s(System.ValueTuple<System.String, ExTP>[], ExVTP)
+  type: Method
+  source:
+    id: LetV2s
+    path: ''
+    startLine: 9532
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nBind vector2 values to the aliases and then execute the inner content with those aliases.\n"
+  example: []
+  syntax:
+    content: public static ExVTP LetV2s((string, ExTP)[] aliases, ExVTP inner)
+    parameters:
+    - id: aliases
+      type: System.ValueTuple{System.String,ExTP}[]
+    - id: inner
+      type: ExVTP
+    return:
+      type: ExVTP
+    content.vb: Public Shared Function LetV2s(aliases As(String, ExTP)(Of String , ExTP)(), inner As ExVTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.LetV2s*
+  nameWithType.vb: VTPRepo.LetV2s((String, ExTP)(Of String, ExTP)(), ExVTP)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.VTPRepo.LetV2s(System.ValueTuple(Of System.String, ExTP)(), ExVTP)
+  name.vb: LetV2s((String, ExTP)(Of String, ExTP)(), ExVTP)
+- uid: Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias[],ExVTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias[],ExVTP)
+  id: LetDecl(ReflectEx.Alias[],ExVTP)
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: LetDecl(ReflectEx.Alias[], ExVTP)
+  nameWithType: VTPRepo.LetDecl(ReflectEx.Alias[], ExVTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias[], ExVTP)
+  type: Method
+  source:
+    id: LetDecl
+    path: ''
+    startLine: 9538
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nBind values to the aliases and then execute the inner content with those aliases.\n"
+  example: []
+  syntax:
+    content: public static ExVTP LetDecl(ReflectEx.Alias[] aliases, ExVTP inner)
+    parameters:
+    - id: aliases
+      type: ReflectEx.Alias[]
+    - id: inner
+      type: ExVTP
+    return:
+      type: ExVTP
+    content.vb: Public Shared Function LetDecl(aliases As ReflectEx.Alias(), inner As ExVTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.LetDecl*
+  nameWithType.vb: VTPRepo.LetDecl(ReflectEx.Alias(), ExVTP)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias(), ExVTP)
+  name.vb: LetDecl(ReflectEx.Alias(), ExVTP)
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.VTPRepo.IsNone*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.IsNone
+  name: IsNone
+  nameWithType: VTPRepo.IsNone
+  fullName: Danmokou.DMath.Functions.VTPRepo.IsNone
+- uid: Danmokou.DMath.VTP
+  commentId: T:Danmokou.DMath.VTP
+  parent: Danmokou.DMath
+  name: VTP
+  nameWithType: VTP
+  fullName: Danmokou.DMath.VTP
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: ExVTP
+  isExternal: true
+  name: ExVTP
+  nameWithType: ExVTP
+  fullName: ExVTP
+- uid: Danmokou.DMath.Functions.VTPRepo.Null*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Null
+  name: "Null"
+  nameWithType: VTPRepo.Null
+  fullName: Danmokou.DMath.Functions.VTPRepo.Null
+- uid: Danmokou.DMath.Functions.VTPRepo.If*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.If
+  name: If
+  nameWithType: VTPRepo.If
+  fullName: Danmokou.DMath.Functions.VTPRepo.If
+- uid: ExPred
+  isExternal: true
+  name: ExPred
+  nameWithType: ExPred
+  fullName: ExPred
+- uid: Danmokou.DMath.Functions.VTPRepo.RVelocity*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.RVelocity
+  name: RVelocity
+  nameWithType: VTPRepo.RVelocity
+  fullName: Danmokou.DMath.Functions.VTPRepo.RVelocity
+- uid: ExTP
+  isExternal: true
+  name: ExTP
+  nameWithType: ExTP
+  fullName: ExTP
+- uid: Danmokou.DMath.Functions.VTPRepo.NRVelocity*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.NRVelocity
+  name: NRVelocity
+  nameWithType: VTPRepo.NRVelocity
+  fullName: Danmokou.DMath.Functions.VTPRepo.NRVelocity
+- uid: Danmokou.DMath.Functions.VTPRepo.Velocity*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Velocity
+  name: Velocity
+  nameWithType: VTPRepo.Velocity
+  fullName: Danmokou.DMath.Functions.VTPRepo.Velocity
+- uid: Danmokou.DMath.Functions.VTPRepo.Velocity3D*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Velocity3D
+  name: Velocity3D
+  nameWithType: VTPRepo.Velocity3D
+  fullName: Danmokou.DMath.Functions.VTPRepo.Velocity3D
+- uid: ExTP3
+  isExternal: true
+  name: ExTP3
+  nameWithType: ExTP3
+  fullName: ExTP3
+- uid: Danmokou.DMath.Functions.VTPRepo.ROffset*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.ROffset
+  name: ROffset
+  nameWithType: VTPRepo.ROffset
+  fullName: Danmokou.DMath.Functions.VTPRepo.ROffset
+- uid: Danmokou.DMath.Functions.VTPRepo.NROffset*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.NROffset
+  name: NROffset
+  nameWithType: VTPRepo.NROffset
+  fullName: Danmokou.DMath.Functions.VTPRepo.NROffset
+- uid: Danmokou.DMath.Functions.VTPRepo.Offset*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Offset
+  name: Offset
+  nameWithType: VTPRepo.Offset
+  fullName: Danmokou.DMath.Functions.VTPRepo.Offset
+- uid: Danmokou.DMath.Functions.VTPRepo.Offset3D*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Offset3D
+  name: Offset3D
+  nameWithType: VTPRepo.Offset3D
+  fullName: Danmokou.DMath.Functions.VTPRepo.Offset3D
+- uid: Danmokou.DMath.Functions.VTPRepo.DOffset*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.DOffset
+  name: DOffset
+  nameWithType: VTPRepo.DOffset
+  fullName: Danmokou.DMath.Functions.VTPRepo.DOffset
+- uid: ReflectEx.Hoist{Vector2}
+  commentId: '!:ReflectEx.Hoist{Vector2}'
+  definition: ReflectEx.Hoist`1
+  name: ReflectEx.Hoist<Vector2>
+  nameWithType: ReflectEx.Hoist<Vector2>
+  fullName: ReflectEx.Hoist<Vector2>
+  nameWithType.vb: ReflectEx.Hoist(Of Vector2)
+  fullName.vb: ReflectEx.Hoist(Of Vector2)
+  name.vb: ReflectEx.Hoist(Of Vector2)
+  spec.csharp:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: ReflectEx.Hoist`1
+  isExternal: true
+  name: ReflectEx.Hoist<>
+  nameWithType: ReflectEx.Hoist<>
+  fullName: ReflectEx.Hoist<>
+  nameWithType.vb: ReflectEx.Hoist(Of )
+  fullName.vb: ReflectEx.Hoist(Of )
+  name.vb: ReflectEx.Hoist(Of )
+  spec.csharp:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.VTPRepo.DTPOffset*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.DTPOffset
+  name: DTPOffset
+  nameWithType: VTPRepo.DTPOffset
+  fullName: Danmokou.DMath.Functions.VTPRepo.DTPOffset
+- uid: Danmokou.DMath.Functions.VTPRepo.Polar*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Polar
+  name: Polar
+  nameWithType: VTPRepo.Polar
+  fullName: Danmokou.DMath.Functions.VTPRepo.Polar
+- uid: Danmokou.DMath.Functions.VTPRepo.Polar2*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Polar2
+  name: Polar2
+  nameWithType: VTPRepo.Polar2
+  fullName: Danmokou.DMath.Functions.VTPRepo.Polar2
+- uid: Danmokou.DMath.Functions.VTPRepo.VPolar*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.VPolar
+  name: VPolar
+  nameWithType: VTPRepo.VPolar
+  fullName: Danmokou.DMath.Functions.VTPRepo.VPolar
+- uid: Danmokou.DMath.Functions.VTPRepo.LetFloats*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.LetFloats
+  name: LetFloats
+  nameWithType: VTPRepo.LetFloats
+  fullName: Danmokou.DMath.Functions.VTPRepo.LetFloats
+- uid: System.ValueTuple{System.String,ExBPY}[]
+  isExternal: true
+  name: (T1, T2)<String, ExBPY>[]
+  nameWithType: (T1, T2)<String, ExBPY>[]
+  fullName: System.ValueTuple<System.String, ExBPY>[]
+  nameWithType.vb: (T1, T2)(Of String, ExBPY)()
+  fullName.vb: System.ValueTuple(Of System.String, ExBPY)()
+  name.vb: (T1, T2)(Of String, ExBPY)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExBPY
+    name: ExBPY
+    nameWithType: ExBPY
+    fullName: ExBPY
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.DMath.Functions.VTPRepo.LetV2s*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.LetV2s
+  name: LetV2s
+  nameWithType: VTPRepo.LetV2s
+  fullName: Danmokou.DMath.Functions.VTPRepo.LetV2s
+- uid: System.ValueTuple{System.String,ExTP}[]
+  isExternal: true
+  name: (T1, T2)<String, ExTP>[]
+  nameWithType: (T1, T2)<String, ExTP>[]
+  fullName: System.ValueTuple<System.String, ExTP>[]
+  nameWithType.vb: (T1, T2)(Of String, ExTP)()
+  fullName.vb: System.ValueTuple(Of System.String, ExTP)()
+  name.vb: (T1, T2)(Of String, ExTP)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExTP
+    name: ExTP
+    nameWithType: ExTP
+    fullName: ExTP
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: ExTP
+    name: ExTP
+    nameWithType: ExTP
+    fullName: ExTP
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.DMath.Functions.VTPRepo.LetDecl*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.LetDecl
+  name: LetDecl
+  nameWithType: VTPRepo.LetDecl
+  fullName: Danmokou.DMath.Functions.VTPRepo.LetDecl
+- uid: ReflectEx.Alias[]
+  isExternal: true
+  name: ReflectEx.Alias[]
+  nameWithType: ReflectEx.Alias[]
+  fullName: ReflectEx.Alias[]
+  nameWithType.vb: ReflectEx.Alias()
+  fullName.vb: ReflectEx.Alias()
+  name.vb: ReflectEx.Alias()
+  spec.csharp:
+  - uid: ReflectEx.Alias
+    name: ReflectEx.Alias
+    nameWithType: ReflectEx.Alias
+    fullName: ReflectEx.Alias
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: ReflectEx.Alias
+    name: ReflectEx.Alias
+    nameWithType: ReflectEx.Alias
+    fullName: ReflectEx.Alias
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

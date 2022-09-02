@@ -1,0 +1,2324 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.Parametrics
+  commentId: T:Danmokou.DMath.Functions.Parametrics
+  id: Parametrics
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.Parametrics.AddAtAngle(ExBPY,ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.AddY(ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.CR(System.Single,System.Single)
+  - Danmokou.DMath.Functions.Parametrics.CX(System.Single)
+  - Danmokou.DMath.Functions.Parametrics.CXY(System.Single,System.Single)
+  - Danmokou.DMath.Functions.Parametrics.CY(System.Single)
+  - Danmokou.DMath.Functions.Parametrics.Divide(ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{tfloat,tfloat},ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.goDown
+  - Danmokou.DMath.Functions.Parametrics.goLeft
+  - Danmokou.DMath.Functions.Parametrics.goOtherSide(ExBPY)
+  - Danmokou.DMath.Functions.Parametrics.goRight
+  - Danmokou.DMath.Functions.Parametrics.goSide(ExBPY)
+  - Danmokou.DMath.Functions.Parametrics.goUp
+  - Danmokou.DMath.Functions.Parametrics.goX(ExBPY)
+  - Danmokou.DMath.Functions.Parametrics.goY(ExBPY)
+  - Danmokou.DMath.Functions.Parametrics.LaserRotateLerp(ExBPY,ExTP,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.LerpIn(System.Single,System.Single,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.LerpOut(System.Single,System.Single,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.LNearestEnemy
+  - Danmokou.DMath.Functions.Parametrics.Loc
+  - Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
+  - Danmokou.DMath.Functions.Parametrics.MultiplyX(ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.MultiplyY(ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.Pivot(ExBPY,ExBPY,ExTP,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.PX(ExBPY)
+  - Danmokou.DMath.Functions.Parametrics.PXY(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.Parametrics.PY(ExBPY)
+  - Danmokou.DMath.Functions.Parametrics.RotateLerpPercent(ExBPY,ExTP,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.RotateLerpRate(ExBPY,ExTP,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.Rotify(ExTP)
+  - Danmokou.DMath.Functions.Parametrics.SSVHomeT(ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.Switch(System.Single,ExTP,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.TP(ExTP3)
+  - Danmokou.DMath.Functions.Parametrics.TrueRotateLerpPercent(ExBPY,ExTP,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.TrueRotateLerpRate(ExBPY,ExTP,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.VHome(ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.VHomeTime(ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.Zero
+  langs:
+  - csharp
+  - vb
+  name: Parametrics
+  nameWithType: Parametrics
+  fullName: Danmokou.DMath.Functions.Parametrics
+  type: Class
+  source:
+    id: Parametrics
+    path: ''
+    startLine: 8460
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that return Vector2.\n"
+  example: []
+  syntax:
+    content: public static class Parametrics
+    content.vb: Public Module Parametrics
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.Parametrics.LNearestEnemy
+  commentId: M:Danmokou.DMath.Functions.Parametrics.LNearestEnemy
+  id: LNearestEnemy
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: LNearestEnemy()
+  nameWithType: Parametrics.LNearestEnemy()
+  fullName: Danmokou.DMath.Functions.Parametrics.LNearestEnemy()
+  type: Method
+  source:
+    id: LNearestEnemy
+    path: ''
+    startLine: 8125
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP LNearestEnemy()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function LNearestEnemy As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.LNearestEnemy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
+  commentId: M:Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
+  id: LSaveNearestEnemy
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: LSaveNearestEnemy()
+  nameWithType: Parametrics.LSaveNearestEnemy()
+  fullName: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy()
+  type: Method
+  source:
+    id: LSaveNearestEnemy
+    path: ''
+    startLine: 8134
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP LSaveNearestEnemy()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function LSaveNearestEnemy As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.goX(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.goX(ExBPY)
+  id: goX(ExBPY)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: goX(ExBPY)
+  nameWithType: Parametrics.goX(ExBPY)
+  fullName: Danmokou.DMath.Functions.Parametrics.goX(ExBPY)
+  type: Method
+  source:
+    id: goX
+    path: ''
+    startLine: 8298
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP goX(ExBPY x)
+    parameters:
+    - id: x
+      type: ExBPY
+    return:
+      type: ExTP
+    content.vb: Public Shared Function goX(x As ExBPY) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.goX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.goY(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.goY(ExBPY)
+  id: goY(ExBPY)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: goY(ExBPY)
+  nameWithType: Parametrics.goY(ExBPY)
+  fullName: Danmokou.DMath.Functions.Parametrics.goY(ExBPY)
+  type: Method
+  source:
+    id: goY
+    path: ''
+    startLine: 8299
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP goY(ExBPY y)
+    parameters:
+    - id: y
+      type: ExBPY
+    return:
+      type: ExTP
+    content.vb: Public Shared Function goY(y As ExBPY) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.goY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.goUp
+  commentId: M:Danmokou.DMath.Functions.Parametrics.goUp
+  id: goUp
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: goUp()
+  nameWithType: Parametrics.goUp()
+  fullName: Danmokou.DMath.Functions.Parametrics.goUp()
+  type: Method
+  source:
+    id: goUp
+    path: ''
+    startLine: 8300
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP goUp()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function goUp As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.goUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.goDown
+  commentId: M:Danmokou.DMath.Functions.Parametrics.goDown
+  id: goDown
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: goDown()
+  nameWithType: Parametrics.goDown()
+  fullName: Danmokou.DMath.Functions.Parametrics.goDown()
+  type: Method
+  source:
+    id: goDown
+    path: ''
+    startLine: 8301
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP goDown()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function goDown As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.goDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.goLeft
+  commentId: M:Danmokou.DMath.Functions.Parametrics.goLeft
+  id: goLeft
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: goLeft()
+  nameWithType: Parametrics.goLeft()
+  fullName: Danmokou.DMath.Functions.Parametrics.goLeft()
+  type: Method
+  source:
+    id: goLeft
+    path: ''
+    startLine: 8302
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP goLeft()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function goLeft As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.goLeft*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.goRight
+  commentId: M:Danmokou.DMath.Functions.Parametrics.goRight
+  id: goRight
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: goRight()
+  nameWithType: Parametrics.goRight()
+  fullName: Danmokou.DMath.Functions.Parametrics.goRight()
+  type: Method
+  source:
+    id: goRight
+    path: ''
+    startLine: 8303
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP goRight()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function goRight As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.goRight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.goSide(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.goSide(ExBPY)
+  id: goSide(ExBPY)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: goSide(ExBPY)
+  nameWithType: Parametrics.goSide(ExBPY)
+  fullName: Danmokou.DMath.Functions.Parametrics.goSide(ExBPY)
+  type: Method
+  source:
+    id: goSide
+    path: ''
+    startLine: 8304
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP goSide(ExBPY y)
+    parameters:
+    - id: y
+      type: ExBPY
+    return:
+      type: ExTP
+    content.vb: Public Shared Function goSide(y As ExBPY) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.goSide*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.goOtherSide(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.goOtherSide(ExBPY)
+  id: goOtherSide(ExBPY)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: goOtherSide(ExBPY)
+  nameWithType: Parametrics.goOtherSide(ExBPY)
+  fullName: Danmokou.DMath.Functions.Parametrics.goOtherSide(ExBPY)
+  type: Method
+  source:
+    id: goOtherSide
+    path: ''
+    startLine: 8305
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP goOtherSide(ExBPY y)
+    parameters:
+    - id: y
+      type: ExBPY
+    return:
+      type: ExTP
+    content.vb: Public Shared Function goOtherSide(y As ExBPY) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.goOtherSide*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.Zero
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Zero
+  id: Zero
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: Zero()
+  nameWithType: Parametrics.Zero()
+  fullName: Danmokou.DMath.Functions.Parametrics.Zero()
+  type: Method
+  source:
+    id: Zero
+    path: ''
+    startLine: 8468
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nThe zero vector.\n"
+  example: []
+  syntax:
+    content: public static ExTP Zero()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function Zero As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.Zero*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.CXY(System.Single,System.Single)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.CXY(System.Single,System.Single)
+  id: CXY(System.Single,System.Single)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: CXY(Single, Single)
+  nameWithType: Parametrics.CXY(Single, Single)
+  fullName: Danmokou.DMath.Functions.Parametrics.CXY(System.Single, System.Single)
+  type: Method
+  source:
+    id: CXY
+    path: ''
+    startLine: 8478
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns a constant vector.\n"
+  example: []
+  syntax:
+    content: public static ExTP CXY(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+      description: X-component
+    - id: y
+      type: System.Single
+      description: Y-component
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function CXY(x As Single, y As Single) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.CXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.CX(System.Single)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.CX(System.Single)
+  id: CX(System.Single)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: CX(Single)
+  nameWithType: Parametrics.CX(Single)
+  fullName: Danmokou.DMath.Functions.Parametrics.CX(System.Single)
+  type: Method
+  source:
+    id: CX
+    path: ''
+    startLine: 8487
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns a constant vector with the y-component set to zero.\n"
+  example: []
+  syntax:
+    content: public static ExTP CX(float x)
+    parameters:
+    - id: x
+      type: System.Single
+      description: X-component
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function CX(x As Single) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.CX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.CY(System.Single)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.CY(System.Single)
+  id: CY(System.Single)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: CY(Single)
+  nameWithType: Parametrics.CY(Single)
+  fullName: Danmokou.DMath.Functions.Parametrics.CY(System.Single)
+  type: Method
+  source:
+    id: CY
+    path: ''
+    startLine: 8496
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns a constant vector with the x-component set to zero.\n"
+  example: []
+  syntax:
+    content: public static ExTP CY(float y)
+    parameters:
+    - id: y
+      type: System.Single
+      description: Y-component
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function CY(y As Single) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.CY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.CR(System.Single,System.Single)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.CR(System.Single,System.Single)
+  id: CR(System.Single,System.Single)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: CR(Single, Single)
+  nameWithType: Parametrics.CR(Single, Single)
+  fullName: Danmokou.DMath.Functions.Parametrics.CR(System.Single, System.Single)
+  type: Method
+  source:
+    id: CR
+    path: ''
+    startLine: 8506
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns a constant vector equal to the Cartesian coordinates for the polar coordinates (r,theta).\n"
+  example: []
+  syntax:
+    content: public static ExTP CR(float r, float theta)
+    parameters:
+    - id: r
+      type: System.Single
+      description: Radius
+    - id: theta
+      type: System.Single
+      description: Theta, in degrees
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function CR(r As Single, theta As Single) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.CR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.Divide(ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Divide(ExBPY,ExTP)
+  id: Divide(ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: Divide(ExBPY, ExTP)
+  nameWithType: Parametrics.Divide(ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.Divide(ExBPY, ExTP)
+  type: Method
+  source:
+    id: Divide
+    path: ''
+    startLine: 8518
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDivide a vector equation by a float equation.\n"
+  example: []
+  syntax:
+    content: public static ExTP Divide(ExBPY by, ExTP tp)
+    parameters:
+    - id: by
+      type: ExBPY
+      description: Float equation multiplier
+    - id: tp
+      type: ExTP
+      description: Base vector equation
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function Divide(by As ExBPY, tp As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.Divide*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.MultiplyX(ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.MultiplyX(ExBPY,ExTP)
+  id: MultiplyX(ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: MultiplyX(ExBPY, ExTP)
+  nameWithType: Parametrics.MultiplyX(ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.MultiplyX(ExBPY, ExTP)
+  type: Method
+  source:
+    id: MultiplyX
+    path: ''
+    startLine: 8532
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMultiply the x-component of a parametric equation by a function of input.\n"
+  example: []
+  syntax:
+    content: public static ExTP MultiplyX(ExBPY f, ExTP tp)
+    parameters:
+    - id: f
+      type: ExBPY
+      description: Function of input
+    - id: tp
+      type: ExTP
+      description: Parametric equation
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function MultiplyX(f As ExBPY, tp As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.MultiplyX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.MultiplyY(ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.MultiplyY(ExBPY,ExTP)
+  id: MultiplyY(ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: MultiplyY(ExBPY, ExTP)
+  nameWithType: Parametrics.MultiplyY(ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.MultiplyY(ExBPY, ExTP)
+  type: Method
+  source:
+    id: MultiplyY
+    path: ''
+    startLine: 8548
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMultiply the y-component of a parametric equation by a function of input.\n"
+  example: []
+  syntax:
+    content: public static ExTP MultiplyY(ExBPY f, ExTP tp)
+    parameters:
+    - id: f
+      type: ExBPY
+      description: Function of input
+    - id: tp
+      type: ExTP
+      description: Parametric equation
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function MultiplyY(f As ExBPY, tp As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.MultiplyY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.AddY(ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.AddY(ExBPY,ExTP)
+  id: AddY(ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: AddY(ExBPY, ExTP)
+  nameWithType: Parametrics.AddY(ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.AddY(ExBPY, ExTP)
+  type: Method
+  source:
+    id: AddY
+    path: ''
+    startLine: 8565
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nAdd a function of input to the y-component of a parametric equation.\n"
+  example: []
+  syntax:
+    content: public static ExTP AddY(ExBPY f, ExTP tp)
+    parameters:
+    - id: f
+      type: ExBPY
+      description: Function of input
+    - id: tp
+      type: ExTP
+      description: Parametric equation
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function AddY(f As ExBPY, tp As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.AddY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.AddAtAngle(ExBPY,ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.AddAtAngle(ExBPY,ExBPY,ExTP)
+  id: AddAtAngle(ExBPY,ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: AddAtAngle(ExBPY, ExBPY, ExTP)
+  nameWithType: Parametrics.AddAtAngle(ExBPY, ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.AddAtAngle(ExBPY, ExBPY, ExTP)
+  type: Method
+  source:
+    id: AddAtAngle
+    path: ''
+    startLine: 8584
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMultiply a unit vector at a given angle from the target function by the magnitude,\nand add it to the target function.\n"
+  example: []
+  syntax:
+    content: public static ExTP AddAtAngle(ExBPY angle, ExBPY magnitude, ExTP tp)
+    parameters:
+    - id: angle
+      type: ExBPY
+      description: Angle offset (degrees)
+    - id: magnitude
+      type: ExBPY
+      description: Magnitude of offset vector
+    - id: tp
+      type: ExTP
+      description: Target function
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function AddAtAngle(angle As ExBPY, magnitude As ExBPY, tp As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.AddAtAngle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.Loc
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Loc
+  id: Loc
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: Loc()
+  nameWithType: Parametrics.Loc()
+  fullName: Danmokou.DMath.Functions.Parametrics.Loc()
+  type: Method
+  source:
+    id: Loc
+    path: ''
+    startLine: 8610
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the BPI position.\n"
+  example: []
+  syntax:
+    content: public static ExTP Loc()
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function Loc As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.Loc*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.PXY(ExBPY,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.PXY(ExBPY,ExBPY)
+  id: PXY(ExBPY,ExBPY)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: PXY(ExBPY, ExBPY)
+  nameWithType: Parametrics.PXY(ExBPY, ExBPY)
+  fullName: Danmokou.DMath.Functions.Parametrics.PXY(ExBPY, ExBPY)
+  type: Method
+  source:
+    id: PXY
+    path: ''
+    startLine: 8620
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector2 from two floats.\n"
+  example: []
+  syntax:
+    content: public static ExTP PXY(ExBPY x, ExBPY y)
+    parameters:
+    - id: x
+      type: ExBPY
+      description: Float assigned to X-component
+    - id: y
+      type: ExBPY
+      description: Float assigned to Y-component
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function PXY(x As ExBPY, y As ExBPY) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.PXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.PX(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.PX(ExBPY)
+  id: PX(ExBPY)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: PX(ExBPY)
+  nameWithType: Parametrics.PX(ExBPY)
+  fullName: Danmokou.DMath.Functions.Parametrics.PX(ExBPY)
+  type: Method
+  source:
+    id: PX
+    path: ''
+    startLine: 8624
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n= PXY x 0\n"
+  example: []
+  syntax:
+    content: public static ExTP PX(ExBPY x)
+    parameters:
+    - id: x
+      type: ExBPY
+    return:
+      type: ExTP
+    content.vb: Public Shared Function PX(x As ExBPY) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.PX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.PY(ExBPY)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.PY(ExBPY)
+  id: PY(ExBPY)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: PY(ExBPY)
+  nameWithType: Parametrics.PY(ExBPY)
+  fullName: Danmokou.DMath.Functions.Parametrics.PY(ExBPY)
+  type: Method
+  source:
+    id: PY
+    path: ''
+    startLine: 8628
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\n= PXY 0 y\n"
+  example: []
+  syntax:
+    content: public static ExTP PY(ExBPY y)
+    parameters:
+    - id: y
+      type: ExBPY
+    return:
+      type: ExTP
+    content.vb: Public Shared Function PY(y As ExBPY) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.PY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.TP(ExTP3)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.TP(ExTP3)
+  id: TP(ExTP3)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: TP(ExTP3)
+  nameWithType: Parametrics.TP(ExTP3)
+  fullName: Danmokou.DMath.Functions.Parametrics.TP(ExTP3)
+  type: Method
+  source:
+    id: TP
+    path: ''
+    startLine: 8633
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a Vector2 from a Vector3 by dropping the Z-component.\n"
+  example: []
+  syntax:
+    content: public static ExTP TP(ExTP3 xyz)
+    parameters:
+    - id: xyz
+      type: ExTP3
+    return:
+      type: ExTP
+    content.vb: Public Shared Function TP(xyz As ExTP3) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.TP*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.VHome(ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.VHome(ExBPY,ExTP)
+  id: VHome(ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: VHome(ExBPY, ExTP)
+  nameWithType: Parametrics.VHome(ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.VHome(ExBPY, ExTP)
+  type: Method
+  source:
+    id: VHome
+    path: ''
+    startLine: 8657
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nHome towards a target location at a fixed speed.\n"
+  remarks: "\nUse with StopSampling to home for only a few seconds.\n<br />This is primarily for use with non-rotational velocity. \nRotational use creates: contracting spirals (0,90), circle around player [90], expanding spiral (90,180).\n"
+  example: []
+  syntax:
+    content: public static ExTP VHome(ExBPY speed, ExTP location)
+    parameters:
+    - id: speed
+      type: ExBPY
+      description: Speed
+    - id: location
+      type: ExTP
+      description: Target location
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function VHome(speed As ExBPY, location As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.VHome*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.VHomeTime(ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.VHomeTime(ExBPY,ExTP)
+  id: VHomeTime(ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: VHomeTime(ExBPY, ExTP)
+  nameWithType: Parametrics.VHomeTime(ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.VHomeTime(ExBPY, ExTP)
+  type: Method
+  source:
+    id: VHomeTime
+    path: ''
+    startLine: 8671
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nHome towards a target location at a speed such that the target will be reached in <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> seconds. Do not set <code data-dev-comment-type=\"paramref\" class=\"paramref\">time</code> to 0. Best used with stopsampling 0.\n"
+  example: []
+  syntax:
+    content: public static ExTP VHomeTime(ExBPY time, ExTP location)
+    parameters:
+    - id: time
+      type: ExBPY
+      description: Time in seconds
+    - id: location
+      type: ExTP
+      description: Target location
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function VHomeTime(time As ExBPY, location As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.VHomeTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.SSVHomeT(ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.SSVHomeT(ExBPY,ExTP)
+  id: SSVHomeT(ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: SSVHomeT(ExBPY, ExTP)
+  nameWithType: Parametrics.SSVHomeT(ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.SSVHomeT(ExBPY, ExTP)
+  type: Method
+  source:
+    id: SSVHomeT
+    path: ''
+    startLine: 8677
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nShort for `ss0 vhometime TIME LOCATION`.\n"
+  example: []
+  syntax:
+    content: public static ExTP SSVHomeT(ExBPY time, ExTP location)
+    parameters:
+    - id: time
+      type: ExBPY
+    - id: location
+      type: ExTP
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function SSVHomeT(time As ExBPY, location As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.SSVHomeT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExTP)
+  id: EaseDVHomeT(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: EaseDVHomeT(Func<TEx<Single>, TEx<Single>>, Single, ExTP)
+  nameWithType: Parametrics.EaseDVHomeT(Func<TEx<Single>, TEx<Single>>, Single, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func<TEx<System.Single>, TEx<System.Single>>, System.Single, ExTP)
+  type: Method
+  source:
+    id: EaseDVHomeT
+    path: ''
+    startLine: 8683
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nShort for `eased EASE TIME ss0 vhometime TIME LOCATION`.\n<br />Note: EaseToTarget with NROFFSET is preferred. It has the same signature and avoids Riemann errors.\n"
+  example: []
+  syntax:
+    content: public static ExTP EaseDVHomeT(Func<TEx<float>, TEx<float>> smoother, float time, ExTP location)
+    parameters:
+    - id: smoother
+      type: System.Func{TEx{System.Single},TEx{System.Single}}
+    - id: time
+      type: System.Single
+    - id: location
+      type: ExTP
+    return:
+      type: ExTP
+    content.vb: Public Shared Function EaseDVHomeT(smoother As Func(Of TEx(Of Single), TEx(Of Single)), time As Single, location As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT*
+  nameWithType.vb: Parametrics.EaseDVHomeT(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExTP)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func(Of TEx(Of System.Single), TEx(Of System.Single)), System.Single, ExTP)
+  name.vb: EaseDVHomeT(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExTP)
+- uid: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{tfloat,tfloat},ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{tfloat,tfloat},ExBPY,ExTP)
+  id: EaseToTarget(System.Func{tfloat,tfloat},ExBPY,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: EaseToTarget(Func<tfloat, tfloat>, ExBPY, ExTP)
+  nameWithType: Parametrics.EaseToTarget(Func<tfloat, tfloat>, ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func<tfloat, tfloat>, ExBPY, ExTP)
+  type: Method
+  source:
+    id: EaseToTarget
+    path: ''
+    startLine: 8689
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nShort for `* smooth / t TIME ss0 - LOCATION loc`. Use with NROFFSET.\n"
+  example: []
+  syntax:
+    content: public static ExTP EaseToTarget(Func<tfloat, tfloat> ease, ExBPY time, ExTP location)
+    parameters:
+    - id: ease
+      type: System.Func{tfloat,tfloat}
+    - id: time
+      type: ExBPY
+    - id: location
+      type: ExTP
+    return:
+      type: ExTP
+    content.vb: Public Shared Function EaseToTarget(ease As Func(Of tfloat, tfloat), time As ExBPY, location As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.EaseToTarget*
+  nameWithType.vb: Parametrics.EaseToTarget(Func(Of tfloat, tfloat), ExBPY, ExTP)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func(Of tfloat, tfloat), ExBPY, ExTP)
+  name.vb: EaseToTarget(Func(Of tfloat, tfloat), ExBPY, ExTP)
+- uid: Danmokou.DMath.Functions.Parametrics.Rotify(ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Rotify(ExTP)
+  id: Rotify(ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: Rotify(ExTP)
+  nameWithType: Parametrics.Rotify(ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.Rotify(ExTP)
+  type: Method
+  source:
+    id: Rotify
+    path: ''
+    startLine: 8704
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate a Cartesian parametric function by the firing angle of the entity.\n<br />`tprot p = tpnrot rotify p`\n"
+  example: []
+  syntax:
+    content: public static ExTP Rotify(ExTP p)
+    parameters:
+    - id: p
+      type: ExTP
+      description: Target parametric
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function Rotify(p As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.Rotify*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.RotateLerpPercent(ExBPY,ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.RotateLerpPercent(ExBPY,ExTP,ExTP)
+  id: RotateLerpPercent(ExBPY,ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: RotateLerpPercent(ExBPY, ExTP, ExTP)
+  nameWithType: Parametrics.RotateLerpPercent(ExBPY, ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.RotateLerpPercent(ExBPY, ExTP, ExTP)
+  type: Method
+  source:
+    id: RotateLerpPercent
+    path: ''
+    startLine: 8741
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate between two parametrics (the magnitude of the resulting vector is the magnitude of the <code data-dev-comment-type=\"paramref\" class=\"paramref\">from</code> vector), closing <code data-dev-comment-type=\"paramref\" class=\"paramref\">ratio</code> fraction of the gap per second.\n"
+  remarks: "\nIn many cases, TrueRotateLerp is more accurate. If you&apos;re experiencing strange behavior, try those functions instead.\n"
+  example: []
+  syntax:
+    content: public static ExTP RotateLerpPercent(ExBPY ratio, ExTP from, ExTP to)
+    parameters:
+    - id: ratio
+      type: ExBPY
+      description: Fraction of gap to close per second
+    - id: from
+      type: ExTP
+      description: Source parametric
+    - id: to
+      type: ExTP
+      description: Target parametric
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function RotateLerpPercent(ratio As ExBPY, from As ExTP, to As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.RotateLerpPercent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.RotateLerpRate(ExBPY,ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.RotateLerpRate(ExBPY,ExTP,ExTP)
+  id: RotateLerpRate(ExBPY,ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: RotateLerpRate(ExBPY, ExTP, ExTP)
+  nameWithType: Parametrics.RotateLerpRate(ExBPY, ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.RotateLerpRate(ExBPY, ExTP, ExTP)
+  type: Method
+  source:
+    id: RotateLerpRate
+    path: ''
+    startLine: 8755
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate between two parametrics (the magnitude of the resulting vector is the magnitude of the <code data-dev-comment-type=\"paramref\" class=\"paramref\">from</code> vector), closing <code data-dev-comment-type=\"paramref\" class=\"paramref\">rate</code> degrees of the gap per second.\n"
+  remarks: "\nIn many cases, TrueRotateLerp is more accurate. If you&apos;re experiencing strange behavior, try those functions instead.\n"
+  example: []
+  syntax:
+    content: public static ExTP RotateLerpRate(ExBPY rate, ExTP from, ExTP to)
+    parameters:
+    - id: rate
+      type: ExBPY
+      description: Degrees of gap to close per second
+    - id: from
+      type: ExTP
+      description: Source parametric
+    - id: to
+      type: ExTP
+      description: Target parametric
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function RotateLerpRate(rate As ExBPY, from As ExTP, to As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.RotateLerpRate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpPercent(ExBPY,ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.TrueRotateLerpPercent(ExBPY,ExTP,ExTP)
+  id: TrueRotateLerpPercent(ExBPY,ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: TrueRotateLerpPercent(ExBPY, ExTP, ExTP)
+  nameWithType: Parametrics.TrueRotateLerpPercent(ExBPY, ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpPercent(ExBPY, ExTP, ExTP)
+  type: Method
+  source:
+    id: TrueRotateLerpPercent
+    path: ''
+    startLine: 8772
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate between two parametrics (the magnitude of the resulting vector is the magnitude of the <code data-dev-comment-type=\"paramref\" class=\"paramref\">from</code> vector), closing <code data-dev-comment-type=\"paramref\" class=\"paramref\">ratio</code> fraction of the gap per second.\n<br />This function uses the last returned value as its rotation source, only sampling the source parametric once.\n"
+  remarks: "\nRatio is not multiplicative as in RotateLerpPercent. Instead, it accumulates like the function 1-e^-rt.\nThis means that the rotation is faster during the first second than the second second, and so on.\nUse TrueRotateLerpRate for constant rotation rates.\n"
+  example: []
+  syntax:
+    content: public static ExTP TrueRotateLerpPercent(ExBPY ratio, ExTP from, ExTP to)
+    parameters:
+    - id: ratio
+      type: ExBPY
+      description: Fraction of gap to close per second
+    - id: from
+      type: ExTP
+      description: Source parametric
+    - id: to
+      type: ExTP
+      description: Target parametric
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function TrueRotateLerpPercent(ratio As ExBPY, from As ExTP, to As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpPercent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpRate(ExBPY,ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.TrueRotateLerpRate(ExBPY,ExTP,ExTP)
+  id: TrueRotateLerpRate(ExBPY,ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: TrueRotateLerpRate(ExBPY, ExTP, ExTP)
+  nameWithType: Parametrics.TrueRotateLerpRate(ExBPY, ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpRate(ExBPY, ExTP, ExTP)
+  type: Method
+  source:
+    id: TrueRotateLerpRate
+    path: ''
+    startLine: 8784
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nRotate between two parametrics (the magnitude of the resulting vector is the magnitude of the <code data-dev-comment-type=\"paramref\" class=\"paramref\">from</code> vector), closing <code data-dev-comment-type=\"paramref\" class=\"paramref\">rate</code> degrees of the gap per second.\n<br />This function uses the last returned value as its rotation source, only sampling the source parametric once.\n"
+  example: []
+  syntax:
+    content: public static ExTP TrueRotateLerpRate(ExBPY rate, ExTP from, ExTP to)
+    parameters:
+    - id: rate
+      type: ExBPY
+      description: Degrees of gap to close per second
+    - id: from
+      type: ExTP
+      description: Source parametric
+    - id: to
+      type: ExTP
+      description: Target parametric
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function TrueRotateLerpRate(rate As ExBPY, from As ExTP, to As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpRate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.LaserRotateLerp(ExBPY,ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.LaserRotateLerp(ExBPY,ExTP,ExTP)
+  id: LaserRotateLerp(ExBPY,ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: LaserRotateLerp(ExBPY, ExTP, ExTP)
+  nameWithType: Parametrics.LaserRotateLerp(ExBPY, ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.LaserRotateLerp(ExBPY, ExTP, ExTP)
+  type: Method
+  source:
+    id: LaserRotateLerp
+    path: ''
+    startLine: 8788
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP LaserRotateLerp(ExBPY rate, ExTP from, ExTP to)
+    parameters:
+    - id: rate
+      type: ExBPY
+    - id: from
+      type: ExTP
+    - id: to
+      type: ExTP
+    return:
+      type: ExTP
+    content.vb: Public Shared Function LaserRotateLerp(rate As ExBPY, from As ExTP, to As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.LaserRotateLerp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.Switch(System.Single,ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Switch(System.Single,ExTP,ExTP)
+  id: Switch(System.Single,ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: Switch(Single, ExTP, ExTP)
+  nameWithType: Parametrics.Switch(Single, ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.Switch(System.Single, ExTP, ExTP)
+  type: Method
+  source:
+    id: Switch
+    path: ''
+    startLine: 8803
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSwitch between two parametrics based on time.\n"
+  example: []
+  syntax:
+    content: public static ExTP Switch(float at_time, ExTP from, ExTP to)
+    parameters:
+    - id: at_time
+      type: System.Single
+      description: Switch reference
+    - id: from
+      type: ExTP
+      description: Parametric to return before switch
+    - id: to
+      type: ExTP
+      description: Parametric to return after switch
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function Switch(at_time As Single, from As ExTP, to As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.Switch*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.Pivot(ExBPY,ExBPY,ExTP,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Pivot(ExBPY,ExBPY,ExTP,ExTP)
+  id: Pivot(ExBPY,ExBPY,ExTP,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: Pivot(ExBPY, ExBPY, ExTP, ExTP)
+  nameWithType: Parametrics.Pivot(ExBPY, ExBPY, ExTP, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.Pivot(ExBPY, ExBPY, ExTP, ExTP)
+  type: Method
+  source:
+    id: Pivot
+    path: ''
+    startLine: 8820
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSwitch between two functions such that the second function continues where the first left off.\nEg. Switching from the polar equation (r=1, th=90t) to the xy equation (x=t,y=0) yields:\nt = 3 -> (0, -1)\nt = 4 -> (1, -1)\nt = 5 -> (2, -1)\n"
+  example: []
+  syntax:
+    content: public static ExTP Pivot(ExBPY pivotVar, ExBPY pivot, ExTP f1, ExTP f2)
+    parameters:
+    - id: pivotVar
+      type: ExBPY
+      description: The variable upon which pivoting is performed. Should be either &quot;p&quot; (firing index) or &quot;t&quot; (time).
+    - id: pivot
+      type: ExBPY
+      description: The value of the variable at which pivoting is performed
+    - id: f1
+      type: ExTP
+      description: Starting equation
+    - id: f2
+      type: ExTP
+      description: Equation after pivot
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function Pivot(pivotVar As ExBPY, pivot As ExBPY, f1 As ExTP, f2 As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.Pivot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.LerpIn(System.Single,System.Single,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.LerpIn(System.Single,System.Single,ExTP)
+  id: LerpIn(System.Single,System.Single,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: LerpIn(Single, Single, ExTP)
+  nameWithType: Parametrics.LerpIn(Single, Single, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.LerpIn(System.Single, System.Single, ExTP)
+  type: Method
+  source:
+    id: LerpIn
+    path: ''
+    startLine: 8835
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nLerp from zero to the target parametric.\n"
+  example: []
+  syntax:
+    content: public static ExTP LerpIn(float from_time, float end_time, ExTP p)
+    parameters:
+    - id: from_time
+      type: System.Single
+      description: Time to start lerping
+    - id: end_time
+      type: System.Single
+      description: Time to end lerping
+    - id: p
+      type: ExTP
+      description: Target parametric
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function LerpIn(from_time As Single, end_time As Single, p As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.LerpIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.LerpOut(System.Single,System.Single,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.LerpOut(System.Single,System.Single,ExTP)
+  id: LerpOut(System.Single,System.Single,ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: LerpOut(Single, Single, ExTP)
+  nameWithType: Parametrics.LerpOut(Single, Single, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.LerpOut(System.Single, System.Single, ExTP)
+  type: Method
+  source:
+    id: LerpOut
+    path: ''
+    startLine: 8852
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nLerp from the target parametric to zero.\n"
+  example: []
+  syntax:
+    content: public static ExTP LerpOut(float from_time, float end_time, ExTP p)
+    parameters:
+    - id: from_time
+      type: System.Single
+      description: Time to start lerping
+    - id: end_time
+      type: System.Single
+      description: Time to end lerping
+    - id: p
+      type: ExTP
+      description: Target parametric
+    return:
+      type: ExTP
+      description: ''
+    content.vb: Public Shared Function LerpOut(from_time As Single, end_time As Single, p As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.LerpOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.Parametrics.LNearestEnemy*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.LNearestEnemy
+  name: LNearestEnemy
+  nameWithType: Parametrics.LNearestEnemy
+  fullName: Danmokou.DMath.Functions.Parametrics.LNearestEnemy
+- uid: ExTP
+  isExternal: true
+  name: ExTP
+  nameWithType: ExTP
+  fullName: ExTP
+- uid: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
+  name: LSaveNearestEnemy
+  nameWithType: Parametrics.LSaveNearestEnemy
+  fullName: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
+- uid: Danmokou.DMath.Functions.Parametrics.goX*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.goX
+  name: goX
+  nameWithType: Parametrics.goX
+  fullName: Danmokou.DMath.Functions.Parametrics.goX
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: Danmokou.DMath.Functions.Parametrics.goY*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.goY
+  name: goY
+  nameWithType: Parametrics.goY
+  fullName: Danmokou.DMath.Functions.Parametrics.goY
+- uid: Danmokou.DMath.Functions.Parametrics.goUp*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.goUp
+  name: goUp
+  nameWithType: Parametrics.goUp
+  fullName: Danmokou.DMath.Functions.Parametrics.goUp
+- uid: Danmokou.DMath.Functions.Parametrics.goDown*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.goDown
+  name: goDown
+  nameWithType: Parametrics.goDown
+  fullName: Danmokou.DMath.Functions.Parametrics.goDown
+- uid: Danmokou.DMath.Functions.Parametrics.goLeft*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.goLeft
+  name: goLeft
+  nameWithType: Parametrics.goLeft
+  fullName: Danmokou.DMath.Functions.Parametrics.goLeft
+- uid: Danmokou.DMath.Functions.Parametrics.goRight*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.goRight
+  name: goRight
+  nameWithType: Parametrics.goRight
+  fullName: Danmokou.DMath.Functions.Parametrics.goRight
+- uid: Danmokou.DMath.Functions.Parametrics.goSide*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.goSide
+  name: goSide
+  nameWithType: Parametrics.goSide
+  fullName: Danmokou.DMath.Functions.Parametrics.goSide
+- uid: Danmokou.DMath.Functions.Parametrics.goOtherSide*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.goOtherSide
+  name: goOtherSide
+  nameWithType: Parametrics.goOtherSide
+  fullName: Danmokou.DMath.Functions.Parametrics.goOtherSide
+- uid: Danmokou.DMath.Functions.Parametrics.Zero*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Zero
+  name: Zero
+  nameWithType: Parametrics.Zero
+  fullName: Danmokou.DMath.Functions.Parametrics.Zero
+- uid: Danmokou.DMath.Functions.Parametrics.CXY*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.CXY
+  name: CXY
+  nameWithType: Parametrics.CXY
+  fullName: Danmokou.DMath.Functions.Parametrics.CXY
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.DMath.Functions.Parametrics.CX*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.CX
+  name: CX
+  nameWithType: Parametrics.CX
+  fullName: Danmokou.DMath.Functions.Parametrics.CX
+- uid: Danmokou.DMath.Functions.Parametrics.CY*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.CY
+  name: CY
+  nameWithType: Parametrics.CY
+  fullName: Danmokou.DMath.Functions.Parametrics.CY
+- uid: Danmokou.DMath.Functions.Parametrics.CR*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.CR
+  name: CR
+  nameWithType: Parametrics.CR
+  fullName: Danmokou.DMath.Functions.Parametrics.CR
+- uid: Danmokou.DMath.Functions.Parametrics.Divide*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Divide
+  name: Divide
+  nameWithType: Parametrics.Divide
+  fullName: Danmokou.DMath.Functions.Parametrics.Divide
+- uid: Danmokou.DMath.Functions.Parametrics.MultiplyX*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.MultiplyX
+  name: MultiplyX
+  nameWithType: Parametrics.MultiplyX
+  fullName: Danmokou.DMath.Functions.Parametrics.MultiplyX
+- uid: Danmokou.DMath.Functions.Parametrics.MultiplyY*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.MultiplyY
+  name: MultiplyY
+  nameWithType: Parametrics.MultiplyY
+  fullName: Danmokou.DMath.Functions.Parametrics.MultiplyY
+- uid: Danmokou.DMath.Functions.Parametrics.AddY*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.AddY
+  name: AddY
+  nameWithType: Parametrics.AddY
+  fullName: Danmokou.DMath.Functions.Parametrics.AddY
+- uid: Danmokou.DMath.Functions.Parametrics.AddAtAngle*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.AddAtAngle
+  name: AddAtAngle
+  nameWithType: Parametrics.AddAtAngle
+  fullName: Danmokou.DMath.Functions.Parametrics.AddAtAngle
+- uid: Danmokou.DMath.Functions.Parametrics.Loc*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Loc
+  name: Loc
+  nameWithType: Parametrics.Loc
+  fullName: Danmokou.DMath.Functions.Parametrics.Loc
+- uid: Danmokou.DMath.Functions.Parametrics.PXY*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.PXY
+  name: PXY
+  nameWithType: Parametrics.PXY
+  fullName: Danmokou.DMath.Functions.Parametrics.PXY
+- uid: Danmokou.DMath.Functions.Parametrics.PX*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.PX
+  name: PX
+  nameWithType: Parametrics.PX
+  fullName: Danmokou.DMath.Functions.Parametrics.PX
+- uid: Danmokou.DMath.Functions.Parametrics.PY*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.PY
+  name: PY
+  nameWithType: Parametrics.PY
+  fullName: Danmokou.DMath.Functions.Parametrics.PY
+- uid: Danmokou.DMath.Functions.Parametrics.TP*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.TP
+  name: TP
+  nameWithType: Parametrics.TP
+  fullName: Danmokou.DMath.Functions.Parametrics.TP
+- uid: ExTP3
+  isExternal: true
+  name: ExTP3
+  nameWithType: ExTP3
+  fullName: ExTP3
+- uid: Danmokou.DMath.Functions.Parametrics.VHome*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.VHome
+  name: VHome
+  nameWithType: Parametrics.VHome
+  fullName: Danmokou.DMath.Functions.Parametrics.VHome
+- uid: Danmokou.DMath.Functions.Parametrics.VHomeTime*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.VHomeTime
+  name: VHomeTime
+  nameWithType: Parametrics.VHomeTime
+  fullName: Danmokou.DMath.Functions.Parametrics.VHomeTime
+- uid: Danmokou.DMath.Functions.Parametrics.SSVHomeT*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.SSVHomeT
+  name: SSVHomeT
+  nameWithType: Parametrics.SSVHomeT
+  fullName: Danmokou.DMath.Functions.Parametrics.SSVHomeT
+- uid: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.EaseDVHomeT
+  name: EaseDVHomeT
+  nameWithType: Parametrics.EaseDVHomeT
+  fullName: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT
+- uid: System.Func{TEx{System.Single},TEx{System.Single}}
+  commentId: T:System.Func{TEx{System.Single},TEx{System.Single}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TEx<Single>, TEx<Single>>
+  nameWithType: Func<TEx<Single>, TEx<Single>>
+  fullName: System.Func<TEx<System.Single>, TEx<System.Single>>
+  nameWithType.vb: Func(Of TEx(Of Single), TEx(Of Single))
+  fullName.vb: System.Func(Of TEx(Of System.Single), TEx(Of System.Single))
+  name.vb: Func(Of TEx(Of Single), TEx(Of Single))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.Parametrics.EaseToTarget*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.EaseToTarget
+  name: EaseToTarget
+  nameWithType: Parametrics.EaseToTarget
+  fullName: Danmokou.DMath.Functions.Parametrics.EaseToTarget
+- uid: System.Func{tfloat,tfloat}
+  commentId: T:System.Func{tfloat,tfloat}
+  parent: System
+  definition: System.Func`2
+  name: Func<tfloat, tfloat>
+  nameWithType: Func<tfloat, tfloat>
+  fullName: System.Func<tfloat, tfloat>
+  nameWithType.vb: Func(Of tfloat, tfloat)
+  fullName.vb: System.Func(Of tfloat, tfloat)
+  name.vb: Func(Of tfloat, tfloat)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: tfloat
+    name: tfloat
+    nameWithType: tfloat
+    fullName: tfloat
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: tfloat
+    name: tfloat
+    nameWithType: tfloat
+    fullName: tfloat
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: tfloat
+    name: tfloat
+    nameWithType: tfloat
+    fullName: tfloat
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: tfloat
+    name: tfloat
+    nameWithType: tfloat
+    fullName: tfloat
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.Parametrics.Rotify*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Rotify
+  name: Rotify
+  nameWithType: Parametrics.Rotify
+  fullName: Danmokou.DMath.Functions.Parametrics.Rotify
+- uid: Danmokou.DMath.Functions.Parametrics.RotateLerpPercent*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.RotateLerpPercent
+  name: RotateLerpPercent
+  nameWithType: Parametrics.RotateLerpPercent
+  fullName: Danmokou.DMath.Functions.Parametrics.RotateLerpPercent
+- uid: Danmokou.DMath.Functions.Parametrics.RotateLerpRate*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.RotateLerpRate
+  name: RotateLerpRate
+  nameWithType: Parametrics.RotateLerpRate
+  fullName: Danmokou.DMath.Functions.Parametrics.RotateLerpRate
+- uid: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpPercent*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.TrueRotateLerpPercent
+  name: TrueRotateLerpPercent
+  nameWithType: Parametrics.TrueRotateLerpPercent
+  fullName: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpPercent
+- uid: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpRate*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.TrueRotateLerpRate
+  name: TrueRotateLerpRate
+  nameWithType: Parametrics.TrueRotateLerpRate
+  fullName: Danmokou.DMath.Functions.Parametrics.TrueRotateLerpRate
+- uid: Danmokou.DMath.Functions.Parametrics.LaserRotateLerp*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.LaserRotateLerp
+  name: LaserRotateLerp
+  nameWithType: Parametrics.LaserRotateLerp
+  fullName: Danmokou.DMath.Functions.Parametrics.LaserRotateLerp
+- uid: Danmokou.DMath.Functions.Parametrics.Switch*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Switch
+  name: Switch
+  nameWithType: Parametrics.Switch
+  fullName: Danmokou.DMath.Functions.Parametrics.Switch
+- uid: Danmokou.DMath.Functions.Parametrics.Pivot*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Pivot
+  name: Pivot
+  nameWithType: Parametrics.Pivot
+  fullName: Danmokou.DMath.Functions.Parametrics.Pivot
+- uid: Danmokou.DMath.Functions.Parametrics.LerpIn*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.LerpIn
+  name: LerpIn
+  nameWithType: Parametrics.LerpIn
+  fullName: Danmokou.DMath.Functions.Parametrics.LerpIn
+- uid: Danmokou.DMath.Functions.Parametrics.LerpOut*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.LerpOut
+  name: LerpOut
+  nameWithType: Parametrics.LerpOut
+  fullName: Danmokou.DMath.Functions.Parametrics.LerpOut

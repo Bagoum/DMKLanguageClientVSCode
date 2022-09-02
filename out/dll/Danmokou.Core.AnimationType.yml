@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.AnimationType
+  commentId: T:Danmokou.Core.AnimationType
+  id: AnimationType
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.AnimationType.Attack
+  - Danmokou.Core.AnimationType.Death
+  - Danmokou.Core.AnimationType.Down
+  - Danmokou.Core.AnimationType.Left
+  - Danmokou.Core.AnimationType.None
+  - Danmokou.Core.AnimationType.Right
+  - Danmokou.Core.AnimationType.Up
+  langs:
+  - csharp
+  - vb
+  name: AnimationType
+  nameWithType: AnimationType
+  fullName: Danmokou.Core.AnimationType
+  type: Enum
+  source:
+    id: AnimationType
+    path: ''
+    startLine: 304
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum AnimationType
+    content.vb: Public Enum AnimationType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.AnimationType.None
+  commentId: F:Danmokou.Core.AnimationType.None
+  id: None
+  parent: Danmokou.Core.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AnimationType.None
+  fullName: Danmokou.Core.AnimationType.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 305
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: None = 0
+    return:
+      type: Danmokou.Core.AnimationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AnimationType.Left
+  commentId: F:Danmokou.Core.AnimationType.Left
+  id: Left
+  parent: Danmokou.Core.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: AnimationType.Left
+  fullName: Danmokou.Core.AnimationType.Left
+  type: Field
+  source:
+    id: Left
+    path: ''
+    startLine: 306
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Left = 1
+    return:
+      type: Danmokou.Core.AnimationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AnimationType.Right
+  commentId: F:Danmokou.Core.AnimationType.Right
+  id: Right
+  parent: Danmokou.Core.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: AnimationType.Right
+  fullName: Danmokou.Core.AnimationType.Right
+  type: Field
+  source:
+    id: Right
+    path: ''
+    startLine: 307
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Right = 2
+    return:
+      type: Danmokou.Core.AnimationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AnimationType.Up
+  commentId: F:Danmokou.Core.AnimationType.Up
+  id: Up
+  parent: Danmokou.Core.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: AnimationType.Up
+  fullName: Danmokou.Core.AnimationType.Up
+  type: Field
+  source:
+    id: Up
+    path: ''
+    startLine: 308
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Up = 3
+    return:
+      type: Danmokou.Core.AnimationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AnimationType.Down
+  commentId: F:Danmokou.Core.AnimationType.Down
+  id: Down
+  parent: Danmokou.Core.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: AnimationType.Down
+  fullName: Danmokou.Core.AnimationType.Down
+  type: Field
+  source:
+    id: Down
+    path: ''
+    startLine: 309
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Down = 4
+    return:
+      type: Danmokou.Core.AnimationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AnimationType.Attack
+  commentId: F:Danmokou.Core.AnimationType.Attack
+  id: Attack
+  parent: Danmokou.Core.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Attack
+  nameWithType: AnimationType.Attack
+  fullName: Danmokou.Core.AnimationType.Attack
+  type: Field
+  source:
+    id: Attack
+    path: ''
+    startLine: 310
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Attack = 5
+    return:
+      type: Danmokou.Core.AnimationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AnimationType.Death
+  commentId: F:Danmokou.Core.AnimationType.Death
+  id: Death
+  parent: Danmokou.Core.AnimationType
+  langs:
+  - csharp
+  - vb
+  name: Death
+  nameWithType: AnimationType.Death
+  fullName: Danmokou.Core.AnimationType.Death
+  type: Field
+  source:
+    id: Death
+    path: ''
+    startLine: 311
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: Death = 6
+    return:
+      type: Danmokou.Core.AnimationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.AnimationType
+  commentId: T:Danmokou.Core.AnimationType
+  parent: Danmokou.Core
+  name: AnimationType
+  nameWithType: AnimationType
+  fullName: Danmokou.Core.AnimationType

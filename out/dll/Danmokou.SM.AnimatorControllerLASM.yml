@@ -1,0 +1,480 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.AnimatorControllerLASM
+  commentId: T:Danmokou.SM.AnimatorControllerLASM
+  id: AnimatorControllerLASM
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.AnimatorControllerLASM.#ctor(Danmokou.SM.AnimatorControllerLASM.Animate)
+  - Danmokou.SM.AnimatorControllerLASM.Attack
+  langs:
+  - csharp
+  - vb
+  name: AnimatorControllerLASM
+  nameWithType: AnimatorControllerLASM
+  fullName: Danmokou.SM.AnimatorControllerLASM
+  type: Class
+  source:
+    id: AnimatorControllerLASM
+    path: ''
+    startLine: 13307
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\n`anim`: Run animations on the executing BEH.\n"
+  example: []
+  syntax:
+    content: 'public class AnimatorControllerLASM : ReflectableLASM'
+    content.vb: >-
+      Public Class AnimatorControllerLASM
+          Inherits ReflectableLASM
+  inheritance:
+  - System.Object
+  - Danmokou.SM.StateMachine
+  - Danmokou.SM.LineActionSM
+  - Danmokou.SM.ReflectableLASM
+  inheritedMembers:
+  - Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.AnimatorControllerLASM.#ctor(Danmokou.SM.AnimatorControllerLASM.Animate)
+  commentId: M:Danmokou.SM.AnimatorControllerLASM.#ctor(Danmokou.SM.AnimatorControllerLASM.Animate)
+  id: '#ctor(Danmokou.SM.AnimatorControllerLASM.Animate)'
+  parent: Danmokou.SM.AnimatorControllerLASM
+  langs:
+  - csharp
+  - vb
+  name: AnimatorControllerLASM(AnimatorControllerLASM.Animate)
+  nameWithType: AnimatorControllerLASM.AnimatorControllerLASM(AnimatorControllerLASM.Animate)
+  fullName: Danmokou.SM.AnimatorControllerLASM.AnimatorControllerLASM(Danmokou.SM.AnimatorControllerLASM.Animate)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13311
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public AnimatorControllerLASM(AnimatorControllerLASM.Animate rs)
+    parameters:
+    - id: rs
+      type: Danmokou.SM.AnimatorControllerLASM.Animate
+    content.vb: Public Sub New(rs As AnimatorControllerLASM.Animate)
+  overload: Danmokou.SM.AnimatorControllerLASM.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.AnimatorControllerLASM.Attack
+  commentId: M:Danmokou.SM.AnimatorControllerLASM.Attack
+  id: Attack
+  parent: Danmokou.SM.AnimatorControllerLASM
+  langs:
+  - csharp
+  - vb
+  name: Attack()
+  nameWithType: AnimatorControllerLASM.Attack()
+  fullName: Danmokou.SM.AnimatorControllerLASM.Attack()
+  type: Method
+  source:
+    id: Attack
+    path: ''
+    startLine: 13317
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nPlay the attack animation.\n"
+  example: []
+  syntax:
+    content: public static AnimatorControllerLASM.Animate Attack()
+    return:
+      type: Danmokou.SM.AnimatorControllerLASM.Animate
+      description: ''
+    content.vb: Public Shared Function Attack As AnimatorControllerLASM.Animate
+  overload: Danmokou.SM.AnimatorControllerLASM.Attack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.LineActionSM
+  commentId: T:Danmokou.SM.LineActionSM
+  parent: Danmokou.SM
+  name: LineActionSM
+  nameWithType: LineActionSM
+  fullName: Danmokou.SM.LineActionSM
+- uid: Danmokou.SM.ReflectableLASM
+  commentId: T:Danmokou.SM.ReflectableLASM
+  parent: Danmokou.SM
+  name: ReflectableLASM
+  nameWithType: ReflectableLASM
+  fullName: Danmokou.SM.ReflectableLASM
+- uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.ReflectableLASM
+  name: Start(SMHandoff)
+  nameWithType: ReflectableLASM.Start(SMHandoff)
+  fullName: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  spec.csharp:
+  - uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: ReflectableLASM.Start
+    fullName: Danmokou.SM.ReflectableLASM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: ReflectableLASM.Start
+    fullName: Danmokou.SM.ReflectableLASM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.AnimatorControllerLASM.#ctor*
+  commentId: Overload:Danmokou.SM.AnimatorControllerLASM.#ctor
+  name: AnimatorControllerLASM
+  nameWithType: AnimatorControllerLASM.AnimatorControllerLASM
+  fullName: Danmokou.SM.AnimatorControllerLASM.AnimatorControllerLASM
+- uid: Danmokou.SM.AnimatorControllerLASM.Animate
+  commentId: T:Danmokou.SM.AnimatorControllerLASM.Animate
+  parent: Danmokou.SM
+  name: AnimatorControllerLASM.Animate
+  nameWithType: AnimatorControllerLASM.Animate
+  fullName: Danmokou.SM.AnimatorControllerLASM.Animate
+- uid: Danmokou.SM.AnimatorControllerLASM.Attack*
+  commentId: Overload:Danmokou.SM.AnimatorControllerLASM.Attack
+  name: Attack
+  nameWithType: AnimatorControllerLASM.Attack
+  fullName: Danmokou.SM.AnimatorControllerLASM.Attack

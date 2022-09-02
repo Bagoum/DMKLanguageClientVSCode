@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.LRUD
+  commentId: T:Danmokou.Core.LRUD
+  id: LRUD
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.LRUD.DOWN
+  - Danmokou.Core.LRUD.LEFT
+  - Danmokou.Core.LRUD.RIGHT
+  - Danmokou.Core.LRUD.UP
+  langs:
+  - csharp
+  - vb
+  name: LRUD
+  nameWithType: LRUD
+  fullName: Danmokou.Core.LRUD
+  type: Enum
+  source:
+    id: LRUD
+    path: ''
+    startLine: 297
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nA direction that is LEFT, RIGHT, UP, or DOWN.\n"
+  example: []
+  syntax:
+    content: public enum LRUD
+    content.vb: Public Enum LRUD
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.LRUD.LEFT
+  commentId: F:Danmokou.Core.LRUD.LEFT
+  id: LEFT
+  parent: Danmokou.Core.LRUD
+  langs:
+  - csharp
+  - vb
+  name: LEFT
+  nameWithType: LRUD.LEFT
+  fullName: Danmokou.Core.LRUD.LEFT
+  type: Field
+  source:
+    id: LEFT
+    path: ''
+    startLine: 298
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: LEFT = 0
+    return:
+      type: Danmokou.Core.LRUD
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.LRUD.RIGHT
+  commentId: F:Danmokou.Core.LRUD.RIGHT
+  id: RIGHT
+  parent: Danmokou.Core.LRUD
+  langs:
+  - csharp
+  - vb
+  name: RIGHT
+  nameWithType: LRUD.RIGHT
+  fullName: Danmokou.Core.LRUD.RIGHT
+  type: Field
+  source:
+    id: RIGHT
+    path: ''
+    startLine: 299
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: RIGHT = 1
+    return:
+      type: Danmokou.Core.LRUD
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.LRUD.UP
+  commentId: F:Danmokou.Core.LRUD.UP
+  id: UP
+  parent: Danmokou.Core.LRUD
+  langs:
+  - csharp
+  - vb
+  name: UP
+  nameWithType: LRUD.UP
+  fullName: Danmokou.Core.LRUD.UP
+  type: Field
+  source:
+    id: UP
+    path: ''
+    startLine: 300
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: UP = 2
+    return:
+      type: Danmokou.Core.LRUD
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.LRUD.DOWN
+  commentId: F:Danmokou.Core.LRUD.DOWN
+  id: DOWN
+  parent: Danmokou.Core.LRUD
+  langs:
+  - csharp
+  - vb
+  name: DOWN
+  nameWithType: LRUD.DOWN
+  fullName: Danmokou.Core.LRUD.DOWN
+  type: Field
+  source:
+    id: DOWN
+    path: ''
+    startLine: 301
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: DOWN = 3
+    return:
+      type: Danmokou.Core.LRUD
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.LRUD
+  commentId: T:Danmokou.Core.LRUD
+  parent: Danmokou.Core
+  name: LRUD
+  nameWithType: LRUD
+  fullName: Danmokou.Core.LRUD

@@ -1,0 +1,2554 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns
+  commentId: T:Danmokou.Danmaku.Patterns.AtomicPatterns
+  id: AtomicPatterns
+  parent: Danmokou.Danmaku.Patterns
+  children:
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Circ(TP4,BPRV2)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Complex(GCXU{VTP},BehOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Darkness(TP,BPY,TP4)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.dPather
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.DS(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Event``1(System.String,GCXF{``0})
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Event0(System.String)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.GemItem
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.gRelCirc(System.String,TP,BPRV2,TP4)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.gRelRect(System.String,TP,BPRV2,TP4)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Inode(GCXU{VTP},System.Nullable{StateMachine})
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Laser(GCXU{VTP},GCXF{System.Single},GCXF{System.Single},LaserOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.LifeItem
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Noop
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.OneUpItem
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Pather(System.Single,BPY,GCXU{VTP},BehOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura(PowerAuraOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String,System.String,TP4,TP4,GCXF{System.Single},GCXF{System.Single},GCXF{System.Single},GCXF{System.Single})
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Rect(TP4,BPRV2)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.RelCirc(System.String,BEHPointer,BPRV2,TP4)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.RelRect(System.String,BEHPointer,BPRV2,TP4)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.S(GCXU{VTP})
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser(GCXF{System.Single},LaserOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM(GCXU{VTP},GCXF{System.Single},LaserOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SFX
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Simple(GCXU{VTP},SBOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SmallValueItem
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.Summon(GCXU{VTP},System.Nullable{StateMachine},BehOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR(RootedVTP,System.Nullable{StateMachine},BehOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP(RootedVTP,System.Nullable{StateMachine},BehOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ(System.Nullable{StateMachine},BehOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS(GCXU{VTP},System.Nullable{StateMachine})
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP(GCXU{VTP},System.Nullable{StateMachine})
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP(GCXU{VTP},System.Nullable{StateMachine},BehOptions)
+  - Danmokou.Danmaku.Patterns.AtomicPatterns.ValueItem
+  langs:
+  - csharp
+  - vb
+  name: AtomicPatterns
+  nameWithType: AtomicPatterns
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns
+  type: Class
+  source:
+    id: AtomicPatterns
+    path: ''
+    startLine: 4725
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nFunctions that describe atomic synchronous actions.\n"
+  example: []
+  syntax:
+    content: public static class AtomicPatterns
+    content.vb: Public Module AtomicPatterns
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.DS(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.DS(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
+  id: DS(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: DS(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExTP)
+  nameWithType: AtomicPatterns.DS(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExTP)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.DS(ReflectEx.Hoist<Vector2>, ReflectEx.Hoist<Vector2>, ExBPY, ExTP)
+  type: Method
+  source:
+    id: DS
+    path: ''
+    startLine: 4474
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nEmpty-guided fire that points in the same direction as the empty bullet.\n<br />Note: when following polar bullets, you should use this.\n"
+  example: []
+  syntax:
+    content: public static SyncPattern DS(ReflectEx.Hoist<Vector2> hoistLoc, ReflectEx.Hoist<Vector2> hoistDir, ExBPY indexer, ExTP offset)
+    parameters:
+    - id: hoistLoc
+      type: ReflectEx.Hoist{Vector2}
+    - id: hoistDir
+      type: ReflectEx.Hoist{Vector2}
+    - id: indexer
+      type: ExBPY
+    - id: offset
+      type: ExTP
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function DS(hoistLoc As ReflectEx.Hoist(Of Vector2), hoistDir As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, offset As ExTP) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.DS*
+  nameWithType.vb: AtomicPatterns.DS(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.DS(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)
+  name.vb: DS(ReflectEx.Hoist(Of Vector2), ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.dPather
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.dPather
+  id: dPather
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: dPather()
+  nameWithType: AtomicPatterns.dPather()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.dPather()
+  type: Method
+  source:
+    id: dPather
+    path: ''
+    startLine: 4480
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern dPather()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function dPather As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.dPather*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Noop
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Noop
+  id: Noop
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Noop()
+  nameWithType: AtomicPatterns.Noop()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Noop()
+  type: Method
+  source:
+    id: Noop
+    path: ''
+    startLine: 4733
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nDo nothing.\n"
+  example: []
+  syntax:
+    content: public static SyncPattern Noop()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: Public Shared Function Noop As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Noop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SFX
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SFX
+  id: SFX
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SFX()
+  nameWithType: AtomicPatterns.SFX()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SFX()
+  type: Method
+  source:
+    id: SFX
+    path: ''
+    startLine: 4738
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nPlay the audio clip defined by the style.\n"
+  example: []
+  syntax:
+    content: public static SyncPattern SFX()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: Public Shared Function SFX As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SFX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Event``1(System.String,GCXF{``0})
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Event``1(System.String,GCXF{``0})
+  id: Event``1(System.String,GCXF{``0})
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Event<T>(String, GCXF<T>)
+  nameWithType: AtomicPatterns.Event<T>(String, GCXF<T>)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Event<T>(System.String, GCXF<T>)
+  type: Method
+  source:
+    id: Event
+    path: ''
+    startLine: 4744
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nInvoke the provided event with the provided value.\n"
+  example: []
+  syntax:
+    content: public static SyncPattern Event<T>(string evName, GCXF<T> value)
+    parameters:
+    - id: evName
+      type: System.String
+    - id: value
+      type: GCXF{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function Event(Of T)(evName As String, value As GCXF(Of T)) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Event*
+  nameWithType.vb: AtomicPatterns.Event(Of T)(String, GCXF(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Event(Of T)(System.String, GCXF(Of T))
+  name.vb: Event(Of T)(String, GCXF(Of T))
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Event0(System.String)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Event0(System.String)
+  id: Event0(System.String)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Event0(String)
+  nameWithType: AtomicPatterns.Event0(String)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Event0(System.String)
+  type: Method
+  source:
+    id: Event0
+    path: ''
+    startLine: 4751
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nInvoke one of the provided unit events according to the firing index.\n"
+  example: []
+  syntax:
+    content: public static SyncPattern Event0(string evName)
+    parameters:
+    - id: evName
+      type: System.String
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function Event0(evName As String) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Event0*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.LifeItem
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.LifeItem
+  id: LifeItem
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: LifeItem()
+  nameWithType: AtomicPatterns.LifeItem()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.LifeItem()
+  type: Method
+  source:
+    id: LifeItem
+    path: ''
+    startLine: 4755
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern LifeItem()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function LifeItem As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.LifeItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.ValueItem
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.ValueItem
+  id: ValueItem
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: ValueItem()
+  nameWithType: AtomicPatterns.ValueItem()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.ValueItem()
+  type: Method
+  source:
+    id: ValueItem
+    path: ''
+    startLine: 4758
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern ValueItem()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function ValueItem As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.ValueItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SmallValueItem
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SmallValueItem
+  id: SmallValueItem
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SmallValueItem()
+  nameWithType: AtomicPatterns.SmallValueItem()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SmallValueItem()
+  type: Method
+  source:
+    id: SmallValueItem
+    path: ''
+    startLine: 4761
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SmallValueItem()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SmallValueItem As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SmallValueItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem
+  id: PointPPItem
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: PointPPItem()
+  nameWithType: AtomicPatterns.PointPPItem()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem()
+  type: Method
+  source:
+    id: PointPPItem
+    path: ''
+    startLine: 4764
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern PointPPItem()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function PointPPItem As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.GemItem
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.GemItem
+  id: GemItem
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: GemItem()
+  nameWithType: AtomicPatterns.GemItem()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.GemItem()
+  type: Method
+  source:
+    id: GemItem
+    path: ''
+    startLine: 4767
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern GemItem()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function GemItem As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.GemItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.OneUpItem
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.OneUpItem
+  id: OneUpItem
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: OneUpItem()
+  nameWithType: AtomicPatterns.OneUpItem()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.OneUpItem()
+  type: Method
+  source:
+    id: OneUpItem
+    path: ''
+    startLine: 4770
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern OneUpItem()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function OneUpItem As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.OneUpItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem
+  id: PowerupShiftItem
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: PowerupShiftItem()
+  nameWithType: AtomicPatterns.PowerupShiftItem()
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem()
+  type: Method
+  source:
+    id: PowerupShiftItem
+    path: ''
+    startLine: 4774
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern PowerupShiftItem()
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function PowerupShiftItem As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.S(GCXU{VTP})
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.S(GCXU{VTP})
+  id: S(GCXU{VTP})
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: S(GCXU<VTP>)
+  nameWithType: AtomicPatterns.S(GCXU<VTP>)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.S(GCXU<VTP>)
+  type: Method
+  source:
+    id: S
+    path: ''
+    startLine: 4786
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nFires a simple bullet.\n"
+  example: []
+  syntax:
+    content: public static SyncPattern S(GCXU<VTP> path)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+      description: Movement descriptor
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: Public Shared Function S(path As GCXU(Of VTP)) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.S*
+  nameWithType.vb: AtomicPatterns.S(GCXU(Of VTP))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.S(GCXU(Of VTP))
+  name.vb: S(GCXU(Of VTP))
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Simple(GCXU{VTP},SBOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Simple(GCXU{VTP},SBOptions)
+  id: Simple(GCXU{VTP},SBOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Simple(GCXU<VTP>, SBOptions)
+  nameWithType: AtomicPatterns.Simple(GCXU<VTP>, SBOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Simple(GCXU<VTP>, SBOptions)
+  type: Method
+  source:
+    id: Simple
+    path: ''
+    startLine: 4796
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nFires a simple bullet. Takes an array of simple bullet options as modifiers.\nSee <see cref=\"!:SBOption\"></see>\n"
+  example: []
+  syntax:
+    content: public static SyncPattern Simple(GCXU<VTP> path, SBOptions options)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+      description: ''
+    - id: options
+      type: SBOptions
+      description: ''
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: Public Shared Function Simple(path As GCXU(Of VTP), options As SBOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Simple*
+  nameWithType.vb: AtomicPatterns.Simple(GCXU(Of VTP), SBOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Simple(GCXU(Of VTP), SBOptions)
+  name.vb: Simple(GCXU(Of VTP), SBOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Complex(GCXU{VTP},BehOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Complex(GCXU{VTP},BehOptions)
+  id: Complex(GCXU{VTP},BehOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Complex(GCXU<VTP>, BehOptions)
+  nameWithType: AtomicPatterns.Complex(GCXU<VTP>, BehOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Complex(GCXU<VTP>, BehOptions)
+  type: Method
+  source:
+    id: Complex
+    path: ''
+    startLine: 4814
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nFires a complex bullet (ie. controlled by a GameObject).\nDo not use for pathers/lasers (use the Pather or Laser functions).\n"
+  example: []
+  syntax:
+    content: public static SyncPattern Complex(GCXU<VTP> path, BehOptions options)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+      description: Movement descriptor
+    - id: options
+      type: BehOptions
+      description: Bullet constructor options
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: Public Shared Function Complex(path As GCXU(Of VTP), options As BehOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Complex*
+  nameWithType.vb: AtomicPatterns.Complex(GCXU(Of VTP), BehOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Complex(GCXU(Of VTP), BehOptions)
+  name.vb: Complex(GCXU(Of VTP), BehOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Pather(System.Single,BPY,GCXU{VTP},BehOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Pather(System.Single,BPY,GCXU{VTP},BehOptions)
+  id: Pather(System.Single,BPY,GCXU{VTP},BehOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Pather(Single, BPY, GCXU<VTP>, BehOptions)
+  nameWithType: AtomicPatterns.Pather(Single, BPY, GCXU<VTP>, BehOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Pather(System.Single, BPY, GCXU<VTP>, BehOptions)
+  type: Method
+  source:
+    id: Pather
+    path: ''
+    startLine: 4827
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nFires a Pather/Tracker projectile, which &quot;remembers&quot; the points it has gone through and draws a path through them.\n"
+  example: []
+  syntax:
+    content: public static SyncPattern Pather(float maxTime, BPY remember, GCXU<VTP> path, BehOptions options)
+    parameters:
+    - id: maxTime
+      type: System.Single
+      description: Maximum remember time. Only enough space to handle this much time will be allocated.
+    - id: remember
+      type: BPY
+      description: The current remember time as a function of the current life-time
+    - id: path
+      type: GCXU{VTP}
+      description: Movement descriptor
+    - id: options
+      type: BehOptions
+      description: Bullet constructor options
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: Public Shared Function Pather(maxTime As Single, remember As BPY, path As GCXU(Of VTP), options As BehOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Pather*
+  nameWithType.vb: AtomicPatterns.Pather(Single, BPY, GCXU(Of VTP), BehOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Pather(System.Single, BPY, GCXU(Of VTP), BehOptions)
+  name.vb: Pather(Single, BPY, GCXU(Of VTP), BehOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Laser(GCXU{VTP},GCXF{System.Single},GCXF{System.Single},LaserOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Laser(GCXU{VTP},GCXF{System.Single},GCXF{System.Single},LaserOptions)
+  id: Laser(GCXU{VTP},GCXF{System.Single},GCXF{System.Single},LaserOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Laser(GCXU<VTP>, GCXF<Single>, GCXF<Single>, LaserOptions)
+  nameWithType: AtomicPatterns.Laser(GCXU<VTP>, GCXF<Single>, GCXF<Single>, LaserOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Laser(GCXU<VTP>, GCXF<System.Single>, GCXF<System.Single>, LaserOptions)
+  type: Method
+  source:
+    id: Laser
+    path: ''
+    startLine: 4840
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nCreate a laser.\n"
+  example: []
+  syntax:
+    content: public static SyncPattern Laser(GCXU<VTP> path, GCXF<float> cold, GCXF<float> hot, LaserOptions options)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+      description: Movement path for the base point of the laser
+    - id: cold
+      type: GCXF{System.Single}
+      description: Time that the laser is in a non-damaging state
+    - id: hot
+      type: GCXF{System.Single}
+      description: Time that the laser is in a damaging state
+    - id: options
+      type: LaserOptions
+      description: Laser constructor options
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: Public Shared Function Laser(path As GCXU(Of VTP), cold As GCXF(Of Single), hot As GCXF(Of Single), options As LaserOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Laser*
+  nameWithType.vb: AtomicPatterns.Laser(GCXU(Of VTP), GCXF(Of Single), GCXF(Of Single), LaserOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Laser(GCXU(Of VTP), GCXF(Of System.Single), GCXF(Of System.Single), LaserOptions)
+  name.vb: Laser(GCXU(Of VTP), GCXF(Of Single), GCXF(Of Single), LaserOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser(GCXF{System.Single},LaserOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser(GCXF{System.Single},LaserOptions)
+  id: SafeLaser(GCXF{System.Single},LaserOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SafeLaser(GCXF<Single>, LaserOptions)
+  nameWithType: AtomicPatterns.SafeLaser(GCXF<Single>, LaserOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser(GCXF<System.Single>, LaserOptions)
+  type: Method
+  source:
+    id: SafeLaser
+    path: ''
+    startLine: 4845
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SafeLaser(GCXF<float> cold, LaserOptions options)
+    parameters:
+    - id: cold
+      type: GCXF{System.Single}
+    - id: options
+      type: LaserOptions
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SafeLaser(cold As GCXF(Of Single), options As LaserOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser*
+  nameWithType.vb: AtomicPatterns.SafeLaser(GCXF(Of Single), LaserOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser(GCXF(Of System.Single), LaserOptions)
+  name.vb: SafeLaser(GCXF(Of Single), LaserOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM(GCXU{VTP},GCXF{System.Single},LaserOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM(GCXU{VTP},GCXF{System.Single},LaserOptions)
+  id: SafeLaserM(GCXU{VTP},GCXF{System.Single},LaserOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SafeLaserM(GCXU<VTP>, GCXF<Single>, LaserOptions)
+  nameWithType: AtomicPatterns.SafeLaserM(GCXU<VTP>, GCXF<Single>, LaserOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM(GCXU<VTP>, GCXF<System.Single>, LaserOptions)
+  type: Method
+  source:
+    id: SafeLaserM
+    path: ''
+    startLine: 4848
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SafeLaserM(GCXU<VTP> path, GCXF<float> cold, LaserOptions options)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+    - id: cold
+      type: GCXF{System.Single}
+    - id: options
+      type: LaserOptions
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SafeLaserM(path As GCXU(Of VTP), cold As GCXF(Of Single), options As LaserOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM*
+  nameWithType.vb: AtomicPatterns.SafeLaserM(GCXU(Of VTP), GCXF(Of Single), LaserOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM(GCXU(Of VTP), GCXF(Of System.Single), LaserOptions)
+  name.vb: SafeLaserM(GCXU(Of VTP), GCXF(Of Single), LaserOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS(GCXU{VTP},System.Nullable{StateMachine})
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS(GCXU{VTP},System.Nullable{StateMachine})
+  id: SummonS(GCXU{VTP},System.Nullable{StateMachine})
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SummonS(GCXU<VTP>, Nullable<StateMachine>)
+  nameWithType: AtomicPatterns.SummonS(GCXU<VTP>, Nullable<StateMachine>)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS(GCXU<VTP>, System.Nullable<StateMachine>)
+  type: Method
+  source:
+    id: SummonS
+    path: ''
+    startLine: 4851
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SummonS(GCXU<VTP> path, StateMachine? sm)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+    - id: sm
+      type: System.Nullable{StateMachine}
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SummonS(path As GCXU(Of VTP), sm As StateMachine?) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS*
+  nameWithType.vb: AtomicPatterns.SummonS(GCXU(Of VTP), Nullable(Of StateMachine))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS(GCXU(Of VTP), System.Nullable(Of StateMachine))
+  name.vb: SummonS(GCXU(Of VTP), Nullable(Of StateMachine))
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP(GCXU{VTP},System.Nullable{StateMachine})
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP(GCXU{VTP},System.Nullable{StateMachine})
+  id: SummonSUP(GCXU{VTP},System.Nullable{StateMachine})
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SummonSUP(GCXU<VTP>, Nullable<StateMachine>)
+  nameWithType: AtomicPatterns.SummonSUP(GCXU<VTP>, Nullable<StateMachine>)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP(GCXU<VTP>, System.Nullable<StateMachine>)
+  type: Method
+  source:
+    id: SummonSUP
+    path: ''
+    startLine: 4853
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SummonSUP(GCXU<VTP> path, StateMachine? sm)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+    - id: sm
+      type: System.Nullable{StateMachine}
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SummonSUP(path As GCXU(Of VTP), sm As StateMachine?) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP*
+  nameWithType.vb: AtomicPatterns.SummonSUP(GCXU(Of VTP), Nullable(Of StateMachine))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP(GCXU(Of VTP), System.Nullable(Of StateMachine))
+  name.vb: SummonSUP(GCXU(Of VTP), Nullable(Of StateMachine))
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Inode(GCXU{VTP},System.Nullable{StateMachine})
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Inode(GCXU{VTP},System.Nullable{StateMachine})
+  id: Inode(GCXU{VTP},System.Nullable{StateMachine})
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Inode(GCXU<VTP>, Nullable<StateMachine>)
+  nameWithType: AtomicPatterns.Inode(GCXU<VTP>, Nullable<StateMachine>)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Inode(GCXU<VTP>, System.Nullable<StateMachine>)
+  type: Method
+  source:
+    id: Inode
+    path: ''
+    startLine: 4855
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern Inode(GCXU<VTP> path, StateMachine? sm)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+    - id: sm
+      type: System.Nullable{StateMachine}
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function Inode(path As GCXU(Of VTP), sm As StateMachine?) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Inode*
+  nameWithType.vb: AtomicPatterns.Inode(GCXU(Of VTP), Nullable(Of StateMachine))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Inode(GCXU(Of VTP), System.Nullable(Of StateMachine))
+  name.vb: Inode(GCXU(Of VTP), Nullable(Of StateMachine))
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Summon(GCXU{VTP},System.Nullable{StateMachine},BehOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Summon(GCXU{VTP},System.Nullable{StateMachine},BehOptions)
+  id: Summon(GCXU{VTP},System.Nullable{StateMachine},BehOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Summon(GCXU<VTP>, Nullable<StateMachine>, BehOptions)
+  nameWithType: AtomicPatterns.Summon(GCXU<VTP>, Nullable<StateMachine>, BehOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Summon(GCXU<VTP>, System.Nullable<StateMachine>, BehOptions)
+  type: Method
+  source:
+    id: Summon
+    path: ''
+    startLine: 4869
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern Summon(GCXU<VTP> path, StateMachine? sm, BehOptions options)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+    - id: sm
+      type: System.Nullable{StateMachine}
+    - id: options
+      type: BehOptions
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function Summon(path As GCXU(Of VTP), sm As StateMachine?, options As BehOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Summon*
+  nameWithType.vb: AtomicPatterns.Summon(GCXU(Of VTP), Nullable(Of StateMachine), BehOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Summon(GCXU(Of VTP), System.Nullable(Of StateMachine), BehOptions)
+  name.vb: Summon(GCXU(Of VTP), Nullable(Of StateMachine), BehOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP(GCXU{VTP},System.Nullable{StateMachine},BehOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP(GCXU{VTP},System.Nullable{StateMachine},BehOptions)
+  id: SummonUP(GCXU{VTP},System.Nullable{StateMachine},BehOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SummonUP(GCXU<VTP>, Nullable<StateMachine>, BehOptions)
+  nameWithType: AtomicPatterns.SummonUP(GCXU<VTP>, Nullable<StateMachine>, BehOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP(GCXU<VTP>, System.Nullable<StateMachine>, BehOptions)
+  type: Method
+  source:
+    id: SummonUP
+    path: ''
+    startLine: 4871
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SummonUP(GCXU<VTP> path, StateMachine? sm, BehOptions options)
+    parameters:
+    - id: path
+      type: GCXU{VTP}
+    - id: sm
+      type: System.Nullable{StateMachine}
+    - id: options
+      type: BehOptions
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SummonUP(path As GCXU(Of VTP), sm As StateMachine?, options As BehOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP*
+  nameWithType.vb: AtomicPatterns.SummonUP(GCXU(Of VTP), Nullable(Of StateMachine), BehOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP(GCXU(Of VTP), System.Nullable(Of StateMachine), BehOptions)
+  name.vb: SummonUP(GCXU(Of VTP), Nullable(Of StateMachine), BehOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR(RootedVTP,System.Nullable{StateMachine},BehOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR(RootedVTP,System.Nullable{StateMachine},BehOptions)
+  id: SummonR(RootedVTP,System.Nullable{StateMachine},BehOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SummonR(RootedVTP, Nullable<StateMachine>, BehOptions)
+  nameWithType: AtomicPatterns.SummonR(RootedVTP, Nullable<StateMachine>, BehOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR(RootedVTP, System.Nullable<StateMachine>, BehOptions)
+  type: Method
+  source:
+    id: SummonR
+    path: ''
+    startLine: 4874
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SummonR(RootedVTP path, StateMachine? sm, BehOptions options)
+    parameters:
+    - id: path
+      type: RootedVTP
+    - id: sm
+      type: System.Nullable{StateMachine}
+    - id: options
+      type: BehOptions
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SummonR(path As RootedVTP, sm As StateMachine?, options As BehOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR*
+  nameWithType.vb: AtomicPatterns.SummonR(RootedVTP, Nullable(Of StateMachine), BehOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR(RootedVTP, System.Nullable(Of StateMachine), BehOptions)
+  name.vb: SummonR(RootedVTP, Nullable(Of StateMachine), BehOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP(RootedVTP,System.Nullable{StateMachine},BehOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP(RootedVTP,System.Nullable{StateMachine},BehOptions)
+  id: SummonRUP(RootedVTP,System.Nullable{StateMachine},BehOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SummonRUP(RootedVTP, Nullable<StateMachine>, BehOptions)
+  nameWithType: AtomicPatterns.SummonRUP(RootedVTP, Nullable<StateMachine>, BehOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP(RootedVTP, System.Nullable<StateMachine>, BehOptions)
+  type: Method
+  source:
+    id: SummonRUP
+    path: ''
+    startLine: 4878
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SummonRUP(RootedVTP path, StateMachine? sm, BehOptions options)
+    parameters:
+    - id: path
+      type: RootedVTP
+    - id: sm
+      type: System.Nullable{StateMachine}
+    - id: options
+      type: BehOptions
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SummonRUP(path As RootedVTP, sm As StateMachine?, options As BehOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP*
+  nameWithType.vb: AtomicPatterns.SummonRUP(RootedVTP, Nullable(Of StateMachine), BehOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP(RootedVTP, System.Nullable(Of StateMachine), BehOptions)
+  name.vb: SummonRUP(RootedVTP, Nullable(Of StateMachine), BehOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ(System.Nullable{StateMachine},BehOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ(System.Nullable{StateMachine},BehOptions)
+  id: SummonRZ(System.Nullable{StateMachine},BehOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: SummonRZ(Nullable<StateMachine>, BehOptions)
+  nameWithType: AtomicPatterns.SummonRZ(Nullable<StateMachine>, BehOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ(System.Nullable<StateMachine>, BehOptions)
+  type: Method
+  source:
+    id: SummonRZ
+    path: ''
+    startLine: 4883
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern SummonRZ(StateMachine? sm, BehOptions options)
+    parameters:
+    - id: sm
+      type: System.Nullable{StateMachine}
+    - id: options
+      type: BehOptions
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function SummonRZ(sm As StateMachine?, options As BehOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ*
+  nameWithType.vb: AtomicPatterns.SummonRZ(Nullable(Of StateMachine), BehOptions)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ(System.Nullable(Of StateMachine), BehOptions)
+  name.vb: SummonRZ(Nullable(Of StateMachine), BehOptions)
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Circ(TP4,BPRV2)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Circ(TP4,BPRV2)
+  id: Circ(TP4,BPRV2)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Circ(TP4, BPRV2)
+  nameWithType: AtomicPatterns.Circ(TP4, BPRV2)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Circ(TP4, BPRV2)
+  type: Method
+  source:
+    id: Circ
+    path: ''
+    startLine: 4901
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern Circ(TP4 color, BPRV2 locScaleAngle)
+    parameters:
+    - id: color
+      type: TP4
+    - id: locScaleAngle
+      type: BPRV2
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function Circ(color As TP4, locScaleAngle As BPRV2) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Circ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelCirc(System.String,TP,BPRV2,TP4)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.gRelCirc(System.String,TP,BPRV2,TP4)
+  id: gRelCirc(System.String,TP,BPRV2,TP4)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: gRelCirc(String, TP, BPRV2, TP4)
+  nameWithType: AtomicPatterns.gRelCirc(String, TP, BPRV2, TP4)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelCirc(System.String, TP, BPRV2, TP4)
+  type: Method
+  source:
+    id: gRelCirc
+    path: ''
+    startLine: 4905
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern gRelCirc(string behId, TP loc, BPRV2 locScaleAngle, TP4 color)
+    parameters:
+    - id: behId
+      type: System.String
+    - id: loc
+      type: TP
+    - id: locScaleAngle
+      type: BPRV2
+    - id: color
+      type: TP4
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function gRelCirc(behId As String, loc As TP, locScaleAngle As BPRV2, color As TP4) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelCirc*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.RelCirc(System.String,BEHPointer,BPRV2,TP4)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.RelCirc(System.String,BEHPointer,BPRV2,TP4)
+  id: RelCirc(System.String,BEHPointer,BPRV2,TP4)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: RelCirc(String, BEHPointer, BPRV2, TP4)
+  nameWithType: AtomicPatterns.RelCirc(String, BEHPointer, BPRV2, TP4)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.RelCirc(System.String, BEHPointer, BPRV2, TP4)
+  type: Method
+  source:
+    id: RelCirc
+    path: ''
+    startLine: 4910
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern RelCirc(string behId, BEHPointer beh, BPRV2 locScaleAngle, TP4 color)
+    parameters:
+    - id: behId
+      type: System.String
+    - id: beh
+      type: BEHPointer
+    - id: locScaleAngle
+      type: BPRV2
+    - id: color
+      type: TP4
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function RelCirc(behId As String, beh As BEHPointer, locScaleAngle As BPRV2, color As TP4) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.RelCirc*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Rect(TP4,BPRV2)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Rect(TP4,BPRV2)
+  id: Rect(TP4,BPRV2)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Rect(TP4, BPRV2)
+  nameWithType: AtomicPatterns.Rect(TP4, BPRV2)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Rect(TP4, BPRV2)
+  type: Method
+  source:
+    id: Rect
+    path: ''
+    startLine: 4912
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern Rect(TP4 color, BPRV2 locScaleAngle)
+    parameters:
+    - id: color
+      type: TP4
+    - id: locScaleAngle
+      type: BPRV2
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function Rect(color As TP4, locScaleAngle As BPRV2) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Rect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelRect(System.String,TP,BPRV2,TP4)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.gRelRect(System.String,TP,BPRV2,TP4)
+  id: gRelRect(System.String,TP,BPRV2,TP4)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: gRelRect(String, TP, BPRV2, TP4)
+  nameWithType: AtomicPatterns.gRelRect(String, TP, BPRV2, TP4)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelRect(System.String, TP, BPRV2, TP4)
+  type: Method
+  source:
+    id: gRelRect
+    path: ''
+    startLine: 4916
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern gRelRect(string behId, TP loc, BPRV2 locScaleAngle, TP4 color)
+    parameters:
+    - id: behId
+      type: System.String
+    - id: loc
+      type: TP
+    - id: locScaleAngle
+      type: BPRV2
+    - id: color
+      type: TP4
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function gRelRect(behId As String, loc As TP, locScaleAngle As BPRV2, color As TP4) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelRect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.RelRect(System.String,BEHPointer,BPRV2,TP4)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.RelRect(System.String,BEHPointer,BPRV2,TP4)
+  id: RelRect(System.String,BEHPointer,BPRV2,TP4)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: RelRect(String, BEHPointer, BPRV2, TP4)
+  nameWithType: AtomicPatterns.RelRect(String, BEHPointer, BPRV2, TP4)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.RelRect(System.String, BEHPointer, BPRV2, TP4)
+  type: Method
+  source:
+    id: RelRect
+    path: ''
+    startLine: 4921
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern RelRect(string behId, BEHPointer beh, BPRV2 locScaleAngle, TP4 color)
+    parameters:
+    - id: behId
+      type: System.String
+    - id: beh
+      type: BEHPointer
+    - id: locScaleAngle
+      type: BPRV2
+    - id: color
+      type: TP4
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function RelRect(behId As String, beh As BEHPointer, locScaleAngle As BPRV2, color As TP4) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.RelRect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Darkness(TP,BPY,TP4)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Darkness(TP,BPY,TP4)
+  id: Darkness(TP,BPY,TP4)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Darkness(TP, BPY, TP4)
+  nameWithType: AtomicPatterns.Darkness(TP, BPY, TP4)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Darkness(TP, BPY, TP4)
+  type: Method
+  source:
+    id: Darkness
+    path: ''
+    startLine: 4925
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern Darkness(TP loc, BPY radius, TP4 color)
+    parameters:
+    - id: loc
+      type: TP
+    - id: radius
+      type: BPY
+    - id: color
+      type: TP4
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function Darkness(loc As TP, radius As BPY, color As TP4) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Darkness*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura(PowerAuraOptions)
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura(PowerAuraOptions)
+  id: PowerAura(PowerAuraOptions)
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: PowerAura(PowerAuraOptions)
+  nameWithType: AtomicPatterns.PowerAura(PowerAuraOptions)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura(PowerAuraOptions)
+  type: Method
+  source:
+    id: PowerAura
+    path: ''
+    startLine: 4930
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static SyncPattern PowerAura(PowerAuraOptions options)
+    parameters:
+    - id: options
+      type: PowerAuraOptions
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Function PowerAura(options As PowerAuraOptions) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
+  id: Powerup(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Powerup(String, TP4, GCXF<Single>, GCXF<Single>)
+  nameWithType: AtomicPatterns.Powerup(String, TP4, GCXF<Single>, GCXF<Single>)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup(System.String, TP4, GCXF<System.Single>, GCXF<System.Single>)
+  type: Method
+  source:
+    id: Powerup
+    path: ''
+    startLine: 4943
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\n\nCreate a powerup effect.\nThese effects are parented directly under the BEH they are attached to. Offsets, etc do not apply. \n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use PowerAura instead.")]
+
+      public static SyncPattern Powerup(string sfx, TP4 color, GCXF<float> time, GCXF<float> itrs)
+    parameters:
+    - id: sfx
+      type: System.String
+      description: Sound effect to play when the powerup starts
+    - id: color
+      type: TP4
+      description: Color multiplier function
+    - id: time
+      type: GCXF{System.Single}
+      description: Time the powerup exists
+    - id: itrs
+      type: GCXF{System.Single}
+      description: Number of cycles the powerup goes through
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: >-
+      <Obsolete("Use PowerAura instead.")>
+
+      Public Shared Function Powerup(sfx As String, color As TP4, time As GCXF(Of Single), itrs As GCXF(Of Single)) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use PowerAura instead.
+  nameWithType.vb: AtomicPatterns.Powerup(String, TP4, GCXF(Of Single), GCXF(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup(System.String, TP4, GCXF(Of System.Single), GCXF(Of System.Single))
+  name.vb: Powerup(String, TP4, GCXF(Of Single), GCXF(Of Single))
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
+  id: PowerupStatic(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: PowerupStatic(String, TP4, GCXF<Single>, GCXF<Single>)
+  nameWithType: AtomicPatterns.PowerupStatic(String, TP4, GCXF<Single>, GCXF<Single>)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic(System.String, TP4, GCXF<System.Single>, GCXF<System.Single>)
+  type: Method
+  source:
+    id: PowerupStatic
+    path: ''
+    startLine: 4963
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nCreate a powerup effect, using the V2RV2 offset to position.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use PowerAura instead.")]
+
+      public static SyncPattern PowerupStatic(string sfx, TP4 color, GCXF<float> time, GCXF<float> itrs)
+    parameters:
+    - id: sfx
+      type: System.String
+      description: Sound effect to play when the powerup starts
+    - id: color
+      type: TP4
+      description: Color multiplier function
+    - id: time
+      type: GCXF{System.Single}
+      description: Time the powerup exists
+    - id: itrs
+      type: GCXF{System.Single}
+      description: Number of cycles the powerup goes through
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: >-
+      <Obsolete("Use PowerAura instead.")>
+
+      Public Shared Function PowerupStatic(sfx As String, color As TP4, time As GCXF(Of Single), itrs As GCXF(Of Single)) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use PowerAura instead.
+  nameWithType.vb: AtomicPatterns.PowerupStatic(String, TP4, GCXF(Of Single), GCXF(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic(System.String, TP4, GCXF(Of System.Single), GCXF(Of System.Single))
+  name.vb: PowerupStatic(String, TP4, GCXF(Of Single), GCXF(Of Single))
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String,System.String,TP4,TP4,GCXF{System.Single},GCXF{System.Single},GCXF{System.Single},GCXF{System.Single})
+  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String,System.String,TP4,TP4,GCXF{System.Single},GCXF{System.Single},GCXF{System.Single},GCXF{System.Single})
+  id: Powerup2(System.String,System.String,TP4,TP4,GCXF{System.Single},GCXF{System.Single},GCXF{System.Single},GCXF{System.Single})
+  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
+  langs:
+  - csharp
+  - vb
+  name: Powerup2(String, String, TP4, TP4, GCXF<Single>, GCXF<Single>, GCXF<Single>, GCXF<Single>)
+  nameWithType: AtomicPatterns.Powerup2(String, String, TP4, TP4, GCXF<Single>, GCXF<Single>, GCXF<Single>, GCXF<Single>)
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String, System.String, TP4, TP4, GCXF<System.Single>, GCXF<System.Single>, GCXF<System.Single>, GCXF<System.Single>)
+  type: Method
+  source:
+    id: Powerup2
+    path: ''
+    startLine: 4990
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nCreate a powerup effect twice.\n<br />The second time, it goes outwards with one iteration.\n<br />This abbreviation is useful for common use cases of powerups.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use PowerAura instead.")]
+
+      public static SyncPattern Powerup2(string sfx1, string sfx2, TP4 color1, TP4 color2, GCXF<float> time1, GCXF<float> itrs1, GCXF<float> delay, GCXF<float> time2)
+    parameters:
+    - id: sfx1
+      type: System.String
+      description: SFX to play when the first powerup starts
+    - id: sfx2
+      type: System.String
+      description: SFX to play when the second powerup starts
+    - id: color1
+      type: TP4
+      description: Color function for the first powerup
+    - id: color2
+      type: TP4
+      description: Color function for the second powerup
+    - id: time1
+      type: GCXF{System.Single}
+      description: Time the first powerup exists
+    - id: itrs1
+      type: GCXF{System.Single}
+      description: Number of cycles the first powerup goes through
+    - id: delay
+      type: GCXF{System.Single}
+      description: Delay after the first powerup dies before spawning the second powerup
+    - id: time2
+      type: GCXF{System.Single}
+      description: Time the second powerup exists
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+      description: ''
+    content.vb: >-
+      <Obsolete("Use PowerAura instead.")>
+
+      Public Shared Function Powerup2(sfx1 As String, sfx2 As String, color1 As TP4, color2 As TP4, time1 As GCXF(Of Single), itrs1 As GCXF(Of Single), delay As GCXF(Of Single), time2 As GCXF(Of Single)) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use PowerAura instead.
+  nameWithType.vb: AtomicPatterns.Powerup2(String, String, TP4, TP4, GCXF(Of Single), GCXF(Of Single), GCXF(Of Single), GCXF(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String, System.String, TP4, TP4, GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of System.Single))
+  name.vb: Powerup2(String, String, TP4, TP4, GCXF(Of Single), GCXF(Of Single), GCXF(Of Single), GCXF(Of Single))
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.DS*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.DS
+  name: DS
+  nameWithType: AtomicPatterns.DS
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.DS
+- uid: ReflectEx.Hoist{Vector2}
+  commentId: '!:ReflectEx.Hoist{Vector2}'
+  definition: ReflectEx.Hoist`1
+  name: ReflectEx.Hoist<Vector2>
+  nameWithType: ReflectEx.Hoist<Vector2>
+  fullName: ReflectEx.Hoist<Vector2>
+  nameWithType.vb: ReflectEx.Hoist(Of Vector2)
+  fullName.vb: ReflectEx.Hoist(Of Vector2)
+  name.vb: ReflectEx.Hoist(Of Vector2)
+  spec.csharp:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: ExTP
+  isExternal: true
+  name: ExTP
+  nameWithType: ExTP
+  fullName: ExTP
+- uid: Danmokou.Danmaku.Patterns.SyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.SyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncPattern
+  nameWithType: SyncPattern
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern
+- uid: ReflectEx.Hoist`1
+  isExternal: true
+  name: ReflectEx.Hoist<>
+  nameWithType: ReflectEx.Hoist<>
+  fullName: ReflectEx.Hoist<>
+  nameWithType.vb: ReflectEx.Hoist(Of )
+  fullName.vb: ReflectEx.Hoist(Of )
+  name.vb: ReflectEx.Hoist(Of )
+  spec.csharp:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: ReflectEx.Hoist`1
+    name: ReflectEx.Hoist
+    nameWithType: ReflectEx.Hoist
+    fullName: ReflectEx.Hoist
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.dPather*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.dPather
+  name: dPather
+  nameWithType: AtomicPatterns.dPather
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.dPather
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Noop*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Noop
+  name: Noop
+  nameWithType: AtomicPatterns.Noop
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Noop
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SFX*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SFX
+  name: SFX
+  nameWithType: AtomicPatterns.SFX
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SFX
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Event*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Event
+  name: Event
+  nameWithType: AtomicPatterns.Event
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Event
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GCXF{{T}}
+  commentId: '!:GCXF{``0}'
+  definition: GCXF`1
+  name: GCXF<T>
+  nameWithType: GCXF<T>
+  fullName: GCXF<T>
+  nameWithType.vb: GCXF(Of T)
+  fullName.vb: GCXF(Of T)
+  name.vb: GCXF(Of T)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GCXF`1
+  isExternal: true
+  name: GCXF<>
+  nameWithType: GCXF<>
+  fullName: GCXF<>
+  nameWithType.vb: GCXF(Of )
+  fullName.vb: GCXF(Of )
+  name.vb: GCXF(Of )
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Event0*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Event0
+  name: Event0
+  nameWithType: AtomicPatterns.Event0
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Event0
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.LifeItem*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.LifeItem
+  name: LifeItem
+  nameWithType: AtomicPatterns.LifeItem
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.LifeItem
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.ValueItem*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.ValueItem
+  name: ValueItem
+  nameWithType: AtomicPatterns.ValueItem
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.ValueItem
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SmallValueItem*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SmallValueItem
+  name: SmallValueItem
+  nameWithType: AtomicPatterns.SmallValueItem
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SmallValueItem
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem
+  name: PointPPItem
+  nameWithType: AtomicPatterns.PointPPItem
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.GemItem*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.GemItem
+  name: GemItem
+  nameWithType: AtomicPatterns.GemItem
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.GemItem
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.OneUpItem*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.OneUpItem
+  name: OneUpItem
+  nameWithType: AtomicPatterns.OneUpItem
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.OneUpItem
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem
+  name: PowerupShiftItem
+  nameWithType: AtomicPatterns.PowerupShiftItem
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.S*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.S
+  name: S
+  nameWithType: AtomicPatterns.S
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.S
+- uid: GCXU{VTP}
+  commentId: '!:GCXU{VTP}'
+  definition: GCXU`1
+  name: GCXU<VTP>
+  nameWithType: GCXU<VTP>
+  fullName: GCXU<VTP>
+  nameWithType.vb: GCXU(Of VTP)
+  fullName.vb: GCXU(Of VTP)
+  name.vb: GCXU(Of VTP)
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: VTP
+    name: VTP
+    nameWithType: VTP
+    fullName: VTP
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: VTP
+    name: VTP
+    nameWithType: VTP
+    fullName: VTP
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GCXU`1
+  isExternal: true
+  name: GCXU<>
+  nameWithType: GCXU<>
+  fullName: GCXU<>
+  nameWithType.vb: GCXU(Of )
+  fullName.vb: GCXU(Of )
+  name.vb: GCXU(Of )
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Simple*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Simple
+  name: Simple
+  nameWithType: AtomicPatterns.Simple
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Simple
+- uid: SBOptions
+  commentId: '!:SBOptions'
+  isExternal: true
+  name: SBOptions
+  nameWithType: SBOptions
+  fullName: SBOptions
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Complex*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Complex
+  name: Complex
+  nameWithType: AtomicPatterns.Complex
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Complex
+- uid: BehOptions
+  isExternal: true
+  name: BehOptions
+  nameWithType: BehOptions
+  fullName: BehOptions
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Pather*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Pather
+  name: Pather
+  nameWithType: AtomicPatterns.Pather
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Pather
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: BPY
+  isExternal: true
+  name: BPY
+  nameWithType: BPY
+  fullName: BPY
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Laser*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Laser
+  name: Laser
+  nameWithType: AtomicPatterns.Laser
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Laser
+- uid: GCXF{System.Single}
+  commentId: '!:GCXF{System.Single}'
+  definition: GCXF`1
+  name: GCXF<Single>
+  nameWithType: GCXF<Single>
+  fullName: GCXF<System.Single>
+  nameWithType.vb: GCXF(Of Single)
+  fullName.vb: GCXF(Of System.Single)
+  name.vb: GCXF(Of Single)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: LaserOptions
+  isExternal: true
+  name: LaserOptions
+  nameWithType: LaserOptions
+  fullName: LaserOptions
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser
+  name: SafeLaser
+  nameWithType: AtomicPatterns.SafeLaser
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaser
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM
+  name: SafeLaserM
+  nameWithType: AtomicPatterns.SafeLaserM
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SafeLaserM
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS
+  name: SummonS
+  nameWithType: AtomicPatterns.SummonS
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonS
+- uid: System.Nullable{StateMachine}
+  commentId: T:System.Nullable{StateMachine}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<StateMachine>
+  nameWithType: Nullable<StateMachine>
+  fullName: System.Nullable<StateMachine>
+  nameWithType.vb: Nullable(Of StateMachine)
+  fullName.vb: System.Nullable(Of StateMachine)
+  name.vb: Nullable(Of StateMachine)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: StateMachine
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: StateMachine
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP
+  name: SummonSUP
+  nameWithType: AtomicPatterns.SummonSUP
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonSUP
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Inode*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Inode
+  name: Inode
+  nameWithType: AtomicPatterns.Inode
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Inode
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Summon*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Summon
+  name: Summon
+  nameWithType: AtomicPatterns.Summon
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Summon
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP
+  name: SummonUP
+  nameWithType: AtomicPatterns.SummonUP
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonUP
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR
+  name: SummonR
+  nameWithType: AtomicPatterns.SummonR
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonR
+- uid: RootedVTP
+  isExternal: true
+  name: RootedVTP
+  nameWithType: RootedVTP
+  fullName: RootedVTP
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP
+  name: SummonRUP
+  nameWithType: AtomicPatterns.SummonRUP
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRUP
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ
+  name: SummonRZ
+  nameWithType: AtomicPatterns.SummonRZ
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.SummonRZ
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Circ*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Circ
+  name: Circ
+  nameWithType: AtomicPatterns.Circ
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Circ
+- uid: TP4
+  isExternal: true
+  name: TP4
+  nameWithType: TP4
+  fullName: TP4
+- uid: BPRV2
+  isExternal: true
+  name: BPRV2
+  nameWithType: BPRV2
+  fullName: BPRV2
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelCirc*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.gRelCirc
+  name: gRelCirc
+  nameWithType: AtomicPatterns.gRelCirc
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelCirc
+- uid: TP
+  isExternal: true
+  name: TP
+  nameWithType: TP
+  fullName: TP
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.RelCirc*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.RelCirc
+  name: RelCirc
+  nameWithType: AtomicPatterns.RelCirc
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.RelCirc
+- uid: BEHPointer
+  isExternal: true
+  name: BEHPointer
+  nameWithType: BEHPointer
+  fullName: BEHPointer
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Rect*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Rect
+  name: Rect
+  nameWithType: AtomicPatterns.Rect
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Rect
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelRect*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.gRelRect
+  name: gRelRect
+  nameWithType: AtomicPatterns.gRelRect
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.gRelRect
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.RelRect*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.RelRect
+  name: RelRect
+  nameWithType: AtomicPatterns.RelRect
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.RelRect
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Darkness*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Darkness
+  name: Darkness
+  nameWithType: AtomicPatterns.Darkness
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Darkness
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura
+  name: PowerAura
+  nameWithType: AtomicPatterns.PowerAura
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura
+- uid: PowerAuraOptions
+  commentId: '!:PowerAuraOptions'
+  isExternal: true
+  name: PowerAuraOptions
+  nameWithType: PowerAuraOptions
+  fullName: PowerAuraOptions
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup
+  name: Powerup
+  nameWithType: AtomicPatterns.Powerup
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic
+  name: PowerupStatic
+  nameWithType: AtomicPatterns.PowerupStatic
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic
+- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2
+  name: Powerup2
+  nameWithType: AtomicPatterns.Powerup2
+  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2

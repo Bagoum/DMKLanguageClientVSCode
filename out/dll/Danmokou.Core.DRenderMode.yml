@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.DRenderMode
+  commentId: T:Danmokou.Core.DRenderMode
+  id: DRenderMode
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.DRenderMode.ADDITIVE
+  - Danmokou.Core.DRenderMode.NEGATIVE
+  - Danmokou.Core.DRenderMode.NORMAL
+  - Danmokou.Core.DRenderMode.SOFT_ADDITIVE
+  langs:
+  - csharp
+  - vb
+  name: DRenderMode
+  nameWithType: DRenderMode
+  fullName: Danmokou.Core.DRenderMode
+  type: Enum
+  source:
+    id: DRenderMode
+    path: ''
+    startLine: 279
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nStandard rendering modes for bullets.\n"
+  example: []
+  syntax:
+    content: public enum DRenderMode
+    content.vb: Public Enum DRenderMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.DRenderMode.NORMAL
+  commentId: F:Danmokou.Core.DRenderMode.NORMAL
+  id: NORMAL
+  parent: Danmokou.Core.DRenderMode
+  langs:
+  - csharp
+  - vb
+  name: NORMAL
+  nameWithType: DRenderMode.NORMAL
+  fullName: Danmokou.Core.DRenderMode.NORMAL
+  type: Field
+  source:
+    id: NORMAL
+    path: ''
+    startLine: 280
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: NORMAL = 0
+    return:
+      type: Danmokou.Core.DRenderMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.DRenderMode.ADDITIVE
+  commentId: F:Danmokou.Core.DRenderMode.ADDITIVE
+  id: ADDITIVE
+  parent: Danmokou.Core.DRenderMode
+  langs:
+  - csharp
+  - vb
+  name: ADDITIVE
+  nameWithType: DRenderMode.ADDITIVE
+  fullName: Danmokou.Core.DRenderMode.ADDITIVE
+  type: Field
+  source:
+    id: ADDITIVE
+    path: ''
+    startLine: 281
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: ADDITIVE = 1
+    return:
+      type: Danmokou.Core.DRenderMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.DRenderMode.NEGATIVE
+  commentId: F:Danmokou.Core.DRenderMode.NEGATIVE
+  id: NEGATIVE
+  parent: Danmokou.Core.DRenderMode
+  langs:
+  - csharp
+  - vb
+  name: NEGATIVE
+  nameWithType: DRenderMode.NEGATIVE
+  fullName: Danmokou.Core.DRenderMode.NEGATIVE
+  type: Field
+  source:
+    id: NEGATIVE
+    path: ''
+    startLine: 282
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: NEGATIVE = 2
+    return:
+      type: Danmokou.Core.DRenderMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.DRenderMode.SOFT_ADDITIVE
+  commentId: F:Danmokou.Core.DRenderMode.SOFT_ADDITIVE
+  id: SOFT_ADDITIVE
+  parent: Danmokou.Core.DRenderMode
+  langs:
+  - csharp
+  - vb
+  name: SOFT_ADDITIVE
+  nameWithType: DRenderMode.SOFT_ADDITIVE
+  fullName: Danmokou.Core.DRenderMode.SOFT_ADDITIVE
+  type: Field
+  source:
+    id: SOFT_ADDITIVE
+    path: ''
+    startLine: 283
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: SOFT_ADDITIVE = 3
+    return:
+      type: Danmokou.Core.DRenderMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.DRenderMode
+  commentId: T:Danmokou.Core.DRenderMode
+  parent: Danmokou.Core
+  name: DRenderMode
+  nameWithType: DRenderMode
+  fullName: Danmokou.Core.DRenderMode

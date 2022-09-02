@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LanguageServer.VsCode</name>
+    </assembly>
+    <members>
+        <member name="T:LanguageServer.VsCode.Contracts.Client.ClientProxy">
+            <summary>
+            A class that puts all the Language Protocol client-side proxy methods together.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.ClientProxy.#ctor(JsonRpc.DynamicProxy.Client.JsonRpcProxyBuilder,JsonRpc.Client.JsonRpcClient)">
+            <summary>
+            Initializes a client-side proxy method aggregator instance with specified
+            <see cref="T:JsonRpc.DynamicProxy.Client.JsonRpcProxyBuilder"/> and <see cref="T:JsonRpc.Client.JsonRpcClient"/>.
+            </summary>
+            <param name="proxyBuilder">The builder used to build implementations for the stub interfaces.</param>
+            <param name="rpcClient">The client used to send JSON RPC requests.</param>
+            <exception cref="T:System.ArgumentNullException">Either <paramref name="proxyBuilder"/> or <paramref name="rpcClient"/> is <c>null</c>.</exception>
+        </member>
+        <member name="P:LanguageServer.VsCode.Contracts.Client.ClientProxy.ProxyBuilder">
+            <summary>
+            The builder used to build implementations for the stub interfaces.
+            </summary>
+        </member>
+        <member name="P:LanguageServer.VsCode.Contracts.Client.ClientProxy.RpcClient">
+            <summary>
+            The client used to send JSON RPC requests.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IClient.RegisterCapability(System.Collections.Generic.IEnumerable{LanguageServer.VsCode.Contracts.Registration})">
+            <summary>
+            Registers for a new capability on the client side.
+            Not all clients need to support dynamic capability registration.
+            A client opts in via the ClientCapabilities.dynamicRegistration property.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IClient.UnregisterCapability(System.Collections.Generic.IEnumerable{LanguageServer.VsCode.Contracts.Unregistration})">
+            <summary>
+            Unregisters a previously registered capability.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IDocument.PublishDiagnostics(System.Uri,System.Collections.Generic.IEnumerable{LanguageServer.VsCode.Contracts.Diagnostic})">
+            <summary>
+            Diagnostics notification are sent from the server to the client to signal results of validation runs.
+            </summary>
+            <param name="uri">The URI for which diagnostic information is reported.</param>
+            <param name="diagnostics">An array of diagnostic information items.
+            To clear the existing diagnostics, pass <see cref="F:LanguageServer.VsCode.Contracts.Diagnostic.EmptyDiagnostics"/> instead of <c>null</c>.</param>
+        </member>
+        <member name="T:LanguageServer.VsCode.Contracts.Client.ITelemetry">
+            <summary>
+            The telemetry notification is sent from the server to the client to ask the client to log a telemetry event.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.ITelemetry.Event(System.Object[])">
+            <summary>
+            The telemetry notification is sent from the server to the client to ask
+            the client to log a telemetry event.
+            </summary>
+            <param name="data">Any number of data to be sent.</param>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.ITextDocument.PublishDiagnostics(System.Uri,System.Collections.Generic.IEnumerable{LanguageServer.VsCode.Contracts.Diagnostic})">
+            <summary>
+            Diagnostics notification are sent from the server to the client to signal results of validation runs.
+            </summary>
+            <param name="uri">The URI for which diagnostic information is reported.</param>
+            <param name="diagnostics">An array of diagnostic information items.</param>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IWindow.ShowMessage(LanguageServer.VsCode.Contracts.MessageType,System.String)">
+            <summary>
+            The show message notification is sent from a server to a client to ask the client to display
+            a particular message in the user interface.
+            </summary>
+            <param name="type">The message type.</param>
+            <param name="message">The actual message.</param>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IWindow.ShowMessage(LanguageServer.VsCode.Contracts.MessageType,System.String,System.Collections.Generic.IEnumerable{LanguageServer.VsCode.Contracts.IMessageActionItem})">
+            <summary>
+            The show message request is sent from a server to a client to ask the client to
+            display a particular message in the user interface. In addition to the show
+            message notification the request allows to pass actions and to wait for an answer from the client.
+            </summary>
+            <param name="type">The message type.</param>
+            <param name="message">The actual message.</param>
+            <param name="actions">The message action items to present.</param>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IWindow.ShowMessage(LanguageServer.VsCode.Contracts.MessageType,System.String,LanguageServer.VsCode.Contracts.MessageActionItem[])">
+            <summary>
+            The show message request is sent from a server to a client to ask the client to
+            display a particular message in the user interface. In addition to the show
+            message notification the request allows to pass actions and to wait for an answer from the client.
+            </summary>
+            <param name="type">The message type.</param>
+            <param name="message">The actual message.</param>
+            <param name="actions">The message action items to present.</param>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IWindow.LogMessage(LanguageServer.VsCode.Contracts.MessageType,System.String)">
+            <summary>
+            The log message notification is sent from the server to the client to ask the client to log a particular message.
+            </summary>
+            <param name="type">The message type.</param>
+            <param name="message">The actual message.</param>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IWindow.ReportWorkDoneProgress(LanguageServer.VsCode.Contracts.ProgressToken,LanguageServer.VsCode.Contracts.WorkDoneProgress)">
+            <summary>
+            Report any kind of progress including work done progress (usually used to report progress in the user interface using a progress bar)
+            and partial result progress to support streaming of results. (LSP 3.15, <c>$/progress</c>)
+            </summary>
+            <param name="token">The progress token provided by the client or server.</param>
+            <param name="value">The progress data.</param>
+            <remarks>
+            Progress is reported against a token. The token is different than the request ID which allows to report progress
+            out of band and also for notification.
+            </remarks>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IWorkspace.ApplyEdit(LanguageServer.VsCode.Contracts.WorkspaceEdit)">
+            <summary>
+            Modifies resource on the client side.
+            </summary>
+            <param name="edit">The edits to apply.</param>
+            <returns>Indicates whether the edit was applied or not.</returns>
+        </member>
+        <member name="M:LanguageServer.VsCode.Contracts.Client.IWorkspace.Configuration(System.Collections.Generic.IEnumerable{LanguageServer.VsCode.Contracts.ConfigurationItem})">
+            <summary>
+            Fetch configuration settings from the client. The request can fetch several configuration settings in one roundtrip. (LSP 3.6)
+            </summary>
+            <param name="items"></param>
+            <returns>
+            The order of the returned configuration settings correspond to the order of the passed <see cref="T:LanguageServer.VsCode.Contracts.ConfigurationItem"/> (e.g. the first item in the response is the result for the first configuration item in the params).
+            If a scope URI is provided the client should return the setting scoped to the provided resource.
+            If the client for example uses EditorConfig to manage its settings the configuration should be returned for the passed resource URI.
+            If the client can’t provide a configuration setting for a given scope then null need to be present in the returned array.
+            </returns>
+            <remarks>
+            The configuration section ask for is defined by the server and doesn’t necessarily need to correspond to the configuration store used be the client.
+            So a server might ask for a configuration <c>cpp.formatterOptions</c> but the client stores the configuration in a XML store layout differently.
+            It is up to the client to do the necessary conversion.
+            </remarks>
+        </member>
+        <member name="T:LanguageServer.VsCode.Contracts.LanguageServiceParameterValueConverter">
+            <summary>
+            A <see cref="T:JsonRpc.Contracts.IJsonValueConverter"/> implementation that is supposed to be used with
+            LSP over JSON-RPC.
+            </summary>
+        </member>
+        <member name="T:LanguageServer.VsCode.LanguageServerExtensions">
+            <summary>
+            Provides extension methods for implementing a Language Server.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.LanguageServerExtensions.UseCancellationHandling(JsonRpc.Server.JsonRpcServiceHostBuilder)">
+            <summary>
+            Interprets any <see cref="T:System.OperationCanceledException" /> thrown by the service
+            as <c>RequestCancelled</c> error per definition in Language Server Protocol.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.LanguageServerExtensions.IsUntitled(System.Uri)">
+            <summary>
+            Determines whether the specified document URI indeicates an "untitled" document.
+            </summary>
+            <remarks>
+            The URI of an untitled document has the following structure: <c>untitled:xxxxx</c>.
+            </remarks>
+        </member>
+        <member name="T:LanguageServer.VsCode.Server.TextDocument">
+            <summary>
+            Represents the basic traits of an immutable plain-text document.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.TextDocument.Load``1(LanguageServer.VsCode.Contracts.TextDocumentItem)">
+            <summary>
+            Creates a new instance derived from <see cref="T:LanguageServer.VsCode.Server.TextDocument"/>, and
+            fills it with the specified <see cref="T:LanguageServer.VsCode.Contracts.TextDocumentItem"/>.
+            </summary>
+            <typeparam name="T">A derived class of <see cref="T:LanguageServer.VsCode.Server.TextDocument"/>.</typeparam>
+            <param name="doc">The document source to load information from.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="doc"/> is <c>null</c>.</exception>
+        </member>
+        <member name="P:LanguageServer.VsCode.Server.TextDocument.Uri">
+            <summary>
+            URI of the document.
+            </summary>
+            <remarks>
+            You may use <see cref="M:LanguageServer.VsCode.LanguageServerExtensions.IsUntitled(System.Uri)"/> to determine whether
+            this document is untitled.
+            </remarks>
+        </member>
+        <member name="P:LanguageServer.VsCode.Server.TextDocument.LanguageId">
+            <summary>
+            Document's language identifier.
+            </summary>
+        </member>
+        <member name="P:LanguageServer.VsCode.Server.TextDocument.Version">
+            <summary>
+            Revision number of the document.
+            </summary>
+        </member>
+        <member name="P:LanguageServer.VsCode.Server.TextDocument.Content">
+            <summary>
+            The full content of the document.
+            </summary>
+        </member>
+        <member name="P:LanguageServer.VsCode.Server.TextDocument.LinesCount">
+            <summary>
+            Total lines count of the document.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.TextDocument.OnLoad(LanguageServer.VsCode.Contracts.TextDocumentItem)">
+            <summary>
+            Fills this instance with the given <see cref="T:LanguageServer.VsCode.Contracts.TextDocumentItem"/>.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.TextDocument.ApplyChanges(System.Collections.Generic.IList{LanguageServer.VsCode.Contracts.TextDocumentContentChangeEvent})">
+            <summary>
+            Applies a series of <see cref="T:LanguageServer.VsCode.Contracts.TextDocumentContentChangeEvent"/>s to the current document.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.TextDocument.GetRange(LanguageServer.VsCode.Contracts.Range)">
+            <summary>
+            Gets a part of the content by the specified line/column-based range.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.TextDocument.GetRange(System.Int32,System.Int32)">
+            <summary>
+            Gets a part of the content by the specified offset range.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.TextDocument.PositionAt(System.Int32)">
+            <summary>
+            Converts the specified 0-based document offset into <see cref="T:LanguageServer.VsCode.Contracts.Position"/>.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.TextDocument.OffsetAt(LanguageServer.VsCode.Contracts.Position)">
+            <summary>
+            Converts the specified <see cref="T:LanguageServer.VsCode.Contracts.Position"/> into 0-based document offset.
+            </summary>
+        </member>
+        <member name="T:LanguageServer.VsCode.Server.FullTextDocument">
+            <summary>
+            A plain-text document object that always store the full content in it.
+            </summary>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.FullTextDocument.GetRange(System.Int32,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="P:LanguageServer.VsCode.Server.FullTextDocument.LinesCount">
+            <inheritdoc />
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.FullTextDocument.OnLoad(LanguageServer.VsCode.Contracts.TextDocumentItem)">
+            <inheritdoc />
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.FullTextDocument.GetLineStarts(System.String)">
+            <summary>
+            Gets all the offsets that are the starts of new lines.
+            </summary>
+            <exception cref="T:System.ArgumentNullException"><paramref name="expr"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.FullTextDocument.ApplyChanges(System.Collections.Generic.IList{LanguageServer.VsCode.Contracts.TextDocumentContentChangeEvent})">
+            <inheritdoc />
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.FullTextDocument.PositionAt(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:LanguageServer.VsCode.Server.FullTextDocument.OffsetAt(LanguageServer.VsCode.Contracts.Position)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

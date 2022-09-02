@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.RV2ControlMethod
+  commentId: T:Danmokou.Core.RV2ControlMethod
+  id: RV2ControlMethod
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.RV2ControlMethod.ANG
+  - Danmokou.Core.RV2ControlMethod.NX
+  - Danmokou.Core.RV2ControlMethod.NY
+  - Danmokou.Core.RV2ControlMethod.RANG
+  - Danmokou.Core.RV2ControlMethod.RX
+  - Danmokou.Core.RV2ControlMethod.RY
+  langs:
+  - csharp
+  - vb
+  name: RV2ControlMethod
+  nameWithType: RV2ControlMethod
+  fullName: Danmokou.Core.RV2ControlMethod
+  type: Enum
+  source:
+    id: RV2ControlMethod
+    path: ''
+    startLine: 1063
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nEnum that describe components of a V2RV2 location.\nUsed for targeting.\n"
+  example: []
+  syntax:
+    content: public enum RV2ControlMethod
+    content.vb: Public Enum RV2ControlMethod
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.RV2ControlMethod.NX
+  commentId: F:Danmokou.Core.RV2ControlMethod.NX
+  id: NX
+  parent: Danmokou.Core.RV2ControlMethod
+  langs:
+  - csharp
+  - vb
+  name: NX
+  nameWithType: RV2ControlMethod.NX
+  fullName: Danmokou.Core.RV2ControlMethod.NX
+  type: Field
+  source:
+    id: NX
+    path: ''
+    startLine: 1067
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(nx) Nonrotational x\n"
+  example: []
+  syntax:
+    content: NX = 0
+    return:
+      type: Danmokou.Core.RV2ControlMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.RV2ControlMethod.NY
+  commentId: F:Danmokou.Core.RV2ControlMethod.NY
+  id: NY
+  parent: Danmokou.Core.RV2ControlMethod
+  langs:
+  - csharp
+  - vb
+  name: NY
+  nameWithType: RV2ControlMethod.NY
+  fullName: Danmokou.Core.RV2ControlMethod.NY
+  type: Field
+  source:
+    id: NY
+    path: ''
+    startLine: 1071
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(ny) Nonrotational y\n"
+  example: []
+  syntax:
+    content: NY = 1
+    return:
+      type: Danmokou.Core.RV2ControlMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.RV2ControlMethod.RX
+  commentId: F:Danmokou.Core.RV2ControlMethod.RX
+  id: RX
+  parent: Danmokou.Core.RV2ControlMethod
+  langs:
+  - csharp
+  - vb
+  name: RX
+  nameWithType: RV2ControlMethod.RX
+  fullName: Danmokou.Core.RV2ControlMethod.RX
+  type: Field
+  source:
+    id: RX
+    path: ''
+    startLine: 1075
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(rx) Rotational x\n"
+  example: []
+  syntax:
+    content: RX = 2
+    return:
+      type: Danmokou.Core.RV2ControlMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.RV2ControlMethod.RY
+  commentId: F:Danmokou.Core.RV2ControlMethod.RY
+  id: RY
+  parent: Danmokou.Core.RV2ControlMethod
+  langs:
+  - csharp
+  - vb
+  name: RY
+  nameWithType: RV2ControlMethod.RY
+  fullName: Danmokou.Core.RV2ControlMethod.RY
+  type: Field
+  source:
+    id: RY
+    path: ''
+    startLine: 1079
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(ry) Rotational y\n"
+  example: []
+  syntax:
+    content: RY = 3
+    return:
+      type: Danmokou.Core.RV2ControlMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.RV2ControlMethod.ANG
+  commentId: F:Danmokou.Core.RV2ControlMethod.ANG
+  id: ANG
+  parent: Danmokou.Core.RV2ControlMethod
+  langs:
+  - csharp
+  - vb
+  name: ANG
+  nameWithType: RV2ControlMethod.ANG
+  fullName: Danmokou.Core.RV2ControlMethod.ANG
+  type: Field
+  source:
+    id: ANG
+    path: ''
+    startLine: 1083
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(a) Angle. When targeted, rotates the entire summon.\n"
+  example: []
+  syntax:
+    content: ANG = 4
+    return:
+      type: Danmokou.Core.RV2ControlMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.RV2ControlMethod.RANG
+  commentId: F:Danmokou.Core.RV2ControlMethod.RANG
+  id: RANG
+  parent: Danmokou.Core.RV2ControlMethod
+  langs:
+  - csharp
+  - vb
+  name: RANG
+  nameWithType: RV2ControlMethod.RANG
+  fullName: Danmokou.Core.RV2ControlMethod.RANG
+  type: Field
+  source:
+    id: RANG
+    path: ''
+    startLine: 1087
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\n(ra) Angle. When targeted, only adds to the RV2 angle.\n"
+  example: []
+  syntax:
+    content: RANG = 5
+    return:
+      type: Danmokou.Core.RV2ControlMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.RV2ControlMethod
+  commentId: T:Danmokou.Core.RV2ControlMethod
+  parent: Danmokou.Core
+  name: RV2ControlMethod
+  nameWithType: RV2ControlMethod
+  fullName: Danmokou.Core.RV2ControlMethod

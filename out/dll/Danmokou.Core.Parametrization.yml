@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.Parametrization
+  commentId: T:Danmokou.Core.Parametrization
+  id: Parametrization
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.Parametrization.ADDITIVE
+  - Danmokou.Core.Parametrization.DEFER
+  - Danmokou.Core.Parametrization.INVMOD
+  - Danmokou.Core.Parametrization.MOD
+  - Danmokou.Core.Parametrization.THIS
+  langs:
+  - csharp
+  - vb
+  name: Parametrization
+  nameWithType: Parametrization
+  fullName: Danmokou.Core.Parametrization
+  type: Enum
+  source:
+    id: Parametrization
+    path: ''
+    startLine: 988
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nHandling for setting the firing index. The generic repeaters use DEFER by default.\n"
+  example: []
+  syntax:
+    content: public enum Parametrization
+    content.vb: Public Enum Parametrization
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.Parametrization.THIS
+  commentId: F:Danmokou.Core.Parametrization.THIS
+  id: THIS
+  parent: Danmokou.Core.Parametrization
+  langs:
+  - csharp
+  - vb
+  name: THIS
+  nameWithType: Parametrization.THIS
+  fullName: Danmokou.Core.Parametrization.THIS
+  type: Field
+  source:
+    id: THIS
+    path: ''
+    startLine: 992
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nUse this function&apos;s indexing.\n"
+  example: []
+  syntax:
+    content: THIS = 0
+    return:
+      type: Danmokou.Core.Parametrization
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Parametrization.DEFER
+  commentId: F:Danmokou.Core.Parametrization.DEFER
+  id: DEFER
+  parent: Danmokou.Core.Parametrization
+  langs:
+  - csharp
+  - vb
+  name: DEFER
+  nameWithType: Parametrization.DEFER
+  fullName: Danmokou.Core.Parametrization.DEFER
+  type: Field
+  source:
+    id: DEFER
+    path: ''
+    startLine: 996
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nUse the parent function&apos;s indexing.\n"
+  example: []
+  syntax:
+    content: DEFER = 1
+    return:
+      type: Danmokou.Core.Parametrization
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Parametrization.ADDITIVE
+  commentId: F:Danmokou.Core.Parametrization.ADDITIVE
+  id: ADDITIVE
+  parent: Danmokou.Core.Parametrization
+  langs:
+  - csharp
+  - vb
+  name: ADDITIVE
+  nameWithType: Parametrization.ADDITIVE
+  fullName: Danmokou.Core.Parametrization.ADDITIVE
+  type: Field
+  source:
+    id: ADDITIVE
+    path: ''
+    startLine: 1000
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nCombine the indexing. Use p1 (parent) p2 (this) in FXY functions.\n"
+  example: []
+  syntax:
+    content: ADDITIVE = 2
+    return:
+      type: Danmokou.Core.Parametrization
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Parametrization.MOD
+  commentId: F:Danmokou.Core.Parametrization.MOD
+  id: MOD
+  parent: Danmokou.Core.Parametrization
+  langs:
+  - csharp
+  - vb
+  name: MOD
+  nameWithType: Parametrization.MOD
+  fullName: Danmokou.Core.Parametrization.MOD
+  type: Field
+  source:
+    id: MOD
+    path: ''
+    startLine: 1006
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nCombine the indexing around the repeat number of the child function.\nIf the local index of the child function goes past the repeat number, it will wrap back to zero.\nUse p1m {RPT} p2m {RPT} in FXY functions.\n"
+  example: []
+  syntax:
+    content: MOD = 3
+    return:
+      type: Danmokou.Core.Parametrization
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.Parametrization.INVMOD
+  commentId: F:Danmokou.Core.Parametrization.INVMOD
+  id: INVMOD
+  parent: Danmokou.Core.Parametrization
+  langs:
+  - csharp
+  - vb
+  name: INVMOD
+  nameWithType: Parametrization.INVMOD
+  fullName: Danmokou.Core.Parametrization.INVMOD
+  type: Field
+  source:
+    id: INVMOD
+    path: ''
+    startLine: 1013
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nCombine the indexing around the repeat number of the child function.\nThe ordering is inverted, so the first summon has local index RPT-1 and the last has local index 0.\nIf the local index of the child function goes past the repeat number, it will wrap back to RPT-1.\nUse p1m {RPT} p2m {RPT} in FXY functions.\n"
+  example: []
+  syntax:
+    content: INVMOD = 4
+    return:
+      type: Danmokou.Core.Parametrization
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.Parametrization
+  commentId: T:Danmokou.Core.Parametrization
+  parent: Danmokou.Core
+  name: Parametrization
+  nameWithType: Parametrization
+  fullName: Danmokou.Core.Parametrization

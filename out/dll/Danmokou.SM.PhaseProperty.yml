@@ -1,0 +1,1541 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.PhaseProperty
+  commentId: T:Danmokou.SM.PhaseProperty
+  id: PhaseProperty
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.PhaseProperty.Announce
+  - Danmokou.SM.PhaseProperty.BG(System.String)
+  - Danmokou.SM.PhaseProperty.BGTIn(System.String)
+  - Danmokou.SM.PhaseProperty.BGTOut(System.String)
+  - Danmokou.SM.PhaseProperty.BossCutin
+  - Danmokou.SM.PhaseProperty.Challenge(Challenge)
+  - Danmokou.SM.PhaseProperty.Clear
+  - Danmokou.SM.PhaseProperty.Dialogue
+  - Danmokou.SM.PhaseProperty.Endboss
+  - Danmokou.SM.PhaseProperty.Event``1(System.String,Events.RuntimeEventType)
+  - Danmokou.SM.PhaseProperty.HideTimeout
+  - Danmokou.SM.PhaseProperty.HP(System.Int32)
+  - Danmokou.SM.PhaseProperty.HPBar(System.Single)
+  - Danmokou.SM.PhaseProperty.HPi(System.Int32,System.Single)
+  - Danmokou.SM.PhaseProperty.HPn(System.Int32)
+  - Danmokou.SM.PhaseProperty.Lenient
+  - Danmokou.SM.PhaseProperty.Midboss
+  - Danmokou.SM.PhaseProperty.NoClear
+  - Danmokou.SM.PhaseProperty.Photo(System.Int32)
+  - Danmokou.SM.PhaseProperty.Root(System.Single,System.Single)
+  - Danmokou.SM.PhaseProperty.RootOther(System.String,System.Single,System.Single)
+  - Danmokou.SM.PhaseProperty.RootT(System.Single,System.Single,System.Single)
+  - Danmokou.SM.PhaseProperty.ShowLives(System.Int32)
+  - Danmokou.SM.PhaseProperty.Silent
+  - Danmokou.SM.PhaseProperty.Skip
+  - Danmokou.SM.PhaseProperty.SpellCutin(System.Int32)
+  - Danmokou.SM.PhaseProperty.Stage
+  - Danmokou.SM.PhaseProperty.Type(PhaseType,LString)
+  langs:
+  - csharp
+  - vb
+  name: PhaseProperty
+  nameWithType: PhaseProperty
+  fullName: Danmokou.SM.PhaseProperty
+  type: Class
+  source:
+    id: PhaseProperty
+    path: ''
+    startLine: 14547
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nMarkers that modify the behavior of PhaseSM.\n"
+  example: []
+  syntax:
+    content: public class PhaseProperty
+    content.vb: Public Class PhaseProperty
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.PhaseProperty.HideTimeout
+  commentId: M:Danmokou.SM.PhaseProperty.HideTimeout
+  id: HideTimeout
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: HideTimeout()
+  nameWithType: PhaseProperty.HideTimeout()
+  fullName: Danmokou.SM.PhaseProperty.HideTimeout()
+  type: Method
+  source:
+    id: HideTimeout
+    path: ''
+    startLine: 14553
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nHide the timeout display on the UI.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty HideTimeout()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function HideTimeout As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.HideTimeout*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Announce
+  commentId: M:Danmokou.SM.PhaseProperty.Announce
+  id: Announce
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Announce()
+  nameWithType: PhaseProperty.Announce()
+  fullName: Danmokou.SM.PhaseProperty.Announce()
+  type: Method
+  source:
+    id: Announce
+    path: ''
+    startLine: 14557
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclares that this phase is a stage announce section.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Announce()
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function Announce As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Announce*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Stage
+  commentId: M:Danmokou.SM.PhaseProperty.Stage
+  id: Stage
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Stage()
+  nameWithType: PhaseProperty.Stage()
+  fullName: Danmokou.SM.PhaseProperty.Stage()
+  type: Method
+  source:
+    id: Stage
+    path: ''
+    startLine: 14561
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclares that this phase is a stage section.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Stage()
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function Stage As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Stage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Silent
+  commentId: M:Danmokou.SM.PhaseProperty.Silent
+  id: Silent
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Silent()
+  nameWithType: PhaseProperty.Silent()
+  fullName: Danmokou.SM.PhaseProperty.Silent()
+  type: Method
+  source:
+    id: Silent
+    path: ''
+    startLine: 14567
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDon&apos;t play a sound effect (spellcard clear or stage section clear) when this phase is cleared.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Silent()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function Silent As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Silent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Skip
+  commentId: M:Danmokou.SM.PhaseProperty.Skip
+  id: Skip
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Skip()
+  nameWithType: PhaseProperty.Skip()
+  fullName: Danmokou.SM.PhaseProperty.Skip()
+  type: Method
+  source:
+    id: Skip
+    path: ''
+    startLine: 14573
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSkip this phase.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Skip()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function Skip As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Skip*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Dialogue
+  commentId: M:Danmokou.SM.PhaseProperty.Dialogue
+  id: Dialogue
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Dialogue()
+  nameWithType: PhaseProperty.Dialogue()
+  fullName: Danmokou.SM.PhaseProperty.Dialogue()
+  type: Method
+  source:
+    id: Dialogue
+    path: ''
+    startLine: 14579
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare that this phase is a dialogue phase. (Same as TYPE DIALOGUE ``).\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Dialogue()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function Dialogue As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Dialogue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Midboss
+  commentId: M:Danmokou.SM.PhaseProperty.Midboss
+  id: Midboss
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Midboss()
+  nameWithType: PhaseProperty.Midboss()
+  fullName: Danmokou.SM.PhaseProperty.Midboss()
+  type: Method
+  source:
+    id: Midboss
+    path: ''
+    startLine: 14584
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare that this phase is a stage midboss phase.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Midboss()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function Midboss As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Midboss*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Endboss
+  commentId: M:Danmokou.SM.PhaseProperty.Endboss
+  id: Endboss
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Endboss()
+  nameWithType: PhaseProperty.Endboss()
+  fullName: Danmokou.SM.PhaseProperty.Endboss()
+  type: Method
+  source:
+    id: Endboss
+    path: ''
+    startLine: 14589
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare that this phase is a stage endboss phase.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Endboss()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function Endboss As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Endboss*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Type(PhaseType,LString)
+  commentId: M:Danmokou.SM.PhaseProperty.Type(PhaseType,LString)
+  id: Type(PhaseType,LString)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Type(PhaseType, LString)
+  nameWithType: PhaseProperty.Type(PhaseType, LString)
+  fullName: Danmokou.SM.PhaseProperty.Type(PhaseType, LString)
+  type: Method
+  source:
+    id: Type
+    path: ''
+    startLine: 14593
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the type and name of this phase.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Type(PhaseType type, LString name)
+    parameters:
+    - id: type
+      type: PhaseType
+    - id: name
+      type: LString
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function Type(type As PhaseType, name As LString) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Type*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Photo(System.Int32)
+  commentId: M:Danmokou.SM.PhaseProperty.Photo(System.Int32)
+  id: Photo(System.Int32)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Photo(Int32)
+  nameWithType: PhaseProperty.Photo(Int32)
+  fullName: Danmokou.SM.PhaseProperty.Photo(System.Int32)
+  type: Method
+  source:
+    id: Photo
+    path: ''
+    startLine: 14599
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the amount of photos necessary to defeat the boss.\n<br />Note: this works similarly enough to HP that you could\nmake a 6-stage game with a photo shot.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Photo(int photos)
+    parameters:
+    - id: photos
+      type: System.Int32
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function Photo(photos As Integer) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Photo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.HPn(System.Int32)
+  commentId: M:Danmokou.SM.PhaseProperty.HPn(System.Int32)
+  id: HPn(System.Int32)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: HPn(Int32)
+  nameWithType: PhaseProperty.HPn(Int32)
+  fullName: Danmokou.SM.PhaseProperty.HPn(System.Int32)
+  type: Method
+  source:
+    id: HPn
+    path: ''
+    startLine: 14604
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the amount of HP the boss has during this section.\nThe boss will be invincible when the phase starts. Use `vulnerable true`.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty HPn(int hp)
+    parameters:
+    - id: hp
+      type: System.Int32
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function HPn(hp As Integer) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.HPn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.HP(System.Int32)
+  commentId: M:Danmokou.SM.PhaseProperty.HP(System.Int32)
+  id: HP(System.Int32)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: HP(Int32)
+  nameWithType: PhaseProperty.HP(Int32)
+  fullName: Danmokou.SM.PhaseProperty.HP(System.Int32)
+  type: Method
+  source:
+    id: HP
+    path: ''
+    startLine: 14609
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the amount of HP the boss has during this section.\nThe boss will be immediately vulnerable once the phase starts.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty HP(int hp)
+    parameters:
+    - id: hp
+      type: System.Int32
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function HP(hp As Integer) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.HP*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.HPi(System.Int32,System.Single)
+  commentId: M:Danmokou.SM.PhaseProperty.HPi(System.Int32,System.Single)
+  id: HPi(System.Int32,System.Single)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: HPi(Int32, Single)
+  nameWithType: PhaseProperty.HPi(Int32, Single)
+  fullName: Danmokou.SM.PhaseProperty.HPi(System.Int32, System.Single)
+  type: Method
+  source:
+    id: HPi
+    path: ''
+    startLine: 14614
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the amount of HP the boss has during this section.\nAlso declare the amount of time for which the boss is invulnerable at the beginning of the phase.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty HPi(int hp, float inv_time)
+    parameters:
+    - id: hp
+      type: System.Int32
+    - id: inv_time
+      type: System.Single
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function HPi(hp As Integer, inv_time As Single) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.HPi*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.HPBar(System.Single)
+  commentId: M:Danmokou.SM.PhaseProperty.HPBar(System.Single)
+  id: HPBar(System.Single)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: HPBar(Single)
+  nameWithType: PhaseProperty.HPBar(Single)
+  fullName: Danmokou.SM.PhaseProperty.HPBar(System.Single)
+  type: Method
+  source:
+    id: HPBar
+    path: ''
+    startLine: 14620
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the percentage of the remaining healthbar that this spellcard should consume.\nNote: By default, this is 0.5 for nonspells and 1 for spells.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty HPBar(float portion)
+    parameters:
+    - id: portion
+      type: System.Single
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function HPBar(portion As Single) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.HPBar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Event``1(System.String,Events.RuntimeEventType)
+  commentId: M:Danmokou.SM.PhaseProperty.Event``1(System.String,Events.RuntimeEventType)
+  id: Event``1(System.String,Events.RuntimeEventType)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Event<T>(String, Events.RuntimeEventType)
+  nameWithType: PhaseProperty.Event<T>(String, Events.RuntimeEventType)
+  fullName: Danmokou.SM.PhaseProperty.Event<T>(System.String, Events.RuntimeEventType)
+  type: Method
+  source:
+    id: Event
+    path: ''
+    startLine: 14625
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare an event type that will be used in the phase.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Event<T>(string evName, Events.RuntimeEventType typ)
+    parameters:
+    - id: evName
+      type: System.String
+    - id: typ
+      type: Events.RuntimeEventType
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function Event(Of T)(evName As String, typ As Events.RuntimeEventType) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Event*
+  nameWithType.vb: PhaseProperty.Event(Of T)(String, Events.RuntimeEventType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.PhaseProperty.Event(Of T)(System.String, Events.RuntimeEventType)
+  name.vb: Event(Of T)(String, Events.RuntimeEventType)
+- uid: Danmokou.SM.PhaseProperty.BGTIn(System.String)
+  commentId: M:Danmokou.SM.PhaseProperty.BGTIn(System.String)
+  id: BGTIn(System.String)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: BGTIn(String)
+  nameWithType: PhaseProperty.BGTIn(String)
+  fullName: Danmokou.SM.PhaseProperty.BGTIn(System.String)
+  type: Method
+  source:
+    id: BGTIn
+    path: ''
+    startLine: 14633
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the background transition used when shifting into this spellcard.\n<br />Note: This is automatically handled by the `boss` pattern property.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty BGTIn(string style)
+    parameters:
+    - id: style
+      type: System.String
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function BGTIn(style As String) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.BGTIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.BG(System.String)
+  commentId: M:Danmokou.SM.PhaseProperty.BG(System.String)
+  id: BG(System.String)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: BG(String)
+  nameWithType: PhaseProperty.BG(String)
+  fullName: Danmokou.SM.PhaseProperty.BG(System.String)
+  type: Method
+  source:
+    id: BG
+    path: ''
+    startLine: 14640
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the background style of this spellcard.\n<br />Note: This is automatically handled by the `boss` pattern property.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty BG(string style)
+    parameters:
+    - id: style
+      type: System.String
+      description: ''
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function BG(style As String) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.BG*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.BGTOut(System.String)
+  commentId: M:Danmokou.SM.PhaseProperty.BGTOut(System.String)
+  id: BGTOut(System.String)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: BGTOut(String)
+  nameWithType: PhaseProperty.BGTOut(String)
+  fullName: Danmokou.SM.PhaseProperty.BGTOut(System.String)
+  type: Method
+  source:
+    id: BGTOut
+    path: ''
+    startLine: 14646
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDeclare the background transition used when ending this spellcard.\n<br />Note: This is automatically handled by the `boss` pattern property.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty BGTOut(string style)
+    parameters:
+    - id: style
+      type: System.String
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function BGTOut(style As String) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.BGTOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Clear
+  commentId: M:Danmokou.SM.PhaseProperty.Clear
+  id: Clear
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: PhaseProperty.Clear()
+  fullName: Danmokou.SM.PhaseProperty.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 14653
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nAutomatically clear bullets and hoisted data at the end of this phase.\nNote that this is on by default for card-type spells (nons, spells, timeouts, finals).\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Clear()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function Clear As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Clear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.NoClear
+  commentId: M:Danmokou.SM.PhaseProperty.NoClear
+  id: NoClear
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: NoClear()
+  nameWithType: PhaseProperty.NoClear()
+  fullName: Danmokou.SM.PhaseProperty.NoClear()
+  type: Method
+  source:
+    id: NoClear
+    path: ''
+    startLine: 14658
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDon&apos;t automatically clear bullets and hoisted data at the end of this phase.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty NoClear()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function NoClear As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.NoClear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Root(System.Single,System.Single)
+  commentId: M:Danmokou.SM.PhaseProperty.Root(System.Single,System.Single)
+  id: Root(System.Single,System.Single)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Root(Single, Single)
+  nameWithType: PhaseProperty.Root(Single, Single)
+  fullName: Danmokou.SM.PhaseProperty.Root(System.Single, System.Single)
+  type: Method
+  source:
+    id: Root
+    path: ''
+    startLine: 14663
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSame as RootT with a default time of 2 seconds.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Root(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function Root(x As Single, y As Single) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Root*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.RootOther(System.String,System.Single,System.Single)
+  commentId: M:Danmokou.SM.PhaseProperty.RootOther(System.String,System.Single,System.Single)
+  id: RootOther(System.String,System.Single,System.Single)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: RootOther(String, Single, Single)
+  nameWithType: PhaseProperty.RootOther(String, Single, Single)
+  fullName: Danmokou.SM.PhaseProperty.RootOther(System.String, System.Single, System.Single)
+  type: Method
+  source:
+    id: RootOther
+    path: ''
+    startLine: 14668
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSet the starting boss position for a persistent BEH entity, with a default time of 2 seconds.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty RootOther(string who, float x, float y)
+    parameters:
+    - id: who
+      type: System.String
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function RootOther(who As String, x As Single, y As Single) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.RootOther*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.RootT(System.Single,System.Single,System.Single)
+  commentId: M:Danmokou.SM.PhaseProperty.RootT(System.Single,System.Single,System.Single)
+  id: RootT(System.Single,System.Single,System.Single)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: RootT(Single, Single, Single)
+  nameWithType: PhaseProperty.RootT(Single, Single, Single)
+  fullName: Danmokou.SM.PhaseProperty.RootT(System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: RootT
+    path: ''
+    startLine: 14677
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSet the starting boss position for this phase. The boss will move here before the phase timer starts.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty RootT(float t, float x, float y)
+    parameters:
+    - id: t
+      type: System.Single
+      description: Time (seconds) to move to position
+    - id: x
+      type: System.Single
+      description: X position
+    - id: y
+      type: System.Single
+      description: Y position
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function RootT(t As Single, x As Single, y As Single) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.RootT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.ShowLives(System.Int32)
+  commentId: M:Danmokou.SM.PhaseProperty.ShowLives(System.Int32)
+  id: ShowLives(System.Int32)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: ShowLives(Int32)
+  nameWithType: PhaseProperty.ShowLives(Int32)
+  fullName: Danmokou.SM.PhaseProperty.ShowLives(System.Int32)
+  type: Method
+  source:
+    id: ShowLives
+    path: ''
+    startLine: 14683
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nOverride the UI lives display to show a specific number.\nNote: this is for gimmick purposes.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty ShowLives(int lives)
+    parameters:
+    - id: lives
+      type: System.Int32
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function ShowLives(lives As Integer) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.ShowLives*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Lenient
+  commentId: M:Danmokou.SM.PhaseProperty.Lenient
+  id: Lenient
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Lenient()
+  nameWithType: PhaseProperty.Lenient()
+  fullName: Danmokou.SM.PhaseProperty.Lenient()
+  type: Method
+  source:
+    id: Lenient
+    path: ''
+    startLine: 14689
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nDon&apos;t drain the player&apos;s score multiplier during this phase. (Automatically set for dialogue)\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty Lenient()
+    return:
+      type: Danmokou.SM.PhaseProperty
+      description: ''
+    content.vb: Public Shared Function Lenient As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Lenient*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.BossCutin
+  commentId: M:Danmokou.SM.PhaseProperty.BossCutin
+  id: BossCutin
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: BossCutin()
+  nameWithType: PhaseProperty.BossCutin()
+  fullName: Danmokou.SM.PhaseProperty.BossCutin()
+  type: Method
+  source:
+    id: BossCutin
+    path: ''
+    startLine: 14694
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nPerform the boss cutin before starting this phase. This should be done once per script.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty BossCutin()
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function BossCutin As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.BossCutin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.SpellCutin(System.Int32)
+  commentId: M:Danmokou.SM.PhaseProperty.SpellCutin(System.Int32)
+  id: SpellCutin(System.Int32)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: SpellCutin(Int32)
+  nameWithType: PhaseProperty.SpellCutin(Int32)
+  fullName: Danmokou.SM.PhaseProperty.SpellCutin(System.Int32)
+  type: Method
+  source:
+    id: SpellCutin
+    path: ''
+    startLine: 14700
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nPerform a spell cutin before starting this phase. This is done automatically with index 0 for all\nspell-type cards if the `boss` pattern property is set. If the index is invalid, then no cutin will be summoned.\n"
+  example: []
+  syntax:
+    content: public static PhaseProperty SpellCutin(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function SpellCutin(index As Integer) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.SpellCutin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.PhaseProperty.Challenge(Challenge)
+  commentId: M:Danmokou.SM.PhaseProperty.Challenge(Challenge)
+  id: Challenge(Challenge)
+  parent: Danmokou.SM.PhaseProperty
+  langs:
+  - csharp
+  - vb
+  name: Challenge(Challenge)
+  nameWithType: PhaseProperty.Challenge(Challenge)
+  fullName: Danmokou.SM.PhaseProperty.Challenge(Challenge)
+  type: Method
+  source:
+    id: Challenge
+    path: ''
+    startLine: 14702
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static PhaseProperty Challenge(Challenge c)
+    parameters:
+    - id: c
+      type: Challenge
+    return:
+      type: Danmokou.SM.PhaseProperty
+    content.vb: Public Shared Function Challenge(c As Challenge) As PhaseProperty
+  overload: Danmokou.SM.PhaseProperty.Challenge*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.PhaseProperty.HideTimeout*
+  commentId: Overload:Danmokou.SM.PhaseProperty.HideTimeout
+  name: HideTimeout
+  nameWithType: PhaseProperty.HideTimeout
+  fullName: Danmokou.SM.PhaseProperty.HideTimeout
+- uid: Danmokou.SM.PhaseProperty
+  commentId: T:Danmokou.SM.PhaseProperty
+  parent: Danmokou.SM
+  name: PhaseProperty
+  nameWithType: PhaseProperty
+  fullName: Danmokou.SM.PhaseProperty
+- uid: Danmokou.SM.PhaseProperty.Announce*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Announce
+  name: Announce
+  nameWithType: PhaseProperty.Announce
+  fullName: Danmokou.SM.PhaseProperty.Announce
+- uid: Danmokou.SM.PhaseProperty.Stage*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Stage
+  name: Stage
+  nameWithType: PhaseProperty.Stage
+  fullName: Danmokou.SM.PhaseProperty.Stage
+- uid: Danmokou.SM.PhaseProperty.Silent*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Silent
+  name: Silent
+  nameWithType: PhaseProperty.Silent
+  fullName: Danmokou.SM.PhaseProperty.Silent
+- uid: Danmokou.SM.PhaseProperty.Skip*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Skip
+  name: Skip
+  nameWithType: PhaseProperty.Skip
+  fullName: Danmokou.SM.PhaseProperty.Skip
+- uid: Danmokou.SM.PhaseProperty.Dialogue*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Dialogue
+  name: Dialogue
+  nameWithType: PhaseProperty.Dialogue
+  fullName: Danmokou.SM.PhaseProperty.Dialogue
+- uid: Danmokou.SM.PhaseProperty.Midboss*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Midboss
+  name: Midboss
+  nameWithType: PhaseProperty.Midboss
+  fullName: Danmokou.SM.PhaseProperty.Midboss
+- uid: Danmokou.SM.PhaseProperty.Endboss*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Endboss
+  name: Endboss
+  nameWithType: PhaseProperty.Endboss
+  fullName: Danmokou.SM.PhaseProperty.Endboss
+- uid: Danmokou.SM.PhaseProperty.Type*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Type
+  name: Type
+  nameWithType: PhaseProperty.Type
+  fullName: Danmokou.SM.PhaseProperty.Type
+- uid: PhaseType
+  commentId: '!:PhaseType'
+  isExternal: true
+  name: PhaseType
+  nameWithType: PhaseType
+  fullName: PhaseType
+- uid: LString
+  commentId: '!:LString'
+  isExternal: true
+  name: LString
+  nameWithType: LString
+  fullName: LString
+- uid: Danmokou.SM.PhaseProperty.Photo*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Photo
+  name: Photo
+  nameWithType: PhaseProperty.Photo
+  fullName: Danmokou.SM.PhaseProperty.Photo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Danmokou.SM.PhaseProperty.HPn*
+  commentId: Overload:Danmokou.SM.PhaseProperty.HPn
+  name: HPn
+  nameWithType: PhaseProperty.HPn
+  fullName: Danmokou.SM.PhaseProperty.HPn
+- uid: Danmokou.SM.PhaseProperty.HP*
+  commentId: Overload:Danmokou.SM.PhaseProperty.HP
+  name: HP
+  nameWithType: PhaseProperty.HP
+  fullName: Danmokou.SM.PhaseProperty.HP
+- uid: Danmokou.SM.PhaseProperty.HPi*
+  commentId: Overload:Danmokou.SM.PhaseProperty.HPi
+  name: HPi
+  nameWithType: PhaseProperty.HPi
+  fullName: Danmokou.SM.PhaseProperty.HPi
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.SM.PhaseProperty.HPBar*
+  commentId: Overload:Danmokou.SM.PhaseProperty.HPBar
+  name: HPBar
+  nameWithType: PhaseProperty.HPBar
+  fullName: Danmokou.SM.PhaseProperty.HPBar
+- uid: Danmokou.SM.PhaseProperty.Event*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Event
+  name: Event
+  nameWithType: PhaseProperty.Event
+  fullName: Danmokou.SM.PhaseProperty.Event
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Events.RuntimeEventType
+  commentId: '!:Events.RuntimeEventType'
+  isExternal: true
+  name: Events.RuntimeEventType
+  nameWithType: Events.RuntimeEventType
+  fullName: Events.RuntimeEventType
+- uid: Danmokou.SM.PhaseProperty.BGTIn*
+  commentId: Overload:Danmokou.SM.PhaseProperty.BGTIn
+  name: BGTIn
+  nameWithType: PhaseProperty.BGTIn
+  fullName: Danmokou.SM.PhaseProperty.BGTIn
+- uid: Danmokou.SM.PhaseProperty.BG*
+  commentId: Overload:Danmokou.SM.PhaseProperty.BG
+  name: BG
+  nameWithType: PhaseProperty.BG
+  fullName: Danmokou.SM.PhaseProperty.BG
+- uid: Danmokou.SM.PhaseProperty.BGTOut*
+  commentId: Overload:Danmokou.SM.PhaseProperty.BGTOut
+  name: BGTOut
+  nameWithType: PhaseProperty.BGTOut
+  fullName: Danmokou.SM.PhaseProperty.BGTOut
+- uid: Danmokou.SM.PhaseProperty.Clear*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Clear
+  name: Clear
+  nameWithType: PhaseProperty.Clear
+  fullName: Danmokou.SM.PhaseProperty.Clear
+- uid: Danmokou.SM.PhaseProperty.NoClear*
+  commentId: Overload:Danmokou.SM.PhaseProperty.NoClear
+  name: NoClear
+  nameWithType: PhaseProperty.NoClear
+  fullName: Danmokou.SM.PhaseProperty.NoClear
+- uid: Danmokou.SM.PhaseProperty.Root*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Root
+  name: Root
+  nameWithType: PhaseProperty.Root
+  fullName: Danmokou.SM.PhaseProperty.Root
+- uid: Danmokou.SM.PhaseProperty.RootOther*
+  commentId: Overload:Danmokou.SM.PhaseProperty.RootOther
+  name: RootOther
+  nameWithType: PhaseProperty.RootOther
+  fullName: Danmokou.SM.PhaseProperty.RootOther
+- uid: Danmokou.SM.PhaseProperty.RootT*
+  commentId: Overload:Danmokou.SM.PhaseProperty.RootT
+  name: RootT
+  nameWithType: PhaseProperty.RootT
+  fullName: Danmokou.SM.PhaseProperty.RootT
+- uid: Danmokou.SM.PhaseProperty.ShowLives*
+  commentId: Overload:Danmokou.SM.PhaseProperty.ShowLives
+  name: ShowLives
+  nameWithType: PhaseProperty.ShowLives
+  fullName: Danmokou.SM.PhaseProperty.ShowLives
+- uid: Danmokou.SM.PhaseProperty.Lenient*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Lenient
+  name: Lenient
+  nameWithType: PhaseProperty.Lenient
+  fullName: Danmokou.SM.PhaseProperty.Lenient
+- uid: Danmokou.SM.PhaseProperty.BossCutin*
+  commentId: Overload:Danmokou.SM.PhaseProperty.BossCutin
+  name: BossCutin
+  nameWithType: PhaseProperty.BossCutin
+  fullName: Danmokou.SM.PhaseProperty.BossCutin
+- uid: Danmokou.SM.PhaseProperty.SpellCutin*
+  commentId: Overload:Danmokou.SM.PhaseProperty.SpellCutin
+  name: SpellCutin
+  nameWithType: PhaseProperty.SpellCutin
+  fullName: Danmokou.SM.PhaseProperty.SpellCutin
+- uid: Danmokou.SM.PhaseProperty.Challenge*
+  commentId: Overload:Danmokou.SM.PhaseProperty.Challenge
+  name: Challenge
+  nameWithType: PhaseProperty.Challenge
+  fullName: Danmokou.SM.PhaseProperty.Challenge
+- uid: Challenge
+  commentId: '!:Challenge'
+  isExternal: true
+  name: Challenge
+  nameWithType: Challenge
+  fullName: Challenge

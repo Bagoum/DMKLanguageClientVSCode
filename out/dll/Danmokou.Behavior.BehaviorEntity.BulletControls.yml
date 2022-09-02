@@ -1,0 +1,1430 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls
+  commentId: T:Danmokou.Behavior.BehaviorEntity.BulletControls
+  id: BehaviorEntity.BulletControls
+  parent: Danmokou.Behavior
+  children:
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.Batch(Pred,Danmokou.Behavior.BehaviorEntity.cBEHControl[])
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.Cull(Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.DT(System.Single,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.DX(System.Single,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.DY(System.Single,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.Effect(System.String,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX(Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXLT(BPY,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.FlipY(Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYGT(BPY,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYLT(BPY,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.Freeze(Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.Restyle(System.String,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.SFX(System.String,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.SM(Pred,StateMachine)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull(System.String,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.Time(System.Single,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF(System.ValueTuple{System.String,BPY}[],Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2(System.ValueTuple{System.String,TP}[],Pred)
+  langs:
+  - csharp
+  - vb
+  name: BehaviorEntity.BulletControls
+  nameWithType: BehaviorEntity.BulletControls
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls
+  type: Class
+  source:
+    id: BulletControls
+    path: ''
+    startLine: 624
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nRepository for functions that can be applied to BehaviorEntities via the `beh-control` command,\nincluding complex bullets such as lasers and pathers.\n"
+  example: []
+  syntax:
+    content: public static class BulletControls
+    content.vb: Public Module BulletControls
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Time(System.Single,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.Time(System.Single,Pred)
+  id: Time(System.Single,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: Time(Single, Pred)
+  nameWithType: BehaviorEntity.BulletControls.Time(Single, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Time(System.Single, Pred)
+  type: Method
+  source:
+    id: Time
+    path: ''
+    startLine: 633
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nSet the time of bullets.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl Time(float time, Pred cond)
+    parameters:
+    - id: time
+      type: System.Single
+      description: Time to set
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function Time(time As Single, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.Time*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Restyle(System.String,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.Restyle(System.String,Pred)
+  id: Restyle(System.String,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: Restyle(String, Pred)
+  nameWithType: BehaviorEntity.BulletControls.Restyle(String, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Restyle(System.String, Pred)
+  type: Method
+  source:
+    id: Restyle
+    path: ''
+    startLine: 645
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nChange the style of bullets.\nNote: should only be used between the same type, eg pather->pather, laser->laser. Otherwise, weird shit might happen.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl Restyle(string target, Pred cond)
+    parameters:
+    - id: target
+      type: System.String
+      description: New style
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function Restyle(target As String, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.Restyle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull(System.String,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull(System.String,Pred)
+  id: Softcull(System.String,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: Softcull(String, Pred)
+  nameWithType: BehaviorEntity.BulletControls.Softcull(String, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull(System.String, Pred)
+  type: Method
+  source:
+    id: Softcull
+    path: ''
+    startLine: 662
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nChange the bullets into a softcull-type bullet rather than destroying them directly.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl Softcull(string target, Pred cond)
+    parameters:
+    - id: target
+      type: System.String
+      description: New style
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function Softcull(target As String, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect(System.String,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.Effect(System.String,Pred)
+  id: Effect(System.String,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: Effect(String, Pred)
+  nameWithType: BehaviorEntity.BulletControls.Effect(String, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect(System.String, Pred)
+  type: Method
+  source:
+    id: Effect
+    path: ''
+    startLine: 677
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nRun a spawn effect on objects.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl Effect(string target, Pred cond)
+    parameters:
+    - id: target
+      type: System.String
+      description: New style
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function Effect(target As String, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Cull(Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.Cull(Pred)
+  id: Cull(Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: Cull(Pred)
+  nameWithType: BehaviorEntity.BulletControls.Cull(Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Cull(Pred)
+  type: Method
+  source:
+    id: Cull
+    path: ''
+    startLine: 686
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nDestroy bullets.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl Cull(Pred cond)
+    parameters:
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function Cull(cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.Cull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX(Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX(Pred)
+  id: FlipX(Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipX(Pred)
+  nameWithType: BehaviorEntity.BulletControls.FlipX(Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX(Pred)
+  type: Method
+  source:
+    id: FlipX
+    path: ''
+    startLine: 698
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nFlip the X-velocity of bullets.\nUse <xref href=\"Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY%2cPred)\" data-throw-if-not-resolved=\"false\"></xref>, etc instead for flipping against walls.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl FlipX(Pred cond)
+    parameters:
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function FlipX(cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipY(Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipY(Pred)
+  id: FlipY(Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipY(Pred)
+  nameWithType: BehaviorEntity.BulletControls.FlipY(Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipY(Pred)
+  type: Method
+  source:
+    id: FlipY
+    path: ''
+    startLine: 710
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nFlip the Y-velocity of bullets.\nUse <xref href=\"Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY%2cPred)\" data-throw-if-not-resolved=\"false\"></xref>, etc instead for flipping against walls.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl FlipY(Pred cond)
+    parameters:
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function FlipY(cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY,Pred)
+  id: FlipXGT(BPY,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipXGT(BPY, Pred)
+  nameWithType: BehaviorEntity.BulletControls.FlipXGT(BPY, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY, Pred)
+  type: Method
+  source:
+    id: FlipXGT
+    path: ''
+    startLine: 722
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nFlip the x-velocity and x-position of bullets around a wall on the right.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl FlipXGT(BPY wall, Pred cond)
+    parameters:
+    - id: wall
+      type: BPY
+      description: X-position of wall
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function FlipXGT(wall As BPY, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXLT(BPY,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXLT(BPY,Pred)
+  id: FlipXLT(BPY,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipXLT(BPY, Pred)
+  nameWithType: BehaviorEntity.BulletControls.FlipXLT(BPY, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXLT(BPY, Pred)
+  type: Method
+  source:
+    id: FlipXLT
+    path: ''
+    startLine: 739
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nFlip the x-velocity and x-position of bullets around a wall on the left.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl FlipXLT(BPY wall, Pred cond)
+    parameters:
+    - id: wall
+      type: BPY
+      description: X-position of wall
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function FlipXLT(wall As BPY, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXLT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYGT(BPY,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYGT(BPY,Pred)
+  id: FlipYGT(BPY,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipYGT(BPY, Pred)
+  nameWithType: BehaviorEntity.BulletControls.FlipYGT(BPY, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYGT(BPY, Pred)
+  type: Method
+  source:
+    id: FlipYGT
+    path: ''
+    startLine: 755
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nFlip the y-velocity and y-position of bullets around a wall on the top.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl FlipYGT(BPY wall, Pred cond)
+    parameters:
+    - id: wall
+      type: BPY
+      description: Y-position of wall
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function FlipYGT(wall As BPY, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYGT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYLT(BPY,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYLT(BPY,Pred)
+  id: FlipYLT(BPY,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: FlipYLT(BPY, Pred)
+  nameWithType: BehaviorEntity.BulletControls.FlipYLT(BPY, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYLT(BPY, Pred)
+  type: Method
+  source:
+    id: FlipYLT
+    path: ''
+    startLine: 772
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nFlip the y-velocity and y-position of bullets around a wall on the bottom.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl FlipYLT(BPY wall, Pred cond)
+    parameters:
+    - id: wall
+      type: BPY
+      description: Y-position of wall
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function FlipYLT(wall As BPY, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYLT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.DX(System.Single,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.DX(System.Single,Pred)
+  id: DX(System.Single,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: DX(Single, Pred)
+  nameWithType: BehaviorEntity.BulletControls.DX(Single, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.DX(System.Single, Pred)
+  type: Method
+  source:
+    id: DX
+    path: ''
+    startLine: 788
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nAdd to the x-position of bullets. Useful for teleporting around the sides.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl DX(float by, Pred cond)
+    parameters:
+    - id: by
+      type: System.Single
+      description: Delta position
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function DX(by As Single, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.DX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.DY(System.Single,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.DY(System.Single,Pred)
+  id: DY(System.Single,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: DY(Single, Pred)
+  nameWithType: BehaviorEntity.BulletControls.DY(Single, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.DY(System.Single, Pred)
+  type: Method
+  source:
+    id: DY
+    path: ''
+    startLine: 801
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nAdd to the y-position of bullets. Useful for teleporting around the sides.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl DY(float by, Pred cond)
+    parameters:
+    - id: by
+      type: System.Single
+      description: Delta position
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function DY(by As Single, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.DY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.DT(System.Single,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.DT(System.Single,Pred)
+  id: DT(System.Single,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: DT(Single, Pred)
+  nameWithType: BehaviorEntity.BulletControls.DT(Single, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.DT(System.Single, Pred)
+  type: Method
+  source:
+    id: DT
+    path: ''
+    startLine: 814
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nAdd to the time of objects.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl DT(float by, Pred cond)
+    parameters:
+    - id: by
+      type: System.Single
+      description: Delta time
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function DT(by As Single, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.DT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.SFX(System.String,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.SFX(System.String,Pred)
+  id: SFX(System.String,Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: SFX(String, Pred)
+  nameWithType: BehaviorEntity.BulletControls.SFX(String, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.SFX(System.String, Pred)
+  type: Method
+  source:
+    id: SFX
+    path: ''
+    startLine: 827
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nCreate a sound effect.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl SFX(string sfx, Pred cond)
+    parameters:
+    - id: sfx
+      type: System.String
+      description: Sound effect
+    - id: cond
+      type: Pred
+      description: Filter condition
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+      description: ''
+    content.vb: Public Shared Function SFX(sfx As String, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.SFX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Freeze(Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.Freeze(Pred)
+  id: Freeze(Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: Freeze(Pred)
+  nameWithType: BehaviorEntity.BulletControls.Freeze(Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Freeze(Pred)
+  type: Method
+  source:
+    id: Freeze
+    path: ''
+    startLine: 836
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nFreeze an object. It will still collide but it will not move.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl Freeze(Pred cond)
+    parameters:
+    - id: cond
+      type: Pred
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+    content.vb: Public Shared Function Freeze(cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.Freeze*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF(System.ValueTuple{System.String,BPY}[],Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF(System.ValueTuple{System.String,BPY}[],Pred)
+  id: UpdateF(System.ValueTuple{System.String,BPY}[],Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: UpdateF((String target, BPY valuer)[], Pred)
+  nameWithType: BehaviorEntity.BulletControls.UpdateF((String target, BPY valuer)[], Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF(System.ValueTuple<System.String, BPY>[], Pred)
+  type: Method
+  source:
+    id: UpdateF
+    path: ''
+    startLine: 840
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  syntax:
+    content: public static BehaviorEntity.cBEHControl UpdateF((string target, BPY valuer)[] targets, Pred cond)
+    parameters:
+    - id: targets
+      type: System.ValueTuple{System.String,BPY}[]
+    - id: cond
+      type: Pred
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+    content.vb: Public Shared Function UpdateF(targets As(target As String, valuer As BPY)(Of String , BPY)(), cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF*
+  nameWithType.vb: BehaviorEntity.BulletControls.UpdateF((target As String, valuer As BPY)(Of String, BPY)(), Pred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF(System.ValueTuple(Of System.String, BPY)(), Pred)
+  name.vb: UpdateF((target As String, valuer As BPY)(Of String, BPY)(), Pred)
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2(System.ValueTuple{System.String,TP}[],Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2(System.ValueTuple{System.String,TP}[],Pred)
+  id: UpdateV2(System.ValueTuple{System.String,TP}[],Pred)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: UpdateV2((String target, TP valuer)[], Pred)
+  nameWithType: BehaviorEntity.BulletControls.UpdateV2((String target, TP valuer)[], Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2(System.ValueTuple<System.String, TP>[], Pred)
+  type: Method
+  source:
+    id: UpdateV2
+    path: ''
+    startLine: 851
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  syntax:
+    content: public static BehaviorEntity.cBEHControl UpdateV2((string target, TP valuer)[] targets, Pred cond)
+    parameters:
+    - id: targets
+      type: System.ValueTuple{System.String,TP}[]
+    - id: cond
+      type: Pred
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+    content.vb: Public Shared Function UpdateV2(targets As(target As String, valuer As TP)(Of String , TP)(), cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2*
+  nameWithType.vb: BehaviorEntity.BulletControls.UpdateV2((target As String, valuer As TP)(Of String, TP)(), Pred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2(System.ValueTuple(Of System.String, TP)(), Pred)
+  name.vb: UpdateV2((target As String, valuer As TP)(Of String, TP)(), Pred)
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Batch(Pred,Danmokou.Behavior.BehaviorEntity.cBEHControl[])
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.Batch(Pred,Danmokou.Behavior.BehaviorEntity.cBEHControl[])
+  id: Batch(Pred,Danmokou.Behavior.BehaviorEntity.cBEHControl[])
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: Batch(Pred, BehaviorEntity.cBEHControl[])
+  nameWithType: BehaviorEntity.BulletControls.Batch(Pred, BehaviorEntity.cBEHControl[])
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Batch(Pred, Danmokou.Behavior.BehaviorEntity.cBEHControl[])
+  type: Method
+  source:
+    id: Batch
+    path: ''
+    startLine: 866
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nBatch several commands together under one predicate.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl Batch(Pred cond, BehaviorEntity.cBEHControl[] over)
+    parameters:
+    - id: cond
+      type: Pred
+    - id: over
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl[]
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+    content.vb: Public Shared Function Batch(cond As Pred, over As BehaviorEntity.cBEHControl()) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.Batch*
+  nameWithType.vb: BehaviorEntity.BulletControls.Batch(Pred, BehaviorEntity.cBEHControl())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Behavior.BehaviorEntity.BulletControls.Batch(Pred, Danmokou.Behavior.BehaviorEntity.cBEHControl())
+  name.vb: Batch(Pred, BehaviorEntity.cBEHControl())
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.SM(Pred,StateMachine)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.SM(Pred,StateMachine)
+  id: SM(Pred,StateMachine)
+  parent: Danmokou.Behavior.BehaviorEntity.BulletControls
+  langs:
+  - csharp
+  - vb
+  name: SM(Pred, StateMachine)
+  nameWithType: BehaviorEntity.BulletControls.SM(Pred, StateMachine)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.SM(Pred, StateMachine)
+  type: Method
+  source:
+    id: SM
+    path: ''
+    startLine: 881
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Behavior
+  summary: "\nIf the condition is true, spawn an iNode at the position and run an SM on it.\n"
+  example: []
+  syntax:
+    content: public static BehaviorEntity.cBEHControl SM(Pred cond, StateMachine target)
+    parameters:
+    - id: cond
+      type: Pred
+    - id: target
+      type: StateMachine
+    return:
+      type: Danmokou.Behavior.BehaviorEntity.cBEHControl
+    content.vb: Public Shared Function SM(cond As Pred, target As StateMachine) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.SM*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.Behavior
+  commentId: N:Danmokou.Behavior
+  name: Danmokou.Behavior
+  nameWithType: Danmokou.Behavior
+  fullName: Danmokou.Behavior
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Time*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Time
+  name: Time
+  nameWithType: BehaviorEntity.BulletControls.Time
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Time
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Pred
+  isExternal: true
+  name: Pred
+  nameWithType: Pred
+  fullName: Pred
+- uid: Danmokou.Behavior.BehaviorEntity.cBEHControl
+  commentId: T:Danmokou.Behavior.BehaviorEntity.cBEHControl
+  parent: Danmokou.Behavior
+  name: BehaviorEntity.cBEHControl
+  nameWithType: BehaviorEntity.cBEHControl
+  fullName: Danmokou.Behavior.BehaviorEntity.cBEHControl
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Restyle*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Restyle
+  name: Restyle
+  nameWithType: BehaviorEntity.BulletControls.Restyle
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Restyle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull
+  name: Softcull
+  nameWithType: BehaviorEntity.BulletControls.Softcull
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Effect
+  name: Effect
+  nameWithType: BehaviorEntity.BulletControls.Effect
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Cull*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Cull
+  name: Cull
+  nameWithType: BehaviorEntity.BulletControls.Cull
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Cull
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY,Pred)
+  isExternal: true
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX
+  name: FlipX
+  nameWithType: BehaviorEntity.BulletControls.FlipX
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipY*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipY
+  name: FlipY
+  nameWithType: BehaviorEntity.BulletControls.FlipY
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipY
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT
+  name: FlipXGT
+  nameWithType: BehaviorEntity.BulletControls.FlipXGT
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT
+- uid: BPY
+  isExternal: true
+  name: BPY
+  nameWithType: BPY
+  fullName: BPY
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXLT*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXLT
+  name: FlipXLT
+  nameWithType: BehaviorEntity.BulletControls.FlipXLT
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXLT
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYGT*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYGT
+  name: FlipYGT
+  nameWithType: BehaviorEntity.BulletControls.FlipYGT
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYGT
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYLT*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYLT
+  name: FlipYLT
+  nameWithType: BehaviorEntity.BulletControls.FlipYLT
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.FlipYLT
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.DX*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.DX
+  name: DX
+  nameWithType: BehaviorEntity.BulletControls.DX
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.DX
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.DY*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.DY
+  name: DY
+  nameWithType: BehaviorEntity.BulletControls.DY
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.DY
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.DT*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.DT
+  name: DT
+  nameWithType: BehaviorEntity.BulletControls.DT
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.DT
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.SFX*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.SFX
+  name: SFX
+  nameWithType: BehaviorEntity.BulletControls.SFX
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.SFX
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Freeze*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Freeze
+  name: Freeze
+  nameWithType: BehaviorEntity.BulletControls.Freeze
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Freeze
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF
+  name: UpdateF
+  nameWithType: BehaviorEntity.BulletControls.UpdateF
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF
+- uid: System.ValueTuple{System.String,BPY}[]
+  isExternal: true
+  name: (T1, T2)<String, BPY>[]
+  nameWithType: (T1, T2)<String, BPY>[]
+  fullName: System.ValueTuple<System.String, BPY>[]
+  nameWithType.vb: (T1, T2)(Of String, BPY)()
+  fullName.vb: System.ValueTuple(Of System.String, BPY)()
+  name.vb: (T1, T2)(Of String, BPY)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BPY
+    name: BPY
+    nameWithType: BPY
+    fullName: BPY
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BPY
+    name: BPY
+    nameWithType: BPY
+    fullName: BPY
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2
+  name: UpdateV2
+  nameWithType: BehaviorEntity.BulletControls.UpdateV2
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2
+- uid: System.ValueTuple{System.String,TP}[]
+  isExternal: true
+  name: (T1, T2)<String, TP>[]
+  nameWithType: (T1, T2)<String, TP>[]
+  fullName: System.ValueTuple<System.String, TP>[]
+  nameWithType.vb: (T1, T2)(Of String, TP)()
+  fullName.vb: System.ValueTuple(Of System.String, TP)()
+  name.vb: (T1, T2)(Of String, TP)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TP
+    name: TP
+    nameWithType: TP
+    fullName: TP
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TP
+    name: TP
+    nameWithType: TP
+    fullName: TP
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Batch*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Batch
+  name: Batch
+  nameWithType: BehaviorEntity.BulletControls.Batch
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Batch
+- uid: Danmokou.Behavior.BehaviorEntity.cBEHControl[]
+  isExternal: true
+  name: BehaviorEntity.cBEHControl[]
+  nameWithType: BehaviorEntity.cBEHControl[]
+  fullName: Danmokou.Behavior.BehaviorEntity.cBEHControl[]
+  nameWithType.vb: BehaviorEntity.cBEHControl()
+  fullName.vb: Danmokou.Behavior.BehaviorEntity.cBEHControl()
+  name.vb: BehaviorEntity.cBEHControl()
+  spec.csharp:
+  - uid: Danmokou.Behavior.BehaviorEntity.cBEHControl
+    name: BehaviorEntity.cBEHControl
+    nameWithType: BehaviorEntity.cBEHControl
+    fullName: Danmokou.Behavior.BehaviorEntity.cBEHControl
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Danmokou.Behavior.BehaviorEntity.cBEHControl
+    name: BehaviorEntity.cBEHControl
+    nameWithType: BehaviorEntity.cBEHControl
+    fullName: Danmokou.Behavior.BehaviorEntity.cBEHControl
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.SM*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.SM
+  name: SM
+  nameWithType: BehaviorEntity.BulletControls.SM
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.SM
+- uid: StateMachine
+  isExternal: true
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: StateMachine

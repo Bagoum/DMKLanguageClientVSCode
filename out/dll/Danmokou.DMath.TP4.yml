@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.TP4
+  commentId: T:Danmokou.DMath.TP4
+  id: TP4
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TP4
+  nameWithType: TP4
+  fullName: Danmokou.DMath.TP4
+  type: Delegate
+  source:
+    id: TP4
+    path: ''
+    startLine: 6666
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA function that converts ParametricInfo into a Vector4.\n"
+  example: []
+  syntax:
+    content: public delegate Vector4 TP4(ParametricInfo bpi);
+    parameters:
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+    return:
+      type: Vector4
+    content.vb: Public Delegate Function TP4(bpi As ParametricInfo) As Vector4
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: Vector4
+  commentId: '!:Vector4'
+  isExternal: true
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Vector4

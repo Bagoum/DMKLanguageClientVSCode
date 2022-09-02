@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.InstanceMode
+  commentId: T:Danmokou.Core.InstanceMode
+  id: InstanceMode
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.InstanceMode.BOSS_PRACTICE
+  - Danmokou.Core.InstanceMode.CAMPAIGN
+  - Danmokou.Core.InstanceMode.NULL
+  - Danmokou.Core.InstanceMode.SCENE_CHALLENGE
+  - Danmokou.Core.InstanceMode.STAGE_PRACTICE
+  - Danmokou.Core.InstanceMode.TUTORIAL
+  langs:
+  - csharp
+  - vb
+  name: InstanceMode
+  nameWithType: InstanceMode
+  fullName: Danmokou.Core.InstanceMode
+  type: Enum
+  source:
+    id: InstanceMode
+    path: ''
+    startLine: 1163
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum InstanceMode
+    content.vb: Public Enum InstanceMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.InstanceMode.NULL
+  commentId: F:Danmokou.Core.InstanceMode.NULL
+  id: "NULL"
+  parent: Danmokou.Core.InstanceMode
+  langs:
+  - csharp
+  - vb
+  name: "NULL"
+  nameWithType: InstanceMode.NULL
+  fullName: Danmokou.Core.InstanceMode.NULL
+  type: Field
+  source:
+    id: "NULL"
+    path: ''
+    startLine: 1169
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nUsed when the instance is not active (eg. on the main menu).\nNULL is the mode used when the program starts.\nA player may still exist (eg. shot demo) and make use of InstanceData, but many features may be disabled.\n"
+  example: []
+  syntax:
+    content: NULL = 0
+    return:
+      type: Danmokou.Core.InstanceMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.InstanceMode.CAMPAIGN
+  commentId: F:Danmokou.Core.InstanceMode.CAMPAIGN
+  id: CAMPAIGN
+  parent: Danmokou.Core.InstanceMode
+  langs:
+  - csharp
+  - vb
+  name: CAMPAIGN
+  nameWithType: InstanceMode.CAMPAIGN
+  fullName: Danmokou.Core.InstanceMode.CAMPAIGN
+  type: Field
+  source:
+    id: CAMPAIGN
+    path: ''
+    startLine: 1181
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nPlaying through a full campaign (eg. 6 sequential stages). Note that EX stages are distinct campaigns.\n"
+  example: []
+  syntax:
+    content: CAMPAIGN = 1
+    return:
+      type: Danmokou.Core.InstanceMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.InstanceMode.STAGE_PRACTICE
+  commentId: F:Danmokou.Core.InstanceMode.STAGE_PRACTICE
+  id: STAGE_PRACTICE
+  parent: Danmokou.Core.InstanceMode
+  langs:
+  - csharp
+  - vb
+  name: STAGE_PRACTICE
+  nameWithType: InstanceMode.STAGE_PRACTICE
+  fullName: Danmokou.Core.InstanceMode.STAGE_PRACTICE
+  type: Field
+  source:
+    id: STAGE_PRACTICE
+    path: ''
+    startLine: 1185
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nStage practice mode, which starts on one stage section and plays until the end of the stage.\n"
+  example: []
+  syntax:
+    content: STAGE_PRACTICE = 2
+    return:
+      type: Danmokou.Core.InstanceMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.InstanceMode.BOSS_PRACTICE
+  commentId: F:Danmokou.Core.InstanceMode.BOSS_PRACTICE
+  id: BOSS_PRACTICE
+  parent: Danmokou.Core.InstanceMode
+  langs:
+  - csharp
+  - vb
+  name: BOSS_PRACTICE
+  nameWithType: InstanceMode.BOSS_PRACTICE
+  fullName: Danmokou.Core.InstanceMode.BOSS_PRACTICE
+  type: Field
+  source:
+    id: BOSS_PRACTICE
+    path: ''
+    startLine: 1189
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nBoss card practice mode, which plays exactly one card.\n"
+  example: []
+  syntax:
+    content: BOSS_PRACTICE = 3
+    return:
+      type: Danmokou.Core.InstanceMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.InstanceMode.TUTORIAL
+  commentId: F:Danmokou.Core.InstanceMode.TUTORIAL
+  id: TUTORIAL
+  parent: Danmokou.Core.InstanceMode
+  langs:
+  - csharp
+  - vb
+  name: TUTORIAL
+  nameWithType: InstanceMode.TUTORIAL
+  fullName: Danmokou.Core.InstanceMode.TUTORIAL
+  type: Field
+  source:
+    id: TUTORIAL
+    path: ''
+    startLine: 1193
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nTutorial.\n"
+  example: []
+  syntax:
+    content: TUTORIAL = 4
+    return:
+      type: Danmokou.Core.InstanceMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.InstanceMode.SCENE_CHALLENGE
+  commentId: F:Danmokou.Core.InstanceMode.SCENE_CHALLENGE
+  id: SCENE_CHALLENGE
+  parent: Danmokou.Core.InstanceMode
+  langs:
+  - csharp
+  - vb
+  name: SCENE_CHALLENGE
+  nameWithType: InstanceMode.SCENE_CHALLENGE
+  fullName: Danmokou.Core.InstanceMode.SCENE_CHALLENGE
+  type: Field
+  source:
+    id: SCENE_CHALLENGE
+    path: ''
+    startLine: 1197
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  summary: "\nScene challenge mode (STB-style), which plays exactly one card.\n"
+  example: []
+  syntax:
+    content: SCENE_CHALLENGE = 5
+    return:
+      type: Danmokou.Core.InstanceMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.InstanceMode
+  commentId: T:Danmokou.Core.InstanceMode
+  parent: Danmokou.Core
+  name: InstanceMode
+  nameWithType: InstanceMode
+  fullName: Danmokou.Core.InstanceMode

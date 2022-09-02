@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.LVTP
+  commentId: T:Danmokou.DMath.LVTP
+  id: LVTP
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LVTP
+  nameWithType: LVTP
+  fullName: Danmokou.DMath.LVTP
+  type: Delegate
+  source:
+    id: LVTP
+    path: ''
+    startLine: 6630
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA function that converts ParametricInfo into a possibly-rotated Cartesian coordinate\nrepresenting the next position that the <xref href=\"Danmokou.DMath.LaserMovement\" data-throw-if-not-resolved=\"false\"></xref> struct should take with a timestep of dT\nand a laser lifetime of lT.\n"
+  example: []
+  syntax:
+    content: public delegate void LVTP(ref LaserMovement vel, in float dT, in float lT, ref ParametricInfo bpi, ref Vector3 delta);
+    parameters:
+    - id: vel
+      type: Danmokou.DMath.LaserMovement
+    - id: dT
+      type: System.Single
+    - id: lT
+      type: System.Single
+    - id: bpi
+      type: Danmokou.DMath.ParametricInfo
+    - id: delta
+      type: Vector3
+    content.vb: Public Delegate Sub LVTP(ByRef vel As LaserMovement, ByRef dT As Single, ByRef lT As Single, ByRef bpi As ParametricInfo, ByRef delta As Vector3)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath.LaserMovement
+  commentId: T:Danmokou.DMath.LaserMovement
+  parent: Danmokou.DMath
+  name: LaserMovement
+  nameWithType: LaserMovement
+  fullName: Danmokou.DMath.LaserMovement
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.DMath.ParametricInfo
+  commentId: T:Danmokou.DMath.ParametricInfo
+  parent: Danmokou.DMath
+  name: ParametricInfo
+  nameWithType: ParametricInfo
+  fullName: Danmokou.DMath.ParametricInfo
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

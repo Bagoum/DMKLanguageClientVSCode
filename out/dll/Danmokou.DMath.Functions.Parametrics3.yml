@@ -1,0 +1,544 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.Parametrics3
+  commentId: T:Danmokou.DMath.Functions.Parametrics3
+  id: Parametrics3
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.Parametrics3.Circ(CCircle)
+  - Danmokou.DMath.Functions.Parametrics3.TP(ExTP)
+  - Danmokou.DMath.Functions.Parametrics3.Wings1(System.Single,System.Single,System.Single)
+  - Danmokou.DMath.Functions.Parametrics3.Wings2(System.Single,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: Parametrics3
+  nameWithType: Parametrics3
+  fullName: Danmokou.DMath.Functions.Parametrics3
+  type: Class
+  source:
+    id: Parametrics3
+    path: ''
+    startLine: 8887
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that return Vector3.\n"
+  example: []
+  syntax:
+    content: public static class Parametrics3
+    content.vb: Public Module Parametrics3
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.Parametrics3.TP(ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics3.TP(ExTP)
+  id: TP(ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics3
+  langs:
+  - csharp
+  - vb
+  name: TP(ExTP)
+  nameWithType: Parametrics3.TP(ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics3.TP(ExTP)
+  type: Method
+  source:
+    id: TP
+    path: ''
+    startLine: 8896
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nDerive a parametric3 equation from a parametric2 function (Z is set to zero)\n"
+  example: []
+  syntax:
+    content: public static ExTP3 TP(ExTP tp)
+    parameters:
+    - id: tp
+      type: ExTP
+      description: Parametric function to assign to x,y components
+    return:
+      type: ExTP3
+      description: ''
+    content.vb: Public Shared Function TP(tp As ExTP) As ExTP3
+  overload: Danmokou.DMath.Functions.Parametrics3.TP*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics3.Circ(CCircle)
+  commentId: M:Danmokou.DMath.Functions.Parametrics3.Circ(CCircle)
+  id: Circ(CCircle)
+  parent: Danmokou.DMath.Functions.Parametrics3
+  langs:
+  - csharp
+  - vb
+  name: Circ(CCircle)
+  nameWithType: Parametrics3.Circ(CCircle)
+  fullName: Danmokou.DMath.Functions.Parametrics3.Circ(CCircle)
+  type: Method
+  source:
+    id: Circ
+    path: ''
+    startLine: 8899
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static ExTP3 Circ(CCircle c)
+    parameters:
+    - id: c
+      type: CCircle
+    return:
+      type: ExTP3
+    content.vb: Public Shared Function Circ(c As CCircle) As ExTP3
+  overload: Danmokou.DMath.Functions.Parametrics3.Circ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics3.Wings1(System.Single,System.Single,System.Single)
+  commentId: M:Danmokou.DMath.Functions.Parametrics3.Wings1(System.Single,System.Single,System.Single)
+  id: Wings1(System.Single,System.Single,System.Single)
+  parent: Danmokou.DMath.Functions.Parametrics3
+  langs:
+  - csharp
+  - vb
+  name: Wings1(Single, Single, Single)
+  nameWithType: Parametrics3.Wings1(Single, Single, Single)
+  fullName: Danmokou.DMath.Functions.Parametrics3.Wings1(System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: Wings1
+    path: ''
+    startLine: 8912
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGenerate an offset for a wing pattern. Requires the follow bindings:\n<br />px = index along wing span\n<br />py = index along feather\n<br />plr = +-1 for left/right (1 = right wing (visible left))\n"
+  example: []
+  syntax:
+    content: public static ExTP3 Wings1(float wx, float wy, float per)
+    parameters:
+    - id: wx
+      type: System.Single
+      description: Length along wing span
+    - id: wy
+      type: System.Single
+      description: Length along feather
+    - id: per
+      type: System.Single
+      description: Period of movement
+    return:
+      type: ExTP3
+      description: ''
+    content.vb: Public Shared Function Wings1(wx As Single, wy As Single, per As Single) As ExTP3
+  overload: Danmokou.DMath.Functions.Parametrics3.Wings1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics3.Wings2(System.Single,System.Single,System.Single)
+  commentId: M:Danmokou.DMath.Functions.Parametrics3.Wings2(System.Single,System.Single,System.Single)
+  id: Wings2(System.Single,System.Single,System.Single)
+  parent: Danmokou.DMath.Functions.Parametrics3
+  langs:
+  - csharp
+  - vb
+  name: Wings2(Single, Single, Single)
+  nameWithType: Parametrics3.Wings2(Single, Single, Single)
+  fullName: Danmokou.DMath.Functions.Parametrics3.Wings2(System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: Wings2
+    path: ''
+    startLine: 8957
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGenerate an offset for a wing pattern. Requires the following bindings:\n<br />px = index along wing span\n<br />py = index along feather\n<br />plr = +-1 for left/right (1 = left wing (visible right))\n"
+  example: []
+  syntax:
+    content: public static ExTP3 Wings2(float wx, float wy, float per)
+    parameters:
+    - id: wx
+      type: System.Single
+      description: ''
+    - id: wy
+      type: System.Single
+      description: ''
+    - id: per
+      type: System.Single
+      description: ''
+    return:
+      type: ExTP3
+      description: ''
+    content.vb: Public Shared Function Wings2(wx As Single, wy As Single, per As Single) As ExTP3
+  overload: Danmokou.DMath.Functions.Parametrics3.Wings2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.Parametrics3.TP*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics3.TP
+  name: TP
+  nameWithType: Parametrics3.TP
+  fullName: Danmokou.DMath.Functions.Parametrics3.TP
+- uid: ExTP
+  isExternal: true
+  name: ExTP
+  nameWithType: ExTP
+  fullName: ExTP
+- uid: ExTP3
+  isExternal: true
+  name: ExTP3
+  nameWithType: ExTP3
+  fullName: ExTP3
+- uid: Danmokou.DMath.Functions.Parametrics3.Circ*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics3.Circ
+  name: Circ
+  nameWithType: Parametrics3.Circ
+  fullName: Danmokou.DMath.Functions.Parametrics3.Circ
+- uid: CCircle
+  commentId: '!:CCircle'
+  isExternal: true
+  name: CCircle
+  nameWithType: CCircle
+  fullName: CCircle
+- uid: Danmokou.DMath.Functions.Parametrics3.Wings1*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics3.Wings1
+  name: Wings1
+  nameWithType: Parametrics3.Wings1
+  fullName: Danmokou.DMath.Functions.Parametrics3.Wings1
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.DMath.Functions.Parametrics3.Wings2*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics3.Wings2
+  name: Wings2
+  nameWithType: Parametrics3.Wings2
+  fullName: Danmokou.DMath.Functions.Parametrics3.Wings2

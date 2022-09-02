@@ -1,0 +1,833 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.EventLASM
+  commentId: T:Danmokou.SM.EventLASM
+  id: EventLASM
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.EventLASM.#ctor(Danmokou.SM.EventLASM.EventTask)
+  - Danmokou.SM.EventLASM.BossExplode
+  - Danmokou.SM.EventLASM.BossExplodeWait
+  - Danmokou.SM.EventLASM.Listen``1(System.String,System.String,Danmokou.SM.StateMachine)
+  - Danmokou.SM.EventLASM.OnNext``1(System.String,GCXF{``0})
+  - Danmokou.SM.EventLASM.OnNext0(System.String)
+  - Danmokou.SM.EventLASM.PlayerInvuln(System.Int32)
+  - Danmokou.SM.EventLASM.ResetTrigger(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: EventLASM
+  nameWithType: EventLASM
+  fullName: Danmokou.SM.EventLASM
+  type: Class
+  source:
+    id: EventLASM
+    path: ''
+    startLine: 13230
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\n`event`: Handle configuring, subscribing to, and running events.\n"
+  example: []
+  syntax:
+    content: 'public class EventLASM : ReflectableLASM'
+    content.vb: >-
+      Public Class EventLASM
+          Inherits ReflectableLASM
+  inheritance:
+  - System.Object
+  - Danmokou.SM.StateMachine
+  - Danmokou.SM.LineActionSM
+  - Danmokou.SM.ReflectableLASM
+  inheritedMembers:
+  - Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.EventLASM.#ctor(Danmokou.SM.EventLASM.EventTask)
+  commentId: M:Danmokou.SM.EventLASM.#ctor(Danmokou.SM.EventLASM.EventTask)
+  id: '#ctor(Danmokou.SM.EventLASM.EventTask)'
+  parent: Danmokou.SM.EventLASM
+  langs:
+  - csharp
+  - vb
+  name: EventLASM(EventLASM.EventTask)
+  nameWithType: EventLASM.EventLASM(EventLASM.EventTask)
+  fullName: Danmokou.SM.EventLASM.EventLASM(Danmokou.SM.EventLASM.EventTask)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13234
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public EventLASM(EventLASM.EventTask rs)
+    parameters:
+    - id: rs
+      type: Danmokou.SM.EventLASM.EventTask
+    content.vb: Public Sub New(rs As EventLASM.EventTask)
+  overload: Danmokou.SM.EventLASM.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.EventLASM.Listen``1(System.String,System.String,Danmokou.SM.StateMachine)
+  commentId: M:Danmokou.SM.EventLASM.Listen``1(System.String,System.String,Danmokou.SM.StateMachine)
+  id: Listen``1(System.String,System.String,Danmokou.SM.StateMachine)
+  parent: Danmokou.SM.EventLASM
+  langs:
+  - csharp
+  - vb
+  name: Listen<T>(String, String, StateMachine)
+  nameWithType: EventLASM.Listen<T>(String, String, StateMachine)
+  fullName: Danmokou.SM.EventLASM.Listen<T>(System.String, System.String, Danmokou.SM.StateMachine)
+  type: Method
+  source:
+    id: Listen
+    path: ''
+    startLine: 13242
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSubscribe to a runtime event and run a StateMachine when a value is provided.\n"
+  example: []
+  syntax:
+    content: public static EventLASM.EventTask Listen<T>(string evName, string bindVar, StateMachine exec)
+    parameters:
+    - id: evName
+      type: System.String
+      description: Runtime event name
+    - id: bindVar
+      type: System.String
+      description: Key to bind value of event on trigger
+    - id: exec
+      type: Danmokou.SM.StateMachine
+      description: StateMachine to execute with event
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.SM.EventLASM.EventTask
+    content.vb: Public Shared Function Listen(Of T)(evName As String, bindVar As String, exec As StateMachine) As EventLASM.EventTask
+  overload: Danmokou.SM.EventLASM.Listen*
+  nameWithType.vb: EventLASM.Listen(Of T)(String, String, StateMachine)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.EventLASM.Listen(Of T)(System.String, System.String, Danmokou.SM.StateMachine)
+  name.vb: Listen(Of T)(String, String, StateMachine)
+- uid: Danmokou.SM.EventLASM.ResetTrigger(System.String,System.String)
+  commentId: M:Danmokou.SM.EventLASM.ResetTrigger(System.String,System.String)
+  id: ResetTrigger(System.String,System.String)
+  parent: Danmokou.SM.EventLASM
+  langs:
+  - csharp
+  - vb
+  name: ResetTrigger(String, String)
+  nameWithType: EventLASM.ResetTrigger(String, String)
+  fullName: Danmokou.SM.EventLASM.ResetTrigger(System.String, System.String)
+  type: Method
+  source:
+    id: ResetTrigger
+    path: ''
+    startLine: 13257
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSet a trigger event to reset when a given reset event is dispatched.\n"
+  example: []
+  syntax:
+    content: public static EventLASM.EventTask ResetTrigger(string trigger, string resetter)
+    parameters:
+    - id: trigger
+      type: System.String
+    - id: resetter
+      type: System.String
+    return:
+      type: Danmokou.SM.EventLASM.EventTask
+    content.vb: Public Shared Function ResetTrigger(trigger As String, resetter As String) As EventLASM.EventTask
+  overload: Danmokou.SM.EventLASM.ResetTrigger*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.EventLASM.OnNext``1(System.String,GCXF{``0})
+  commentId: M:Danmokou.SM.EventLASM.OnNext``1(System.String,GCXF{``0})
+  id: OnNext``1(System.String,GCXF{``0})
+  parent: Danmokou.SM.EventLASM
+  langs:
+  - csharp
+  - vb
+  name: OnNext<T>(String, GCXF<T>)
+  nameWithType: EventLASM.OnNext<T>(String, GCXF<T>)
+  fullName: Danmokou.SM.EventLASM.OnNext<T>(System.String, GCXF<T>)
+  type: Method
+  source:
+    id: OnNext
+    path: ''
+    startLine: 13266
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nPush a value to a runtime event.\n"
+  example: []
+  syntax:
+    content: public static EventLASM.EventTask OnNext<T>(string evName, GCXF<T> val)
+    parameters:
+    - id: evName
+      type: System.String
+    - id: val
+      type: GCXF{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.SM.EventLASM.EventTask
+    content.vb: Public Shared Function OnNext(Of T)(evName As String, val As GCXF(Of T)) As EventLASM.EventTask
+  overload: Danmokou.SM.EventLASM.OnNext*
+  nameWithType.vb: EventLASM.OnNext(Of T)(String, GCXF(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.EventLASM.OnNext(Of T)(System.String, GCXF(Of T))
+  name.vb: OnNext(Of T)(String, GCXF(Of T))
+- uid: Danmokou.SM.EventLASM.OnNext0(System.String)
+  commentId: M:Danmokou.SM.EventLASM.OnNext0(System.String)
+  id: OnNext0(System.String)
+  parent: Danmokou.SM.EventLASM
+  langs:
+  - csharp
+  - vb
+  name: OnNext0(String)
+  nameWithType: EventLASM.OnNext0(String)
+  fullName: Danmokou.SM.EventLASM.OnNext0(System.String)
+  type: Method
+  source:
+    id: OnNext0
+    path: ''
+    startLine: 13276
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nPush to a unit-typed runtime event.\n"
+  example: []
+  syntax:
+    content: public static EventLASM.EventTask OnNext0(string evName)
+    parameters:
+    - id: evName
+      type: System.String
+    return:
+      type: Danmokou.SM.EventLASM.EventTask
+    content.vb: Public Shared Function OnNext0(evName As String) As EventLASM.EventTask
+  overload: Danmokou.SM.EventLASM.OnNext0*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.EventLASM.PlayerInvuln(System.Int32)
+  commentId: M:Danmokou.SM.EventLASM.PlayerInvuln(System.Int32)
+  id: PlayerInvuln(System.Int32)
+  parent: Danmokou.SM.EventLASM
+  langs:
+  - csharp
+  - vb
+  name: PlayerInvuln(Int32)
+  nameWithType: EventLASM.PlayerInvuln(Int32)
+  fullName: Danmokou.SM.EventLASM.PlayerInvuln(System.Int32)
+  type: Method
+  source:
+    id: PlayerInvuln
+    path: ''
+    startLine: 13283
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nMake the player invulnerable for some number of frames.\n"
+  example: []
+  syntax:
+    content: public static EventLASM.EventTask PlayerInvuln(int frames)
+    parameters:
+    - id: frames
+      type: System.Int32
+      description: Invulnerability frames (120 frames per second)
+    return:
+      type: Danmokou.SM.EventLASM.EventTask
+      description: ''
+    content.vb: Public Shared Function PlayerInvuln(frames As Integer) As EventLASM.EventTask
+  overload: Danmokou.SM.EventLASM.PlayerInvuln*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.EventLASM.BossExplodeWait
+  commentId: F:Danmokou.SM.EventLASM.BossExplodeWait
+  id: BossExplodeWait
+  parent: Danmokou.SM.EventLASM
+  langs:
+  - csharp
+  - vb
+  name: BossExplodeWait
+  nameWithType: EventLASM.BossExplodeWait
+  fullName: Danmokou.SM.EventLASM.BossExplodeWait
+  type: Field
+  source:
+    id: BossExplodeWait
+    path: ''
+    startLine: 13290
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public const float BossExplodeWait = 1.8F
+    return:
+      type: System.Single
+    content.vb: Public Const BossExplodeWait As Single = 1.8F
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.SM.EventLASM.BossExplode
+  commentId: M:Danmokou.SM.EventLASM.BossExplode
+  id: BossExplode
+  parent: Danmokou.SM.EventLASM
+  langs:
+  - csharp
+  - vb
+  name: BossExplode()
+  nameWithType: EventLASM.BossExplode()
+  fullName: Danmokou.SM.EventLASM.BossExplode()
+  type: Method
+  source:
+    id: BossExplode
+    path: ''
+    startLine: 13295
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static EventLASM.EventTask BossExplode()
+    return:
+      type: Danmokou.SM.EventLASM.EventTask
+    content.vb: Public Shared Function BossExplode As EventLASM.EventTask
+  overload: Danmokou.SM.EventLASM.BossExplode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.LineActionSM
+  commentId: T:Danmokou.SM.LineActionSM
+  parent: Danmokou.SM
+  name: LineActionSM
+  nameWithType: LineActionSM
+  fullName: Danmokou.SM.LineActionSM
+- uid: Danmokou.SM.ReflectableLASM
+  commentId: T:Danmokou.SM.ReflectableLASM
+  parent: Danmokou.SM
+  name: ReflectableLASM
+  nameWithType: ReflectableLASM
+  fullName: Danmokou.SM.ReflectableLASM
+- uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.ReflectableLASM
+  name: Start(SMHandoff)
+  nameWithType: ReflectableLASM.Start(SMHandoff)
+  fullName: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  spec.csharp:
+  - uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: ReflectableLASM.Start
+    fullName: Danmokou.SM.ReflectableLASM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: ReflectableLASM.Start
+    fullName: Danmokou.SM.ReflectableLASM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.EventLASM.#ctor*
+  commentId: Overload:Danmokou.SM.EventLASM.#ctor
+  name: EventLASM
+  nameWithType: EventLASM.EventLASM
+  fullName: Danmokou.SM.EventLASM.EventLASM
+- uid: Danmokou.SM.EventLASM.EventTask
+  commentId: T:Danmokou.SM.EventLASM.EventTask
+  parent: Danmokou.SM
+  name: EventLASM.EventTask
+  nameWithType: EventLASM.EventTask
+  fullName: Danmokou.SM.EventLASM.EventTask
+- uid: Danmokou.SM.EventLASM.Listen*
+  commentId: Overload:Danmokou.SM.EventLASM.Listen
+  name: Listen
+  nameWithType: EventLASM.Listen
+  fullName: Danmokou.SM.EventLASM.Listen
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.SM.EventLASM.ResetTrigger*
+  commentId: Overload:Danmokou.SM.EventLASM.ResetTrigger
+  name: ResetTrigger
+  nameWithType: EventLASM.ResetTrigger
+  fullName: Danmokou.SM.EventLASM.ResetTrigger
+- uid: Danmokou.SM.EventLASM.OnNext*
+  commentId: Overload:Danmokou.SM.EventLASM.OnNext
+  name: OnNext
+  nameWithType: EventLASM.OnNext
+  fullName: Danmokou.SM.EventLASM.OnNext
+- uid: GCXF{{T}}
+  commentId: '!:GCXF{``0}'
+  definition: GCXF`1
+  name: GCXF<T>
+  nameWithType: GCXF<T>
+  fullName: GCXF<T>
+  nameWithType.vb: GCXF(Of T)
+  fullName.vb: GCXF(Of T)
+  name.vb: GCXF(Of T)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GCXF`1
+  isExternal: true
+  name: GCXF<>
+  nameWithType: GCXF<>
+  fullName: GCXF<>
+  nameWithType.vb: GCXF(Of )
+  fullName.vb: GCXF(Of )
+  name.vb: GCXF(Of )
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.EventLASM.OnNext0*
+  commentId: Overload:Danmokou.SM.EventLASM.OnNext0
+  name: OnNext0
+  nameWithType: EventLASM.OnNext0
+  fullName: Danmokou.SM.EventLASM.OnNext0
+- uid: Danmokou.SM.EventLASM.PlayerInvuln*
+  commentId: Overload:Danmokou.SM.EventLASM.PlayerInvuln
+  name: PlayerInvuln
+  nameWithType: EventLASM.PlayerInvuln
+  fullName: Danmokou.SM.EventLASM.PlayerInvuln
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.SM.EventLASM.BossExplode*
+  commentId: Overload:Danmokou.SM.EventLASM.BossExplode
+  name: BossExplode
+  nameWithType: EventLASM.BossExplode
+  fullName: Danmokou.SM.EventLASM.BossExplode

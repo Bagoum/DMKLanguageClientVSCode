@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncPattern
+  id: AsyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AsyncPattern
+  nameWithType: AsyncPattern
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+  type: Delegate
+  source:
+    id: AsyncPattern
+    path: ''
+    startLine: 4603
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public delegate IEnumerator AsyncPattern(AsyncHandoff abh);
+    parameters:
+    - id: abh
+      type: Danmokou.Danmaku.Patterns.AsyncHandoff
+    return:
+      type: IEnumerator
+    content.vb: Public Delegate Function AsyncPattern(abh As AsyncHandoff) As IEnumerator
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.Danmaku.Patterns
+  commentId: N:Danmokou.Danmaku.Patterns
+  name: Danmokou.Danmaku.Patterns
+  nameWithType: Danmokou.Danmaku.Patterns
+  fullName: Danmokou.Danmaku.Patterns
+- uid: Danmokou.Danmaku.Patterns.AsyncHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: AsyncHandoff
+  nameWithType: AsyncHandoff
+  fullName: Danmokou.Danmaku.Patterns.AsyncHandoff
+- uid: IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator

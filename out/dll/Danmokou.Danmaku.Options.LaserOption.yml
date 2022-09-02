@@ -1,0 +1,1772 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Danmaku.Options.LaserOption
+  commentId: T:Danmokou.Danmaku.Options.LaserOption
+  id: LaserOption
+  parent: Danmokou.Danmaku.Options
+  children:
+  - Danmokou.Danmaku.Options.LaserOption.Deactivate(GCXU{Pred})
+  - Danmokou.Danmaku.Options.LaserOption.Delete(GCXU{Pred})
+  - Danmokou.Danmaku.Options.LaserOption.dSFX
+  - Danmokou.Danmaku.Options.LaserOption.Dynamic(GCXU{LVTP})
+  - Danmokou.Danmaku.Options.LaserOption.Endpoint(System.String)
+  - Danmokou.Danmaku.Options.LaserOption.High
+  - Danmokou.Danmaku.Options.LaserOption.HueShift(GCXU{BPY})
+  - Danmokou.Danmaku.Options.LaserOption.Length(GCXF{System.Single})
+  - Danmokou.Danmaku.Options.LaserOption.Low
+  - Danmokou.Danmaku.Options.LaserOption.Nonpiercing
+  - Danmokou.Danmaku.Options.LaserOption.Player(System.Int32,System.Int32,System.Int32,System.String)
+  - Danmokou.Danmaku.Options.LaserOption.Recolor(GCXU{TP4},GCXU{TP4})
+  - Danmokou.Danmaku.Options.LaserOption.Repeat
+  - Danmokou.Danmaku.Options.LaserOption.RepeatF(GCXF{System.Boolean})
+  - Danmokou.Danmaku.Options.LaserOption.Rotate(GCXF{System.Single},GCXU{BPY})
+  - Danmokou.Danmaku.Options.LaserOption.S(GCXF{System.Single})
+  - Danmokou.Danmaku.Options.LaserOption.SFX(System.String)
+  - Danmokou.Danmaku.Options.LaserOption.SFX2(System.String,System.String)
+  - Danmokou.Danmaku.Options.LaserOption.SM(StateMachine)
+  - Danmokou.Danmaku.Options.LaserOption.Stagger(System.Single)
+  - Danmokou.Danmaku.Options.LaserOption.Start(GCXU{BPY})
+  - Danmokou.Danmaku.Options.LaserOption.Static(GCXU{LVTP})
+  - Danmokou.Danmaku.Options.LaserOption.Straight(GCXF{System.Single})
+  - Danmokou.Danmaku.Options.LaserOption.Tint(GCXU{TP4})
+  - Danmokou.Danmaku.Options.LaserOption.VarLength(GCXF{System.Single},GCXU{BPY})
+  langs:
+  - csharp
+  - vb
+  name: LaserOption
+  nameWithType: LaserOption
+  fullName: Danmokou.Danmaku.Options.LaserOption
+  type: Class
+  source:
+    id: LaserOption
+    path: ''
+    startLine: 3346
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nProperties that modify the behavior of lasers.\n"
+  example: []
+  syntax:
+    content: public class LaserOption
+    content.vb: Public Class LaserOption
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.Danmaku.Options.LaserOption.Length(GCXF{System.Single})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Length(GCXF{System.Single})
+  id: Length(GCXF{System.Single})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Length(GCXF<Single>)
+  nameWithType: LaserOption.Length(GCXF<Single>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Length(GCXF<System.Single>)
+  type: Method
+  source:
+    id: Length
+    path: ''
+    startLine: 3351
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nSet the length, in time, of a laser.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Length(GCXF<float> maxLength)
+    parameters:
+    - id: maxLength
+      type: GCXF{System.Single}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Length(maxLength As GCXF(Of Single)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Length*
+  nameWithType.vb: LaserOption.Length(GCXF(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Length(GCXF(Of System.Single))
+  name.vb: Length(GCXF(Of Single))
+- uid: Danmokou.Danmaku.Options.LaserOption.VarLength(GCXF{System.Single},GCXU{BPY})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.VarLength(GCXF{System.Single},GCXU{BPY})
+  id: VarLength(GCXF{System.Single},GCXU{BPY})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: VarLength(GCXF<Single>, GCXU<BPY>)
+  nameWithType: LaserOption.VarLength(GCXF<Single>, GCXU<BPY>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.VarLength(GCXF<System.Single>, GCXU<BPY>)
+  type: Method
+  source:
+    id: VarLength
+    path: ''
+    startLine: 3355
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nSet the length, in time, of a laser. The length may be variable but bounded by a maximum.\n"
+  example: []
+  syntax:
+    content: public static LaserOption VarLength(GCXF<float> maxLength, GCXU<BPY> length)
+    parameters:
+    - id: maxLength
+      type: GCXF{System.Single}
+    - id: length
+      type: GCXU{BPY}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function VarLength(maxLength As GCXF(Of Single), length As GCXU(Of BPY)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.VarLength*
+  nameWithType.vb: LaserOption.VarLength(GCXF(Of Single), GCXU(Of BPY))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.VarLength(GCXF(Of System.Single), GCXU(Of BPY))
+  name.vb: VarLength(GCXF(Of Single), GCXU(Of BPY))
+- uid: Danmokou.Danmaku.Options.LaserOption.Start(GCXU{BPY})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Start(GCXU{BPY})
+  id: Start(GCXU{BPY})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Start(GCXU<BPY>)
+  nameWithType: LaserOption.Start(GCXU<BPY>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Start(GCXU<BPY>)
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 3360
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nSet the time along the laser length at which the laser starts drawing.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Start(GCXU<BPY> time)
+    parameters:
+    - id: time
+      type: GCXU{BPY}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Start(time As GCXU(Of BPY)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Start*
+  nameWithType.vb: LaserOption.Start(GCXU(Of BPY))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Start(GCXU(Of BPY))
+  name.vb: Start(GCXU(Of BPY))
+- uid: Danmokou.Danmaku.Options.LaserOption.Delete(GCXU{Pred})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Delete(GCXU{Pred})
+  id: Delete(GCXU{Pred})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Delete(GCXU<Pred>)
+  nameWithType: LaserOption.Delete(GCXU<Pred>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Delete(GCXU<Pred>)
+  type: Method
+  source:
+    id: Delete
+    path: ''
+    startLine: 3367
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nEvery frame, the laser will check the condition and destroy itself if it is true.\n<br />Note: This is generally only necessary for player lasers.\n<br />Note: This is the same as BehOption.Delete.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Delete(GCXU<Pred> cond)
+    parameters:
+    - id: cond
+      type: GCXU{Pred}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Delete(cond As GCXU(Of Pred)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Delete*
+  nameWithType.vb: LaserOption.Delete(GCXU(Of Pred))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Delete(GCXU(Of Pred))
+  name.vb: Delete(GCXU(Of Pred))
+- uid: Danmokou.Danmaku.Options.LaserOption.Deactivate(GCXU{Pred})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Deactivate(GCXU{Pred})
+  id: Deactivate(GCXU{Pred})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Deactivate(GCXU<Pred>)
+  nameWithType: LaserOption.Deactivate(GCXU<Pred>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Deactivate(GCXU<Pred>)
+  type: Method
+  source:
+    id: Deactivate
+    path: ''
+    startLine: 3372
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nEvery frame, if the condition is true, sets LastActiveTime in private data hoisting to the current laser time (but only once).\n"
+  example: []
+  syntax:
+    content: public static LaserOption Deactivate(GCXU<Pred> cond)
+    parameters:
+    - id: cond
+      type: GCXU{Pred}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Deactivate(cond As GCXU(Of Pred)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Deactivate*
+  nameWithType.vb: LaserOption.Deactivate(GCXU(Of Pred))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Deactivate(GCXU(Of Pred))
+  name.vb: Deactivate(GCXU(Of Pred))
+- uid: Danmokou.Danmaku.Options.LaserOption.Repeat
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Repeat
+  id: Repeat
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Repeat()
+  nameWithType: LaserOption.Repeat()
+  fullName: Danmokou.Danmaku.Options.LaserOption.Repeat()
+  type: Method
+  source:
+    id: Repeat
+    path: ''
+    startLine: 3378
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nSet a laser to repeat.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Repeat()
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+      description: ''
+    content.vb: Public Shared Function Repeat As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Repeat*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.RepeatF(GCXF{System.Boolean})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.RepeatF(GCXF{System.Boolean})
+  id: RepeatF(GCXF{System.Boolean})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: RepeatF(GCXF<Boolean>)
+  nameWithType: LaserOption.RepeatF(GCXF<Boolean>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.RepeatF(GCXF<System.Boolean>)
+  type: Method
+  source:
+    id: RepeatF
+    path: ''
+    startLine: 3383
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nSet a laser to repeat iff the function is true.\n"
+  example: []
+  syntax:
+    content: public static LaserOption RepeatF(GCXF<bool> func)
+    parameters:
+    - id: func
+      type: GCXF{System.Boolean}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+      description: ''
+    content.vb: Public Shared Function RepeatF(func As GCXF(Of Boolean)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.RepeatF*
+  nameWithType.vb: LaserOption.RepeatF(GCXF(Of Boolean))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.RepeatF(GCXF(Of System.Boolean))
+  name.vb: RepeatF(GCXF(Of Boolean))
+- uid: Danmokou.Danmaku.Options.LaserOption.Straight(GCXF{System.Single})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Straight(GCXF{System.Single})
+  id: Straight(GCXF{System.Single})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Straight(GCXF<Single>)
+  nameWithType: LaserOption.Straight(GCXF<Single>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Straight(GCXF<System.Single>)
+  type: Method
+  source:
+    id: Straight
+    path: ''
+    startLine: 3389
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nDraw a straight laser at an angle.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Straight(GCXF<float> rotOffset)
+    parameters:
+    - id: rotOffset
+      type: GCXF{System.Single}
+      description: Angle in degrees
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+      description: ''
+    content.vb: Public Shared Function Straight(rotOffset As GCXF(Of Single)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Straight*
+  nameWithType.vb: LaserOption.Straight(GCXF(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Straight(GCXF(Of System.Single))
+  name.vb: Straight(GCXF(Of Single))
+- uid: Danmokou.Danmaku.Options.LaserOption.Rotate(GCXF{System.Single},GCXU{BPY})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Rotate(GCXF{System.Single},GCXU{BPY})
+  id: Rotate(GCXF{System.Single},GCXU{BPY})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Rotate(GCXF<Single>, GCXU<BPY>)
+  nameWithType: LaserOption.Rotate(GCXF<Single>, GCXU<BPY>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Rotate(GCXF<System.Single>, GCXU<BPY>)
+  type: Method
+  source:
+    id: Rotate
+    path: ''
+    startLine: 3396
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nDraw a straight laser that rotates.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Rotate(GCXF<float> rotOffset, GCXU<BPY> rot)
+    parameters:
+    - id: rotOffset
+      type: GCXF{System.Single}
+      description: Initial angle in degrees
+    - id: rot
+      type: GCXU{BPY}
+      description: Additional rotation as a function of time in degrees
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+      description: ''
+    content.vb: Public Shared Function Rotate(rotOffset As GCXF(Of Single), rot As GCXU(Of BPY)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Rotate*
+  nameWithType.vb: LaserOption.Rotate(GCXF(Of Single), GCXU(Of BPY))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Rotate(GCXF(Of System.Single), GCXU(Of BPY))
+  name.vb: Rotate(GCXF(Of Single), GCXU(Of BPY))
+- uid: Danmokou.Danmaku.Options.LaserOption.Static(GCXU{LVTP})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Static(GCXU{LVTP})
+  id: Static(GCXU{LVTP})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Static(GCXU<LVTP>)
+  nameWithType: LaserOption.Static(GCXU<LVTP>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Static(GCXU<LVTP>)
+  type: Method
+  source:
+    id: Static
+    path: ''
+    startLine: 3400
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nDraw a curved laser that does not update.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Static(GCXU<LVTP> path)
+    parameters:
+    - id: path
+      type: GCXU{LVTP}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Static(path As GCXU(Of LVTP)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Static*
+  nameWithType.vb: LaserOption.Static(GCXU(Of LVTP))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Static(GCXU(Of LVTP))
+  name.vb: Static(GCXU(Of LVTP))
+- uid: Danmokou.Danmaku.Options.LaserOption.Dynamic(GCXU{LVTP})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Dynamic(GCXU{LVTP})
+  id: Dynamic(GCXU{LVTP})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Dynamic(GCXU<LVTP>)
+  nameWithType: LaserOption.Dynamic(GCXU<LVTP>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Dynamic(GCXU<LVTP>)
+  type: Method
+  source:
+    id: Dynamic
+    path: ''
+    startLine: 3404
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nDraw a curved laser that does update.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Dynamic(GCXU<LVTP> path)
+    parameters:
+    - id: path
+      type: GCXU{LVTP}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Dynamic(path As GCXU(Of LVTP)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Dynamic*
+  nameWithType.vb: LaserOption.Dynamic(GCXU(Of LVTP))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Dynamic(GCXU(Of LVTP))
+  name.vb: Dynamic(GCXU(Of LVTP))
+- uid: Danmokou.Danmaku.Options.LaserOption.Endpoint(System.String)
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Endpoint(System.String)
+  id: Endpoint(System.String)
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Endpoint(String)
+  nameWithType: LaserOption.Endpoint(String)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Endpoint(System.String)
+  type: Method
+  source:
+    id: Endpoint
+    path: ''
+    startLine: 3408
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nDraw a laser with an endpoint BEH.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Endpoint(string behid)
+    parameters:
+    - id: behid
+      type: System.String
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Endpoint(behid As String) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Endpoint*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.SM(StateMachine)
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.SM(StateMachine)
+  id: SM(StateMachine)
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: SM(StateMachine)
+  nameWithType: LaserOption.SM(StateMachine)
+  fullName: Danmokou.Danmaku.Options.LaserOption.SM(StateMachine)
+  type: Method
+  source:
+    id: SM
+    path: ''
+    startLine: 3412
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nRun a StateMachine on a laser.\n"
+  example: []
+  syntax:
+    content: public static LaserOption SM(StateMachine sm)
+    parameters:
+    - id: sm
+      type: StateMachine
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function SM(sm As StateMachine) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.SM*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.SFX(System.String)
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.SFX(System.String)
+  id: SFX(System.String)
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: SFX(String)
+  nameWithType: LaserOption.SFX(String)
+  fullName: Danmokou.Danmaku.Options.LaserOption.SFX(System.String)
+  type: Method
+  source:
+    id: SFX
+    path: ''
+    startLine: 3416
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nPlay a sound effect when the laser turns on.\n"
+  example: []
+  syntax:
+    content: public static LaserOption SFX(string sfx)
+    parameters:
+    - id: sfx
+      type: System.String
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function SFX(sfx As String) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.SFX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.SFX2(System.String,System.String)
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.SFX2(System.String,System.String)
+  id: SFX2(System.String,System.String)
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: SFX2(String, String)
+  nameWithType: LaserOption.SFX2(String, String)
+  fullName: Danmokou.Danmaku.Options.LaserOption.SFX2(System.String, System.String)
+  type: Method
+  source:
+    id: SFX2
+    path: ''
+    startLine: 3420
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nPlay a sound effect when the laser is fired and when the laser is turned on.\n"
+  example: []
+  syntax:
+    content: public static LaserOption SFX2(string onFire, string onOn)
+    parameters:
+    - id: onFire
+      type: System.String
+    - id: onOn
+      type: System.String
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function SFX2(onFire As String, onOn As String) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.SFX2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.dSFX
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.dSFX
+  id: dSFX
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: dSFX()
+  nameWithType: LaserOption.dSFX()
+  fullName: Danmokou.Danmaku.Options.LaserOption.dSFX()
+  type: Method
+  source:
+    id: dSFX
+    path: ''
+    startLine: 3426
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nPlay the default sound effects (sfx2 x-laser-fire x-laser-on).\n"
+  example: []
+  syntax:
+    content: public static LaserOption dSFX()
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+      description: ''
+    content.vb: Public Shared Function dSFX As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.dSFX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.S(GCXF{System.Single})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.S(GCXF{System.Single})
+  id: S(GCXF{System.Single})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: S(GCXF<Single>)
+  nameWithType: LaserOption.S(GCXF<Single>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.S(GCXF<System.Single>)
+  type: Method
+  source:
+    id: S
+    path: ''
+    startLine: 3430
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nSet the width of the laser as a multiplier. The base size is a thickness of 0.2 screen units.\n"
+  example: []
+  syntax:
+    content: public static LaserOption S(GCXF<float> scale)
+    parameters:
+    - id: scale
+      type: GCXF{System.Single}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function S(scale As GCXF(Of Single)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.S*
+  nameWithType.vb: LaserOption.S(GCXF(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.S(GCXF(Of System.Single))
+  name.vb: S(GCXF(Of Single))
+- uid: Danmokou.Danmaku.Options.LaserOption.Low
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Low
+  id: Low
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Low()
+  nameWithType: LaserOption.Low()
+  fullName: Danmokou.Danmaku.Options.LaserOption.Low()
+  type: Method
+  source:
+    id: Low
+    path: ''
+    startLine: 3432
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  syntax:
+    content: public static LaserOption Low()
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Low As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Low*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.High
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.High
+  id: High
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: High()
+  nameWithType: LaserOption.High()
+  fullName: Danmokou.Danmaku.Options.LaserOption.High()
+  type: Method
+  source:
+    id: High
+    path: ''
+    startLine: 3433
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  syntax:
+    content: public static LaserOption High()
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function High As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.High*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.Stagger(System.Single)
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Stagger(System.Single)
+  id: Stagger(System.Single)
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Stagger(Single)
+  nameWithType: LaserOption.Stagger(Single)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Stagger(System.Single)
+  type: Method
+  source:
+    id: Stagger
+    path: ''
+    startLine: 3435
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  syntax:
+    content: public static LaserOption Stagger(float mult)
+    parameters:
+    - id: mult
+      type: System.Single
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Stagger(mult As Single) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Stagger*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.HueShift(GCXU{BPY})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.HueShift(GCXU{BPY})
+  id: HueShift(GCXU{BPY})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: HueShift(GCXU<BPY>)
+  nameWithType: LaserOption.HueShift(GCXU<BPY>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.HueShift(GCXU<BPY>)
+  type: Method
+  source:
+    id: HueShift
+    path: ''
+    startLine: 3441
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nProvide a function that indicates how much to shift the color of the summon (in degrees) at any point in time.\n<br /> WARNING: This is a rendering function. Do not use `rand` (`brand` ok), or else replays will desync.\n"
+  example: []
+  syntax:
+    content: public static LaserOption HueShift(GCXU<BPY> shift)
+    parameters:
+    - id: shift
+      type: GCXU{BPY}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function HueShift(shift As GCXU(Of BPY)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.HueShift*
+  nameWithType.vb: LaserOption.HueShift(GCXU(Of BPY))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.HueShift(GCXU(Of BPY))
+  name.vb: HueShift(GCXU(Of BPY))
+- uid: Danmokou.Danmaku.Options.LaserOption.Recolor(GCXU{TP4},GCXU{TP4})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Recolor(GCXU{TP4},GCXU{TP4})
+  id: Recolor(GCXU{TP4},GCXU{TP4})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Recolor(GCXU<TP4>, GCXU<TP4>)
+  nameWithType: LaserOption.Recolor(GCXU<TP4>, GCXU<TP4>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Recolor(GCXU<TP4>, GCXU<TP4>)
+  type: Method
+  source:
+    id: Recolor
+    path: ''
+    startLine: 3448
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nManually construct a two-color gradient for the object.\n<br /> Note: This will only have effect if you use it with the `recolor` palette.\n<br /> WARNING: This is a rendering function. Do not use `rand` (`brand` ok), or else replays will desync.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Recolor(GCXU<TP4> black, GCXU<TP4> white)
+    parameters:
+    - id: black
+      type: GCXU{TP4}
+    - id: white
+      type: GCXU{TP4}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Recolor(black As GCXU(Of TP4), white As GCXU(Of TP4)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Recolor*
+  nameWithType.vb: LaserOption.Recolor(GCXU(Of TP4), GCXU(Of TP4))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Recolor(GCXU(Of TP4), GCXU(Of TP4))
+  name.vb: Recolor(GCXU(Of TP4), GCXU(Of TP4))
+- uid: Danmokou.Danmaku.Options.LaserOption.Tint(GCXU{TP4})
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Tint(GCXU{TP4})
+  id: Tint(GCXU{TP4})
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Tint(GCXU<TP4>)
+  nameWithType: LaserOption.Tint(GCXU<TP4>)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Tint(GCXU<TP4>)
+  type: Method
+  source:
+    id: Tint
+    path: ''
+    startLine: 3454
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nTint the laser. This is a multiplicative effect on its normal color.\n<br /> WARNING: This is a rendering function. Do not use `rand` (`brand` ok), or else replays will desync.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Tint(GCXU<TP4> tint)
+    parameters:
+    - id: tint
+      type: GCXU{TP4}
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Tint(tint As GCXU(Of TP4)) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Tint*
+  nameWithType.vb: LaserOption.Tint(GCXU(Of TP4))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.LaserOption.Tint(GCXU(Of TP4))
+  name.vb: Tint(GCXU(Of TP4))
+- uid: Danmokou.Danmaku.Options.LaserOption.Nonpiercing
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Nonpiercing
+  id: Nonpiercing
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Nonpiercing()
+  nameWithType: LaserOption.Nonpiercing()
+  fullName: Danmokou.Danmaku.Options.LaserOption.Nonpiercing()
+  type: Method
+  source:
+    id: Nonpiercing
+    path: ''
+    startLine: 3459
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nPlayer bullets only.\n"
+  example: []
+  syntax:
+    content: public static LaserOption Nonpiercing()
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Nonpiercing As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Nonpiercing*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.LaserOption.Player(System.Int32,System.Int32,System.Int32,System.String)
+  commentId: M:Danmokou.Danmaku.Options.LaserOption.Player(System.Int32,System.Int32,System.Int32,System.String)
+  id: Player(System.Int32,System.Int32,System.Int32,System.String)
+  parent: Danmokou.Danmaku.Options.LaserOption
+  langs:
+  - csharp
+  - vb
+  name: Player(Int32, Int32, Int32, String)
+  nameWithType: LaserOption.Player(Int32, Int32, Int32, String)
+  fullName: Danmokou.Danmaku.Options.LaserOption.Player(System.Int32, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    id: Player
+    path: ''
+    startLine: 3461
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  syntax:
+    content: public static LaserOption Player(int cdFrames, int bossDmg, int stageDmg, string effect)
+    parameters:
+    - id: cdFrames
+      type: System.Int32
+    - id: bossDmg
+      type: System.Int32
+    - id: stageDmg
+      type: System.Int32
+    - id: effect
+      type: System.String
+    return:
+      type: Danmokou.Danmaku.Options.LaserOption
+    content.vb: Public Shared Function Player(cdFrames As Integer, bossDmg As Integer, stageDmg As Integer, effect As String) As LaserOption
+  overload: Danmokou.Danmaku.Options.LaserOption.Player*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.Danmaku.Options
+  commentId: N:Danmokou.Danmaku.Options
+  name: Danmokou.Danmaku.Options
+  nameWithType: Danmokou.Danmaku.Options
+  fullName: Danmokou.Danmaku.Options
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.Danmaku.Options.LaserOption.Length*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Length
+  name: Length
+  nameWithType: LaserOption.Length
+  fullName: Danmokou.Danmaku.Options.LaserOption.Length
+- uid: GCXF{System.Single}
+  commentId: '!:GCXF{System.Single}'
+  definition: GCXF`1
+  name: GCXF<Single>
+  nameWithType: GCXF<Single>
+  fullName: GCXF<System.Single>
+  nameWithType.vb: GCXF(Of Single)
+  fullName.vb: GCXF(Of System.Single)
+  name.vb: GCXF(Of Single)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.LaserOption
+  commentId: T:Danmokou.Danmaku.Options.LaserOption
+  parent: Danmokou.Danmaku.Options
+  name: LaserOption
+  nameWithType: LaserOption
+  fullName: Danmokou.Danmaku.Options.LaserOption
+- uid: GCXF`1
+  isExternal: true
+  name: GCXF<>
+  nameWithType: GCXF<>
+  fullName: GCXF<>
+  nameWithType.vb: GCXF(Of )
+  fullName.vb: GCXF(Of )
+  name.vb: GCXF(Of )
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.LaserOption.VarLength*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.VarLength
+  name: VarLength
+  nameWithType: LaserOption.VarLength
+  fullName: Danmokou.Danmaku.Options.LaserOption.VarLength
+- uid: GCXU{BPY}
+  commentId: '!:GCXU{BPY}'
+  definition: GCXU`1
+  name: GCXU<BPY>
+  nameWithType: GCXU<BPY>
+  fullName: GCXU<BPY>
+  nameWithType.vb: GCXU(Of BPY)
+  fullName.vb: GCXU(Of BPY)
+  name.vb: GCXU(Of BPY)
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BPY
+    name: BPY
+    nameWithType: BPY
+    fullName: BPY
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BPY
+    name: BPY
+    nameWithType: BPY
+    fullName: BPY
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GCXU`1
+  isExternal: true
+  name: GCXU<>
+  nameWithType: GCXU<>
+  fullName: GCXU<>
+  nameWithType.vb: GCXU(Of )
+  fullName.vb: GCXU(Of )
+  name.vb: GCXU(Of )
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.LaserOption.Start*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Start
+  name: Start
+  nameWithType: LaserOption.Start
+  fullName: Danmokou.Danmaku.Options.LaserOption.Start
+- uid: Danmokou.Danmaku.Options.LaserOption.Delete*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Delete
+  name: Delete
+  nameWithType: LaserOption.Delete
+  fullName: Danmokou.Danmaku.Options.LaserOption.Delete
+- uid: GCXU{Pred}
+  commentId: '!:GCXU{Pred}'
+  definition: GCXU`1
+  name: GCXU<Pred>
+  nameWithType: GCXU<Pred>
+  fullName: GCXU<Pred>
+  nameWithType.vb: GCXU(Of Pred)
+  fullName.vb: GCXU(Of Pred)
+  name.vb: GCXU(Of Pred)
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Pred
+    name: Pred
+    nameWithType: Pred
+    fullName: Pred
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Pred
+    name: Pred
+    nameWithType: Pred
+    fullName: Pred
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.LaserOption.Deactivate*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Deactivate
+  name: Deactivate
+  nameWithType: LaserOption.Deactivate
+  fullName: Danmokou.Danmaku.Options.LaserOption.Deactivate
+- uid: Danmokou.Danmaku.Options.LaserOption.Repeat*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Repeat
+  name: Repeat
+  nameWithType: LaserOption.Repeat
+  fullName: Danmokou.Danmaku.Options.LaserOption.Repeat
+- uid: Danmokou.Danmaku.Options.LaserOption.RepeatF*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.RepeatF
+  name: RepeatF
+  nameWithType: LaserOption.RepeatF
+  fullName: Danmokou.Danmaku.Options.LaserOption.RepeatF
+- uid: GCXF{System.Boolean}
+  commentId: '!:GCXF{System.Boolean}'
+  definition: GCXF`1
+  name: GCXF<Boolean>
+  nameWithType: GCXF<Boolean>
+  fullName: GCXF<System.Boolean>
+  nameWithType.vb: GCXF(Of Boolean)
+  fullName.vb: GCXF(Of System.Boolean)
+  name.vb: GCXF(Of Boolean)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.LaserOption.Straight*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Straight
+  name: Straight
+  nameWithType: LaserOption.Straight
+  fullName: Danmokou.Danmaku.Options.LaserOption.Straight
+- uid: Danmokou.Danmaku.Options.LaserOption.Rotate*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Rotate
+  name: Rotate
+  nameWithType: LaserOption.Rotate
+  fullName: Danmokou.Danmaku.Options.LaserOption.Rotate
+- uid: Danmokou.Danmaku.Options.LaserOption.Static*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Static
+  name: Static
+  nameWithType: LaserOption.Static
+  fullName: Danmokou.Danmaku.Options.LaserOption.Static
+- uid: GCXU{LVTP}
+  commentId: '!:GCXU{LVTP}'
+  definition: GCXU`1
+  name: GCXU<LVTP>
+  nameWithType: GCXU<LVTP>
+  fullName: GCXU<LVTP>
+  nameWithType.vb: GCXU(Of LVTP)
+  fullName.vb: GCXU(Of LVTP)
+  name.vb: GCXU(Of LVTP)
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: LVTP
+    name: LVTP
+    nameWithType: LVTP
+    fullName: LVTP
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: LVTP
+    name: LVTP
+    nameWithType: LVTP
+    fullName: LVTP
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.LaserOption.Dynamic*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Dynamic
+  name: Dynamic
+  nameWithType: LaserOption.Dynamic
+  fullName: Danmokou.Danmaku.Options.LaserOption.Dynamic
+- uid: Danmokou.Danmaku.Options.LaserOption.Endpoint*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Endpoint
+  name: Endpoint
+  nameWithType: LaserOption.Endpoint
+  fullName: Danmokou.Danmaku.Options.LaserOption.Endpoint
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.Danmaku.Options.LaserOption.SM*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.SM
+  name: SM
+  nameWithType: LaserOption.SM
+  fullName: Danmokou.Danmaku.Options.LaserOption.SM
+- uid: StateMachine
+  isExternal: true
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: StateMachine
+- uid: Danmokou.Danmaku.Options.LaserOption.SFX*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.SFX
+  name: SFX
+  nameWithType: LaserOption.SFX
+  fullName: Danmokou.Danmaku.Options.LaserOption.SFX
+- uid: Danmokou.Danmaku.Options.LaserOption.SFX2*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.SFX2
+  name: SFX2
+  nameWithType: LaserOption.SFX2
+  fullName: Danmokou.Danmaku.Options.LaserOption.SFX2
+- uid: Danmokou.Danmaku.Options.LaserOption.dSFX*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.dSFX
+  name: dSFX
+  nameWithType: LaserOption.dSFX
+  fullName: Danmokou.Danmaku.Options.LaserOption.dSFX
+- uid: Danmokou.Danmaku.Options.LaserOption.S*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.S
+  name: S
+  nameWithType: LaserOption.S
+  fullName: Danmokou.Danmaku.Options.LaserOption.S
+- uid: Danmokou.Danmaku.Options.LaserOption.Low*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Low
+  name: Low
+  nameWithType: LaserOption.Low
+  fullName: Danmokou.Danmaku.Options.LaserOption.Low
+- uid: Danmokou.Danmaku.Options.LaserOption.High*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.High
+  name: High
+  nameWithType: LaserOption.High
+  fullName: Danmokou.Danmaku.Options.LaserOption.High
+- uid: Danmokou.Danmaku.Options.LaserOption.Stagger*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Stagger
+  name: Stagger
+  nameWithType: LaserOption.Stagger
+  fullName: Danmokou.Danmaku.Options.LaserOption.Stagger
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Danmokou.Danmaku.Options.LaserOption.HueShift*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.HueShift
+  name: HueShift
+  nameWithType: LaserOption.HueShift
+  fullName: Danmokou.Danmaku.Options.LaserOption.HueShift
+- uid: Danmokou.Danmaku.Options.LaserOption.Recolor*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Recolor
+  name: Recolor
+  nameWithType: LaserOption.Recolor
+  fullName: Danmokou.Danmaku.Options.LaserOption.Recolor
+- uid: GCXU{TP4}
+  commentId: '!:GCXU{TP4}'
+  definition: GCXU`1
+  name: GCXU<TP4>
+  nameWithType: GCXU<TP4>
+  fullName: GCXU<TP4>
+  nameWithType.vb: GCXU(Of TP4)
+  fullName.vb: GCXU(Of TP4)
+  name.vb: GCXU(Of TP4)
+  spec.csharp:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TP4
+    name: TP4
+    nameWithType: TP4
+    fullName: TP4
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: GCXU
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TP4
+    name: TP4
+    nameWithType: TP4
+    fullName: TP4
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Options.LaserOption.Tint*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Tint
+  name: Tint
+  nameWithType: LaserOption.Tint
+  fullName: Danmokou.Danmaku.Options.LaserOption.Tint
+- uid: Danmokou.Danmaku.Options.LaserOption.Nonpiercing*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Nonpiercing
+  name: Nonpiercing
+  nameWithType: LaserOption.Nonpiercing
+  fullName: Danmokou.Danmaku.Options.LaserOption.Nonpiercing
+- uid: Danmokou.Danmaku.Options.LaserOption.Player*
+  commentId: Overload:Danmokou.Danmaku.Options.LaserOption.Player
+  name: Player
+  nameWithType: LaserOption.Player
+  fullName: Danmokou.Danmaku.Options.LaserOption.Player
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

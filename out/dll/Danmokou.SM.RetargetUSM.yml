@@ -1,0 +1,604 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.RetargetUSM
+  commentId: T:Danmokou.SM.RetargetUSM
+  id: RetargetUSM
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.RetargetUSM.#ctor(System.String[],Danmokou.SM.StateMachine)
+  - Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.StateMachine,System.String[])
+  - Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.TaskPattern,System.String[])
+  - Danmokou.SM.RetargetUSM.Start(Danmokou.SM.SMHandoff)
+  langs:
+  - csharp
+  - vb
+  name: RetargetUSM
+  nameWithType: RetargetUSM
+  fullName: Danmokou.SM.RetargetUSM
+  type: Class
+  source:
+    id: RetargetUSM
+    path: ''
+    startLine: 15620
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\n`@`: Run an SM on another BEH.\n"
+  example: []
+  syntax:
+    content: 'public class RetargetUSM : UniversalSM'
+    content.vb: >-
+      Public Class RetargetUSM
+          Inherits UniversalSM
+  inheritance:
+  - System.Object
+  - Danmokou.SM.StateMachine
+  - Danmokou.SM.UniversalSM
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.RetargetUSM.#ctor(System.String[],Danmokou.SM.StateMachine)
+  commentId: M:Danmokou.SM.RetargetUSM.#ctor(System.String[],Danmokou.SM.StateMachine)
+  id: '#ctor(System.String[],Danmokou.SM.StateMachine)'
+  parent: Danmokou.SM.RetargetUSM
+  langs:
+  - csharp
+  - vb
+  name: RetargetUSM(String[], StateMachine)
+  nameWithType: RetargetUSM.RetargetUSM(String[], StateMachine)
+  fullName: Danmokou.SM.RetargetUSM.RetargetUSM(System.String[], Danmokou.SM.StateMachine)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15623
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public RetargetUSM(string[] targets, StateMachine state)
+    parameters:
+    - id: targets
+      type: System.String[]
+    - id: state
+      type: Danmokou.SM.StateMachine
+    content.vb: Public Sub New(targets As String(), state As StateMachine)
+  overload: Danmokou.SM.RetargetUSM.#ctor*
+  nameWithType.vb: RetargetUSM.RetargetUSM(String(), StateMachine)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.SM.RetargetUSM.RetargetUSM(System.String(), Danmokou.SM.StateMachine)
+  name.vb: RetargetUSM(String(), StateMachine)
+- uid: Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.StateMachine,System.String[])
+  commentId: M:Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.StateMachine,System.String[])
+  id: Retarget(Danmokou.SM.StateMachine,System.String[])
+  parent: Danmokou.SM.RetargetUSM
+  langs:
+  - csharp
+  - vb
+  name: Retarget(StateMachine, String[])
+  nameWithType: RetargetUSM.Retarget(StateMachine, String[])
+  fullName: Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.StateMachine, System.String[])
+  type: Method
+  source:
+    id: Retarget
+    path: ''
+    startLine: 15627
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static RetargetUSM Retarget(StateMachine state, params string[] targets)
+    parameters:
+    - id: state
+      type: Danmokou.SM.StateMachine
+    - id: targets
+      type: System.String[]
+    return:
+      type: Danmokou.SM.RetargetUSM
+    content.vb: Public Shared Function Retarget(state As StateMachine, ParamArray targets As String()) As RetargetUSM
+  overload: Danmokou.SM.RetargetUSM.Retarget*
+  nameWithType.vb: RetargetUSM.Retarget(StateMachine, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.StateMachine, System.String())
+  name.vb: Retarget(StateMachine, String())
+- uid: Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.TaskPattern,System.String[])
+  commentId: M:Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.TaskPattern,System.String[])
+  id: Retarget(Danmokou.SM.TaskPattern,System.String[])
+  parent: Danmokou.SM.RetargetUSM
+  langs:
+  - csharp
+  - vb
+  name: Retarget(TaskPattern, String[])
+  nameWithType: RetargetUSM.Retarget(TaskPattern, String[])
+  fullName: Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.TaskPattern, System.String[])
+  type: Method
+  source:
+    id: Retarget
+    path: ''
+    startLine: 15628
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static RetargetUSM Retarget(TaskPattern state, params string[] targets)
+    parameters:
+    - id: state
+      type: Danmokou.SM.TaskPattern
+    - id: targets
+      type: System.String[]
+    return:
+      type: Danmokou.SM.RetargetUSM
+    content.vb: Public Shared Function Retarget(state As TaskPattern, ParamArray targets As String()) As RetargetUSM
+  overload: Danmokou.SM.RetargetUSM.Retarget*
+  nameWithType.vb: RetargetUSM.Retarget(TaskPattern, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.RetargetUSM.Retarget(Danmokou.SM.TaskPattern, System.String())
+  name.vb: Retarget(TaskPattern, String())
+- uid: Danmokou.SM.RetargetUSM.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.RetargetUSM.Start(Danmokou.SM.SMHandoff)
+  id: Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.RetargetUSM
+  langs:
+  - csharp
+  - vb
+  name: Start(SMHandoff)
+  nameWithType: RetargetUSM.Start(SMHandoff)
+  fullName: Danmokou.SM.RetargetUSM.Start(Danmokou.SM.SMHandoff)
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 15630
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public override Task Start(SMHandoff smh)
+    parameters:
+    - id: smh
+      type: Danmokou.SM.SMHandoff
+    return:
+      type: Task
+    content.vb: Public Overrides Function Start(smh As SMHandoff) As Task
+  overridden: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+  overload: Danmokou.SM.RetargetUSM.Start*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.UniversalSM
+  commentId: T:Danmokou.SM.UniversalSM
+  parent: Danmokou.SM
+  name: UniversalSM
+  nameWithType: UniversalSM
+  fullName: Danmokou.SM.UniversalSM
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.RetargetUSM.#ctor*
+  commentId: Overload:Danmokou.SM.RetargetUSM.#ctor
+  name: RetargetUSM
+  nameWithType: RetargetUSM.RetargetUSM
+  fullName: Danmokou.SM.RetargetUSM.RetargetUSM
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.SM.RetargetUSM.Retarget*
+  commentId: Overload:Danmokou.SM.RetargetUSM.Retarget
+  name: Retarget
+  nameWithType: RetargetUSM.Retarget
+  fullName: Danmokou.SM.RetargetUSM.Retarget
+- uid: Danmokou.SM.RetargetUSM
+  commentId: T:Danmokou.SM.RetargetUSM
+  parent: Danmokou.SM
+  name: RetargetUSM
+  nameWithType: RetargetUSM
+  fullName: Danmokou.SM.RetargetUSM
+- uid: Danmokou.SM.TaskPattern
+  commentId: T:Danmokou.SM.TaskPattern
+  parent: Danmokou.SM
+  name: TaskPattern
+  nameWithType: TaskPattern
+  fullName: Danmokou.SM.TaskPattern
+- uid: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.StateMachine
+  name: Start(SMHandoff)
+  nameWithType: StateMachine.Start(SMHandoff)
+  fullName: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+  spec.csharp:
+  - uid: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: StateMachine.Start
+    fullName: Danmokou.SM.StateMachine.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: StateMachine.Start
+    fullName: Danmokou.SM.StateMachine.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.RetargetUSM.Start*
+  commentId: Overload:Danmokou.SM.RetargetUSM.Start
+  name: Start
+  nameWithType: RetargetUSM.Start
+  fullName: Danmokou.SM.RetargetUSM.Start
+- uid: Danmokou.SM.SMHandoff
+  commentId: T:Danmokou.SM.SMHandoff
+  parent: Danmokou.SM
+  name: SMHandoff
+  nameWithType: SMHandoff
+  fullName: Danmokou.SM.SMHandoff
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task

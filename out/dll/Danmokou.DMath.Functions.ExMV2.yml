@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMV2
+  commentId: T:Danmokou.DMath.Functions.ExMV2
+  id: ExMV2
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMV2.Circle(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV2.DCircle(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMV2.MulEntry(ev2,ev2)
+  langs:
+  - csharp
+  - vb
+  name: ExMV2
+  nameWithType: ExMV2
+  fullName: Danmokou.DMath.Functions.ExMV2
+  type: Class
+  source:
+    id: ExMV2
+    path: ''
+    startLine: 7586
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nFunctions that return V2.\n"
+  example: []
+  syntax:
+    content: public static class ExMV2
+    content.vb: Public Module ExMV2
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMV2.Circle(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV2.Circle(tfloat,tfloat,tfloat)
+  id: Circle(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV2
+  langs:
+  - csharp
+  - vb
+  name: Circle(tfloat, tfloat, tfloat)
+  nameWithType: ExMV2.Circle(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV2.Circle(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: Circle
+    path: ''
+    startLine: 7589
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv2 Circle(tfloat period, tfloat radius, tfloat time)
+    parameters:
+    - id: period
+      type: tfloat
+    - id: radius
+      type: tfloat
+    - id: time
+      type: tfloat
+    return:
+      type: tv2
+    content.vb: Public Shared Function Circle(period As tfloat, radius As tfloat, time As tfloat) As tv2
+  overload: Danmokou.DMath.Functions.ExMV2.Circle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV2.DCircle(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMV2.DCircle(tfloat,tfloat,tfloat)
+  id: DCircle(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMV2
+  langs:
+  - csharp
+  - vb
+  name: DCircle(tfloat, tfloat, tfloat)
+  nameWithType: ExMV2.DCircle(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMV2.DCircle(tfloat, tfloat, tfloat)
+  type: Method
+  source:
+    id: DCircle
+    path: ''
+    startLine: 7592
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv2 DCircle(tfloat period, tfloat radius, tfloat time)
+    parameters:
+    - id: period
+      type: tfloat
+    - id: radius
+      type: tfloat
+    - id: time
+      type: tfloat
+    return:
+      type: tv2
+    content.vb: Public Shared Function DCircle(period As tfloat, radius As tfloat, time As tfloat) As tv2
+  overload: Danmokou.DMath.Functions.ExMV2.DCircle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMV2.MulEntry(ev2,ev2)
+  commentId: M:Danmokou.DMath.Functions.ExMV2.MulEntry(ev2,ev2)
+  id: MulEntry(ev2,ev2)
+  parent: Danmokou.DMath.Functions.ExMV2
+  langs:
+  - csharp
+  - vb
+  name: MulEntry(ev2, ev2)
+  nameWithType: ExMV2.MulEntry(ev2, ev2)
+  fullName: Danmokou.DMath.Functions.ExMV2.MulEntry(ev2, ev2)
+  type: Method
+  source:
+    id: MulEntry
+    path: ''
+    startLine: 7602
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tv2 MulEntry(ev2 v1, ev2 v2)
+    parameters:
+    - id: v1
+      type: ev2
+    - id: v2
+      type: ev2
+    return:
+      type: tv2
+    content.vb: Public Shared Function MulEntry(v1 As ev2, v2 As ev2) As tv2
+  overload: Danmokou.DMath.Functions.ExMV2.MulEntry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMV2.Circle*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV2.Circle
+  name: Circle
+  nameWithType: ExMV2.Circle
+  fullName: Danmokou.DMath.Functions.ExMV2.Circle
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: tv2
+  isExternal: true
+  name: tv2
+  nameWithType: tv2
+  fullName: tv2
+- uid: Danmokou.DMath.Functions.ExMV2.DCircle*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV2.DCircle
+  name: DCircle
+  nameWithType: ExMV2.DCircle
+  fullName: Danmokou.DMath.Functions.ExMV2.DCircle
+- uid: Danmokou.DMath.Functions.ExMV2.MulEntry*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV2.MulEntry
+  name: MulEntry
+  nameWithType: ExMV2.MulEntry
+  fullName: Danmokou.DMath.Functions.ExMV2.MulEntry
+- uid: ev2
+  isExternal: true
+  name: ev2
+  nameWithType: ev2
+  fullName: ev2

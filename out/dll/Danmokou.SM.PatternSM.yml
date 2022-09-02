@@ -1,0 +1,672 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.PatternSM
+  commentId: T:Danmokou.SM.PatternSM
+  id: PatternSM
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.PatternSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PatternProperties)
+  - Danmokou.SM.PatternSM.Phases
+  - Danmokou.SM.PatternSM.Props
+  - Danmokou.SM.PatternSM.Start(Danmokou.SM.SMHandoff)
+  langs:
+  - csharp
+  - vb
+  name: PatternSM
+  nameWithType: PatternSM
+  fullName: Danmokou.SM.PatternSM
+  type: Class
+  source:
+    id: PatternSM
+    path: ''
+    startLine: 12689
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\n`pattern`: Top-level controller for SMs involving danmaku or level control.\nDoes not encompass text control (<xref href=\"Danmokou.SM.ScriptTSM\" data-throw-if-not-resolved=\"false\"></xref>).\n"
+  example: []
+  syntax:
+    content: 'public class PatternSM : SequentialSM'
+    content.vb: >-
+      Public Class PatternSM
+          Inherits SequentialSM
+  inheritance:
+  - System.Object
+  - Danmokou.SM.StateMachine
+  - Danmokou.SM.SequentialSM
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.PatternSM.Props
+  commentId: P:Danmokou.SM.PatternSM.Props
+  id: Props
+  parent: Danmokou.SM.PatternSM
+  langs:
+  - csharp
+  - vb
+  name: Props
+  nameWithType: PatternSM.Props
+  fullName: Danmokou.SM.PatternSM.Props
+  type: Property
+  source:
+    id: Props
+    path: ''
+    startLine: 12690
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PatternProperties Props { get; }
+    parameters: []
+    return:
+      type: Danmokou.SM.PatternProperties
+    content.vb: Public ReadOnly Property Props As PatternProperties
+  overload: Danmokou.SM.PatternSM.Props*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PatternSM.Phases
+  commentId: P:Danmokou.SM.PatternSM.Phases
+  id: Phases
+  parent: Danmokou.SM.PatternSM
+  langs:
+  - csharp
+  - vb
+  name: Phases
+  nameWithType: PatternSM.Phases
+  fullName: Danmokou.SM.PatternSM.Phases
+  type: Property
+  source:
+    id: Phases
+    path: ''
+    startLine: 12691
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PhaseSM[] Phases { get; }
+    parameters: []
+    return:
+      type: Danmokou.SM.PhaseSM[]
+    content.vb: Public ReadOnly Property Phases As PhaseSM()
+  overload: Danmokou.SM.PatternSM.Phases*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.SM.PatternSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PatternProperties)
+  commentId: M:Danmokou.SM.PatternSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PatternProperties)
+  id: '#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PatternProperties)'
+  parent: Danmokou.SM.PatternSM
+  langs:
+  - csharp
+  - vb
+  name: PatternSM(List<StateMachine>, PatternProperties)
+  nameWithType: PatternSM.PatternSM(List<StateMachine>, PatternProperties)
+  fullName: Danmokou.SM.PatternSM.PatternSM(List<Danmokou.SM.StateMachine>, Danmokou.SM.PatternProperties)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12693
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PatternSM(List<StateMachine> states, PatternProperties props)
+    parameters:
+    - id: states
+      type: List{Danmokou.SM.StateMachine}
+    - id: props
+      type: Danmokou.SM.PatternProperties
+    content.vb: Public Sub New(states As List(Of StateMachine), props As PatternProperties)
+  overload: Danmokou.SM.PatternSM.#ctor*
+  nameWithType.vb: PatternSM.PatternSM(List(Of StateMachine), PatternProperties)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.SM.PatternSM.PatternSM(List(Of Danmokou.SM.StateMachine), Danmokou.SM.PatternProperties)
+  name.vb: PatternSM(List(Of StateMachine), PatternProperties)
+- uid: Danmokou.SM.PatternSM.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.PatternSM.Start(Danmokou.SM.SMHandoff)
+  id: Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.PatternSM
+  langs:
+  - csharp
+  - vb
+  name: Start(SMHandoff)
+  nameWithType: PatternSM.Start(SMHandoff)
+  fullName: Danmokou.SM.PatternSM.Start(Danmokou.SM.SMHandoff)
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 12748
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public override async Task Start(SMHandoff smh)
+    parameters:
+    - id: smh
+      type: Danmokou.SM.SMHandoff
+    return:
+      type: Task
+    content.vb: Public Overrides Function Start(smh As SMHandoff) As Task
+  overridden: Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
+  overload: Danmokou.SM.PatternSM.Start*
+  modifiers.csharp:
+  - public
+  - override
+  - async
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Danmokou.SM.ScriptTSM
+  commentId: T:Danmokou.SM.ScriptTSM
+  name: ScriptTSM
+  nameWithType: ScriptTSM
+  fullName: Danmokou.SM.ScriptTSM
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.SequentialSM
+  commentId: T:Danmokou.SM.SequentialSM
+  parent: Danmokou.SM
+  name: SequentialSM
+  nameWithType: SequentialSM
+  fullName: Danmokou.SM.SequentialSM
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.PatternSM.Props*
+  commentId: Overload:Danmokou.SM.PatternSM.Props
+  name: Props
+  nameWithType: PatternSM.Props
+  fullName: Danmokou.SM.PatternSM.Props
+- uid: Danmokou.SM.PatternProperties
+  commentId: T:Danmokou.SM.PatternProperties
+  parent: Danmokou.SM
+  name: PatternProperties
+  nameWithType: PatternProperties
+  fullName: Danmokou.SM.PatternProperties
+- uid: Danmokou.SM.PatternSM.Phases*
+  commentId: Overload:Danmokou.SM.PatternSM.Phases
+  name: Phases
+  nameWithType: PatternSM.Phases
+  fullName: Danmokou.SM.PatternSM.Phases
+- uid: Danmokou.SM.PhaseSM[]
+  isExternal: true
+  name: PhaseSM[]
+  nameWithType: PhaseSM[]
+  fullName: Danmokou.SM.PhaseSM[]
+  nameWithType.vb: PhaseSM()
+  fullName.vb: Danmokou.SM.PhaseSM()
+  name.vb: PhaseSM()
+  spec.csharp:
+  - uid: Danmokou.SM.PhaseSM
+    name: PhaseSM
+    nameWithType: PhaseSM
+    fullName: Danmokou.SM.PhaseSM
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Danmokou.SM.PhaseSM
+    name: PhaseSM
+    nameWithType: PhaseSM
+    fullName: Danmokou.SM.PhaseSM
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.SM.PatternSM.#ctor*
+  commentId: Overload:Danmokou.SM.PatternSM.#ctor
+  name: PatternSM
+  nameWithType: PatternSM.PatternSM
+  fullName: Danmokou.SM.PatternSM.PatternSM
+- uid: List{Danmokou.SM.StateMachine}
+  commentId: '!:List{Danmokou.SM.StateMachine}'
+  definition: List`1
+  name: List<StateMachine>
+  nameWithType: List<StateMachine>
+  fullName: List<Danmokou.SM.StateMachine>
+  nameWithType.vb: List(Of StateMachine)
+  fullName.vb: List(Of Danmokou.SM.StateMachine)
+  name.vb: List(Of StateMachine)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.SequentialSM
+  name: Start(SMHandoff)
+  nameWithType: SequentialSM.Start(SMHandoff)
+  fullName: Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
+  spec.csharp:
+  - uid: Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: SequentialSM.Start
+    fullName: Danmokou.SM.SequentialSM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: SequentialSM.Start
+    fullName: Danmokou.SM.SequentialSM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.PatternSM.Start*
+  commentId: Overload:Danmokou.SM.PatternSM.Start
+  name: Start
+  nameWithType: PatternSM.Start
+  fullName: Danmokou.SM.PatternSM.Start
+- uid: Danmokou.SM.SMHandoff
+  commentId: T:Danmokou.SM.SMHandoff
+  parent: Danmokou.SM
+  name: SMHandoff
+  nameWithType: SMHandoff
+  fullName: Danmokou.SM.SMHandoff
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task

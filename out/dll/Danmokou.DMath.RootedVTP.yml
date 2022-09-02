@@ -1,0 +1,723 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.RootedVTP
+  commentId: T:Danmokou.DMath.RootedVTP
+  id: RootedVTP
+  parent: Danmokou.DMath
+  children:
+  - Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  - Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},ExVTP)
+  - Danmokou.DMath.RootedVTP.#ctor(ExBPY,ExBPY,ExVTP)
+  - Danmokou.DMath.RootedVTP.#ctor(ExTP,ExVTP)
+  - Danmokou.DMath.RootedVTP.#ctor(System.Single,System.Single,ExVTP)
+  - Danmokou.DMath.RootedVTP.path
+  - Danmokou.DMath.RootedVTP.root
+  langs:
+  - csharp
+  - vb
+  name: RootedVTP
+  nameWithType: RootedVTP
+  fullName: Danmokou.DMath.RootedVTP
+  type: Struct
+  source:
+    id: RootedVTP
+    path: ''
+    startLine: 6633
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly struct RootedVTP
+    content.vb: Public Structure RootedVTP
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  modifiers.csharp:
+  - public
+  - readonly
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Danmokou.DMath.RootedVTP.root
+  commentId: F:Danmokou.DMath.RootedVTP.root
+  id: root
+  parent: Danmokou.DMath.RootedVTP
+  langs:
+  - csharp
+  - vb
+  name: root
+  nameWithType: RootedVTP.root
+  fullName: Danmokou.DMath.RootedVTP.root
+  type: Field
+  source:
+    id: root
+    path: ''
+    startLine: 6634
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly GCXF<Vector2> root
+    return:
+      type: Danmokou.DMath.GCXF{Vector2}
+    content.vb: Public ReadOnly root As GCXF(Of Vector2)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.RootedVTP.path
+  commentId: F:Danmokou.DMath.RootedVTP.path
+  id: path
+  parent: Danmokou.DMath.RootedVTP
+  langs:
+  - csharp
+  - vb
+  name: path
+  nameWithType: RootedVTP.path
+  fullName: Danmokou.DMath.RootedVTP.path
+  type: Field
+  source:
+    id: path
+    path: ''
+    startLine: 6635
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly GCXU<VTP> path
+    return:
+      type: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+    content.vb: Public ReadOnly path As GCXU(Of VTP)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  commentId: M:Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  id: '#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})'
+  parent: Danmokou.DMath.RootedVTP
+  langs:
+  - csharp
+  - vb
+  name: RootedVTP(GCXF<Vector2>, GCXU<VTP>)
+  nameWithType: RootedVTP.RootedVTP(GCXF<Vector2>, GCXU<VTP>)
+  fullName: Danmokou.DMath.RootedVTP.RootedVTP(Danmokou.DMath.GCXF<Vector2>, Danmokou.DMath.GCXU<Danmokou.DMath.VTP>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6637
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public RootedVTP(GCXF<Vector2> root, GCXU<VTP> path)
+    parameters:
+    - id: root
+      type: Danmokou.DMath.GCXF{Vector2}
+    - id: path
+      type: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+    content.vb: Public Sub New(root As GCXF(Of Vector2), path As GCXU(Of VTP))
+  overload: Danmokou.DMath.RootedVTP.#ctor*
+  nameWithType.vb: RootedVTP.RootedVTP(GCXF(Of Vector2), GCXU(Of VTP))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.RootedVTP.RootedVTP(Danmokou.DMath.GCXF(Of Vector2), Danmokou.DMath.GCXU(Of Danmokou.DMath.VTP))
+  name.vb: RootedVTP(GCXF(Of Vector2), GCXU(Of VTP))
+- uid: Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},ExVTP)
+  commentId: M:Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},ExVTP)
+  id: '#ctor(Danmokou.DMath.GCXF{Vector2},ExVTP)'
+  parent: Danmokou.DMath.RootedVTP
+  langs:
+  - csharp
+  - vb
+  name: RootedVTP(GCXF<Vector2>, ExVTP)
+  nameWithType: RootedVTP.RootedVTP(GCXF<Vector2>, ExVTP)
+  fullName: Danmokou.DMath.RootedVTP.RootedVTP(Danmokou.DMath.GCXF<Vector2>, ExVTP)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6642
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public RootedVTP(GCXF<Vector2> root, ExVTP path)
+    parameters:
+    - id: root
+      type: Danmokou.DMath.GCXF{Vector2}
+    - id: path
+      type: ExVTP
+    content.vb: Public Sub New(root As GCXF(Of Vector2), path As ExVTP)
+  overload: Danmokou.DMath.RootedVTP.#ctor*
+  nameWithType.vb: RootedVTP.RootedVTP(GCXF(Of Vector2), ExVTP)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.RootedVTP.RootedVTP(Danmokou.DMath.GCXF(Of Vector2), ExVTP)
+  name.vb: RootedVTP(GCXF(Of Vector2), ExVTP)
+- uid: Danmokou.DMath.RootedVTP.#ctor(ExBPY,ExBPY,ExVTP)
+  commentId: M:Danmokou.DMath.RootedVTP.#ctor(ExBPY,ExBPY,ExVTP)
+  id: '#ctor(ExBPY,ExBPY,ExVTP)'
+  parent: Danmokou.DMath.RootedVTP
+  langs:
+  - csharp
+  - vb
+  name: RootedVTP(ExBPY, ExBPY, ExVTP)
+  nameWithType: RootedVTP.RootedVTP(ExBPY, ExBPY, ExVTP)
+  fullName: Danmokou.DMath.RootedVTP.RootedVTP(ExBPY, ExBPY, ExVTP)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6644
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public RootedVTP(ExBPY x, ExBPY y, ExVTP path)
+    parameters:
+    - id: x
+      type: ExBPY
+    - id: y
+      type: ExBPY
+    - id: path
+      type: ExVTP
+    content.vb: Public Sub New(x As ExBPY, y As ExBPY, path As ExVTP)
+  overload: Danmokou.DMath.RootedVTP.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.RootedVTP.#ctor(ExTP,ExVTP)
+  commentId: M:Danmokou.DMath.RootedVTP.#ctor(ExTP,ExVTP)
+  id: '#ctor(ExTP,ExVTP)'
+  parent: Danmokou.DMath.RootedVTP
+  langs:
+  - csharp
+  - vb
+  name: RootedVTP(ExTP, ExVTP)
+  nameWithType: RootedVTP.RootedVTP(ExTP, ExVTP)
+  fullName: Danmokou.DMath.RootedVTP.RootedVTP(ExTP, ExVTP)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6645
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public RootedVTP(ExTP root, ExVTP path)
+    parameters:
+    - id: root
+      type: ExTP
+    - id: path
+      type: ExVTP
+    content.vb: Public Sub New(root As ExTP, path As ExVTP)
+  overload: Danmokou.DMath.RootedVTP.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.RootedVTP.#ctor(System.Single,System.Single,ExVTP)
+  commentId: M:Danmokou.DMath.RootedVTP.#ctor(System.Single,System.Single,ExVTP)
+  id: '#ctor(System.Single,System.Single,ExVTP)'
+  parent: Danmokou.DMath.RootedVTP
+  langs:
+  - csharp
+  - vb
+  name: RootedVTP(Single, Single, ExVTP)
+  nameWithType: RootedVTP.RootedVTP(Single, Single, ExVTP)
+  fullName: Danmokou.DMath.RootedVTP.RootedVTP(System.Single, System.Single, ExVTP)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6646
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public RootedVTP(float x, float y, ExVTP path)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: path
+      type: ExVTP
+    content.vb: Public Sub New(x As Single, y As Single, path As ExVTP)
+  overload: Danmokou.DMath.RootedVTP.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.GCXF{Vector2}
+  commentId: T:Danmokou.DMath.GCXF{Vector2}
+  parent: Danmokou.DMath
+  definition: Danmokou.DMath.GCXF`1
+  name: GCXF<Vector2>
+  nameWithType: GCXF<Vector2>
+  fullName: Danmokou.DMath.GCXF<Vector2>
+  nameWithType.vb: GCXF(Of Vector2)
+  fullName.vb: Danmokou.DMath.GCXF(Of Vector2)
+  name.vb: GCXF(Of Vector2)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.GCXF`1
+  commentId: T:Danmokou.DMath.GCXF`1
+  name: GCXF<T>
+  nameWithType: GCXF<T>
+  fullName: Danmokou.DMath.GCXF<T>
+  nameWithType.vb: GCXF(Of T)
+  fullName.vb: Danmokou.DMath.GCXF(Of T)
+  name.vb: GCXF(Of T)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+  commentId: T:Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+  parent: Danmokou.DMath
+  definition: Danmokou.DMath.GCXU`1
+  name: GCXU<VTP>
+  nameWithType: GCXU<VTP>
+  fullName: Danmokou.DMath.GCXU<Danmokou.DMath.VTP>
+  nameWithType.vb: GCXU(Of VTP)
+  fullName.vb: Danmokou.DMath.GCXU(Of Danmokou.DMath.VTP)
+  name.vb: GCXU(Of VTP)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.DMath.VTP
+    name: VTP
+    nameWithType: VTP
+    fullName: Danmokou.DMath.VTP
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.DMath.VTP
+    name: VTP
+    nameWithType: VTP
+    fullName: Danmokou.DMath.VTP
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.GCXU`1
+  commentId: T:Danmokou.DMath.GCXU`1
+  name: GCXU<Fn>
+  nameWithType: GCXU<Fn>
+  fullName: Danmokou.DMath.GCXU<Fn>
+  nameWithType.vb: GCXU(Of Fn)
+  fullName.vb: Danmokou.DMath.GCXU(Of Fn)
+  name.vb: GCXU(Of Fn)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: Fn
+    nameWithType: Fn
+    fullName: Fn
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXU`1
+    name: GCXU
+    nameWithType: GCXU
+    fullName: Danmokou.DMath.GCXU
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: Fn
+    nameWithType: Fn
+    fullName: Fn
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.RootedVTP.#ctor*
+  commentId: Overload:Danmokou.DMath.RootedVTP.#ctor
+  name: RootedVTP
+  nameWithType: RootedVTP.RootedVTP
+  fullName: Danmokou.DMath.RootedVTP.RootedVTP
+- uid: ExVTP
+  isExternal: true
+  name: ExVTP
+  nameWithType: ExVTP
+  fullName: ExVTP
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: ExTP
+  isExternal: true
+  name: ExTP
+  nameWithType: ExTP
+  fullName: ExTP
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

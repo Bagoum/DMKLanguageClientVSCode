@@ -1,0 +1,807 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMDifficulty
+  commentId: T:Danmokou.DMath.Functions.ExMDifficulty
+  id: ExMDifficulty
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMDifficulty.D
+  - Danmokou.DMath.Functions.ExMDifficulty.D3d1
+  - Danmokou.DMath.Functions.ExMDifficulty.D3d2
+  - Danmokou.DMath.Functions.ExMDifficulty.Dc
+  - Danmokou.DMath.Functions.ExMDifficulty.DcL
+  - Danmokou.DMath.Functions.ExMDifficulty.DH
+  - Danmokou.DMath.Functions.ExMDifficulty.DL
+  - Danmokou.DMath.Functions.ExMDifficulty.DN
+  - Danmokou.DMath.Functions.ExMDifficulty.MaxRank
+  - Danmokou.DMath.Functions.ExMDifficulty.MinRank
+  - Danmokou.DMath.Functions.ExMDifficulty.Rank
+  - Danmokou.DMath.Functions.ExMDifficulty.RankRatio
+  langs:
+  - csharp
+  - vb
+  name: ExMDifficulty
+  nameWithType: ExMDifficulty
+  fullName: Danmokou.DMath.Functions.ExMDifficulty
+  type: Class
+  source:
+    id: ExMDifficulty
+    path: ''
+    startLine: 11024
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM\" data-throw-if-not-resolved=\"false\"></xref>. This class contains functions related to difficulty control.\n"
+  example: []
+  syntax:
+    content: public static class ExMDifficulty
+    content.vb: Public Module ExMDifficulty
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMDifficulty.D
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.D
+  id: D
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: D()
+  nameWithType: ExMDifficulty.D()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.D()
+  type: Method
+  source:
+    id: D
+    path: ''
+    startLine: 11035
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the difficulty multiplier. 1 is easy, ~2.3 is lunatic. POSITIVE values outside this range are possible.\n"
+  example: []
+  syntax:
+    content: public static tfloat D()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function D As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.D*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.Dc
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.Dc
+  id: Dc
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Dc()
+  nameWithType: ExMDifficulty.Dc()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.Dc()
+  type: Method
+  source:
+    id: Dc
+    path: ''
+    startLine: 11039
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the difficulty counter. 0 is easy, 3 is lunatic.\n"
+  example: []
+  syntax:
+    content: public static tfloat Dc()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function Dc As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.Dc*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.DcL
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.DcL
+  id: DcL
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: DcL()
+  nameWithType: ExMDifficulty.DcL()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.DcL()
+  type: Method
+  source:
+    id: DcL
+    path: ''
+    startLine: 11043
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the difficulty counter relative to lunatic. -3 is easy, 0 is lunatic.\n"
+  example: []
+  syntax:
+    content: public static tfloat DcL()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function DcL As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.DcL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.DN
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.DN
+  id: DN
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: DN()
+  nameWithType: ExMDifficulty.DN()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.DN()
+  type: Method
+  source:
+    id: DN
+    path: ''
+    startLine: 11048
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the difficulty multiplier centered on normal.\n"
+  example: []
+  syntax:
+    content: public static tfloat DN()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function DN As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.DN*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.DH
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.DH
+  id: DH
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: DH()
+  nameWithType: ExMDifficulty.DH()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.DH()
+  type: Method
+  source:
+    id: DH
+    path: ''
+    startLine: 11052
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the difficulty multiplier centered on hard.\n"
+  example: []
+  syntax:
+    content: public static tfloat DH()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function DH As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.DH*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.DL
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.DL
+  id: DL
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: DL()
+  nameWithType: ExMDifficulty.DL()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.DL()
+  type: Method
+  source:
+    id: DL
+    path: ''
+    startLine: 11056
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the difficulty multiplier centered on lunatic.\n"
+  example: []
+  syntax:
+    content: public static tfloat DL()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function DL As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.DL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.D3d2
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.D3d2
+  id: D3d2
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: D3d2()
+  nameWithType: ExMDifficulty.D3d2()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.D3d2()
+  type: Method
+  source:
+    id: D3d2
+    path: ''
+    startLine: 11069
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn -2 if the difficulty is less than Normal,\nelse 0 if less than Lunatic,\nelse 2.\n"
+  example: []
+  syntax:
+    content: public static tfloat D3d2()
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function D3d2 As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.D3d2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.D3d1
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.D3d1
+  id: D3d1
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: D3d1()
+  nameWithType: ExMDifficulty.D3d1()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.D3d1()
+  type: Method
+  source:
+    id: D3d1
+    path: ''
+    startLine: 11076
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn -1 if the difficulty is less than Normal,\nelse 0 if less than Lunatic,\nelse 1.\n"
+  example: []
+  syntax:
+    content: public static tfloat D3d1()
+    return:
+      type: tfloat
+      description: ''
+    content.vb: Public Shared Function D3d1 As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.D3d1*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.MinRank
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.MinRank
+  id: MinRank
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: MinRank()
+  nameWithType: ExMDifficulty.MinRank()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.MinRank()
+  type: Method
+  source:
+    id: MinRank
+    path: ''
+    startLine: 11119
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMinumum possible rank value (inclusive).\n"
+  example: []
+  syntax:
+    content: public static tfloat MinRank()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function MinRank As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.MinRank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.MaxRank
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.MaxRank
+  id: MaxRank
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: MaxRank()
+  nameWithType: ExMDifficulty.MaxRank()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.MaxRank()
+  type: Method
+  source:
+    id: MaxRank
+    path: ''
+    startLine: 11123
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMaximum possible rank value (inclusive).\n"
+  example: []
+  syntax:
+    content: public static tfloat MaxRank()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function MaxRank As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.MaxRank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.Rank
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.Rank
+  id: Rank
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: Rank()
+  nameWithType: ExMDifficulty.Rank()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.Rank()
+  type: Method
+  source:
+    id: Rank
+    path: ''
+    startLine: 11127
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the dynamic difficulty rank, which varies between MinRank and MaxRank.\n"
+  example: []
+  syntax:
+    content: public static tfloat Rank()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function Rank As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.Rank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.RankRatio
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.RankRatio
+  id: RankRatio
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: RankRatio()
+  nameWithType: ExMDifficulty.RankRatio()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.RankRatio()
+  type: Method
+  source:
+    id: RankRatio
+    path: ''
+    startLine: 11130
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static tfloat RankRatio()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function RankRatio As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.RankRatio*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath.Functions.ExM
+  commentId: T:Danmokou.DMath.Functions.ExM
+  name: ExM
+  nameWithType: ExM
+  fullName: Danmokou.DMath.Functions.ExM
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMDifficulty.D*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.D
+  name: D
+  nameWithType: ExMDifficulty.D
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.D
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
+- uid: Danmokou.DMath.Functions.ExMDifficulty.Dc*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.Dc
+  name: Dc
+  nameWithType: ExMDifficulty.Dc
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.Dc
+- uid: Danmokou.DMath.Functions.ExMDifficulty.DcL*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.DcL
+  name: DcL
+  nameWithType: ExMDifficulty.DcL
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.DcL
+- uid: Danmokou.DMath.Functions.ExMDifficulty.DN*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.DN
+  name: DN
+  nameWithType: ExMDifficulty.DN
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.DN
+- uid: Danmokou.DMath.Functions.ExMDifficulty.DH*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.DH
+  name: DH
+  nameWithType: ExMDifficulty.DH
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.DH
+- uid: Danmokou.DMath.Functions.ExMDifficulty.DL*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.DL
+  name: DL
+  nameWithType: ExMDifficulty.DL
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.DL
+- uid: Danmokou.DMath.Functions.ExMDifficulty.D3d2*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.D3d2
+  name: D3d2
+  nameWithType: ExMDifficulty.D3d2
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.D3d2
+- uid: Danmokou.DMath.Functions.ExMDifficulty.D3d1*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.D3d1
+  name: D3d1
+  nameWithType: ExMDifficulty.D3d1
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.D3d1
+- uid: Danmokou.DMath.Functions.ExMDifficulty.MinRank*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.MinRank
+  name: MinRank
+  nameWithType: ExMDifficulty.MinRank
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.MinRank
+- uid: Danmokou.DMath.Functions.ExMDifficulty.MaxRank*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.MaxRank
+  name: MaxRank
+  nameWithType: ExMDifficulty.MaxRank
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.MaxRank
+- uid: Danmokou.DMath.Functions.ExMDifficulty.Rank*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.Rank
+  name: Rank
+  nameWithType: ExMDifficulty.Rank
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.Rank
+- uid: Danmokou.DMath.Functions.ExMDifficulty.RankRatio*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.RankRatio
+  name: RankRatio
+  nameWithType: ExMDifficulty.RankRatio
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.RankRatio

@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Behavior
+  commentId: N:Danmokou.Behavior
+  id: Danmokou.Behavior
+  children:
+  - Danmokou.Behavior.BehaviorEntity
+  - Danmokou.Behavior.BehaviorEntity.BulletControls
+  - Danmokou.Behavior.BehaviorEntity.PoolControls
+  langs:
+  - csharp
+  - vb
+  name: Danmokou.Behavior
+  nameWithType: Danmokou.Behavior
+  fullName: Danmokou.Behavior
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Danmokou.Behavior.BehaviorEntity
+  commentId: T:Danmokou.Behavior.BehaviorEntity
+  name: BehaviorEntity
+  nameWithType: BehaviorEntity
+  fullName: Danmokou.Behavior.BehaviorEntity
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls
+  commentId: T:Danmokou.Behavior.BehaviorEntity.BulletControls
+  name: BehaviorEntity.BulletControls
+  nameWithType: BehaviorEntity.BulletControls
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls
+- uid: Danmokou.Behavior.BehaviorEntity.PoolControls
+  commentId: T:Danmokou.Behavior.BehaviorEntity.PoolControls
+  name: BehaviorEntity.PoolControls
+  nameWithType: BehaviorEntity.PoolControls
+  fullName: Danmokou.Behavior.BehaviorEntity.PoolControls

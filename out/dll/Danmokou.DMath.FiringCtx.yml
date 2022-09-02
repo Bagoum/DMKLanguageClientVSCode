@@ -1,0 +1,2296 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.FiringCtx
+  commentId: T:Danmokou.DMath.FiringCtx
+  id: FiringCtx
+  parent: Danmokou.DMath
+  children:
+  - Danmokou.DMath.FiringCtx.Allocated
+  - Danmokou.DMath.FiringCtx.boundFloats
+  - Danmokou.DMath.FiringCtx.boundInts
+  - Danmokou.DMath.FiringCtx.boundRV2s
+  - Danmokou.DMath.FiringCtx.boundV2s
+  - Danmokou.DMath.FiringCtx.boundV3s
+  - Danmokou.DMath.FiringCtx.ClearNames
+  - Danmokou.DMath.FiringCtx.Contains(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String)
+  - Danmokou.DMath.FiringCtx.Contains``1(TExArgCtx,System.String)
+  - Danmokou.DMath.FiringCtx.Copied
+  - Danmokou.DMath.FiringCtx.Copy
+  - Danmokou.DMath.FiringCtx.Dispose
+  - Danmokou.DMath.FiringCtx.Empty
+  - Danmokou.DMath.FiringCtx.firer
+  - Danmokou.DMath.FiringCtx.FromType``1
+  - Danmokou.DMath.FiringCtx.GetDict(Expression,Danmokou.DMath.FiringCtx.DataType)
+  - Danmokou.DMath.FiringCtx.GetKey(System.String)
+  - Danmokou.DMath.FiringCtx.GetValue(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String)
+  - Danmokou.DMath.FiringCtx.GetValue``1(TExArgCtx,System.String,System.Nullable{TEx{``0}})
+  - Danmokou.DMath.FiringCtx.laserController
+  - Danmokou.DMath.FiringCtx.LaserController
+  - Danmokou.DMath.FiringCtx.New(System.Nullable{GenCtx})
+  - Danmokou.DMath.FiringCtx.OptionFirer
+  - Danmokou.DMath.FiringCtx.playerBullet
+  - Danmokou.DMath.FiringCtx.playerController
+  - Danmokou.DMath.FiringCtx.PlayerController
+  - Danmokou.DMath.FiringCtx.Popped
+  - Danmokou.DMath.FiringCtx.Recached
+  - Danmokou.DMath.FiringCtx.RevertToGCX(BehaviorEntity)
+  - Danmokou.DMath.FiringCtx.SetValue(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String,Expression)
+  - Danmokou.DMath.FiringCtx.SetValue``1(TExArgCtx,System.String,Expression)
+  - Danmokou.DMath.FiringCtx.UploadAdd(System.ValueTuple{Reflector.ExType,System.String}[],GenCtx)
+  langs:
+  - csharp
+  - vb
+  name: FiringCtx
+  nameWithType: FiringCtx
+  fullName: Danmokou.DMath.FiringCtx
+  type: Class
+  source:
+    id: FiringCtx
+    path: ''
+    startLine: 6338
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public class FiringCtx
+    content.vb: Public Class FiringCtx
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.DMath.FiringCtx.boundInts
+  commentId: F:Danmokou.DMath.FiringCtx.boundInts
+  id: boundInts
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: boundInts
+  nameWithType: FiringCtx.boundInts
+  fullName: Danmokou.DMath.FiringCtx.boundInts
+  type: Field
+  source:
+    id: boundInts
+    path: ''
+    startLine: 6346
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, int> boundInts
+    return:
+      type: Dictionary{System.Int32,System.Int32}
+    content.vb: Public ReadOnly boundInts As Dictionary(Of Integer, Integer)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.boundFloats
+  commentId: F:Danmokou.DMath.FiringCtx.boundFloats
+  id: boundFloats
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: boundFloats
+  nameWithType: FiringCtx.boundFloats
+  fullName: Danmokou.DMath.FiringCtx.boundFloats
+  type: Field
+  source:
+    id: boundFloats
+    path: ''
+    startLine: 6347
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, float> boundFloats
+    return:
+      type: Dictionary{System.Int32,System.Single}
+    content.vb: Public ReadOnly boundFloats As Dictionary(Of Integer, Single)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.boundV2s
+  commentId: F:Danmokou.DMath.FiringCtx.boundV2s
+  id: boundV2s
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: boundV2s
+  nameWithType: FiringCtx.boundV2s
+  fullName: Danmokou.DMath.FiringCtx.boundV2s
+  type: Field
+  source:
+    id: boundV2s
+    path: ''
+    startLine: 6348
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, Vector2> boundV2s
+    return:
+      type: Dictionary{System.Int32,Vector2}
+    content.vb: Public ReadOnly boundV2s As Dictionary(Of Integer, Vector2)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.boundV3s
+  commentId: F:Danmokou.DMath.FiringCtx.boundV3s
+  id: boundV3s
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: boundV3s
+  nameWithType: FiringCtx.boundV3s
+  fullName: Danmokou.DMath.FiringCtx.boundV3s
+  type: Field
+  source:
+    id: boundV3s
+    path: ''
+    startLine: 6349
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, Vector3> boundV3s
+    return:
+      type: Dictionary{System.Int32,Vector3}
+    content.vb: Public ReadOnly boundV3s As Dictionary(Of Integer, Vector3)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.boundRV2s
+  commentId: F:Danmokou.DMath.FiringCtx.boundRV2s
+  id: boundRV2s
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: boundRV2s
+  nameWithType: FiringCtx.boundRV2s
+  fullName: Danmokou.DMath.FiringCtx.boundRV2s
+  type: Field
+  source:
+    id: boundRV2s
+    path: ''
+    startLine: 6350
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, V2RV2> boundRV2s
+    return:
+      type: Dictionary{System.Int32,V2RV2}
+    content.vb: Public ReadOnly boundRV2s As Dictionary(Of Integer, V2RV2)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.firer
+  commentId: F:Danmokou.DMath.FiringCtx.firer
+  id: firer
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: firer
+  nameWithType: FiringCtx.firer
+  fullName: Danmokou.DMath.FiringCtx.firer
+  type: Field
+  source:
+    id: firer
+    path: ''
+    startLine: 6351
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public BehaviorEntity? firer
+    return:
+      type: System.Nullable{BehaviorEntity}
+    content.vb: Public firer As BehaviorEntity?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.FiringCtx.playerController
+  commentId: F:Danmokou.DMath.FiringCtx.playerController
+  id: playerController
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: playerController
+  nameWithType: FiringCtx.playerController
+  fullName: Danmokou.DMath.FiringCtx.playerController
+  type: Field
+  source:
+    id: playerController
+    path: ''
+    startLine: 6353
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public PlayerController? playerController
+    return:
+      type: System.Nullable{PlayerController}
+    content.vb: Public playerController As PlayerController?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.FiringCtx.PlayerController
+  commentId: P:Danmokou.DMath.FiringCtx.PlayerController
+  id: PlayerController
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: PlayerController
+  nameWithType: FiringCtx.PlayerController
+  fullName: Danmokou.DMath.FiringCtx.PlayerController
+  type: Property
+  source:
+    id: PlayerController
+    path: ''
+    startLine: 6354
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public PlayerController PlayerController { get; }
+    parameters: []
+    return:
+      type: PlayerController
+    content.vb: Public ReadOnly Property PlayerController As PlayerController
+  overload: Danmokou.DMath.FiringCtx.PlayerController*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.OptionFirer
+  commentId: P:Danmokou.DMath.FiringCtx.OptionFirer
+  id: OptionFirer
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: OptionFirer
+  nameWithType: FiringCtx.OptionFirer
+  fullName: Danmokou.DMath.FiringCtx.OptionFirer
+  type: Property
+  source:
+    id: OptionFirer
+    path: ''
+    startLine: 6361
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public FireOption OptionFirer { get; }
+    parameters: []
+    return:
+      type: FireOption
+    content.vb: Public ReadOnly Property OptionFirer As FireOption
+  overload: Danmokou.DMath.FiringCtx.OptionFirer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.laserController
+  commentId: F:Danmokou.DMath.FiringCtx.laserController
+  id: laserController
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: laserController
+  nameWithType: FiringCtx.laserController
+  fullName: Danmokou.DMath.FiringCtx.laserController
+  type: Field
+  source:
+    id: laserController
+    path: ''
+    startLine: 6370
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public CurvedTileRenderLaser? laserController
+    return:
+      type: System.Nullable{CurvedTileRenderLaser}
+    content.vb: Public laserController As CurvedTileRenderLaser?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.FiringCtx.LaserController
+  commentId: P:Danmokou.DMath.FiringCtx.LaserController
+  id: LaserController
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: LaserController
+  nameWithType: FiringCtx.LaserController
+  fullName: Danmokou.DMath.FiringCtx.LaserController
+  type: Property
+  source:
+    id: LaserController
+    path: ''
+    startLine: 6371
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public CurvedTileRenderLaser LaserController { get; }
+    parameters: []
+    return:
+      type: CurvedTileRenderLaser
+    content.vb: Public ReadOnly Property LaserController As CurvedTileRenderLaser
+  overload: Danmokou.DMath.FiringCtx.LaserController*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.playerBullet
+  commentId: F:Danmokou.DMath.FiringCtx.playerBullet
+  id: playerBullet
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: playerBullet
+  nameWithType: FiringCtx.playerBullet
+  fullName: Danmokou.DMath.FiringCtx.playerBullet
+  type: Field
+  source:
+    id: playerBullet
+    path: ''
+    startLine: 6374
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public PlayerBullet? playerBullet
+    return:
+      type: System.Nullable{PlayerBullet}
+    content.vb: Public playerBullet As PlayerBullet?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.FiringCtx.Allocated
+  commentId: P:Danmokou.DMath.FiringCtx.Allocated
+  id: Allocated
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Allocated
+  nameWithType: FiringCtx.Allocated
+  fullName: Danmokou.DMath.FiringCtx.Allocated
+  type: Property
+  source:
+    id: Allocated
+    path: ''
+    startLine: 6377
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static int Allocated { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property Allocated As Integer
+  overload: Danmokou.DMath.FiringCtx.Allocated*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.Popped
+  commentId: P:Danmokou.DMath.FiringCtx.Popped
+  id: Popped
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Popped
+  nameWithType: FiringCtx.Popped
+  fullName: Danmokou.DMath.FiringCtx.Popped
+  type: Property
+  source:
+    id: Popped
+    path: ''
+    startLine: 6378
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static int Popped { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property Popped As Integer
+  overload: Danmokou.DMath.FiringCtx.Popped*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.Recached
+  commentId: P:Danmokou.DMath.FiringCtx.Recached
+  id: Recached
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Recached
+  nameWithType: FiringCtx.Recached
+  fullName: Danmokou.DMath.FiringCtx.Recached
+  type: Property
+  source:
+    id: Recached
+    path: ''
+    startLine: 6379
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static int Recached { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property Recached As Integer
+  overload: Danmokou.DMath.FiringCtx.Recached*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.Copied
+  commentId: P:Danmokou.DMath.FiringCtx.Copied
+  id: Copied
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Copied
+  nameWithType: FiringCtx.Copied
+  fullName: Danmokou.DMath.FiringCtx.Copied
+  type: Property
+  source:
+    id: Copied
+    path: ''
+    startLine: 6380
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static int Copied { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property Copied As Integer
+  overload: Danmokou.DMath.FiringCtx.Copied*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.Empty
+  commentId: F:Danmokou.DMath.FiringCtx.Empty
+  id: Empty
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: FiringCtx.Empty
+  fullName: Danmokou.DMath.FiringCtx.Empty
+  type: Field
+  source:
+    id: Empty
+    path: ''
+    startLine: 6382
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static readonly FiringCtx Empty
+    return:
+      type: Danmokou.DMath.FiringCtx
+    content.vb: Public Shared ReadOnly Empty As FiringCtx
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.FiringCtx.New(System.Nullable{GenCtx})
+  commentId: M:Danmokou.DMath.FiringCtx.New(System.Nullable{GenCtx})
+  id: New(System.Nullable{GenCtx})
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: New(Nullable<GenCtx>)
+  nameWithType: FiringCtx.New(Nullable<GenCtx>)
+  fullName: Danmokou.DMath.FiringCtx.New(System.Nullable<GenCtx>)
+  type: Method
+  source:
+    id: New
+    path: ''
+    startLine: 6385
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static FiringCtx New(GenCtx? gcx = null)
+    parameters:
+    - id: gcx
+      type: System.Nullable{GenCtx}
+    return:
+      type: Danmokou.DMath.FiringCtx
+    content.vb: Public Shared Function New(gcx As GenCtx? = Nothing) As FiringCtx
+  overload: Danmokou.DMath.FiringCtx.New*
+  nameWithType.vb: FiringCtx.New(Nullable(Of GenCtx))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.FiringCtx.New(System.Nullable(Of GenCtx))
+  name.vb: New(Nullable(Of GenCtx))
+- uid: Danmokou.DMath.FiringCtx.UploadAdd(System.ValueTuple{Reflector.ExType,System.String}[],GenCtx)
+  commentId: M:Danmokou.DMath.FiringCtx.UploadAdd(System.ValueTuple{Reflector.ExType,System.String}[],GenCtx)
+  id: UploadAdd(System.ValueTuple{Reflector.ExType,System.String}[],GenCtx)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: UploadAdd((Reflector.ExType, String)[], GenCtx)
+  nameWithType: FiringCtx.UploadAdd((Reflector.ExType, String)[], GenCtx)
+  fullName: Danmokou.DMath.FiringCtx.UploadAdd(System.ValueTuple<Reflector.ExType, System.String>[], GenCtx)
+  type: Method
+  source:
+    id: UploadAdd
+    path: ''
+    startLine: 6418
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void UploadAdd((Reflector.ExType, string)[] boundVars, GenCtx gcx)
+    parameters:
+    - id: boundVars
+      type: System.ValueTuple{Reflector.ExType,System.String}[]
+    - id: gcx
+      type: GenCtx
+    content.vb: Public Sub UploadAdd(boundVars As(Reflector.ExType, String)(Of Reflector.ExType , String)(), gcx As GenCtx)
+  overload: Danmokou.DMath.FiringCtx.UploadAdd*
+  nameWithType.vb: FiringCtx.UploadAdd((Reflector.ExType, String)(Of Reflector.ExType, String)(), GenCtx)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.FiringCtx.UploadAdd(System.ValueTuple(Of Reflector.ExType, System.String)(), GenCtx)
+  name.vb: UploadAdd((Reflector.ExType, String)(Of Reflector.ExType, String)(), GenCtx)
+- uid: Danmokou.DMath.FiringCtx.RevertToGCX(BehaviorEntity)
+  commentId: M:Danmokou.DMath.FiringCtx.RevertToGCX(BehaviorEntity)
+  id: RevertToGCX(BehaviorEntity)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: RevertToGCX(BehaviorEntity)
+  nameWithType: FiringCtx.RevertToGCX(BehaviorEntity)
+  fullName: Danmokou.DMath.FiringCtx.RevertToGCX(BehaviorEntity)
+  type: Method
+  source:
+    id: RevertToGCX
+    path: ''
+    startLine: 6429
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public GenCtx RevertToGCX(BehaviorEntity exec)
+    parameters:
+    - id: exec
+      type: BehaviorEntity
+    return:
+      type: GenCtx
+    content.vb: Public Function RevertToGCX(exec As BehaviorEntity) As GenCtx
+  overload: Danmokou.DMath.FiringCtx.RevertToGCX*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.FiringCtx.Copy
+  commentId: M:Danmokou.DMath.FiringCtx.Copy
+  id: Copy
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Copy()
+  nameWithType: FiringCtx.Copy()
+  fullName: Danmokou.DMath.FiringCtx.Copy()
+  type: Method
+  source:
+    id: Copy
+    path: ''
+    startLine: 6445
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public FiringCtx Copy()
+    return:
+      type: Danmokou.DMath.FiringCtx
+    content.vb: Public Function Copy As FiringCtx
+  overload: Danmokou.DMath.FiringCtx.Copy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.FiringCtx.Dispose
+  commentId: M:Danmokou.DMath.FiringCtx.Dispose
+  id: Dispose
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: FiringCtx.Dispose()
+  fullName: Danmokou.DMath.FiringCtx.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 6460
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Danmokou.DMath.FiringCtx.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.FiringCtx.FromType``1
+  commentId: M:Danmokou.DMath.FiringCtx.FromType``1
+  id: FromType``1
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: FromType<T>()
+  nameWithType: FiringCtx.FromType<T>()
+  fullName: Danmokou.DMath.FiringCtx.FromType<T>()
+  type: Method
+  source:
+    id: FromType
+    path: ''
+    startLine: 6477
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static FiringCtx.DataType FromType<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.DMath.FiringCtx.DataType
+    content.vb: Public Shared Function FromType(Of T) As FiringCtx.DataType
+  overload: Danmokou.DMath.FiringCtx.FromType*
+  nameWithType.vb: FiringCtx.FromType(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.FiringCtx.FromType(Of T)()
+  name.vb: FromType(Of T)()
+- uid: Danmokou.DMath.FiringCtx.Contains(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String)
+  commentId: M:Danmokou.DMath.FiringCtx.Contains(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String)
+  id: Contains(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Contains(TExArgCtx, FiringCtx.DataType, String)
+  nameWithType: FiringCtx.Contains(TExArgCtx, FiringCtx.DataType, String)
+  fullName: Danmokou.DMath.FiringCtx.Contains(TExArgCtx, Danmokou.DMath.FiringCtx.DataType, System.String)
+  type: Method
+  source:
+    id: Contains
+    path: ''
+    startLine: 6506
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static TEx Contains(TExArgCtx tac, FiringCtx.DataType typ, string name)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: typ
+      type: Danmokou.DMath.FiringCtx.DataType
+    - id: name
+      type: System.String
+    return:
+      type: TEx
+    content.vb: Public Shared Function Contains(tac As TExArgCtx, typ As FiringCtx.DataType, name As String) As TEx
+  overload: Danmokou.DMath.FiringCtx.Contains*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.FiringCtx.Contains``1(TExArgCtx,System.String)
+  commentId: M:Danmokou.DMath.FiringCtx.Contains``1(TExArgCtx,System.String)
+  id: Contains``1(TExArgCtx,System.String)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: Contains<T>(TExArgCtx, String)
+  nameWithType: FiringCtx.Contains<T>(TExArgCtx, String)
+  fullName: Danmokou.DMath.FiringCtx.Contains<T>(TExArgCtx, System.String)
+  type: Method
+  source:
+    id: Contains
+    path: ''
+    startLine: 6508
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression Contains<T>(TExArgCtx tac, string name)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: Expression
+    content.vb: Public Shared Function Contains(Of T)(tac As TExArgCtx, name As String) As Expression
+  overload: Danmokou.DMath.FiringCtx.Contains*
+  nameWithType.vb: FiringCtx.Contains(Of T)(TExArgCtx, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.FiringCtx.Contains(Of T)(TExArgCtx, System.String)
+  name.vb: Contains(Of T)(TExArgCtx, String)
+- uid: Danmokou.DMath.FiringCtx.GetValue(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String)
+  commentId: M:Danmokou.DMath.FiringCtx.GetValue(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String)
+  id: GetValue(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: GetValue(TExArgCtx, FiringCtx.DataType, String)
+  nameWithType: FiringCtx.GetValue(TExArgCtx, FiringCtx.DataType, String)
+  fullName: Danmokou.DMath.FiringCtx.GetValue(TExArgCtx, Danmokou.DMath.FiringCtx.DataType, System.String)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 6511
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static TEx GetValue(TExArgCtx tac, FiringCtx.DataType typ, string name)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: typ
+      type: Danmokou.DMath.FiringCtx.DataType
+    - id: name
+      type: System.String
+    return:
+      type: TEx
+    content.vb: Public Shared Function GetValue(tac As TExArgCtx, typ As FiringCtx.DataType, name As String) As TEx
+  overload: Danmokou.DMath.FiringCtx.GetValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.FiringCtx.GetValue``1(TExArgCtx,System.String,System.Nullable{TEx{``0}})
+  commentId: M:Danmokou.DMath.FiringCtx.GetValue``1(TExArgCtx,System.String,System.Nullable{TEx{``0}})
+  id: GetValue``1(TExArgCtx,System.String,System.Nullable{TEx{``0}})
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>(TExArgCtx, String, Nullable<TEx<T>>)
+  nameWithType: FiringCtx.GetValue<T>(TExArgCtx, String, Nullable<TEx<T>>)
+  fullName: Danmokou.DMath.FiringCtx.GetValue<T>(TExArgCtx, System.String, System.Nullable<TEx<T>>)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 6513
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression GetValue<T>(TExArgCtx tac, string name, TEx<T>? deflt = null)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    - id: deflt
+      type: System.Nullable{TEx{{T}}}
+    typeParameters:
+    - id: T
+    return:
+      type: Expression
+    content.vb: Public Shared Function GetValue(Of T)(tac As TExArgCtx, name As String, deflt As TEx(Of T)? = Nothing) As Expression
+  overload: Danmokou.DMath.FiringCtx.GetValue*
+  nameWithType.vb: FiringCtx.GetValue(Of T)(TExArgCtx, String, Nullable(Of TEx(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.FiringCtx.GetValue(Of T)(TExArgCtx, System.String, System.Nullable(Of TEx(Of T)))
+  name.vb: GetValue(Of T)(TExArgCtx, String, Nullable(Of TEx(Of T)))
+- uid: Danmokou.DMath.FiringCtx.SetValue(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String,Expression)
+  commentId: M:Danmokou.DMath.FiringCtx.SetValue(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String,Expression)
+  id: SetValue(TExArgCtx,Danmokou.DMath.FiringCtx.DataType,System.String,Expression)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: SetValue(TExArgCtx, FiringCtx.DataType, String, Expression)
+  nameWithType: FiringCtx.SetValue(TExArgCtx, FiringCtx.DataType, String, Expression)
+  fullName: Danmokou.DMath.FiringCtx.SetValue(TExArgCtx, Danmokou.DMath.FiringCtx.DataType, System.String, Expression)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 6518
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression SetValue(TExArgCtx tac, FiringCtx.DataType typ, string name, Expression val)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: typ
+      type: Danmokou.DMath.FiringCtx.DataType
+    - id: name
+      type: System.String
+    - id: val
+      type: Expression
+    return:
+      type: Expression
+    content.vb: Public Shared Function SetValue(tac As TExArgCtx, typ As FiringCtx.DataType, name As String, val As Expression) As Expression
+  overload: Danmokou.DMath.FiringCtx.SetValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.FiringCtx.SetValue``1(TExArgCtx,System.String,Expression)
+  commentId: M:Danmokou.DMath.FiringCtx.SetValue``1(TExArgCtx,System.String,Expression)
+  id: SetValue``1(TExArgCtx,System.String,Expression)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: SetValue<T>(TExArgCtx, String, Expression)
+  nameWithType: FiringCtx.SetValue<T>(TExArgCtx, String, Expression)
+  fullName: Danmokou.DMath.FiringCtx.SetValue<T>(TExArgCtx, System.String, Expression)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 6520
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression SetValue<T>(TExArgCtx tac, string name, Expression val)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    - id: val
+      type: Expression
+    typeParameters:
+    - id: T
+    return:
+      type: Expression
+    content.vb: Public Shared Function SetValue(Of T)(tac As TExArgCtx, name As String, val As Expression) As Expression
+  overload: Danmokou.DMath.FiringCtx.SetValue*
+  nameWithType.vb: FiringCtx.SetValue(Of T)(TExArgCtx, String, Expression)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.FiringCtx.SetValue(Of T)(TExArgCtx, System.String, Expression)
+  name.vb: SetValue(Of T)(TExArgCtx, String, Expression)
+- uid: Danmokou.DMath.FiringCtx.GetDict(Expression,Danmokou.DMath.FiringCtx.DataType)
+  commentId: M:Danmokou.DMath.FiringCtx.GetDict(Expression,Danmokou.DMath.FiringCtx.DataType)
+  id: GetDict(Expression,Danmokou.DMath.FiringCtx.DataType)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: GetDict(Expression, FiringCtx.DataType)
+  nameWithType: FiringCtx.GetDict(Expression, FiringCtx.DataType)
+  fullName: Danmokou.DMath.FiringCtx.GetDict(Expression, Danmokou.DMath.FiringCtx.DataType)
+  type: Method
+  source:
+    id: GetDict
+    path: ''
+    startLine: 6523
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression GetDict(Expression fctx, FiringCtx.DataType typ)
+    parameters:
+    - id: fctx
+      type: Expression
+    - id: typ
+      type: Danmokou.DMath.FiringCtx.DataType
+    return:
+      type: Expression
+    content.vb: Public Shared Function GetDict(fctx As Expression, typ As FiringCtx.DataType) As Expression
+  overload: Danmokou.DMath.FiringCtx.GetDict*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.FiringCtx.ClearNames
+  commentId: M:Danmokou.DMath.FiringCtx.ClearNames
+  id: ClearNames
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: ClearNames()
+  nameWithType: FiringCtx.ClearNames()
+  fullName: Danmokou.DMath.FiringCtx.ClearNames()
+  type: Method
+  source:
+    id: ClearNames
+    path: ''
+    startLine: 6532
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static void ClearNames()
+    content.vb: Public Shared Sub ClearNames
+  overload: Danmokou.DMath.FiringCtx.ClearNames*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.FiringCtx.GetKey(System.String)
+  commentId: M:Danmokou.DMath.FiringCtx.GetKey(System.String)
+  id: GetKey(System.String)
+  parent: Danmokou.DMath.FiringCtx
+  langs:
+  - csharp
+  - vb
+  name: GetKey(String)
+  nameWithType: FiringCtx.GetKey(String)
+  fullName: Danmokou.DMath.FiringCtx.GetKey(System.String)
+  type: Method
+  source:
+    id: GetKey
+    path: ''
+    startLine: 6538
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static int GetKey(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetKey(name As String) As Integer
+  overload: Danmokou.DMath.FiringCtx.GetKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Dictionary{System.Int32,System.Int32}
+  commentId: '!:Dictionary{System.Int32,System.Int32}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, Int32>
+  nameWithType: Dictionary<Int32, Int32>
+  fullName: Dictionary<System.Int32, System.Int32>
+  nameWithType.vb: Dictionary(Of Int32, Int32)
+  fullName.vb: Dictionary(Of System.Int32, System.Int32)
+  name.vb: Dictionary(Of Int32, Int32)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary{System.Int32,System.Single}
+  commentId: '!:Dictionary{System.Int32,System.Single}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, Single>
+  nameWithType: Dictionary<Int32, Single>
+  fullName: Dictionary<System.Int32, System.Single>
+  nameWithType.vb: Dictionary(Of Int32, Single)
+  fullName.vb: Dictionary(Of System.Int32, System.Single)
+  name.vb: Dictionary(Of Int32, Single)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary{System.Int32,Vector2}
+  commentId: '!:Dictionary{System.Int32,Vector2}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, Vector2>
+  nameWithType: Dictionary<Int32, Vector2>
+  fullName: Dictionary<System.Int32, Vector2>
+  nameWithType.vb: Dictionary(Of Int32, Vector2)
+  fullName.vb: Dictionary(Of System.Int32, Vector2)
+  name.vb: Dictionary(Of Int32, Vector2)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary{System.Int32,Vector3}
+  commentId: '!:Dictionary{System.Int32,Vector3}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, Vector3>
+  nameWithType: Dictionary<Int32, Vector3>
+  fullName: Dictionary<System.Int32, Vector3>
+  nameWithType.vb: Dictionary(Of Int32, Vector3)
+  fullName.vb: Dictionary(Of System.Int32, Vector3)
+  name.vb: Dictionary(Of Int32, Vector3)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary{System.Int32,V2RV2}
+  commentId: '!:Dictionary{System.Int32,V2RV2}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, V2RV2>
+  nameWithType: Dictionary<Int32, V2RV2>
+  fullName: Dictionary<System.Int32, V2RV2>
+  nameWithType.vb: Dictionary(Of Int32, V2RV2)
+  fullName.vb: Dictionary(Of System.Int32, V2RV2)
+  name.vb: Dictionary(Of Int32, V2RV2)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{BehaviorEntity}
+  commentId: T:System.Nullable{BehaviorEntity}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<BehaviorEntity>
+  nameWithType: Nullable<BehaviorEntity>
+  fullName: System.Nullable<BehaviorEntity>
+  nameWithType.vb: Nullable(Of BehaviorEntity)
+  fullName.vb: System.Nullable(Of BehaviorEntity)
+  name.vb: Nullable(Of BehaviorEntity)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{PlayerController}
+  commentId: T:System.Nullable{PlayerController}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<PlayerController>
+  nameWithType: Nullable<PlayerController>
+  fullName: System.Nullable<PlayerController>
+  nameWithType.vb: Nullable(Of PlayerController)
+  fullName.vb: System.Nullable(Of PlayerController)
+  name.vb: Nullable(Of PlayerController)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PlayerController
+    name: PlayerController
+    nameWithType: PlayerController
+    fullName: PlayerController
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PlayerController
+    name: PlayerController
+    nameWithType: PlayerController
+    fullName: PlayerController
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.FiringCtx.PlayerController*
+  commentId: Overload:Danmokou.DMath.FiringCtx.PlayerController
+  name: PlayerController
+  nameWithType: FiringCtx.PlayerController
+  fullName: Danmokou.DMath.FiringCtx.PlayerController
+- uid: PlayerController
+  commentId: '!:PlayerController'
+  isExternal: true
+  name: PlayerController
+  nameWithType: PlayerController
+  fullName: PlayerController
+- uid: Danmokou.DMath.FiringCtx.OptionFirer*
+  commentId: Overload:Danmokou.DMath.FiringCtx.OptionFirer
+  name: OptionFirer
+  nameWithType: FiringCtx.OptionFirer
+  fullName: Danmokou.DMath.FiringCtx.OptionFirer
+- uid: FireOption
+  commentId: '!:FireOption'
+  isExternal: true
+  name: FireOption
+  nameWithType: FireOption
+  fullName: FireOption
+- uid: System.Nullable{CurvedTileRenderLaser}
+  commentId: T:System.Nullable{CurvedTileRenderLaser}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<CurvedTileRenderLaser>
+  nameWithType: Nullable<CurvedTileRenderLaser>
+  fullName: System.Nullable<CurvedTileRenderLaser>
+  nameWithType.vb: Nullable(Of CurvedTileRenderLaser)
+  fullName.vb: System.Nullable(Of CurvedTileRenderLaser)
+  name.vb: Nullable(Of CurvedTileRenderLaser)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CurvedTileRenderLaser
+    name: CurvedTileRenderLaser
+    nameWithType: CurvedTileRenderLaser
+    fullName: CurvedTileRenderLaser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CurvedTileRenderLaser
+    name: CurvedTileRenderLaser
+    nameWithType: CurvedTileRenderLaser
+    fullName: CurvedTileRenderLaser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.FiringCtx.LaserController*
+  commentId: Overload:Danmokou.DMath.FiringCtx.LaserController
+  name: LaserController
+  nameWithType: FiringCtx.LaserController
+  fullName: Danmokou.DMath.FiringCtx.LaserController
+- uid: CurvedTileRenderLaser
+  commentId: '!:CurvedTileRenderLaser'
+  isExternal: true
+  name: CurvedTileRenderLaser
+  nameWithType: CurvedTileRenderLaser
+  fullName: CurvedTileRenderLaser
+- uid: System.Nullable{PlayerBullet}
+  commentId: T:System.Nullable{PlayerBullet}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<PlayerBullet>
+  nameWithType: Nullable<PlayerBullet>
+  fullName: System.Nullable<PlayerBullet>
+  nameWithType.vb: Nullable(Of PlayerBullet)
+  fullName.vb: System.Nullable(Of PlayerBullet)
+  name.vb: Nullable(Of PlayerBullet)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PlayerBullet
+    name: PlayerBullet
+    nameWithType: PlayerBullet
+    fullName: PlayerBullet
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PlayerBullet
+    name: PlayerBullet
+    nameWithType: PlayerBullet
+    fullName: PlayerBullet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.FiringCtx.Allocated*
+  commentId: Overload:Danmokou.DMath.FiringCtx.Allocated
+  name: Allocated
+  nameWithType: FiringCtx.Allocated
+  fullName: Danmokou.DMath.FiringCtx.Allocated
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Danmokou.DMath.FiringCtx.Popped*
+  commentId: Overload:Danmokou.DMath.FiringCtx.Popped
+  name: Popped
+  nameWithType: FiringCtx.Popped
+  fullName: Danmokou.DMath.FiringCtx.Popped
+- uid: Danmokou.DMath.FiringCtx.Recached*
+  commentId: Overload:Danmokou.DMath.FiringCtx.Recached
+  name: Recached
+  nameWithType: FiringCtx.Recached
+  fullName: Danmokou.DMath.FiringCtx.Recached
+- uid: Danmokou.DMath.FiringCtx.Copied*
+  commentId: Overload:Danmokou.DMath.FiringCtx.Copied
+  name: Copied
+  nameWithType: FiringCtx.Copied
+  fullName: Danmokou.DMath.FiringCtx.Copied
+- uid: Danmokou.DMath.FiringCtx
+  commentId: T:Danmokou.DMath.FiringCtx
+  parent: Danmokou.DMath
+  name: FiringCtx
+  nameWithType: FiringCtx
+  fullName: Danmokou.DMath.FiringCtx
+- uid: Danmokou.DMath.FiringCtx.New*
+  commentId: Overload:Danmokou.DMath.FiringCtx.New
+  name: New
+  nameWithType: FiringCtx.New
+  fullName: Danmokou.DMath.FiringCtx.New
+- uid: System.Nullable{GenCtx}
+  commentId: T:System.Nullable{GenCtx}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<GenCtx>
+  nameWithType: Nullable<GenCtx>
+  fullName: System.Nullable<GenCtx>
+  nameWithType.vb: Nullable(Of GenCtx)
+  fullName.vb: System.Nullable(Of GenCtx)
+  name.vb: Nullable(Of GenCtx)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GenCtx
+    name: GenCtx
+    nameWithType: GenCtx
+    fullName: GenCtx
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GenCtx
+    name: GenCtx
+    nameWithType: GenCtx
+    fullName: GenCtx
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.FiringCtx.UploadAdd*
+  commentId: Overload:Danmokou.DMath.FiringCtx.UploadAdd
+  name: UploadAdd
+  nameWithType: FiringCtx.UploadAdd
+  fullName: Danmokou.DMath.FiringCtx.UploadAdd
+- uid: System.ValueTuple{Reflector.ExType,System.String}[]
+  isExternal: true
+  name: (T1, T2)<Reflector.ExType, String>[]
+  nameWithType: (T1, T2)<Reflector.ExType, String>[]
+  fullName: System.ValueTuple<Reflector.ExType, System.String>[]
+  nameWithType.vb: (T1, T2)(Of Reflector.ExType, String)()
+  fullName.vb: System.ValueTuple(Of Reflector.ExType, System.String)()
+  name.vb: (T1, T2)(Of Reflector.ExType, String)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Reflector.ExType
+    name: Reflector.ExType
+    nameWithType: Reflector.ExType
+    fullName: Reflector.ExType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Reflector.ExType
+    name: Reflector.ExType
+    nameWithType: Reflector.ExType
+    fullName: Reflector.ExType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx
+- uid: Danmokou.DMath.FiringCtx.RevertToGCX*
+  commentId: Overload:Danmokou.DMath.FiringCtx.RevertToGCX
+  name: RevertToGCX
+  nameWithType: FiringCtx.RevertToGCX
+  fullName: Danmokou.DMath.FiringCtx.RevertToGCX
+- uid: BehaviorEntity
+  isExternal: true
+  name: BehaviorEntity
+  nameWithType: BehaviorEntity
+  fullName: BehaviorEntity
+- uid: Danmokou.DMath.FiringCtx.Copy*
+  commentId: Overload:Danmokou.DMath.FiringCtx.Copy
+  name: Copy
+  nameWithType: FiringCtx.Copy
+  fullName: Danmokou.DMath.FiringCtx.Copy
+- uid: Danmokou.DMath.FiringCtx.Dispose*
+  commentId: Overload:Danmokou.DMath.FiringCtx.Dispose
+  name: Dispose
+  nameWithType: FiringCtx.Dispose
+  fullName: Danmokou.DMath.FiringCtx.Dispose
+- uid: Danmokou.DMath.FiringCtx.FromType*
+  commentId: Overload:Danmokou.DMath.FiringCtx.FromType
+  name: FromType
+  nameWithType: FiringCtx.FromType
+  fullName: Danmokou.DMath.FiringCtx.FromType
+- uid: Danmokou.DMath.FiringCtx.DataType
+  commentId: T:Danmokou.DMath.FiringCtx.DataType
+  parent: Danmokou.DMath
+  name: FiringCtx.DataType
+  nameWithType: FiringCtx.DataType
+  fullName: Danmokou.DMath.FiringCtx.DataType
+- uid: Danmokou.DMath.FiringCtx.Contains*
+  commentId: Overload:Danmokou.DMath.FiringCtx.Contains
+  name: Contains
+  nameWithType: FiringCtx.Contains
+  fullName: Danmokou.DMath.FiringCtx.Contains
+- uid: TExArgCtx
+  isExternal: true
+  name: TExArgCtx
+  nameWithType: TExArgCtx
+  fullName: TExArgCtx
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TEx
+  isExternal: true
+  name: TEx
+  nameWithType: TEx
+  fullName: TEx
+- uid: Expression
+  isExternal: true
+  name: Expression
+  nameWithType: Expression
+  fullName: Expression
+- uid: Danmokou.DMath.FiringCtx.GetValue*
+  commentId: Overload:Danmokou.DMath.FiringCtx.GetValue
+  name: GetValue
+  nameWithType: FiringCtx.GetValue
+  fullName: Danmokou.DMath.FiringCtx.GetValue
+- uid: System.Nullable{TEx{{T}}}
+  commentId: T:System.Nullable{TEx{``0}}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TEx<T>>
+  nameWithType: Nullable<TEx<T>>
+  fullName: System.Nullable<TEx<T>>
+  nameWithType.vb: Nullable(Of TEx(Of T))
+  fullName.vb: System.Nullable(Of TEx(Of T))
+  name.vb: Nullable(Of TEx(Of T))
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.FiringCtx.SetValue*
+  commentId: Overload:Danmokou.DMath.FiringCtx.SetValue
+  name: SetValue
+  nameWithType: FiringCtx.SetValue
+  fullName: Danmokou.DMath.FiringCtx.SetValue
+- uid: Danmokou.DMath.FiringCtx.GetDict*
+  commentId: Overload:Danmokou.DMath.FiringCtx.GetDict
+  name: GetDict
+  nameWithType: FiringCtx.GetDict
+  fullName: Danmokou.DMath.FiringCtx.GetDict
+- uid: Danmokou.DMath.FiringCtx.ClearNames*
+  commentId: Overload:Danmokou.DMath.FiringCtx.ClearNames
+  name: ClearNames
+  nameWithType: FiringCtx.ClearNames
+  fullName: Danmokou.DMath.FiringCtx.ClearNames
+- uid: Danmokou.DMath.FiringCtx.GetKey*
+  commentId: Overload:Danmokou.DMath.FiringCtx.GetKey
+  name: GetKey
+  nameWithType: FiringCtx.GetKey
+  fullName: Danmokou.DMath.FiringCtx.GetKey
