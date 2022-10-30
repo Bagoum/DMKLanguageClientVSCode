@@ -19,7 +19,7 @@ items:
   source:
     id: GCXFRepo
     path: ''
-    startLine: 7959
+    startLine: 8540
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -57,7 +57,7 @@ items:
   source:
     id: _Fake
     path: ''
-    startLine: 7961
+    startLine: 8542
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -95,7 +95,7 @@ items:
   source:
     id: V2Zero
     path: ''
-    startLine: 7973
+    startLine: 8554
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -126,7 +126,7 @@ items:
   source:
     id: RV2Zero
     path: ''
-    startLine: 7974
+    startLine: 8555
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -157,7 +157,7 @@ items:
   source:
     id: Max
     path: ''
-    startLine: 7976
+    startLine: 8557
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

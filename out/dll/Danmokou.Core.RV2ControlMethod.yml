@@ -21,7 +21,7 @@ items:
   source:
     id: RV2ControlMethod
     path: ''
-    startLine: 1063
+    startLine: 1072
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -50,7 +50,7 @@ items:
   source:
     id: NX
     path: ''
-    startLine: 1067
+    startLine: 1076
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -80,7 +80,7 @@ items:
   source:
     id: NY
     path: ''
-    startLine: 1071
+    startLine: 1080
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -110,7 +110,7 @@ items:
   source:
     id: RX
     path: ''
-    startLine: 1075
+    startLine: 1084
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -140,7 +140,7 @@ items:
   source:
     id: RY
     path: ''
-    startLine: 1079
+    startLine: 1088
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -170,7 +170,7 @@ items:
   source:
     id: ANG
     path: ''
-    startLine: 1083
+    startLine: 1092
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -200,7 +200,7 @@ items:
   source:
     id: RANG
     path: ''
-    startLine: 1087
+    startLine: 1096
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

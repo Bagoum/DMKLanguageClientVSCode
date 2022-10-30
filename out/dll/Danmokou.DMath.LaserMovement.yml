@@ -28,7 +28,7 @@ items:
   source:
     id: LaserMovement
     path: ''
-    startLine: 6931
+    startLine: 7506
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -64,7 +64,7 @@ items:
   source:
     id: cos_rot
     path: ''
-    startLine: 6935
+    startLine: 7510
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -93,7 +93,7 @@ items:
   source:
     id: sin_rot
     path: ''
-    startLine: 6937
+    startLine: 7512
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -122,7 +122,7 @@ items:
   source:
     id: rootPos
     path: ''
-    startLine: 6939
+    startLine: 7514
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -149,7 +149,7 @@ items:
   source:
     id: flipX
     path: ''
-    startLine: 6942
+    startLine: 7517
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -176,7 +176,7 @@ items:
   source:
     id: flipY
     path: ''
-    startLine: 6943
+    startLine: 7518
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -203,7 +203,7 @@ items:
   source:
     id: isSimple
     path: ''
-    startLine: 6946
+    startLine: 7521
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -232,7 +232,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6948
+    startLine: 7523
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -265,7 +265,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6967
+    startLine: 7542
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -300,7 +300,7 @@ items:
   source:
     id: Update
     path: ''
-    startLine: 6981
+    startLine: 7556
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -338,7 +338,7 @@ items:
   source:
     id: RotationDeg
     path: ''
-    startLine: 6998
+    startLine: 7573
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -369,7 +369,7 @@ items:
   source:
     id: FlipX
     path: ''
-    startLine: 7001
+    startLine: 7576
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -395,7 +395,7 @@ items:
   source:
     id: FlipY
     path: ''
-    startLine: 7006
+    startLine: 7581
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -421,7 +421,7 @@ items:
   source:
     id: ResetFlip
     path: ''
-    startLine: 7010
+    startLine: 7585
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath

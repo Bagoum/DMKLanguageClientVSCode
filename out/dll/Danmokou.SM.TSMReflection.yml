@@ -37,7 +37,7 @@ items:
   source:
     id: TSMReflection
     path: ''
-    startLine: 16496
+    startLine: 17136
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -75,7 +75,7 @@ items:
   source:
     id: Re
     path: ''
-    startLine: 16545
+    startLine: 17185
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -108,7 +108,7 @@ items:
   source:
     id: Wait
     path: ''
-    startLine: 16546
+    startLine: 17186
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -141,7 +141,7 @@ items:
   source:
     id: Confirm
     path: ''
-    startLine: 16551
+    startLine: 17191
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -171,7 +171,7 @@ items:
   source:
     id: Place
     path: ''
-    startLine: 16554
+    startLine: 17194
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -206,7 +206,7 @@ items:
   source:
     id: SetStandOpacity
     path: ''
-    startLine: 16572
+    startLine: 17212
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -241,7 +241,7 @@ items:
   source:
     id: FadeStandIn
     path: ''
-    startLine: 16577
+    startLine: 17217
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -276,7 +276,7 @@ items:
   source:
     id: FadeStandOut
     path: ''
-    startLine: 16578
+    startLine: 17218
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -311,7 +311,7 @@ items:
   source:
     id: Text
     path: ''
-    startLine: 16585
+    startLine: 17225
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -344,7 +344,7 @@ items:
   source:
     id: ContinuedText
     path: ''
-    startLine: 16587
+    startLine: 17227
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -377,7 +377,7 @@ items:
   source:
     id: ContinuedTextNewline
     path: ''
-    startLine: 16589
+    startLine: 17229
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -410,7 +410,7 @@ items:
   source:
     id: TextConfirm
     path: ''
-    startLine: 16591
+    startLine: 17231
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -443,7 +443,7 @@ items:
   source:
     id: SpeakL
     path: ''
-    startLine: 16613
+    startLine: 17253
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -476,7 +476,7 @@ items:
   source:
     id: SpeakR
     path: ''
-    startLine: 16615
+    startLine: 17255
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -509,7 +509,7 @@ items:
   source:
     id: SpeakLE
     path: ''
-    startLine: 16617
+    startLine: 17257
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -544,7 +544,7 @@ items:
   source:
     id: SpeakRE
     path: ''
-    startLine: 16619
+    startLine: 17259
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -579,7 +579,7 @@ items:
   source:
     id: SpeakLC
     path: ''
-    startLine: 16621
+    startLine: 17261
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -609,7 +609,7 @@ items:
   source:
     id: SpeakRC
     path: ''
-    startLine: 16623
+    startLine: 17263
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -639,7 +639,7 @@ items:
   source:
     id: SpeakLCE
     path: ''
-    startLine: 16625
+    startLine: 17265
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -672,7 +672,7 @@ items:
   source:
     id: SpeakRCE
     path: ''
-    startLine: 16627
+    startLine: 17267
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -705,7 +705,7 @@ items:
   source:
     id: SetEmote
     path: ''
-    startLine: 16630
+    startLine: 17270
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -740,7 +740,7 @@ items:
   source:
     id: Set
     path: ''
-    startLine: 16637
+    startLine: 17277
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -776,7 +776,7 @@ items:
   source:
     id: RawSummon
     path: ''
-    startLine: 16644
+    startLine: 17284
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

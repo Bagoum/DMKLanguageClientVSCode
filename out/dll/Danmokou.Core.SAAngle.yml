@@ -19,7 +19,7 @@ items:
   source:
     id: SAAngle
     path: ''
-    startLine: 1019
+    startLine: 1028
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -48,7 +48,7 @@ items:
   source:
     id: ORIGINAL
     path: ''
-    startLine: 1024
+    startLine: 1033
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -78,7 +78,7 @@ items:
   source:
     id: ORIGINAL_BANK
     path: ''
-    startLine: 1030
+    startLine: 1039
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -108,7 +108,7 @@ items:
   source:
     id: REL_ORIGIN_BANK
     path: ''
-    startLine: 1036
+    startLine: 1045
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -138,7 +138,7 @@ items:
   source:
     id: TANGENT_BANK
     path: ''
-    startLine: 1042
+    startLine: 1051
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

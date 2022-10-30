@@ -5,7 +5,7 @@ items:
   id: LoopControl`1
   parent: Danmokou.Danmaku.Patterns
   children:
-  - Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff,System.Boolean@)
+  - Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff@,System.Boolean@)
   - Danmokou.Danmaku.Patterns.LoopControl`1.FinishIteration
   - Danmokou.Danmaku.Patterns.LoopControl`1.GCX
   - Danmokou.Danmaku.Patterns.LoopControl`1.GetFiringIndex(Parametrization,System.Int32,System.Int32,System.Nullable{System.Int32})
@@ -29,7 +29,7 @@ items:
   source:
     id: LoopControl
     path: ''
-    startLine: 5005
+    startLine: 5044
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -68,7 +68,7 @@ items:
   source:
     id: props
     path: ''
-    startLine: 5006
+    startLine: 5045
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -99,7 +99,7 @@ items:
   source:
     id: times
     path: ''
-    startLine: 5009
+    startLine: 5048
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -130,7 +130,7 @@ items:
   source:
     id: Handoff
     path: ''
-    startLine: 5012
+    startLine: 5051
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -164,7 +164,7 @@ items:
   source:
     id: GCX
     path: ''
-    startLine: 5013
+    startLine: 5052
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -184,26 +184,26 @@ items:
   - Public
   - ReadOnly
   fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).GCX
-- uid: Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff,System.Boolean@)
-  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff,System.Boolean@)
-  id: '#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff,System.Boolean@)'
+- uid: Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff@,System.Boolean@)
+  commentId: M:Danmokou.Danmaku.Patterns.LoopControl`1.#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff@,System.Boolean@)
+  id: '#ctor(GenCtxProperties{`0},Danmokou.Danmaku.Patterns.CommonHandoff@,System.Boolean@)'
   parent: Danmokou.Danmaku.Patterns.LoopControl`1
   langs:
   - csharp
   - vb
-  name: LoopControl(GenCtxProperties<T>, CommonHandoff, out Boolean)
-  nameWithType: LoopControl<T>.LoopControl(GenCtxProperties<T>, CommonHandoff, out Boolean)
-  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.LoopControl(GenCtxProperties<T>, Danmokou.Danmaku.Patterns.CommonHandoff, out System.Boolean)
+  name: LoopControl(GenCtxProperties<T>, in CommonHandoff, out Boolean)
+  nameWithType: LoopControl<T>.LoopControl(GenCtxProperties<T>, in CommonHandoff, out Boolean)
+  fullName: Danmokou.Danmaku.Patterns.LoopControl<T>.LoopControl(GenCtxProperties<T>, in Danmokou.Danmaku.Patterns.CommonHandoff, out System.Boolean)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 5014
+    startLine: 5053
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
   syntax:
-    content: public LoopControl(GenCtxProperties<T> props, CommonHandoff _ch, out bool isClipped)
+    content: public LoopControl(GenCtxProperties<T> props, in CommonHandoff _ch, out bool isClipped)
     parameters:
     - id: props
       type: GenCtxProperties{{T}}
@@ -211,15 +211,15 @@ items:
       type: Danmokou.Danmaku.Patterns.CommonHandoff
     - id: isClipped
       type: System.Boolean
-    content.vb: Public Sub New(props As GenCtxProperties(Of T), _ch As CommonHandoff, ByRef isClipped As Boolean)
+    content.vb: Public Sub New(props As GenCtxProperties(Of T), ByRef _ch As CommonHandoff, ByRef isClipped As Boolean)
   overload: Danmokou.Danmaku.Patterns.LoopControl`1.#ctor*
-  nameWithType.vb: LoopControl(Of T).LoopControl(GenCtxProperties(Of T), CommonHandoff, ByRef Boolean)
+  nameWithType.vb: LoopControl(Of T).LoopControl(GenCtxProperties(Of T), ByRef CommonHandoff, ByRef Boolean)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).LoopControl(GenCtxProperties(Of T), Danmokou.Danmaku.Patterns.CommonHandoff, ByRef System.Boolean)
-  name.vb: LoopControl(GenCtxProperties(Of T), CommonHandoff, ByRef Boolean)
+  fullName.vb: Danmokou.Danmaku.Patterns.LoopControl(Of T).LoopControl(GenCtxProperties(Of T), ByRef Danmokou.Danmaku.Patterns.CommonHandoff, ByRef System.Boolean)
+  name.vb: LoopControl(GenCtxProperties(Of T), ByRef CommonHandoff, ByRef Boolean)
 - uid: Danmokou.Danmaku.Patterns.LoopControl`1.RemainsExceptLast
   commentId: P:Danmokou.Danmaku.Patterns.LoopControl`1.RemainsExceptLast
   id: RemainsExceptLast
@@ -234,7 +234,7 @@ items:
   source:
     id: RemainsExceptLast
     path: ''
-    startLine: 5075
+    startLine: 5114
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -268,7 +268,7 @@ items:
   source:
     id: Remains
     path: ''
-    startLine: 5076
+    startLine: 5115
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -302,7 +302,7 @@ items:
   source:
     id: IsUnpaused
     path: ''
-    startLine: 5078
+    startLine: 5117
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -336,7 +336,7 @@ items:
   source:
     id: WaitStep
     path: ''
-    startLine: 5082
+    startLine: 5121
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -364,7 +364,7 @@ items:
   source:
     id: GetFiringIndex
     path: ''
-    startLine: 5089
+    startLine: 5128
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -406,7 +406,7 @@ items:
   source:
     id: PrepareIteration
     path: ''
-    startLine: 5111
+    startLine: 5150
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -436,7 +436,7 @@ items:
   source:
     id: PrepareLastIteration
     path: ''
-    startLine: 5168
+    startLine: 5207
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -466,7 +466,7 @@ items:
   source:
     id: FinishIteration
     path: ''
-    startLine: 5175
+    startLine: 5214
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -494,7 +494,7 @@ items:
   source:
     id: IAmDone
     path: ''
-    startLine: 5180
+    startLine: 5219
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

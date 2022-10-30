@@ -7,9 +7,8 @@ items:
   - Danmokou.DMath.BPRV2
   - Danmokou.DMath.BPY
   - Danmokou.DMath.CoordF
-  - Danmokou.DMath.FiringCtx
-  - Danmokou.DMath.FiringCtx.DataType
   - Danmokou.DMath.GCXF`1
+  - Danmokou.DMath.GCXU
   - Danmokou.DMath.GCXU`1
   - Danmokou.DMath.LaserMovement
   - Danmokou.DMath.LimitedTimeMovement
@@ -18,6 +17,7 @@ items:
   - Danmokou.DMath.LVTP
   - Danmokou.DMath.Movement
   - Danmokou.DMath.ParametricInfo
+  - Danmokou.DMath.PICustomData
   - Danmokou.DMath.Pred
   - Danmokou.DMath.RootedVTP
   - Danmokou.DMath.SBCF
@@ -43,18 +43,12 @@ references:
   name: LocationHelpers
   nameWithType: LocationHelpers
   fullName: Danmokou.DMath.LocationHelpers
-- uid: Danmokou.DMath.FiringCtx
-  commentId: T:Danmokou.DMath.FiringCtx
+- uid: Danmokou.DMath.PICustomData
+  commentId: T:Danmokou.DMath.PICustomData
   parent: Danmokou.DMath
-  name: FiringCtx
-  nameWithType: FiringCtx
-  fullName: Danmokou.DMath.FiringCtx
-- uid: Danmokou.DMath.FiringCtx.DataType
-  commentId: T:Danmokou.DMath.FiringCtx.DataType
-  parent: Danmokou.DMath
-  name: FiringCtx.DataType
-  nameWithType: FiringCtx.DataType
-  fullName: Danmokou.DMath.FiringCtx.DataType
+  name: PICustomData
+  nameWithType: PICustomData
+  fullName: Danmokou.DMath.PICustomData
 - uid: Danmokou.DMath.ParametricInfo
   commentId: T:Danmokou.DMath.ParametricInfo
   parent: Danmokou.DMath
@@ -168,6 +162,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Danmokou.DMath.GCXU
+  commentId: T:Danmokou.DMath.GCXU
+  parent: Danmokou.DMath
+  name: GCXU
+  nameWithType: GCXU
+  fullName: Danmokou.DMath.GCXU
 - uid: Danmokou.DMath.GCXU`1
   commentId: T:Danmokou.DMath.GCXU`1
   name: GCXU<Fn>

@@ -17,7 +17,7 @@ items:
   source:
     id: AnimatorControllerLASM
     path: ''
-    startLine: 13307
+    startLine: 13932
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -62,7 +62,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13311
+    startLine: 13936
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -91,7 +91,7 @@ items:
   source:
     id: Attack
     path: ''
-    startLine: 13317
+    startLine: 13942
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

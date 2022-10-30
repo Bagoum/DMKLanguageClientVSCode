@@ -15,7 +15,7 @@ items:
   source:
     id: AsyncPattern
     path: ''
-    startLine: 4603
+    startLine: 4640
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

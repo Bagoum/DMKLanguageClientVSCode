@@ -18,7 +18,7 @@ items:
   source:
     id: FXYRepo
     path: ''
-    startLine: 7915
+    startLine: 8496
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -58,7 +58,7 @@ items:
   source:
     id: EaseF
     path: ''
-    startLine: 7926
+    startLine: 8507
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -104,7 +104,7 @@ items:
   source:
     id: EaseFD
     path: ''
-    startLine: 7937
+    startLine: 8518
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -150,7 +150,7 @@ items:
   source:
     id: SoftmaxShift
     path: ''
-    startLine: 7943
+    startLine: 8524
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

@@ -5,8 +5,10 @@ items:
   id: ParametricInfo
   parent: Danmokou.DMath
   children:
-  - Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
-  - Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
+  - Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single)
+  - Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.PICustomData,Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single)
+  - Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.PICustomData,Vector3,System.Int32,System.Nullable{System.UInt32},System.Single)
+  - Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single)
   - Danmokou.DMath.ParametricInfo.CopyCtx(System.UInt32)
   - Danmokou.DMath.ParametricInfo.CopyWithT(System.Single)
   - Danmokou.DMath.ParametricInfo.ctx
@@ -31,7 +33,7 @@ items:
   source:
     id: ParametricInfo
     path: ''
-    startLine: 6551
+    startLine: 6980
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -67,7 +69,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 6552
+    startLine: 6981
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -96,7 +98,7 @@ items:
   source:
     id: id
     path: ''
-    startLine: 6554
+    startLine: 6983
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -127,7 +129,7 @@ items:
   source:
     id: index
     path: ''
-    startLine: 6556
+    startLine: 6985
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -158,7 +160,7 @@ items:
   source:
     id: loc
     path: ''
-    startLine: 6558
+    startLine: 6987
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -187,7 +189,7 @@ items:
   source:
     id: t
     path: ''
-    startLine: 6560
+    startLine: 6989
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -216,17 +218,17 @@ items:
   source:
     id: ctx
     path: ''
-    startLine: 6562
+    startLine: 6991
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
   summary: Context containing additional bound variables
   example: []
   syntax:
-    content: public FiringCtx ctx
+    content: public PICustomData ctx
     return:
-      type: Danmokou.DMath.FiringCtx
-    content.vb: Public ctx As FiringCtx
+      type: Danmokou.DMath.PICustomData
+    content.vb: Public ctx As PICustomData
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -245,7 +247,7 @@ items:
   source:
     id: LocV2
     path: ''
-    startLine: 6567
+    startLine: 6996
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -279,7 +281,7 @@ items:
   source:
     id: WithRandomId
     path: ''
-    startLine: 6570
+    startLine: 6999
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -316,7 +318,7 @@ items:
   source:
     id: WithRandomId
     path: ''
-    startLine: 6571
+    startLine: 7000
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -337,26 +339,26 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
-  commentId: M:Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
-  id: '#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)'
+- uid: Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single)
+  commentId: M:Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single)
+  id: '#ctor(Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single)'
   parent: Danmokou.DMath.ParametricInfo
   langs:
   - csharp
   - vb
-  name: ParametricInfo(in Movement, Int32, Nullable<UInt32>, Single, FiringCtx)
-  nameWithType: ParametricInfo.ParametricInfo(in Movement, Int32, Nullable<UInt32>, Single, FiringCtx)
-  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo(in Danmokou.DMath.Movement, System.Int32, System.Nullable<System.UInt32>, System.Single, Danmokou.DMath.FiringCtx)
+  name: ParametricInfo(in Movement, Int32, Nullable<UInt32>, Single)
+  nameWithType: ParametricInfo.ParametricInfo(in Movement, Int32, Nullable<UInt32>, Single)
+  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo(in Danmokou.DMath.Movement, System.Int32, System.Nullable<System.UInt32>, System.Single)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 6573
+    startLine: 7002
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
   syntax:
-    content: public ParametricInfo(in Movement mov, int findex = 0, uint? id = null, float t = 0F, FiringCtx ctx = null)
+    content: public ParametricInfo(in Movement mov, int findex = 0, uint? id = null, float t = 0F)
     parameters:
     - id: mov
       type: Danmokou.DMath.Movement
@@ -366,37 +368,35 @@ items:
       type: System.Nullable{System.UInt32}
     - id: t
       type: System.Single
-    - id: ctx
-      type: Danmokou.DMath.FiringCtx
-    content.vb: Public Sub New(ByRef mov As Movement, findex As Integer = 0, id As UInteger? = Nothing, t As Single = 0F, ctx As FiringCtx = Nothing)
+    content.vb: Public Sub New(ByRef mov As Movement, findex As Integer = 0, id As UInteger? = Nothing, t As Single = 0F)
   overload: Danmokou.DMath.ParametricInfo.#ctor*
-  nameWithType.vb: ParametricInfo.ParametricInfo(ByRef Movement, Int32, Nullable(Of UInt32), Single, FiringCtx)
+  nameWithType.vb: ParametricInfo.ParametricInfo(ByRef Movement, Int32, Nullable(Of UInt32), Single)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.DMath.ParametricInfo.ParametricInfo(ByRef Danmokou.DMath.Movement, System.Int32, System.Nullable(Of System.UInt32), System.Single, Danmokou.DMath.FiringCtx)
-  name.vb: ParametricInfo(ByRef Movement, Int32, Nullable(Of UInt32), Single, FiringCtx)
-- uid: Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
-  commentId: M:Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)
-  id: '#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single,Danmokou.DMath.FiringCtx)'
+  fullName.vb: Danmokou.DMath.ParametricInfo.ParametricInfo(ByRef Danmokou.DMath.Movement, System.Int32, System.Nullable(Of System.UInt32), System.Single)
+  name.vb: ParametricInfo(ByRef Movement, Int32, Nullable(Of UInt32), Single)
+- uid: Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single)
+  commentId: M:Danmokou.DMath.ParametricInfo.#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single)
+  id: '#ctor(Vector3,System.Int32,System.Nullable{System.UInt32},System.Single)'
   parent: Danmokou.DMath.ParametricInfo
   langs:
   - csharp
   - vb
-  name: ParametricInfo(Vector3, Int32, Nullable<UInt32>, Single, FiringCtx)
-  nameWithType: ParametricInfo.ParametricInfo(Vector3, Int32, Nullable<UInt32>, Single, FiringCtx)
-  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo(Vector3, System.Int32, System.Nullable<System.UInt32>, System.Single, Danmokou.DMath.FiringCtx)
+  name: ParametricInfo(Vector3, Int32, Nullable<UInt32>, Single)
+  nameWithType: ParametricInfo.ParametricInfo(Vector3, Int32, Nullable<UInt32>, Single)
+  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo(Vector3, System.Int32, System.Nullable<System.UInt32>, System.Single)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 6575
+    startLine: 7004
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
   syntax:
-    content: public ParametricInfo(Vector3 position, int findex = 0, uint? id = null, float t = 0F, FiringCtx ctx = null)
+    content: public ParametricInfo(Vector3 position, int findex = 0, uint? id = null, float t = 0F)
     parameters:
     - id: position
       type: Vector3
@@ -406,17 +406,95 @@ items:
       type: System.Nullable{System.UInt32}
     - id: t
       type: System.Single
-    - id: ctx
-      type: Danmokou.DMath.FiringCtx
-    content.vb: Public Sub New(position As Vector3, findex As Integer = 0, id As UInteger? = Nothing, t As Single = 0F, ctx As FiringCtx = Nothing)
+    content.vb: Public Sub New(position As Vector3, findex As Integer = 0, id As UInteger? = Nothing, t As Single = 0F)
   overload: Danmokou.DMath.ParametricInfo.#ctor*
-  nameWithType.vb: ParametricInfo.ParametricInfo(Vector3, Int32, Nullable(Of UInt32), Single, FiringCtx)
+  nameWithType.vb: ParametricInfo.ParametricInfo(Vector3, Int32, Nullable(Of UInt32), Single)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.DMath.ParametricInfo.ParametricInfo(Vector3, System.Int32, System.Nullable(Of System.UInt32), System.Single, Danmokou.DMath.FiringCtx)
-  name.vb: ParametricInfo(Vector3, Int32, Nullable(Of UInt32), Single, FiringCtx)
+  fullName.vb: Danmokou.DMath.ParametricInfo.ParametricInfo(Vector3, System.Int32, System.Nullable(Of System.UInt32), System.Single)
+  name.vb: ParametricInfo(Vector3, Int32, Nullable(Of UInt32), Single)
+- uid: Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.PICustomData,Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single)
+  commentId: M:Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.PICustomData,Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single)
+  id: '#ctor(Danmokou.DMath.PICustomData,Danmokou.DMath.Movement@,System.Int32,System.Nullable{System.UInt32},System.Single)'
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: ParametricInfo(PICustomData, in Movement, Int32, Nullable<UInt32>, Single)
+  nameWithType: ParametricInfo.ParametricInfo(PICustomData, in Movement, Int32, Nullable<UInt32>, Single)
+  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo(Danmokou.DMath.PICustomData, in Danmokou.DMath.Movement, System.Int32, System.Nullable<System.UInt32>, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7011
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public ParametricInfo(PICustomData ctx, in Movement mov, int findex = 0, uint? id = null, float t = 0F)
+    parameters:
+    - id: ctx
+      type: Danmokou.DMath.PICustomData
+    - id: mov
+      type: Danmokou.DMath.Movement
+    - id: findex
+      type: System.Int32
+    - id: id
+      type: System.Nullable{System.UInt32}
+    - id: t
+      type: System.Single
+    content.vb: Public Sub New(ctx As PICustomData, ByRef mov As Movement, findex As Integer = 0, id As UInteger? = Nothing, t As Single = 0F)
+  overload: Danmokou.DMath.ParametricInfo.#ctor*
+  nameWithType.vb: ParametricInfo.ParametricInfo(PICustomData, ByRef Movement, Int32, Nullable(Of UInt32), Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.ParametricInfo.ParametricInfo(Danmokou.DMath.PICustomData, ByRef Danmokou.DMath.Movement, System.Int32, System.Nullable(Of System.UInt32), System.Single)
+  name.vb: ParametricInfo(PICustomData, ByRef Movement, Int32, Nullable(Of UInt32), Single)
+- uid: Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.PICustomData,Vector3,System.Int32,System.Nullable{System.UInt32},System.Single)
+  commentId: M:Danmokou.DMath.ParametricInfo.#ctor(Danmokou.DMath.PICustomData,Vector3,System.Int32,System.Nullable{System.UInt32},System.Single)
+  id: '#ctor(Danmokou.DMath.PICustomData,Vector3,System.Int32,System.Nullable{System.UInt32},System.Single)'
+  parent: Danmokou.DMath.ParametricInfo
+  langs:
+  - csharp
+  - vb
+  name: ParametricInfo(PICustomData, Vector3, Int32, Nullable<UInt32>, Single)
+  nameWithType: ParametricInfo.ParametricInfo(PICustomData, Vector3, Int32, Nullable<UInt32>, Single)
+  fullName: Danmokou.DMath.ParametricInfo.ParametricInfo(Danmokou.DMath.PICustomData, Vector3, System.Int32, System.Nullable<System.UInt32>, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7013
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public ParametricInfo(PICustomData ctx, Vector3 position, int findex = 0, uint? id = null, float t = 0F)
+    parameters:
+    - id: ctx
+      type: Danmokou.DMath.PICustomData
+    - id: position
+      type: Vector3
+    - id: findex
+      type: System.Int32
+    - id: id
+      type: System.Nullable{System.UInt32}
+    - id: t
+      type: System.Single
+    content.vb: Public Sub New(ctx As PICustomData, position As Vector3, findex As Integer = 0, id As UInteger? = Nothing, t As Single = 0F)
+  overload: Danmokou.DMath.ParametricInfo.#ctor*
+  nameWithType.vb: ParametricInfo.ParametricInfo(PICustomData, Vector3, Int32, Nullable(Of UInt32), Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.ParametricInfo.ParametricInfo(Danmokou.DMath.PICustomData, Vector3, System.Int32, System.Nullable(Of System.UInt32), System.Single)
+  name.vb: ParametricInfo(PICustomData, Vector3, Int32, Nullable(Of UInt32), Single)
 - uid: Danmokou.DMath.ParametricInfo.Rehash
   commentId: M:Danmokou.DMath.ParametricInfo.Rehash
   id: Rehash
@@ -431,7 +509,7 @@ items:
   source:
     id: Rehash
     path: ''
-    startLine: 6583
+    startLine: 7021
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -459,7 +537,7 @@ items:
   source:
     id: CopyWithT
     path: ''
-    startLine: 6584
+    startLine: 7022
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -490,7 +568,7 @@ items:
   source:
     id: CopyCtx
     path: ''
-    startLine: 6586
+    startLine: 7024
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -521,7 +599,7 @@ items:
   source:
     id: FlipSimple
     path: ''
-    startLine: 6593
+    startLine: 7031
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -556,7 +634,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 6601
+    startLine: 7039
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -874,12 +952,12 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: Danmokou.DMath.FiringCtx
-  commentId: T:Danmokou.DMath.FiringCtx
+- uid: Danmokou.DMath.PICustomData
+  commentId: T:Danmokou.DMath.PICustomData
   parent: Danmokou.DMath
-  name: FiringCtx
-  nameWithType: FiringCtx
-  fullName: Danmokou.DMath.FiringCtx
+  name: PICustomData
+  nameWithType: PICustomData
+  fullName: Danmokou.DMath.PICustomData
 - uid: Danmokou.DMath.ParametricInfo.LocV2*
   commentId: Overload:Danmokou.DMath.ParametricInfo.LocV2
   name: LocV2

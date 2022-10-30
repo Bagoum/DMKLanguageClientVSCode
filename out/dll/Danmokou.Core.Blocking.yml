@@ -17,7 +17,7 @@ items:
   source:
     id: Blocking
     path: ''
-    startLine: 1047
+    startLine: 1056
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -46,7 +46,7 @@ items:
   source:
     id: BLOCKING
     path: ''
-    startLine: 1051
+    startLine: 1060
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -76,7 +76,7 @@ items:
   source:
     id: NONBLOCKING
     path: ''
-    startLine: 1055
+    startLine: 1064
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

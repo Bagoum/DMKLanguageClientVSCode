@@ -27,7 +27,7 @@ items:
   source:
     id: ItemType
     path: ''
-    startLine: 1221
+    startLine: 1230
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -54,7 +54,7 @@ items:
   source:
     id: VALUE
     path: ''
-    startLine: 1225
+    startLine: 1234
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -84,7 +84,7 @@ items:
   source:
     id: SMALL_VALUE
     path: ''
-    startLine: 1229
+    startLine: 1238
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -114,7 +114,7 @@ items:
   source:
     id: PPP
     path: ''
-    startLine: 1233
+    startLine: 1242
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -144,7 +144,7 @@ items:
   source:
     id: LIFE
     path: ''
-    startLine: 1237
+    startLine: 1246
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -174,7 +174,7 @@ items:
   source:
     id: POWER
     path: ''
-    startLine: 1241
+    startLine: 1250
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -204,7 +204,7 @@ items:
   source:
     id: FULLPOWER
     path: ''
-    startLine: 1245
+    startLine: 1254
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -234,7 +234,7 @@ items:
   source:
     id: ONEUP
     path: ''
-    startLine: 1249
+    startLine: 1258
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -264,7 +264,7 @@ items:
   source:
     id: GEM
     path: ''
-    startLine: 1253
+    startLine: 1262
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -294,7 +294,7 @@ items:
   source:
     id: POWERUP_SHIFT
     path: ''
-    startLine: 1257
+    startLine: 1266
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -324,7 +324,7 @@ items:
   source:
     id: POWERUP_D
     path: ''
-    startLine: 1261
+    startLine: 1270
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -354,7 +354,7 @@ items:
   source:
     id: POWERUP_M
     path: ''
-    startLine: 1265
+    startLine: 1274
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -384,7 +384,7 @@ items:
   source:
     id: POWERUP_K
     path: ''
-    startLine: 1269
+    startLine: 1278
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

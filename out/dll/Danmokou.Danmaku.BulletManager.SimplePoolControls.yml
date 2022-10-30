@@ -23,7 +23,7 @@ items:
   source:
     id: SimplePoolControls
     path: ''
-    startLine: 2081
+    startLine: 2088
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -63,7 +63,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 2088
+    startLine: 2095
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -96,7 +96,7 @@ items:
   source:
     id: CullRad
     path: ''
-    startLine: 2099
+    startLine: 2106
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -132,7 +132,7 @@ items:
   source:
     id: AllowCull
     path: ''
-    startLine: 2108
+    startLine: 2115
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -169,7 +169,7 @@ items:
   source:
     id: AllowDelete
     path: ''
-    startLine: 2116
+    startLine: 2123
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -204,7 +204,7 @@ items:
   source:
     id: SoftCullAll
     path: ''
-    startLine: 2125
+    startLine: 2132
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -241,7 +241,7 @@ items:
   source:
     id: Tint
     path: ''
-    startLine: 2140
+    startLine: 2147
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -276,7 +276,7 @@ items:
   source:
     id: Recolor
     path: ''
-    startLine: 2149
+    startLine: 2156
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -313,7 +313,7 @@ items:
   source:
     id: SortZ
     path: ''
-    startLine: 2155
+    startLine: 2162
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku

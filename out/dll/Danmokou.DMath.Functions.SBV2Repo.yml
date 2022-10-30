@@ -19,7 +19,7 @@ items:
   source:
     id: SBV2Repo
     path: ''
-    startLine: 9158
+    startLine: 9744
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -59,7 +59,7 @@ items:
   source:
     id: Loc
     path: ''
-    startLine: 9163
+    startLine: 9749
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -91,7 +91,7 @@ items:
   source:
     id: Dir
     path: ''
-    startLine: 9167
+    startLine: 9753
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -123,7 +123,7 @@ items:
   source:
     id: AccDelta
     path: ''
-    startLine: 9172
+    startLine: 9758
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -155,7 +155,7 @@ items:
   source:
     id: AccDeltaV3
     path: ''
-    startLine: 9177
+    startLine: 9763
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

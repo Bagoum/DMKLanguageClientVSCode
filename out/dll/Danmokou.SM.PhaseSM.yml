@@ -21,11 +21,11 @@ items:
   source:
     id: PhaseSM
     path: ''
-    startLine: 12825
+    startLine: 13450
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
-  summary: "\n`phase`: A high-level SM that controls a &quot;phase&quot;, which is a sequence of SMs that may run for variable time\nunder various ending conditions.\n<br />Phases are the basic unit for implementing cards or similar concepts.\n<br />Phases also generally share some state due to data hoisting, events, etc. If you use the `type` property to declare a card type, or you use the `clear` property, then this state and all bullets will be cleared on phase end.\n"
+  summary: "\n`phase`: A high-level SM that controls a &quot;phase&quot;, which is a sequence of SMs that may run for variable time\nunder various ending conditions.\n<br />Phases are used to implement &apos;cards&apos; or &apos;spells&apos; or &apos;nonspells&apos; in danmaku games.\n<br />Phases also generally share some state due to data hoisting, events, etc. If you use the `type` property to declare a card type, or you use the `clear` property, then this state and all its bullets will be cleared on phase end.\n"
   example: []
   syntax:
     content: 'public class PhaseSM : SequentialSM'
@@ -66,7 +66,7 @@ items:
   source:
     id: props
     path: ''
-    startLine: 12839
+    startLine: 13464
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -95,7 +95,7 @@ items:
   source:
     id: MakeContext
     path: ''
-    startLine: 12841
+    startLine: 13466
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -126,7 +126,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12849
+    startLine: 13474
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -167,7 +167,7 @@ items:
   source:
     id: PrePrepareBackgroundGraphics
     path: ''
-    startLine: 12881
+    startLine: 13506
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -203,7 +203,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 12961
+    startLine: 13586
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -237,7 +237,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 12962
+    startLine: 13587
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

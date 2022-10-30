@@ -27,7 +27,7 @@ items:
   source:
     id: ExMDifficulty
     path: ''
-    startLine: 11024
+    startLine: 11645
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -67,7 +67,7 @@ items:
   source:
     id: D
     path: ''
-    startLine: 11035
+    startLine: 11656
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -99,7 +99,7 @@ items:
   source:
     id: Dc
     path: ''
-    startLine: 11039
+    startLine: 11660
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -131,7 +131,7 @@ items:
   source:
     id: DcL
     path: ''
-    startLine: 11043
+    startLine: 11664
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -163,7 +163,7 @@ items:
   source:
     id: DN
     path: ''
-    startLine: 11048
+    startLine: 11669
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -195,7 +195,7 @@ items:
   source:
     id: DH
     path: ''
-    startLine: 11052
+    startLine: 11673
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -227,7 +227,7 @@ items:
   source:
     id: DL
     path: ''
-    startLine: 11056
+    startLine: 11677
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -259,7 +259,7 @@ items:
   source:
     id: D3d2
     path: ''
-    startLine: 11069
+    startLine: 11690
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -292,7 +292,7 @@ items:
   source:
     id: D3d1
     path: ''
-    startLine: 11076
+    startLine: 11697
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -325,7 +325,7 @@ items:
   source:
     id: MinRank
     path: ''
-    startLine: 11119
+    startLine: 11740
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -357,7 +357,7 @@ items:
   source:
     id: MaxRank
     path: ''
-    startLine: 11123
+    startLine: 11744
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -389,7 +389,7 @@ items:
   source:
     id: Rank
     path: ''
-    startLine: 11127
+    startLine: 11748
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -421,7 +421,7 @@ items:
   source:
     id: RankRatio
     path: ''
-    startLine: 11130
+    startLine: 11751
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

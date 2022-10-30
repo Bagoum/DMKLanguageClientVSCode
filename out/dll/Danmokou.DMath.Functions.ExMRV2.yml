@@ -27,7 +27,7 @@ items:
   source:
     id: ExMRV2
     path: ''
-    startLine: 7465
+    startLine: 8046
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -67,7 +67,7 @@ items:
   source:
     id: V2V3
     path: ''
-    startLine: 7473
+    startLine: 8054
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -107,7 +107,7 @@ items:
   source:
     id: V2V2F
     path: ''
-    startLine: 7486
+    startLine: 8067
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -150,7 +150,7 @@ items:
   source:
     id: NRot
     path: ''
-    startLine: 7499
+    startLine: 8080
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -193,7 +193,7 @@ items:
   source:
     id: Rot
     path: ''
-    startLine: 7508
+    startLine: 8089
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -236,7 +236,7 @@ items:
   source:
     id: NX
     path: ''
-    startLine: 7514
+    startLine: 8095
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -272,7 +272,7 @@ items:
   source:
     id: NY
     path: ''
-    startLine: 7519
+    startLine: 8100
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -308,7 +308,7 @@ items:
   source:
     id: RXY
     path: ''
-    startLine: 7526
+    startLine: 8107
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -348,7 +348,7 @@ items:
   source:
     id: RX
     path: ''
-    startLine: 7531
+    startLine: 8112
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -384,7 +384,7 @@ items:
   source:
     id: RY
     path: ''
-    startLine: 7536
+    startLine: 8117
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -420,7 +420,7 @@ items:
   source:
     id: Angle
     path: ''
-    startLine: 7541
+    startLine: 8122
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -456,7 +456,7 @@ items:
   source:
     id: AnglePhi
     path: ''
-    startLine: 7547
+    startLine: 8128
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -491,7 +491,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 7555
+    startLine: 8136
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

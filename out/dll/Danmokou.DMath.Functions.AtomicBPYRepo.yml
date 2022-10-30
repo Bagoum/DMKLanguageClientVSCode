@@ -39,7 +39,7 @@ items:
   source:
     id: AtomicBPYRepo
     path: ''
-    startLine: 7044
+    startLine: 7619
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -79,7 +79,7 @@ items:
   source:
     id: T
     path: ''
-    startLine: 7051
+    startLine: 7626
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -112,7 +112,7 @@ items:
   source:
     id: P
     path: ''
-    startLine: 7056
+    startLine: 7631
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -145,7 +145,7 @@ items:
   source:
     id: P1
     path: ''
-    startLine: 7061
+    startLine: 7636
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -178,7 +178,7 @@ items:
   source:
     id: P1M
     path: ''
-    startLine: 7066
+    startLine: 7641
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -214,7 +214,7 @@ items:
   source:
     id: P1Ma
     path: ''
-    startLine: 7068
+    startLine: 7643
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -250,7 +250,7 @@ items:
   source:
     id: P1Mf
     path: ''
-    startLine: 7070
+    startLine: 7645
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -283,7 +283,7 @@ items:
   source:
     id: P1Maf
     path: ''
-    startLine: 7072
+    startLine: 7647
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -319,7 +319,7 @@ items:
   source:
     id: P2
     path: ''
-    startLine: 7079
+    startLine: 7654
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -352,7 +352,7 @@ items:
   source:
     id: P2M
     path: ''
-    startLine: 7085
+    startLine: 7660
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -388,7 +388,7 @@ items:
   source:
     id: P2Ma
     path: ''
-    startLine: 7087
+    startLine: 7662
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -424,7 +424,7 @@ items:
   source:
     id: P2Mf
     path: ''
-    startLine: 7089
+    startLine: 7664
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -457,7 +457,7 @@ items:
   source:
     id: P2Maf
     path: ''
-    startLine: 7091
+    startLine: 7666
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -493,7 +493,7 @@ items:
   source:
     id: PM
     path: ''
-    startLine: 7097
+    startLine: 7672
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -531,7 +531,7 @@ items:
   source:
     id: PMa
     path: ''
-    startLine: 7099
+    startLine: 7674
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -569,7 +569,7 @@ items:
   source:
     id: PMf
     path: ''
-    startLine: 7101
+    startLine: 7676
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -604,7 +604,7 @@ items:
   source:
     id: PMaf
     path: ''
-    startLine: 7103
+    startLine: 7678
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -642,7 +642,7 @@ items:
   source:
     id: X
     path: ''
-    startLine: 7110
+    startLine: 7685
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -675,7 +675,7 @@ items:
   source:
     id: Y
     path: ''
-    startLine: 7115
+    startLine: 7690
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -708,7 +708,7 @@ items:
   source:
     id: Z
     path: ''
-    startLine: 7120
+    startLine: 7695
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -741,7 +741,7 @@ items:
   source:
     id: BRand
     path: ''
-    startLine: 7131
+    startLine: 7706
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -781,7 +781,7 @@ items:
   source:
     id: BRand2
     path: ''
-    startLine: 7139
+    startLine: 7714
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -821,7 +821,7 @@ items:
   source:
     id: BRand01
     path: ''
-    startLine: 7145
+    startLine: 7720
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -854,7 +854,7 @@ items:
   source:
     id: BRandpm1
     path: ''
-    startLine: 7151
+    startLine: 7726
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -887,7 +887,7 @@ items:
   source:
     id: Const
     path: ''
-    startLine: 7153
+    startLine: 7728
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

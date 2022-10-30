@@ -19,7 +19,7 @@ items:
   source:
     id: Facing
     path: ''
-    startLine: 1094
+    startLine: 1103
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -48,7 +48,7 @@ items:
   source:
     id: ORIGINAL
     path: ''
-    startLine: 1099
+    startLine: 1108
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -78,7 +78,7 @@ items:
   source:
     id: DEROT
     path: ''
-    startLine: 1103
+    startLine: 1112
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -108,7 +108,7 @@ items:
   source:
     id: VELOCITY
     path: ''
-    startLine: 1107
+    startLine: 1116
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -138,7 +138,7 @@ items:
   source:
     id: ROTVELOCITY
     path: ''
-    startLine: 1111
+    startLine: 1120
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

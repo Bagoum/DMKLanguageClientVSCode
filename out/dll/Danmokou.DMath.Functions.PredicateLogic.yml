@@ -20,7 +20,7 @@ items:
   source:
     id: PredicateLogic
     path: ''
-    startLine: 8196
+    startLine: 8779
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -60,7 +60,7 @@ items:
   source:
     id: OnlyOnce
     path: ''
-    startLine: 8204
+    startLine: 8787
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -97,7 +97,7 @@ items:
   source:
     id: RelCirc
     path: ''
-    startLine: 8223
+    startLine: 8806
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -137,7 +137,7 @@ items:
   source:
     id: Circ
     path: ''
-    startLine: 8234
+    startLine: 8817
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -174,7 +174,7 @@ items:
   source:
     id: RelRect
     path: ''
-    startLine: 8245
+    startLine: 8828
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -214,7 +214,7 @@ items:
   source:
     id: Rect
     path: ''
-    startLine: 8256
+    startLine: 8839
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

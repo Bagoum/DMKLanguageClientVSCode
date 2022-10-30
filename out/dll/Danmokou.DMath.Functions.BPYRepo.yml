@@ -14,6 +14,7 @@ items:
   - Danmokou.DMath.Functions.BPYRepo.LogsumShiftT3(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
   - Danmokou.DMath.Functions.BPYRepo.pDH
   - Danmokou.DMath.Functions.BPYRepo.pDL
+  - Danmokou.DMath.Functions.BPYRepo.pDN
   - Danmokou.DMath.Functions.BPYRepo.Pivot(ExBPY,ExBPY,ExBPY,ExBPY)
   - Danmokou.DMath.Functions.BPYRepo.Rehash(ExBPY)
   - Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
@@ -42,7 +43,7 @@ items:
   source:
     id: BPYRepo
     path: ''
-    startLine: 8100
+    startLine: 8681
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -82,7 +83,7 @@ items:
   source:
     id: Rehash
     path: ''
-    startLine: 7172
+    startLine: 7747
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -119,7 +120,7 @@ items:
   source:
     id: Pivot
     path: ''
-    startLine: 7181
+    startLine: 7756
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -160,7 +161,7 @@ items:
   source:
     id: SoftmaxShift
     path: ''
-    startLine: 7202
+    startLine: 7777
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -212,7 +213,7 @@ items:
   source:
     id: SoftmaxShiftT
     path: ''
-    startLine: 7204
+    startLine: 7779
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -251,7 +252,7 @@ items:
   source:
     id: SoftmaxShiftT3
     path: ''
-    startLine: 7206
+    startLine: 7781
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -296,7 +297,7 @@ items:
   source:
     id: LogsumShift
     path: ''
-    startLine: 7214
+    startLine: 7789
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -339,7 +340,7 @@ items:
   source:
     id: LogsumShiftT
     path: ''
-    startLine: 7220
+    startLine: 7795
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -380,7 +381,7 @@ items:
   source:
     id: LogsumShiftT3
     path: ''
-    startLine: 7225
+    startLine: 7800
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -427,7 +428,7 @@ items:
   source:
     id: LogsumShiftAT
     path: ''
-    startLine: 7231
+    startLine: 7806
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -468,7 +469,7 @@ items:
   source:
     id: StarRot1
     path: ''
-    startLine: 7237
+    startLine: 7812
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -500,7 +501,7 @@ items:
   source:
     id: StarRotB1
     path: ''
-    startLine: 7241
+    startLine: 7816
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -532,7 +533,7 @@ items:
   source:
     id: StarRot2
     path: ''
-    startLine: 7245
+    startLine: 7820
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -564,7 +565,7 @@ items:
   source:
     id: StarRotB2
     path: ''
-    startLine: 7249
+    startLine: 7824
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -596,7 +597,7 @@ items:
   source:
     id: StarRot3
     path: ''
-    startLine: 7253
+    startLine: 7828
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -628,7 +629,7 @@ items:
   source:
     id: StarRotB3
     path: ''
-    startLine: 7257
+    startLine: 7832
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -660,7 +661,7 @@ items:
   source:
     id: StarRot4
     path: ''
-    startLine: 7261
+    startLine: 7836
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -692,7 +693,7 @@ items:
   source:
     id: StarRotB4
     path: ''
-    startLine: 7265
+    startLine: 7840
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -724,7 +725,7 @@ items:
   source:
     id: DistTo
     path: ''
-    startLine: 7272
+    startLine: 7847
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -761,7 +762,7 @@ items:
   source:
     id: tDN
     path: ''
-    startLine: 7277
+    startLine: 7852
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -793,7 +794,7 @@ items:
   source:
     id: tDH
     path: ''
-    startLine: 7282
+    startLine: 7857
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -825,7 +826,7 @@ items:
   source:
     id: tDL
     path: ''
-    startLine: 7287
+    startLine: 7862
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -837,6 +838,38 @@ items:
       type: ExBPY
     content.vb: Public Shared Function tDL As ExBPY
   overload: Danmokou.DMath.Functions.BPYRepo.tDL*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.BPYRepo.pDN
+  commentId: M:Danmokou.DMath.Functions.BPYRepo.pDN
+  id: pDN
+  parent: Danmokou.DMath.Functions.BPYRepo
+  langs:
+  - csharp
+  - vb
+  name: pDN()
+  nameWithType: BPYRepo.pDN()
+  fullName: Danmokou.DMath.Functions.BPYRepo.pDN()
+  type: Method
+  source:
+    id: pDN
+    path: ''
+    startLine: 7867
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns P / DN.\n"
+  example: []
+  syntax:
+    content: public static ExBPY pDN()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function pDN As ExBPY
+  overload: Danmokou.DMath.Functions.BPYRepo.pDN*
   modifiers.csharp:
   - public
   - static
@@ -857,7 +890,7 @@ items:
   source:
     id: pDH
     path: ''
-    startLine: 7291
+    startLine: 7872
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -889,7 +922,7 @@ items:
   source:
     id: pDL
     path: ''
-    startLine: 7296
+    startLine: 7877
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -921,7 +954,7 @@ items:
   source:
     id: AngleToPlayer
     path: ''
-    startLine: 8106
+    startLine: 8687
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -953,7 +986,7 @@ items:
   source:
     id: AngleTo
     path: ''
-    startLine: 8110
+    startLine: 8691
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -988,7 +1021,7 @@ items:
   source:
     id: ToLR
     path: ''
-    startLine: 8115
+    startLine: 8696
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1023,7 +1056,7 @@ items:
   source:
     id: ToRL
     path: ''
-    startLine: 8120
+    startLine: 8701
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1470,6 +1503,11 @@ references:
   name: tDL
   nameWithType: BPYRepo.tDL
   fullName: Danmokou.DMath.Functions.BPYRepo.tDL
+- uid: Danmokou.DMath.Functions.BPYRepo.pDN*
+  commentId: Overload:Danmokou.DMath.Functions.BPYRepo.pDN
+  name: pDN
+  nameWithType: BPYRepo.pDN
+  fullName: Danmokou.DMath.Functions.BPYRepo.pDN
 - uid: Danmokou.DMath.Functions.BPYRepo.pDH*
   commentId: Overload:Danmokou.DMath.Functions.BPYRepo.pDH
   name: pDH

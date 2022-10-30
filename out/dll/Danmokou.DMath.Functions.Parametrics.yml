@@ -55,7 +55,7 @@ items:
   source:
     id: Parametrics
     path: ''
-    startLine: 8460
+    startLine: 9043
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -95,7 +95,7 @@ items:
   source:
     id: LNearestEnemy
     path: ''
-    startLine: 8125
+    startLine: 8706
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -125,7 +125,7 @@ items:
   source:
     id: LSaveNearestEnemy
     path: ''
-    startLine: 8134
+    startLine: 8717
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -155,7 +155,7 @@ items:
   source:
     id: goX
     path: ''
-    startLine: 8298
+    startLine: 8881
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -188,7 +188,7 @@ items:
   source:
     id: goY
     path: ''
-    startLine: 8299
+    startLine: 8882
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -221,7 +221,7 @@ items:
   source:
     id: goUp
     path: ''
-    startLine: 8300
+    startLine: 8883
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -251,7 +251,7 @@ items:
   source:
     id: goDown
     path: ''
-    startLine: 8301
+    startLine: 8884
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -281,7 +281,7 @@ items:
   source:
     id: goLeft
     path: ''
-    startLine: 8302
+    startLine: 8885
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -311,7 +311,7 @@ items:
   source:
     id: goRight
     path: ''
-    startLine: 8303
+    startLine: 8886
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -341,7 +341,7 @@ items:
   source:
     id: goSide
     path: ''
-    startLine: 8304
+    startLine: 8887
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -374,7 +374,7 @@ items:
   source:
     id: goOtherSide
     path: ''
-    startLine: 8305
+    startLine: 8888
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -407,7 +407,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 8468
+    startLine: 9051
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -439,7 +439,7 @@ items:
   source:
     id: CXY
     path: ''
-    startLine: 8478
+    startLine: 9061
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -479,7 +479,7 @@ items:
   source:
     id: CX
     path: ''
-    startLine: 8487
+    startLine: 9070
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -516,7 +516,7 @@ items:
   source:
     id: CY
     path: ''
-    startLine: 8496
+    startLine: 9079
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -553,7 +553,7 @@ items:
   source:
     id: CR
     path: ''
-    startLine: 8506
+    startLine: 9089
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -593,7 +593,7 @@ items:
   source:
     id: Divide
     path: ''
-    startLine: 8518
+    startLine: 9101
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -633,7 +633,7 @@ items:
   source:
     id: MultiplyX
     path: ''
-    startLine: 8532
+    startLine: 9115
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -673,7 +673,7 @@ items:
   source:
     id: MultiplyY
     path: ''
-    startLine: 8548
+    startLine: 9131
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -713,7 +713,7 @@ items:
   source:
     id: AddY
     path: ''
-    startLine: 8565
+    startLine: 9148
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -753,7 +753,7 @@ items:
   source:
     id: AddAtAngle
     path: ''
-    startLine: 8584
+    startLine: 9167
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -796,7 +796,7 @@ items:
   source:
     id: Loc
     path: ''
-    startLine: 8610
+    startLine: 9193
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -829,7 +829,7 @@ items:
   source:
     id: PXY
     path: ''
-    startLine: 8620
+    startLine: 9203
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -869,7 +869,7 @@ items:
   source:
     id: PX
     path: ''
-    startLine: 8624
+    startLine: 9207
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -904,7 +904,7 @@ items:
   source:
     id: PY
     path: ''
-    startLine: 8628
+    startLine: 9211
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -939,7 +939,7 @@ items:
   source:
     id: TP
     path: ''
-    startLine: 8633
+    startLine: 9216
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -974,7 +974,7 @@ items:
   source:
     id: VHome
     path: ''
-    startLine: 8657
+    startLine: 9240
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1015,7 +1015,7 @@ items:
   source:
     id: VHomeTime
     path: ''
-    startLine: 8671
+    startLine: 9254
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1055,7 +1055,7 @@ items:
   source:
     id: SSVHomeT
     path: ''
-    startLine: 8677
+    startLine: 9260
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1093,7 +1093,7 @@ items:
   source:
     id: EaseDVHomeT
     path: ''
-    startLine: 8683
+    startLine: 9266
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1135,7 +1135,7 @@ items:
   source:
     id: EaseToTarget
     path: ''
-    startLine: 8689
+    startLine: 9272
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1177,7 +1177,7 @@ items:
   source:
     id: Rotify
     path: ''
-    startLine: 8704
+    startLine: 9287
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1214,7 +1214,7 @@ items:
   source:
     id: RotateLerpPercent
     path: ''
-    startLine: 8741
+    startLine: 9324
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1258,7 +1258,7 @@ items:
   source:
     id: RotateLerpRate
     path: ''
-    startLine: 8755
+    startLine: 9338
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1302,7 +1302,7 @@ items:
   source:
     id: TrueRotateLerpPercent
     path: ''
-    startLine: 8772
+    startLine: 9355
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1346,7 +1346,7 @@ items:
   source:
     id: TrueRotateLerpRate
     path: ''
-    startLine: 8784
+    startLine: 9367
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1389,7 +1389,7 @@ items:
   source:
     id: LaserRotateLerp
     path: ''
-    startLine: 8788
+    startLine: 9371
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1426,7 +1426,7 @@ items:
   source:
     id: Switch
     path: ''
-    startLine: 8803
+    startLine: 9386
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1469,7 +1469,7 @@ items:
   source:
     id: Pivot
     path: ''
-    startLine: 8820
+    startLine: 9403
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1515,7 +1515,7 @@ items:
   source:
     id: LerpIn
     path: ''
-    startLine: 8835
+    startLine: 9418
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1558,7 +1558,7 @@ items:
   source:
     id: LerpOut
     path: ''
-    startLine: 8852
+    startLine: 9435
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

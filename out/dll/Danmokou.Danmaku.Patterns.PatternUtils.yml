@@ -18,7 +18,7 @@ items:
   source:
     id: PatternUtils
     path: ''
-    startLine: 4462
+    startLine: 4498
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -56,7 +56,7 @@ items:
   source:
     id: BRV2
     path: ''
-    startLine: 4463
+    startLine: 4499
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -89,7 +89,7 @@ items:
   source:
     id: RV2Zero
     path: ''
-    startLine: 4464
+    startLine: 4500
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -122,7 +122,7 @@ items:
   source:
     id: HV2
     path: ''
-    startLine: 4466
+    startLine: 4502
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

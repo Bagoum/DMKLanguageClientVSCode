@@ -20,7 +20,7 @@ items:
   source:
     id: LaserControls
     path: ''
-    startLine: 6105
+    startLine: 6141
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -60,7 +60,7 @@ items:
   source:
     id: FlipXGT
     path: ''
-    startLine: 6113
+    startLine: 6149
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -100,7 +100,7 @@ items:
   source:
     id: FlipXLT
     path: ''
-    startLine: 6129
+    startLine: 6165
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -140,7 +140,7 @@ items:
   source:
     id: FlipYGT
     path: ''
-    startLine: 6145
+    startLine: 6181
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -180,7 +180,7 @@ items:
   source:
     id: FlipYLT
     path: ''
-    startLine: 6161
+    startLine: 6197
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -220,7 +220,7 @@ items:
   source:
     id: SM
     path: ''
-    startLine: 6172
+    startLine: 6208
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics

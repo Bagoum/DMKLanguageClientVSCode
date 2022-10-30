@@ -42,7 +42,7 @@ items:
   source:
     id: MovementPatterns
     path: ''
-    startLine: 8308
+    startLine: 8891
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -80,7 +80,7 @@ items:
   source:
     id: "Null"
     path: ''
-    startLine: 8311
+    startLine: 8894
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -116,7 +116,7 @@ items:
   source:
     id: RVTP
     path: ''
-    startLine: 8312
+    startLine: 8895
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -154,7 +154,7 @@ items:
   source:
     id: th1
     path: ''
-    startLine: 8319
+    startLine: 8902
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -189,7 +189,7 @@ items:
   source:
     id: t21
     path: ''
-    startLine: 8321
+    startLine: 8904
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -224,7 +224,7 @@ items:
   source:
     id: DipUp1
     path: ''
-    startLine: 8345
+    startLine: 8928
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -259,7 +259,7 @@ items:
   source:
     id: DipUp2
     path: ''
-    startLine: 8351
+    startLine: 8934
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -294,7 +294,7 @@ items:
   source:
     id: DipUp3
     path: ''
-    startLine: 8357
+    startLine: 8940
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -329,7 +329,7 @@ items:
   source:
     id: Cross1
     path: ''
-    startLine: 8363
+    startLine: 8946
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -373,7 +373,7 @@ items:
   source:
     id: CrossUp
     path: ''
-    startLine: 8372
+    startLine: 8955
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -408,7 +408,7 @@ items:
   source:
     id: CrossDown
     path: ''
-    startLine: 8374
+    startLine: 8957
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -443,7 +443,7 @@ items:
   source:
     id: CrossUp2
     path: ''
-    startLine: 8376
+    startLine: 8959
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -478,7 +478,7 @@ items:
   source:
     id: CrossDown2
     path: ''
-    startLine: 8378
+    startLine: 8961
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -513,7 +513,7 @@ items:
   source:
     id: CrossDownLoopBack
     path: ''
-    startLine: 8383
+    startLine: 8966
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -548,7 +548,7 @@ items:
   source:
     id: CircDown
     path: ''
-    startLine: 8391
+    startLine: 8974
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -583,7 +583,7 @@ items:
   source:
     id: CornerLoop
     path: ''
-    startLine: 8396
+    startLine: 8979
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -618,7 +618,7 @@ items:
   source:
     id: CircDown2L
     path: ''
-    startLine: 8403
+    startLine: 8986
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -651,7 +651,7 @@ items:
   source:
     id: CircDown2R
     path: ''
-    startLine: 8405
+    startLine: 8988
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -684,7 +684,7 @@ items:
   source:
     id: BendDownHL
     path: ''
-    startLine: 8408
+    startLine: 8991
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -717,7 +717,7 @@ items:
   source:
     id: BendDownHR
     path: ''
-    startLine: 8411
+    startLine: 8994
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -750,7 +750,7 @@ items:
   source:
     id: BendUpL
     path: ''
-    startLine: 8414
+    startLine: 8997
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -783,7 +783,7 @@ items:
   source:
     id: BendUpR
     path: ''
-    startLine: 8416
+    startLine: 8999
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -816,7 +816,7 @@ items:
   source:
     id: CornerL
     path: ''
-    startLine: 8419
+    startLine: 9002
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -849,7 +849,7 @@ items:
   source:
     id: CornerR
     path: ''
-    startLine: 8422
+    startLine: 9005
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -882,7 +882,7 @@ items:
   source:
     id: Up
     path: ''
-    startLine: 8427
+    startLine: 9010
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -915,7 +915,7 @@ items:
   source:
     id: Down
     path: ''
-    startLine: 8428
+    startLine: 9011
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -948,7 +948,7 @@ items:
   source:
     id: AcrossL
     path: ''
-    startLine: 8430
+    startLine: 9013
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -981,7 +981,7 @@ items:
   source:
     id: AcrossR
     path: ''
-    startLine: 8431
+    startLine: 9014
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

@@ -34,7 +34,7 @@ items:
   source:
     id: ExMPred
     path: ''
-    startLine: 7996
+    startLine: 8577
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -74,7 +74,7 @@ items:
   source:
     id: "True"
     path: ''
-    startLine: 7327
+    startLine: 7908
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -107,7 +107,7 @@ items:
   source:
     id: "False"
     path: ''
-    startLine: 7333
+    startLine: 7914
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -140,7 +140,7 @@ items:
   source:
     id: Not
     path: ''
-    startLine: 7339
+    startLine: 7920
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -175,7 +175,7 @@ items:
   source:
     id: And
     path: ''
-    startLine: 7346
+    startLine: 7927
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -215,7 +215,7 @@ items:
   source:
     id: Or
     path: ''
-    startLine: 7356
+    startLine: 7937
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -255,7 +255,7 @@ items:
   source:
     id: Eq
     path: ''
-    startLine: 7364
+    startLine: 7945
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -292,7 +292,7 @@ items:
   source:
     id: Neq
     path: ''
-    startLine: 7370
+    startLine: 7951
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -329,7 +329,7 @@ items:
   source:
     id: Gt
     path: ''
-    startLine: 7380
+    startLine: 7961
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -369,7 +369,7 @@ items:
   source:
     id: Geq
     path: ''
-    startLine: 7390
+    startLine: 7971
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -409,7 +409,7 @@ items:
   source:
     id: Lt
     path: ''
-    startLine: 7400
+    startLine: 7981
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -449,7 +449,7 @@ items:
   source:
     id: Leq
     path: ''
-    startLine: 7410
+    startLine: 7991
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -489,7 +489,7 @@ items:
   source:
     id: In
     path: ''
-    startLine: 7421
+    startLine: 8002
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -532,7 +532,7 @@ items:
   source:
     id: DivBy
     path: ''
-    startLine: 7433
+    startLine: 8014
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -567,7 +567,7 @@ items:
   source:
     id: Even
     path: ''
-    startLine: 7437
+    startLine: 8018
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -602,7 +602,7 @@ items:
   source:
     id: Odd
     path: ''
-    startLine: 7441
+    startLine: 8022
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -637,7 +637,7 @@ items:
   source:
     id: OnScreen
     path: ''
-    startLine: 8002
+    startLine: 8583
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -677,7 +677,7 @@ items:
   source:
     id: OnScreenBy
     path: ''
-    startLine: 8010
+    startLine: 8591
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -717,7 +717,7 @@ items:
   source:
     id: OffScreen
     path: ''
-    startLine: 8019
+    startLine: 8600
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -755,7 +755,7 @@ items:
   source:
     id: OffScreenBy
     path: ''
-    startLine: 8024
+    startLine: 8605
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

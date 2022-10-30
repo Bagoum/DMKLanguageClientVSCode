@@ -1,0 +1,3248 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.PICustomData
+  commentId: T:Danmokou.DMath.PICustomData
+  id: PICustomData
+  parent: Danmokou.DMath
+  children:
+  - Danmokou.DMath.PICustomData.boundFloats
+  - Danmokou.DMath.PICustomData.boundInts
+  - Danmokou.DMath.PICustomData.boundRV2s
+  - Danmokou.DMath.PICustomData.boundV2s
+  - Danmokou.DMath.PICustomData.boundV3s
+  - Danmokou.DMath.PICustomData.Clone
+  - Danmokou.DMath.PICustomData.ContainsDynamic(TExArgCtx,System.Type,System.String)
+  - Danmokou.DMath.PICustomData.ContainsDynamic``1(TExArgCtx,System.String)
+  - Danmokou.DMath.PICustomData.CopyInto(Danmokou.DMath.PICustomData)
+  - Danmokou.DMath.PICustomData.CopyIntoVirtual(Danmokou.DMath.PICustomData)
+  - Danmokou.DMath.PICustomData.culledBulletTime
+  - Danmokou.DMath.PICustomData.Dispose
+  - Danmokou.DMath.PICustomData.Empty
+  - Danmokou.DMath.PICustomData.firer
+  - Danmokou.DMath.PICustomData.GetDict(Expression,System.Type)
+  - Danmokou.DMath.PICustomData.GetDynamicKey(System.Type,System.String)
+  - Danmokou.DMath.PICustomData.GetIfDefined``1(TExArgCtx,System.String,TEx{``0})
+  - Danmokou.DMath.PICustomData.GetValue(TExArgCtx,System.Type,System.String)
+  - Danmokou.DMath.PICustomData.GetValue``1(TExArgCtx,System.String)
+  - Danmokou.DMath.PICustomData.GetValueDynamic(TExArgCtx,System.Type,System.String)
+  - Danmokou.DMath.PICustomData.GetValueDynamic``1(TExArgCtx,System.String,System.Nullable{TEx{``0}})
+  - Danmokou.DMath.PICustomData.HasFloat(System.Int32)
+  - Danmokou.DMath.PICustomData.HasInt(System.Int32)
+  - Danmokou.DMath.PICustomData.HasV2RV2(System.Int32)
+  - Danmokou.DMath.PICustomData.HasVector2(System.Int32)
+  - Danmokou.DMath.PICustomData.HasVector3(System.Int32)
+  - Danmokou.DMath.PICustomData.laserController
+  - Danmokou.DMath.PICustomData.LaserController
+  - Danmokou.DMath.PICustomData.New(System.Nullable{GenCtx})
+  - Danmokou.DMath.PICustomData.OptionFirer
+  - Danmokou.DMath.PICustomData.playerBullet
+  - Danmokou.DMath.PICustomData.playerController
+  - Danmokou.DMath.PICustomData.PlayerController
+  - Danmokou.DMath.PICustomData.ReadFloat(System.Int32)
+  - Danmokou.DMath.PICustomData.ReadInt(System.Int32)
+  - Danmokou.DMath.PICustomData.ReadV2RV2(System.Int32)
+  - Danmokou.DMath.PICustomData.ReadVector2(System.Int32)
+  - Danmokou.DMath.PICustomData.ReadVector3(System.Int32)
+  - Danmokou.DMath.PICustomData.RevertToGCX(BehaviorEntity)
+  - Danmokou.DMath.PICustomData.SetValue(TExArgCtx,System.Type,System.String,Ex)
+  - Danmokou.DMath.PICustomData.SetValue``1(TExArgCtx,System.String,Ex)
+  - Danmokou.DMath.PICustomData.SetValueDynamic(TExArgCtx,System.Type,System.String,Expression)
+  - Danmokou.DMath.PICustomData.SetValueDynamic``1(TExArgCtx,System.String,Expression)
+  - Danmokou.DMath.PICustomData.typeIndex
+  - Danmokou.DMath.PICustomData.UploadAdd(IList{System.ValueTuple{System.Type,System.String}},GenCtx)
+  - Danmokou.DMath.PICustomData.UploadWrite(System.Type,System.String,GenCtx,System.Boolean)
+  - Danmokou.DMath.PICustomData.WriteFloat(System.Int32,System.Single)
+  - Danmokou.DMath.PICustomData.WriteInt(System.Int32,System.Int32)
+  - Danmokou.DMath.PICustomData.WriteV2RV2(System.Int32,V2RV2)
+  - Danmokou.DMath.PICustomData.WriteVector2(System.Int32,Vector2)
+  - Danmokou.DMath.PICustomData.WriteVector3(System.Int32,Vector3)
+  langs:
+  - csharp
+  - vb
+  name: PICustomData
+  nameWithType: PICustomData
+  fullName: Danmokou.DMath.PICustomData
+  type: Class
+  source:
+    id: PICustomData
+    path: ''
+    startLine: 6400
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nDMK v10 replacement for FiringCtx. This class is subclassed via runtime MSIL generation to\nprovide efficient lookup of arbitrary fields.\n"
+  example: []
+  syntax:
+    content: public class PICustomData
+    content.vb: Public Class PICustomData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.DMath.PICustomData.Empty
+  commentId: F:Danmokou.DMath.PICustomData.Empty
+  id: Empty
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: PICustomData.Empty
+  fullName: Danmokou.DMath.PICustomData.Empty
+  type: Field
+  source:
+    id: Empty
+    path: ''
+    startLine: 6401
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static readonly PICustomData Empty
+    return:
+      type: Danmokou.DMath.PICustomData
+    content.vb: Public Shared ReadOnly Empty As PICustomData
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.GetDynamicKey(System.Type,System.String)
+  commentId: M:Danmokou.DMath.PICustomData.GetDynamicKey(System.Type,System.String)
+  id: GetDynamicKey(System.Type,System.String)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: GetDynamicKey(Type, String)
+  nameWithType: PICustomData.GetDynamicKey(Type, String)
+  fullName: Danmokou.DMath.PICustomData.GetDynamicKey(System.Type, System.String)
+  type: Method
+  source:
+    id: GetDynamicKey
+    path: ''
+    startLine: 6404
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static int GetDynamicKey(Type t, string name)
+    parameters:
+    - id: t
+      type: System.Type
+    - id: name
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetDynamicKey(t As Type, name As String) As Integer
+  overload: Danmokou.DMath.PICustomData.GetDynamicKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.PICustomData.typeIndex
+  commentId: F:Danmokou.DMath.PICustomData.typeIndex
+  id: typeIndex
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: typeIndex
+  nameWithType: PICustomData.typeIndex
+  fullName: Danmokou.DMath.PICustomData.typeIndex
+  type: Field
+  source:
+    id: typeIndex
+    path: ''
+    startLine: 6407
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public int typeIndex
+    return:
+      type: System.Int32
+    content.vb: Public typeIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.culledBulletTime
+  commentId: F:Danmokou.DMath.PICustomData.culledBulletTime
+  id: culledBulletTime
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: culledBulletTime
+  nameWithType: PICustomData.culledBulletTime
+  fullName: Danmokou.DMath.PICustomData.culledBulletTime
+  type: Field
+  source:
+    id: culledBulletTime
+    path: ''
+    startLine: 6411
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public float culledBulletTime
+    return:
+      type: System.Single
+    content.vb: Public culledBulletTime As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.boundInts
+  commentId: F:Danmokou.DMath.PICustomData.boundInts
+  id: boundInts
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: boundInts
+  nameWithType: PICustomData.boundInts
+  fullName: Danmokou.DMath.PICustomData.boundInts
+  type: Field
+  source:
+    id: boundInts
+    path: ''
+    startLine: 6415
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, int> boundInts
+    return:
+      type: Dictionary{System.Int32,System.Int32}
+    content.vb: Public ReadOnly boundInts As Dictionary(Of Integer, Integer)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.boundFloats
+  commentId: F:Danmokou.DMath.PICustomData.boundFloats
+  id: boundFloats
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: boundFloats
+  nameWithType: PICustomData.boundFloats
+  fullName: Danmokou.DMath.PICustomData.boundFloats
+  type: Field
+  source:
+    id: boundFloats
+    path: ''
+    startLine: 6416
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, float> boundFloats
+    return:
+      type: Dictionary{System.Int32,System.Single}
+    content.vb: Public ReadOnly boundFloats As Dictionary(Of Integer, Single)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.boundV2s
+  commentId: F:Danmokou.DMath.PICustomData.boundV2s
+  id: boundV2s
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: boundV2s
+  nameWithType: PICustomData.boundV2s
+  fullName: Danmokou.DMath.PICustomData.boundV2s
+  type: Field
+  source:
+    id: boundV2s
+    path: ''
+    startLine: 6417
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, Vector2> boundV2s
+    return:
+      type: Dictionary{System.Int32,Vector2}
+    content.vb: Public ReadOnly boundV2s As Dictionary(Of Integer, Vector2)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.boundV3s
+  commentId: F:Danmokou.DMath.PICustomData.boundV3s
+  id: boundV3s
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: boundV3s
+  nameWithType: PICustomData.boundV3s
+  fullName: Danmokou.DMath.PICustomData.boundV3s
+  type: Field
+  source:
+    id: boundV3s
+    path: ''
+    startLine: 6418
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, Vector3> boundV3s
+    return:
+      type: Dictionary{System.Int32,Vector3}
+    content.vb: Public ReadOnly boundV3s As Dictionary(Of Integer, Vector3)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.boundRV2s
+  commentId: F:Danmokou.DMath.PICustomData.boundRV2s
+  id: boundRV2s
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: boundRV2s
+  nameWithType: PICustomData.boundRV2s
+  fullName: Danmokou.DMath.PICustomData.boundRV2s
+  type: Field
+  source:
+    id: boundRV2s
+    path: ''
+    startLine: 6419
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly Dictionary<int, V2RV2> boundRV2s
+    return:
+      type: Dictionary{System.Int32,V2RV2}
+    content.vb: Public ReadOnly boundRV2s As Dictionary(Of Integer, V2RV2)
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.firer
+  commentId: F:Danmokou.DMath.PICustomData.firer
+  id: firer
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: firer
+  nameWithType: PICustomData.firer
+  fullName: Danmokou.DMath.PICustomData.firer
+  type: Field
+  source:
+    id: firer
+    path: ''
+    startLine: 6421
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public BehaviorEntity? firer
+    return:
+      type: System.Nullable{BehaviorEntity}
+    content.vb: Public firer As BehaviorEntity?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.playerController
+  commentId: F:Danmokou.DMath.PICustomData.playerController
+  id: playerController
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: playerController
+  nameWithType: PICustomData.playerController
+  fullName: Danmokou.DMath.PICustomData.playerController
+  type: Field
+  source:
+    id: playerController
+    path: ''
+    startLine: 6423
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public PlayerController? playerController
+    return:
+      type: System.Nullable{PlayerController}
+    content.vb: Public playerController As PlayerController?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.PlayerController
+  commentId: P:Danmokou.DMath.PICustomData.PlayerController
+  id: PlayerController
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: PlayerController
+  nameWithType: PICustomData.PlayerController
+  fullName: Danmokou.DMath.PICustomData.PlayerController
+  type: Property
+  source:
+    id: PlayerController
+    path: ''
+    startLine: 6424
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public PlayerController PlayerController { get; }
+    parameters: []
+    return:
+      type: PlayerController
+    content.vb: Public ReadOnly Property PlayerController As PlayerController
+  overload: Danmokou.DMath.PICustomData.PlayerController*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.OptionFirer
+  commentId: P:Danmokou.DMath.PICustomData.OptionFirer
+  id: OptionFirer
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: OptionFirer
+  nameWithType: PICustomData.OptionFirer
+  fullName: Danmokou.DMath.PICustomData.OptionFirer
+  type: Property
+  source:
+    id: OptionFirer
+    path: ''
+    startLine: 6431
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public FireOption OptionFirer { get; }
+    parameters: []
+    return:
+      type: FireOption
+    content.vb: Public ReadOnly Property OptionFirer As FireOption
+  overload: Danmokou.DMath.PICustomData.OptionFirer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.laserController
+  commentId: F:Danmokou.DMath.PICustomData.laserController
+  id: laserController
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: laserController
+  nameWithType: PICustomData.laserController
+  fullName: Danmokou.DMath.PICustomData.laserController
+  type: Field
+  source:
+    id: laserController
+    path: ''
+    startLine: 6440
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public CurvedTileRenderLaser? laserController
+    return:
+      type: System.Nullable{CurvedTileRenderLaser}
+    content.vb: Public laserController As CurvedTileRenderLaser?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.LaserController
+  commentId: P:Danmokou.DMath.PICustomData.LaserController
+  id: LaserController
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: LaserController
+  nameWithType: PICustomData.LaserController
+  fullName: Danmokou.DMath.PICustomData.LaserController
+  type: Property
+  source:
+    id: LaserController
+    path: ''
+    startLine: 6441
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public CurvedTileRenderLaser LaserController { get; }
+    parameters: []
+    return:
+      type: CurvedTileRenderLaser
+    content.vb: Public ReadOnly Property LaserController As CurvedTileRenderLaser
+  overload: Danmokou.DMath.PICustomData.LaserController*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Danmokou.DMath.PICustomData.playerBullet
+  commentId: F:Danmokou.DMath.PICustomData.playerBullet
+  id: playerBullet
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: playerBullet
+  nameWithType: PICustomData.playerBullet
+  fullName: Danmokou.DMath.PICustomData.playerBullet
+  type: Field
+  source:
+    id: playerBullet
+    path: ''
+    startLine: 6444
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public PlayerBullet? playerBullet
+    return:
+      type: System.Nullable{PlayerBullet}
+    content.vb: Public playerBullet As PlayerBullet?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.CopyInto(Danmokou.DMath.PICustomData)
+  commentId: M:Danmokou.DMath.PICustomData.CopyInto(Danmokou.DMath.PICustomData)
+  id: CopyInto(Danmokou.DMath.PICustomData)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: CopyInto(PICustomData)
+  nameWithType: PICustomData.CopyInto(PICustomData)
+  fullName: Danmokou.DMath.PICustomData.CopyInto(Danmokou.DMath.PICustomData)
+  type: Method
+  source:
+    id: CopyInto
+    path: ''
+    startLine: 6450
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nCopy this object&apos;s variables into another object of the same type.\n<br />Not virtual, so only this class&apos; variables are copied.\n"
+  example: []
+  syntax:
+    content: public PICustomData CopyInto(PICustomData copyee)
+    parameters:
+    - id: copyee
+      type: Danmokou.DMath.PICustomData
+    return:
+      type: Danmokou.DMath.PICustomData
+    content.vb: Public Function CopyInto(copyee As PICustomData) As PICustomData
+  overload: Danmokou.DMath.PICustomData.CopyInto*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.CopyIntoVirtual(Danmokou.DMath.PICustomData)
+  commentId: M:Danmokou.DMath.PICustomData.CopyIntoVirtual(Danmokou.DMath.PICustomData)
+  id: CopyIntoVirtual(Danmokou.DMath.PICustomData)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: CopyIntoVirtual(PICustomData)
+  nameWithType: PICustomData.CopyIntoVirtual(PICustomData)
+  fullName: Danmokou.DMath.PICustomData.CopyIntoVirtual(Danmokou.DMath.PICustomData)
+  type: Method
+  source:
+    id: CopyIntoVirtual
+    path: ''
+    startLine: 6470
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nCopy this object&apos;s variables into another object of the same type.\n<br />Virtual, so subclasses should implement this by casting the argument to their own type\nand then calling their own <xref href=\"Danmokou.DMath.PICustomData.CopyInto(Danmokou.DMath.PICustomData)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public virtual PICustomData CopyIntoVirtual(PICustomData copyee)
+    parameters:
+    - id: copyee
+      type: Danmokou.DMath.PICustomData
+    return:
+      type: Danmokou.DMath.PICustomData
+    content.vb: Public Overridable Function CopyIntoVirtual(copyee As PICustomData) As PICustomData
+  overload: Danmokou.DMath.PICustomData.CopyIntoVirtual*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.Clone
+  commentId: M:Danmokou.DMath.PICustomData.Clone
+  id: Clone
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: PICustomData.Clone()
+  fullName: Danmokou.DMath.PICustomData.Clone()
+  type: Method
+  source:
+    id: Clone
+    path: ''
+    startLine: 6472
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual PICustomData Clone()
+    return:
+      type: Danmokou.DMath.PICustomData
+    content.vb: Public Overridable Function Clone As PICustomData
+  overload: Danmokou.DMath.PICustomData.Clone*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.HasFloat(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.HasFloat(System.Int32)
+  id: HasFloat(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: HasFloat(Int32)
+  nameWithType: PICustomData.HasFloat(Int32)
+  fullName: Danmokou.DMath.PICustomData.HasFloat(System.Int32)
+  type: Method
+  source:
+    id: HasFloat
+    path: ''
+    startLine: 6474
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual bool HasFloat(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function HasFloat(id As Integer) As Boolean
+  overload: Danmokou.DMath.PICustomData.HasFloat*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.HasInt(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.HasInt(System.Int32)
+  id: HasInt(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: HasInt(Int32)
+  nameWithType: PICustomData.HasInt(Int32)
+  fullName: Danmokou.DMath.PICustomData.HasInt(System.Int32)
+  type: Method
+  source:
+    id: HasInt
+    path: ''
+    startLine: 6476
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual bool HasInt(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function HasInt(id As Integer) As Boolean
+  overload: Danmokou.DMath.PICustomData.HasInt*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.HasVector2(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.HasVector2(System.Int32)
+  id: HasVector2(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: HasVector2(Int32)
+  nameWithType: PICustomData.HasVector2(Int32)
+  fullName: Danmokou.DMath.PICustomData.HasVector2(System.Int32)
+  type: Method
+  source:
+    id: HasVector2
+    path: ''
+    startLine: 6478
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual bool HasVector2(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function HasVector2(id As Integer) As Boolean
+  overload: Danmokou.DMath.PICustomData.HasVector2*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.HasVector3(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.HasVector3(System.Int32)
+  id: HasVector3(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: HasVector3(Int32)
+  nameWithType: PICustomData.HasVector3(Int32)
+  fullName: Danmokou.DMath.PICustomData.HasVector3(System.Int32)
+  type: Method
+  source:
+    id: HasVector3
+    path: ''
+    startLine: 6480
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual bool HasVector3(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function HasVector3(id As Integer) As Boolean
+  overload: Danmokou.DMath.PICustomData.HasVector3*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.HasV2RV2(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.HasV2RV2(System.Int32)
+  id: HasV2RV2(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: HasV2RV2(Int32)
+  nameWithType: PICustomData.HasV2RV2(Int32)
+  fullName: Danmokou.DMath.PICustomData.HasV2RV2(System.Int32)
+  type: Method
+  source:
+    id: HasV2RV2
+    path: ''
+    startLine: 6482
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual bool HasV2RV2(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function HasV2RV2(id As Integer) As Boolean
+  overload: Danmokou.DMath.PICustomData.HasV2RV2*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.ReadFloat(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.ReadFloat(System.Int32)
+  id: ReadFloat(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: ReadFloat(Int32)
+  nameWithType: PICustomData.ReadFloat(Int32)
+  fullName: Danmokou.DMath.PICustomData.ReadFloat(System.Int32)
+  type: Method
+  source:
+    id: ReadFloat
+    path: ''
+    startLine: 6484
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual float ReadFloat(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function ReadFloat(id As Integer) As Single
+  overload: Danmokou.DMath.PICustomData.ReadFloat*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.ReadInt(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.ReadInt(System.Int32)
+  id: ReadInt(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: ReadInt(Int32)
+  nameWithType: PICustomData.ReadInt(Int32)
+  fullName: Danmokou.DMath.PICustomData.ReadInt(System.Int32)
+  type: Method
+  source:
+    id: ReadInt
+    path: ''
+    startLine: 6487
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual int ReadInt(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Function ReadInt(id As Integer) As Integer
+  overload: Danmokou.DMath.PICustomData.ReadInt*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.ReadVector2(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.ReadVector2(System.Int32)
+  id: ReadVector2(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: ReadVector2(Int32)
+  nameWithType: PICustomData.ReadVector2(Int32)
+  fullName: Danmokou.DMath.PICustomData.ReadVector2(System.Int32)
+  type: Method
+  source:
+    id: ReadVector2
+    path: ''
+    startLine: 6490
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual Vector2 ReadVector2(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Vector2
+    content.vb: Public Overridable Function ReadVector2(id As Integer) As Vector2
+  overload: Danmokou.DMath.PICustomData.ReadVector2*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.ReadVector3(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.ReadVector3(System.Int32)
+  id: ReadVector3(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: ReadVector3(Int32)
+  nameWithType: PICustomData.ReadVector3(Int32)
+  fullName: Danmokou.DMath.PICustomData.ReadVector3(System.Int32)
+  type: Method
+  source:
+    id: ReadVector3
+    path: ''
+    startLine: 6493
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual Vector3 ReadVector3(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Vector3
+    content.vb: Public Overridable Function ReadVector3(id As Integer) As Vector3
+  overload: Danmokou.DMath.PICustomData.ReadVector3*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.ReadV2RV2(System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.ReadV2RV2(System.Int32)
+  id: ReadV2RV2(System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: ReadV2RV2(Int32)
+  nameWithType: PICustomData.ReadV2RV2(Int32)
+  fullName: Danmokou.DMath.PICustomData.ReadV2RV2(System.Int32)
+  type: Method
+  source:
+    id: ReadV2RV2
+    path: ''
+    startLine: 6496
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual V2RV2 ReadV2RV2(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: V2RV2
+    content.vb: Public Overridable Function ReadV2RV2(id As Integer) As V2RV2
+  overload: Danmokou.DMath.PICustomData.ReadV2RV2*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.WriteFloat(System.Int32,System.Single)
+  commentId: M:Danmokou.DMath.PICustomData.WriteFloat(System.Int32,System.Single)
+  id: WriteFloat(System.Int32,System.Single)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: WriteFloat(Int32, Single)
+  nameWithType: PICustomData.WriteFloat(Int32, Single)
+  fullName: Danmokou.DMath.PICustomData.WriteFloat(System.Int32, System.Single)
+  type: Method
+  source:
+    id: WriteFloat
+    path: ''
+    startLine: 6500
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual float WriteFloat(int id, float val)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: val
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function WriteFloat(id As Integer, val As Single) As Single
+  overload: Danmokou.DMath.PICustomData.WriteFloat*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.WriteInt(System.Int32,System.Int32)
+  commentId: M:Danmokou.DMath.PICustomData.WriteInt(System.Int32,System.Int32)
+  id: WriteInt(System.Int32,System.Int32)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: WriteInt(Int32, Int32)
+  nameWithType: PICustomData.WriteInt(Int32, Int32)
+  fullName: Danmokou.DMath.PICustomData.WriteInt(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: WriteInt
+    path: ''
+    startLine: 6503
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual int WriteInt(int id, int val)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: val
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Function WriteInt(id As Integer, val As Integer) As Integer
+  overload: Danmokou.DMath.PICustomData.WriteInt*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.WriteVector2(System.Int32,Vector2)
+  commentId: M:Danmokou.DMath.PICustomData.WriteVector2(System.Int32,Vector2)
+  id: WriteVector2(System.Int32,Vector2)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: WriteVector2(Int32, Vector2)
+  nameWithType: PICustomData.WriteVector2(Int32, Vector2)
+  fullName: Danmokou.DMath.PICustomData.WriteVector2(System.Int32, Vector2)
+  type: Method
+  source:
+    id: WriteVector2
+    path: ''
+    startLine: 6506
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual Vector2 WriteVector2(int id, Vector2 val)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: val
+      type: Vector2
+    return:
+      type: Vector2
+    content.vb: Public Overridable Function WriteVector2(id As Integer, val As Vector2) As Vector2
+  overload: Danmokou.DMath.PICustomData.WriteVector2*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.WriteVector3(System.Int32,Vector3)
+  commentId: M:Danmokou.DMath.PICustomData.WriteVector3(System.Int32,Vector3)
+  id: WriteVector3(System.Int32,Vector3)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: WriteVector3(Int32, Vector3)
+  nameWithType: PICustomData.WriteVector3(Int32, Vector3)
+  fullName: Danmokou.DMath.PICustomData.WriteVector3(System.Int32, Vector3)
+  type: Method
+  source:
+    id: WriteVector3
+    path: ''
+    startLine: 6509
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual Vector3 WriteVector3(int id, Vector3 val)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: val
+      type: Vector3
+    return:
+      type: Vector3
+    content.vb: Public Overridable Function WriteVector3(id As Integer, val As Vector3) As Vector3
+  overload: Danmokou.DMath.PICustomData.WriteVector3*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.WriteV2RV2(System.Int32,V2RV2)
+  commentId: M:Danmokou.DMath.PICustomData.WriteV2RV2(System.Int32,V2RV2)
+  id: WriteV2RV2(System.Int32,V2RV2)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: WriteV2RV2(Int32, V2RV2)
+  nameWithType: PICustomData.WriteV2RV2(Int32, V2RV2)
+  fullName: Danmokou.DMath.PICustomData.WriteV2RV2(System.Int32, V2RV2)
+  type: Method
+  source:
+    id: WriteV2RV2
+    path: ''
+    startLine: 6512
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public virtual V2RV2 WriteV2RV2(int id, V2RV2 val)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: val
+      type: V2RV2
+    return:
+      type: V2RV2
+    content.vb: Public Overridable Function WriteV2RV2(id As Integer, val As V2RV2) As V2RV2
+  overload: Danmokou.DMath.PICustomData.WriteV2RV2*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Danmokou.DMath.PICustomData.RevertToGCX(BehaviorEntity)
+  commentId: M:Danmokou.DMath.PICustomData.RevertToGCX(BehaviorEntity)
+  id: RevertToGCX(BehaviorEntity)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: RevertToGCX(BehaviorEntity)
+  nameWithType: PICustomData.RevertToGCX(BehaviorEntity)
+  fullName: Danmokou.DMath.PICustomData.RevertToGCX(BehaviorEntity)
+  type: Method
+  source:
+    id: RevertToGCX
+    path: ''
+    startLine: 6516
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public GenCtx RevertToGCX(BehaviorEntity exec)
+    parameters:
+    - id: exec
+      type: BehaviorEntity
+    return:
+      type: GenCtx
+    content.vb: Public Function RevertToGCX(exec As BehaviorEntity) As GenCtx
+  overload: Danmokou.DMath.PICustomData.RevertToGCX*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.Dispose
+  commentId: M:Danmokou.DMath.PICustomData.Dispose
+  id: Dispose
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: PICustomData.Dispose()
+  fullName: Danmokou.DMath.PICustomData.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 6543
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Danmokou.DMath.PICustomData.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.UploadWrite(System.Type,System.String,GenCtx,System.Boolean)
+  commentId: M:Danmokou.DMath.PICustomData.UploadWrite(System.Type,System.String,GenCtx,System.Boolean)
+  id: UploadWrite(System.Type,System.String,GenCtx,System.Boolean)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: UploadWrite(Type, String, GenCtx, Boolean)
+  nameWithType: PICustomData.UploadWrite(Type, String, GenCtx, Boolean)
+  fullName: Danmokou.DMath.PICustomData.UploadWrite(System.Type, System.String, GenCtx, System.Boolean)
+  type: Method
+  source:
+    id: UploadWrite
+    path: ''
+    startLine: 6548
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void UploadWrite(Type ext, string varName, GenCtx gcx, bool useDefaultValue = false)
+    parameters:
+    - id: ext
+      type: System.Type
+    - id: varName
+      type: System.String
+    - id: gcx
+      type: GenCtx
+    - id: useDefaultValue
+      type: System.Boolean
+    content.vb: Public Sub UploadWrite(ext As Type, varName As String, gcx As GenCtx, useDefaultValue As Boolean = False)
+  overload: Danmokou.DMath.PICustomData.UploadWrite*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.DMath.PICustomData.UploadAdd(IList{System.ValueTuple{System.Type,System.String}},GenCtx)
+  commentId: M:Danmokou.DMath.PICustomData.UploadAdd(IList{System.ValueTuple{System.Type,System.String}},GenCtx)
+  id: UploadAdd(IList{System.ValueTuple{System.Type,System.String}},GenCtx)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: UploadAdd(IList<(Type, String)>, GenCtx)
+  nameWithType: PICustomData.UploadAdd(IList<(Type, String)>, GenCtx)
+  fullName: Danmokou.DMath.PICustomData.UploadAdd(IList<System.ValueTuple<System.Type, System.String>>, GenCtx)
+  type: Method
+  source:
+    id: UploadAdd
+    path: ''
+    startLine: 6591
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nRetrieve the variables defined in <see cref=\"!:boundVars\"></see> from <see cref=\"!:gcx\"></see>\nand set them on this object.\n"
+  example: []
+  syntax:
+    content: public void UploadAdd(IList<(Type, string)> boundVars, GenCtx gcx)
+    parameters:
+    - id: boundVars
+      type: IList{System.ValueTuple{System.Type,System.String}}
+    - id: gcx
+      type: GenCtx
+    content.vb: Public Sub UploadAdd(boundVars As IList(Of(Type, String)(Of Type , String)), gcx As GenCtx)
+  overload: Danmokou.DMath.PICustomData.UploadAdd*
+  nameWithType.vb: PICustomData.UploadAdd(IList(Of (Type, String)(Of Type, String)), GenCtx)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.PICustomData.UploadAdd(IList(Of System.ValueTuple(Of System.Type, System.String)), GenCtx)
+  name.vb: UploadAdd(IList(Of (Type, String)(Of Type, String)), GenCtx)
+- uid: Danmokou.DMath.PICustomData.GetIfDefined``1(TExArgCtx,System.String,TEx{``0})
+  commentId: M:Danmokou.DMath.PICustomData.GetIfDefined``1(TExArgCtx,System.String,TEx{``0})
+  id: GetIfDefined``1(TExArgCtx,System.String,TEx{``0})
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: GetIfDefined<T>(TExArgCtx, String, TEx<T>)
+  nameWithType: PICustomData.GetIfDefined<T>(TExArgCtx, String, TEx<T>)
+  fullName: Danmokou.DMath.PICustomData.GetIfDefined<T>(TExArgCtx, System.String, TEx<T>)
+  type: Method
+  source:
+    id: GetIfDefined
+    path: ''
+    startLine: 6605
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nCreate an expression that retrieves a field with name <see cref=\"!:name\"></see> and type <see cref=\"!:T\"></see>\nif it exists, else returns <see cref=\"!:deflt\"></see>.\n"
+  example: []
+  syntax:
+    content: public static Ex GetIfDefined<T>(TExArgCtx tac, string name, TEx<T> deflt)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    - id: deflt
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: Ex
+    content.vb: Public Shared Function GetIfDefined(Of T)(tac As TExArgCtx, name As String, deflt As TEx(Of T)) As Ex
+  overload: Danmokou.DMath.PICustomData.GetIfDefined*
+  nameWithType.vb: PICustomData.GetIfDefined(Of T)(TExArgCtx, String, TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.PICustomData.GetIfDefined(Of T)(TExArgCtx, System.String, TEx(Of T))
+  name.vb: GetIfDefined(Of T)(TExArgCtx, String, TEx(Of T))
+- uid: Danmokou.DMath.PICustomData.GetValue(TExArgCtx,System.Type,System.String)
+  commentId: M:Danmokou.DMath.PICustomData.GetValue(TExArgCtx,System.Type,System.String)
+  id: GetValue(TExArgCtx,System.Type,System.String)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: GetValue(TExArgCtx, Type, String)
+  nameWithType: PICustomData.GetValue(TExArgCtx, Type, String)
+  fullName: Danmokou.DMath.PICustomData.GetValue(TExArgCtx, System.Type, System.String)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 6623
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nCreate an expression that retrieves a field with name <see cref=\"!:name\"></see>.\n<br />If the subclass of <xref href=\"Danmokou.DMath.PICustomData\" data-throw-if-not-resolved=\"false\"></xref> is known, then does this by direct field access,\notherwise uses the ReadT jumptable lookup.\n"
+  example: []
+  syntax:
+    content: public static Ex GetValue(TExArgCtx tac, Type t, string name)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: t
+      type: System.Type
+    - id: name
+      type: System.String
+    return:
+      type: Ex
+    content.vb: Public Shared Function GetValue(tac As TExArgCtx, t As Type, name As String) As Ex
+  overload: Danmokou.DMath.PICustomData.GetValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.PICustomData.GetValue``1(TExArgCtx,System.String)
+  commentId: M:Danmokou.DMath.PICustomData.GetValue``1(TExArgCtx,System.String)
+  id: GetValue``1(TExArgCtx,System.String)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>(TExArgCtx, String)
+  nameWithType: PICustomData.GetValue<T>(TExArgCtx, String)
+  fullName: Danmokou.DMath.PICustomData.GetValue<T>(TExArgCtx, System.String)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 6641
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\n<inheritdoc cref=\"M:Danmokou.DMath.PICustomData.GetValue(TExArgCtx,System.Type,System.String)\"></inheritdoc>\n"
+  example: []
+  syntax:
+    content: public static Ex GetValue<T>(TExArgCtx tac, string name)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: Ex
+    content.vb: Public Shared Function GetValue(Of T)(tac As TExArgCtx, name As String) As Ex
+  overload: Danmokou.DMath.PICustomData.GetValue*
+  nameWithType.vb: PICustomData.GetValue(Of T)(TExArgCtx, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.PICustomData.GetValue(Of T)(TExArgCtx, System.String)
+  name.vb: GetValue(Of T)(TExArgCtx, String)
+- uid: Danmokou.DMath.PICustomData.SetValue(TExArgCtx,System.Type,System.String,Ex)
+  commentId: M:Danmokou.DMath.PICustomData.SetValue(TExArgCtx,System.Type,System.String,Ex)
+  id: SetValue(TExArgCtx,System.Type,System.String,Ex)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: SetValue(TExArgCtx, Type, String, Ex)
+  nameWithType: PICustomData.SetValue(TExArgCtx, Type, String, Ex)
+  fullName: Danmokou.DMath.PICustomData.SetValue(TExArgCtx, System.Type, System.String, Ex)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 6650
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nCreate an expression that sets the value of a field with name <see cref=\"!:name\"></see>.\n<br />If the subclass of <xref href=\"Danmokou.DMath.PICustomData\" data-throw-if-not-resolved=\"false\"></xref> is known, then does this by direct field access,\notherwise uses the WriteT jumptable lookup.\n"
+  example: []
+  syntax:
+    content: public static Ex SetValue(TExArgCtx tac, Type t, string name, Ex val)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: t
+      type: System.Type
+    - id: name
+      type: System.String
+    - id: val
+      type: Ex
+    return:
+      type: Ex
+    content.vb: Public Shared Function SetValue(tac As TExArgCtx, t As Type, name As String, val As Ex) As Ex
+  overload: Danmokou.DMath.PICustomData.SetValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.PICustomData.SetValue``1(TExArgCtx,System.String,Ex)
+  commentId: M:Danmokou.DMath.PICustomData.SetValue``1(TExArgCtx,System.String,Ex)
+  id: SetValue``1(TExArgCtx,System.String,Ex)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: SetValue<T>(TExArgCtx, String, Ex)
+  nameWithType: PICustomData.SetValue<T>(TExArgCtx, String, Ex)
+  fullName: Danmokou.DMath.PICustomData.SetValue<T>(TExArgCtx, System.String, Ex)
+  type: Method
+  source:
+    id: SetValue
+    path: ''
+    startLine: 6666
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\n<inheritdoc cref=\"M:Danmokou.DMath.PICustomData.SetValue(TExArgCtx,System.Type,System.String,Ex)\"></inheritdoc>\n"
+  example: []
+  syntax:
+    content: public static Ex SetValue<T>(TExArgCtx tac, string name, Ex val)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    - id: val
+      type: Ex
+    typeParameters:
+    - id: T
+    return:
+      type: Ex
+    content.vb: Public Shared Function SetValue(Of T)(tac As TExArgCtx, name As String, val As Ex) As Ex
+  overload: Danmokou.DMath.PICustomData.SetValue*
+  nameWithType.vb: PICustomData.SetValue(Of T)(TExArgCtx, String, Ex)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.PICustomData.SetValue(Of T)(TExArgCtx, System.String, Ex)
+  name.vb: SetValue(Of T)(TExArgCtx, String, Ex)
+- uid: Danmokou.DMath.PICustomData.ContainsDynamic(TExArgCtx,System.Type,System.String)
+  commentId: M:Danmokou.DMath.PICustomData.ContainsDynamic(TExArgCtx,System.Type,System.String)
+  id: ContainsDynamic(TExArgCtx,System.Type,System.String)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: ContainsDynamic(TExArgCtx, Type, String)
+  nameWithType: PICustomData.ContainsDynamic(TExArgCtx, Type, String)
+  fullName: Danmokou.DMath.PICustomData.ContainsDynamic(TExArgCtx, System.Type, System.String)
+  type: Method
+  source:
+    id: ContainsDynamic
+    path: ''
+    startLine: 6688
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static TEx ContainsDynamic(TExArgCtx tac, Type typ, string name)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: typ
+      type: System.Type
+    - id: name
+      type: System.String
+    return:
+      type: TEx
+    content.vb: Public Shared Function ContainsDynamic(tac As TExArgCtx, typ As Type, name As String) As TEx
+  overload: Danmokou.DMath.PICustomData.ContainsDynamic*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.PICustomData.ContainsDynamic``1(TExArgCtx,System.String)
+  commentId: M:Danmokou.DMath.PICustomData.ContainsDynamic``1(TExArgCtx,System.String)
+  id: ContainsDynamic``1(TExArgCtx,System.String)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: ContainsDynamic<T>(TExArgCtx, String)
+  nameWithType: PICustomData.ContainsDynamic<T>(TExArgCtx, String)
+  fullName: Danmokou.DMath.PICustomData.ContainsDynamic<T>(TExArgCtx, System.String)
+  type: Method
+  source:
+    id: ContainsDynamic
+    path: ''
+    startLine: 6690
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression ContainsDynamic<T>(TExArgCtx tac, string name)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: Expression
+    content.vb: Public Shared Function ContainsDynamic(Of T)(tac As TExArgCtx, name As String) As Expression
+  overload: Danmokou.DMath.PICustomData.ContainsDynamic*
+  nameWithType.vb: PICustomData.ContainsDynamic(Of T)(TExArgCtx, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.PICustomData.ContainsDynamic(Of T)(TExArgCtx, System.String)
+  name.vb: ContainsDynamic(Of T)(TExArgCtx, String)
+- uid: Danmokou.DMath.PICustomData.GetValueDynamic(TExArgCtx,System.Type,System.String)
+  commentId: M:Danmokou.DMath.PICustomData.GetValueDynamic(TExArgCtx,System.Type,System.String)
+  id: GetValueDynamic(TExArgCtx,System.Type,System.String)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: GetValueDynamic(TExArgCtx, Type, String)
+  nameWithType: PICustomData.GetValueDynamic(TExArgCtx, Type, String)
+  fullName: Danmokou.DMath.PICustomData.GetValueDynamic(TExArgCtx, System.Type, System.String)
+  type: Method
+  source:
+    id: GetValueDynamic
+    path: ''
+    startLine: 6693
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static TEx GetValueDynamic(TExArgCtx tac, Type typ, string name)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: typ
+      type: System.Type
+    - id: name
+      type: System.String
+    return:
+      type: TEx
+    content.vb: Public Shared Function GetValueDynamic(tac As TExArgCtx, typ As Type, name As String) As TEx
+  overload: Danmokou.DMath.PICustomData.GetValueDynamic*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.PICustomData.GetValueDynamic``1(TExArgCtx,System.String,System.Nullable{TEx{``0}})
+  commentId: M:Danmokou.DMath.PICustomData.GetValueDynamic``1(TExArgCtx,System.String,System.Nullable{TEx{``0}})
+  id: GetValueDynamic``1(TExArgCtx,System.String,System.Nullable{TEx{``0}})
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: GetValueDynamic<T>(TExArgCtx, String, Nullable<TEx<T>>)
+  nameWithType: PICustomData.GetValueDynamic<T>(TExArgCtx, String, Nullable<TEx<T>>)
+  fullName: Danmokou.DMath.PICustomData.GetValueDynamic<T>(TExArgCtx, System.String, System.Nullable<TEx<T>>)
+  type: Method
+  source:
+    id: GetValueDynamic
+    path: ''
+    startLine: 6695
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression GetValueDynamic<T>(TExArgCtx tac, string name, TEx<T>? deflt = null)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    - id: deflt
+      type: System.Nullable{TEx{{T}}}
+    typeParameters:
+    - id: T
+    return:
+      type: Expression
+    content.vb: Public Shared Function GetValueDynamic(Of T)(tac As TExArgCtx, name As String, deflt As TEx(Of T)? = Nothing) As Expression
+  overload: Danmokou.DMath.PICustomData.GetValueDynamic*
+  nameWithType.vb: PICustomData.GetValueDynamic(Of T)(TExArgCtx, String, Nullable(Of TEx(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.PICustomData.GetValueDynamic(Of T)(TExArgCtx, System.String, System.Nullable(Of TEx(Of T)))
+  name.vb: GetValueDynamic(Of T)(TExArgCtx, String, Nullable(Of TEx(Of T)))
+- uid: Danmokou.DMath.PICustomData.SetValueDynamic(TExArgCtx,System.Type,System.String,Expression)
+  commentId: M:Danmokou.DMath.PICustomData.SetValueDynamic(TExArgCtx,System.Type,System.String,Expression)
+  id: SetValueDynamic(TExArgCtx,System.Type,System.String,Expression)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: SetValueDynamic(TExArgCtx, Type, String, Expression)
+  nameWithType: PICustomData.SetValueDynamic(TExArgCtx, Type, String, Expression)
+  fullName: Danmokou.DMath.PICustomData.SetValueDynamic(TExArgCtx, System.Type, System.String, Expression)
+  type: Method
+  source:
+    id: SetValueDynamic
+    path: ''
+    startLine: 6700
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression SetValueDynamic(TExArgCtx tac, Type typ, string name, Expression val)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: typ
+      type: System.Type
+    - id: name
+      type: System.String
+    - id: val
+      type: Expression
+    return:
+      type: Expression
+    content.vb: Public Shared Function SetValueDynamic(tac As TExArgCtx, typ As Type, name As String, val As Expression) As Expression
+  overload: Danmokou.DMath.PICustomData.SetValueDynamic*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.PICustomData.SetValueDynamic``1(TExArgCtx,System.String,Expression)
+  commentId: M:Danmokou.DMath.PICustomData.SetValueDynamic``1(TExArgCtx,System.String,Expression)
+  id: SetValueDynamic``1(TExArgCtx,System.String,Expression)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: SetValueDynamic<T>(TExArgCtx, String, Expression)
+  nameWithType: PICustomData.SetValueDynamic<T>(TExArgCtx, String, Expression)
+  fullName: Danmokou.DMath.PICustomData.SetValueDynamic<T>(TExArgCtx, System.String, Expression)
+  type: Method
+  source:
+    id: SetValueDynamic
+    path: ''
+    startLine: 6702
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression SetValueDynamic<T>(TExArgCtx tac, string name, Expression val)
+    parameters:
+    - id: tac
+      type: TExArgCtx
+    - id: name
+      type: System.String
+    - id: val
+      type: Expression
+    typeParameters:
+    - id: T
+    return:
+      type: Expression
+    content.vb: Public Shared Function SetValueDynamic(Of T)(tac As TExArgCtx, name As String, val As Expression) As Expression
+  overload: Danmokou.DMath.PICustomData.SetValueDynamic*
+  nameWithType.vb: PICustomData.SetValueDynamic(Of T)(TExArgCtx, String, Expression)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.PICustomData.SetValueDynamic(Of T)(TExArgCtx, System.String, Expression)
+  name.vb: SetValueDynamic(Of T)(TExArgCtx, String, Expression)
+- uid: Danmokou.DMath.PICustomData.GetDict(Expression,System.Type)
+  commentId: M:Danmokou.DMath.PICustomData.GetDict(Expression,System.Type)
+  id: GetDict(Expression,System.Type)
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: GetDict(Expression, Type)
+  nameWithType: PICustomData.GetDict(Expression, Type)
+  fullName: Danmokou.DMath.PICustomData.GetDict(Expression, System.Type)
+  type: Method
+  source:
+    id: GetDict
+    path: ''
+    startLine: 6705
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Expression GetDict(Expression fctx, Type typ)
+    parameters:
+    - id: fctx
+      type: Expression
+    - id: typ
+      type: System.Type
+    return:
+      type: Expression
+    content.vb: Public Shared Function GetDict(fctx As Expression, typ As Type) As Expression
+  overload: Danmokou.DMath.PICustomData.GetDict*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.PICustomData.New(System.Nullable{GenCtx})
+  commentId: M:Danmokou.DMath.PICustomData.New(System.Nullable{GenCtx})
+  id: New(System.Nullable{GenCtx})
+  parent: Danmokou.DMath.PICustomData
+  langs:
+  - csharp
+  - vb
+  name: New(Nullable<GenCtx>)
+  nameWithType: PICustomData.New(Nullable<GenCtx>)
+  fullName: Danmokou.DMath.PICustomData.New(System.Nullable<GenCtx>)
+  type: Method
+  source:
+    id: New
+    path: ''
+    startLine: 6726
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nCreate a new instance of the base <xref href=\"Danmokou.DMath.PICustomData\" data-throw-if-not-resolved=\"false\"></xref> class.\nOnly use this if you don&apos;t need to store any bound variables.\n"
+  example: []
+  syntax:
+    content: public static PICustomData New(GenCtx? gcx = null)
+    parameters:
+    - id: gcx
+      type: System.Nullable{GenCtx}
+    return:
+      type: Danmokou.DMath.PICustomData
+    content.vb: Public Shared Function New(gcx As GenCtx? = Nothing) As PICustomData
+  overload: Danmokou.DMath.PICustomData.New*
+  nameWithType.vb: PICustomData.New(Nullable(Of GenCtx))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.PICustomData.New(System.Nullable(Of GenCtx))
+  name.vb: New(Nullable(Of GenCtx))
+references:
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.PICustomData
+  commentId: T:Danmokou.DMath.PICustomData
+  parent: Danmokou.DMath
+  name: PICustomData
+  nameWithType: PICustomData
+  fullName: Danmokou.DMath.PICustomData
+- uid: Danmokou.DMath.PICustomData.GetDynamicKey*
+  commentId: Overload:Danmokou.DMath.PICustomData.GetDynamicKey
+  name: GetDynamicKey
+  nameWithType: PICustomData.GetDynamicKey
+  fullName: Danmokou.DMath.PICustomData.GetDynamicKey
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Dictionary{System.Int32,System.Int32}
+  commentId: '!:Dictionary{System.Int32,System.Int32}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, Int32>
+  nameWithType: Dictionary<Int32, Int32>
+  fullName: Dictionary<System.Int32, System.Int32>
+  nameWithType.vb: Dictionary(Of Int32, Int32)
+  fullName.vb: Dictionary(Of System.Int32, System.Int32)
+  name.vb: Dictionary(Of Int32, Int32)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary{System.Int32,System.Single}
+  commentId: '!:Dictionary{System.Int32,System.Single}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, Single>
+  nameWithType: Dictionary<Int32, Single>
+  fullName: Dictionary<System.Int32, System.Single>
+  nameWithType.vb: Dictionary(Of Int32, Single)
+  fullName.vb: Dictionary(Of System.Int32, System.Single)
+  name.vb: Dictionary(Of Int32, Single)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary{System.Int32,Vector2}
+  commentId: '!:Dictionary{System.Int32,Vector2}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, Vector2>
+  nameWithType: Dictionary<Int32, Vector2>
+  fullName: Dictionary<System.Int32, Vector2>
+  nameWithType.vb: Dictionary(Of Int32, Vector2)
+  fullName.vb: Dictionary(Of System.Int32, Vector2)
+  name.vb: Dictionary(Of Int32, Vector2)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary{System.Int32,Vector3}
+  commentId: '!:Dictionary{System.Int32,Vector3}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, Vector3>
+  nameWithType: Dictionary<Int32, Vector3>
+  fullName: Dictionary<System.Int32, Vector3>
+  nameWithType.vb: Dictionary(Of Int32, Vector3)
+  fullName.vb: Dictionary(Of System.Int32, Vector3)
+  name.vb: Dictionary(Of Int32, Vector3)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary{System.Int32,V2RV2}
+  commentId: '!:Dictionary{System.Int32,V2RV2}'
+  definition: Dictionary`2
+  name: Dictionary<Int32, V2RV2>
+  nameWithType: Dictionary<Int32, V2RV2>
+  fullName: Dictionary<System.Int32, V2RV2>
+  nameWithType.vb: Dictionary(Of Int32, V2RV2)
+  fullName.vb: Dictionary(Of System.Int32, V2RV2)
+  name.vb: Dictionary(Of Int32, V2RV2)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{BehaviorEntity}
+  commentId: T:System.Nullable{BehaviorEntity}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<BehaviorEntity>
+  nameWithType: Nullable<BehaviorEntity>
+  fullName: System.Nullable<BehaviorEntity>
+  nameWithType.vb: Nullable(Of BehaviorEntity)
+  fullName.vb: System.Nullable(Of BehaviorEntity)
+  name.vb: Nullable(Of BehaviorEntity)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{PlayerController}
+  commentId: T:System.Nullable{PlayerController}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<PlayerController>
+  nameWithType: Nullable<PlayerController>
+  fullName: System.Nullable<PlayerController>
+  nameWithType.vb: Nullable(Of PlayerController)
+  fullName.vb: System.Nullable(Of PlayerController)
+  name.vb: Nullable(Of PlayerController)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PlayerController
+    name: PlayerController
+    nameWithType: PlayerController
+    fullName: PlayerController
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PlayerController
+    name: PlayerController
+    nameWithType: PlayerController
+    fullName: PlayerController
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.PICustomData.PlayerController*
+  commentId: Overload:Danmokou.DMath.PICustomData.PlayerController
+  name: PlayerController
+  nameWithType: PICustomData.PlayerController
+  fullName: Danmokou.DMath.PICustomData.PlayerController
+- uid: PlayerController
+  commentId: '!:PlayerController'
+  isExternal: true
+  name: PlayerController
+  nameWithType: PlayerController
+  fullName: PlayerController
+- uid: Danmokou.DMath.PICustomData.OptionFirer*
+  commentId: Overload:Danmokou.DMath.PICustomData.OptionFirer
+  name: OptionFirer
+  nameWithType: PICustomData.OptionFirer
+  fullName: Danmokou.DMath.PICustomData.OptionFirer
+- uid: FireOption
+  commentId: '!:FireOption'
+  isExternal: true
+  name: FireOption
+  nameWithType: FireOption
+  fullName: FireOption
+- uid: System.Nullable{CurvedTileRenderLaser}
+  commentId: T:System.Nullable{CurvedTileRenderLaser}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<CurvedTileRenderLaser>
+  nameWithType: Nullable<CurvedTileRenderLaser>
+  fullName: System.Nullable<CurvedTileRenderLaser>
+  nameWithType.vb: Nullable(Of CurvedTileRenderLaser)
+  fullName.vb: System.Nullable(Of CurvedTileRenderLaser)
+  name.vb: Nullable(Of CurvedTileRenderLaser)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CurvedTileRenderLaser
+    name: CurvedTileRenderLaser
+    nameWithType: CurvedTileRenderLaser
+    fullName: CurvedTileRenderLaser
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CurvedTileRenderLaser
+    name: CurvedTileRenderLaser
+    nameWithType: CurvedTileRenderLaser
+    fullName: CurvedTileRenderLaser
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.PICustomData.LaserController*
+  commentId: Overload:Danmokou.DMath.PICustomData.LaserController
+  name: LaserController
+  nameWithType: PICustomData.LaserController
+  fullName: Danmokou.DMath.PICustomData.LaserController
+- uid: CurvedTileRenderLaser
+  commentId: '!:CurvedTileRenderLaser'
+  isExternal: true
+  name: CurvedTileRenderLaser
+  nameWithType: CurvedTileRenderLaser
+  fullName: CurvedTileRenderLaser
+- uid: System.Nullable{PlayerBullet}
+  commentId: T:System.Nullable{PlayerBullet}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<PlayerBullet>
+  nameWithType: Nullable<PlayerBullet>
+  fullName: System.Nullable<PlayerBullet>
+  nameWithType.vb: Nullable(Of PlayerBullet)
+  fullName.vb: System.Nullable(Of PlayerBullet)
+  name.vb: Nullable(Of PlayerBullet)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PlayerBullet
+    name: PlayerBullet
+    nameWithType: PlayerBullet
+    fullName: PlayerBullet
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PlayerBullet
+    name: PlayerBullet
+    nameWithType: PlayerBullet
+    fullName: PlayerBullet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.PICustomData.CopyInto*
+  commentId: Overload:Danmokou.DMath.PICustomData.CopyInto
+  name: CopyInto
+  nameWithType: PICustomData.CopyInto
+  fullName: Danmokou.DMath.PICustomData.CopyInto
+- uid: Danmokou.DMath.PICustomData.CopyInto(Danmokou.DMath.PICustomData)
+  commentId: M:Danmokou.DMath.PICustomData.CopyInto(Danmokou.DMath.PICustomData)
+  isExternal: true
+- uid: Danmokou.DMath.PICustomData.CopyIntoVirtual*
+  commentId: Overload:Danmokou.DMath.PICustomData.CopyIntoVirtual
+  name: CopyIntoVirtual
+  nameWithType: PICustomData.CopyIntoVirtual
+  fullName: Danmokou.DMath.PICustomData.CopyIntoVirtual
+- uid: Danmokou.DMath.PICustomData.Clone*
+  commentId: Overload:Danmokou.DMath.PICustomData.Clone
+  name: Clone
+  nameWithType: PICustomData.Clone
+  fullName: Danmokou.DMath.PICustomData.Clone
+- uid: Danmokou.DMath.PICustomData.HasFloat*
+  commentId: Overload:Danmokou.DMath.PICustomData.HasFloat
+  name: HasFloat
+  nameWithType: PICustomData.HasFloat
+  fullName: Danmokou.DMath.PICustomData.HasFloat
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Danmokou.DMath.PICustomData.HasInt*
+  commentId: Overload:Danmokou.DMath.PICustomData.HasInt
+  name: HasInt
+  nameWithType: PICustomData.HasInt
+  fullName: Danmokou.DMath.PICustomData.HasInt
+- uid: Danmokou.DMath.PICustomData.HasVector2*
+  commentId: Overload:Danmokou.DMath.PICustomData.HasVector2
+  name: HasVector2
+  nameWithType: PICustomData.HasVector2
+  fullName: Danmokou.DMath.PICustomData.HasVector2
+- uid: Danmokou.DMath.PICustomData.HasVector3*
+  commentId: Overload:Danmokou.DMath.PICustomData.HasVector3
+  name: HasVector3
+  nameWithType: PICustomData.HasVector3
+  fullName: Danmokou.DMath.PICustomData.HasVector3
+- uid: Danmokou.DMath.PICustomData.HasV2RV2*
+  commentId: Overload:Danmokou.DMath.PICustomData.HasV2RV2
+  name: HasV2RV2
+  nameWithType: PICustomData.HasV2RV2
+  fullName: Danmokou.DMath.PICustomData.HasV2RV2
+- uid: Danmokou.DMath.PICustomData.ReadFloat*
+  commentId: Overload:Danmokou.DMath.PICustomData.ReadFloat
+  name: ReadFloat
+  nameWithType: PICustomData.ReadFloat
+  fullName: Danmokou.DMath.PICustomData.ReadFloat
+- uid: Danmokou.DMath.PICustomData.ReadInt*
+  commentId: Overload:Danmokou.DMath.PICustomData.ReadInt
+  name: ReadInt
+  nameWithType: PICustomData.ReadInt
+  fullName: Danmokou.DMath.PICustomData.ReadInt
+- uid: Danmokou.DMath.PICustomData.ReadVector2*
+  commentId: Overload:Danmokou.DMath.PICustomData.ReadVector2
+  name: ReadVector2
+  nameWithType: PICustomData.ReadVector2
+  fullName: Danmokou.DMath.PICustomData.ReadVector2
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Danmokou.DMath.PICustomData.ReadVector3*
+  commentId: Overload:Danmokou.DMath.PICustomData.ReadVector3
+  name: ReadVector3
+  nameWithType: PICustomData.ReadVector3
+  fullName: Danmokou.DMath.PICustomData.ReadVector3
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Danmokou.DMath.PICustomData.ReadV2RV2*
+  commentId: Overload:Danmokou.DMath.PICustomData.ReadV2RV2
+  name: ReadV2RV2
+  nameWithType: PICustomData.ReadV2RV2
+  fullName: Danmokou.DMath.PICustomData.ReadV2RV2
+- uid: V2RV2
+  isExternal: true
+  name: V2RV2
+  nameWithType: V2RV2
+  fullName: V2RV2
+- uid: Danmokou.DMath.PICustomData.WriteFloat*
+  commentId: Overload:Danmokou.DMath.PICustomData.WriteFloat
+  name: WriteFloat
+  nameWithType: PICustomData.WriteFloat
+  fullName: Danmokou.DMath.PICustomData.WriteFloat
+- uid: Danmokou.DMath.PICustomData.WriteInt*
+  commentId: Overload:Danmokou.DMath.PICustomData.WriteInt
+  name: WriteInt
+  nameWithType: PICustomData.WriteInt
+  fullName: Danmokou.DMath.PICustomData.WriteInt
+- uid: Danmokou.DMath.PICustomData.WriteVector2*
+  commentId: Overload:Danmokou.DMath.PICustomData.WriteVector2
+  name: WriteVector2
+  nameWithType: PICustomData.WriteVector2
+  fullName: Danmokou.DMath.PICustomData.WriteVector2
+- uid: Danmokou.DMath.PICustomData.WriteVector3*
+  commentId: Overload:Danmokou.DMath.PICustomData.WriteVector3
+  name: WriteVector3
+  nameWithType: PICustomData.WriteVector3
+  fullName: Danmokou.DMath.PICustomData.WriteVector3
+- uid: Danmokou.DMath.PICustomData.WriteV2RV2*
+  commentId: Overload:Danmokou.DMath.PICustomData.WriteV2RV2
+  name: WriteV2RV2
+  nameWithType: PICustomData.WriteV2RV2
+  fullName: Danmokou.DMath.PICustomData.WriteV2RV2
+- uid: Danmokou.DMath.PICustomData.RevertToGCX*
+  commentId: Overload:Danmokou.DMath.PICustomData.RevertToGCX
+  name: RevertToGCX
+  nameWithType: PICustomData.RevertToGCX
+  fullName: Danmokou.DMath.PICustomData.RevertToGCX
+- uid: BehaviorEntity
+  isExternal: true
+  name: BehaviorEntity
+  nameWithType: BehaviorEntity
+  fullName: BehaviorEntity
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx
+- uid: Danmokou.DMath.PICustomData.Dispose*
+  commentId: Overload:Danmokou.DMath.PICustomData.Dispose
+  name: Dispose
+  nameWithType: PICustomData.Dispose
+  fullName: Danmokou.DMath.PICustomData.Dispose
+- uid: Danmokou.DMath.PICustomData.UploadWrite*
+  commentId: Overload:Danmokou.DMath.PICustomData.UploadWrite
+  name: UploadWrite
+  nameWithType: PICustomData.UploadWrite
+  fullName: Danmokou.DMath.PICustomData.UploadWrite
+- uid: Danmokou.DMath.PICustomData.UploadAdd*
+  commentId: Overload:Danmokou.DMath.PICustomData.UploadAdd
+  name: UploadAdd
+  nameWithType: PICustomData.UploadAdd
+  fullName: Danmokou.DMath.PICustomData.UploadAdd
+- uid: IList{System.ValueTuple{System.Type,System.String}}
+  commentId: '!:IList{System.ValueTuple{System.Type,System.String}}'
+  definition: IList`1
+  name: IList<(T1, T2)<Type, String>>
+  nameWithType: IList<(T1, T2)<Type, String>>
+  fullName: IList<System.ValueTuple<System.Type, System.String>>
+  nameWithType.vb: IList(Of (T1, T2)(Of Type, String))
+  fullName.vb: IList(Of System.ValueTuple(Of System.Type, System.String))
+  name.vb: IList(Of (T1, T2)(Of Type, String))
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  commentId: '!:IList`1'
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.PICustomData.GetIfDefined*
+  commentId: Overload:Danmokou.DMath.PICustomData.GetIfDefined
+  name: GetIfDefined
+  nameWithType: PICustomData.GetIfDefined
+  fullName: Danmokou.DMath.PICustomData.GetIfDefined
+- uid: TExArgCtx
+  isExternal: true
+  name: TExArgCtx
+  nameWithType: TExArgCtx
+  fullName: TExArgCtx
+- uid: TEx{{T}}
+  commentId: '!:TEx{``0}'
+  definition: TEx`1
+  name: TEx<T>
+  nameWithType: TEx<T>
+  fullName: TEx<T>
+  nameWithType.vb: TEx(Of T)
+  fullName.vb: TEx(Of T)
+  name.vb: TEx(Of T)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Ex
+  isExternal: true
+  name: Ex
+  nameWithType: Ex
+  fullName: Ex
+- uid: TEx`1
+  isExternal: true
+  name: TEx<>
+  nameWithType: TEx<>
+  fullName: TEx<>
+  nameWithType.vb: TEx(Of )
+  fullName.vb: TEx(Of )
+  name.vb: TEx(Of )
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.PICustomData.GetValue*
+  commentId: Overload:Danmokou.DMath.PICustomData.GetValue
+  name: GetValue
+  nameWithType: PICustomData.GetValue
+  fullName: Danmokou.DMath.PICustomData.GetValue
+- uid: Danmokou.DMath.PICustomData.SetValue*
+  commentId: Overload:Danmokou.DMath.PICustomData.SetValue
+  name: SetValue
+  nameWithType: PICustomData.SetValue
+  fullName: Danmokou.DMath.PICustomData.SetValue
+- uid: Danmokou.DMath.PICustomData.ContainsDynamic*
+  commentId: Overload:Danmokou.DMath.PICustomData.ContainsDynamic
+  name: ContainsDynamic
+  nameWithType: PICustomData.ContainsDynamic
+  fullName: Danmokou.DMath.PICustomData.ContainsDynamic
+- uid: TEx
+  isExternal: true
+  name: TEx
+  nameWithType: TEx
+  fullName: TEx
+- uid: Expression
+  isExternal: true
+  name: Expression
+  nameWithType: Expression
+  fullName: Expression
+- uid: Danmokou.DMath.PICustomData.GetValueDynamic*
+  commentId: Overload:Danmokou.DMath.PICustomData.GetValueDynamic
+  name: GetValueDynamic
+  nameWithType: PICustomData.GetValueDynamic
+  fullName: Danmokou.DMath.PICustomData.GetValueDynamic
+- uid: System.Nullable{TEx{{T}}}
+  commentId: T:System.Nullable{TEx{``0}}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<TEx<T>>
+  nameWithType: Nullable<TEx<T>>
+  fullName: System.Nullable<TEx<T>>
+  nameWithType.vb: Nullable(Of TEx(Of T))
+  fullName.vb: System.Nullable(Of TEx(Of T))
+  name.vb: Nullable(Of TEx(Of T))
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.PICustomData.SetValueDynamic*
+  commentId: Overload:Danmokou.DMath.PICustomData.SetValueDynamic
+  name: SetValueDynamic
+  nameWithType: PICustomData.SetValueDynamic
+  fullName: Danmokou.DMath.PICustomData.SetValueDynamic
+- uid: Danmokou.DMath.PICustomData.GetDict*
+  commentId: Overload:Danmokou.DMath.PICustomData.GetDict
+  name: GetDict
+  nameWithType: PICustomData.GetDict
+  fullName: Danmokou.DMath.PICustomData.GetDict
+- uid: Danmokou.DMath.PICustomData.New*
+  commentId: Overload:Danmokou.DMath.PICustomData.New
+  name: New
+  nameWithType: PICustomData.New
+  fullName: Danmokou.DMath.PICustomData.New
+- uid: System.Nullable{GenCtx}
+  commentId: T:System.Nullable{GenCtx}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<GenCtx>
+  nameWithType: Nullable<GenCtx>
+  fullName: System.Nullable<GenCtx>
+  nameWithType.vb: Nullable(Of GenCtx)
+  fullName.vb: System.Nullable(Of GenCtx)
+  name.vb: Nullable(Of GenCtx)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GenCtx
+    name: GenCtx
+    nameWithType: GenCtx
+    fullName: GenCtx
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GenCtx
+    name: GenCtx
+    nameWithType: GenCtx
+    fullName: GenCtx
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

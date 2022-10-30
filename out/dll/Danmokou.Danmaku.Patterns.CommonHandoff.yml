@@ -21,7 +21,7 @@ items:
   source:
     id: CommonHandoff
     path: ''
-    startLine: 4606
+    startLine: 4643
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -59,7 +59,7 @@ items:
   source:
     id: cT
     path: ''
-    startLine: 4607
+    startLine: 4644
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -88,7 +88,7 @@ items:
   source:
     id: bc
     path: ''
-    startLine: 4608
+    startLine: 4645
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -115,7 +115,7 @@ items:
   source:
     id: gcx
     path: ''
-    startLine: 4609
+    startLine: 4646
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -144,7 +144,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4614
+    startLine: 4651
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -182,7 +182,7 @@ items:
   source:
     id: Copy
     path: ''
-    startLine: 4620
+    startLine: 4657
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -214,7 +214,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 4627
+    startLine: 4664
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

@@ -19,7 +19,7 @@ items:
   source:
     id: SBOption
     path: ''
-    startLine: 3902
+    startLine: 3936
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -58,7 +58,7 @@ items:
   source:
     id: Scale
     path: ''
-    startLine: 3907
+    startLine: 3941
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -96,7 +96,7 @@ items:
   source:
     id: Dir
     path: ''
-    startLine: 3911
+    startLine: 3945
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -134,7 +134,7 @@ items:
   source:
     id: Dir2
     path: ''
-    startLine: 3915
+    startLine: 3949
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -172,7 +172,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 3923
+    startLine: 3957
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options

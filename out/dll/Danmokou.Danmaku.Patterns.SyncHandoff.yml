@@ -5,8 +5,8 @@ items:
   id: SyncHandoff
   parent: Danmokou.Danmaku.Patterns
   children:
-  - Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff,System.Single,System.String)
-  - Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator,SMHandoff)
+  - Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff@,System.Single,System.String)
+  - Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator@,SMHandoff@)
   - Danmokou.Danmaku.Patterns.SyncHandoff.bc
   - Danmokou.Danmaku.Patterns.SyncHandoff.ch
   - Danmokou.Danmaku.Patterns.SyncHandoff.Copy(System.String)
@@ -26,7 +26,7 @@ items:
   source:
     id: SyncHandoff
     path: ''
-    startLine: 4636
+    startLine: 4673
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -66,7 +66,7 @@ items:
   source:
     id: ch
     path: ''
-    startLine: 4637
+    startLine: 4674
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -93,7 +93,7 @@ items:
   source:
     id: bc
     path: ''
-    startLine: 4638
+    startLine: 4675
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -125,7 +125,7 @@ items:
   source:
     id: RV2
     path: ''
-    startLine: 4639
+    startLine: 4676
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -157,7 +157,7 @@ items:
   source:
     id: index
     path: ''
-    startLine: 4640
+    startLine: 4677
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -189,7 +189,7 @@ items:
   source:
     id: timeOffset
     path: ''
-    startLine: 4644
+    startLine: 4681
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -220,7 +220,7 @@ items:
   source:
     id: GCX
     path: ''
-    startLine: 4645
+    startLine: 4682
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -238,61 +238,64 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator,SMHandoff)
-  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator,SMHandoff)
-  id: '#ctor(DelegatedCreator,SMHandoff)'
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator@,SMHandoff@)
+  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(DelegatedCreator@,SMHandoff@)
+  id: '#ctor(DelegatedCreator@,SMHandoff@)'
   parent: Danmokou.Danmaku.Patterns.SyncHandoff
   langs:
   - csharp
   - vb
-  name: SyncHandoff(DelegatedCreator, SMHandoff)
-  nameWithType: SyncHandoff.SyncHandoff(DelegatedCreator, SMHandoff)
-  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff(DelegatedCreator, SMHandoff)
+  name: SyncHandoff(in DelegatedCreator, in SMHandoff)
+  nameWithType: SyncHandoff.SyncHandoff(in DelegatedCreator, in SMHandoff)
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff(in DelegatedCreator, in SMHandoff)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 4650
+    startLine: 4687
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
   summary: "\nThe common handoff is copied from SMH.\n"
   example: []
   syntax:
-    content: public SyncHandoff(DelegatedCreator bc, SMHandoff smh)
+    content: public SyncHandoff(in DelegatedCreator bc, in SMHandoff smh)
     parameters:
     - id: bc
       type: DelegatedCreator
     - id: smh
       type: SMHandoff
-    content.vb: Public Sub New(bc As DelegatedCreator, smh As SMHandoff)
+    content.vb: Public Sub New(ByRef bc As DelegatedCreator, ByRef smh As SMHandoff)
   overload: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor*
+  nameWithType.vb: SyncHandoff.SyncHandoff(ByRef DelegatedCreator, ByRef SMHandoff)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff,System.Single,System.String)
-  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff,System.Single,System.String)
-  id: '#ctor(Danmokou.Danmaku.Patterns.CommonHandoff,System.Single,System.String)'
+  fullName.vb: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff(ByRef DelegatedCreator, ByRef SMHandoff)
+  name.vb: SyncHandoff(ByRef DelegatedCreator, ByRef SMHandoff)
+- uid: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff@,System.Single,System.String)
+  commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.#ctor(Danmokou.Danmaku.Patterns.CommonHandoff@,System.Single,System.String)
+  id: '#ctor(Danmokou.Danmaku.Patterns.CommonHandoff@,System.Single,System.String)'
   parent: Danmokou.Danmaku.Patterns.SyncHandoff
   langs:
   - csharp
   - vb
-  name: SyncHandoff(CommonHandoff, Single, String)
-  nameWithType: SyncHandoff.SyncHandoff(CommonHandoff, Single, String)
-  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff(Danmokou.Danmaku.Patterns.CommonHandoff, System.Single, System.String)
+  name: SyncHandoff(in CommonHandoff, Single, String)
+  nameWithType: SyncHandoff.SyncHandoff(in CommonHandoff, Single, String)
+  fullName: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff(in Danmokou.Danmaku.Patterns.CommonHandoff, System.Single, System.String)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 4658
+    startLine: 4695
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
   summary: "\nThe common handoff is copied.\n"
   example: []
   syntax:
-    content: public SyncHandoff(CommonHandoff ch, float extraTimeSeconds, string newStyle = null)
+    content: public SyncHandoff(in CommonHandoff ch, float extraTimeSeconds, string newStyle = null)
     parameters:
     - id: ch
       type: Danmokou.Danmaku.Patterns.CommonHandoff
@@ -300,12 +303,15 @@ items:
       type: System.Single
     - id: newStyle
       type: System.String
-    content.vb: Public Sub New(ch As CommonHandoff, extraTimeSeconds As Single, newStyle As String = Nothing)
+    content.vb: Public Sub New(ByRef ch As CommonHandoff, extraTimeSeconds As Single, newStyle As String = Nothing)
   overload: Danmokou.Danmaku.Patterns.SyncHandoff.#ctor*
+  nameWithType.vb: SyncHandoff.SyncHandoff(ByRef CommonHandoff, Single, String)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.SyncHandoff.SyncHandoff(ByRef Danmokou.Danmaku.Patterns.CommonHandoff, System.Single, System.String)
+  name.vb: SyncHandoff(ByRef CommonHandoff, Single, String)
 - uid: Danmokou.Danmaku.Patterns.SyncHandoff.op_Implicit(Danmokou.Danmaku.Patterns.SyncHandoff)~GenCtx
   commentId: M:Danmokou.Danmaku.Patterns.SyncHandoff.op_Implicit(Danmokou.Danmaku.Patterns.SyncHandoff)~GenCtx
   id: op_Implicit(Danmokou.Danmaku.Patterns.SyncHandoff)~GenCtx
@@ -320,7 +326,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 4663
+    startLine: 4700
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -356,7 +362,7 @@ items:
   source:
     id: Copy
     path: ''
-    startLine: 4665
+    startLine: 4702
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -387,7 +393,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 4667
+    startLine: 4704
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

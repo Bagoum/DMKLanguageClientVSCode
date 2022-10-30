@@ -16,7 +16,7 @@ items:
   source:
     id: ExtraMovementFuncs
     path: ''
-    startLine: 7892
+    startLine: 8473
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -54,7 +54,7 @@ items:
   source:
     id: LeftChair1
     path: ''
-    startLine: 7899
+    startLine: 8480
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

@@ -30,7 +30,7 @@ items:
   source:
     id: ExMV4
     path: ''
-    startLine: 7832
+    startLine: 8413
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -70,7 +70,7 @@ items:
   source:
     id: Black
     path: ''
-    startLine: 7834
+    startLine: 8415
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -100,7 +100,7 @@ items:
   source:
     id: Purple
     path: ''
-    startLine: 7835
+    startLine: 8416
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -130,7 +130,7 @@ items:
   source:
     id: Teal
     path: ''
-    startLine: 7836
+    startLine: 8417
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -160,7 +160,7 @@ items:
   source:
     id: Green
     path: ''
-    startLine: 7837
+    startLine: 8418
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -190,7 +190,7 @@ items:
   source:
     id: Orange
     path: ''
-    startLine: 7838
+    startLine: 8419
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -220,7 +220,7 @@ items:
   source:
     id: Yellow
     path: ''
-    startLine: 7839
+    startLine: 8420
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -250,7 +250,7 @@ items:
   source:
     id: Red
     path: ''
-    startLine: 7840
+    startLine: 8421
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -280,7 +280,7 @@ items:
   source:
     id: Pink
     path: ''
-    startLine: 7841
+    startLine: 8422
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -310,7 +310,7 @@ items:
   source:
     id: Blue
     path: ''
-    startLine: 7842
+    startLine: 8423
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -340,7 +340,7 @@ items:
   source:
     id: Palette
     path: ''
-    startLine: 7844
+    startLine: 8425
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -375,7 +375,7 @@ items:
   source:
     id: RGB
     path: ''
-    startLine: 7851
+    startLine: 8432
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -414,7 +414,7 @@ items:
   source:
     id: RGBA
     path: ''
-    startLine: 7855
+    startLine: 8436
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -455,7 +455,7 @@ items:
   source:
     id: TP3A
     path: ''
-    startLine: 7860
+    startLine: 8441
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -492,7 +492,7 @@ items:
   source:
     id: WithA
     path: ''
-    startLine: 7865
+    startLine: 8446
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -529,7 +529,7 @@ items:
   source:
     id: MulA
     path: ''
-    startLine: 7876
+    startLine: 8457
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

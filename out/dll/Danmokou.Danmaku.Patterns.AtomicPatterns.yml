@@ -24,7 +24,6 @@ items:
   - Danmokou.Danmaku.Patterns.AtomicPatterns.PointPPItem
   - Danmokou.Danmaku.Patterns.AtomicPatterns.PowerAura(PowerAuraOptions)
   - Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
-  - Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String,System.String,TP4,TP4,GCXF{System.Single},GCXF{System.Single},GCXF{System.Single},GCXF{System.Single})
   - Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupShiftItem
   - Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic(System.String,TP4,GCXF{System.Single},GCXF{System.Single})
   - Danmokou.Danmaku.Patterns.AtomicPatterns.Rect(TP4,BPRV2)
@@ -54,7 +53,7 @@ items:
   source:
     id: AtomicPatterns
     path: ''
-    startLine: 4725
+    startLine: 4753
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -94,7 +93,7 @@ items:
   source:
     id: DS
     path: ''
-    startLine: 4474
+    startLine: 4510
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -138,7 +137,7 @@ items:
   source:
     id: dPather
     path: ''
-    startLine: 4480
+    startLine: 4516
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -168,7 +167,7 @@ items:
   source:
     id: Noop
     path: ''
-    startLine: 4733
+    startLine: 4776
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -201,7 +200,7 @@ items:
   source:
     id: SFX
     path: ''
-    startLine: 4738
+    startLine: 4781
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -234,7 +233,7 @@ items:
   source:
     id: Event
     path: ''
-    startLine: 4744
+    startLine: 4787
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -276,7 +275,7 @@ items:
   source:
     id: Event0
     path: ''
-    startLine: 4751
+    startLine: 4794
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -311,7 +310,7 @@ items:
   source:
     id: LifeItem
     path: ''
-    startLine: 4755
+    startLine: 4798
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -341,7 +340,7 @@ items:
   source:
     id: ValueItem
     path: ''
-    startLine: 4758
+    startLine: 4801
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -371,7 +370,7 @@ items:
   source:
     id: SmallValueItem
     path: ''
-    startLine: 4761
+    startLine: 4804
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -401,7 +400,7 @@ items:
   source:
     id: PointPPItem
     path: ''
-    startLine: 4764
+    startLine: 4807
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -431,7 +430,7 @@ items:
   source:
     id: GemItem
     path: ''
-    startLine: 4767
+    startLine: 4810
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -461,7 +460,7 @@ items:
   source:
     id: OneUpItem
     path: ''
-    startLine: 4770
+    startLine: 4813
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -491,7 +490,7 @@ items:
   source:
     id: PowerupShiftItem
     path: ''
-    startLine: 4774
+    startLine: 4817
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -521,7 +520,7 @@ items:
   source:
     id: S
     path: ''
-    startLine: 4786
+    startLine: 4829
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -561,7 +560,7 @@ items:
   source:
     id: Simple
     path: ''
-    startLine: 4796
+    startLine: 4839
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -604,7 +603,7 @@ items:
   source:
     id: Complex
     path: ''
-    startLine: 4814
+    startLine: 4859
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -647,7 +646,7 @@ items:
   source:
     id: Pather
     path: ''
-    startLine: 4827
+    startLine: 4875
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -696,7 +695,7 @@ items:
   source:
     id: Laser
     path: ''
-    startLine: 4840
+    startLine: 4891
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -745,7 +744,7 @@ items:
   source:
     id: SafeLaser
     path: ''
-    startLine: 4845
+    startLine: 4899
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -783,7 +782,7 @@ items:
   source:
     id: SafeLaserM
     path: ''
-    startLine: 4848
+    startLine: 4902
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -823,7 +822,7 @@ items:
   source:
     id: SummonS
     path: ''
-    startLine: 4851
+    startLine: 4905
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -861,7 +860,7 @@ items:
   source:
     id: SummonSUP
     path: ''
-    startLine: 4853
+    startLine: 4907
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -899,7 +898,7 @@ items:
   source:
     id: Inode
     path: ''
-    startLine: 4855
+    startLine: 4909
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -937,7 +936,7 @@ items:
   source:
     id: Summon
     path: ''
-    startLine: 4869
+    startLine: 4923
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -977,7 +976,7 @@ items:
   source:
     id: SummonUP
     path: ''
-    startLine: 4871
+    startLine: 4929
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1017,7 +1016,7 @@ items:
   source:
     id: SummonR
     path: ''
-    startLine: 4874
+    startLine: 4935
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1057,7 +1056,7 @@ items:
   source:
     id: SummonRUP
     path: ''
-    startLine: 4878
+    startLine: 4943
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1097,7 +1096,7 @@ items:
   source:
     id: SummonRZ
     path: ''
-    startLine: 4883
+    startLine: 4951
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1135,7 +1134,7 @@ items:
   source:
     id: Circ
     path: ''
-    startLine: 4901
+    startLine: 4969
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1170,7 +1169,7 @@ items:
   source:
     id: gRelCirc
     path: ''
-    startLine: 4905
+    startLine: 4973
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1209,7 +1208,7 @@ items:
   source:
     id: RelCirc
     path: ''
-    startLine: 4910
+    startLine: 4978
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1248,7 +1247,7 @@ items:
   source:
     id: Rect
     path: ''
-    startLine: 4912
+    startLine: 4980
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1283,7 +1282,7 @@ items:
   source:
     id: gRelRect
     path: ''
-    startLine: 4916
+    startLine: 4984
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1322,7 +1321,7 @@ items:
   source:
     id: RelRect
     path: ''
-    startLine: 4921
+    startLine: 4989
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1361,7 +1360,7 @@ items:
   source:
     id: Darkness
     path: ''
-    startLine: 4925
+    startLine: 4993
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1398,7 +1397,7 @@ items:
   source:
     id: PowerAura
     path: ''
-    startLine: 4930
+    startLine: 4998
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1431,7 +1430,7 @@ items:
   source:
     id: Powerup
     path: ''
-    startLine: 4943
+    startLine: 5011
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1492,7 +1491,7 @@ items:
   source:
     id: PowerupStatic
     path: ''
-    startLine: 4963
+    startLine: 5031
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1539,79 +1538,6 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic(System.String, TP4, GCXF(Of System.Single), GCXF(Of System.Single))
   name.vb: PowerupStatic(String, TP4, GCXF(Of Single), GCXF(Of Single))
-- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String,System.String,TP4,TP4,GCXF{System.Single},GCXF{System.Single},GCXF{System.Single},GCXF{System.Single})
-  commentId: M:Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String,System.String,TP4,TP4,GCXF{System.Single},GCXF{System.Single},GCXF{System.Single},GCXF{System.Single})
-  id: Powerup2(System.String,System.String,TP4,TP4,GCXF{System.Single},GCXF{System.Single},GCXF{System.Single},GCXF{System.Single})
-  parent: Danmokou.Danmaku.Patterns.AtomicPatterns
-  langs:
-  - csharp
-  - vb
-  name: Powerup2(String, String, TP4, TP4, GCXF<Single>, GCXF<Single>, GCXF<Single>, GCXF<Single>)
-  nameWithType: AtomicPatterns.Powerup2(String, String, TP4, TP4, GCXF<Single>, GCXF<Single>, GCXF<Single>, GCXF<Single>)
-  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String, System.String, TP4, TP4, GCXF<System.Single>, GCXF<System.Single>, GCXF<System.Single>, GCXF<System.Single>)
-  type: Method
-  source:
-    id: Powerup2
-    path: ''
-    startLine: 4990
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.Danmaku.Patterns
-  summary: "\nCreate a powerup effect twice.\n<br />The second time, it goes outwards with one iteration.\n<br />This abbreviation is useful for common use cases of powerups.\n"
-  example: []
-  syntax:
-    content: >-
-      [Obsolete("Use PowerAura instead.")]
-
-      public static SyncPattern Powerup2(string sfx1, string sfx2, TP4 color1, TP4 color2, GCXF<float> time1, GCXF<float> itrs1, GCXF<float> delay, GCXF<float> time2)
-    parameters:
-    - id: sfx1
-      type: System.String
-      description: SFX to play when the first powerup starts
-    - id: sfx2
-      type: System.String
-      description: SFX to play when the second powerup starts
-    - id: color1
-      type: TP4
-      description: Color function for the first powerup
-    - id: color2
-      type: TP4
-      description: Color function for the second powerup
-    - id: time1
-      type: GCXF{System.Single}
-      description: Time the first powerup exists
-    - id: itrs1
-      type: GCXF{System.Single}
-      description: Number of cycles the first powerup goes through
-    - id: delay
-      type: GCXF{System.Single}
-      description: Delay after the first powerup dies before spawning the second powerup
-    - id: time2
-      type: GCXF{System.Single}
-      description: Time the second powerup exists
-    return:
-      type: Danmokou.Danmaku.Patterns.SyncPattern
-      description: ''
-    content.vb: >-
-      <Obsolete("Use PowerAura instead.")>
-
-      Public Shared Function Powerup2(sfx1 As String, sfx2 As String, color1 As TP4, color2 As TP4, time1 As GCXF(Of Single), itrs1 As GCXF(Of Single), delay As GCXF(Of Single), time2 As GCXF(Of Single)) As SyncPattern
-  overload: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Use PowerAura instead.
-  nameWithType.vb: AtomicPatterns.Powerup2(String, String, TP4, TP4, GCXF(Of Single), GCXF(Of Single), GCXF(Of Single), GCXF(Of Single))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2(System.String, System.String, TP4, TP4, GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of System.Single))
-  name.vb: Powerup2(String, String, TP4, TP4, GCXF(Of Single), GCXF(Of Single), GCXF(Of Single), GCXF(Of Single))
 references:
 - uid: Danmokou.Danmaku.Patterns
   commentId: N:Danmokou.Danmaku.Patterns
@@ -2547,8 +2473,3 @@ references:
   name: PowerupStatic
   nameWithType: AtomicPatterns.PowerupStatic
   fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.PowerupStatic
-- uid: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2*
-  commentId: Overload:Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2
-  name: Powerup2
-  nameWithType: AtomicPatterns.Powerup2
-  fullName: Danmokou.Danmaku.Patterns.AtomicPatterns.Powerup2

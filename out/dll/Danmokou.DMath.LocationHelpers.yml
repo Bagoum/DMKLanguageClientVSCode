@@ -18,9 +18,11 @@ items:
   - Danmokou.DMath.LocationHelpers.LeftMinus1
   - Danmokou.DMath.LocationHelpers.LeftPlayerBound
   - Danmokou.DMath.LocationHelpers.OffPlayableScreenBy(System.Single,Vector2)
+  - Danmokou.DMath.LocationHelpers.OffPlayableScreenBy(System.Single@,Vector3@)
   - Danmokou.DMath.LocationHelpers.OnPlayableScreen(Vector2)
   - Danmokou.DMath.LocationHelpers.OnPlayableScreenBy(System.Single,Vector2)
   - Danmokou.DMath.LocationHelpers.OnScreenInDirection(Vector2,Vector2)
+  - Danmokou.DMath.LocationHelpers.PlayableScreenCenter
   - Danmokou.DMath.LocationHelpers.right
   - Danmokou.DMath.LocationHelpers.Right
   - Danmokou.DMath.LocationHelpers.RightPlayerBound
@@ -30,6 +32,7 @@ items:
   - Danmokou.DMath.LocationHelpers.TopPlayerBound
   - Danmokou.DMath.LocationHelpers.TopPlus1
   - Danmokou.DMath.LocationHelpers.ToWall(Vector2,Vector2)
+  - Danmokou.DMath.LocationHelpers.UpdatePlayableScreenCenter(Vector2)
   - Danmokou.DMath.LocationHelpers.width
   - Danmokou.DMath.LocationHelpers.Width
   langs:
@@ -42,7 +45,7 @@ items:
   source:
     id: LocationHelpers
     path: ''
-    startLine: 6232
+    startLine: 6268
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -66,6 +69,70 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: Danmokou.DMath.LocationHelpers.PlayableScreenCenter
+  commentId: P:Danmokou.DMath.LocationHelpers.PlayableScreenCenter
+  id: PlayableScreenCenter
+  parent: Danmokou.DMath.LocationHelpers
+  langs:
+  - csharp
+  - vb
+  name: PlayableScreenCenter
+  nameWithType: LocationHelpers.PlayableScreenCenter
+  fullName: Danmokou.DMath.LocationHelpers.PlayableScreenCenter
+  type: Property
+  source:
+    id: PlayableScreenCenter
+    path: ''
+    startLine: 6269
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static Vector2 PlayableScreenCenter { get; }
+    parameters: []
+    return:
+      type: Vector2
+    content.vb: Public Shared ReadOnly Property PlayableScreenCenter As Vector2
+  overload: Danmokou.DMath.LocationHelpers.PlayableScreenCenter*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.LocationHelpers.UpdatePlayableScreenCenter(Vector2)
+  commentId: M:Danmokou.DMath.LocationHelpers.UpdatePlayableScreenCenter(Vector2)
+  id: UpdatePlayableScreenCenter(Vector2)
+  parent: Danmokou.DMath.LocationHelpers
+  langs:
+  - csharp
+  - vb
+  name: UpdatePlayableScreenCenter(Vector2)
+  nameWithType: LocationHelpers.UpdatePlayableScreenCenter(Vector2)
+  fullName: Danmokou.DMath.LocationHelpers.UpdatePlayableScreenCenter(Vector2)
+  type: Method
+  source:
+    id: UpdatePlayableScreenCenter
+    path: ''
+    startLine: 6271
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static void UpdatePlayableScreenCenter(Vector2 nLoc)
+    parameters:
+    - id: nLoc
+      type: Vector2
+    content.vb: Public Shared Sub UpdatePlayableScreenCenter(nLoc As Vector2)
+  overload: Danmokou.DMath.LocationHelpers.UpdatePlayableScreenCenter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.DMath.LocationHelpers.Left
   commentId: P:Danmokou.DMath.LocationHelpers.Left
   id: Left
@@ -80,7 +147,7 @@ items:
   source:
     id: Left
     path: ''
-    startLine: 6233
+    startLine: 6283
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -113,7 +180,7 @@ items:
   source:
     id: LeftMinus1
     path: ''
-    startLine: 6234
+    startLine: 6284
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -146,7 +213,7 @@ items:
   source:
     id: Right
     path: ''
-    startLine: 6235
+    startLine: 6285
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -179,7 +246,7 @@ items:
   source:
     id: RightPlus1
     path: ''
-    startLine: 6236
+    startLine: 6286
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -212,7 +279,7 @@ items:
   source:
     id: Bot
     path: ''
-    startLine: 6237
+    startLine: 6287
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -245,7 +312,7 @@ items:
   source:
     id: BotMinus1
     path: ''
-    startLine: 6238
+    startLine: 6288
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -278,7 +345,7 @@ items:
   source:
     id: Top
     path: ''
-    startLine: 6239
+    startLine: 6289
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -311,7 +378,7 @@ items:
   source:
     id: TopPlus1
     path: ''
-    startLine: 6240
+    startLine: 6290
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -344,7 +411,7 @@ items:
   source:
     id: Width
     path: ''
-    startLine: 6241
+    startLine: 6291
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -377,7 +444,7 @@ items:
   source:
     id: Height
     path: ''
-    startLine: 6242
+    startLine: 6292
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -410,7 +477,7 @@ items:
   source:
     id: LeftPlayerBound
     path: ''
-    startLine: 6243
+    startLine: 6293
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -443,7 +510,7 @@ items:
   source:
     id: RightPlayerBound
     path: ''
-    startLine: 6244
+    startLine: 6294
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -476,7 +543,7 @@ items:
   source:
     id: BotPlayerBound
     path: ''
-    startLine: 6245
+    startLine: 6295
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -509,7 +576,7 @@ items:
   source:
     id: TopPlayerBound
     path: ''
-    startLine: 6246
+    startLine: 6296
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -542,7 +609,7 @@ items:
   source:
     id: left
     path: ''
-    startLine: 6247
+    startLine: 6297
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -573,7 +640,7 @@ items:
   source:
     id: right
     path: ''
-    startLine: 6248
+    startLine: 6298
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -604,7 +671,7 @@ items:
   source:
     id: bot
     path: ''
-    startLine: 6249
+    startLine: 6299
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -635,7 +702,7 @@ items:
   source:
     id: top
     path: ''
-    startLine: 6250
+    startLine: 6300
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -666,7 +733,7 @@ items:
   source:
     id: width
     path: ''
-    startLine: 6251
+    startLine: 6301
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -697,7 +764,7 @@ items:
   source:
     id: height
     path: ''
-    startLine: 6252
+    startLine: 6302
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -728,7 +795,7 @@ items:
   source:
     id: GetEnemyVisiblePlayer
     path: ''
-    startLine: 6254
+    startLine: 6304
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -758,7 +825,7 @@ items:
   source:
     id: ToWall
     path: ''
-    startLine: 6259
+    startLine: 6309
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -795,7 +862,7 @@ items:
   source:
     id: DistToWall
     path: ''
-    startLine: 6284
+    startLine: 6334
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -832,7 +899,7 @@ items:
   source:
     id: OnPlayableScreen
     path: ''
-    startLine: 6288
+    startLine: 6338
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -865,7 +932,7 @@ items:
   source:
     id: OnPlayableScreenBy
     path: ''
-    startLine: 6292
+    startLine: 6342
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -900,7 +967,7 @@ items:
   source:
     id: OffPlayableScreenBy
     path: ''
-    startLine: 6296
+    startLine: 6346
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -921,6 +988,44 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Danmokou.DMath.LocationHelpers.OffPlayableScreenBy(System.Single@,Vector3@)
+  commentId: M:Danmokou.DMath.LocationHelpers.OffPlayableScreenBy(System.Single@,Vector3@)
+  id: OffPlayableScreenBy(System.Single@,Vector3@)
+  parent: Danmokou.DMath.LocationHelpers
+  langs:
+  - csharp
+  - vb
+  name: OffPlayableScreenBy(in Single, in Vector3)
+  nameWithType: LocationHelpers.OffPlayableScreenBy(in Single, in Vector3)
+  fullName: Danmokou.DMath.LocationHelpers.OffPlayableScreenBy(in System.Single, in Vector3)
+  type: Method
+  source:
+    id: OffPlayableScreenBy
+    path: ''
+    startLine: 6350
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public static bool OffPlayableScreenBy(in float f, in Vector3 loc)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: loc
+      type: Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function OffPlayableScreenBy(ByRef f As Single, ByRef loc As Vector3) As Boolean
+  overload: Danmokou.DMath.LocationHelpers.OffPlayableScreenBy*
+  nameWithType.vb: LocationHelpers.OffPlayableScreenBy(ByRef Single, ByRef Vector3)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.LocationHelpers.OffPlayableScreenBy(ByRef System.Single, ByRef Vector3)
+  name.vb: OffPlayableScreenBy(ByRef Single, ByRef Vector3)
 - uid: Danmokou.DMath.LocationHelpers.OnScreenInDirection(Vector2,Vector2)
   commentId: M:Danmokou.DMath.LocationHelpers.OnScreenInDirection(Vector2,Vector2)
   id: OnScreenInDirection(Vector2,Vector2)
@@ -935,7 +1040,7 @@ items:
   source:
     id: OnScreenInDirection
     path: ''
-    startLine: 6301
+    startLine: 6355
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1254,6 +1359,21 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Danmokou.DMath.LocationHelpers.PlayableScreenCenter*
+  commentId: Overload:Danmokou.DMath.LocationHelpers.PlayableScreenCenter
+  name: PlayableScreenCenter
+  nameWithType: LocationHelpers.PlayableScreenCenter
+  fullName: Danmokou.DMath.LocationHelpers.PlayableScreenCenter
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Danmokou.DMath.LocationHelpers.UpdatePlayableScreenCenter*
+  commentId: Overload:Danmokou.DMath.LocationHelpers.UpdatePlayableScreenCenter
+  name: UpdatePlayableScreenCenter
+  nameWithType: LocationHelpers.UpdatePlayableScreenCenter
+  fullName: Danmokou.DMath.LocationHelpers.UpdatePlayableScreenCenter
 - uid: Danmokou.DMath.LocationHelpers.Left*
   commentId: Overload:Danmokou.DMath.LocationHelpers.Left
   name: Left
@@ -1341,11 +1461,6 @@ references:
   name: GetEnemyVisiblePlayer
   nameWithType: LocationHelpers.GetEnemyVisiblePlayer
   fullName: Danmokou.DMath.LocationHelpers.GetEnemyVisiblePlayer
-- uid: Vector2
-  isExternal: true
-  name: Vector2
-  nameWithType: Vector2
-  fullName: Vector2
 - uid: Danmokou.DMath.LocationHelpers.ToWall*
   commentId: Overload:Danmokou.DMath.LocationHelpers.ToWall
   name: ToWall
@@ -1378,6 +1493,11 @@ references:
   name: OffPlayableScreenBy
   nameWithType: LocationHelpers.OffPlayableScreenBy
   fullName: Danmokou.DMath.LocationHelpers.OffPlayableScreenBy
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
 - uid: Danmokou.DMath.LocationHelpers.OnScreenInDirection*
   commentId: Overload:Danmokou.DMath.LocationHelpers.OnScreenInDirection
   name: OnScreenInDirection

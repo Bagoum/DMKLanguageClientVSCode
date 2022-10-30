@@ -43,7 +43,7 @@ items:
   source:
     id: PhaseProperty
     path: ''
-    startLine: 14547
+    startLine: 15182
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -82,7 +82,7 @@ items:
   source:
     id: HideTimeout
     path: ''
-    startLine: 14553
+    startLine: 15188
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -115,7 +115,7 @@ items:
   source:
     id: Announce
     path: ''
-    startLine: 14557
+    startLine: 15192
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -147,7 +147,7 @@ items:
   source:
     id: Stage
     path: ''
-    startLine: 14561
+    startLine: 15196
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -179,7 +179,7 @@ items:
   source:
     id: Silent
     path: ''
-    startLine: 14567
+    startLine: 15202
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -212,7 +212,7 @@ items:
   source:
     id: Skip
     path: ''
-    startLine: 14573
+    startLine: 15208
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -245,7 +245,7 @@ items:
   source:
     id: Dialogue
     path: ''
-    startLine: 14579
+    startLine: 15214
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -278,7 +278,7 @@ items:
   source:
     id: Midboss
     path: ''
-    startLine: 14584
+    startLine: 15219
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -311,7 +311,7 @@ items:
   source:
     id: Endboss
     path: ''
-    startLine: 14589
+    startLine: 15224
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -344,7 +344,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 14593
+    startLine: 15228
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -381,7 +381,7 @@ items:
   source:
     id: Photo
     path: ''
-    startLine: 14599
+    startLine: 15234
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -416,7 +416,7 @@ items:
   source:
     id: HPn
     path: ''
-    startLine: 14604
+    startLine: 15239
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -451,7 +451,7 @@ items:
   source:
     id: HP
     path: ''
-    startLine: 14609
+    startLine: 15244
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -486,7 +486,7 @@ items:
   source:
     id: HPi
     path: ''
-    startLine: 14614
+    startLine: 15249
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -523,7 +523,7 @@ items:
   source:
     id: HPBar
     path: ''
-    startLine: 14620
+    startLine: 15255
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -559,7 +559,7 @@ items:
   source:
     id: Event
     path: ''
-    startLine: 14625
+    startLine: 15260
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -602,7 +602,7 @@ items:
   source:
     id: BGTIn
     path: ''
-    startLine: 14633
+    startLine: 15268
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -638,7 +638,7 @@ items:
   source:
     id: BG
     path: ''
-    startLine: 14640
+    startLine: 15275
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -675,7 +675,7 @@ items:
   source:
     id: BGTOut
     path: ''
-    startLine: 14646
+    startLine: 15281
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -711,7 +711,7 @@ items:
   source:
     id: Clear
     path: ''
-    startLine: 14653
+    startLine: 15288
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -744,7 +744,7 @@ items:
   source:
     id: NoClear
     path: ''
-    startLine: 14658
+    startLine: 15293
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -777,7 +777,7 @@ items:
   source:
     id: Root
     path: ''
-    startLine: 14663
+    startLine: 15298
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -814,7 +814,7 @@ items:
   source:
     id: RootOther
     path: ''
-    startLine: 14668
+    startLine: 15303
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -853,7 +853,7 @@ items:
   source:
     id: RootT
     path: ''
-    startLine: 14677
+    startLine: 15312
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -896,7 +896,7 @@ items:
   source:
     id: ShowLives
     path: ''
-    startLine: 14683
+    startLine: 15318
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -931,7 +931,7 @@ items:
   source:
     id: Lenient
     path: ''
-    startLine: 14689
+    startLine: 15324
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -964,7 +964,7 @@ items:
   source:
     id: BossCutin
     path: ''
-    startLine: 14694
+    startLine: 15329
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -996,7 +996,7 @@ items:
   source:
     id: SpellCutin
     path: ''
-    startLine: 14700
+    startLine: 15335
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1031,7 +1031,7 @@ items:
   source:
     id: Challenge
     path: ''
-    startLine: 14702
+    startLine: 15337
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

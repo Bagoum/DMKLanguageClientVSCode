@@ -22,7 +22,7 @@ items:
   source:
     id: Events
     path: ''
-    startLine: 345
+    startLine: 351
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -62,7 +62,7 @@ items:
   source:
     id: CreateRuntimeEventCreator
     path: ''
-    startLine: 353
+    startLine: 359
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -102,7 +102,7 @@ items:
   source:
     id: CreateRuntimeEvent
     path: ''
-    startLine: 356
+    startLine: 362
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -144,7 +144,7 @@ items:
   source:
     id: FindAnyRuntimeEvent
     path: ''
-    startLine: 437
+    startLine: 443
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -177,7 +177,7 @@ items:
   source:
     id: FindRuntimeEvent
     path: ''
-    startLine: 441
+    startLine: 447
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -215,7 +215,7 @@ items:
   source:
     id: ProcRuntimeEvent
     path: ''
-    startLine: 446
+    startLine: 452
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -253,7 +253,7 @@ items:
   source:
     id: exProcRuntimeEvent
     path: ''
-    startLine: 450
+    startLine: 456
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -288,7 +288,7 @@ items:
   source:
     id: SceneCleared
     path: ''
-    startLine: 455
+    startLine: 461
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

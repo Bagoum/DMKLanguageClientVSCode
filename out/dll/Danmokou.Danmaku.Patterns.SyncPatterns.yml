@@ -27,7 +27,6 @@ items:
   - Danmokou.Danmaku.Patterns.SyncPatterns.PSSFX(System.String,Danmokou.Danmaku.Patterns.SyncPattern)
   - Danmokou.Danmaku.Patterns.SyncPatterns.RandomX(ExBPY,ExBPY,Danmokou.Danmaku.Patterns.SyncPattern)
   - Danmokou.Danmaku.Patterns.SyncPatterns.RandomY(ExBPY,ExBPY,Danmokou.Danmaku.Patterns.SyncPattern)
-  - Danmokou.Danmaku.Patterns.SyncPatterns.Reexec(Danmokou.Danmaku.Patterns.AsyncPattern)
   - Danmokou.Danmaku.Patterns.SyncPatterns.SetP(GCXF{System.Single},Danmokou.Danmaku.Patterns.SyncPattern)
   - Danmokou.Danmaku.Patterns.SyncPatterns.Target(GCXF{Vector2},Danmokou.Danmaku.Patterns.SyncPattern[])
   - Danmokou.Danmaku.Patterns.SyncPatterns.TargetX(GCXF{Vector2},Danmokou.Danmaku.Patterns.SyncPattern[])
@@ -44,7 +43,7 @@ items:
   source:
     id: SyncPatterns
     path: ''
-    startLine: 5247
+    startLine: 5286
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -84,7 +83,7 @@ items:
   source:
     id: Aim1
     path: ''
-    startLine: 4484
+    startLine: 4520
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -117,7 +116,7 @@ items:
   source:
     id: oArrowI
     path: ''
-    startLine: 4487
+    startLine: 4523
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -161,7 +160,7 @@ items:
   source:
     id: FArrow
     path: ''
-    startLine: 4528
+    startLine: 4564
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -207,7 +206,7 @@ items:
   source:
     id: TreeArrow
     path: ''
-    startLine: 4531
+    startLine: 4567
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -249,39 +248,6 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Patterns.SyncPatterns.TreeArrow(ExBPY, ExBPY, ExBPY, ExBPY, GenCtxProperty(), GCXU(Of VTP), System.String, GCXF(Of System.Single), ExBPY, ExBPY, ExBPY)
   name.vb: TreeArrow(ExBPY, ExBPY, ExBPY, ExBPY, GenCtxProperty(), GCXU(Of VTP), String, GCXF(Of Single), ExBPY, ExBPY, ExBPY)
-- uid: Danmokou.Danmaku.Patterns.SyncPatterns.Reexec(Danmokou.Danmaku.Patterns.AsyncPattern)
-  commentId: M:Danmokou.Danmaku.Patterns.SyncPatterns.Reexec(Danmokou.Danmaku.Patterns.AsyncPattern)
-  id: Reexec(Danmokou.Danmaku.Patterns.AsyncPattern)
-  parent: Danmokou.Danmaku.Patterns.SyncPatterns
-  langs:
-  - csharp
-  - vb
-  name: Reexec(AsyncPattern)
-  nameWithType: SyncPatterns.Reexec(AsyncPattern)
-  fullName: Danmokou.Danmaku.Patterns.SyncPatterns.Reexec(Danmokou.Danmaku.Patterns.AsyncPattern)
-  type: Method
-  source:
-    id: Reexec
-    path: ''
-    startLine: 5249
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.Danmaku.Patterns
-  syntax:
-    content: public static SyncPattern Reexec(AsyncPattern ap)
-    parameters:
-    - id: ap
-      type: Danmokou.Danmaku.Patterns.AsyncPattern
-    return:
-      type: Danmokou.Danmaku.Patterns.SyncPattern
-    content.vb: Public Shared Function Reexec(ap As AsyncPattern) As SyncPattern
-  overload: Danmokou.Danmaku.Patterns.SyncPatterns.Reexec*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: Danmokou.Danmaku.Patterns.SyncPatterns.World(Danmokou.Danmaku.Patterns.SyncPattern)
   commentId: M:Danmokou.Danmaku.Patterns.SyncPatterns.World(Danmokou.Danmaku.Patterns.SyncPattern)
   id: World(Danmokou.Danmaku.Patterns.SyncPattern)
@@ -296,7 +262,7 @@ items:
   source:
     id: World
     path: ''
-    startLine: 5262
+    startLine: 5298
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -333,7 +299,7 @@ items:
   source:
     id: Loc0
     path: ''
-    startLine: 5271
+    startLine: 5307
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -370,7 +336,7 @@ items:
   source:
     id: Loc0c
     path: ''
-    startLine: 5287
+    startLine: 5323
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -410,7 +376,7 @@ items:
   source:
     id: AddTime
     path: ''
-    startLine: 5296
+    startLine: 5332
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -453,7 +419,7 @@ items:
   source:
     id: RandomX
     path: ''
-    startLine: 5306
+    startLine: 5342
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -492,7 +458,7 @@ items:
   source:
     id: RandomY
     path: ''
-    startLine: 5315
+    startLine: 5351
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -531,7 +497,7 @@ items:
   source:
     id: PSSFX
     path: ''
-    startLine: 5327
+    startLine: 5363
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -571,7 +537,7 @@ items:
   source:
     id: Color
     path: ''
-    startLine: 5332
+    startLine: 5368
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -608,7 +574,7 @@ items:
   source:
     id: ColorR
     path: ''
-    startLine: 5337
+    startLine: 5373
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -645,7 +611,7 @@ items:
   source:
     id: DoubleFlipY
     path: ''
-    startLine: 5346
+    startLine: 5382
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -682,7 +648,7 @@ items:
   source:
     id: DoubleFlipX
     path: ''
-    startLine: 5357
+    startLine: 5393
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -719,7 +685,7 @@ items:
   source:
     id: DoubleFlipXY
     path: ''
-    startLine: 5368
+    startLine: 5404
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -756,7 +722,7 @@ items:
   source:
     id: SetP
     path: ''
-    startLine: 5374
+    startLine: 5410
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -794,7 +760,7 @@ items:
   source:
     id: Target
     path: ''
-    startLine: 5384
+    startLine: 5420
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -837,7 +803,7 @@ items:
   source:
     id: TargetX
     path: ''
-    startLine: 5393
+    startLine: 5429
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -880,7 +846,7 @@ items:
   source:
     id: TargetY
     path: ''
-    startLine: 5401
+    startLine: 5437
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -923,7 +889,7 @@ items:
   source:
     id: GuideEmpty2
     path: ''
-    startLine: 5417
+    startLine: 5453
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -967,7 +933,7 @@ items:
   source:
     id: GuideEmpty
     path: ''
-    startLine: 5430
+    startLine: 5466
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1022,7 +988,7 @@ items:
   source:
     id: PlayerGuideEmpty
     path: ''
-    startLine: 5437
+    startLine: 5473
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1070,7 +1036,7 @@ items:
   source:
     id: GSRepeat
     path: ''
-    startLine: 5522
+    startLine: 5558
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1113,7 +1079,7 @@ items:
   source:
     id: GSRepeat2
     path: ''
-    startLine: 5547
+    startLine: 5583
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1162,7 +1128,7 @@ items:
   source:
     id: GSRepeatFRV2
     path: ''
-    startLine: 5560
+    startLine: 5596
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1211,7 +1177,7 @@ items:
   source:
     id: GSRepeat2c
     path: ''
-    startLine: 5573
+    startLine: 5609
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1257,7 +1223,7 @@ items:
   source:
     id: GSRepeat2dr
     path: ''
-    startLine: 5580
+    startLine: 5616
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1837,17 +1803,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Danmokou.Danmaku.Patterns.SyncPatterns.Reexec*
-  commentId: Overload:Danmokou.Danmaku.Patterns.SyncPatterns.Reexec
-  name: Reexec
-  nameWithType: SyncPatterns.Reexec
-  fullName: Danmokou.Danmaku.Patterns.SyncPatterns.Reexec
-- uid: Danmokou.Danmaku.Patterns.AsyncPattern
-  commentId: T:Danmokou.Danmaku.Patterns.AsyncPattern
-  parent: Danmokou.Danmaku.Patterns
-  name: AsyncPattern
-  nameWithType: AsyncPattern
-  fullName: Danmokou.Danmaku.Patterns.AsyncPattern
 - uid: Danmokou.Danmaku.Patterns.SyncPatterns.World*
   commentId: Overload:Danmokou.Danmaku.Patterns.SyncPatterns.World
   name: World

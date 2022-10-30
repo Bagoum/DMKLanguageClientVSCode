@@ -16,7 +16,7 @@ items:
   source:
     id: BPRV2Repo
     path: ''
-    startLine: 9003
+    startLine: 9586
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -55,7 +55,7 @@ items:
   source:
     id: RV2
     path: ''
-    startLine: 9010
+    startLine: 9593
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

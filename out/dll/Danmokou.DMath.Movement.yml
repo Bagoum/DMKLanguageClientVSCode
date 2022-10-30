@@ -23,8 +23,8 @@ items:
   - Danmokou.DMath.Movement.rootPos
   - Danmokou.DMath.Movement.sin_rot
   - Danmokou.DMath.Movement.UpdateDeltaAssignDelta(Danmokou.DMath.ParametricInfo@,Vector3@,System.Single@)
-  - Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection,System.Int32)
-  - Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex,Ex)
+  - Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection.VelocityUpdateState@)
+  - Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex)
   - Danmokou.DMath.Movement.UpdateZero(Danmokou.DMath.ParametricInfo@)
   - Danmokou.DMath.Movement.WithNoMovement
   langs:
@@ -37,7 +37,7 @@ items:
   source:
     id: Movement
     path: ''
-    startLine: 6757
+    startLine: 7332
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -73,7 +73,7 @@ items:
   source:
     id: rootPos
     path: ''
-    startLine: 6763
+    startLine: 7338
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -100,7 +100,7 @@ items:
   source:
     id: angle
     path: ''
-    startLine: 6765
+    startLine: 7340
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -127,7 +127,7 @@ items:
   source:
     id: cos_rot
     path: ''
-    startLine: 6766
+    startLine: 7341
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -154,7 +154,7 @@ items:
   source:
     id: sin_rot
     path: ''
-    startLine: 6767
+    startLine: 7342
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -181,7 +181,7 @@ items:
   source:
     id: flipX
     path: ''
-    startLine: 6768
+    startLine: 7343
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -208,7 +208,7 @@ items:
   source:
     id: flipY
     path: ''
-    startLine: 6769
+    startLine: 7344
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -235,7 +235,7 @@ items:
   source:
     id: Direction
     path: ''
-    startLine: 6770
+    startLine: 7345
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -267,11 +267,11 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6778
+    startLine: 7353
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
-  summary: "\nCreate a velocity configuration.\n"
+  summary: "\nCreate a movement configuration.\n"
   example: []
   syntax:
     content: public Movement(VTP path, Vector2 parentLoc, V2RV2 localLoc)
@@ -305,7 +305,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6788
+    startLine: 7363
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -338,7 +338,7 @@ items:
   source:
     id: WithNoMovement
     path: ''
-    startLine: 6798
+    startLine: 7373
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -366,7 +366,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6800
+    startLine: 7375
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -395,7 +395,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6807
+    startLine: 7382
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -430,7 +430,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 6809
+    startLine: 7384
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -464,7 +464,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6811
+    startLine: 7386
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -495,7 +495,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6820
+    startLine: 7395
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -526,7 +526,7 @@ items:
   source:
     id: UpdateZero
     path: ''
-    startLine: 6833
+    startLine: 7408
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -550,65 +550,64 @@ items:
   - Public
   fullName.vb: Danmokou.DMath.Movement.UpdateZero(ByRef Danmokou.DMath.ParametricInfo)
   name.vb: UpdateZero(ByRef ParametricInfo)
-- uid: Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection,System.Int32)
-  commentId: M:Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection,System.Int32)
-  id: UpdateDeltaNoTime(BulletManager.SimpleBulletCollection,System.Int32)
+- uid: Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection.VelocityUpdateState@)
+  commentId: M:Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection.VelocityUpdateState@)
+  id: UpdateDeltaNoTime(BulletManager.SimpleBulletCollection.VelocityUpdateState@)
   parent: Danmokou.DMath.Movement
   langs:
   - csharp
   - vb
-  name: UpdateDeltaNoTime(BulletManager.SimpleBulletCollection, Int32)
-  nameWithType: Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection, Int32)
-  fullName: Danmokou.DMath.Movement.UpdateDeltaNoTime(BulletManager.SimpleBulletCollection, System.Int32)
+  name: UpdateDeltaNoTime(in BulletManager.SimpleBulletCollection.VelocityUpdateState)
+  nameWithType: Movement.UpdateDeltaNoTime(in BulletManager.SimpleBulletCollection.VelocityUpdateState)
+  fullName: Danmokou.DMath.Movement.UpdateDeltaNoTime(in BulletManager.SimpleBulletCollection.VelocityUpdateState)
   type: Method
   source:
     id: UpdateDeltaNoTime
     path: ''
-    startLine: 6889
+    startLine: 7464
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
   syntax:
-    content: public void UpdateDeltaNoTime(BulletManager.SimpleBulletCollection sbc, int ii)
+    content: public void UpdateDeltaNoTime(in BulletManager.SimpleBulletCollection.VelocityUpdateState st)
     parameters:
-    - id: sbc
-      type: BulletManager.SimpleBulletCollection
-    - id: ii
-      type: System.Int32
-    content.vb: Public Sub UpdateDeltaNoTime(sbc As BulletManager.SimpleBulletCollection, ii As Integer)
+    - id: st
+      type: BulletManager.SimpleBulletCollection.VelocityUpdateState
+    content.vb: Public Sub UpdateDeltaNoTime(ByRef st As BulletManager.SimpleBulletCollection.VelocityUpdateState)
   overload: Danmokou.DMath.Movement.UpdateDeltaNoTime*
+  nameWithType.vb: Movement.UpdateDeltaNoTime(ByRef BulletManager.SimpleBulletCollection.VelocityUpdateState)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex,Ex)
-  commentId: M:Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex,Ex)
-  id: UpdateDeltaNoTime(Ex,Ex)
+  fullName.vb: Danmokou.DMath.Movement.UpdateDeltaNoTime(ByRef BulletManager.SimpleBulletCollection.VelocityUpdateState)
+  name.vb: UpdateDeltaNoTime(ByRef BulletManager.SimpleBulletCollection.VelocityUpdateState)
+- uid: Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex)
+  commentId: M:Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex)
+  id: UpdateDeltaNoTime(Ex)
   parent: Danmokou.DMath.Movement
   langs:
   - csharp
   - vb
-  name: UpdateDeltaNoTime(Ex, Ex)
-  nameWithType: Movement.UpdateDeltaNoTime(Ex, Ex)
-  fullName: Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex, Ex)
+  name: UpdateDeltaNoTime(Ex)
+  nameWithType: Movement.UpdateDeltaNoTime(Ex)
+  fullName: Danmokou.DMath.Movement.UpdateDeltaNoTime(Ex)
   type: Method
   source:
     id: UpdateDeltaNoTime
     path: ''
-    startLine: 6899
+    startLine: 7474
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
   syntax:
-    content: public Ex UpdateDeltaNoTime(Ex sbc, Ex ii)
+    content: public Ex UpdateDeltaNoTime(Ex st)
     parameters:
-    - id: sbc
-      type: Ex
-    - id: ii
+    - id: st
       type: Ex
     return:
       type: Ex
-    content.vb: Public Function UpdateDeltaNoTime(sbc As Ex, ii As Ex) As Ex
+    content.vb: Public Function UpdateDeltaNoTime(st As Ex) As Ex
   overload: Danmokou.DMath.Movement.UpdateDeltaNoTime*
   modifiers.csharp:
   - public
@@ -628,7 +627,7 @@ items:
   source:
     id: UpdateDeltaAssignDelta
     path: ''
-    startLine: 6910
+    startLine: 7485
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -669,7 +668,7 @@ items:
   source:
     id: FlipX
     path: ''
-    startLine: 6919
+    startLine: 7494
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -695,7 +694,7 @@ items:
   source:
     id: FlipY
     path: ''
-    startLine: 6922
+    startLine: 7497
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -721,7 +720,7 @@ items:
   source:
     id: IsEmpty
     path: ''
-    startLine: 6925
+    startLine: 7500
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1074,18 +1073,11 @@ references:
   name: UpdateDeltaNoTime
   nameWithType: Movement.UpdateDeltaNoTime
   fullName: Danmokou.DMath.Movement.UpdateDeltaNoTime
-- uid: BulletManager.SimpleBulletCollection
+- uid: BulletManager.SimpleBulletCollection.VelocityUpdateState
   isExternal: true
-  name: BulletManager.SimpleBulletCollection
-  nameWithType: BulletManager.SimpleBulletCollection
-  fullName: BulletManager.SimpleBulletCollection
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  name: BulletManager.SimpleBulletCollection.VelocityUpdateState
+  nameWithType: BulletManager.SimpleBulletCollection.VelocityUpdateState
+  fullName: BulletManager.SimpleBulletCollection.VelocityUpdateState
 - uid: Ex
   isExternal: true
   name: Ex

@@ -19,7 +19,7 @@ items:
   source:
     id: PatternProperty
     path: ''
-    startLine: 14473
+    startLine: 15108
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -58,7 +58,7 @@ items:
   source:
     id: Boss
     path: ''
-    startLine: 14480
+    startLine: 15115
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -95,7 +95,7 @@ items:
   source:
     id: Bosses
     path: ''
-    startLine: 14482
+    startLine: 15117
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -133,7 +133,7 @@ items:
   source:
     id: BGM
     path: ''
-    startLine: 14484
+    startLine: 15119
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -169,7 +169,7 @@ items:
   source:
     id: SetUIFrom
     path: ''
-    startLine: 14486
+    startLine: 15121
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

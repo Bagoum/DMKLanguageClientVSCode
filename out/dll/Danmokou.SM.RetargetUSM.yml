@@ -19,7 +19,7 @@ items:
   source:
     id: RetargetUSM
     path: ''
-    startLine: 15620
+    startLine: 16258
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -62,7 +62,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15623
+    startLine: 16261
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -96,7 +96,7 @@ items:
   source:
     id: Retarget
     path: ''
-    startLine: 15627
+    startLine: 16265
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -134,7 +134,7 @@ items:
   source:
     id: Retarget
     path: ''
-    startLine: 15628
+    startLine: 16266
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -172,7 +172,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 15630
+    startLine: 16268
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

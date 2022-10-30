@@ -50,7 +50,7 @@ items:
   source:
     id: ExMLerps
     path: ''
-    startLine: 11349
+    startLine: 11970
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -90,7 +90,7 @@ items:
   source:
     id: Ratio
     path: ''
-    startLine: 11359
+    startLine: 11980
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -133,7 +133,7 @@ items:
   source:
     id: Lerp
     path: ''
-    startLine: 11371
+    startLine: 11992
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -187,7 +187,7 @@ items:
   source:
     id: LerpD
     path: ''
-    startLine: 11383
+    startLine: 12004
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -229,7 +229,7 @@ items:
   source:
     id: LerpR
     path: ''
-    startLine: 11388
+    startLine: 12009
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -271,7 +271,7 @@ items:
   source:
     id: Lerp01
     path: ''
-    startLine: 11394
+    startLine: 12015
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -315,7 +315,7 @@ items:
   source:
     id: LerpSmooth
     path: ''
-    startLine: 11399
+    startLine: 12020
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -365,7 +365,7 @@ items:
   source:
     id: LerpU
     path: ''
-    startLine: 11418
+    startLine: 12039
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -419,7 +419,7 @@ items:
   source:
     id: Lerp01U
     path: ''
-    startLine: 11430
+    startLine: 12051
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -463,7 +463,7 @@ items:
   source:
     id: Lerp3
     path: ''
-    startLine: 11438
+    startLine: 12059
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -517,7 +517,7 @@ items:
   source:
     id: Lerp3c
     path: ''
-    startLine: 11448
+    startLine: 12069
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -569,7 +569,7 @@ items:
   source:
     id: LerpBack
     path: ''
-    startLine: 11465
+    startLine: 12086
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -629,7 +629,7 @@ items:
   source:
     id: LerpMany
     path: ''
-    startLine: 11472
+    startLine: 12093
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -671,7 +671,7 @@ items:
   source:
     id: Select
     path: ''
-    startLine: 11487
+    startLine: 12108
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -713,7 +713,7 @@ items:
   source:
     id: SStep
     path: ''
-    startLine: 11500
+    startLine: 12121
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -752,7 +752,7 @@ items:
   source:
     id: Damp
     path: ''
-    startLine: 11505
+    startLine: 12126
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -791,7 +791,7 @@ items:
   source:
     id: LerpT
     path: ''
-    startLine: 11508
+    startLine: 12129
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -835,7 +835,7 @@ items:
   source:
     id: LerpT3
     path: ''
-    startLine: 11513
+    startLine: 12134
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -885,7 +885,7 @@ items:
   source:
     id: SwitchH
     path: ''
-    startLine: 11527
+    startLine: 12148
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -936,7 +936,7 @@ items:
   source:
     id: EaseD
     path: ''
-    startLine: 11549
+    startLine: 12170
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -984,7 +984,7 @@ items:
   source:
     id: Ease
     path: ''
-    startLine: 11560
+    startLine: 12181
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1032,7 +1032,7 @@ items:
   source:
     id: RotateLerp
     path: ''
-    startLine: 11565
+    startLine: 12186
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1073,7 +1073,7 @@ items:
   source:
     id: RotateLerpCCW
     path: ''
-    startLine: 11570
+    startLine: 12191
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1114,7 +1114,7 @@ items:
   source:
     id: RotateLerpCW
     path: ''
-    startLine: 11575
+    startLine: 12196
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1155,7 +1155,7 @@ items:
   source:
     id: Smooth
     path: ''
-    startLine: 11590
+    startLine: 12211
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1210,7 +1210,7 @@ items:
   source:
     id: SmoothC
     path: ''
-    startLine: 11600
+    startLine: 12221
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1253,7 +1253,7 @@ items:
   source:
     id: SmoothIO
     path: ''
-    startLine: 11616
+    startLine: 12237
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1308,7 +1308,7 @@ items:
   source:
     id: SmoothIOe
     path: ''
-    startLine: 11629
+    startLine: 12250
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1352,7 +1352,7 @@ items:
   source:
     id: SmoothLoop
     path: ''
-    startLine: 11640
+    startLine: 12261
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1395,7 +1395,7 @@ items:
   source:
     id: SmoothR
     path: ''
-    startLine: 11657
+    startLine: 12278
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1441,7 +1441,7 @@ items:
   source:
     id: SmoothLoopR
     path: ''
-    startLine: 11663
+    startLine: 12284
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1483,7 +1483,7 @@ items:
   source:
     id: EQuad0m10
     path: ''
-    startLine: 11674
+    startLine: 12295
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1526,7 +1526,7 @@ items:
   source:
     id: Bezier
     path: ''
-    startLine: 11691
+    startLine: 12312
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1576,7 +1576,7 @@ items:
   source:
     id: Bezier3
     path: ''
-    startLine: 11710
+    startLine: 12331
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1629,7 +1629,7 @@ items:
   source:
     id: CubicBezier
     path: ''
-    startLine: 11730
+    startLine: 12351
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1677,7 +1677,7 @@ items:
   source:
     id: CubicBezierLerp
     path: ''
-    startLine: 11750
+    startLine: 12371
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

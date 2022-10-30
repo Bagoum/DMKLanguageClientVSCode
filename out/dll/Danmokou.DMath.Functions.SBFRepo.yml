@@ -17,7 +17,7 @@ items:
   source:
     id: SBFRepo
     path: ''
-    startLine: 9141
+    startLine: 9727
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -57,7 +57,7 @@ items:
   source:
     id: Scale
     path: ''
-    startLine: 9147
+    startLine: 9733
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -90,7 +90,7 @@ items:
   source:
     id: Dir
     path: ''
-    startLine: 9152
+    startLine: 9738
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

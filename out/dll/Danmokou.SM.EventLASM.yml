@@ -23,7 +23,7 @@ items:
   source:
     id: EventLASM
     path: ''
-    startLine: 13230
+    startLine: 13855
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -68,7 +68,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13234
+    startLine: 13859
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -97,7 +97,7 @@ items:
   source:
     id: Listen
     path: ''
-    startLine: 13242
+    startLine: 13867
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -144,7 +144,7 @@ items:
   source:
     id: ResetTrigger
     path: ''
-    startLine: 13257
+    startLine: 13882
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -181,7 +181,7 @@ items:
   source:
     id: OnNext
     path: ''
-    startLine: 13266
+    startLine: 13891
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -223,7 +223,7 @@ items:
   source:
     id: OnNext0
     path: ''
-    startLine: 13276
+    startLine: 13901
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -258,7 +258,7 @@ items:
   source:
     id: PlayerInvuln
     path: ''
-    startLine: 13283
+    startLine: 13908
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -295,7 +295,7 @@ items:
   source:
     id: BossExplodeWait
     path: ''
-    startLine: 13290
+    startLine: 13915
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -324,7 +324,7 @@ items:
   source:
     id: BossExplode
     path: ''
-    startLine: 13295
+    startLine: 13920
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

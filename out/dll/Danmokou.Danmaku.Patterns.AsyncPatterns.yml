@@ -35,7 +35,7 @@ items:
   source:
     id: AsyncPatterns
     path: ''
-    startLine: 4553
+    startLine: 4589
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -75,7 +75,7 @@ items:
   source:
     id: GCRepeat
     path: ''
-    startLine: 4179
+    startLine: 4215
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -118,7 +118,7 @@ items:
   source:
     id: GCRepeat2
     path: ''
-    startLine: 4218
+    startLine: 4254
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -170,7 +170,7 @@ items:
   source:
     id: GCRepeat2d
     path: ''
-    startLine: 4233
+    startLine: 4269
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -225,7 +225,7 @@ items:
   source:
     id: GCRepeat2dr
     path: ''
-    startLine: 4240
+    startLine: 4276
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -273,7 +273,7 @@ items:
   source:
     id: GCRepeatFRV2
     path: ''
-    startLine: 4244
+    startLine: 4280
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -317,7 +317,7 @@ items:
   source:
     id: GCRepeat3
     path: ''
-    startLine: 4256
+    startLine: 4292
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -369,7 +369,7 @@ items:
   source:
     id: _AsGCR
     path: ''
-    startLine: 4259
+    startLine: 4295
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -407,7 +407,7 @@ items:
   source:
     id: COnce
     path: ''
-    startLine: 4281
+    startLine: 4317
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -444,7 +444,7 @@ items:
   source:
     id: CDelay
     path: ''
-    startLine: 4291
+    startLine: 4327
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -487,7 +487,7 @@ items:
   source:
     id: GIRepeat
     path: ''
-    startLine: 4307
+    startLine: 4343
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -530,7 +530,7 @@ items:
   source:
     id: GIRepeat2
     path: ''
-    startLine: 4345
+    startLine: 4381
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -582,7 +582,7 @@ items:
   source:
     id: GIRepeat2d
     path: ''
-    startLine: 4360
+    startLine: 4396
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -637,7 +637,7 @@ items:
   source:
     id: GIRepeat3
     path: ''
-    startLine: 4373
+    startLine: 4409
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -689,7 +689,7 @@ items:
   source:
     id: IDelay
     path: ''
-    startLine: 4387
+    startLine: 4423
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -732,7 +732,7 @@ items:
   source:
     id: IColor
     path: ''
-    startLine: 4389
+    startLine: 4425
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -767,7 +767,7 @@ items:
   source:
     id: ISetP
     path: ''
-    startLine: 4391
+    startLine: 4427
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -805,7 +805,7 @@ items:
   source:
     id: IParent
     path: ''
-    startLine: 4408
+    startLine: 4444
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -845,7 +845,7 @@ items:
   source:
     id: ICacheLoc
     path: ''
-    startLine: 4424
+    startLine: 4460
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -882,7 +882,7 @@ items:
   source:
     id: gEruption
     path: ''
-    startLine: 4554
+    startLine: 4590
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -926,7 +926,7 @@ items:
   source:
     id: Eruption
     path: ''
-    startLine: 4556
+    startLine: 4592
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

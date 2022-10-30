@@ -17,7 +17,7 @@ items:
   source:
     id: SMContext
     path: ''
-    startLine: 14983
+    startLine: 15618
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -58,7 +58,7 @@ items:
   source:
     id: PhaseObjects
     path: ''
-    startLine: 14984
+    startLine: 15619
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -91,7 +91,7 @@ items:
   source:
     id: CleanupObjects
     path: ''
-    startLine: 14986
+    startLine: 15621
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

@@ -24,7 +24,7 @@ items:
   source:
     id: PhaseType
     path: ''
-    startLine: 1118
+    startLine: 1127
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -53,7 +53,7 @@ items:
   source:
     id: NONSPELL
     path: ''
-    startLine: 1122
+    startLine: 1131
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -83,7 +83,7 @@ items:
   source:
     id: SPELL
     path: ''
-    startLine: 1126
+    startLine: 1135
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -113,7 +113,7 @@ items:
   source:
     id: TIMEOUT
     path: ''
-    startLine: 1130
+    startLine: 1139
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -143,7 +143,7 @@ items:
   source:
     id: FINAL
     path: ''
-    startLine: 1134
+    startLine: 1143
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -173,7 +173,7 @@ items:
   source:
     id: ANNOUNCE
     path: ''
-    startLine: 1138
+    startLine: 1147
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -203,7 +203,7 @@ items:
   source:
     id: DIALOGUE
     path: ''
-    startLine: 1142
+    startLine: 1151
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -233,7 +233,7 @@ items:
   source:
     id: STAGE
     path: ''
-    startLine: 1146
+    startLine: 1155
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -263,7 +263,7 @@ items:
   source:
     id: STAGEMIDBOSS
     path: ''
-    startLine: 1150
+    startLine: 1159
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -293,7 +293,7 @@ items:
   source:
     id: STAGEENDBOSS
     path: ''
-    startLine: 1154
+    startLine: 1163
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

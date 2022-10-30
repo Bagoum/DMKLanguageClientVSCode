@@ -21,7 +21,7 @@ items:
   source:
     id: InstanceMode
     path: ''
-    startLine: 1163
+    startLine: 1172
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -48,7 +48,7 @@ items:
   source:
     id: "NULL"
     path: ''
-    startLine: 1169
+    startLine: 1178
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -78,7 +78,7 @@ items:
   source:
     id: CAMPAIGN
     path: ''
-    startLine: 1181
+    startLine: 1190
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -108,7 +108,7 @@ items:
   source:
     id: STAGE_PRACTICE
     path: ''
-    startLine: 1185
+    startLine: 1194
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -138,7 +138,7 @@ items:
   source:
     id: BOSS_PRACTICE
     path: ''
-    startLine: 1189
+    startLine: 1198
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -168,7 +168,7 @@ items:
   source:
     id: TUTORIAL
     path: ''
-    startLine: 1193
+    startLine: 1202
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -198,7 +198,7 @@ items:
   source:
     id: SCENE_CHALLENGE
     path: ''
-    startLine: 1197
+    startLine: 1206
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

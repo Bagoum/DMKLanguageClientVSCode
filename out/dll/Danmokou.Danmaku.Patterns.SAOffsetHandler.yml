@@ -17,7 +17,7 @@ items:
   source:
     id: SAOffsetHandler
     path: ''
-    startLine: 5213
+    startLine: 5252
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -58,7 +58,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5215
+    startLine: 5254
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -94,7 +94,7 @@ items:
   source:
     id: Locate
     path: ''
-    startLine: 5219
+    startLine: 5258
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
