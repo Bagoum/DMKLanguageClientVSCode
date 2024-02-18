@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.AutoVarMethod
+  commentId: T:Danmokou.Core.AutoVarMethod
+  id: AutoVarMethod
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.AutoVarMethod.GenCtx
+  - Danmokou.Core.AutoVarMethod.None
+  langs:
+  - csharp
+  - vb
+  name: AutoVarMethod
+  nameWithType: AutoVarMethod
+  fullName: Danmokou.Core.AutoVarMethod
+  type: Enum
+  source:
+    id: AutoVarMethod
+    path: ''
+    startLine: 226
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum AutoVarMethod
+    content.vb: Public Enum AutoVarMethod
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.AutoVarMethod.None
+  commentId: F:Danmokou.Core.AutoVarMethod.None
+  id: None
+  parent: Danmokou.Core.AutoVarMethod
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AutoVarMethod.None
+  fullName: Danmokou.Core.AutoVarMethod.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 227
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: None = 0
+    return:
+      type: Danmokou.Core.AutoVarMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AutoVarMethod.GenCtx
+  commentId: F:Danmokou.Core.AutoVarMethod.GenCtx
+  id: GenCtx
+  parent: Danmokou.Core.AutoVarMethod
+  langs:
+  - csharp
+  - vb
+  name: GenCtx
+  nameWithType: AutoVarMethod.GenCtx
+  fullName: Danmokou.Core.AutoVarMethod.GenCtx
+  type: Field
+  source:
+    id: GenCtx
+    path: ''
+    startLine: 228
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: GenCtx = 1
+    return:
+      type: Danmokou.Core.AutoVarMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.AutoVarMethod
+  commentId: T:Danmokou.Core.AutoVarMethod
+  parent: Danmokou.Core
+  name: AutoVarMethod
+  nameWithType: AutoVarMethod
+  fullName: Danmokou.Core.AutoVarMethod

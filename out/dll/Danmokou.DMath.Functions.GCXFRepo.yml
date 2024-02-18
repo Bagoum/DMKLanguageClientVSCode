@@ -5,7 +5,7 @@ items:
   id: GCXFRepo
   parent: Danmokou.DMath.Functions
   children:
-  - Danmokou.DMath.Functions.GCXFRepo._Fake``1(System.Func{TExArgCtx,TEx{``0}})
+  - Danmokou.DMath.Functions.GCXFRepo._Fake(System.Func{TExArgCtx,TEx})
   - Danmokou.DMath.Functions.GCXFRepo.Max
   - Danmokou.DMath.Functions.GCXFRepo.RV2Zero
   - Danmokou.DMath.Functions.GCXFRepo.V2Zero
@@ -19,7 +19,7 @@ items:
   source:
     id: GCXFRepo
     path: ''
-    startLine: 8540
+    startLine: 8776
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -43,44 +43,42 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: Danmokou.DMath.Functions.GCXFRepo._Fake``1(System.Func{TExArgCtx,TEx{``0}})
-  commentId: M:Danmokou.DMath.Functions.GCXFRepo._Fake``1(System.Func{TExArgCtx,TEx{``0}})
-  id: _Fake``1(System.Func{TExArgCtx,TEx{``0}})
+- uid: Danmokou.DMath.Functions.GCXFRepo._Fake(System.Func{TExArgCtx,TEx})
+  commentId: M:Danmokou.DMath.Functions.GCXFRepo._Fake(System.Func{TExArgCtx,TEx})
+  id: _Fake(System.Func{TExArgCtx,TEx})
   parent: Danmokou.DMath.Functions.GCXFRepo
   langs:
   - csharp
   - vb
-  name: _Fake<T>(Func<TExArgCtx, TEx<T>>)
-  nameWithType: GCXFRepo._Fake<T>(Func<TExArgCtx, TEx<T>>)
-  fullName: Danmokou.DMath.Functions.GCXFRepo._Fake<T>(System.Func<TExArgCtx, TEx<T>>)
+  name: _Fake(Func<TExArgCtx, TEx>)
+  nameWithType: GCXFRepo._Fake(Func<TExArgCtx, TEx>)
+  fullName: Danmokou.DMath.Functions.GCXFRepo._Fake(System.Func<TExArgCtx, TEx>)
   type: Method
   source:
     id: _Fake
     path: ''
-    startLine: 8542
+    startLine: 8778
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static Func<TExArgCtx, TEx<T>> _Fake<T>(Func<TExArgCtx, TEx<T>> target)
+    content: public static Func<TExArgCtx, TEx> _Fake(Func<TExArgCtx, TEx> target)
     parameters:
     - id: target
-      type: System.Func{TExArgCtx,TEx{{T}}}
-    typeParameters:
-    - id: T
+      type: System.Func{TExArgCtx,TEx}
     return:
-      type: System.Func{TExArgCtx,TEx{{T}}}
-    content.vb: Public Shared Function _Fake(Of T)(target As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+      type: System.Func{TExArgCtx,TEx}
+    content.vb: Public Shared Function _Fake(target As Func(Of TExArgCtx, TEx)) As Func(Of TExArgCtx, TEx)
   overload: Danmokou.DMath.Functions.GCXFRepo._Fake*
-  nameWithType.vb: GCXFRepo._Fake(Of T)(Func(Of TExArgCtx, TEx(Of T)))
+  nameWithType.vb: GCXFRepo._Fake(Func(Of TExArgCtx, TEx))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.GCXFRepo._Fake(Of T)(System.Func(Of TExArgCtx, TEx(Of T)))
-  name.vb: _Fake(Of T)(Func(Of TExArgCtx, TEx(Of T)))
+  fullName.vb: Danmokou.DMath.Functions.GCXFRepo._Fake(System.Func(Of TExArgCtx, TEx))
+  name.vb: _Fake(Func(Of TExArgCtx, TEx))
 - uid: Danmokou.DMath.Functions.GCXFRepo.V2Zero
   commentId: F:Danmokou.DMath.Functions.GCXFRepo.V2Zero
   id: V2Zero
@@ -95,7 +93,7 @@ items:
   source:
     id: V2Zero
     path: ''
-    startLine: 8554
+    startLine: 8790
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -126,7 +124,7 @@ items:
   source:
     id: RV2Zero
     path: ''
-    startLine: 8555
+    startLine: 8791
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -157,7 +155,7 @@ items:
   source:
     id: Max
     path: ''
-    startLine: 8557
+    startLine: 8793
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -477,16 +475,16 @@ references:
   name: _Fake
   nameWithType: GCXFRepo._Fake
   fullName: Danmokou.DMath.Functions.GCXFRepo._Fake
-- uid: System.Func{TExArgCtx,TEx{{T}}}
-  commentId: T:System.Func{TExArgCtx,TEx{``0}}
+- uid: System.Func{TExArgCtx,TEx}
+  commentId: T:System.Func{TExArgCtx,TEx}
   parent: System
   definition: System.Func`2
-  name: Func<TExArgCtx, TEx<T>>
-  nameWithType: Func<TExArgCtx, TEx<T>>
-  fullName: System.Func<TExArgCtx, TEx<T>>
-  nameWithType.vb: Func(Of TExArgCtx, TEx(Of T))
-  fullName.vb: System.Func(Of TExArgCtx, TEx(Of T))
-  name.vb: Func(Of TExArgCtx, TEx(Of T))
+  name: Func<TExArgCtx, TEx>
+  nameWithType: Func<TExArgCtx, TEx>
+  fullName: System.Func<TExArgCtx, TEx>
+  nameWithType.vb: Func(Of TExArgCtx, TEx)
+  fullName.vb: System.Func(Of TExArgCtx, TEx)
+  name.vb: Func(Of TExArgCtx, TEx)
   spec.csharp:
   - uid: System.Func`2
     name: Func
@@ -504,20 +502,11 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: TEx`1
+  - uid: TEx
     name: TEx
     nameWithType: TEx
     fullName: TEx
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -538,20 +527,11 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: TEx`1
+  - uid: TEx
     name: TEx
     nameWithType: TEx
     fullName: TEx
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
   - name: )
     nameWithType: )
     fullName: )

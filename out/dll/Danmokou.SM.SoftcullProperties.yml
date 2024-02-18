@@ -17,6 +17,7 @@ items:
   - Danmokou.SM.SoftcullProperties.OverTimeDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
   - Danmokou.SM.SoftcullProperties.sendToC
   - Danmokou.SM.SoftcullProperties.SynchronousDefault(Vector2,System.Single,System.Single,System.Single,System.String,System.String)
+  - Danmokou.SM.SoftcullProperties.UseFlakeItems
   langs:
   - csharp
   - vb
@@ -27,7 +28,7 @@ items:
   source:
     id: SoftcullProperties
     path: ''
-    startLine: 15458
+    startLine: 16107
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -68,7 +69,7 @@ items:
   source:
     id: center
     path: ''
-    startLine: 15459
+    startLine: 16108
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -99,7 +100,7 @@ items:
   source:
     id: advance
     path: ''
-    startLine: 15460
+    startLine: 16109
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -130,7 +131,7 @@ items:
   source:
     id: minDist
     path: ''
-    startLine: 15461
+    startLine: 16110
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -161,7 +162,7 @@ items:
   source:
     id: maxDist
     path: ''
-    startLine: 15462
+    startLine: 16111
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -192,7 +193,7 @@ items:
   source:
     id: autocullTarget
     path: ''
-    startLine: 15463
+    startLine: 16112
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -209,6 +210,39 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: Danmokou.SM.SoftcullProperties.UseFlakeItems
+  commentId: P:Danmokou.SM.SoftcullProperties.UseFlakeItems
+  id: UseFlakeItems
+  parent: Danmokou.SM.SoftcullProperties
+  langs:
+  - csharp
+  - vb
+  name: UseFlakeItems
+  nameWithType: SoftcullProperties.UseFlakeItems
+  fullName: Danmokou.SM.SoftcullProperties.UseFlakeItems
+  type: Property
+  source:
+    id: UseFlakeItems
+    path: ''
+    startLine: 16117
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nTrue iff the cleared bullets should be converted to flake items that grant the player extra points.\n"
+  example: []
+  syntax:
+    content: public bool UseFlakeItems { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UseFlakeItems As Boolean
+  overload: Danmokou.SM.SoftcullProperties.UseFlakeItems*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Danmokou.SM.SoftcullProperties.DefaultPool
   commentId: P:Danmokou.SM.SoftcullProperties.DefaultPool
   id: DefaultPool
@@ -223,7 +257,7 @@ items:
   source:
     id: DefaultPool
     path: ''
-    startLine: 15465
+    startLine: 16118
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -254,7 +288,7 @@ items:
   source:
     id: sendToC
     path: ''
-    startLine: 15466
+    startLine: 16119
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -283,7 +317,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15468
+    startLine: 16121
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -322,7 +356,7 @@ items:
   source:
     id: OverTimeDefault
     path: ''
-    startLine: 15478
+    startLine: 16131
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -365,7 +399,7 @@ items:
   source:
     id: SynchronousDefault
     path: ''
-    startLine: 15482
+    startLine: 16135
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -408,7 +442,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15487
+    startLine: 16140
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -439,7 +473,7 @@ items:
   source:
     id: AdvanceTime
     path: ''
-    startLine: 15491
+    startLine: 16144
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -879,11 +913,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Danmokou.SM.SoftcullProperties.DefaultPool*
-  commentId: Overload:Danmokou.SM.SoftcullProperties.DefaultPool
-  name: DefaultPool
-  nameWithType: SoftcullProperties.DefaultPool
-  fullName: Danmokou.SM.SoftcullProperties.DefaultPool
+- uid: Danmokou.SM.SoftcullProperties.UseFlakeItems*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.UseFlakeItems
+  name: UseFlakeItems
+  nameWithType: SoftcullProperties.UseFlakeItems
+  fullName: Danmokou.SM.SoftcullProperties.UseFlakeItems
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -891,6 +925,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Danmokou.SM.SoftcullProperties.DefaultPool*
+  commentId: Overload:Danmokou.SM.SoftcullProperties.DefaultPool
+  name: DefaultPool
+  nameWithType: SoftcullProperties.DefaultPool
+  fullName: Danmokou.SM.SoftcullProperties.DefaultPool
 - uid: Danmokou.SM.SoftcullProperties.#ctor*
   commentId: Overload:Danmokou.SM.SoftcullProperties.#ctor
   name: SoftcullProperties

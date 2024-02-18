@@ -18,7 +18,7 @@ items:
   source:
     id: Subshot
     path: ''
-    startLine: 1281
+    startLine: 1513
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -45,7 +45,7 @@ items:
   source:
     id: TYPE_D
     path: ''
-    startLine: 1282
+    startLine: 1514
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -73,7 +73,7 @@ items:
   source:
     id: TYPE_M
     path: ''
-    startLine: 1283
+    startLine: 1515
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -101,7 +101,7 @@ items:
   source:
     id: TYPE_K
     path: ''
-    startLine: 1284
+    startLine: 1516
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

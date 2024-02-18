@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.V2ToCoords
+  commentId: T:Danmokou.DMath.Functions.V2ToCoords
+  id: V2ToCoords
+  parent: Danmokou.DMath.Functions
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: V2ToCoords
+  nameWithType: V2ToCoords
+  fullName: Danmokou.DMath.Functions.V2ToCoords
+  type: Delegate
+  source:
+    id: V2ToCoords
+    path: ''
+    startLine: 10113
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public delegate TEx<VTPExpr> V2ToCoords(TEx<float> cosRot, TEx<float> sinRot, TExArgCtx tac, Func<TEx<float>, TEx<float>, TEx<float>, TEx> continuation);
+    parameters:
+    - id: cosRot
+      type: TEx{System.Single}
+    - id: sinRot
+      type: TEx{System.Single}
+    - id: tac
+      type: TExArgCtx
+    - id: continuation
+      type: System.Func{TEx{System.Single},TEx{System.Single},TEx{System.Single},TEx}
+    return:
+      type: TEx{VTPExpr}
+    content.vb: Public Delegate Function V2ToCoords(cosRot As TEx(Of Single), sinRot As TEx(Of Single), tac As TExArgCtx, continuation As Func(Of TEx(Of Single), TEx(Of Single), TEx(Of Single), TEx)) As TEx(Of VTPExpr)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: TEx{System.Single}
+  commentId: '!:TEx{System.Single}'
+  definition: TEx`1
+  name: TEx<Single>
+  nameWithType: TEx<Single>
+  fullName: TEx<System.Single>
+  nameWithType.vb: TEx(Of Single)
+  fullName.vb: TEx(Of System.Single)
+  name.vb: TEx(Of Single)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TExArgCtx
+  isExternal: true
+  name: TExArgCtx
+  nameWithType: TExArgCtx
+  fullName: TExArgCtx
+- uid: System.Func{TEx{System.Single},TEx{System.Single},TEx{System.Single},TEx}
+  commentId: T:System.Func{TEx{System.Single},TEx{System.Single},TEx{System.Single},TEx}
+  parent: System
+  definition: System.Func`4
+  name: Func<TEx<Single>, TEx<Single>, TEx<Single>, TEx>
+  nameWithType: Func<TEx<Single>, TEx<Single>, TEx<Single>, TEx>
+  fullName: System.Func<TEx<System.Single>, TEx<System.Single>, TEx<System.Single>, TEx>
+  nameWithType.vb: Func(Of TEx(Of Single), TEx(Of Single), TEx(Of Single), TEx)
+  fullName.vb: System.Func(Of TEx(Of System.Single), TEx(Of System.Single), TEx(Of System.Single), TEx)
+  name.vb: Func(Of TEx(Of Single), TEx(Of Single), TEx(Of Single), TEx)
+  spec.csharp:
+  - uid: System.Func`4
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`4
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx{VTPExpr}
+  commentId: '!:TEx{VTPExpr}'
+  definition: TEx`1
+  name: TEx<VTPExpr>
+  nameWithType: TEx<VTPExpr>
+  fullName: TEx<VTPExpr>
+  nameWithType.vb: TEx(Of VTPExpr)
+  fullName.vb: TEx(Of VTPExpr)
+  name.vb: TEx(Of VTPExpr)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: VTPExpr
+    name: VTPExpr
+    nameWithType: VTPExpr
+    fullName: VTPExpr
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: VTPExpr
+    name: VTPExpr
+    nameWithType: VTPExpr
+    fullName: VTPExpr
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx`1
+  isExternal: true
+  name: TEx<>
+  nameWithType: TEx<>
+  fullName: TEx<>
+  nameWithType.vb: TEx(Of )
+  fullName.vb: TEx(Of )
+  name.vb: TEx(Of )
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`4
+  commentId: T:System.Func`4
+  isExternal: true
+  name: Func<T1, T2, T3, TResult>
+  nameWithType: Func<T1, T2, T3, TResult>
+  fullName: System.Func<T1, T2, T3, TResult>
+  nameWithType.vb: Func(Of T1, T2, T3, TResult)
+  fullName.vb: System.Func(Of T1, T2, T3, TResult)
+  name.vb: Func(Of T1, T2, T3, TResult)
+  spec.csharp:
+  - uid: System.Func`4
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`4
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

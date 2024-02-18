@@ -2,6 +2,10 @@
 
 This is a language extension for [Danmokou](https://github.com/Bagoum/danmokou)'s scripting language. It operates over `.bdsl` files.
 
+Version 1.2 of this extension, released in February 2024, is designed for DMK v11. It supports both the legacy BDSL1 syntax (if the script starts with `<#> bdsl1`) and the new BDSL2 syntax (by default). You should also update the syntax highlighting in settings.json (see the reference color definitions below).
+
+
+
 This extension provides the following features:
 
 - Syntax highlighting
@@ -45,17 +49,26 @@ Some syntax highlighting must be configured in settings.json. You can use the fo
       
     "editor.semanticTokenColorCustomizations": {
         "rules": {
+            "variable.dmkdynamicvar": {
+                "foreground": "#7daef3"
+            },
             "dmkOperator": {
                 "foreground": "#c0c0c0"
             },
             "dmkEnumMember": {
-                "foreground": "#d67b3b"
+                "foreground": "#e5813b"
+            },
+            "function": {
+                "foreground": "#ff87bd"
             },
             "method.deprecated": {
                 "fontStyle": "strikethrough"
             },
+            "variable.const": {
+                "foreground": "#b5cea8"
+            },
             "method.dmksm": {
-                "foreground": "#5bd2e4"
+                "foreground": "#7b8be6"
             },
             "method.dmkasyncpattern": {
                 "foreground": "#f24848"
@@ -67,19 +80,22 @@ Some syntax highlighting must be configured in settings.json. You can use the fo
                 "foreground": "#e2a624"
             },
             "method.dmkcontrols": {
-                "foreground": "#2773dd"
+                "foreground": "#3f7ce5"
             },
             "method.dmkproperties": {
                 "foreground": "#44b4ff"
             },
             "method.dmkbpy": {
-                "foreground": "#8181cb"
+                "foreground": "#9c6df5"
             },
             "method.dmkbpy.dmkatomic": {
-                "foreground": "#a276b8"
+                "foreground": "#afb4e5"
             },
             "method.dmktp4": {
-                "foreground": "#8AB0FF"
+                "foreground": "#c64b42"
+            },
+            "method.dmkbprv2": {
+                "foreground": "#c64b42"
             },
             "method.dmktp3": {
                 "foreground": "#ff6e42"
@@ -88,10 +104,10 @@ Some syntax highlighting must be configured in settings.json. You can use the fo
                 "foreground": "#c656d5"
             },
             "method.dmkvtp": {
-                "foreground": "#ed4c9f"
+                "foreground": "#ed4c8f"
             },
             "method.dmkpred": {
-                "foreground": "#1ad0bb"
+                "foreground": "#7ade7f"
             }
         }
     }

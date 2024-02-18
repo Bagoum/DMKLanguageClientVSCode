@@ -20,7 +20,7 @@ items:
   source:
     id: LaserControls
     path: ''
-    startLine: 6141
+    startLine: 6939
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -60,7 +60,7 @@ items:
   source:
     id: FlipXGT
     path: ''
-    startLine: 6149
+    startLine: 6947
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -100,7 +100,7 @@ items:
   source:
     id: FlipXLT
     path: ''
-    startLine: 6165
+    startLine: 6965
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -140,7 +140,7 @@ items:
   source:
     id: FlipYGT
     path: ''
-    startLine: 6181
+    startLine: 6983
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -180,7 +180,7 @@ items:
   source:
     id: FlipYLT
     path: ''
-    startLine: 6197
+    startLine: 7001
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
@@ -220,10 +220,12 @@ items:
   source:
     id: SM
     path: ''
-    startLine: 6208
+    startLine: 7016
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Graphics
+  summary: "\nIf the condition is true, spawn an iNode at the position and run an SM on it.\n"
+  example: []
   syntax:
     content: public static CurvedTileRenderLaser.cLaserControl SM(LPred cond, StateMachine sm)
     parameters:

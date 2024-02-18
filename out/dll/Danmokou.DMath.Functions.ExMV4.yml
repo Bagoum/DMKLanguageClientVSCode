@@ -17,7 +17,7 @@ items:
   - Danmokou.DMath.Functions.ExMV4.RGB(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMV4.RGBA(tfloat,tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMV4.Teal
-  - Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,ev3)
+  - Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,tv3)
   - Danmokou.DMath.Functions.ExMV4.WithA(tfloat,tv4)
   - Danmokou.DMath.Functions.ExMV4.Yellow
   langs:
@@ -30,7 +30,7 @@ items:
   source:
     id: ExMV4
     path: ''
-    startLine: 8413
+    startLine: 8649
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -70,7 +70,7 @@ items:
   source:
     id: Black
     path: ''
-    startLine: 8415
+    startLine: 8651
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -100,7 +100,7 @@ items:
   source:
     id: Purple
     path: ''
-    startLine: 8416
+    startLine: 8652
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -130,7 +130,7 @@ items:
   source:
     id: Teal
     path: ''
-    startLine: 8417
+    startLine: 8653
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -160,7 +160,7 @@ items:
   source:
     id: Green
     path: ''
-    startLine: 8418
+    startLine: 8654
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -190,7 +190,7 @@ items:
   source:
     id: Orange
     path: ''
-    startLine: 8419
+    startLine: 8655
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -220,7 +220,7 @@ items:
   source:
     id: Yellow
     path: ''
-    startLine: 8420
+    startLine: 8656
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -250,7 +250,7 @@ items:
   source:
     id: Red
     path: ''
-    startLine: 8421
+    startLine: 8657
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -280,7 +280,7 @@ items:
   source:
     id: Pink
     path: ''
-    startLine: 8422
+    startLine: 8658
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -310,7 +310,7 @@ items:
   source:
     id: Blue
     path: ''
-    startLine: 8423
+    startLine: 8659
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -340,7 +340,7 @@ items:
   source:
     id: Palette
     path: ''
-    startLine: 8425
+    startLine: 8661
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -375,7 +375,7 @@ items:
   source:
     id: RGB
     path: ''
-    startLine: 8432
+    startLine: 8668
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -414,7 +414,7 @@ items:
   source:
     id: RGBA
     path: ''
-    startLine: 8436
+    startLine: 8672
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -441,36 +441,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,ev3)
-  commentId: M:Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,ev3)
-  id: TP3A(tfloat,ev3)
+- uid: Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,tv3)
+  commentId: M:Danmokou.DMath.Functions.ExMV4.TP3A(tfloat,tv3)
+  id: TP3A(tfloat,tv3)
   parent: Danmokou.DMath.Functions.ExMV4
   langs:
   - csharp
   - vb
-  name: TP3A(tfloat, ev3)
-  nameWithType: ExMV4.TP3A(tfloat, ev3)
-  fullName: Danmokou.DMath.Functions.ExMV4.TP3A(tfloat, ev3)
+  name: TP3A(tfloat, tv3)
+  nameWithType: ExMV4.TP3A(tfloat, tv3)
+  fullName: Danmokou.DMath.Functions.ExMV4.TP3A(tfloat, tv3)
   type: Method
   source:
     id: TP3A
     path: ''
-    startLine: 8441
+    startLine: 8677
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nDerive a color from a vector3 containing R, G, B components and an separate alpha component.\n"
   example: []
   syntax:
-    content: public static tv4 TP3A(tfloat a, ev3 tp)
+    content: public static tv4 TP3A(tfloat a, tv3 tp)
     parameters:
     - id: a
       type: tfloat
     - id: tp
-      type: ev3
+      type: tv3
     return:
       type: tv4
-    content.vb: Public Shared Function TP3A(a As tfloat, tp As ev3) As tv4
+    content.vb: Public Shared Function TP3A(a As tfloat, tp As tv3) As tv4
   overload: Danmokou.DMath.Functions.ExMV4.TP3A*
   modifiers.csharp:
   - public
@@ -492,7 +492,7 @@ items:
   source:
     id: WithA
     path: ''
-    startLine: 8446
+    startLine: 8682
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -529,7 +529,7 @@ items:
   source:
     id: MulA
     path: ''
-    startLine: 8457
+    startLine: 8693
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -938,11 +938,11 @@ references:
   name: TP3A
   nameWithType: ExMV4.TP3A
   fullName: Danmokou.DMath.Functions.ExMV4.TP3A
-- uid: ev3
+- uid: tv3
   isExternal: true
-  name: ev3
-  nameWithType: ev3
-  fullName: ev3
+  name: tv3
+  nameWithType: tv3
+  fullName: tv3
 - uid: Danmokou.DMath.Functions.ExMV4.WithA*
   commentId: Overload:Danmokou.DMath.Functions.ExMV4.WithA
   name: WithA

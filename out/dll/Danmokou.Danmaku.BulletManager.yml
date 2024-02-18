@@ -15,7 +15,7 @@ items:
   source:
     id: BulletManager
     path: ''
-    startLine: 1424
+    startLine: 1649
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku

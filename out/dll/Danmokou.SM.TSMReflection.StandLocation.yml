@@ -20,7 +20,7 @@ items:
   source:
     id: StandLocation
     path: ''
-    startLine: 17139
+    startLine: 17894
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -47,7 +47,7 @@ items:
   source:
     id: LEFT1
     path: ''
-    startLine: 17140
+    startLine: 17895
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -75,7 +75,7 @@ items:
   source:
     id: LEFT2
     path: ''
-    startLine: 17141
+    startLine: 17896
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -103,7 +103,7 @@ items:
   source:
     id: RIGHT1
     path: ''
-    startLine: 17142
+    startLine: 17897
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -131,7 +131,7 @@ items:
   source:
     id: RIGHT2
     path: ''
-    startLine: 17143
+    startLine: 17898
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -159,7 +159,7 @@ items:
   source:
     id: CENTER
     path: ''
-    startLine: 17144
+    startLine: 17899
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

@@ -43,7 +43,7 @@ items:
   source:
     id: BPYRepo
     path: ''
-    startLine: 8681
+    startLine: 8933
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -83,7 +83,7 @@ items:
   source:
     id: Rehash
     path: ''
-    startLine: 7747
+    startLine: 7996
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -120,7 +120,7 @@ items:
   source:
     id: Pivot
     path: ''
-    startLine: 7756
+    startLine: 8005
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -161,7 +161,7 @@ items:
   source:
     id: SoftmaxShift
     path: ''
-    startLine: 7777
+    startLine: 8026
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -213,7 +213,7 @@ items:
   source:
     id: SoftmaxShiftT
     path: ''
-    startLine: 7779
+    startLine: 8028
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -252,7 +252,7 @@ items:
   source:
     id: SoftmaxShiftT3
     path: ''
-    startLine: 7781
+    startLine: 8030
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -297,7 +297,7 @@ items:
   source:
     id: LogsumShift
     path: ''
-    startLine: 7789
+    startLine: 8038
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -340,7 +340,7 @@ items:
   source:
     id: LogsumShiftT
     path: ''
-    startLine: 7795
+    startLine: 8044
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -381,7 +381,7 @@ items:
   source:
     id: LogsumShiftT3
     path: ''
-    startLine: 7800
+    startLine: 8049
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -428,11 +428,11 @@ items:
   source:
     id: LogsumShiftAT
     path: ''
-    startLine: 7806
+    startLine: 8055
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nLogsumshift using &amp;t as a pivot variable. Make sure this is defined in a higher-level let statement.\n"
+  summary: "\nLogsumshift using &quot;t&quot; from a let statement as a pivot variable.\n"
   example: []
   syntax:
     content: public static ExBPY LogsumShiftAT(ExBPY sharpness, ExBPY pivot, ExBPY f1, ExBPY f2)
@@ -469,7 +469,7 @@ items:
   source:
     id: StarRot1
     path: ''
-    startLine: 7812
+    startLine: 8061
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -501,7 +501,7 @@ items:
   source:
     id: StarRotB1
     path: ''
-    startLine: 7816
+    startLine: 8065
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -533,7 +533,7 @@ items:
   source:
     id: StarRot2
     path: ''
-    startLine: 7820
+    startLine: 8069
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -565,7 +565,7 @@ items:
   source:
     id: StarRotB2
     path: ''
-    startLine: 7824
+    startLine: 8073
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -597,7 +597,7 @@ items:
   source:
     id: StarRot3
     path: ''
-    startLine: 7828
+    startLine: 8077
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -629,7 +629,7 @@ items:
   source:
     id: StarRotB3
     path: ''
-    startLine: 7832
+    startLine: 8081
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -661,7 +661,7 @@ items:
   source:
     id: StarRot4
     path: ''
-    startLine: 7836
+    startLine: 8085
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -693,7 +693,7 @@ items:
   source:
     id: StarRotB4
     path: ''
-    startLine: 7840
+    startLine: 8089
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -725,7 +725,7 @@ items:
   source:
     id: DistTo
     path: ''
-    startLine: 7847
+    startLine: 8096
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -762,7 +762,7 @@ items:
   source:
     id: tDN
     path: ''
-    startLine: 7852
+    startLine: 8101
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -794,7 +794,7 @@ items:
   source:
     id: tDH
     path: ''
-    startLine: 7857
+    startLine: 8106
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -826,7 +826,7 @@ items:
   source:
     id: tDL
     path: ''
-    startLine: 7862
+    startLine: 8111
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -858,7 +858,7 @@ items:
   source:
     id: pDN
     path: ''
-    startLine: 7867
+    startLine: 8116
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -890,7 +890,7 @@ items:
   source:
     id: pDH
     path: ''
-    startLine: 7872
+    startLine: 8121
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -922,7 +922,7 @@ items:
   source:
     id: pDL
     path: ''
-    startLine: 7877
+    startLine: 8126
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -954,7 +954,7 @@ items:
   source:
     id: AngleToPlayer
     path: ''
-    startLine: 8687
+    startLine: 8939
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -986,7 +986,7 @@ items:
   source:
     id: AngleTo
     path: ''
-    startLine: 8691
+    startLine: 8944
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1021,7 +1021,7 @@ items:
   source:
     id: ToLR
     path: ''
-    startLine: 8696
+    startLine: 8949
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1056,7 +1056,7 @@ items:
   source:
     id: ToRL
     path: ''
-    startLine: 8701
+    startLine: 8955
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

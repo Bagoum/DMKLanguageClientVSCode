@@ -13,8 +13,7 @@ items:
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.DT(ExBPY,ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.DX(ExBPY,ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.DY(ExBPY,ExPred)
-  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
-  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0``1(System.String,ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec``1(System.Func{TExArgCtx,TEx{``0}},ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipX(ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXGT(ExBPY,ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.FlipXLT(ExBPY,ExPred)
@@ -24,10 +23,12 @@ items:
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force(ExPred,VTP)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Freeze(ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.OnCollide(ExPred,StateMachine)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0``1(System.String,ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Restyle(System.String,ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.RestyleEffect(System.String,System.String,ExPred)
-  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[],ExPred)
-  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[],ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},UncompiledCode{System.Single},UncompiledCode{System.Single}}[],ExPred)
+  - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},UncompiledCode{System.Single},UncompiledCode{Vector2}}[],ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SFX(System.String,ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.Slowdown(ExBPY,ExPred)
   - Danmokou.Danmaku.BulletManager.SimpleBulletControls.SM(ExPred,StateMachine)
@@ -48,7 +49,7 @@ items:
   source:
     id: SimpleBulletControls
     path: ''
-    startLine: 1673
+    startLine: 1919
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -88,7 +89,7 @@ items:
   source:
     id: X
     path: ''
-    startLine: 1682
+    startLine: 1930
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -128,7 +129,7 @@ items:
   source:
     id: Y
     path: ''
-    startLine: 1690
+    startLine: 1940
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -168,7 +169,7 @@ items:
   source:
     id: Time
     path: ''
-    startLine: 1698
+    startLine: 1950
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -208,7 +209,7 @@ items:
   source:
     id: Restyle
     path: ''
-    startLine: 1707
+    startLine: 1960
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -248,7 +249,7 @@ items:
   source:
     id: Copy
     path: ''
-    startLine: 1719
+    startLine: 1973
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -288,7 +289,7 @@ items:
   source:
     id: RestyleEffect
     path: ''
-    startLine: 1732
+    startLine: 1987
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -331,7 +332,7 @@ items:
   source:
     id: CopyNull
     path: ''
-    startLine: 1744
+    startLine: 2000
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -371,7 +372,7 @@ items:
   source:
     id: Softcull
     path: ''
-    startLine: 1762
+    startLine: 2019
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -411,11 +412,11 @@ items:
   source:
     id: Softcull_noexpr
     path: ''
-    startLine: 1777
+    startLine: 2035
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
-  summary: "\nSoftcull but without expressions. Used internally for runtime bullet controls.\n"
+  summary: "\n<xref href=\"Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull(System.String%2cExPred)\" data-throw-if-not-resolved=\"false\"></xref> but without expressions. Used internally for runtime bullet controls.\n"
   example: []
   syntax:
     content: public static BulletManager.cBulletControl Softcull_noexpr(SoftcullProperties props, string target, Pred cond)
@@ -450,7 +451,7 @@ items:
   source:
     id: Cull
     path: ''
-    startLine: 1795
+    startLine: 2060
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -487,7 +488,7 @@ items:
   source:
     id: FlipX
     path: ''
-    startLine: 1805
+    startLine: 2071
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -524,7 +525,7 @@ items:
   source:
     id: FlipY
     path: ''
-    startLine: 1814
+    startLine: 2081
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -561,7 +562,7 @@ items:
   source:
     id: FlipXGT
     path: ''
-    startLine: 1823
+    startLine: 2091
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -601,7 +602,7 @@ items:
   source:
     id: FlipXLT
     path: ''
-    startLine: 1843
+    startLine: 2112
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -641,7 +642,7 @@ items:
   source:
     id: FlipYGT
     path: ''
-    startLine: 1861
+    startLine: 2131
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -681,7 +682,7 @@ items:
   source:
     id: FlipYLT
     path: ''
-    startLine: 1879
+    startLine: 2150
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -721,7 +722,7 @@ items:
   source:
     id: DX
     path: ''
-    startLine: 1897
+    startLine: 2169
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -761,7 +762,7 @@ items:
   source:
     id: DY
     path: ''
-    startLine: 1906
+    startLine: 2179
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -801,7 +802,7 @@ items:
   source:
     id: DT
     path: ''
-    startLine: 1915
+    startLine: 2189
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -841,7 +842,7 @@ items:
   source:
     id: Slowdown
     path: ''
-    startLine: 1924
+    startLine: 2199
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -881,7 +882,7 @@ items:
   source:
     id: Freeze
     path: ''
-    startLine: 1933
+    startLine: 2209
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -916,7 +917,7 @@ items:
   source:
     id: SFX
     path: ''
-    startLine: 1941
+    startLine: 2218
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -956,7 +957,7 @@ items:
   source:
     id: Force
     path: ''
-    startLine: 1951
+    startLine: 2229
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -982,90 +983,90 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[],ExPred)
-  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[],ExPred)
-  id: SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[],ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},UncompiledCode{System.Single},UncompiledCode{Vector2}}[],ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},UncompiledCode{System.Single},UncompiledCode{Vector2}}[],ExPred)
+  id: SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},UncompiledCode{System.Single},UncompiledCode{Vector2}}[],ExPred)
   parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
   langs:
   - csharp
   - vb
-  name: SaveV2((ReflectEx.Hoist<Vector2> target, ExBPY indexer, ExTP valuer)[], ExPred)
-  nameWithType: BulletManager.SimpleBulletControls.SaveV2((ReflectEx.Hoist<Vector2> target, ExBPY indexer, ExTP valuer)[], ExPred)
-  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple<ReflectEx.Hoist<Vector2>, ExBPY, ExTP>[], ExPred)
+  name: SaveV2((ReflectEx.Hoist<Vector2> target, UncompiledCode<Single> indexer, UncompiledCode<Vector2> valuer)[], ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.SaveV2((ReflectEx.Hoist<Vector2> target, UncompiledCode<Single> indexer, UncompiledCode<Vector2> valuer)[], ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple<ReflectEx.Hoist<Vector2>, UncompiledCode<System.Single>, UncompiledCode<Vector2>>[], ExPred)
   type: Method
   source:
     id: SaveV2
     path: ''
-    startLine: 1971
+    startLine: 2242
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
   summary: "\nSave vector2 values in public data hoisting.\n<br />Note: This is automatically called by the GuideEmpty function.\nYou should not need to use this yourself.\n"
   example: []
   syntax:
-    content: public static BulletManager.exBulletControl SaveV2((ReflectEx.Hoist<Vector2> target, ExBPY indexer, ExTP valuer)[] targets, ExPred cond)
+    content: public static BulletManager.exBulletControl SaveV2((ReflectEx.Hoist<Vector2> target, UncompiledCode<float> indexer, UncompiledCode<Vector2> valuer)[] targets, ExPred cond)
     parameters:
     - id: targets
-      type: System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[]
+      type: System.ValueTuple{ReflectEx.Hoist{Vector2},UncompiledCode{System.Single},UncompiledCode{Vector2}}[]
       description: Several target, index, value tuples to save
     - id: cond
       type: ExPred
       description: Filter condition
     return:
       type: Danmokou.Danmaku.BulletManager.exBulletControl
-    content.vb: Public Shared Function SaveV2(targets As(target As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, valuer As ExTP)(Of ReflectEx.Hoist(Of Vector2) , ExBPY, ExTP)(), cond As ExPred) As BulletManager.exBulletControl
+    content.vb: Public Shared Function SaveV2(targets As(target As ReflectEx.Hoist(Of Vector2), indexer As UncompiledCode(Of Single), valuer As UncompiledCode(Of Vector2))(Of ReflectEx.Hoist(Of Vector2) , UncompiledCode(Of Single), UncompiledCode(Of Vector2))(), cond As ExPred) As BulletManager.exBulletControl
   overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2*
-  nameWithType.vb: BulletManager.SimpleBulletControls.SaveV2((target As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, valuer As ExTP)(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)(), ExPred)
+  nameWithType.vb: BulletManager.SimpleBulletControls.SaveV2((target As ReflectEx.Hoist(Of Vector2), indexer As UncompiledCode(Of Single), valuer As UncompiledCode(Of Vector2))(Of ReflectEx.Hoist(Of Vector2), UncompiledCode(Of Single), UncompiledCode(Of Vector2))(), ExPred)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)(), ExPred)
-  name.vb: SaveV2((target As ReflectEx.Hoist(Of Vector2), indexer As ExBPY, valuer As ExTP)(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)(), ExPred)
-- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[],ExPred)
-  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[],ExPred)
-  id: SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[],ExPred)
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2(System.ValueTuple(Of ReflectEx.Hoist(Of Vector2), UncompiledCode(Of System.Single), UncompiledCode(Of Vector2))(), ExPred)
+  name.vb: SaveV2((target As ReflectEx.Hoist(Of Vector2), indexer As UncompiledCode(Of Single), valuer As UncompiledCode(Of Vector2))(Of ReflectEx.Hoist(Of Vector2), UncompiledCode(Of Single), UncompiledCode(Of Vector2))(), ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},UncompiledCode{System.Single},UncompiledCode{System.Single}}[],ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},UncompiledCode{System.Single},UncompiledCode{System.Single}}[],ExPred)
+  id: SaveF(System.ValueTuple{ReflectEx.Hoist{System.Single},UncompiledCode{System.Single},UncompiledCode{System.Single}}[],ExPred)
   parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
   langs:
   - csharp
   - vb
-  name: SaveF((ReflectEx.Hoist<Single> target, ExBPY indexer, ExBPY valuer)[], ExPred)
-  nameWithType: BulletManager.SimpleBulletControls.SaveF((ReflectEx.Hoist<Single> target, ExBPY indexer, ExBPY valuer)[], ExPred)
-  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple<ReflectEx.Hoist<System.Single>, ExBPY, ExBPY>[], ExPred)
+  name: SaveF((ReflectEx.Hoist<Single> target, UncompiledCode<Single> indexer, UncompiledCode<Single> valuer)[], ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.SaveF((ReflectEx.Hoist<Single> target, UncompiledCode<Single> indexer, UncompiledCode<Single> valuer)[], ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple<ReflectEx.Hoist<System.Single>, UncompiledCode<System.Single>, UncompiledCode<System.Single>>[], ExPred)
   type: Method
   source:
     id: SaveF
     path: ''
-    startLine: 1985
+    startLine: 2257
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
   summary: "\nSave float values in public data hoisting.\n<br />Note: This is automatically called by the GuideEmpty function.\nYou should not need to use this yourself.\n"
   example: []
   syntax:
-    content: public static BulletManager.exBulletControl SaveF((ReflectEx.Hoist<float> target, ExBPY indexer, ExBPY valuer)[] targets, ExPred cond)
+    content: public static BulletManager.exBulletControl SaveF((ReflectEx.Hoist<float> target, UncompiledCode<float> indexer, UncompiledCode<float> valuer)[] targets, ExPred cond)
     parameters:
     - id: targets
-      type: System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[]
+      type: System.ValueTuple{ReflectEx.Hoist{System.Single},UncompiledCode{System.Single},UncompiledCode{System.Single}}[]
       description: Several target, index, value tuples to save
     - id: cond
       type: ExPred
       description: Filter condition
     return:
       type: Danmokou.Danmaku.BulletManager.exBulletControl
-    content.vb: Public Shared Function SaveF(targets As(target As ReflectEx.Hoist(Of Single), indexer As ExBPY, valuer As ExBPY)(Of ReflectEx.Hoist(Of Single) , ExBPY, ExBPY)(), cond As ExPred) As BulletManager.exBulletControl
+    content.vb: Public Shared Function SaveF(targets As(target As ReflectEx.Hoist(Of Single), indexer As UncompiledCode(Of Single), valuer As UncompiledCode(Of Single))(Of ReflectEx.Hoist(Of Single) , UncompiledCode(Of Single), UncompiledCode(Of Single))(), cond As ExPred) As BulletManager.exBulletControl
   overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF*
-  nameWithType.vb: BulletManager.SimpleBulletControls.SaveF((target As ReflectEx.Hoist(Of Single), indexer As ExBPY, valuer As ExBPY)(Of ReflectEx.Hoist(Of Single), ExBPY, ExBPY)(), ExPred)
+  nameWithType.vb: BulletManager.SimpleBulletControls.SaveF((target As ReflectEx.Hoist(Of Single), indexer As UncompiledCode(Of Single), valuer As UncompiledCode(Of Single))(Of ReflectEx.Hoist(Of Single), UncompiledCode(Of Single), UncompiledCode(Of Single))(), ExPred)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple(Of ReflectEx.Hoist(Of System.Single), ExBPY, ExBPY)(), ExPred)
-  name.vb: SaveF((target As ReflectEx.Hoist(Of Single), indexer As ExBPY, valuer As ExBPY)(Of ReflectEx.Hoist(Of Single), ExBPY, ExBPY)(), ExPred)
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF(System.ValueTuple(Of ReflectEx.Hoist(Of System.Single), UncompiledCode(Of System.Single), UncompiledCode(Of System.Single))(), ExPred)
+  name.vb: SaveF((target As ReflectEx.Hoist(Of Single), indexer As UncompiledCode(Of Single), valuer As UncompiledCode(Of Single))(Of ReflectEx.Hoist(Of Single), UncompiledCode(Of Single), UncompiledCode(Of Single))(), ExPred)
 - uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2(System.ValueTuple{System.String,ExTP}[],ExPred)
   commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateV2(System.ValueTuple{System.String,ExTP}[],ExPred)
   id: UpdateV2(System.ValueTuple{System.String,ExTP}[],ExPred)
@@ -1080,7 +1081,7 @@ items:
   source:
     id: UpdateV2
     path: ''
-    startLine: 1992
+    startLine: 2265
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -1120,7 +1121,7 @@ items:
   source:
     id: UpdateF
     path: ''
-    startLine: 1998
+    startLine: 2272
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -1146,28 +1147,70 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.UpdateF(System.ValueTuple(Of System.String, ExBPY)(), ExPred)
   name.vb: UpdateF((target As String, valuer As ExBPY)(Of String, ExBPY)(), ExPred)
-- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
-  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
-  id: Event``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec``1(System.Func{TExArgCtx,TEx{``0}},ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec``1(System.Func{TExArgCtx,TEx{``0}},ExPred)
+  id: Exec``1(System.Func{TExArgCtx,TEx{``0}},ExPred)
   parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
   langs:
   - csharp
   - vb
-  name: Event<T>(String, Func<TExArgCtx, TEx<T>>, ExPred)
-  nameWithType: BulletManager.SimpleBulletControls.Event<T>(String, Func<TExArgCtx, TEx<T>>, ExPred)
-  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event<T>(System.String, System.Func<TExArgCtx, TEx<T>>, ExPred)
+  name: Exec<T>(Func<TExArgCtx, TEx<T>>, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.Exec<T>(Func<TExArgCtx, TEx<T>>, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec<T>(System.Func<TExArgCtx, TEx<T>>, ExPred)
   type: Method
   source:
-    id: Event
+    id: Exec
     path: ''
-    startLine: 2004
+    startLine: 2279
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nRun some code on bullets that pass the condition.\n"
+  example: []
+  syntax:
+    content: public static BulletManager.exBulletControl Exec<T>(Func<TExArgCtx, TEx<T>> code, ExPred cond)
+    parameters:
+    - id: code
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    - id: cond
+      type: ExPred
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.Danmaku.BulletManager.exBulletControl
+    content.vb: Public Shared Function Exec(Of T)(code As Func(Of TExArgCtx, TEx(Of T)), cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec*
+  nameWithType.vb: BulletManager.SimpleBulletControls.Exec(Of T)(Func(Of TExArgCtx, TEx(Of T)), ExPred)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec(Of T)(System.Func(Of TExArgCtx, TEx(Of T)), ExPred)
+  name.vb: Exec(Of T)(Func(Of TExArgCtx, TEx(Of T)), ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+  id: ProcEvent``1(System.String,System.Func{TExArgCtx,TEx{``0}},ExPred)
+  parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
+  langs:
+  - csharp
+  - vb
+  name: ProcEvent<T>(String, Func<TExArgCtx, TEx<T>>, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.ProcEvent<T>(String, Func<TExArgCtx, TEx<T>>, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent<T>(System.String, System.Func<TExArgCtx, TEx<T>>, ExPred)
+  type: Method
+  source:
+    id: ProcEvent
+    path: ''
+    startLine: 2287
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
   summary: "\nExecute an event if the condition is satisfied.\n"
   example: []
   syntax:
-    content: public static BulletManager.exBulletControl Event<T>(string ev, Func<TExArgCtx, TEx<T>> val, ExPred cond)
+    content: public static BulletManager.exBulletControl ProcEvent<T>(string ev, Func<TExArgCtx, TEx<T>> val, ExPred cond)
     parameters:
     - id: ev
       type: System.String
@@ -1179,39 +1222,39 @@ items:
     - id: T
     return:
       type: Danmokou.Danmaku.BulletManager.exBulletControl
-    content.vb: Public Shared Function Event(Of T)(ev As String, val As Func(Of TExArgCtx, TEx(Of T)), cond As ExPred) As BulletManager.exBulletControl
-  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event*
-  nameWithType.vb: BulletManager.SimpleBulletControls.Event(Of T)(String, Func(Of TExArgCtx, TEx(Of T)), ExPred)
+    content.vb: Public Shared Function ProcEvent(Of T)(ev As String, val As Func(Of TExArgCtx, TEx(Of T)), cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent*
+  nameWithType.vb: BulletManager.SimpleBulletControls.ProcEvent(Of T)(String, Func(Of TExArgCtx, TEx(Of T)), ExPred)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event(Of T)(System.String, System.Func(Of TExArgCtx, TEx(Of T)), ExPred)
-  name.vb: Event(Of T)(String, Func(Of TExArgCtx, TEx(Of T)), ExPred)
-- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0``1(System.String,ExPred)
-  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0``1(System.String,ExPred)
-  id: Event0``1(System.String,ExPred)
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent(Of T)(System.String, System.Func(Of TExArgCtx, TEx(Of T)), ExPred)
+  name.vb: ProcEvent(Of T)(String, Func(Of TExArgCtx, TEx(Of T)), ExPred)
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0``1(System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0``1(System.String,ExPred)
+  id: ProcEvent0``1(System.String,ExPred)
   parent: Danmokou.Danmaku.BulletManager.SimpleBulletControls
   langs:
   - csharp
   - vb
-  name: Event0<T>(String, ExPred)
-  nameWithType: BulletManager.SimpleBulletControls.Event0<T>(String, ExPred)
-  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0<T>(System.String, ExPred)
+  name: ProcEvent0<T>(String, ExPred)
+  nameWithType: BulletManager.SimpleBulletControls.ProcEvent0<T>(String, ExPred)
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0<T>(System.String, ExPred)
   type: Method
   source:
-    id: Event0
+    id: ProcEvent0
     path: ''
-    startLine: 2012
+    startLine: 2296
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
   summary: "\nExecute a unit event if the condition is satisfied.\n"
   example: []
   syntax:
-    content: public static BulletManager.exBulletControl Event0<T>(string ev, ExPred cond)
+    content: public static BulletManager.exBulletControl ProcEvent0<T>(string ev, ExPred cond)
     parameters:
     - id: ev
       type: System.String
@@ -1221,17 +1264,17 @@ items:
     - id: T
     return:
       type: Danmokou.Danmaku.BulletManager.exBulletControl
-    content.vb: Public Shared Function Event0(Of T)(ev As String, cond As ExPred) As BulletManager.exBulletControl
-  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0*
-  nameWithType.vb: BulletManager.SimpleBulletControls.Event0(Of T)(String, ExPred)
+    content.vb: Public Shared Function ProcEvent0(Of T)(ev As String, cond As ExPred) As BulletManager.exBulletControl
+  overload: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0*
+  nameWithType.vb: BulletManager.SimpleBulletControls.ProcEvent0(Of T)(String, ExPred)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0(Of T)(System.String, ExPred)
-  name.vb: Event0(Of T)(String, ExPred)
+  fullName.vb: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0(Of T)(System.String, ExPred)
+  name.vb: ProcEvent0(Of T)(String, ExPred)
 - uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch(ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
   commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch(ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
   id: Batch(ExPred,Danmokou.Danmaku.BulletManager.exBulletControl[])
@@ -1246,7 +1289,7 @@ items:
   source:
     id: Batch
     path: ''
-    startLine: 2019
+    startLine: 2304
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -1286,7 +1329,7 @@ items:
   source:
     id: BatchP
     path: ''
-    startLine: 2028
+    startLine: 2314
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -1328,7 +1371,7 @@ items:
   source:
     id: SM
     path: ''
-    startLine: 2048
+    startLine: 2335
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -1365,7 +1408,7 @@ items:
   source:
     id: OnCollide
     path: ''
-    startLine: 2061
+    startLine: 2342
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -1749,6 +1792,9 @@ references:
   name: Softcull
   nameWithType: BulletManager.SimpleBulletControls.Softcull
   fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull(System.String,ExPred)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull(System.String,ExPred)
+  isExternal: true
 - uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr*
   commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Softcull_noexpr
   name: Softcull_noexpr
@@ -1845,7 +1891,6 @@ references:
   nameWithType: BulletManager.SimpleBulletControls.Force
   fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Force
 - uid: VTP
-  commentId: '!:VTP'
   isExternal: true
   name: VTP
   nameWithType: VTP
@@ -1855,14 +1900,14 @@ references:
   name: SaveV2
   nameWithType: BulletManager.SimpleBulletControls.SaveV2
   fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveV2
-- uid: System.ValueTuple{ReflectEx.Hoist{Vector2},ExBPY,ExTP}[]
+- uid: System.ValueTuple{ReflectEx.Hoist{Vector2},UncompiledCode{System.Single},UncompiledCode{Vector2}}[]
   isExternal: true
-  name: (T1, T2, T3)<ReflectEx.Hoist<Vector2>, ExBPY, ExTP>[]
-  nameWithType: (T1, T2, T3)<ReflectEx.Hoist<Vector2>, ExBPY, ExTP>[]
-  fullName: System.ValueTuple<ReflectEx.Hoist<Vector2>, ExBPY, ExTP>[]
-  nameWithType.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)()
-  fullName.vb: System.ValueTuple(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)()
-  name.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Vector2), ExBPY, ExTP)()
+  name: (T1, T2, T3)<ReflectEx.Hoist<Vector2>, UncompiledCode<Single>, UncompiledCode<Vector2>>[]
+  nameWithType: (T1, T2, T3)<ReflectEx.Hoist<Vector2>, UncompiledCode<Single>, UncompiledCode<Vector2>>[]
+  fullName: System.ValueTuple<ReflectEx.Hoist<Vector2>, UncompiledCode<System.Single>, UncompiledCode<Vector2>>[]
+  nameWithType.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Vector2), UncompiledCode(Of Single), UncompiledCode(Of Vector2))()
+  fullName.vb: System.ValueTuple(Of ReflectEx.Hoist(Of Vector2), UncompiledCode(Of System.Single), UncompiledCode(Of Vector2))()
+  name.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Vector2), UncompiledCode(Of Single), UncompiledCode(Of Vector2))()
   spec.csharp:
   - uid: System.ValueTuple`3
     name: (T1, T2, T3)
@@ -1891,19 +1936,41 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ExBPY
-    name: ExBPY
-    nameWithType: ExBPY
-    fullName: ExBPY
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ExTP
-    name: ExTP
-    nameWithType: ExTP
-    fullName: ExTP
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1938,19 +2005,41 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ExBPY
-    name: ExBPY
-    nameWithType: ExBPY
-    fullName: ExBPY
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ExTP
-    name: ExTP
-    nameWithType: ExTP
-    fullName: ExTP
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -1962,14 +2051,14 @@ references:
   name: SaveF
   nameWithType: BulletManager.SimpleBulletControls.SaveF
   fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.SaveF
-- uid: System.ValueTuple{ReflectEx.Hoist{System.Single},ExBPY,ExBPY}[]
+- uid: System.ValueTuple{ReflectEx.Hoist{System.Single},UncompiledCode{System.Single},UncompiledCode{System.Single}}[]
   isExternal: true
-  name: (T1, T2, T3)<ReflectEx.Hoist<Single>, ExBPY, ExBPY>[]
-  nameWithType: (T1, T2, T3)<ReflectEx.Hoist<Single>, ExBPY, ExBPY>[]
-  fullName: System.ValueTuple<ReflectEx.Hoist<System.Single>, ExBPY, ExBPY>[]
-  nameWithType.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Single), ExBPY, ExBPY)()
-  fullName.vb: System.ValueTuple(Of ReflectEx.Hoist(Of System.Single), ExBPY, ExBPY)()
-  name.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Single), ExBPY, ExBPY)()
+  name: (T1, T2, T3)<ReflectEx.Hoist<Single>, UncompiledCode<Single>, UncompiledCode<Single>>[]
+  nameWithType: (T1, T2, T3)<ReflectEx.Hoist<Single>, UncompiledCode<Single>, UncompiledCode<Single>>[]
+  fullName: System.ValueTuple<ReflectEx.Hoist<System.Single>, UncompiledCode<System.Single>, UncompiledCode<System.Single>>[]
+  nameWithType.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Single), UncompiledCode(Of Single), UncompiledCode(Of Single))()
+  fullName.vb: System.ValueTuple(Of ReflectEx.Hoist(Of System.Single), UncompiledCode(Of System.Single), UncompiledCode(Of System.Single))()
+  name.vb: (T1, T2, T3)(Of ReflectEx.Hoist(Of Single), UncompiledCode(Of Single), UncompiledCode(Of Single))()
   spec.csharp:
   - uid: System.ValueTuple`3
     name: (T1, T2, T3)
@@ -1998,19 +2087,41 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ExBPY
-    name: ExBPY
-    nameWithType: ExBPY
-    fullName: ExBPY
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ExBPY
-    name: ExBPY
-    nameWithType: ExBPY
-    fullName: ExBPY
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2045,19 +2156,41 @@ references:
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ExBPY
-    name: ExBPY
-    nameWithType: ExBPY
-    fullName: ExBPY
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: ExBPY
-    name: ExBPY
-    nameWithType: ExBPY
-    fullName: ExBPY
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -2202,11 +2335,11 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event*
-  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event
-  name: Event
-  nameWithType: BulletManager.SimpleBulletControls.Event
-  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec
+  name: Exec
+  nameWithType: BulletManager.SimpleBulletControls.Exec
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Exec
 - uid: System.Func{TExArgCtx,TEx{{T}}}
   commentId: T:System.Func{TExArgCtx,TEx{``0}}
   parent: System
@@ -2336,11 +2469,16 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0*
-  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0
-  name: Event0
-  nameWithType: BulletManager.SimpleBulletControls.Event0
-  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Event0
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent
+  name: ProcEvent
+  nameWithType: BulletManager.SimpleBulletControls.ProcEvent
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent
+- uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0
+  name: ProcEvent0
+  nameWithType: BulletManager.SimpleBulletControls.ProcEvent0
+  fullName: Danmokou.Danmaku.BulletManager.SimpleBulletControls.ProcEvent0
 - uid: Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch*
   commentId: Overload:Danmokou.Danmaku.BulletManager.SimpleBulletControls.Batch
   name: Batch

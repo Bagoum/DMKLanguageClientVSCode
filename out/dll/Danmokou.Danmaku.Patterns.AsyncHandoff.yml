@@ -6,9 +6,11 @@ items:
   parent: Danmokou.Danmaku.Patterns
   children:
   - Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(Danmokou.Danmaku.Patterns.AsyncHandoff@,Danmokou.Danmaku.Patterns.CommonHandoff@,System.Action)
-  - Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(DelegatedCreator@,System.Action,SMHandoff@)
+  - Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(DelegatedCreator@,System.Action,SMHandoff@,V2RV2)
+  - Danmokou.Danmaku.Patterns.AsyncHandoff.callback
   - Danmokou.Danmaku.Patterns.AsyncHandoff.Cancelled
   - Danmokou.Danmaku.Patterns.AsyncHandoff.ch
+  - Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup
   - Danmokou.Danmaku.Patterns.AsyncHandoff.Done
   - Danmokou.Danmaku.Patterns.AsyncHandoff.RunPrependRIEnumerator(IEnumerator)
   langs:
@@ -21,7 +23,7 @@ items:
   source:
     id: AsyncHandoff
     path: ''
-    startLine: 4714
+    startLine: 5405
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -57,7 +59,7 @@ items:
   source:
     id: ch
     path: ''
-    startLine: 4715
+    startLine: 5406
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -84,7 +86,7 @@ items:
   source:
     id: Cancelled
     path: ''
-    startLine: 4716
+    startLine: 5407
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -102,28 +104,55 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(DelegatedCreator@,System.Action,SMHandoff@)
-  commentId: M:Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(DelegatedCreator@,System.Action,SMHandoff@)
-  id: '#ctor(DelegatedCreator@,System.Action,SMHandoff@)'
+- uid: Danmokou.Danmaku.Patterns.AsyncHandoff.callback
+  commentId: F:Danmokou.Danmaku.Patterns.AsyncHandoff.callback
+  id: callback
   parent: Danmokou.Danmaku.Patterns.AsyncHandoff
   langs:
   - csharp
   - vb
-  name: AsyncHandoff(in DelegatedCreator, Action, in SMHandoff)
-  nameWithType: AsyncHandoff.AsyncHandoff(in DelegatedCreator, Action, in SMHandoff)
-  fullName: Danmokou.Danmaku.Patterns.AsyncHandoff.AsyncHandoff(in DelegatedCreator, System.Action, in SMHandoff)
+  name: callback
+  nameWithType: AsyncHandoff.callback
+  fullName: Danmokou.Danmaku.Patterns.AsyncHandoff.callback
+  type: Field
+  source:
+    id: callback
+    path: ''
+    startLine: 5408
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public Action callback
+    return:
+      type: System.Action
+    content.vb: Public callback As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(DelegatedCreator@,System.Action,SMHandoff@,V2RV2)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(DelegatedCreator@,System.Action,SMHandoff@,V2RV2)
+  id: '#ctor(DelegatedCreator@,System.Action,SMHandoff@,V2RV2)'
+  parent: Danmokou.Danmaku.Patterns.AsyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: AsyncHandoff(in DelegatedCreator, Action, in SMHandoff, V2RV2)
+  nameWithType: AsyncHandoff.AsyncHandoff(in DelegatedCreator, Action, in SMHandoff, V2RV2)
+  fullName: Danmokou.Danmaku.Patterns.AsyncHandoff.AsyncHandoff(in DelegatedCreator, System.Action, in SMHandoff, V2RV2)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 4723
+    startLine: 5414
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
-  summary: "\nThe common handoff is copied from SMHandoff.\n"
+  summary: "\nThe common handoff is NOT copied from SMHandoff.\n"
   example: []
   syntax:
-    content: public AsyncHandoff(in DelegatedCreator bc, Action callback, in SMHandoff smh)
+    content: public AsyncHandoff(in DelegatedCreator bc, Action callback, in SMHandoff smh, V2RV2 rv2Override)
     parameters:
     - id: bc
       type: DelegatedCreator
@@ -131,15 +160,17 @@ items:
       type: System.Action
     - id: smh
       type: SMHandoff
-    content.vb: Public Sub New(ByRef bc As DelegatedCreator, callback As Action, ByRef smh As SMHandoff)
+    - id: rv2Override
+      type: V2RV2
+    content.vb: Public Sub New(ByRef bc As DelegatedCreator, callback As Action, ByRef smh As SMHandoff, rv2Override As V2RV2)
   overload: Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor*
-  nameWithType.vb: AsyncHandoff.AsyncHandoff(ByRef DelegatedCreator, Action, ByRef SMHandoff)
+  nameWithType.vb: AsyncHandoff.AsyncHandoff(ByRef DelegatedCreator, Action, ByRef SMHandoff, V2RV2)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.Danmaku.Patterns.AsyncHandoff.AsyncHandoff(ByRef DelegatedCreator, System.Action, ByRef SMHandoff)
-  name.vb: AsyncHandoff(ByRef DelegatedCreator, Action, ByRef SMHandoff)
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncHandoff.AsyncHandoff(ByRef DelegatedCreator, System.Action, ByRef SMHandoff, V2RV2)
+  name.vb: AsyncHandoff(ByRef DelegatedCreator, Action, ByRef SMHandoff, V2RV2)
 - uid: Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(Danmokou.Danmaku.Patterns.AsyncHandoff@,Danmokou.Danmaku.Patterns.CommonHandoff@,System.Action)
   commentId: M:Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor(Danmokou.Danmaku.Patterns.AsyncHandoff@,Danmokou.Danmaku.Patterns.CommonHandoff@,System.Action)
   id: '#ctor(Danmokou.Danmaku.Patterns.AsyncHandoff@,Danmokou.Danmaku.Patterns.CommonHandoff@,System.Action)'
@@ -154,7 +185,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4732
+    startLine: 5423
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -192,7 +223,7 @@ items:
   source:
     id: RunPrependRIEnumerator
     path: ''
-    startLine: 4739
+    startLine: 5430
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -221,16 +252,45 @@ items:
   source:
     id: Done
     path: ''
-    startLine: 4744
+    startLine: 5436
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
-  summary: "\nSend completion information via the callback and also dispose the copied handoff.\n"
+  summary: "\nSend completion information via the callback.\n<br />This does not clean up resources- <xref href=\"Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup\" data-throw-if-not-resolved=\"false\"></xref> must be called separately.\n"
   example: []
   syntax:
     content: public readonly void Done()
     content.vb: Public Sub Done
   overload: Danmokou.Danmaku.Patterns.AsyncHandoff.Done*
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup
+  id: Cleanup
+  parent: Danmokou.Danmaku.Patterns.AsyncHandoff
+  langs:
+  - csharp
+  - vb
+  name: Cleanup()
+  nameWithType: AsyncHandoff.Cleanup()
+  fullName: Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup()
+  type: Method
+  source:
+    id: Cleanup
+    path: ''
+    startLine: 5443
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nDispose the copied handoff.\n"
+  example: []
+  syntax:
+    content: public readonly void Cleanup()
+    content.vb: Public Sub Cleanup
+  overload: Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup*
   modifiers.csharp:
   - public
   - readonly
@@ -528,6 +588,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
 - uid: Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor*
   commentId: Overload:Danmokou.Danmaku.Patterns.AsyncHandoff.#ctor
   name: AsyncHandoff
@@ -538,18 +605,16 @@ references:
   name: DelegatedCreator
   nameWithType: DelegatedCreator
   fullName: DelegatedCreator
-- uid: System.Action
-  commentId: T:System.Action
-  parent: System
-  isExternal: true
-  name: Action
-  nameWithType: Action
-  fullName: System.Action
 - uid: SMHandoff
   isExternal: true
   name: SMHandoff
   nameWithType: SMHandoff
   fullName: SMHandoff
+- uid: V2RV2
+  isExternal: true
+  name: V2RV2
+  nameWithType: V2RV2
+  fullName: V2RV2
 - uid: Danmokou.Danmaku.Patterns.AsyncHandoff
   commentId: T:Danmokou.Danmaku.Patterns.AsyncHandoff
   parent: Danmokou.Danmaku.Patterns
@@ -566,8 +631,16 @@ references:
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: IEnumerator
+- uid: Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup
+  isExternal: true
 - uid: Danmokou.Danmaku.Patterns.AsyncHandoff.Done*
   commentId: Overload:Danmokou.Danmaku.Patterns.AsyncHandoff.Done
   name: Done
   nameWithType: AsyncHandoff.Done
   fullName: Danmokou.Danmaku.Patterns.AsyncHandoff.Done
+- uid: Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup
+  name: Cleanup
+  nameWithType: AsyncHandoff.Cleanup
+  fullName: Danmokou.Danmaku.Patterns.AsyncHandoff.Cleanup

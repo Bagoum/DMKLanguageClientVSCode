@@ -26,7 +26,7 @@ items:
   source:
     id: PhaseContext
     path: ''
-    startLine: 15636
+    startLine: 16306
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -40,6 +40,7 @@ items:
   - Danmokou.SM.SMContext
   inheritedMembers:
   - Danmokou.SM.SMContext.PhaseObjects
+  - Danmokou.SM.SMContext.LoadCheckpoint
   - Danmokou.SM.SMContext.CleanupObjects
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -68,7 +69,7 @@ items:
   source:
     id: Pattern
     path: ''
-    startLine: 15637
+    startLine: 16307
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -99,7 +100,7 @@ items:
   source:
     id: Index
     path: ''
-    startLine: 15638
+    startLine: 16308
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -130,7 +131,7 @@ items:
   source:
     id: Props
     path: ''
-    startLine: 15639
+    startLine: 16309
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -161,7 +162,7 @@ items:
   source:
     id: BossPhotoHP
     path: ''
-    startLine: 15641
+    startLine: 16311
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -192,7 +193,7 @@ items:
   source:
     id: Boss
     path: ''
-    startLine: 15642
+    startLine: 16312
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -223,7 +224,7 @@ items:
   source:
     id: PhaseType
     path: ''
-    startLine: 15643
+    startLine: 16313
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -254,7 +255,7 @@ items:
   source:
     id: Background
     path: ''
-    startLine: 15644
+    startLine: 16314
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -285,7 +286,7 @@ items:
   source:
     id: BgTransitionIn
     path: ''
-    startLine: 15646
+    startLine: 16316
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -316,7 +317,7 @@ items:
   source:
     id: BgTransitionOut
     path: ''
-    startLine: 15648
+    startLine: 16318
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -347,7 +348,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15651
+    startLine: 16321
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -380,7 +381,7 @@ items:
   source:
     id: GetSpellCutin
     path: ''
-    startLine: 15657
+    startLine: 16328
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -425,6 +426,12 @@ references:
   name: PhaseObjects
   nameWithType: SMContext.PhaseObjects
   fullName: Danmokou.SM.SMContext.PhaseObjects
+- uid: Danmokou.SM.SMContext.LoadCheckpoint
+  commentId: P:Danmokou.SM.SMContext.LoadCheckpoint
+  parent: Danmokou.SM.SMContext
+  name: LoadCheckpoint
+  nameWithType: SMContext.LoadCheckpoint
+  fullName: Danmokou.SM.SMContext.LoadCheckpoint
 - uid: Danmokou.SM.SMContext.CleanupObjects
   commentId: M:Danmokou.SM.SMContext.CleanupObjects
   parent: Danmokou.SM.SMContext

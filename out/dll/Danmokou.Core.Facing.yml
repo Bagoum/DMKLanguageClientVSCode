@@ -7,7 +7,7 @@ items:
   children:
   - Danmokou.Core.Facing.DEROT
   - Danmokou.Core.Facing.ORIGINAL
-  - Danmokou.Core.Facing.ROTVELOCITY
+  - Danmokou.Core.Facing.ROTATOR
   - Danmokou.Core.Facing.VELOCITY
   langs:
   - csharp
@@ -19,7 +19,7 @@ items:
   source:
     id: Facing
     path: ''
-    startLine: 1103
+    startLine: 1335
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -48,7 +48,7 @@ items:
   source:
     id: ORIGINAL
     path: ''
-    startLine: 1108
+    startLine: 1340
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -78,7 +78,7 @@ items:
   source:
     id: DEROT
     path: ''
-    startLine: 1112
+    startLine: 1344
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -108,7 +108,7 @@ items:
   source:
     id: VELOCITY
     path: ''
-    startLine: 1116
+    startLine: 1348
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -124,28 +124,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.Facing.ROTVELOCITY
-  commentId: F:Danmokou.Core.Facing.ROTVELOCITY
-  id: ROTVELOCITY
+- uid: Danmokou.Core.Facing.ROTATOR
+  commentId: F:Danmokou.Core.Facing.ROTATOR
+  id: ROTATOR
   parent: Danmokou.Core.Facing
   langs:
   - csharp
   - vb
-  name: ROTVELOCITY
-  nameWithType: Facing.ROTVELOCITY
-  fullName: Danmokou.Core.Facing.ROTVELOCITY
+  name: ROTATOR
+  nameWithType: Facing.ROTATOR
+  fullName: Danmokou.Core.Facing.ROTATOR
   type: Field
   source:
-    id: ROTVELOCITY
+    id: ROTATOR
     path: ''
-    startLine: 1120
+    startLine: 1352
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
-  summary: "\nStarts from original_angle + the velocity direction.\n"
+  summary: "\nStarts from the firer&apos;s manually-set rotation function (via <xref href=\"Danmokou.Danmaku.Options.BehOption.Rotate(BPY)\" data-throw-if-not-resolved=\"false\"></xref>).\n"
   example: []
   syntax:
-    content: ROTVELOCITY = 3
+    content: ROTATOR = 3
     return:
       type: Danmokou.Core.Facing
   modifiers.csharp:
@@ -166,3 +166,6 @@ references:
   name: Facing
   nameWithType: Facing
   fullName: Danmokou.Core.Facing
+- uid: Danmokou.Danmaku.Options.BehOption.Rotate(BPY)
+  commentId: M:Danmokou.Danmaku.Options.BehOption.Rotate(BPY)
+  isExternal: true

@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.BxBCollideLASM
+  commentId: T:Danmokou.SM.BxBCollideLASM
+  id: BxBCollideLASM
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.BxBCollideLASM.#ctor(Danmokou.SM.BxBCollideLASM.ColliderFn)
+  - Danmokou.SM.BxBCollideLASM.SBOnSB(StyleSelector,StyleSelector,Pred,Pred,cBulletControl[],cBulletControl[])
+  langs:
+  - csharp
+  - vb
+  name: BxBCollideLASM
+  nameWithType: BxBCollideLASM
+  fullName: Danmokou.SM.BxBCollideLASM
+  type: Class
+  source:
+    id: BxBCollideLASM
+    path: ''
+    startLine: 14615
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\n`collide`: Set up collision handlers for bullet-on-bullet collision.\n"
+  example: []
+  syntax:
+    content: 'public class BxBCollideLASM : ReflectableLASM'
+    content.vb: >-
+      Public Class BxBCollideLASM
+          Inherits ReflectableLASM
+  inheritance:
+  - System.Object
+  - Danmokou.SM.StateMachine
+  - Danmokou.SM.LineActionSM
+  - Danmokou.SM.ReflectableLASM
+  inheritedMembers:
+  - Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.BxBCollideLASM.#ctor(Danmokou.SM.BxBCollideLASM.ColliderFn)
+  commentId: M:Danmokou.SM.BxBCollideLASM.#ctor(Danmokou.SM.BxBCollideLASM.ColliderFn)
+  id: '#ctor(Danmokou.SM.BxBCollideLASM.ColliderFn)'
+  parent: Danmokou.SM.BxBCollideLASM
+  langs:
+  - csharp
+  - vb
+  name: BxBCollideLASM(BxBCollideLASM.ColliderFn)
+  nameWithType: BxBCollideLASM.BxBCollideLASM(BxBCollideLASM.ColliderFn)
+  fullName: Danmokou.SM.BxBCollideLASM.BxBCollideLASM(Danmokou.SM.BxBCollideLASM.ColliderFn)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14618
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public BxBCollideLASM(BxBCollideLASM.ColliderFn fn)
+    parameters:
+    - id: fn
+      type: Danmokou.SM.BxBCollideLASM.ColliderFn
+    content.vb: Public Sub New(fn As BxBCollideLASM.ColliderFn)
+  overload: Danmokou.SM.BxBCollideLASM.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.BxBCollideLASM.SBOnSB(StyleSelector,StyleSelector,Pred,Pred,cBulletControl[],cBulletControl[])
+  commentId: M:Danmokou.SM.BxBCollideLASM.SBOnSB(StyleSelector,StyleSelector,Pred,Pred,cBulletControl[],cBulletControl[])
+  id: SBOnSB(StyleSelector,StyleSelector,Pred,Pred,cBulletControl[],cBulletControl[])
+  parent: Danmokou.SM.BxBCollideLASM
+  langs:
+  - csharp
+  - vb
+  name: SBOnSB(StyleSelector, StyleSelector, Pred, Pred, cBulletControl[], cBulletControl[])
+  nameWithType: BxBCollideLASM.SBOnSB(StyleSelector, StyleSelector, Pred, Pred, cBulletControl[], cBulletControl[])
+  fullName: Danmokou.SM.BxBCollideLASM.SBOnSB(StyleSelector, StyleSelector, Pred, Pred, cBulletControl[], cBulletControl[])
+  type: Method
+  source:
+    id: SBOnSB
+    path: ''
+    startLine: 14631
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSet up collision handlers between simple bullet pools.\n<br />A collision occurs if a bullet from the left pools overlaps a bullet from the right pools.\n"
+  example: []
+  syntax:
+    content: public static BxBCollideLASM.ColliderFn SBOnSB(StyleSelector left, StyleSelector right, Pred leftPred, Pred rightPred, cBulletControl[] leftCtrls, cBulletControl[] rightCtrls)
+    parameters:
+    - id: left
+      type: StyleSelector
+      description: Left pools
+    - id: right
+      type: StyleSelector
+      description: Right pools
+    - id: leftPred
+      type: Pred
+      description: Predicate deciding whether a bullet in the left pools should test for collisions
+    - id: rightPred
+      type: Pred
+      description: Predicate deciding whether a bullet in the right pools should test for collisions
+    - id: leftCtrls
+      type: cBulletControl[]
+      description: Controls to run on left bullets when they collide
+    - id: rightCtrls
+      type: cBulletControl[]
+      description: Controls to run on right bullets when they collide
+    return:
+      type: Danmokou.SM.BxBCollideLASM.ColliderFn
+      description: ''
+    content.vb: Public Shared Function SBOnSB(left As StyleSelector, right As StyleSelector, leftPred As Pred, rightPred As Pred, leftCtrls As cBulletControl(), rightCtrls As cBulletControl()) As BxBCollideLASM.ColliderFn
+  overload: Danmokou.SM.BxBCollideLASM.SBOnSB*
+  nameWithType.vb: BxBCollideLASM.SBOnSB(StyleSelector, StyleSelector, Pred, Pred, cBulletControl(), cBulletControl())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.BxBCollideLASM.SBOnSB(StyleSelector, StyleSelector, Pred, Pred, cBulletControl(), cBulletControl())
+  name.vb: SBOnSB(StyleSelector, StyleSelector, Pred, Pred, cBulletControl(), cBulletControl())
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.LineActionSM
+  commentId: T:Danmokou.SM.LineActionSM
+  parent: Danmokou.SM
+  name: LineActionSM
+  nameWithType: LineActionSM
+  fullName: Danmokou.SM.LineActionSM
+- uid: Danmokou.SM.ReflectableLASM
+  commentId: T:Danmokou.SM.ReflectableLASM
+  parent: Danmokou.SM
+  name: ReflectableLASM
+  nameWithType: ReflectableLASM
+  fullName: Danmokou.SM.ReflectableLASM
+- uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  commentId: M:Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  parent: Danmokou.SM.ReflectableLASM
+  name: Start(SMHandoff)
+  nameWithType: ReflectableLASM.Start(SMHandoff)
+  fullName: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+  spec.csharp:
+  - uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: ReflectableLASM.Start
+    fullName: Danmokou.SM.ReflectableLASM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
+    name: Start
+    nameWithType: ReflectableLASM.Start
+    fullName: Danmokou.SM.ReflectableLASM.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Danmokou.SM.SMHandoff
+    name: SMHandoff
+    nameWithType: SMHandoff
+    fullName: Danmokou.SM.SMHandoff
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.BxBCollideLASM.#ctor*
+  commentId: Overload:Danmokou.SM.BxBCollideLASM.#ctor
+  name: BxBCollideLASM
+  nameWithType: BxBCollideLASM.BxBCollideLASM
+  fullName: Danmokou.SM.BxBCollideLASM.BxBCollideLASM
+- uid: Danmokou.SM.BxBCollideLASM.ColliderFn
+  commentId: T:Danmokou.SM.BxBCollideLASM.ColliderFn
+  parent: Danmokou.SM
+  name: BxBCollideLASM.ColliderFn
+  nameWithType: BxBCollideLASM.ColliderFn
+  fullName: Danmokou.SM.BxBCollideLASM.ColliderFn
+- uid: Danmokou.SM.BxBCollideLASM.SBOnSB*
+  commentId: Overload:Danmokou.SM.BxBCollideLASM.SBOnSB
+  name: SBOnSB
+  nameWithType: BxBCollideLASM.SBOnSB
+  fullName: Danmokou.SM.BxBCollideLASM.SBOnSB
+- uid: StyleSelector
+  isExternal: true
+  name: StyleSelector
+  nameWithType: StyleSelector
+  fullName: StyleSelector
+- uid: Pred
+  isExternal: true
+  name: Pred
+  nameWithType: Pred
+  fullName: Pred
+- uid: cBulletControl[]
+  isExternal: true
+  name: cBulletControl[]
+  nameWithType: cBulletControl[]
+  fullName: cBulletControl[]
+  nameWithType.vb: cBulletControl()
+  fullName.vb: cBulletControl()
+  name.vb: cBulletControl()
+  spec.csharp:
+  - uid: cBulletControl
+    name: cBulletControl
+    nameWithType: cBulletControl
+    fullName: cBulletControl
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: cBulletControl
+    name: cBulletControl
+    nameWithType: cBulletControl
+    fullName: cBulletControl
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -4,42 +4,392 @@ items:
   commentId: T:Danmokou.Danmaku.Patterns.SyncPattern
   id: SyncPattern
   parent: Danmokou.Danmaku.Patterns
-  children: []
+  children:
+  - Danmokou.Danmaku.Patterns.SyncPattern.#ctor(Danmokou.Danmaku.Patterns.SyncPatterner,System.Nullable{EnvFrame})
+  - Danmokou.Danmaku.Patterns.SyncPattern.EnvFrame
+  - Danmokou.Danmaku.Patterns.SyncPattern.op_Implicit(Danmokou.Danmaku.Patterns.SyncPatterner)~Danmokou.Danmaku.Patterns.SyncPattern
+  - Danmokou.Danmaku.Patterns.SyncPattern.Run(Danmokou.Danmaku.Patterns.SyncHandoff)
   langs:
   - csharp
   - vb
   name: SyncPattern
   nameWithType: SyncPattern
   fullName: Danmokou.Danmaku.Patterns.SyncPattern
-  type: Delegate
+  type: Class
   source:
     id: SyncPattern
     path: ''
-    startLine: 4638
+    startLine: 5261
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
   syntax:
-    content: public delegate void SyncPattern(SyncHandoff sbh);
+    content: 'public class SyncPattern : EnvFrameAttacher, IEquatable<SyncPattern>'
+    content.vb: >-
+      Public Class SyncPattern
+          Inherits EnvFrameAttacher
+          Implements IEquatable(Of SyncPattern)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Danmokou.Danmaku.Patterns.SyncPattern}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.Danmaku.Patterns.SyncPattern.#ctor(Danmokou.Danmaku.Patterns.SyncPatterner,System.Nullable{EnvFrame})
+  commentId: M:Danmokou.Danmaku.Patterns.SyncPattern.#ctor(Danmokou.Danmaku.Patterns.SyncPatterner,System.Nullable{EnvFrame})
+  id: '#ctor(Danmokou.Danmaku.Patterns.SyncPatterner,System.Nullable{EnvFrame})'
+  parent: Danmokou.Danmaku.Patterns.SyncPattern
+  langs:
+  - csharp
+  - vb
+  name: SyncPattern(SyncPatterner, Nullable<EnvFrame>)
+  nameWithType: SyncPattern.SyncPattern(SyncPatterner, Nullable<EnvFrame>)
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern.SyncPattern(Danmokou.Danmaku.Patterns.SyncPatterner, System.Nullable<EnvFrame>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5261
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public SyncPattern(SyncPatterner Exec, EnvFrame? EnvFrame = null)
+    parameters:
+    - id: Exec
+      type: Danmokou.Danmaku.Patterns.SyncPatterner
+    - id: EnvFrame
+      type: System.Nullable{EnvFrame}
+    content.vb: Public Sub New(Exec As SyncPatterner, EnvFrame As EnvFrame? = Nothing)
+  overload: Danmokou.Danmaku.Patterns.SyncPattern.#ctor*
+  nameWithType.vb: SyncPattern.SyncPattern(SyncPatterner, Nullable(Of EnvFrame))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.SyncPattern.SyncPattern(Danmokou.Danmaku.Patterns.SyncPatterner, System.Nullable(Of EnvFrame))
+  name.vb: SyncPattern(SyncPatterner, Nullable(Of EnvFrame))
+- uid: Danmokou.Danmaku.Patterns.SyncPattern.EnvFrame
+  commentId: P:Danmokou.Danmaku.Patterns.SyncPattern.EnvFrame
+  id: EnvFrame
+  parent: Danmokou.Danmaku.Patterns.SyncPattern
+  langs:
+  - csharp
+  - vb
+  name: EnvFrame
+  nameWithType: SyncPattern.EnvFrame
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern.EnvFrame
+  type: Property
+  source:
+    id: EnvFrame
+    path: ''
+    startLine: 5263
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public EnvFrame? EnvFrame { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{EnvFrame}
+    content.vb: Public Property EnvFrame As EnvFrame?
+  overload: Danmokou.Danmaku.Patterns.SyncPattern.EnvFrame*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.SyncPattern.Run(Danmokou.Danmaku.Patterns.SyncHandoff)
+  commentId: M:Danmokou.Danmaku.Patterns.SyncPattern.Run(Danmokou.Danmaku.Patterns.SyncHandoff)
+  id: Run(Danmokou.Danmaku.Patterns.SyncHandoff)
+  parent: Danmokou.Danmaku.Patterns.SyncPattern
+  langs:
+  - csharp
+  - vb
+  name: Run(SyncHandoff)
+  nameWithType: SyncPattern.Run(SyncHandoff)
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern.Run(Danmokou.Danmaku.Patterns.SyncHandoff)
+  type: Method
+  source:
+    id: Run
+    path: ''
+    startLine: 5265
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public void Run(SyncHandoff sbh)
     parameters:
     - id: sbh
       type: Danmokou.Danmaku.Patterns.SyncHandoff
-    content.vb: Public Delegate Sub SyncPattern(sbh As SyncHandoff)
+    content.vb: Public Sub Run(sbh As SyncHandoff)
+  overload: Danmokou.Danmaku.Patterns.SyncPattern.Run*
   modifiers.csharp:
   - public
-  - delegate
   modifiers.vb:
   - Public
-  - Delegate
+- uid: Danmokou.Danmaku.Patterns.SyncPattern.op_Implicit(Danmokou.Danmaku.Patterns.SyncPatterner)~Danmokou.Danmaku.Patterns.SyncPattern
+  commentId: M:Danmokou.Danmaku.Patterns.SyncPattern.op_Implicit(Danmokou.Danmaku.Patterns.SyncPatterner)~Danmokou.Danmaku.Patterns.SyncPattern
+  id: op_Implicit(Danmokou.Danmaku.Patterns.SyncPatterner)~Danmokou.Danmaku.Patterns.SyncPattern
+  parent: Danmokou.Danmaku.Patterns.SyncPattern
+  langs:
+  - csharp
+  - vb
+  name: Implicit(SyncPatterner to SyncPattern)
+  nameWithType: SyncPattern.Implicit(SyncPatterner to SyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern.Implicit(Danmokou.Danmaku.Patterns.SyncPatterner to Danmokou.Danmaku.Patterns.SyncPattern)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 5275
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static implicit operator SyncPattern(SyncPatterner sp)
+    parameters:
+    - id: sp
+      type: Danmokou.Danmaku.Patterns.SyncPatterner
+    return:
+      type: Danmokou.Danmaku.Patterns.SyncPattern
+    content.vb: Public Shared Widening Operator CType(sp As SyncPatterner) As SyncPattern
+  overload: Danmokou.Danmaku.Patterns.SyncPattern.op_Implicit*
+  nameWithType.vb: SyncPattern.Widening(SyncPatterner to SyncPattern)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.SyncPattern.Widening(Danmokou.Danmaku.Patterns.SyncPatterner to Danmokou.Danmaku.Patterns.SyncPattern)
+  name.vb: Widening(SyncPatterner to SyncPattern)
 references:
 - uid: Danmokou.Danmaku.Patterns
   commentId: N:Danmokou.Danmaku.Patterns
   name: Danmokou.Danmaku.Patterns
   nameWithType: Danmokou.Danmaku.Patterns
   fullName: Danmokou.Danmaku.Patterns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IEquatable{Danmokou.Danmaku.Patterns.SyncPattern}
+  commentId: T:System.IEquatable{Danmokou.Danmaku.Patterns.SyncPattern}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<SyncPattern>
+  nameWithType: IEquatable<SyncPattern>
+  fullName: System.IEquatable<Danmokou.Danmaku.Patterns.SyncPattern>
+  nameWithType.vb: IEquatable(Of SyncPattern)
+  fullName.vb: System.IEquatable(Of Danmokou.Danmaku.Patterns.SyncPattern)
+  name.vb: IEquatable(Of SyncPattern)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.Danmaku.Patterns.SyncPattern
+    name: SyncPattern
+    nameWithType: SyncPattern
+    fullName: Danmokou.Danmaku.Patterns.SyncPattern
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.Danmaku.Patterns.SyncPattern
+    name: SyncPattern
+    nameWithType: SyncPattern
+    fullName: Danmokou.Danmaku.Patterns.SyncPattern
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.SyncPattern.#ctor*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncPattern.#ctor
+  name: SyncPattern
+  nameWithType: SyncPattern.SyncPattern
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern.SyncPattern
+- uid: Danmokou.Danmaku.Patterns.SyncPatterner
+  commentId: T:Danmokou.Danmaku.Patterns.SyncPatterner
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncPatterner
+  nameWithType: SyncPatterner
+  fullName: Danmokou.Danmaku.Patterns.SyncPatterner
+- uid: System.Nullable{EnvFrame}
+  commentId: T:System.Nullable{EnvFrame}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<EnvFrame>
+  nameWithType: Nullable<EnvFrame>
+  fullName: System.Nullable<EnvFrame>
+  nameWithType.vb: Nullable(Of EnvFrame)
+  fullName.vb: System.Nullable(Of EnvFrame)
+  name.vb: Nullable(Of EnvFrame)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.SyncPattern.EnvFrame*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncPattern.EnvFrame
+  name: EnvFrame
+  nameWithType: SyncPattern.EnvFrame
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern.EnvFrame
+- uid: Danmokou.Danmaku.Patterns.SyncPattern.Run*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncPattern.Run
+  name: Run
+  nameWithType: SyncPattern.Run
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern.Run
 - uid: Danmokou.Danmaku.Patterns.SyncHandoff
   commentId: T:Danmokou.Danmaku.Patterns.SyncHandoff
   parent: Danmokou.Danmaku.Patterns
   name: SyncHandoff
   nameWithType: SyncHandoff
   fullName: Danmokou.Danmaku.Patterns.SyncHandoff
+- uid: Danmokou.Danmaku.Patterns.SyncPattern.op_Implicit*
+  commentId: Overload:Danmokou.Danmaku.Patterns.SyncPattern.op_Implicit
+  name: Implicit
+  nameWithType: SyncPattern.Implicit
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern.Implicit
+  nameWithType.vb: SyncPattern.Widening
+  fullName.vb: Danmokou.Danmaku.Patterns.SyncPattern.Widening
+  name.vb: Widening
+- uid: Danmokou.Danmaku.Patterns.SyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.SyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncPattern
+  nameWithType: SyncPattern
+  fullName: Danmokou.Danmaku.Patterns.SyncPattern

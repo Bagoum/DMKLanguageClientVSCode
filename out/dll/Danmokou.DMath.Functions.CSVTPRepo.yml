@@ -21,7 +21,7 @@ items:
   source:
     id: CSVTPRepo
     path: ''
-    startLine: 10161
+    startLine: 10457
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -59,7 +59,7 @@ items:
   source:
     id: RVelocity
     path: ''
-    startLine: 10167
+    startLine: 10463
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -96,7 +96,7 @@ items:
   source:
     id: NRVelocity
     path: ''
-    startLine: 10174
+    startLine: 10470
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -133,7 +133,7 @@ items:
   source:
     id: Velocity
     path: ''
-    startLine: 10182
+    startLine: 10478
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -173,7 +173,7 @@ items:
   source:
     id: ROffset
     path: ''
-    startLine: 10189
+    startLine: 10485
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -210,7 +210,7 @@ items:
   source:
     id: NROffset
     path: ''
-    startLine: 10196
+    startLine: 10492
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -247,7 +247,7 @@ items:
   source:
     id: Offset
     path: ''
-    startLine: 10204
+    startLine: 10500
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

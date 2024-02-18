@@ -5,12 +5,16 @@ items:
   id: CommonHandoff
   parent: Danmokou.Danmaku.Patterns
   children:
-  - Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx)
+  - Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx,System.Nullable{V2RV2})
   - Danmokou.Danmaku.Patterns.CommonHandoff.bc
-  - Danmokou.Danmaku.Patterns.CommonHandoff.Copy(System.String)
+  - Danmokou.Danmaku.Patterns.CommonHandoff.Copy
   - Danmokou.Danmaku.Patterns.CommonHandoff.cT
   - Danmokou.Danmaku.Patterns.CommonHandoff.Dispose
   - Danmokou.Danmaku.Patterns.CommonHandoff.gcx
+  - Danmokou.Danmaku.Patterns.CommonHandoff.Mirror
+  - Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame(System.Nullable{EnvFrame})
+  - Danmokou.Danmaku.Patterns.CommonHandoff.rv2Override
+  - Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive(System.Nullable{LexicalScope})
   langs:
   - csharp
   - vb
@@ -21,7 +25,7 @@ items:
   source:
     id: CommonHandoff
     path: ''
-    startLine: 4643
+    startLine: 5301
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -59,7 +63,7 @@ items:
   source:
     id: cT
     path: ''
-    startLine: 4644
+    startLine: 5302
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -88,7 +92,7 @@ items:
   source:
     id: bc
     path: ''
-    startLine: 4645
+    startLine: 5303
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -115,7 +119,7 @@ items:
   source:
     id: gcx
     path: ''
-    startLine: 4646
+    startLine: 5304
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -130,28 +134,55 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx)
-  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx)
-  id: '#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx)'
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.rv2Override
+  commentId: F:Danmokou.Danmaku.Patterns.CommonHandoff.rv2Override
+  id: rv2Override
   parent: Danmokou.Danmaku.Patterns.CommonHandoff
   langs:
   - csharp
   - vb
-  name: CommonHandoff(ICancellee, Nullable<DelegatedCreator>, GenCtx)
-  nameWithType: CommonHandoff.CommonHandoff(ICancellee, Nullable<DelegatedCreator>, GenCtx)
-  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.CommonHandoff(ICancellee, System.Nullable<DelegatedCreator>, GenCtx)
+  name: rv2Override
+  nameWithType: CommonHandoff.rv2Override
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.rv2Override
+  type: Field
+  source:
+    id: rv2Override
+    path: ''
+    startLine: 5305
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public V2RV2? rv2Override
+    return:
+      type: System.Nullable{V2RV2}
+    content.vb: Public rv2Override As V2RV2?
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx,System.Nullable{V2RV2})
+  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx,System.Nullable{V2RV2})
+  id: '#ctor(ICancellee,System.Nullable{DelegatedCreator},GenCtx,System.Nullable{V2RV2})'
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: CommonHandoff(ICancellee, Nullable<DelegatedCreator>, GenCtx, Nullable<V2RV2>)
+  nameWithType: CommonHandoff.CommonHandoff(ICancellee, Nullable<DelegatedCreator>, GenCtx, Nullable<V2RV2>)
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.CommonHandoff(ICancellee, System.Nullable<DelegatedCreator>, GenCtx, System.Nullable<V2RV2>)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 4651
+    startLine: 5310
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
-  summary: "\nGCX is automatically copied.\n"
+  summary: "\nGCX is NOT automatically copied.\n"
   example: []
   syntax:
-    content: public CommonHandoff(ICancellee cT, DelegatedCreator? bc, GenCtx gcx)
+    content: public CommonHandoff(ICancellee cT, DelegatedCreator? bc, GenCtx gcx, V2RV2? rv2Override)
     parameters:
     - id: cT
       type: ICancellee
@@ -159,42 +190,149 @@ items:
       type: System.Nullable{DelegatedCreator}
     - id: gcx
       type: GenCtx
-    content.vb: Public Sub New(cT As ICancellee, bc As DelegatedCreator?, gcx As GenCtx)
+    - id: rv2Override
+      type: System.Nullable{V2RV2}
+    content.vb: Public Sub New(cT As ICancellee, bc As DelegatedCreator?, gcx As GenCtx, rv2Override As V2RV2?)
   overload: Danmokou.Danmaku.Patterns.CommonHandoff.#ctor*
-  nameWithType.vb: CommonHandoff.CommonHandoff(ICancellee, Nullable(Of DelegatedCreator), GenCtx)
+  nameWithType.vb: CommonHandoff.CommonHandoff(ICancellee, Nullable(Of DelegatedCreator), GenCtx, Nullable(Of V2RV2))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.Danmaku.Patterns.CommonHandoff.CommonHandoff(ICancellee, System.Nullable(Of DelegatedCreator), GenCtx)
-  name.vb: CommonHandoff(ICancellee, Nullable(Of DelegatedCreator), GenCtx)
-- uid: Danmokou.Danmaku.Patterns.CommonHandoff.Copy(System.String)
-  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.Copy(System.String)
-  id: Copy(System.String)
+  fullName.vb: Danmokou.Danmaku.Patterns.CommonHandoff.CommonHandoff(ICancellee, System.Nullable(Of DelegatedCreator), GenCtx, System.Nullable(Of V2RV2))
+  name.vb: CommonHandoff(ICancellee, Nullable(Of DelegatedCreator), GenCtx, Nullable(Of V2RV2))
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive(System.Nullable{LexicalScope})
+  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive(System.Nullable{LexicalScope})
+  id: TryDerive(System.Nullable{LexicalScope})
   parent: Danmokou.Danmaku.Patterns.CommonHandoff
   langs:
   - csharp
   - vb
-  name: Copy(String)
-  nameWithType: CommonHandoff.Copy(String)
-  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Copy(System.String)
+  name: TryDerive(Nullable<LexicalScope>)
+  nameWithType: CommonHandoff.TryDerive(Nullable<LexicalScope>)
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive(System.Nullable<LexicalScope>)
+  type: Method
+  source:
+    id: TryDerive
+    path: ''
+    startLine: 5320
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nCopies the GCX, possibly deriving a new environment frame if a scope is provided.\n"
+  example: []
+  syntax:
+    content: public readonly CommonHandoff TryDerive(LexicalScope? scope)
+    parameters:
+    - id: scope
+      type: System.Nullable{LexicalScope}
+    return:
+      type: Danmokou.Danmaku.Patterns.CommonHandoff
+    content.vb: Public Function TryDerive(scope As LexicalScope?) As CommonHandoff
+  overload: Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive*
+  nameWithType.vb: CommonHandoff.TryDerive(Nullable(Of LexicalScope))
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive(System.Nullable(Of LexicalScope))
+  name.vb: TryDerive(Nullable(Of LexicalScope))
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame(System.Nullable{EnvFrame})
+  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame(System.Nullable{EnvFrame})
+  id: OverrideFrame(System.Nullable{EnvFrame})
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: OverrideFrame(Nullable<EnvFrame>)
+  nameWithType: CommonHandoff.OverrideFrame(Nullable<EnvFrame>)
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame(System.Nullable<EnvFrame>)
+  type: Method
+  source:
+    id: OverrideFrame
+    path: ''
+    startLine: 5334
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nCopies the GCX with a new EnvFrame. The provided envframe is mirrored, and the current GCX&apos;s RV2/ST\nare stored as rv2Override.\n<br />(If the envframe is null, then the existing GCX is copied with a cloned envframe.)\n"
+  example: []
+  syntax:
+    content: public readonly CommonHandoff OverrideFrame(EnvFrame? newFrame)
+    parameters:
+    - id: newFrame
+      type: System.Nullable{EnvFrame}
+    return:
+      type: Danmokou.Danmaku.Patterns.CommonHandoff
+    content.vb: Public Function OverrideFrame(newFrame As EnvFrame?) As CommonHandoff
+  overload: Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame*
+  nameWithType.vb: CommonHandoff.OverrideFrame(Nullable(Of EnvFrame))
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame(System.Nullable(Of EnvFrame))
+  name.vb: OverrideFrame(Nullable(Of EnvFrame))
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.Copy
+  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.Copy
+  id: Copy
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: Copy()
+  nameWithType: CommonHandoff.Copy()
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Copy()
   type: Method
   source:
     id: Copy
     path: ''
-    startLine: 4657
+    startLine: 5345
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
+  summary: "\nCopy the contained GCX (ie. copy the GCX, and copy the internal envframe).\n"
+  example: []
   syntax:
-    content: public readonly CommonHandoff Copy(string newStyle = null)
-    parameters:
-    - id: newStyle
-      type: System.String
+    content: public readonly CommonHandoff Copy()
     return:
       type: Danmokou.Danmaku.Patterns.CommonHandoff
-    content.vb: Public Function Copy(newStyle As String = Nothing) As CommonHandoff
+    content.vb: Public Function Copy As CommonHandoff
   overload: Danmokou.Danmaku.Patterns.CommonHandoff.Copy*
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.Mirror
+  commentId: M:Danmokou.Danmaku.Patterns.CommonHandoff.Mirror
+  id: Mirror
+  parent: Danmokou.Danmaku.Patterns.CommonHandoff
+  langs:
+  - csharp
+  - vb
+  name: Mirror()
+  nameWithType: CommonHandoff.Mirror()
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Mirror()
+  type: Method
+  source:
+    id: Mirror
+    path: ''
+    startLine: 5353
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  summary: "\nMirror the contained GCX (ie. copy the GCX, and mirror the internal envframe).\n"
+  example: []
+  syntax:
+    content: public readonly CommonHandoff Mirror()
+    return:
+      type: Danmokou.Danmaku.Patterns.CommonHandoff
+      description: ''
+    content.vb: Public Function Mirror As CommonHandoff
+  overload: Danmokou.Danmaku.Patterns.CommonHandoff.Mirror*
   modifiers.csharp:
   - public
   - readonly
@@ -214,7 +352,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 4664
+    startLine: 5357
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -525,6 +663,89 @@ references:
   name: GenCtx
   nameWithType: GenCtx
   fullName: GenCtx
+- uid: System.Nullable{V2RV2}
+  commentId: T:System.Nullable{V2RV2}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<V2RV2>
+  nameWithType: Nullable<V2RV2>
+  fullName: System.Nullable<V2RV2>
+  nameWithType.vb: Nullable(Of V2RV2)
+  fullName.vb: System.Nullable(Of V2RV2)
+  name.vb: Nullable(Of V2RV2)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: V2RV2
+    name: V2RV2
+    nameWithType: V2RV2
+    fullName: V2RV2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.Danmaku.Patterns.CommonHandoff.#ctor*
   commentId: Overload:Danmokou.Danmaku.Patterns.CommonHandoff.#ctor
   name: CommonHandoff
@@ -574,15 +795,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
-  isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive*
+  commentId: Overload:Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive
+  name: TryDerive
+  nameWithType: CommonHandoff.TryDerive
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.TryDerive
+- uid: System.Nullable{LexicalScope}
+  commentId: T:System.Nullable{LexicalScope}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<LexicalScope>
+  nameWithType: Nullable<LexicalScope>
+  fullName: System.Nullable<LexicalScope>
+  nameWithType.vb: Nullable(Of LexicalScope)
+  fullName.vb: System.Nullable(Of LexicalScope)
+  name.vb: Nullable(Of LexicalScope)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
@@ -592,9 +819,11 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - uid: LexicalScope
+    name: LexicalScope
+    nameWithType: LexicalScope
+    fullName: LexicalScope
+    isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -607,9 +836,66 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - uid: LexicalScope
+    name: LexicalScope
+    nameWithType: LexicalScope
+    fullName: LexicalScope
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff
+  commentId: T:Danmokou.Danmaku.Patterns.CommonHandoff
+  parent: Danmokou.Danmaku.Patterns
+  name: CommonHandoff
+  nameWithType: CommonHandoff
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame*
+  commentId: Overload:Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame
+  name: OverrideFrame
+  nameWithType: CommonHandoff.OverrideFrame
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.OverrideFrame
+- uid: System.Nullable{EnvFrame}
+  commentId: T:System.Nullable{EnvFrame}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<EnvFrame>
+  nameWithType: Nullable<EnvFrame>
+  fullName: System.Nullable<EnvFrame>
+  nameWithType.vb: Nullable(Of EnvFrame)
+  fullName.vb: System.Nullable(Of EnvFrame)
+  name.vb: Nullable(Of EnvFrame)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -618,19 +904,11 @@ references:
   name: Copy
   nameWithType: CommonHandoff.Copy
   fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Copy
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: Danmokou.Danmaku.Patterns.CommonHandoff
-  commentId: T:Danmokou.Danmaku.Patterns.CommonHandoff
-  parent: Danmokou.Danmaku.Patterns
-  name: CommonHandoff
-  nameWithType: CommonHandoff
-  fullName: Danmokou.Danmaku.Patterns.CommonHandoff
+- uid: Danmokou.Danmaku.Patterns.CommonHandoff.Mirror*
+  commentId: Overload:Danmokou.Danmaku.Patterns.CommonHandoff.Mirror
+  name: Mirror
+  nameWithType: CommonHandoff.Mirror
+  fullName: Danmokou.Danmaku.Patterns.CommonHandoff.Mirror
 - uid: Danmokou.Danmaku.Patterns.CommonHandoff.Dispose*
   commentId: Overload:Danmokou.Danmaku.Patterns.CommonHandoff.Dispose
   name: Dispose

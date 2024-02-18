@@ -17,7 +17,7 @@ items:
   source:
     id: LR
     path: ''
-    startLine: 295
+    startLine: 435
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -46,7 +46,7 @@ items:
   source:
     id: LEFT
     path: ''
-    startLine: 296
+    startLine: 436
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -74,7 +74,7 @@ items:
   source:
     id: RIGHT
     path: ''
-    startLine: 297
+    startLine: 437
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

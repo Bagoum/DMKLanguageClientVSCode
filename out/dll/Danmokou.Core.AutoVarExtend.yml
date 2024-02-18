@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.Core.AutoVarExtend
+  commentId: T:Danmokou.Core.AutoVarExtend
+  id: AutoVarExtend
+  parent: Danmokou.Core
+  children:
+  - Danmokou.Core.AutoVarExtend.BindAngle
+  - Danmokou.Core.AutoVarExtend.BindArrow
+  - Danmokou.Core.AutoVarExtend.BindItr
+  - Danmokou.Core.AutoVarExtend.BindLR
+  - Danmokou.Core.AutoVarExtend.BindUD
+  langs:
+  - csharp
+  - vb
+  name: AutoVarExtend
+  nameWithType: AutoVarExtend
+  fullName: Danmokou.Core.AutoVarExtend
+  type: Enum
+  source:
+    id: AutoVarExtend
+    path: ''
+    startLine: 231
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: public enum AutoVarExtend
+    content.vb: Public Enum AutoVarExtend
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Danmokou.Core.AutoVarExtend.BindItr
+  commentId: F:Danmokou.Core.AutoVarExtend.BindItr
+  id: BindItr
+  parent: Danmokou.Core.AutoVarExtend
+  langs:
+  - csharp
+  - vb
+  name: BindItr
+  nameWithType: AutoVarExtend.BindItr
+  fullName: Danmokou.Core.AutoVarExtend.BindItr
+  type: Field
+  source:
+    id: BindItr
+    path: ''
+    startLine: 232
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: BindItr = 0
+    return:
+      type: Danmokou.Core.AutoVarExtend
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AutoVarExtend.BindAngle
+  commentId: F:Danmokou.Core.AutoVarExtend.BindAngle
+  id: BindAngle
+  parent: Danmokou.Core.AutoVarExtend
+  langs:
+  - csharp
+  - vb
+  name: BindAngle
+  nameWithType: AutoVarExtend.BindAngle
+  fullName: Danmokou.Core.AutoVarExtend.BindAngle
+  type: Field
+  source:
+    id: BindAngle
+    path: ''
+    startLine: 233
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: BindAngle = 1
+    return:
+      type: Danmokou.Core.AutoVarExtend
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AutoVarExtend.BindLR
+  commentId: F:Danmokou.Core.AutoVarExtend.BindLR
+  id: BindLR
+  parent: Danmokou.Core.AutoVarExtend
+  langs:
+  - csharp
+  - vb
+  name: BindLR
+  nameWithType: AutoVarExtend.BindLR
+  fullName: Danmokou.Core.AutoVarExtend.BindLR
+  type: Field
+  source:
+    id: BindLR
+    path: ''
+    startLine: 234
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: BindLR = 2
+    return:
+      type: Danmokou.Core.AutoVarExtend
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AutoVarExtend.BindUD
+  commentId: F:Danmokou.Core.AutoVarExtend.BindUD
+  id: BindUD
+  parent: Danmokou.Core.AutoVarExtend
+  langs:
+  - csharp
+  - vb
+  name: BindUD
+  nameWithType: AutoVarExtend.BindUD
+  fullName: Danmokou.Core.AutoVarExtend.BindUD
+  type: Field
+  source:
+    id: BindUD
+    path: ''
+    startLine: 235
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: BindUD = 3
+    return:
+      type: Danmokou.Core.AutoVarExtend
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Danmokou.Core.AutoVarExtend.BindArrow
+  commentId: F:Danmokou.Core.AutoVarExtend.BindArrow
+  id: BindArrow
+  parent: Danmokou.Core.AutoVarExtend
+  langs:
+  - csharp
+  - vb
+  name: BindArrow
+  nameWithType: AutoVarExtend.BindArrow
+  fullName: Danmokou.Core.AutoVarExtend.BindArrow
+  type: Field
+  source:
+    id: BindArrow
+    path: ''
+    startLine: 236
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Core
+  syntax:
+    content: BindArrow = 4
+    return:
+      type: Danmokou.Core.AutoVarExtend
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Danmokou.Core
+  commentId: N:Danmokou.Core
+  name: Danmokou.Core
+  nameWithType: Danmokou.Core
+  fullName: Danmokou.Core
+- uid: Danmokou.Core.AutoVarExtend
+  commentId: T:Danmokou.Core.AutoVarExtend
+  parent: Danmokou.Core
+  name: AutoVarExtend
+  nameWithType: AutoVarExtend
+  fullName: Danmokou.Core.AutoVarExtend

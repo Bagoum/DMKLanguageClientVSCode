@@ -19,7 +19,7 @@ items:
   source:
     id: DRenderMode
     path: ''
-    startLine: 285
+    startLine: 425
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -48,7 +48,7 @@ items:
   source:
     id: NORMAL
     path: ''
-    startLine: 286
+    startLine: 426
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -76,7 +76,7 @@ items:
   source:
     id: ADDITIVE
     path: ''
-    startLine: 287
+    startLine: 427
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -104,7 +104,7 @@ items:
   source:
     id: NEGATIVE
     path: ''
-    startLine: 288
+    startLine: 428
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -132,7 +132,7 @@ items:
   source:
     id: SOFT_ADDITIVE
     path: ''
-    startLine: 289
+    startLine: 429
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

@@ -5,21 +5,23 @@ items:
   id: BehOption
   parent: Danmokou.Danmaku.Options
   children:
-  - Danmokou.Danmaku.Options.BehOption.Delete(GCXU{Pred})
+  - Danmokou.Danmaku.Options.BehOption.Damage(GCXF{System.Single})
+  - Danmokou.Danmaku.Options.BehOption.Delete(Pred)
   - Danmokou.Danmaku.Options.BehOption.Drops3(System.Int32,System.Int32,System.Int32)
   - Danmokou.Danmaku.Options.BehOption.Drops4(System.Int32,System.Int32,System.Int32,System.Int32)
   - Danmokou.Danmaku.Options.BehOption.High
   - Danmokou.Danmaku.Options.BehOption.HP(GCXF{System.Single})
-  - Danmokou.Danmaku.Options.BehOption.HueShift(GCXU{BPY})
+  - Danmokou.Danmaku.Options.BehOption.HueShift(BPY)
   - Danmokou.Danmaku.Options.BehOption.Low
   - Danmokou.Danmaku.Options.BehOption.Name(System.String)
+  - Danmokou.Danmaku.Options.BehOption.NoGraze
   - Danmokou.Danmaku.Options.BehOption.Player(System.Int32,System.Int32,System.Int32,System.String)
-  - Danmokou.Danmaku.Options.BehOption.Recolor(GCXU{TP4},GCXU{TP4})
-  - Danmokou.Danmaku.Options.BehOption.Rotate(GCXU{BPY})
+  - Danmokou.Danmaku.Options.BehOption.Recolor(TP4,TP4)
+  - Danmokou.Danmaku.Options.BehOption.Rotate(BPY)
   - Danmokou.Danmaku.Options.BehOption.S(GCXF{System.Single})
   - Danmokou.Danmaku.Options.BehOption.SM(StateMachine)
   - Danmokou.Danmaku.Options.BehOption.Smooth
-  - Danmokou.Danmaku.Options.BehOption.Tint(GCXU{TP4})
+  - Danmokou.Danmaku.Options.BehOption.Tint(TP4)
   langs:
   - csharp
   - vb
@@ -30,17 +32,21 @@ items:
   source:
     id: BehOption
     path: ''
-    startLine: 2292
+    startLine: 2753
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nProperties that modify the behavior of BEH summons.\nThis includes complex bullets, like pathers, but NOT lasers (<xref href=\"Danmokou.Danmaku.Options.LaserOption\" data-throw-if-not-resolved=\"false\"></xref>).\n"
   example: []
   syntax:
-    content: public class BehOption
-    content.vb: Public Class BehOption
+    content: 'public class BehOption : IEquatable<BehOption>'
+    content.vb: >-
+      Public Class BehOption
+          Implements IEquatable(Of BehOption)
   inheritance:
   - System.Object
+  implements:
+  - System.IEquatable{Danmokou.Danmaku.Options.BehOption}
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -69,7 +75,7 @@ items:
   source:
     id: Smooth
     path: ''
-    startLine: 2297
+    startLine: 2758
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -101,7 +107,7 @@ items:
   source:
     id: SM
     path: ''
-    startLine: 2303
+    startLine: 2764
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -136,7 +142,7 @@ items:
   source:
     id: S
     path: ''
-    startLine: 2309
+    startLine: 2770
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -174,7 +180,7 @@ items:
   source:
     id: HP
     path: ''
-    startLine: 2315
+    startLine: 2776
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -198,6 +204,44 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.BehOption.HP(GCXF(Of System.Single))
   name.vb: HP(GCXF(Of Single))
+- uid: Danmokou.Danmaku.Options.BehOption.Damage(GCXF{System.Single})
+  commentId: M:Danmokou.Danmaku.Options.BehOption.Damage(GCXF{System.Single})
+  id: Damage(GCXF{System.Single})
+  parent: Danmokou.Danmaku.Options.BehOption
+  langs:
+  - csharp
+  - vb
+  name: Damage(GCXF<Single>)
+  nameWithType: BehOption.Damage(GCXF<Single>)
+  fullName: Danmokou.Danmaku.Options.BehOption.Damage(GCXF<System.Single>)
+  type: Method
+  source:
+    id: Damage
+    path: ''
+    startLine: 2781
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nSet the amount of damage that a Bullet does.\n"
+  example: []
+  syntax:
+    content: public static BehOption Damage(GCXF<float> damage)
+    parameters:
+    - id: damage
+      type: GCXF{System.Single}
+    return:
+      type: Danmokou.Danmaku.Options.BehOption
+    content.vb: Public Shared Function Damage(damage As GCXF(Of Single)) As BehOption
+  overload: Danmokou.Danmaku.Options.BehOption.Damage*
+  nameWithType.vb: BehOption.Damage(GCXF(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.BehOption.Damage(GCXF(Of System.Single))
+  name.vb: Damage(GCXF(Of Single))
 - uid: Danmokou.Danmaku.Options.BehOption.Drops3(System.Int32,System.Int32,System.Int32)
   commentId: M:Danmokou.Danmaku.Options.BehOption.Drops3(System.Int32,System.Int32,System.Int32)
   id: Drops3(System.Int32,System.Int32,System.Int32)
@@ -212,7 +256,7 @@ items:
   source:
     id: Drops3
     path: ''
-    startLine: 2317
+    startLine: 2783
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -249,7 +293,7 @@ items:
   source:
     id: Drops4
     path: ''
-    startLine: 2318
+    startLine: 2784
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -288,7 +332,7 @@ items:
   source:
     id: Low
     path: ''
-    startLine: 2323
+    startLine: 2789
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -320,7 +364,7 @@ items:
   source:
     id: High
     path: ''
-    startLine: 2328
+    startLine: 2794
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -338,198 +382,183 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.Danmaku.Options.BehOption.HueShift(GCXU{BPY})
-  commentId: M:Danmokou.Danmaku.Options.BehOption.HueShift(GCXU{BPY})
-  id: HueShift(GCXU{BPY})
+- uid: Danmokou.Danmaku.Options.BehOption.HueShift(BPY)
+  commentId: M:Danmokou.Danmaku.Options.BehOption.HueShift(BPY)
+  id: HueShift(BPY)
   parent: Danmokou.Danmaku.Options.BehOption
   langs:
   - csharp
   - vb
-  name: HueShift(GCXU<BPY>)
-  nameWithType: BehOption.HueShift(GCXU<BPY>)
-  fullName: Danmokou.Danmaku.Options.BehOption.HueShift(GCXU<BPY>)
+  name: HueShift(BPY)
+  nameWithType: BehOption.HueShift(BPY)
+  fullName: Danmokou.Danmaku.Options.BehOption.HueShift(BPY)
   type: Method
   source:
     id: HueShift
     path: ''
-    startLine: 2334
+    startLine: 2800
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nProvide a function that indicates how much to shift the color of the summon (in degrees) at any point in time.\n<br /> WARNING: This is a rendering function. Do not use `rand` (`brand` ok), or else replays will desync.\n"
   example: []
   syntax:
-    content: public static BehOption HueShift(GCXU<BPY> shift)
+    content: public static BehOption HueShift(BPY shift)
     parameters:
     - id: shift
-      type: GCXU{BPY}
+      type: BPY
     return:
       type: Danmokou.Danmaku.Options.BehOption
-    content.vb: Public Shared Function HueShift(shift As GCXU(Of BPY)) As BehOption
+    content.vb: Public Shared Function HueShift(shift As BPY) As BehOption
   overload: Danmokou.Danmaku.Options.BehOption.HueShift*
-  nameWithType.vb: BehOption.HueShift(GCXU(Of BPY))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.BehOption.HueShift(GCXU(Of BPY))
-  name.vb: HueShift(GCXU(Of BPY))
-- uid: Danmokou.Danmaku.Options.BehOption.Recolor(GCXU{TP4},GCXU{TP4})
-  commentId: M:Danmokou.Danmaku.Options.BehOption.Recolor(GCXU{TP4},GCXU{TP4})
-  id: Recolor(GCXU{TP4},GCXU{TP4})
+- uid: Danmokou.Danmaku.Options.BehOption.Recolor(TP4,TP4)
+  commentId: M:Danmokou.Danmaku.Options.BehOption.Recolor(TP4,TP4)
+  id: Recolor(TP4,TP4)
   parent: Danmokou.Danmaku.Options.BehOption
   langs:
   - csharp
   - vb
-  name: Recolor(GCXU<TP4>, GCXU<TP4>)
-  nameWithType: BehOption.Recolor(GCXU<TP4>, GCXU<TP4>)
-  fullName: Danmokou.Danmaku.Options.BehOption.Recolor(GCXU<TP4>, GCXU<TP4>)
+  name: Recolor(TP4, TP4)
+  nameWithType: BehOption.Recolor(TP4, TP4)
+  fullName: Danmokou.Danmaku.Options.BehOption.Recolor(TP4, TP4)
   type: Method
   source:
     id: Recolor
     path: ''
-    startLine: 2342
+    startLine: 2808
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nManually construct a two-color gradient for the object.\n<br /> Note: Currently only supported on pathers (there is a LaserOption equivalent).\n<br /> Note: This will only have effect if you use it with the `recolor` palette.\n<br /> WARNING: This is a rendering function. Do not use `rand` (`brand` ok), or else replays will desync.\n"
   example: []
   syntax:
-    content: public static BehOption Recolor(GCXU<TP4> black, GCXU<TP4> white)
+    content: public static BehOption Recolor(TP4 black, TP4 white)
     parameters:
     - id: black
-      type: GCXU{TP4}
+      type: TP4
     - id: white
-      type: GCXU{TP4}
+      type: TP4
     return:
       type: Danmokou.Danmaku.Options.BehOption
-    content.vb: Public Shared Function Recolor(black As GCXU(Of TP4), white As GCXU(Of TP4)) As BehOption
+    content.vb: Public Shared Function Recolor(black As TP4, white As TP4) As BehOption
   overload: Danmokou.Danmaku.Options.BehOption.Recolor*
-  nameWithType.vb: BehOption.Recolor(GCXU(Of TP4), GCXU(Of TP4))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.BehOption.Recolor(GCXU(Of TP4), GCXU(Of TP4))
-  name.vb: Recolor(GCXU(Of TP4), GCXU(Of TP4))
-- uid: Danmokou.Danmaku.Options.BehOption.Tint(GCXU{TP4})
-  commentId: M:Danmokou.Danmaku.Options.BehOption.Tint(GCXU{TP4})
-  id: Tint(GCXU{TP4})
+- uid: Danmokou.Danmaku.Options.BehOption.Tint(TP4)
+  commentId: M:Danmokou.Danmaku.Options.BehOption.Tint(TP4)
+  id: Tint(TP4)
   parent: Danmokou.Danmaku.Options.BehOption
   langs:
   - csharp
   - vb
-  name: Tint(GCXU<TP4>)
-  nameWithType: BehOption.Tint(GCXU<TP4>)
-  fullName: Danmokou.Danmaku.Options.BehOption.Tint(GCXU<TP4>)
+  name: Tint(TP4)
+  nameWithType: BehOption.Tint(TP4)
+  fullName: Danmokou.Danmaku.Options.BehOption.Tint(TP4)
   type: Method
   source:
     id: Tint
     path: ''
-    startLine: 2349
+    startLine: 2815
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nTint the object. This is a multiplicative effect on its normal color.\n<br /> Note: Currently only supported on pathers (there is a LaserOption equivalent).\n<br /> WARNING: This is a rendering function. Do not use `rand` (`brand` ok), or else replays will desync.\n"
   example: []
   syntax:
-    content: public static BehOption Tint(GCXU<TP4> tint)
+    content: public static BehOption Tint(TP4 tint)
     parameters:
     - id: tint
-      type: GCXU{TP4}
+      type: TP4
     return:
       type: Danmokou.Danmaku.Options.BehOption
-    content.vb: Public Shared Function Tint(tint As GCXU(Of TP4)) As BehOption
+    content.vb: Public Shared Function Tint(tint As TP4) As BehOption
   overload: Danmokou.Danmaku.Options.BehOption.Tint*
-  nameWithType.vb: BehOption.Tint(GCXU(Of TP4))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.BehOption.Tint(GCXU(Of TP4))
-  name.vb: Tint(GCXU(Of TP4))
-- uid: Danmokou.Danmaku.Options.BehOption.Rotate(GCXU{BPY})
-  commentId: M:Danmokou.Danmaku.Options.BehOption.Rotate(GCXU{BPY})
-  id: Rotate(GCXU{BPY})
+- uid: Danmokou.Danmaku.Options.BehOption.Rotate(BPY)
+  commentId: M:Danmokou.Danmaku.Options.BehOption.Rotate(BPY)
+  id: Rotate(BPY)
   parent: Danmokou.Danmaku.Options.BehOption
   langs:
   - csharp
   - vb
-  name: Rotate(GCXU<BPY>)
-  nameWithType: BehOption.Rotate(GCXU<BPY>)
-  fullName: Danmokou.Danmaku.Options.BehOption.Rotate(GCXU<BPY>)
+  name: Rotate(BPY)
+  nameWithType: BehOption.Rotate(BPY)
+  fullName: Danmokou.Danmaku.Options.BehOption.Rotate(BPY)
   type: Method
   source:
     id: Rotate
     path: ''
-    startLine: 2356
+    startLine: 2822
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nRotate the BEH sprite.\nNot supported on pathers/lasers.\nDoes not affect collision.\n"
   example: []
   syntax:
-    content: public static BehOption Rotate(GCXU<BPY> rotator)
+    content: public static BehOption Rotate(BPY rotator)
     parameters:
     - id: rotator
-      type: GCXU{BPY}
+      type: BPY
     return:
       type: Danmokou.Danmaku.Options.BehOption
-    content.vb: Public Shared Function Rotate(rotator As GCXU(Of BPY)) As BehOption
+    content.vb: Public Shared Function Rotate(rotator As BPY) As BehOption
   overload: Danmokou.Danmaku.Options.BehOption.Rotate*
-  nameWithType.vb: BehOption.Rotate(GCXU(Of BPY))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.BehOption.Rotate(GCXU(Of BPY))
-  name.vb: Rotate(GCXU(Of BPY))
-- uid: Danmokou.Danmaku.Options.BehOption.Delete(GCXU{Pred})
-  commentId: M:Danmokou.Danmaku.Options.BehOption.Delete(GCXU{Pred})
-  id: Delete(GCXU{Pred})
+- uid: Danmokou.Danmaku.Options.BehOption.Delete(Pred)
+  commentId: M:Danmokou.Danmaku.Options.BehOption.Delete(Pred)
+  id: Delete(Pred)
   parent: Danmokou.Danmaku.Options.BehOption
   langs:
   - csharp
   - vb
-  name: Delete(GCXU<Pred>)
-  nameWithType: BehOption.Delete(GCXU<Pred>)
-  fullName: Danmokou.Danmaku.Options.BehOption.Delete(GCXU<Pred>)
+  name: Delete(Pred)
+  nameWithType: BehOption.Delete(Pred)
+  fullName: Danmokou.Danmaku.Options.BehOption.Delete(Pred)
   type: Method
   source:
     id: Delete
     path: ''
-    startLine: 2362
+    startLine: 2828
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nEvery frame, the entity will check the condition and destroy itself if it is true.\n<br />Note: This is generally only necessary for player lasers. \n"
   example: []
   syntax:
-    content: public static BehOption Delete(GCXU<Pred> cond)
+    content: public static BehOption Delete(Pred cond)
     parameters:
     - id: cond
-      type: GCXU{Pred}
+      type: Pred
     return:
       type: Danmokou.Danmaku.Options.BehOption
-    content.vb: Public Shared Function Delete(cond As GCXU(Of Pred)) As BehOption
+    content.vb: Public Shared Function Delete(cond As Pred) As BehOption
   overload: Danmokou.Danmaku.Options.BehOption.Delete*
-  nameWithType.vb: BehOption.Delete(GCXU(Of Pred))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.BehOption.Delete(GCXU(Of Pred))
-  name.vb: Delete(GCXU(Of Pred))
 - uid: Danmokou.Danmaku.Options.BehOption.Player(System.Int32,System.Int32,System.Int32,System.String)
   commentId: M:Danmokou.Danmaku.Options.BehOption.Player(System.Int32,System.Int32,System.Int32,System.String)
   id: Player(System.Int32,System.Int32,System.Int32,System.String)
@@ -544,7 +573,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 2368
+    startLine: 2834
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -585,7 +614,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2374
+    startLine: 2840
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -600,6 +629,38 @@ items:
       type: Danmokou.Danmaku.Options.BehOption
     content.vb: Public Shared Function Name(name As String) As BehOption
   overload: Danmokou.Danmaku.Options.BehOption.Name*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.Options.BehOption.NoGraze
+  commentId: M:Danmokou.Danmaku.Options.BehOption.NoGraze
+  id: NoGraze
+  parent: Danmokou.Danmaku.Options.BehOption
+  langs:
+  - csharp
+  - vb
+  name: NoGraze()
+  nameWithType: BehOption.NoGraze()
+  fullName: Danmokou.Danmaku.Options.BehOption.NoGraze()
+  type: Method
+  source:
+    id: NoGraze
+    path: ''
+    startLine: 2845
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nSet that an NPC bullet is not allowed to cause grazes against the player.\n"
+  example: []
+  syntax:
+    content: public static BehOption NoGraze()
+    return:
+      type: Danmokou.Danmaku.Options.BehOption
+    content.vb: Public Shared Function NoGraze As BehOption
+  overload: Danmokou.Danmaku.Options.BehOption.NoGraze*
   modifiers.csharp:
   - public
   - static
@@ -625,6 +686,48 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.IEquatable{Danmokou.Danmaku.Options.BehOption}
+  commentId: T:System.IEquatable{Danmokou.Danmaku.Options.BehOption}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<BehOption>
+  nameWithType: IEquatable<BehOption>
+  fullName: System.IEquatable<Danmokou.Danmaku.Options.BehOption>
+  nameWithType.vb: IEquatable(Of BehOption)
+  fullName.vb: System.IEquatable(Of Danmokou.Danmaku.Options.BehOption)
+  name.vb: IEquatable(Of BehOption)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.Danmaku.Options.BehOption
+    name: BehOption
+    nameWithType: BehOption
+    fullName: Danmokou.Danmaku.Options.BehOption
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.Danmaku.Options.BehOption
+    name: BehOption
+    nameWithType: BehOption
+    fullName: Danmokou.Danmaku.Options.BehOption
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -910,6 +1013,45 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.Danmaku.Options.BehOption.Smooth*
   commentId: Overload:Danmokou.Danmaku.Options.BehOption.Smooth
   name: Smooth
@@ -1022,6 +1164,11 @@ references:
   name: HP
   nameWithType: BehOption.HP
   fullName: Danmokou.Danmaku.Options.BehOption.HP
+- uid: Danmokou.Danmaku.Options.BehOption.Damage*
+  commentId: Overload:Danmokou.Danmaku.Options.BehOption.Damage
+  name: Damage
+  nameWithType: BehOption.Damage
+  fullName: Danmokou.Danmaku.Options.BehOption.Damage
 - uid: Danmokou.Danmaku.Options.BehOption.Drops3*
   commentId: Overload:Danmokou.Danmaku.Options.BehOption.Drops3
   name: Drops3
@@ -1054,135 +1201,21 @@ references:
   name: HueShift
   nameWithType: BehOption.HueShift
   fullName: Danmokou.Danmaku.Options.BehOption.HueShift
-- uid: GCXU{BPY}
-  commentId: '!:GCXU{BPY}'
-  definition: GCXU`1
-  name: GCXU<BPY>
-  nameWithType: GCXU<BPY>
-  fullName: GCXU<BPY>
-  nameWithType.vb: GCXU(Of BPY)
-  fullName.vb: GCXU(Of BPY)
-  name.vb: GCXU(Of BPY)
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: BPY
-    name: BPY
-    nameWithType: BPY
-    fullName: BPY
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: BPY
-    name: BPY
-    nameWithType: BPY
-    fullName: BPY
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GCXU`1
+- uid: BPY
   isExternal: true
-  name: GCXU<>
-  nameWithType: GCXU<>
-  fullName: GCXU<>
-  nameWithType.vb: GCXU(Of )
-  fullName.vb: GCXU(Of )
-  name.vb: GCXU(Of )
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: BPY
+  nameWithType: BPY
+  fullName: BPY
 - uid: Danmokou.Danmaku.Options.BehOption.Recolor*
   commentId: Overload:Danmokou.Danmaku.Options.BehOption.Recolor
   name: Recolor
   nameWithType: BehOption.Recolor
   fullName: Danmokou.Danmaku.Options.BehOption.Recolor
-- uid: GCXU{TP4}
-  commentId: '!:GCXU{TP4}'
-  definition: GCXU`1
-  name: GCXU<TP4>
-  nameWithType: GCXU<TP4>
-  fullName: GCXU<TP4>
-  nameWithType.vb: GCXU(Of TP4)
-  fullName.vb: GCXU(Of TP4)
-  name.vb: GCXU(Of TP4)
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: TP4
-    name: TP4
-    nameWithType: TP4
-    fullName: TP4
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: TP4
-    name: TP4
-    nameWithType: TP4
-    fullName: TP4
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: TP4
+  isExternal: true
+  name: TP4
+  nameWithType: TP4
+  fullName: TP4
 - uid: Danmokou.Danmaku.Options.BehOption.Tint*
   commentId: Overload:Danmokou.Danmaku.Options.BehOption.Tint
   name: Tint
@@ -1198,49 +1231,11 @@ references:
   name: Delete
   nameWithType: BehOption.Delete
   fullName: Danmokou.Danmaku.Options.BehOption.Delete
-- uid: GCXU{Pred}
-  commentId: '!:GCXU{Pred}'
-  definition: GCXU`1
-  name: GCXU<Pred>
-  nameWithType: GCXU<Pred>
-  fullName: GCXU<Pred>
-  nameWithType.vb: GCXU(Of Pred)
-  fullName.vb: GCXU(Of Pred)
-  name.vb: GCXU(Of Pred)
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Pred
-    name: Pred
-    nameWithType: Pred
-    fullName: Pred
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Pred
-    name: Pred
-    nameWithType: Pred
-    fullName: Pred
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: Pred
+  isExternal: true
+  name: Pred
+  nameWithType: Pred
+  fullName: Pred
 - uid: Danmokou.Danmaku.Options.BehOption.Player*
   commentId: Overload:Danmokou.Danmaku.Options.BehOption.Player
   name: Player
@@ -1258,3 +1253,8 @@ references:
   name: Name
   nameWithType: BehOption.Name
   fullName: Danmokou.Danmaku.Options.BehOption.Name
+- uid: Danmokou.Danmaku.Options.BehOption.NoGraze*
+  commentId: Overload:Danmokou.Danmaku.Options.BehOption.NoGraze
+  name: NoGraze
+  nameWithType: BehOption.NoGraze
+  fullName: Danmokou.Danmaku.Options.BehOption.NoGraze

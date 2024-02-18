@@ -7,8 +7,10 @@ items:
   - Danmokou.DMath.Functions.AtomicBPYRepo
   - Danmokou.DMath.Functions.BPRV2Repo
   - Danmokou.DMath.Functions.BPYRepo
+  - Danmokou.DMath.Functions.CoordsToDelta
   - Danmokou.DMath.Functions.CSVTPRepo
   - Danmokou.DMath.Functions.ExM
+  - Danmokou.DMath.Functions.ExMAssign
   - Danmokou.DMath.Functions.ExMConditionals
   - Danmokou.DMath.Functions.ExMConversions
   - Danmokou.DMath.Functions.ExMDifficulty
@@ -19,6 +21,7 @@ items:
   - Danmokou.DMath.Functions.ExMPred
   - Danmokou.DMath.Functions.ExMRV2
   - Danmokou.DMath.Functions.ExMSamplers
+  - Danmokou.DMath.Functions.ExMTesting
   - Danmokou.DMath.Functions.ExMV2
   - Danmokou.DMath.Functions.ExMV3
   - Danmokou.DMath.Functions.ExMV4
@@ -32,6 +35,7 @@ items:
   - Danmokou.DMath.Functions.PredicateLogic
   - Danmokou.DMath.Functions.SBFRepo
   - Danmokou.DMath.Functions.SBV2Repo
+  - Danmokou.DMath.Functions.V2ToCoords
   - Danmokou.DMath.Functions.VTPRepo
   langs:
   - csharp
@@ -138,6 +142,16 @@ references:
   name: SBV2Repo
   nameWithType: SBV2Repo
   fullName: Danmokou.DMath.Functions.SBV2Repo
+- uid: Danmokou.DMath.Functions.V2ToCoords
+  commentId: T:Danmokou.DMath.Functions.V2ToCoords
+  name: V2ToCoords
+  nameWithType: V2ToCoords
+  fullName: Danmokou.DMath.Functions.V2ToCoords
+- uid: Danmokou.DMath.Functions.CoordsToDelta
+  commentId: T:Danmokou.DMath.Functions.CoordsToDelta
+  name: CoordsToDelta
+  nameWithType: CoordsToDelta
+  fullName: Danmokou.DMath.Functions.CoordsToDelta
 - uid: Danmokou.DMath.Functions.VTPRepo
   commentId: T:Danmokou.DMath.Functions.VTPRepo
   name: VTPRepo
@@ -148,6 +162,11 @@ references:
   name: CSVTPRepo
   nameWithType: CSVTPRepo
   fullName: Danmokou.DMath.Functions.CSVTPRepo
+- uid: Danmokou.DMath.Functions.ExMAssign
+  commentId: T:Danmokou.DMath.Functions.ExMAssign
+  name: ExMAssign
+  nameWithType: ExMAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign
 - uid: Danmokou.DMath.Functions.ExMConditionals
   commentId: T:Danmokou.DMath.Functions.ExMConditionals
   name: ExMConditionals
@@ -188,3 +207,8 @@ references:
   name: ExMSamplers
   nameWithType: ExMSamplers
   fullName: Danmokou.DMath.Functions.ExMSamplers
+- uid: Danmokou.DMath.Functions.ExMTesting
+  commentId: T:Danmokou.DMath.Functions.ExMTesting
+  name: ExMTesting
+  nameWithType: ExMTesting
+  fullName: Danmokou.DMath.Functions.ExMTesting

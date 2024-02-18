@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.CoordsToDelta
+  commentId: T:Danmokou.DMath.Functions.CoordsToDelta
+  id: CoordsToDelta
+  parent: Danmokou.DMath.Functions
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: CoordsToDelta
+  nameWithType: CoordsToDelta
+  fullName: Danmokou.DMath.Functions.CoordsToDelta
+  type: Delegate
+  source:
+    id: CoordsToDelta
+    path: ''
+    startLine: 10116
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public delegate TEx<VTPExpr> CoordsToDelta(ITexMovement vel, TEx<float> dt, TExV3 delta, TEx<float> x, TEx<float> y, TEx<float> z);
+    parameters:
+    - id: vel
+      type: ITexMovement
+    - id: dt
+      type: TEx{System.Single}
+    - id: delta
+      type: TExV3
+    - id: x
+      type: TEx{System.Single}
+    - id: y
+      type: TEx{System.Single}
+    - id: z
+      type: TEx{System.Single}
+    return:
+      type: TEx{VTPExpr}
+    content.vb: Public Delegate Function CoordsToDelta(vel As ITexMovement, dt As TEx(Of Single), delta As TExV3, x As TEx(Of Single), y As TEx(Of Single), z As TEx(Of Single)) As TEx(Of VTPExpr)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: ITexMovement
+  commentId: '!:ITexMovement'
+  isExternal: true
+  name: ITexMovement
+  nameWithType: ITexMovement
+  fullName: ITexMovement
+- uid: TEx{System.Single}
+  commentId: '!:TEx{System.Single}'
+  definition: TEx`1
+  name: TEx<Single>
+  nameWithType: TEx<Single>
+  fullName: TEx<System.Single>
+  nameWithType.vb: TEx(Of Single)
+  fullName.vb: TEx(Of System.Single)
+  name.vb: TEx(Of Single)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TExV3
+  commentId: '!:TExV3'
+  isExternal: true
+  name: TExV3
+  nameWithType: TExV3
+  fullName: TExV3
+- uid: TEx{VTPExpr}
+  commentId: '!:TEx{VTPExpr}'
+  definition: TEx`1
+  name: TEx<VTPExpr>
+  nameWithType: TEx<VTPExpr>
+  fullName: TEx<VTPExpr>
+  nameWithType.vb: TEx(Of VTPExpr)
+  fullName.vb: TEx(Of VTPExpr)
+  name.vb: TEx(Of VTPExpr)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: VTPExpr
+    name: VTPExpr
+    nameWithType: VTPExpr
+    fullName: VTPExpr
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: VTPExpr
+    name: VTPExpr
+    nameWithType: VTPExpr
+    fullName: VTPExpr
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx`1
+  isExternal: true
+  name: TEx<>
+  nameWithType: TEx<>
+  fullName: TEx<>
+  nameWithType.vb: TEx(Of )
+  fullName.vb: TEx(Of )
+  name.vb: TEx(Of )
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

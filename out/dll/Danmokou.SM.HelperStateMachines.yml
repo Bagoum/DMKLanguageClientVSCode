@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.HelperStateMachines
+  commentId: T:Danmokou.SM.HelperStateMachines
+  id: HelperStateMachines
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.HelperStateMachines.File(System.String)
+  - Danmokou.SM.HelperStateMachines.Null
+  - Danmokou.SM.HelperStateMachines.Stall
+  langs:
+  - csharp
+  - vb
+  name: HelperStateMachines
+  nameWithType: HelperStateMachines
+  fullName: Danmokou.SM.HelperStateMachines
+  type: Class
+  source:
+    id: HelperStateMachines
+    path: ''
+    startLine: 13497
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static class HelperStateMachines
+    content.vb: Public Module HelperStateMachines
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.SM.HelperStateMachines.File(System.String)
+  commentId: M:Danmokou.SM.HelperStateMachines.File(System.String)
+  id: File(System.String)
+  parent: Danmokou.SM.HelperStateMachines
+  langs:
+  - csharp
+  - vb
+  name: File(String)
+  nameWithType: HelperStateMachines.File(String)
+  fullName: Danmokou.SM.HelperStateMachines.File(System.String)
+  type: Method
+  source:
+    id: File
+    path: ''
+    startLine: 13504
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nLoad a StateMachine from the provided file.\n"
+  example: []
+  syntax:
+    content: public static StateMachine File(string filename)
+    parameters:
+    - id: filename
+      type: System.String
+    return:
+      type: Danmokou.SM.StateMachine
+    content.vb: Public Shared Function File(filename As String) As StateMachine
+  overload: Danmokou.SM.HelperStateMachines.File*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.HelperStateMachines.Null
+  commentId: M:Danmokou.SM.HelperStateMachines.Null
+  id: "Null"
+  parent: Danmokou.SM.HelperStateMachines
+  langs:
+  - csharp
+  - vb
+  name: Null()
+  nameWithType: HelperStateMachines.Null()
+  fullName: Danmokou.SM.HelperStateMachines.Null()
+  type: Method
+  source:
+    id: "Null"
+    path: ''
+    startLine: 13511
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nA null StateMachine.\n"
+  example: []
+  syntax:
+    content: public static StateMachine Null()
+    return:
+      type: Danmokou.SM.StateMachine
+    content.vb: Public Shared Function Null As StateMachine
+  overload: Danmokou.SM.HelperStateMachines.Null*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.HelperStateMachines.Stall
+  commentId: M:Danmokou.SM.HelperStateMachines.Stall
+  id: Stall
+  parent: Danmokou.SM.HelperStateMachines
+  langs:
+  - csharp
+  - vb
+  name: Stall()
+  nameWithType: HelperStateMachines.Stall()
+  fullName: Danmokou.SM.HelperStateMachines.Stall()
+  type: Method
+  source:
+    id: Stall
+    path: ''
+    startLine: 13517
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nA StateMachine that waits infinitely.\n"
+  example: []
+  syntax:
+    content: public static StateMachine Stall()
+    return:
+      type: Danmokou.SM.StateMachine
+    content.vb: Public Shared Function Stall As StateMachine
+  overload: Danmokou.SM.HelperStateMachines.Stall*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.HelperStateMachines.File*
+  commentId: Overload:Danmokou.SM.HelperStateMachines.File
+  name: File
+  nameWithType: HelperStateMachines.File
+  fullName: Danmokou.SM.HelperStateMachines.File
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.HelperStateMachines.Null*
+  commentId: Overload:Danmokou.SM.HelperStateMachines.Null
+  name: "Null"
+  nameWithType: HelperStateMachines.Null
+  fullName: Danmokou.SM.HelperStateMachines.Null
+- uid: Danmokou.SM.HelperStateMachines.Stall*
+  commentId: Overload:Danmokou.SM.HelperStateMachines.Stall
+  name: Stall
+  nameWithType: HelperStateMachines.Stall
+  fullName: Danmokou.SM.HelperStateMachines.Stall

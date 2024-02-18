@@ -5,7 +5,7 @@ items:
   id: SequentialSM
   parent: Danmokou.SM
   children:
-  - Danmokou.SM.SequentialSM.#ctor(List{Danmokou.SM.StateMachine})
+  - Danmokou.SM.SequentialSM.#ctor(Danmokou.SM.StateMachine[])
   - Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
   langs:
   - csharp
@@ -17,7 +17,7 @@ items:
   source:
     id: SequentialSM
     path: ''
-    startLine: 16227
+    startLine: 16803
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -50,38 +50,38 @@ items:
   - Public
   - MustInherit
   - Class
-- uid: Danmokou.SM.SequentialSM.#ctor(List{Danmokou.SM.StateMachine})
-  commentId: M:Danmokou.SM.SequentialSM.#ctor(List{Danmokou.SM.StateMachine})
-  id: '#ctor(List{Danmokou.SM.StateMachine})'
+- uid: Danmokou.SM.SequentialSM.#ctor(Danmokou.SM.StateMachine[])
+  commentId: M:Danmokou.SM.SequentialSM.#ctor(Danmokou.SM.StateMachine[])
+  id: '#ctor(Danmokou.SM.StateMachine[])'
   parent: Danmokou.SM.SequentialSM
   langs:
   - csharp
   - vb
-  name: SequentialSM(List<StateMachine>)
-  nameWithType: SequentialSM.SequentialSM(List<StateMachine>)
-  fullName: Danmokou.SM.SequentialSM.SequentialSM(List<Danmokou.SM.StateMachine>)
+  name: SequentialSM(StateMachine[])
+  nameWithType: SequentialSM.SequentialSM(StateMachine[])
+  fullName: Danmokou.SM.SequentialSM.SequentialSM(Danmokou.SM.StateMachine[])
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 16228
+    startLine: 16804
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public SequentialSM(List<StateMachine> states)
+    content: public SequentialSM(StateMachine[] states)
     parameters:
     - id: states
-      type: List{Danmokou.SM.StateMachine}
-    content.vb: Public Sub New(states As List(Of StateMachine))
+      type: Danmokou.SM.StateMachine[]
+    content.vb: Public Sub New(states As StateMachine())
   overload: Danmokou.SM.SequentialSM.#ctor*
-  nameWithType.vb: SequentialSM.SequentialSM(List(Of StateMachine))
+  nameWithType.vb: SequentialSM.SequentialSM(StateMachine())
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.SM.SequentialSM.SequentialSM(List(Of Danmokou.SM.StateMachine))
-  name.vb: SequentialSM(List(Of StateMachine))
+  fullName.vb: Danmokou.SM.SequentialSM.SequentialSM(Danmokou.SM.StateMachine())
+  name.vb: SequentialSM(StateMachine())
 - uid: Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
   commentId: M:Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
   id: Start(Danmokou.SM.SMHandoff)
@@ -96,7 +96,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 16230
+    startLine: 16806
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -426,85 +426,30 @@ references:
   name: SequentialSM
   nameWithType: SequentialSM.SequentialSM
   fullName: Danmokou.SM.SequentialSM.SequentialSM
-- uid: List{Danmokou.SM.StateMachine}
-  commentId: '!:List{Danmokou.SM.StateMachine}'
-  definition: List`1
-  name: List<StateMachine>
-  nameWithType: List<StateMachine>
-  fullName: List<Danmokou.SM.StateMachine>
-  nameWithType.vb: List(Of StateMachine)
-  fullName.vb: List(Of Danmokou.SM.StateMachine)
-  name.vb: List(Of StateMachine)
-  spec.csharp:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Danmokou.SM.StateMachine
-    name: StateMachine
-    nameWithType: StateMachine
-    fullName: Danmokou.SM.StateMachine
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Danmokou.SM.StateMachine
-    name: StateMachine
-    nameWithType: StateMachine
-    fullName: Danmokou.SM.StateMachine
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: List`1
+- uid: Danmokou.SM.StateMachine[]
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
+  name: StateMachine[]
+  nameWithType: StateMachine[]
+  fullName: Danmokou.SM.StateMachine[]
+  nameWithType.vb: StateMachine()
+  fullName.vb: Danmokou.SM.StateMachine()
+  name.vb: StateMachine()
   spec.csharp:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
   commentId: M:Danmokou.SM.StateMachine.Start(Danmokou.SM.SMHandoff)
   parent: Danmokou.SM.StateMachine

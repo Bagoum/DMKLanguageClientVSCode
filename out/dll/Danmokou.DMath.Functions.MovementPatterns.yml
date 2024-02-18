@@ -27,8 +27,9 @@ items:
   - Danmokou.DMath.Functions.MovementPatterns.DipUp2(ExBPY,ExBPY)
   - Danmokou.DMath.Functions.MovementPatterns.DipUp3(ExBPY,ExBPY)
   - Danmokou.DMath.Functions.MovementPatterns.Down(ExBPY)
+  - Danmokou.DMath.Functions.MovementPatterns.None(Danmokou.DMath.GCXF{Vector2})
   - Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF{Vector2})
-  - Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  - Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.VTP)
   - Danmokou.DMath.Functions.MovementPatterns.t21(System.Single,ExBPY)
   - Danmokou.DMath.Functions.MovementPatterns.th1(System.Single,ExBPY)
   - Danmokou.DMath.Functions.MovementPatterns.Up(ExBPY)
@@ -42,7 +43,7 @@ items:
   source:
     id: MovementPatterns
     path: ''
-    startLine: 8891
+    startLine: 9186
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -66,6 +67,42 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: Danmokou.DMath.Functions.MovementPatterns.None(Danmokou.DMath.GCXF{Vector2})
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.None(Danmokou.DMath.GCXF{Vector2})
+  id: None(Danmokou.DMath.GCXF{Vector2})
+  parent: Danmokou.DMath.Functions.MovementPatterns
+  langs:
+  - csharp
+  - vb
+  name: None(GCXF<Vector2>)
+  nameWithType: MovementPatterns.None(GCXF<Vector2>)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.None(Danmokou.DMath.GCXF<Vector2>)
+  type: Method
+  source:
+    id: None
+    path: ''
+    startLine: 9189
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static RootedVTP None(GCXF<Vector2> root)
+    parameters:
+    - id: root
+      type: Danmokou.DMath.GCXF{Vector2}
+    return:
+      type: Danmokou.DMath.RootedVTP
+    content.vb: Public Shared Function None(root As GCXF(Of Vector2)) As RootedVTP
+  overload: Danmokou.DMath.Functions.MovementPatterns.None*
+  nameWithType.vb: MovementPatterns.None(GCXF(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.MovementPatterns.None(Danmokou.DMath.GCXF(Of Vector2))
+  name.vb: None(GCXF(Of Vector2))
 - uid: Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF{Vector2})
   commentId: M:Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF{Vector2})
   id: Null(Danmokou.DMath.GCXF{Vector2})
@@ -80,7 +117,7 @@ items:
   source:
     id: "Null"
     path: ''
-    startLine: 8894
+    startLine: 9190
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -102,44 +139,44 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.MovementPatterns.Null(Danmokou.DMath.GCXF(Of Vector2))
   name.vb: Null(GCXF(Of Vector2))
-- uid: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
-  commentId: M:Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
-  id: RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+- uid: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.VTP)
+  commentId: M:Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.VTP)
+  id: RVTP(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.VTP)
   parent: Danmokou.DMath.Functions.MovementPatterns
   langs:
   - csharp
   - vb
-  name: RVTP(GCXF<Vector2>, GCXU<VTP>)
-  nameWithType: MovementPatterns.RVTP(GCXF<Vector2>, GCXU<VTP>)
-  fullName: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF<Vector2>, Danmokou.DMath.GCXU<Danmokou.DMath.VTP>)
+  name: RVTP(GCXF<Vector2>, VTP)
+  nameWithType: MovementPatterns.RVTP(GCXF<Vector2>, VTP)
+  fullName: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF<Vector2>, Danmokou.DMath.VTP)
   type: Method
   source:
     id: RVTP
     path: ''
-    startLine: 8895
+    startLine: 9192
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static RootedVTP RVTP(GCXF<Vector2> root, GCXU<VTP> path)
+    content: public static RootedVTP RVTP(GCXF<Vector2> root, VTP path)
     parameters:
     - id: root
       type: Danmokou.DMath.GCXF{Vector2}
     - id: path
-      type: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+      type: Danmokou.DMath.VTP
     return:
       type: Danmokou.DMath.RootedVTP
-    content.vb: Public Shared Function RVTP(root As GCXF(Of Vector2), path As GCXU(Of VTP)) As RootedVTP
+    content.vb: Public Shared Function RVTP(root As GCXF(Of Vector2), path As VTP) As RootedVTP
   overload: Danmokou.DMath.Functions.MovementPatterns.RVTP*
-  nameWithType.vb: MovementPatterns.RVTP(GCXF(Of Vector2), GCXU(Of VTP))
+  nameWithType.vb: MovementPatterns.RVTP(GCXF(Of Vector2), VTP)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF(Of Vector2), Danmokou.DMath.GCXU(Of Danmokou.DMath.VTP))
-  name.vb: RVTP(GCXF(Of Vector2), GCXU(Of VTP))
+  fullName.vb: Danmokou.DMath.Functions.MovementPatterns.RVTP(Danmokou.DMath.GCXF(Of Vector2), Danmokou.DMath.VTP)
+  name.vb: RVTP(GCXF(Of Vector2), VTP)
 - uid: Danmokou.DMath.Functions.MovementPatterns.th1(System.Single,ExBPY)
   commentId: M:Danmokou.DMath.Functions.MovementPatterns.th1(System.Single,ExBPY)
   id: th1(System.Single,ExBPY)
@@ -154,7 +191,7 @@ items:
   source:
     id: th1
     path: ''
-    startLine: 8902
+    startLine: 9199
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -189,7 +226,7 @@ items:
   source:
     id: t21
     path: ''
-    startLine: 8904
+    startLine: 9201
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -224,7 +261,7 @@ items:
   source:
     id: DipUp1
     path: ''
-    startLine: 8928
+    startLine: 9228
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -259,7 +296,7 @@ items:
   source:
     id: DipUp2
     path: ''
-    startLine: 8934
+    startLine: 9235
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -294,7 +331,7 @@ items:
   source:
     id: DipUp3
     path: ''
-    startLine: 8940
+    startLine: 9242
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -329,7 +366,7 @@ items:
   source:
     id: Cross1
     path: ''
-    startLine: 8946
+    startLine: 9249
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -373,7 +410,7 @@ items:
   source:
     id: CrossUp
     path: ''
-    startLine: 8955
+    startLine: 9259
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -408,7 +445,7 @@ items:
   source:
     id: CrossDown
     path: ''
-    startLine: 8957
+    startLine: 9262
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -443,7 +480,7 @@ items:
   source:
     id: CrossUp2
     path: ''
-    startLine: 8959
+    startLine: 9265
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -478,7 +515,7 @@ items:
   source:
     id: CrossDown2
     path: ''
-    startLine: 8961
+    startLine: 9268
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -513,7 +550,7 @@ items:
   source:
     id: CrossDownLoopBack
     path: ''
-    startLine: 8966
+    startLine: 9274
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -548,7 +585,7 @@ items:
   source:
     id: CircDown
     path: ''
-    startLine: 8974
+    startLine: 9283
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -583,7 +620,7 @@ items:
   source:
     id: CornerLoop
     path: ''
-    startLine: 8979
+    startLine: 9289
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -618,7 +655,7 @@ items:
   source:
     id: CircDown2L
     path: ''
-    startLine: 8986
+    startLine: 9297
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -651,7 +688,7 @@ items:
   source:
     id: CircDown2R
     path: ''
-    startLine: 8988
+    startLine: 9300
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -684,7 +721,7 @@ items:
   source:
     id: BendDownHL
     path: ''
-    startLine: 8991
+    startLine: 9304
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -717,7 +754,7 @@ items:
   source:
     id: BendDownHR
     path: ''
-    startLine: 8994
+    startLine: 9308
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -750,7 +787,7 @@ items:
   source:
     id: BendUpL
     path: ''
-    startLine: 8997
+    startLine: 9312
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -783,7 +820,7 @@ items:
   source:
     id: BendUpR
     path: ''
-    startLine: 8999
+    startLine: 9315
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -816,7 +853,7 @@ items:
   source:
     id: CornerL
     path: ''
-    startLine: 9002
+    startLine: 9319
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -849,7 +886,7 @@ items:
   source:
     id: CornerR
     path: ''
-    startLine: 9005
+    startLine: 9323
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -882,7 +919,7 @@ items:
   source:
     id: Up
     path: ''
-    startLine: 9010
+    startLine: 9329
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -915,7 +952,7 @@ items:
   source:
     id: Down
     path: ''
-    startLine: 9011
+    startLine: 9331
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -948,7 +985,7 @@ items:
   source:
     id: AcrossL
     path: ''
-    startLine: 9013
+    startLine: 9334
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -981,7 +1018,7 @@ items:
   source:
     id: AcrossR
     path: ''
-    startLine: 9014
+    startLine: 9336
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1298,11 +1335,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Danmokou.DMath.Functions.MovementPatterns.Null*
-  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.Null
-  name: "Null"
-  nameWithType: MovementPatterns.Null
-  fullName: Danmokou.DMath.Functions.MovementPatterns.Null
+- uid: Danmokou.DMath.Functions.MovementPatterns.None*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.None
+  name: None
+  nameWithType: MovementPatterns.None
+  fullName: Danmokou.DMath.Functions.MovementPatterns.None
 - uid: Danmokou.DMath.GCXF{Vector2}
   commentId: T:Danmokou.DMath.GCXF{Vector2}
   parent: Danmokou.DMath
@@ -1392,87 +1429,22 @@ references:
   name: Danmokou.DMath
   nameWithType: Danmokou.DMath
   fullName: Danmokou.DMath
+- uid: Danmokou.DMath.Functions.MovementPatterns.Null*
+  commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.Null
+  name: "Null"
+  nameWithType: MovementPatterns.Null
+  fullName: Danmokou.DMath.Functions.MovementPatterns.Null
 - uid: Danmokou.DMath.Functions.MovementPatterns.RVTP*
   commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.RVTP
   name: RVTP
   nameWithType: MovementPatterns.RVTP
   fullName: Danmokou.DMath.Functions.MovementPatterns.RVTP
-- uid: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
-  commentId: T:Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+- uid: Danmokou.DMath.VTP
+  commentId: T:Danmokou.DMath.VTP
   parent: Danmokou.DMath
-  definition: Danmokou.DMath.GCXU`1
-  name: GCXU<VTP>
-  nameWithType: GCXU<VTP>
-  fullName: Danmokou.DMath.GCXU<Danmokou.DMath.VTP>
-  nameWithType.vb: GCXU(Of VTP)
-  fullName.vb: Danmokou.DMath.GCXU(Of Danmokou.DMath.VTP)
-  name.vb: GCXU(Of VTP)
-  spec.csharp:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Danmokou.DMath.VTP
-    name: VTP
-    nameWithType: VTP
-    fullName: Danmokou.DMath.VTP
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Danmokou.DMath.VTP
-    name: VTP
-    nameWithType: VTP
-    fullName: Danmokou.DMath.VTP
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Danmokou.DMath.GCXU`1
-  commentId: T:Danmokou.DMath.GCXU`1
-  name: GCXU<Fn>
-  nameWithType: GCXU<Fn>
-  fullName: Danmokou.DMath.GCXU<Fn>
-  nameWithType.vb: GCXU(Of Fn)
-  fullName.vb: Danmokou.DMath.GCXU(Of Fn)
-  name.vb: GCXU(Of Fn)
-  spec.csharp:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: Fn
-    nameWithType: Fn
-    fullName: Fn
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: Fn
-    nameWithType: Fn
-    fullName: Fn
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: VTP
+  nameWithType: VTP
+  fullName: Danmokou.DMath.VTP
 - uid: Danmokou.DMath.Functions.MovementPatterns.th1*
   commentId: Overload:Danmokou.DMath.Functions.MovementPatterns.th1
   name: th1

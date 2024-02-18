@@ -9,36 +9,38 @@ items:
   - Danmokou.DMath.Functions.ExMLerps.Bezier3``1(TEx{``0},TEx{``0},TEx{``0},TEx{``0},TEx{System.Single})
   - Danmokou.DMath.Functions.ExMLerps.CubicBezier(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY)
   - Danmokou.DMath.Functions.ExMLerps.CubicBezierLerp``1(ExBPY,ExBPY,ExBPY,ExBPY,ExBPY,System.Func{TExArgCtx,TEx{``0}},System.Func{TExArgCtx,TEx{``0}})
-  - Danmokou.DMath.Functions.ExMLerps.Damp(efloat,tfloat,efloat)
-  - Danmokou.DMath.Functions.ExMLerps.Ease``1(System.Func{tfloat,tfloat},System.Single,System.Func{TExArgCtx,TEx{``0}})
-  - Danmokou.DMath.Functions.ExMLerps.EaseD``1(System.Func{tfloat,tfloat},System.Single,System.Func{TExArgCtx,TEx{``0}})
-  - Danmokou.DMath.Functions.ExMLerps.EQuad0m10(efloat,tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMLerps.Lerp``1(efloat,efloat,efloat,TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMLerps.Damp(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.Ease``1(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},System.Single,System.Func{TExArgCtx,TEx{``0}})
+  - Danmokou.DMath.Functions.ExMLerps.EaseD``1(System.String,System.Single,System.Func{TExArgCtx,TEx{``0}})
+  - Danmokou.DMath.Functions.ExMLerps.EQuad0m10(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.Lerp``1(tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExMLerps.Lerp01``1(tfloat,TEx{``0},TEx{``0})
-  - Danmokou.DMath.Functions.ExMLerps.Lerp01U``1(efloat,TEx{``0},TEx{``0})
-  - Danmokou.DMath.Functions.ExMLerps.Lerp3``1(efloat,efloat,efloat,efloat,efloat,TEx{``0},TEx{``0},TEx{``0})
-  - Danmokou.DMath.Functions.ExMLerps.Lerp3c``1(tfloat,efloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMLerps.Lerp01U``1(tfloat,TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMLerps.Lerp3``1(tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMLerps.Lerp3c``1(tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMLerps.Lerp4``1(tfloat,tfloat,tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExMLerps.LerpBack``1(tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExMLerps.LerpD``1(TEx{``0},TEx{``0})
-  - Danmokou.DMath.Functions.ExMLerps.LerpMany``1(System.ValueTuple{tfloat,TEx{``0}}[],efloat)
+  - Danmokou.DMath.Functions.ExMLerps.LerpMany``1(System.ValueTuple{UncompiledCode{System.Single},UncompiledCode{``0}}[],System.Func{TExArgCtx,TEx{System.Single}})
   - Danmokou.DMath.Functions.ExMLerps.LerpR``1(TEx{``0},TEx{``0})
-  - Danmokou.DMath.Functions.ExMLerps.LerpSmooth``1(System.Func{tfloat,tfloat},efloat,efloat,efloat,TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMLerps.LerpSmooth``1(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExMLerps.LerpT``1(ExBPY,ExBPY,System.Func{TExArgCtx,TEx{``0}},System.Func{TExArgCtx,TEx{``0}})
   - Danmokou.DMath.Functions.ExMLerps.LerpT3``1(ExBPY,ExBPY,ExBPY,ExBPY,System.Func{TExArgCtx,TEx{``0}},System.Func{TExArgCtx,TEx{``0}},System.Func{TExArgCtx,TEx{``0}})
-  - Danmokou.DMath.Functions.ExMLerps.LerpU``1(efloat,efloat,efloat,TEx{``0},TEx{``0})
-  - Danmokou.DMath.Functions.ExMLerps.Ratio(efloat,tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMLerps.RotateLerp(efloat,efloat,efloat,ev2,ev2)
-  - Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW(efloat,efloat,efloat,ev2,ev2)
-  - Danmokou.DMath.Functions.ExMLerps.RotateLerpCW(efloat,efloat,efloat,ev2,ev2)
-  - Danmokou.DMath.Functions.ExMLerps.Select``1(tfloat,TEx{``0}[])
-  - Danmokou.DMath.Functions.ExMLerps.Smooth(System.Func{tfloat,tfloat},tfloat)
-  - Danmokou.DMath.Functions.ExMLerps.SmoothC(System.Func{tfloat,tfloat},tfloat)
-  - Danmokou.DMath.Functions.ExMLerps.SmoothIO(System.Func{tfloat,tfloat},System.Func{tfloat,tfloat},efloat,efloat,efloat,efloat)
-  - Danmokou.DMath.Functions.ExMLerps.SmoothIOe(System.Func{tfloat,tfloat},tfloat,efloat,tfloat)
-  - Danmokou.DMath.Functions.ExMLerps.SmoothLoop(System.Func{tfloat,tfloat},efloat)
-  - Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(System.Func{tfloat,tfloat},efloat,tfloat)
-  - Danmokou.DMath.Functions.ExMLerps.SmoothR(System.Func{tfloat,tfloat},efloat,tfloat)
-  - Danmokou.DMath.Functions.ExMLerps.SStep(efloat,tfloat,efloat)
+  - Danmokou.DMath.Functions.ExMLerps.LerpU``1(tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMLerps.Ratio(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.RotateLerp(tfloat,tfloat,tfloat,tv2,tv2)
+  - Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW(tfloat,tfloat,tfloat,tv2,tv2)
+  - Danmokou.DMath.Functions.ExMLerps.RotateLerpCW(tfloat,tfloat,tfloat,tv2,tv2)
+  - Danmokou.DMath.Functions.ExMLerps.Select``1(System.Func{TExArgCtx,TEx{System.Single}},UncompiledCode{``0}[])
+  - Danmokou.DMath.Functions.ExMLerps.SelectDC``1(TEx{``0},TEx{``0},TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMLerps.Smooth(TEx{System.Func{System.Single,System.Single}},tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.SmoothC(TEx{System.Func{System.Single,System.Single}},tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.SmoothIO(TEx{System.Func{System.Single,System.Single}},TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.SmoothIOe(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.SmoothLoop(TEx{System.Func{System.Single,System.Single}},tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.SmoothR(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMLerps.SStep(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMLerps.SwitchH``1(ExBPY,ExBPY,System.Func{TExArgCtx,TEx{``0}},System.Func{TExArgCtx,TEx{``0}})
   langs:
   - csharp
@@ -50,7 +52,7 @@ items:
   source:
     id: ExMLerps
     path: ''
-    startLine: 11970
+    startLine: 12432
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -76,31 +78,31 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: Danmokou.DMath.Functions.ExMLerps.Ratio(efloat,tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Ratio(efloat,tfloat,tfloat)
-  id: Ratio(efloat,tfloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.Ratio(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Ratio(tfloat,tfloat,tfloat)
+  id: Ratio(tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Ratio(efloat, tfloat, tfloat)
-  nameWithType: ExMLerps.Ratio(efloat, tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.Ratio(efloat, tfloat, tfloat)
+  name: Ratio(tfloat, tfloat, tfloat)
+  nameWithType: ExMLerps.Ratio(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Ratio(tfloat, tfloat, tfloat)
   type: Method
   source:
     id: Ratio
     path: ''
-    startLine: 11980
+    startLine: 12442
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the value t such that LerpUnclamped(a, b, t) = x.\nDo not use if a = b.\n"
   example: []
   syntax:
-    content: public static tfloat Ratio(efloat a, tfloat b, tfloat x)
+    content: public static tfloat Ratio(tfloat a, tfloat b, tfloat x)
     parameters:
     - id: a
-      type: efloat
+      type: tfloat
       description: Lower lerp bound
     - id: b
       type: tfloat
@@ -111,7 +113,7 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function Ratio(a As efloat, b As tfloat, x As tfloat) As tfloat
+    content.vb: Public Shared Function Ratio(a As tfloat, b As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.Ratio*
   modifiers.csharp:
   - public
@@ -119,37 +121,37 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMLerps.Lerp``1(efloat,efloat,efloat,TEx{``0},TEx{``0})
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp``1(efloat,efloat,efloat,TEx{``0},TEx{``0})
-  id: Lerp``1(efloat,efloat,efloat,TEx{``0},TEx{``0})
+- uid: Danmokou.DMath.Functions.ExMLerps.Lerp``1(tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp``1(tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
+  id: Lerp``1(tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Lerp<T>(efloat, efloat, efloat, TEx<T>, TEx<T>)
-  nameWithType: ExMLerps.Lerp<T>(efloat, efloat, efloat, TEx<T>, TEx<T>)
-  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp<T>(efloat, efloat, efloat, TEx<T>, TEx<T>)
+  name: Lerp<T>(tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
+  nameWithType: ExMLerps.Lerp<T>(tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp<T>(tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
   type: Method
   source:
     id: Lerp
     path: ''
-    startLine: 11992
+    startLine: 12454
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nLerp between two functions.\n<br />Note: Unless marked otherwise, all lerp functions clamp the controller.\n"
   example: []
   syntax:
-    content: public static TEx<T> Lerp<T>(efloat zeroBound, efloat oneBound, efloat controller, TEx<T> f1, TEx<T> f2)
+    content: public static TEx<T> Lerp<T>(tfloat zeroBound, tfloat oneBound, tfloat controller, TEx<T> f1, TEx<T> f2)
     parameters:
     - id: zeroBound
-      type: efloat
+      type: tfloat
       description: Lower bound for lerp controller
     - id: oneBound
-      type: efloat
+      type: tfloat
       description: Upper bound for lerp controller
     - id: controller
-      type: efloat
+      type: tfloat
       description: Lerp controller
     - id: f1
       type: TEx{{T}}
@@ -162,17 +164,17 @@ items:
     return:
       type: TEx{{T}}
       description: ''
-    content.vb: Public Shared Function Lerp(Of T)(zeroBound As efloat, oneBound As efloat, controller As efloat, f1 As TEx(Of T), f2 As TEx(Of T)) As TEx(Of T)
+    content.vb: Public Shared Function Lerp(Of T)(zeroBound As tfloat, oneBound As tfloat, controller As tfloat, f1 As TEx(Of T), f2 As TEx(Of T)) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExMLerps.Lerp*
-  nameWithType.vb: ExMLerps.Lerp(Of T)(efloat, efloat, efloat, TEx(Of T), TEx(Of T))
+  nameWithType.vb: ExMLerps.Lerp(Of T)(tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp(Of T)(efloat, efloat, efloat, TEx(Of T), TEx(Of T))
-  name.vb: Lerp(Of T)(efloat, efloat, efloat, TEx(Of T), TEx(Of T))
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp(Of T)(tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
+  name.vb: Lerp(Of T)(tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
 - uid: Danmokou.DMath.Functions.ExMLerps.LerpD``1(TEx{``0},TEx{``0})
   commentId: M:Danmokou.DMath.Functions.ExMLerps.LerpD``1(TEx{``0},TEx{``0})
   id: LerpD``1(TEx{``0},TEx{``0})
@@ -187,7 +189,7 @@ items:
   source:
     id: LerpD
     path: ''
-    startLine: 12004
+    startLine: 12466
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -229,7 +231,7 @@ items:
   source:
     id: LerpR
     path: ''
-    startLine: 12009
+    startLine: 12471
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -271,7 +273,7 @@ items:
   source:
     id: Lerp01
     path: ''
-    startLine: 12015
+    startLine: 12477
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -301,37 +303,37 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp01(Of T)(tfloat, TEx(Of T), TEx(Of T))
   name.vb: Lerp01(Of T)(tfloat, TEx(Of T), TEx(Of T))
-- uid: Danmokou.DMath.Functions.ExMLerps.LerpSmooth``1(System.Func{tfloat,tfloat},efloat,efloat,efloat,TEx{``0},TEx{``0})
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.LerpSmooth``1(System.Func{tfloat,tfloat},efloat,efloat,efloat,TEx{``0},TEx{``0})
-  id: LerpSmooth``1(System.Func{tfloat,tfloat},efloat,efloat,efloat,TEx{``0},TEx{``0})
+- uid: Danmokou.DMath.Functions.ExMLerps.LerpSmooth``1(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.LerpSmooth``1(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
+  id: LerpSmooth``1(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: LerpSmooth<T>(Func<tfloat, tfloat>, efloat, efloat, efloat, TEx<T>, TEx<T>)
-  nameWithType: ExMLerps.LerpSmooth<T>(Func<tfloat, tfloat>, efloat, efloat, efloat, TEx<T>, TEx<T>)
-  fullName: Danmokou.DMath.Functions.ExMLerps.LerpSmooth<T>(System.Func<tfloat, tfloat>, efloat, efloat, efloat, TEx<T>, TEx<T>)
+  name: LerpSmooth<T>(TEx<Func<Single, Single>>, tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
+  nameWithType: ExMLerps.LerpSmooth<T>(TEx<Func<Single, Single>>, tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.LerpSmooth<T>(TEx<System.Func<System.Single, System.Single>>, tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
   type: Method
   source:
     id: LerpSmooth
     path: ''
-    startLine: 12020
+    startLine: 12483
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nLerp between two functions with smoothing applied to the controller.\n"
   example: []
   syntax:
-    content: public static TEx<T> LerpSmooth<T>(Func<tfloat, tfloat> smoother, efloat zeroBound, efloat oneBound, efloat controller, TEx<T> f1, TEx<T> f2)
+    content: public static TEx<T> LerpSmooth<T>(TEx<Func<float, float>> smoother, tfloat zeroBound, tfloat oneBound, tfloat controller, TEx<T> f1, TEx<T> f2)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
     - id: zeroBound
-      type: efloat
+      type: tfloat
     - id: oneBound
-      type: efloat
+      type: tfloat
     - id: controller
-      type: efloat
+      type: tfloat
     - id: f1
       type: TEx{{T}}
     - id: f2
@@ -340,48 +342,48 @@ items:
     - id: T
     return:
       type: TEx{{T}}
-    content.vb: Public Shared Function LerpSmooth(Of T)(smoother As Func(Of tfloat, tfloat), zeroBound As efloat, oneBound As efloat, controller As efloat, f1 As TEx(Of T), f2 As TEx(Of T)) As TEx(Of T)
+    content.vb: Public Shared Function LerpSmooth(Of T)(smoother As TEx(Of Func(Of Single, Single)), zeroBound As tfloat, oneBound As tfloat, controller As tfloat, f1 As TEx(Of T), f2 As TEx(Of T)) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExMLerps.LerpSmooth*
-  nameWithType.vb: ExMLerps.LerpSmooth(Of T)(Func(Of tfloat, tfloat), efloat, efloat, efloat, TEx(Of T), TEx(Of T))
+  nameWithType.vb: ExMLerps.LerpSmooth(Of T)(TEx(Of Func(Of Single, Single)), tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.LerpSmooth(Of T)(System.Func(Of tfloat, tfloat), efloat, efloat, efloat, TEx(Of T), TEx(Of T))
-  name.vb: LerpSmooth(Of T)(Func(Of tfloat, tfloat), efloat, efloat, efloat, TEx(Of T), TEx(Of T))
-- uid: Danmokou.DMath.Functions.ExMLerps.LerpU``1(efloat,efloat,efloat,TEx{``0},TEx{``0})
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.LerpU``1(efloat,efloat,efloat,TEx{``0},TEx{``0})
-  id: LerpU``1(efloat,efloat,efloat,TEx{``0},TEx{``0})
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.LerpSmooth(Of T)(TEx(Of System.Func(Of System.Single, System.Single)), tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
+  name.vb: LerpSmooth(Of T)(TEx(Of Func(Of Single, Single)), tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMLerps.LerpU``1(tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.LerpU``1(tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
+  id: LerpU``1(tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: LerpU<T>(efloat, efloat, efloat, TEx<T>, TEx<T>)
-  nameWithType: ExMLerps.LerpU<T>(efloat, efloat, efloat, TEx<T>, TEx<T>)
-  fullName: Danmokou.DMath.Functions.ExMLerps.LerpU<T>(efloat, efloat, efloat, TEx<T>, TEx<T>)
+  name: LerpU<T>(tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
+  nameWithType: ExMLerps.LerpU<T>(tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.LerpU<T>(tfloat, tfloat, tfloat, TEx<T>, TEx<T>)
   type: Method
   source:
     id: LerpU
     path: ''
-    startLine: 12039
+    startLine: 12502
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nLerp between two functions. The controller is not clamped.\n"
   example: []
   syntax:
-    content: public static TEx<T> LerpU<T>(efloat zeroBound, efloat oneBound, efloat controller, TEx<T> f1, TEx<T> f2)
+    content: public static TEx<T> LerpU<T>(tfloat zeroBound, tfloat oneBound, tfloat controller, TEx<T> f1, TEx<T> f2)
     parameters:
     - id: zeroBound
-      type: efloat
+      type: tfloat
       description: Lower bound for lerp controller
     - id: oneBound
-      type: efloat
+      type: tfloat
       description: Upper bound for lerp controller
     - id: controller
-      type: efloat
+      type: tfloat
       description: Lerp controller
     - id: f1
       type: TEx{{T}}
@@ -394,42 +396,42 @@ items:
     return:
       type: TEx{{T}}
       description: ''
-    content.vb: Public Shared Function LerpU(Of T)(zeroBound As efloat, oneBound As efloat, controller As efloat, f1 As TEx(Of T), f2 As TEx(Of T)) As TEx(Of T)
+    content.vb: Public Shared Function LerpU(Of T)(zeroBound As tfloat, oneBound As tfloat, controller As tfloat, f1 As TEx(Of T), f2 As TEx(Of T)) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExMLerps.LerpU*
-  nameWithType.vb: ExMLerps.LerpU(Of T)(efloat, efloat, efloat, TEx(Of T), TEx(Of T))
+  nameWithType.vb: ExMLerps.LerpU(Of T)(tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.LerpU(Of T)(efloat, efloat, efloat, TEx(Of T), TEx(Of T))
-  name.vb: LerpU(Of T)(efloat, efloat, efloat, TEx(Of T), TEx(Of T))
-- uid: Danmokou.DMath.Functions.ExMLerps.Lerp01U``1(efloat,TEx{``0},TEx{``0})
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp01U``1(efloat,TEx{``0},TEx{``0})
-  id: Lerp01U``1(efloat,TEx{``0},TEx{``0})
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.LerpU(Of T)(tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
+  name.vb: LerpU(Of T)(tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMLerps.Lerp01U``1(tfloat,TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp01U``1(tfloat,TEx{``0},TEx{``0})
+  id: Lerp01U``1(tfloat,TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Lerp01U<T>(efloat, TEx<T>, TEx<T>)
-  nameWithType: ExMLerps.Lerp01U<T>(efloat, TEx<T>, TEx<T>)
-  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp01U<T>(efloat, TEx<T>, TEx<T>)
+  name: Lerp01U<T>(tfloat, TEx<T>, TEx<T>)
+  nameWithType: ExMLerps.Lerp01U<T>(tfloat, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp01U<T>(tfloat, TEx<T>, TEx<T>)
   type: Method
   source:
     id: Lerp01U
     path: ''
-    startLine: 12051
+    startLine: 12514
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nLerp between two functions with 0-1 as the bounds for the controller. The controller is not clamped.\n"
   example: []
   syntax:
-    content: public static TEx<T> Lerp01U<T>(efloat controller, TEx<T> f1, TEx<T> f2)
+    content: public static TEx<T> Lerp01U<T>(tfloat controller, TEx<T> f1, TEx<T> f2)
     parameters:
     - id: controller
-      type: efloat
+      type: tfloat
     - id: f1
       type: TEx{{T}}
     - id: f2
@@ -438,50 +440,50 @@ items:
     - id: T
     return:
       type: TEx{{T}}
-    content.vb: Public Shared Function Lerp01U(Of T)(controller As efloat, f1 As TEx(Of T), f2 As TEx(Of T)) As TEx(Of T)
+    content.vb: Public Shared Function Lerp01U(Of T)(controller As tfloat, f1 As TEx(Of T), f2 As TEx(Of T)) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExMLerps.Lerp01U*
-  nameWithType.vb: ExMLerps.Lerp01U(Of T)(efloat, TEx(Of T), TEx(Of T))
+  nameWithType.vb: ExMLerps.Lerp01U(Of T)(tfloat, TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp01U(Of T)(efloat, TEx(Of T), TEx(Of T))
-  name.vb: Lerp01U(Of T)(efloat, TEx(Of T), TEx(Of T))
-- uid: Danmokou.DMath.Functions.ExMLerps.Lerp3``1(efloat,efloat,efloat,efloat,efloat,TEx{``0},TEx{``0},TEx{``0})
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp3``1(efloat,efloat,efloat,efloat,efloat,TEx{``0},TEx{``0},TEx{``0})
-  id: Lerp3``1(efloat,efloat,efloat,efloat,efloat,TEx{``0},TEx{``0},TEx{``0})
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp01U(Of T)(tfloat, TEx(Of T), TEx(Of T))
+  name.vb: Lerp01U(Of T)(tfloat, TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMLerps.Lerp3``1(tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp3``1(tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  id: Lerp3``1(tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Lerp3<T>(efloat, efloat, efloat, efloat, efloat, TEx<T>, TEx<T>, TEx<T>)
-  nameWithType: ExMLerps.Lerp3<T>(efloat, efloat, efloat, efloat, efloat, TEx<T>, TEx<T>, TEx<T>)
-  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp3<T>(efloat, efloat, efloat, efloat, efloat, TEx<T>, TEx<T>, TEx<T>)
+  name: Lerp3<T>(tfloat, tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
+  nameWithType: ExMLerps.Lerp3<T>(tfloat, tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp3<T>(tfloat, tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
   type: Method
   source:
     id: Lerp3
     path: ''
-    startLine: 12059
+    startLine: 12522
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nLerp between three functions.\nBetween zeroBound and oneBound, lerp from the first to the second.\nBetween zeroBound2 and oneBound2, lerp from the second to the third.\n"
   example: []
   syntax:
-    content: public static TEx<T> Lerp3<T>(efloat zeroBound, efloat oneBound, efloat zeroBound2, efloat oneBound2, efloat controller, TEx<T> f1, TEx<T> f2, TEx<T> f3)
+    content: public static TEx<T> Lerp3<T>(tfloat zeroBound, tfloat oneBound, tfloat zeroBound2, tfloat oneBound2, tfloat controller, TEx<T> f1, TEx<T> f2, TEx<T> f3)
     parameters:
     - id: zeroBound
-      type: efloat
+      type: tfloat
     - id: oneBound
-      type: efloat
+      type: tfloat
     - id: zeroBound2
-      type: efloat
+      type: tfloat
     - id: oneBound2
-      type: efloat
+      type: tfloat
     - id: controller
-      type: efloat
+      type: tfloat
     - id: f1
       type: TEx{{T}}
     - id: f2
@@ -492,44 +494,104 @@ items:
     - id: T
     return:
       type: TEx{{T}}
-    content.vb: Public Shared Function Lerp3(Of T)(zeroBound As efloat, oneBound As efloat, zeroBound2 As efloat, oneBound2 As efloat, controller As efloat, f1 As TEx(Of T), f2 As TEx(Of T), f3 As TEx(Of T)) As TEx(Of T)
+    content.vb: Public Shared Function Lerp3(Of T)(zeroBound As tfloat, oneBound As tfloat, zeroBound2 As tfloat, oneBound2 As tfloat, controller As tfloat, f1 As TEx(Of T), f2 As TEx(Of T), f3 As TEx(Of T)) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExMLerps.Lerp3*
-  nameWithType.vb: ExMLerps.Lerp3(Of T)(efloat, efloat, efloat, efloat, efloat, TEx(Of T), TEx(Of T), TEx(Of T))
+  nameWithType.vb: ExMLerps.Lerp3(Of T)(tfloat, tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp3(Of T)(efloat, efloat, efloat, efloat, efloat, TEx(Of T), TEx(Of T), TEx(Of T))
-  name.vb: Lerp3(Of T)(efloat, efloat, efloat, efloat, efloat, TEx(Of T), TEx(Of T), TEx(Of T))
-- uid: Danmokou.DMath.Functions.ExMLerps.Lerp3c``1(tfloat,efloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp3c``1(tfloat,efloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
-  id: Lerp3c``1(tfloat,efloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp3(Of T)(tfloat, tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
+  name.vb: Lerp3(Of T)(tfloat, tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMLerps.Lerp4``1(tfloat,tfloat,tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp4``1(tfloat,tfloat,tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0},TEx{``0})
+  id: Lerp4``1(tfloat,tfloat,tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Lerp3c<T>(tfloat, efloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
-  nameWithType: ExMLerps.Lerp3c<T>(tfloat, efloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
-  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp3c<T>(tfloat, efloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
+  name: Lerp4<T>(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>, TEx<T>)
+  nameWithType: ExMLerps.Lerp4<T>(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp4<T>(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: Lerp4
+    path: ''
+    startLine: 12533
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nLerp between four functions.\nBetween zeroBound and oneBound, lerp from the first to the second.\nBetween zeroBound2 and oneBound2, lerp from the second to the third.\nBetween zeroBound3 and oneBound3, lerp from the third to the fourth.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> Lerp4<T>(tfloat zeroBound, tfloat oneBound, tfloat zeroBound2, tfloat oneBound2, tfloat zeroBound3, tfloat oneBound3, tfloat controller, TEx<T> f1, TEx<T> f2, TEx<T> f3, TEx<T> f4)
+    parameters:
+    - id: zeroBound
+      type: tfloat
+    - id: oneBound
+      type: tfloat
+    - id: zeroBound2
+      type: tfloat
+    - id: oneBound2
+      type: tfloat
+    - id: zeroBound3
+      type: tfloat
+    - id: oneBound3
+      type: tfloat
+    - id: controller
+      type: tfloat
+    - id: f1
+      type: TEx{{T}}
+    - id: f2
+      type: TEx{{T}}
+    - id: f3
+      type: TEx{{T}}
+    - id: f4
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function Lerp4(Of T)(zeroBound As tfloat, oneBound As tfloat, zeroBound2 As tfloat, oneBound2 As tfloat, zeroBound3 As tfloat, oneBound3 As tfloat, controller As tfloat, f1 As TEx(Of T), f2 As TEx(Of T), f3 As TEx(Of T), f4 As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMLerps.Lerp4*
+  nameWithType.vb: ExMLerps.Lerp4(Of T)(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp4(Of T)(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T), TEx(Of T))
+  name.vb: Lerp4(Of T)(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMLerps.Lerp3c``1(tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Lerp3c``1(tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  id: Lerp3c``1(tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMLerps
+  langs:
+  - csharp
+  - vb
+  name: Lerp3c<T>(tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
+  nameWithType: ExMLerps.Lerp3c<T>(tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp3c<T>(tfloat, tfloat, tfloat, tfloat, TEx<T>, TEx<T>, TEx<T>)
   type: Method
   source:
     id: Lerp3c
     path: ''
-    startLine: 12069
+    startLine: 12546
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nLerp between three functions.\nBetween zeroBound and oneBound, lerp from the first to the second.\nBetween oneBound and twoBound, lerp from the second to the third.\n"
   example: []
   syntax:
-    content: public static TEx<T> Lerp3c<T>(tfloat zeroBound, efloat oneBound, tfloat twoBound, tfloat controller, TEx<T> f1, TEx<T> f2, TEx<T> f3)
+    content: public static TEx<T> Lerp3c<T>(tfloat zeroBound, tfloat oneBound, tfloat twoBound, tfloat controller, TEx<T> f1, TEx<T> f2, TEx<T> f3)
     parameters:
     - id: zeroBound
       type: tfloat
     - id: oneBound
-      type: efloat
+      type: tfloat
     - id: twoBound
       type: tfloat
     - id: controller
@@ -544,17 +606,17 @@ items:
     - id: T
     return:
       type: TEx{{T}}
-    content.vb: Public Shared Function Lerp3c(Of T)(zeroBound As tfloat, oneBound As efloat, twoBound As tfloat, controller As tfloat, f1 As TEx(Of T), f2 As TEx(Of T), f3 As TEx(Of T)) As TEx(Of T)
+    content.vb: Public Shared Function Lerp3c(Of T)(zeroBound As tfloat, oneBound As tfloat, twoBound As tfloat, controller As tfloat, f1 As TEx(Of T), f2 As TEx(Of T), f3 As TEx(Of T)) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExMLerps.Lerp3c*
-  nameWithType.vb: ExMLerps.Lerp3c(Of T)(tfloat, efloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
+  nameWithType.vb: ExMLerps.Lerp3c(Of T)(tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp3c(Of T)(tfloat, efloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
-  name.vb: Lerp3c(Of T)(tfloat, efloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Lerp3c(Of T)(tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
+  name.vb: Lerp3c(Of T)(tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T), TEx(Of T))
 - uid: Danmokou.DMath.Functions.ExMLerps.LerpBack``1(tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
   commentId: M:Danmokou.DMath.Functions.ExMLerps.LerpBack``1(tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
   id: LerpBack``1(tfloat,tfloat,tfloat,tfloat,tfloat,TEx{``0},TEx{``0})
@@ -569,7 +631,7 @@ items:
   source:
     id: LerpBack
     path: ''
-    startLine: 12086
+    startLine: 12563
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -615,122 +677,168 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExMLerps.LerpBack(Of T)(tfloat, tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
   name.vb: LerpBack(Of T)(tfloat, tfloat, tfloat, tfloat, tfloat, TEx(Of T), TEx(Of T))
-- uid: Danmokou.DMath.Functions.ExMLerps.LerpMany``1(System.ValueTuple{tfloat,TEx{``0}}[],efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.LerpMany``1(System.ValueTuple{tfloat,TEx{``0}}[],efloat)
-  id: LerpMany``1(System.ValueTuple{tfloat,TEx{``0}}[],efloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.LerpMany``1(System.ValueTuple{UncompiledCode{System.Single},UncompiledCode{``0}}[],System.Func{TExArgCtx,TEx{System.Single}})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.LerpMany``1(System.ValueTuple{UncompiledCode{System.Single},UncompiledCode{``0}}[],System.Func{TExArgCtx,TEx{System.Single}})
+  id: LerpMany``1(System.ValueTuple{UncompiledCode{System.Single},UncompiledCode{``0}}[],System.Func{TExArgCtx,TEx{System.Single}})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: LerpMany<T>((tfloat bd, TEx<T> val)[], efloat)
-  nameWithType: ExMLerps.LerpMany<T>((tfloat bd, TEx<T> val)[], efloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.LerpMany<T>(System.ValueTuple<tfloat, TEx<T>>[], efloat)
+  name: LerpMany<T>((UncompiledCode<Single> bd, UncompiledCode<T> val)[], Func<TExArgCtx, TEx<Single>>)
+  nameWithType: ExMLerps.LerpMany<T>((UncompiledCode<Single> bd, UncompiledCode<T> val)[], Func<TExArgCtx, TEx<Single>>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.LerpMany<T>(System.ValueTuple<UncompiledCode<System.Single>, UncompiledCode<T>>[], System.Func<TExArgCtx, TEx<System.Single>>)
   type: Method
   source:
     id: LerpMany
     path: ''
-    startLine: 12093
+    startLine: 12570
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nLerp between many functions.\n"
   example: []
   syntax:
-    content: public static TEx<T> LerpMany<T>((tfloat bd, TEx<T> val)[] points, efloat controller)
+    content: public static Func<TExArgCtx, TEx<T>> LerpMany<T>((UncompiledCode<float> bd, UncompiledCode<T> val)[] points, Func<TExArgCtx, TEx<float>> controller)
     parameters:
     - id: points
-      type: System.ValueTuple{tfloat,TEx{{T}}}[]
+      type: System.ValueTuple{UncompiledCode{System.Single},UncompiledCode{{T}}}[]
     - id: controller
-      type: efloat
+      type: System.Func{TExArgCtx,TEx{System.Single}}
     typeParameters:
     - id: T
     return:
-      type: TEx{{T}}
-    content.vb: Public Shared Function LerpMany(Of T)(points As(bd As tfloat, val As TEx(Of T))(Of tfloat , TEx(Of T))(), controller As efloat) As TEx(Of T)
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    content.vb: Public Shared Function LerpMany(Of T)(points As(bd As UncompiledCode(Of Single), val As UncompiledCode(Of T))(Of UncompiledCode(Of Single) , UncompiledCode(Of T))(), controller As Func(Of TExArgCtx, TEx(Of Single))) As Func(Of TExArgCtx, TEx(Of T))
   overload: Danmokou.DMath.Functions.ExMLerps.LerpMany*
-  nameWithType.vb: ExMLerps.LerpMany(Of T)((bd As tfloat, val As TEx(Of T))(Of tfloat, TEx(Of T))(), efloat)
+  nameWithType.vb: ExMLerps.LerpMany(Of T)((bd As UncompiledCode(Of Single), val As UncompiledCode(Of T))(Of UncompiledCode(Of Single), UncompiledCode(Of T))(), Func(Of TExArgCtx, TEx(Of Single)))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.LerpMany(Of T)(System.ValueTuple(Of tfloat, TEx(Of T))(), efloat)
-  name.vb: LerpMany(Of T)((bd As tfloat, val As TEx(Of T))(Of tfloat, TEx(Of T))(), efloat)
-- uid: Danmokou.DMath.Functions.ExMLerps.Select``1(tfloat,TEx{``0}[])
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Select``1(tfloat,TEx{``0}[])
-  id: Select``1(tfloat,TEx{``0}[])
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.LerpMany(Of T)(System.ValueTuple(Of UncompiledCode(Of System.Single), UncompiledCode(Of T))(), System.Func(Of TExArgCtx, TEx(Of System.Single)))
+  name.vb: LerpMany(Of T)((bd As UncompiledCode(Of Single), val As UncompiledCode(Of T))(Of UncompiledCode(Of Single), UncompiledCode(Of T))(), Func(Of TExArgCtx, TEx(Of Single)))
+- uid: Danmokou.DMath.Functions.ExMLerps.Select``1(System.Func{TExArgCtx,TEx{System.Single}},UncompiledCode{``0}[])
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Select``1(System.Func{TExArgCtx,TEx{System.Single}},UncompiledCode{``0}[])
+  id: Select``1(System.Func{TExArgCtx,TEx{System.Single}},UncompiledCode{``0}[])
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Select<T>(tfloat, TEx<T>[])
-  nameWithType: ExMLerps.Select<T>(tfloat, TEx<T>[])
-  fullName: Danmokou.DMath.Functions.ExMLerps.Select<T>(tfloat, TEx<T>[])
+  name: Select<T>(Func<TExArgCtx, TEx<Single>>, UncompiledCode<T>[])
+  nameWithType: ExMLerps.Select<T>(Func<TExArgCtx, TEx<Single>>, UncompiledCode<T>[])
+  fullName: Danmokou.DMath.Functions.ExMLerps.Select<T>(System.Func<TExArgCtx, TEx<System.Single>>, UncompiledCode<T>[])
   type: Method
   source:
     id: Select
     path: ''
-    startLine: 12108
+    startLine: 12586
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nSelect one of an array of values. If OOB, selects the last element.\nNote: this expands to (if i = 0) arr[0] (if i = 1) arr[1] ....\nThis may sound stupid, but since each value is a function, there&apos;s no way to actually store it in an array.\n"
   example: []
   syntax:
-    content: public static TEx<T> Select<T>(tfloat index, TEx<T>[] points)
+    content: public static Func<TExArgCtx, TEx<T>> Select<T>(Func<TExArgCtx, TEx<float>> index, UncompiledCode<T>[] points)
     parameters:
     - id: index
-      type: tfloat
+      type: System.Func{TExArgCtx,TEx{System.Single}}
     - id: points
-      type: TEx{{T}}[]
+      type: UncompiledCode{{T}}[]
     typeParameters:
     - id: T
     return:
-      type: TEx{{T}}
-    content.vb: Public Shared Function Select(Of T)(index As tfloat, points As TEx(Of T)()) As TEx(Of T)
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    content.vb: Public Shared Function Select(Of T)(index As Func(Of TExArgCtx, TEx(Of Single)), points As UncompiledCode(Of T)()) As Func(Of TExArgCtx, TEx(Of T))
   overload: Danmokou.DMath.Functions.ExMLerps.Select*
-  nameWithType.vb: ExMLerps.Select(Of T)(tfloat, TEx(Of T)())
+  nameWithType.vb: ExMLerps.Select(Of T)(Func(Of TExArgCtx, TEx(Of Single)), UncompiledCode(Of T)())
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Select(Of T)(tfloat, TEx(Of T)())
-  name.vb: Select(Of T)(tfloat, TEx(Of T)())
-- uid: Danmokou.DMath.Functions.ExMLerps.SStep(efloat,tfloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.SStep(efloat,tfloat,efloat)
-  id: SStep(efloat,tfloat,efloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Select(Of T)(System.Func(Of TExArgCtx, TEx(Of System.Single)), UncompiledCode(Of T)())
+  name.vb: Select(Of T)(Func(Of TExArgCtx, TEx(Of Single)), UncompiledCode(Of T)())
+- uid: Danmokou.DMath.Functions.ExMLerps.SelectDC``1(TEx{``0},TEx{``0},TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.SelectDC``1(TEx{``0},TEx{``0},TEx{``0},TEx{``0})
+  id: SelectDC``1(TEx{``0},TEx{``0},TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: SStep(efloat, tfloat, efloat)
-  nameWithType: ExMLerps.SStep(efloat, tfloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.SStep(efloat, tfloat, efloat)
+  name: SelectDC<T>(TEx<T>, TEx<T>, TEx<T>, TEx<T>)
+  nameWithType: ExMLerps.SelectDC<T>(TEx<T>, TEx<T>, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.SelectDC<T>(TEx<T>, TEx<T>, TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: SelectDC
+    path: ''
+    startLine: 12598
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSelect a value according to the current difficulty counter.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> SelectDC<T>(TEx<T> easy, TEx<T> normal, TEx<T> hard, TEx<T> lunatic)
+    parameters:
+    - id: easy
+      type: TEx{{T}}
+    - id: normal
+      type: TEx{{T}}
+    - id: hard
+      type: TEx{{T}}
+    - id: lunatic
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function SelectDC(Of T)(easy As TEx(Of T), normal As TEx(Of T), hard As TEx(Of T), lunatic As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMLerps.SelectDC*
+  nameWithType.vb: ExMLerps.SelectDC(Of T)(TEx(Of T), TEx(Of T), TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SelectDC(Of T)(TEx(Of T), TEx(Of T), TEx(Of T), TEx(Of T))
+  name.vb: SelectDC(Of T)(TEx(Of T), TEx(Of T), TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMLerps.SStep(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.SStep(tfloat,tfloat,tfloat)
+  id: SStep(tfloat,tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMLerps
+  langs:
+  - csharp
+  - vb
+  name: SStep(tfloat, tfloat, tfloat)
+  nameWithType: ExMLerps.SStep(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.SStep(tfloat, tfloat, tfloat)
   type: Method
   source:
     id: SStep
     path: ''
-    startLine: 12121
+    startLine: 12608
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn 0 if the controller is leq the lower bound, 1 if the controller is geq the lower bound, and\na linear interpolation in between.\n"
   example: []
   syntax:
-    content: public static tfloat SStep(efloat zeroBound, tfloat oneBound, efloat controller)
+    content: public static tfloat SStep(tfloat zeroBound, tfloat oneBound, tfloat controller)
     parameters:
     - id: zeroBound
-      type: efloat
+      type: tfloat
     - id: oneBound
       type: tfloat
     - id: controller
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function SStep(zeroBound As efloat, oneBound As tfloat, controller As efloat) As tfloat
+    content.vb: Public Shared Function SStep(zeroBound As tfloat, oneBound As tfloat, controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.SStep*
   modifiers.csharp:
   - public
@@ -738,38 +846,38 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMLerps.Damp(efloat,tfloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Damp(efloat,tfloat,efloat)
-  id: Damp(efloat,tfloat,efloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.Damp(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Damp(tfloat,tfloat,tfloat)
+  id: Damp(tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Damp(efloat, tfloat, efloat)
-  nameWithType: ExMLerps.Damp(efloat, tfloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.Damp(efloat, tfloat, efloat)
+  name: Damp(tfloat, tfloat, tfloat)
+  nameWithType: ExMLerps.Damp(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Damp(tfloat, tfloat, tfloat)
   type: Method
   source:
     id: Damp
     path: ''
-    startLine: 12126
+    startLine: 12613
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nProvide a soft ceiling for the value, multiplying any excess by the value RATIO.\n"
   example: []
   syntax:
-    content: public static tfloat Damp(efloat ceiling, tfloat ratio, efloat value)
+    content: public static tfloat Damp(tfloat ceiling, tfloat ratio, tfloat value)
     parameters:
     - id: ceiling
-      type: efloat
+      type: tfloat
     - id: ratio
       type: tfloat
     - id: value
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function Damp(ceiling As efloat, ratio As tfloat, value As efloat) As tfloat
+    content.vb: Public Shared Function Damp(ceiling As tfloat, ratio As tfloat, value As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.Damp*
   modifiers.csharp:
   - public
@@ -791,21 +899,27 @@ items:
   source:
     id: LerpT
     path: ''
-    startLine: 12129
+    startLine: 12623
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
+  summary: "\nLerp between `f1` and `f2` using time (`t`) as a controller.\n"
+  example: []
   syntax:
     content: public static Func<TExArgCtx, TEx<T>> LerpT<T>(ExBPY zeroBound, ExBPY oneBound, Func<TExArgCtx, TEx<T>> f1, Func<TExArgCtx, TEx<T>> f2)
     parameters:
     - id: zeroBound
       type: ExBPY
+      description: Lower bound for time. When t=zeroBound, return f1.
     - id: oneBound
       type: ExBPY
+      description: Upper bound for time. When t=oneBound, return f2.
     - id: f1
       type: System.Func{TExArgCtx,TEx{{T}}}
+      description: First lerp value
     - id: f2
       type: System.Func{TExArgCtx,TEx{{T}}}
+      description: Second lerp value
     typeParameters:
     - id: T
     return:
@@ -835,7 +949,7 @@ items:
   source:
     id: LerpT3
     path: ''
-    startLine: 12134
+    startLine: 12628
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -885,7 +999,7 @@ items:
   source:
     id: SwitchH
     path: ''
-    startLine: 12148
+    startLine: 12642
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -922,32 +1036,32 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExMLerps.SwitchH(Of T)(ExBPY, ExBPY, System.Func(Of TExArgCtx, TEx(Of T)), System.Func(Of TExArgCtx, TEx(Of T)))
   name.vb: SwitchH(Of T)(ExBPY, ExBPY, Func(Of TExArgCtx, TEx(Of T)), Func(Of TExArgCtx, TEx(Of T)))
-- uid: Danmokou.DMath.Functions.ExMLerps.EaseD``1(System.Func{tfloat,tfloat},System.Single,System.Func{TExArgCtx,TEx{``0}})
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.EaseD``1(System.Func{tfloat,tfloat},System.Single,System.Func{TExArgCtx,TEx{``0}})
-  id: EaseD``1(System.Func{tfloat,tfloat},System.Single,System.Func{TExArgCtx,TEx{``0}})
+- uid: Danmokou.DMath.Functions.ExMLerps.EaseD``1(System.String,System.Single,System.Func{TExArgCtx,TEx{``0}})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.EaseD``1(System.String,System.Single,System.Func{TExArgCtx,TEx{``0}})
+  id: EaseD``1(System.String,System.Single,System.Func{TExArgCtx,TEx{``0}})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: EaseD<T>(Func<tfloat, tfloat>, Single, Func<TExArgCtx, TEx<T>>)
-  nameWithType: ExMLerps.EaseD<T>(Func<tfloat, tfloat>, Single, Func<TExArgCtx, TEx<T>>)
-  fullName: Danmokou.DMath.Functions.ExMLerps.EaseD<T>(System.Func<tfloat, tfloat>, System.Single, System.Func<TExArgCtx, TEx<T>>)
+  name: EaseD<T>(String, Single, Func<TExArgCtx, TEx<T>>)
+  nameWithType: ExMLerps.EaseD<T>(String, Single, Func<TExArgCtx, TEx<T>>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.EaseD<T>(System.String, System.Single, System.Func<TExArgCtx, TEx<T>>)
   type: Method
   source:
     id: EaseD
     path: ''
-    startLine: 12170
+    startLine: 12664
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nApply a ease function on top of a target derivative function that uses time as a controller.\nPrimarily used for velocity parametrics.\n"
   example: []
   syntax:
-    content: public static Func<TExArgCtx, TEx<T>> EaseD<T>(Func<tfloat, tfloat> smoother, float maxTime, Func<TExArgCtx, TEx<T>> f)
+    content: public static Func<TExArgCtx, TEx<T>> EaseD<T>(string smoother, float maxTime, Func<TExArgCtx, TEx<T>> f)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
-      description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
+      type: System.String
+      description: Name of a float->float smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: maxTime
       type: System.Single
       description: Time over which to perform easing
@@ -959,42 +1073,42 @@ items:
     return:
       type: System.Func{TExArgCtx,TEx{{T}}}
       description: ''
-    content.vb: Public Shared Function EaseD(Of T)(smoother As Func(Of tfloat, tfloat), maxTime As Single, f As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+    content.vb: Public Shared Function EaseD(Of T)(smoother As String, maxTime As Single, f As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
   overload: Danmokou.DMath.Functions.ExMLerps.EaseD*
-  nameWithType.vb: ExMLerps.EaseD(Of T)(Func(Of tfloat, tfloat), Single, Func(Of TExArgCtx, TEx(Of T)))
+  nameWithType.vb: ExMLerps.EaseD(Of T)(String, Single, Func(Of TExArgCtx, TEx(Of T)))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.EaseD(Of T)(System.Func(Of tfloat, tfloat), System.Single, System.Func(Of TExArgCtx, TEx(Of T)))
-  name.vb: EaseD(Of T)(Func(Of tfloat, tfloat), Single, Func(Of TExArgCtx, TEx(Of T)))
-- uid: Danmokou.DMath.Functions.ExMLerps.Ease``1(System.Func{tfloat,tfloat},System.Single,System.Func{TExArgCtx,TEx{``0}})
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Ease``1(System.Func{tfloat,tfloat},System.Single,System.Func{TExArgCtx,TEx{``0}})
-  id: Ease``1(System.Func{tfloat,tfloat},System.Single,System.Func{TExArgCtx,TEx{``0}})
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.EaseD(Of T)(System.String, System.Single, System.Func(Of TExArgCtx, TEx(Of T)))
+  name.vb: EaseD(Of T)(String, Single, Func(Of TExArgCtx, TEx(Of T)))
+- uid: Danmokou.DMath.Functions.ExMLerps.Ease``1(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},System.Single,System.Func{TExArgCtx,TEx{``0}})
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Ease``1(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},System.Single,System.Func{TExArgCtx,TEx{``0}})
+  id: Ease``1(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},System.Single,System.Func{TExArgCtx,TEx{``0}})
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Ease<T>(Func<tfloat, tfloat>, Single, Func<TExArgCtx, TEx<T>>)
-  nameWithType: ExMLerps.Ease<T>(Func<tfloat, tfloat>, Single, Func<TExArgCtx, TEx<T>>)
-  fullName: Danmokou.DMath.Functions.ExMLerps.Ease<T>(System.Func<tfloat, tfloat>, System.Single, System.Func<TExArgCtx, TEx<T>>)
+  name: Ease<T>(Func<TExArgCtx, TEx<Func<Single, Single>>>, Single, Func<TExArgCtx, TEx<T>>)
+  nameWithType: ExMLerps.Ease<T>(Func<TExArgCtx, TEx<Func<Single, Single>>>, Single, Func<TExArgCtx, TEx<T>>)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Ease<T>(System.Func<TExArgCtx, TEx<System.Func<System.Single, System.Single>>>, System.Single, System.Func<TExArgCtx, TEx<T>>)
   type: Method
   source:
     id: Ease
     path: ''
-    startLine: 12181
+    startLine: 12675
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nApply a ease function on top of a target function that uses time as a controller.\n"
   example: []
   syntax:
-    content: public static Func<TExArgCtx, TEx<T>> Ease<T>(Func<tfloat, tfloat> smoother, float maxTime, Func<TExArgCtx, TEx<T>> f)
+    content: public static Func<TExArgCtx, TEx<T>> Ease<T>(Func<TExArgCtx, TEx<Func<float, float>>> smoother, float maxTime, Func<TExArgCtx, TEx<T>> f)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
+      type: System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
       description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: maxTime
       type: System.Single
@@ -1007,51 +1121,51 @@ items:
     return:
       type: System.Func{TExArgCtx,TEx{{T}}}
       description: ''
-    content.vb: Public Shared Function Ease(Of T)(smoother As Func(Of tfloat, tfloat), maxTime As Single, f As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+    content.vb: Public Shared Function Ease(Of T)(smoother As Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), maxTime As Single, f As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
   overload: Danmokou.DMath.Functions.ExMLerps.Ease*
-  nameWithType.vb: ExMLerps.Ease(Of T)(Func(Of tfloat, tfloat), Single, Func(Of TExArgCtx, TEx(Of T)))
+  nameWithType.vb: ExMLerps.Ease(Of T)(Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), Single, Func(Of TExArgCtx, TEx(Of T)))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Ease(Of T)(System.Func(Of tfloat, tfloat), System.Single, System.Func(Of TExArgCtx, TEx(Of T)))
-  name.vb: Ease(Of T)(Func(Of tfloat, tfloat), Single, Func(Of TExArgCtx, TEx(Of T)))
-- uid: Danmokou.DMath.Functions.ExMLerps.RotateLerp(efloat,efloat,efloat,ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.RotateLerp(efloat,efloat,efloat,ev2,ev2)
-  id: RotateLerp(efloat,efloat,efloat,ev2,ev2)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Ease(Of T)(System.Func(Of TExArgCtx, TEx(Of System.Func(Of System.Single, System.Single))), System.Single, System.Func(Of TExArgCtx, TEx(Of T)))
+  name.vb: Ease(Of T)(Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), Single, Func(Of TExArgCtx, TEx(Of T)))
+- uid: Danmokou.DMath.Functions.ExMLerps.RotateLerp(tfloat,tfloat,tfloat,tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.RotateLerp(tfloat,tfloat,tfloat,tv2,tv2)
+  id: RotateLerp(tfloat,tfloat,tfloat,tv2,tv2)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: RotateLerp(efloat, efloat, efloat, ev2, ev2)
-  nameWithType: ExMLerps.RotateLerp(efloat, efloat, efloat, ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExMLerps.RotateLerp(efloat, efloat, efloat, ev2, ev2)
+  name: RotateLerp(tfloat, tfloat, tfloat, tv2, tv2)
+  nameWithType: ExMLerps.RotateLerp(tfloat, tfloat, tfloat, tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExMLerps.RotateLerp(tfloat, tfloat, tfloat, tv2, tv2)
   type: Method
   source:
     id: RotateLerp
     path: ''
-    startLine: 12186
+    startLine: 12680
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static tv2 RotateLerp(efloat zeroBound, efloat oneBound, efloat controller, ev2 source, ev2 target)
+    content: public static tv2 RotateLerp(tfloat zeroBound, tfloat oneBound, tfloat controller, tv2 source, tv2 target)
     parameters:
     - id: zeroBound
-      type: efloat
+      type: tfloat
     - id: oneBound
-      type: efloat
+      type: tfloat
     - id: controller
-      type: efloat
+      type: tfloat
     - id: source
-      type: ev2
+      type: tv2
     - id: target
-      type: ev2
+      type: tv2
     return:
       type: tv2
-    content.vb: Public Shared Function RotateLerp(zeroBound As efloat, oneBound As efloat, controller As efloat, source As ev2, target As ev2) As tv2
+    content.vb: Public Shared Function RotateLerp(zeroBound As tfloat, oneBound As tfloat, controller As tfloat, source As tv2, target As tv2) As tv2
   overload: Danmokou.DMath.Functions.ExMLerps.RotateLerp*
   modifiers.csharp:
   - public
@@ -1059,40 +1173,40 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW(efloat,efloat,efloat,ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW(efloat,efloat,efloat,ev2,ev2)
-  id: RotateLerpCCW(efloat,efloat,efloat,ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW(tfloat,tfloat,tfloat,tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW(tfloat,tfloat,tfloat,tv2,tv2)
+  id: RotateLerpCCW(tfloat,tfloat,tfloat,tv2,tv2)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: RotateLerpCCW(efloat, efloat, efloat, ev2, ev2)
-  nameWithType: ExMLerps.RotateLerpCCW(efloat, efloat, efloat, ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW(efloat, efloat, efloat, ev2, ev2)
+  name: RotateLerpCCW(tfloat, tfloat, tfloat, tv2, tv2)
+  nameWithType: ExMLerps.RotateLerpCCW(tfloat, tfloat, tfloat, tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW(tfloat, tfloat, tfloat, tv2, tv2)
   type: Method
   source:
     id: RotateLerpCCW
     path: ''
-    startLine: 12191
+    startLine: 12685
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static tv2 RotateLerpCCW(efloat zeroBound, efloat oneBound, efloat controller, ev2 source, ev2 target)
+    content: public static tv2 RotateLerpCCW(tfloat zeroBound, tfloat oneBound, tfloat controller, tv2 source, tv2 target)
     parameters:
     - id: zeroBound
-      type: efloat
+      type: tfloat
     - id: oneBound
-      type: efloat
+      type: tfloat
     - id: controller
-      type: efloat
+      type: tfloat
     - id: source
-      type: ev2
+      type: tv2
     - id: target
-      type: ev2
+      type: tv2
     return:
       type: tv2
-    content.vb: Public Shared Function RotateLerpCCW(zeroBound As efloat, oneBound As efloat, controller As efloat, source As ev2, target As ev2) As tv2
+    content.vb: Public Shared Function RotateLerpCCW(zeroBound As tfloat, oneBound As tfloat, controller As tfloat, source As tv2, target As tv2) As tv2
   overload: Danmokou.DMath.Functions.ExMLerps.RotateLerpCCW*
   modifiers.csharp:
   - public
@@ -1100,40 +1214,40 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMLerps.RotateLerpCW(efloat,efloat,efloat,ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.RotateLerpCW(efloat,efloat,efloat,ev2,ev2)
-  id: RotateLerpCW(efloat,efloat,efloat,ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExMLerps.RotateLerpCW(tfloat,tfloat,tfloat,tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.RotateLerpCW(tfloat,tfloat,tfloat,tv2,tv2)
+  id: RotateLerpCW(tfloat,tfloat,tfloat,tv2,tv2)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: RotateLerpCW(efloat, efloat, efloat, ev2, ev2)
-  nameWithType: ExMLerps.RotateLerpCW(efloat, efloat, efloat, ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExMLerps.RotateLerpCW(efloat, efloat, efloat, ev2, ev2)
+  name: RotateLerpCW(tfloat, tfloat, tfloat, tv2, tv2)
+  nameWithType: ExMLerps.RotateLerpCW(tfloat, tfloat, tfloat, tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExMLerps.RotateLerpCW(tfloat, tfloat, tfloat, tv2, tv2)
   type: Method
   source:
     id: RotateLerpCW
     path: ''
-    startLine: 12196
+    startLine: 12690
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static tv2 RotateLerpCW(efloat zeroBound, efloat oneBound, efloat controller, ev2 source, ev2 target)
+    content: public static tv2 RotateLerpCW(tfloat zeroBound, tfloat oneBound, tfloat controller, tv2 source, tv2 target)
     parameters:
     - id: zeroBound
-      type: efloat
+      type: tfloat
     - id: oneBound
-      type: efloat
+      type: tfloat
     - id: controller
-      type: efloat
+      type: tfloat
     - id: source
-      type: ev2
+      type: tv2
     - id: target
-      type: ev2
+      type: tv2
     return:
       type: tv2
-    content.vb: Public Shared Function RotateLerpCW(zeroBound As efloat, oneBound As efloat, controller As efloat, source As ev2, target As ev2) As tv2
+    content.vb: Public Shared Function RotateLerpCW(zeroBound As tfloat, oneBound As tfloat, controller As tfloat, source As tv2, target As tv2) As tv2
   overload: Danmokou.DMath.Functions.ExMLerps.RotateLerpCW*
   modifiers.csharp:
   - public
@@ -1141,21 +1255,21 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMLerps.Smooth(System.Func{tfloat,tfloat},tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.Smooth(System.Func{tfloat,tfloat},tfloat)
-  id: Smooth(System.Func{tfloat,tfloat},tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.Smooth(TEx{System.Func{System.Single,System.Single}},tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.Smooth(TEx{System.Func{System.Single,System.Single}},tfloat)
+  id: Smooth(TEx{System.Func{System.Single,System.Single}},tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: Smooth(Func<tfloat, tfloat>, tfloat)
-  nameWithType: ExMLerps.Smooth(Func<tfloat, tfloat>, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.Smooth(System.Func<tfloat, tfloat>, tfloat)
+  name: Smooth(TEx<Func<Single, Single>>, tfloat)
+  nameWithType: ExMLerps.Smooth(TEx<Func<Single, Single>>, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.Smooth(TEx<System.Func<System.Single, System.Single>>, tfloat)
   type: Method
   source:
     id: Smooth
     path: ''
-    startLine: 12211
+    startLine: 12705
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1165,10 +1279,10 @@ items:
     content: >-
       [Obsolete("Instead of running 'smooth(eiosine, t)', you may simply run 'eiosine(t)'.")]
 
-      public static tfloat Smooth(Func<tfloat, tfloat> smoother, tfloat controller)
+      public static tfloat Smooth(TEx<Func<float, float>> smoother, tfloat controller)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
       description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: controller
       type: tfloat
@@ -1179,7 +1293,7 @@ items:
     content.vb: >-
       <Obsolete("Instead of running 'smooth(eiosine, t)', you may simply run 'eiosine(t)'.")>
 
-      Public Shared Function Smooth(smoother As Func(Of tfloat, tfloat), controller As tfloat) As tfloat
+      Public Shared Function Smooth(smoother As TEx(Of Func(Of Single, Single)), controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.Smooth*
   attributes:
   - type: System.ObsoleteAttribute
@@ -1187,40 +1301,40 @@ items:
     arguments:
     - type: System.String
       value: Instead of running 'smooth(eiosine, t)', you may simply run 'eiosine(t)'.
-  nameWithType.vb: ExMLerps.Smooth(Func(Of tfloat, tfloat), tfloat)
+  nameWithType.vb: ExMLerps.Smooth(TEx(Of Func(Of Single, Single)), tfloat)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Smooth(System.Func(Of tfloat, tfloat), tfloat)
-  name.vb: Smooth(Func(Of tfloat, tfloat), tfloat)
-- uid: Danmokou.DMath.Functions.ExMLerps.SmoothC(System.Func{tfloat,tfloat},tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothC(System.Func{tfloat,tfloat},tfloat)
-  id: SmoothC(System.Func{tfloat,tfloat},tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.Smooth(TEx(Of System.Func(Of System.Single, System.Single)), tfloat)
+  name.vb: Smooth(TEx(Of Func(Of Single, Single)), tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.SmoothC(TEx{System.Func{System.Single,System.Single}},tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothC(TEx{System.Func{System.Single,System.Single}},tfloat)
+  id: SmoothC(TEx{System.Func{System.Single,System.Single}},tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: SmoothC(Func<tfloat, tfloat>, tfloat)
-  nameWithType: ExMLerps.SmoothC(Func<tfloat, tfloat>, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothC(System.Func<tfloat, tfloat>, tfloat)
+  name: SmoothC(TEx<Func<Single, Single>>, tfloat)
+  nameWithType: ExMLerps.SmoothC(TEx<Func<Single, Single>>, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothC(TEx<System.Func<System.Single, System.Single>>, tfloat)
   type: Method
   source:
     id: SmoothC
     path: ''
-    startLine: 12221
+    startLine: 12716
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nApply a contortion to a clamped 0-1 range.\nThis returns an approximately linear function.\n"
   example: []
   syntax:
-    content: public static tfloat SmoothC(Func<tfloat, tfloat> smoother, tfloat controller)
+    content: public static tfloat SmoothC(TEx<Func<float, float>> smoother, tfloat controller)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
       description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: controller
       type: tfloat
@@ -1228,187 +1342,187 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function SmoothC(smoother As Func(Of tfloat, tfloat), controller As tfloat) As tfloat
+    content.vb: Public Shared Function SmoothC(smoother As TEx(Of Func(Of Single, Single)), controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.SmoothC*
-  nameWithType.vb: ExMLerps.SmoothC(Func(Of tfloat, tfloat), tfloat)
+  nameWithType.vb: ExMLerps.SmoothC(TEx(Of Func(Of Single, Single)), tfloat)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothC(System.Func(Of tfloat, tfloat), tfloat)
-  name.vb: SmoothC(Func(Of tfloat, tfloat), tfloat)
-- uid: Danmokou.DMath.Functions.ExMLerps.SmoothIO(System.Func{tfloat,tfloat},System.Func{tfloat,tfloat},efloat,efloat,efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothIO(System.Func{tfloat,tfloat},System.Func{tfloat,tfloat},efloat,efloat,efloat,efloat)
-  id: SmoothIO(System.Func{tfloat,tfloat},System.Func{tfloat,tfloat},efloat,efloat,efloat,efloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothC(TEx(Of System.Func(Of System.Single, System.Single)), tfloat)
+  name.vb: SmoothC(TEx(Of Func(Of Single, Single)), tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.SmoothIO(TEx{System.Func{System.Single,System.Single}},TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothIO(TEx{System.Func{System.Single,System.Single}},TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat,tfloat)
+  id: SmoothIO(TEx{System.Func{System.Single,System.Single}},TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: SmoothIO(Func<tfloat, tfloat>, Func<tfloat, tfloat>, efloat, efloat, efloat, efloat)
-  nameWithType: ExMLerps.SmoothIO(Func<tfloat, tfloat>, Func<tfloat, tfloat>, efloat, efloat, efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothIO(System.Func<tfloat, tfloat>, System.Func<tfloat, tfloat>, efloat, efloat, efloat, efloat)
+  name: SmoothIO(TEx<Func<Single, Single>>, TEx<Func<Single, Single>>, tfloat, tfloat, tfloat, tfloat)
+  nameWithType: ExMLerps.SmoothIO(TEx<Func<Single, Single>>, TEx<Func<Single, Single>>, tfloat, tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothIO(TEx<System.Func<System.Single, System.Single>>, TEx<System.Func<System.Single, System.Single>>, tfloat, tfloat, tfloat, tfloat)
   type: Method
   source:
     id: SmoothIO
     path: ''
-    startLine: 12237
+    startLine: 12732
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nApply a contortion to a 0-x range, returning:\n<br /> 0-1 in the range [0,s1]\n<br /> 1 in the range [s1,x-s2]\n<br /> 1-0 in the range [x-s2,x]\n"
   example: []
   syntax:
-    content: public static tfloat SmoothIO(Func<tfloat, tfloat> smoother1, Func<tfloat, tfloat> smoother2, efloat total, efloat smth1, efloat smth2, efloat controller)
+    content: public static tfloat SmoothIO(TEx<Func<float, float>> smoother1, TEx<Func<float, float>> smoother2, tfloat total, tfloat smth1, tfloat smth2, tfloat controller)
     parameters:
     - id: smoother1
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
       description: First Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: smoother2
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
       description: Second Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: total
-      type: efloat
+      type: tfloat
       description: Total time
     - id: smth1
-      type: efloat
+      type: tfloat
       description: Smooth-in time
     - id: smth2
-      type: efloat
+      type: tfloat
       description: Smooth-out time
     - id: controller
-      type: efloat
+      type: tfloat
       description: 0-x value
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function SmoothIO(smoother1 As Func(Of tfloat, tfloat), smoother2 As Func(Of tfloat, tfloat), total As efloat, smth1 As efloat, smth2 As efloat, controller As efloat) As tfloat
+    content.vb: Public Shared Function SmoothIO(smoother1 As TEx(Of Func(Of Single, Single)), smoother2 As TEx(Of Func(Of Single, Single)), total As tfloat, smth1 As tfloat, smth2 As tfloat, controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.SmoothIO*
-  nameWithType.vb: ExMLerps.SmoothIO(Func(Of tfloat, tfloat), Func(Of tfloat, tfloat), efloat, efloat, efloat, efloat)
+  nameWithType.vb: ExMLerps.SmoothIO(TEx(Of Func(Of Single, Single)), TEx(Of Func(Of Single, Single)), tfloat, tfloat, tfloat, tfloat)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothIO(System.Func(Of tfloat, tfloat), System.Func(Of tfloat, tfloat), efloat, efloat, efloat, efloat)
-  name.vb: SmoothIO(Func(Of tfloat, tfloat), Func(Of tfloat, tfloat), efloat, efloat, efloat, efloat)
-- uid: Danmokou.DMath.Functions.ExMLerps.SmoothIOe(System.Func{tfloat,tfloat},tfloat,efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothIOe(System.Func{tfloat,tfloat},tfloat,efloat,tfloat)
-  id: SmoothIOe(System.Func{tfloat,tfloat},tfloat,efloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothIO(TEx(Of System.Func(Of System.Single, System.Single)), TEx(Of System.Func(Of System.Single, System.Single)), tfloat, tfloat, tfloat, tfloat)
+  name.vb: SmoothIO(TEx(Of Func(Of Single, Single)), TEx(Of Func(Of Single, Single)), tfloat, tfloat, tfloat, tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.SmoothIOe(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothIOe(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat)
+  id: SmoothIOe(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: SmoothIOe(Func<tfloat, tfloat>, tfloat, efloat, tfloat)
-  nameWithType: ExMLerps.SmoothIOe(Func<tfloat, tfloat>, tfloat, efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothIOe(System.Func<tfloat, tfloat>, tfloat, efloat, tfloat)
+  name: SmoothIOe(TEx<Func<Single, Single>>, tfloat, tfloat, tfloat)
+  nameWithType: ExMLerps.SmoothIOe(TEx<Func<Single, Single>>, tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothIOe(TEx<System.Func<System.Single, System.Single>>, tfloat, tfloat, tfloat)
   type: Method
   source:
     id: SmoothIOe
     path: ''
-    startLine: 12250
+    startLine: 12745
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nApply SmoothIO where name=name1=name2 and smth=smth1=smth2.\n"
   example: []
   syntax:
-    content: public static tfloat SmoothIOe(Func<tfloat, tfloat> smoother, tfloat total, efloat smth, tfloat controller)
+    content: public static tfloat SmoothIOe(TEx<Func<float, float>> smoother, tfloat total, tfloat smth, tfloat controller)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
     - id: total
       type: tfloat
     - id: smth
-      type: efloat
+      type: tfloat
     - id: controller
       type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function SmoothIOe(smoother As Func(Of tfloat, tfloat), total As tfloat, smth As efloat, controller As tfloat) As tfloat
+    content.vb: Public Shared Function SmoothIOe(smoother As TEx(Of Func(Of Single, Single)), total As tfloat, smth As tfloat, controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.SmoothIOe*
-  nameWithType.vb: ExMLerps.SmoothIOe(Func(Of tfloat, tfloat), tfloat, efloat, tfloat)
+  nameWithType.vb: ExMLerps.SmoothIOe(TEx(Of Func(Of Single, Single)), tfloat, tfloat, tfloat)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothIOe(System.Func(Of tfloat, tfloat), tfloat, efloat, tfloat)
-  name.vb: SmoothIOe(Func(Of tfloat, tfloat), tfloat, efloat, tfloat)
-- uid: Danmokou.DMath.Functions.ExMLerps.SmoothLoop(System.Func{tfloat,tfloat},efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothLoop(System.Func{tfloat,tfloat},efloat)
-  id: SmoothLoop(System.Func{tfloat,tfloat},efloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothIOe(TEx(Of System.Func(Of System.Single, System.Single)), tfloat, tfloat, tfloat)
+  name.vb: SmoothIOe(TEx(Of Func(Of Single, Single)), tfloat, tfloat, tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.SmoothLoop(TEx{System.Func{System.Single,System.Single}},tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothLoop(TEx{System.Func{System.Single,System.Single}},tfloat)
+  id: SmoothLoop(TEx{System.Func{System.Single,System.Single}},tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: SmoothLoop(Func<tfloat, tfloat>, efloat)
-  nameWithType: ExMLerps.SmoothLoop(Func<tfloat, tfloat>, efloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothLoop(System.Func<tfloat, tfloat>, efloat)
+  name: SmoothLoop(TEx<Func<Single, Single>>, tfloat)
+  nameWithType: ExMLerps.SmoothLoop(TEx<Func<Single, Single>>, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothLoop(TEx<System.Func<System.Single, System.Single>>, tfloat)
   type: Method
   source:
     id: SmoothLoop
     path: ''
-    startLine: 12261
+    startLine: 12756
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the value of an easer at a given point between 0 and 1.\nThe return value is periodized, so if the input is 5.4, then the output is 5 + ease(0.4).\n"
   example: []
   syntax:
-    content: public static tfloat SmoothLoop(Func<tfloat, tfloat> smoother, efloat controller)
+    content: public static tfloat SmoothLoop(TEx<Func<float, float>> smoother, tfloat controller)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
       description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: controller
-      type: efloat
+      type: tfloat
       description: ''
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function SmoothLoop(smoother As Func(Of tfloat, tfloat), controller As efloat) As tfloat
+    content.vb: Public Shared Function SmoothLoop(smoother As TEx(Of Func(Of Single, Single)), controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.SmoothLoop*
-  nameWithType.vb: ExMLerps.SmoothLoop(Func(Of tfloat, tfloat), efloat)
+  nameWithType.vb: ExMLerps.SmoothLoop(TEx(Of Func(Of Single, Single)), tfloat)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothLoop(System.Func(Of tfloat, tfloat), efloat)
-  name.vb: SmoothLoop(Func(Of tfloat, tfloat), efloat)
-- uid: Danmokou.DMath.Functions.ExMLerps.SmoothR(System.Func{tfloat,tfloat},efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothR(System.Func{tfloat,tfloat},efloat,tfloat)
-  id: SmoothR(System.Func{tfloat,tfloat},efloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothLoop(TEx(Of System.Func(Of System.Single, System.Single)), tfloat)
+  name.vb: SmoothLoop(TEx(Of Func(Of Single, Single)), tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.SmoothR(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothR(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat)
+  id: SmoothR(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: SmoothR(Func<tfloat, tfloat>, efloat, tfloat)
-  nameWithType: ExMLerps.SmoothR(Func<tfloat, tfloat>, efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothR(System.Func<tfloat, tfloat>, efloat, tfloat)
+  name: SmoothR(TEx<Func<Single, Single>>, tfloat, tfloat)
+  nameWithType: ExMLerps.SmoothR(TEx<Func<Single, Single>>, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothR(TEx<System.Func<System.Single, System.Single>>, tfloat, tfloat)
   type: Method
   source:
     id: SmoothR
     path: ''
-    startLine: 12278
+    startLine: 12773
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nApply a contortion to a 0-R range, returning R * Smooth(name, controller/R).\nThis returns an approximately linear function.\n"
   example: []
   syntax:
-    content: public static tfloat SmoothR(Func<tfloat, tfloat> smoother, efloat range, tfloat controller)
+    content: public static tfloat SmoothR(TEx<Func<float, float>> smoother, tfloat range, tfloat controller)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
       description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: range
-      type: efloat
+      type: tfloat
       description: Range
     - id: controller
       type: tfloat
@@ -1416,84 +1530,84 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function SmoothR(smoother As Func(Of tfloat, tfloat), range As efloat, controller As tfloat) As tfloat
+    content.vb: Public Shared Function SmoothR(smoother As TEx(Of Func(Of Single, Single)), range As tfloat, controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.SmoothR*
-  nameWithType.vb: ExMLerps.SmoothR(Func(Of tfloat, tfloat), efloat, tfloat)
+  nameWithType.vb: ExMLerps.SmoothR(TEx(Of Func(Of Single, Single)), tfloat, tfloat)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothR(System.Func(Of tfloat, tfloat), efloat, tfloat)
-  name.vb: SmoothR(Func(Of tfloat, tfloat), efloat, tfloat)
-- uid: Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(System.Func{tfloat,tfloat},efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(System.Func{tfloat,tfloat},efloat,tfloat)
-  id: SmoothLoopR(System.Func{tfloat,tfloat},efloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothR(TEx(Of System.Func(Of System.Single, System.Single)), tfloat, tfloat)
+  name.vb: SmoothR(TEx(Of Func(Of Single, Single)), tfloat, tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat)
+  id: SmoothLoopR(TEx{System.Func{System.Single,System.Single}},tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: SmoothLoopR(Func<tfloat, tfloat>, efloat, tfloat)
-  nameWithType: ExMLerps.SmoothLoopR(Func<tfloat, tfloat>, efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(System.Func<tfloat, tfloat>, efloat, tfloat)
+  name: SmoothLoopR(TEx<Func<Single, Single>>, tfloat, tfloat)
+  nameWithType: ExMLerps.SmoothLoopR(TEx<Func<Single, Single>>, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(TEx<System.Func<System.Single, System.Single>>, tfloat, tfloat)
   type: Method
   source:
     id: SmoothLoopR
     path: ''
-    startLine: 12284
+    startLine: 12779
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns R * SmoothLoop(name, controller/R).\n"
   example: []
   syntax:
-    content: public static tfloat SmoothLoopR(Func<tfloat, tfloat> smoother, efloat range, tfloat controller)
+    content: public static tfloat SmoothLoopR(TEx<Func<float, float>> smoother, tfloat range, tfloat controller)
     parameters:
     - id: smoother
-      type: System.Func{tfloat,tfloat}
+      type: TEx{System.Func{System.Single,System.Single}}
     - id: range
-      type: efloat
+      type: tfloat
     - id: controller
       type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function SmoothLoopR(smoother As Func(Of tfloat, tfloat), range As efloat, controller As tfloat) As tfloat
+    content.vb: Public Shared Function SmoothLoopR(smoother As TEx(Of Func(Of Single, Single)), range As tfloat, controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.SmoothLoopR*
-  nameWithType.vb: ExMLerps.SmoothLoopR(Func(Of tfloat, tfloat), efloat, tfloat)
+  nameWithType.vb: ExMLerps.SmoothLoopR(TEx(Of Func(Of Single, Single)), tfloat, tfloat)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(System.Func(Of tfloat, tfloat), efloat, tfloat)
-  name.vb: SmoothLoopR(Func(Of tfloat, tfloat), efloat, tfloat)
-- uid: Danmokou.DMath.Functions.ExMLerps.EQuad0m10(efloat,tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMLerps.EQuad0m10(efloat,tfloat,tfloat)
-  id: EQuad0m10(efloat,tfloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMLerps.SmoothLoopR(TEx(Of System.Func(Of System.Single, System.Single)), tfloat, tfloat)
+  name.vb: SmoothLoopR(TEx(Of Func(Of Single, Single)), tfloat, tfloat)
+- uid: Danmokou.DMath.Functions.ExMLerps.EQuad0m10(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMLerps.EQuad0m10(tfloat,tfloat,tfloat)
+  id: EQuad0m10(tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMLerps
   langs:
   - csharp
   - vb
-  name: EQuad0m10(efloat, tfloat, tfloat)
-  nameWithType: ExMLerps.EQuad0m10(efloat, tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMLerps.EQuad0m10(efloat, tfloat, tfloat)
+  name: EQuad0m10(tfloat, tfloat, tfloat)
+  nameWithType: ExMLerps.EQuad0m10(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMLerps.EQuad0m10(tfloat, tfloat, tfloat)
   type: Method
   source:
     id: EQuad0m10
     path: ''
-    startLine: 12295
+    startLine: 12790
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nQuadratic function that joins an ease-out and an ease-in, ie. two joined parabolas.\n"
   example: []
   syntax:
-    content: public static tfloat EQuad0m10(efloat midp, tfloat period, tfloat controller)
+    content: public static tfloat EQuad0m10(tfloat midp, tfloat period, tfloat controller)
     parameters:
     - id: midp
-      type: efloat
+      type: tfloat
       description: ''
     - id: period
       type: tfloat
@@ -1504,7 +1618,7 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function EQuad0m10(midp As efloat, period As tfloat, controller As tfloat) As tfloat
+    content.vb: Public Shared Function EQuad0m10(midp As tfloat, period As tfloat, controller As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMLerps.EQuad0m10*
   modifiers.csharp:
   - public
@@ -1526,7 +1640,7 @@ items:
   source:
     id: Bezier
     path: ''
-    startLine: 12312
+    startLine: 12807
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1576,11 +1690,11 @@ items:
   source:
     id: Bezier3
     path: ''
-    startLine: 12331
+    startLine: 12826
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nPerform a cubic bezier interpolation.\n<br />This is the same as CalcBezier in BagoumLib when start=0 and end=1.\n<br />This is not the same as the cubic bezier interpolation used in CSS and\n most animation engines. For that functionality, use CubicBezier.\n"
+  summary: "\nPerform a cubic bezier interpolation between points in N-dimensional space.\n<br />This is the same as CalcBezier in BagoumLib when start=0 and end=1.\n<br />This is not the same as the cubic bezier interpolation used in CSS and\n most animation engines. For that functionality, use CubicBezier.\n"
   example: []
   syntax:
     content: public static TEx<T> Bezier3<T>(TEx<T> start, TEx<T> ctrl1, TEx<T> ctrl2, TEx<T> end, TEx<float> time)
@@ -1629,7 +1743,7 @@ items:
   source:
     id: CubicBezier
     path: ''
-    startLine: 12351
+    startLine: 12846
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1677,7 +1791,7 @@ items:
   source:
     id: CubicBezierLerp
     path: ''
-    startLine: 12371
+    startLine: 12861
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2021,11 +2135,6 @@ references:
   name: Ratio
   nameWithType: ExMLerps.Ratio
   fullName: Danmokou.DMath.Functions.ExMLerps.Ratio
-- uid: efloat
-  isExternal: true
-  name: efloat
-  nameWithType: efloat
-  fullName: efloat
 - uid: tfloat
   isExternal: true
   name: tfloat
@@ -2133,17 +2242,24 @@ references:
   name: LerpSmooth
   nameWithType: ExMLerps.LerpSmooth
   fullName: Danmokou.DMath.Functions.ExMLerps.LerpSmooth
-- uid: System.Func{tfloat,tfloat}
-  commentId: T:System.Func{tfloat,tfloat}
-  parent: System
-  definition: System.Func`2
-  name: Func<tfloat, tfloat>
-  nameWithType: Func<tfloat, tfloat>
-  fullName: System.Func<tfloat, tfloat>
-  nameWithType.vb: Func(Of tfloat, tfloat)
-  fullName.vb: System.Func(Of tfloat, tfloat)
-  name.vb: Func(Of tfloat, tfloat)
+- uid: TEx{System.Func{System.Single,System.Single}}
+  commentId: '!:TEx{System.Func{System.Single,System.Single}}'
+  definition: TEx`1
+  name: TEx<Func<Single, Single>>
+  nameWithType: TEx<Func<Single, Single>>
+  fullName: TEx<System.Func<System.Single, System.Single>>
+  nameWithType.vb: TEx(Of Func(Of Single, Single))
+  fullName.vb: TEx(Of System.Func(Of System.Single, System.Single))
+  name.vb: TEx(Of Func(Of Single, Single))
   spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Func`2
     name: Func
     nameWithType: Func
@@ -2152,23 +2268,34 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
     isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
     isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Func`2
     name: Func
     nameWithType: Func
@@ -2177,70 +2304,22 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
     isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Func`2
-  commentId: T:System.Func`2
-  isExternal: true
-  name: Func<T, TResult>
-  nameWithType: Func<T, TResult>
-  fullName: System.Func<T, TResult>
-  nameWithType.vb: Func(Of T, TResult)
-  fullName.vb: System.Func(Of T, TResult)
-  name.vb: Func(Of T, TResult)
-  spec.csharp:
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TResult
-    nameWithType: TResult
-    fullName: TResult
   - name: )
     nameWithType: )
     fullName: )
@@ -2259,6 +2338,11 @@ references:
   name: Lerp3
   nameWithType: ExMLerps.Lerp3
   fullName: Danmokou.DMath.Functions.ExMLerps.Lerp3
+- uid: Danmokou.DMath.Functions.ExMLerps.Lerp4*
+  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.Lerp4
+  name: Lerp4
+  nameWithType: ExMLerps.Lerp4
+  fullName: Danmokou.DMath.Functions.ExMLerps.Lerp4
 - uid: Danmokou.DMath.Functions.ExMLerps.Lerp3c*
   commentId: Overload:Danmokou.DMath.Functions.ExMLerps.Lerp3c
   name: Lerp3c
@@ -2274,14 +2358,14 @@ references:
   name: LerpMany
   nameWithType: ExMLerps.LerpMany
   fullName: Danmokou.DMath.Functions.ExMLerps.LerpMany
-- uid: System.ValueTuple{tfloat,TEx{{T}}}[]
+- uid: System.ValueTuple{UncompiledCode{System.Single},UncompiledCode{{T}}}[]
   isExternal: true
-  name: (T1, T2)<tfloat, TEx<T>>[]
-  nameWithType: (T1, T2)<tfloat, TEx<T>>[]
-  fullName: System.ValueTuple<tfloat, TEx<T>>[]
-  nameWithType.vb: (T1, T2)(Of tfloat, TEx(Of T))()
-  fullName.vb: System.ValueTuple(Of tfloat, TEx(Of T))()
-  name.vb: (T1, T2)(Of tfloat, TEx(Of T))()
+  name: (T1, T2)<UncompiledCode<Single>, UncompiledCode<T>>[]
+  nameWithType: (T1, T2)<UncompiledCode<Single>, UncompiledCode<T>>[]
+  fullName: System.ValueTuple<UncompiledCode<System.Single>, UncompiledCode<T>>[]
+  nameWithType.vb: (T1, T2)(Of UncompiledCode(Of Single), UncompiledCode(Of T))()
+  fullName.vb: System.ValueTuple(Of UncompiledCode(Of System.Single), UncompiledCode(Of T))()
+  name.vb: (T1, T2)(Of UncompiledCode(Of Single), UncompiledCode(Of T))()
   spec.csharp:
   - uid: System.ValueTuple`2
     name: (T1, T2)
@@ -2291,18 +2375,29 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
   - name: <
     nameWithType: <
@@ -2328,10 +2423,104 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Func{TExArgCtx,TEx{System.Single}}
+  commentId: T:System.Func{TExArgCtx,TEx{System.Single}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<Single>>
+  nameWithType: Func<TExArgCtx, TEx<Single>>
+  fullName: System.Func<TExArgCtx, TEx<System.Single>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of Single))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of System.Single))
+  name.vb: Func(Of TExArgCtx, TEx(Of Single))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -2344,87 +2533,17 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: Danmokou.DMath.Functions.ExMLerps.Select*
-  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.Select
-  name: Select
-  nameWithType: ExMLerps.Select
-  fullName: Danmokou.DMath.Functions.ExMLerps.Select
-- uid: TEx{{T}}[]
-  isExternal: true
-  name: TEx<T>[]
-  nameWithType: TEx<T>[]
-  fullName: TEx<T>[]
-  nameWithType.vb: TEx(Of T)()
-  fullName.vb: TEx(Of T)()
-  name.vb: TEx(Of T)()
-  spec.csharp:
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
   - name: )
     nameWithType: )
     fullName: )
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: Danmokou.DMath.Functions.ExMLerps.SStep*
-  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.SStep
-  name: SStep
-  nameWithType: ExMLerps.SStep
-  fullName: Danmokou.DMath.Functions.ExMLerps.SStep
-- uid: Danmokou.DMath.Functions.ExMLerps.Damp*
-  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.Damp
-  name: Damp
-  nameWithType: ExMLerps.Damp
-  fullName: Danmokou.DMath.Functions.ExMLerps.Damp
-- uid: Danmokou.DMath.Functions.ExMLerps.LerpT*
-  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.LerpT
-  name: LerpT
-  nameWithType: ExMLerps.LerpT
-  fullName: Danmokou.DMath.Functions.ExMLerps.LerpT
-- uid: ExBPY
-  isExternal: true
-  name: ExBPY
-  nameWithType: ExBPY
-  fullName: ExBPY
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Func{TExArgCtx,TEx{{T}}}
   commentId: T:System.Func{TExArgCtx,TEx{``0}}
   parent: System
@@ -2503,6 +2622,131 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.ExMLerps.Select*
+  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.Select
+  name: Select
+  nameWithType: ExMLerps.Select
+  fullName: Danmokou.DMath.Functions.ExMLerps.Select
+- uid: UncompiledCode{{T}}[]
+  isExternal: true
+  name: UncompiledCode<T>[]
+  nameWithType: UncompiledCode<T>[]
+  fullName: UncompiledCode<T>[]
+  nameWithType.vb: UncompiledCode(Of T)()
+  fullName.vb: UncompiledCode(Of T)()
+  name.vb: UncompiledCode(Of T)()
+  spec.csharp:
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.DMath.Functions.ExMLerps.SelectDC*
+  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.SelectDC
+  name: SelectDC
+  nameWithType: ExMLerps.SelectDC
+  fullName: Danmokou.DMath.Functions.ExMLerps.SelectDC
+- uid: Danmokou.DMath.Functions.ExMLerps.SStep*
+  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.SStep
+  name: SStep
+  nameWithType: ExMLerps.SStep
+  fullName: Danmokou.DMath.Functions.ExMLerps.SStep
+- uid: Danmokou.DMath.Functions.ExMLerps.Damp*
+  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.Damp
+  name: Damp
+  nameWithType: ExMLerps.Damp
+  fullName: Danmokou.DMath.Functions.ExMLerps.Damp
+- uid: Danmokou.DMath.Functions.ExMLerps.LerpT*
+  commentId: Overload:Danmokou.DMath.Functions.ExMLerps.LerpT
+  name: LerpT
+  nameWithType: ExMLerps.LerpT
+  fullName: Danmokou.DMath.Functions.ExMLerps.LerpT
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
 - uid: Danmokou.DMath.Functions.ExMLerps.LerpT3*
   commentId: Overload:Danmokou.DMath.Functions.ExMLerps.LerpT3
   name: LerpT3
@@ -2523,6 +2767,13 @@ references:
   name: EaseD
   nameWithType: ExMLerps.EaseD
   fullName: Danmokou.DMath.Functions.ExMLerps.EaseD
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Single
   commentId: T:System.Single
   parent: System
@@ -2535,16 +2786,131 @@ references:
   name: Ease
   nameWithType: ExMLerps.Ease
   fullName: Danmokou.DMath.Functions.ExMLerps.Ease
+- uid: System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
+  commentId: T:System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<Func<Single, Single>>>
+  nameWithType: Func<TExArgCtx, TEx<Func<Single, Single>>>
+  fullName: System.Func<TExArgCtx, TEx<System.Func<System.Single, System.Single>>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of Func(Of Single, Single)))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of System.Func(Of System.Single, System.Single)))
+  name.vb: Func(Of TExArgCtx, TEx(Of Func(Of Single, Single)))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExMLerps.RotateLerp*
   commentId: Overload:Danmokou.DMath.Functions.ExMLerps.RotateLerp
   name: RotateLerp
   nameWithType: ExMLerps.RotateLerp
   fullName: Danmokou.DMath.Functions.ExMLerps.RotateLerp
-- uid: ev2
-  isExternal: true
-  name: ev2
-  nameWithType: ev2
-  fullName: ev2
 - uid: tv2
   isExternal: true
   name: tv2

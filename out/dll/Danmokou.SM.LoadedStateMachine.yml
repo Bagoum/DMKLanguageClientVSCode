@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.SM.LoadedStateMachine
+  commentId: T:Danmokou.SM.LoadedStateMachine
+  id: LoadedStateMachine
+  parent: Danmokou.SM
+  children:
+  - Danmokou.SM.LoadedStateMachine.Preserve
+  - Danmokou.SM.LoadedStateMachine.ScriptEF
+  - Danmokou.SM.LoadedStateMachine.SM
+  langs:
+  - csharp
+  - vb
+  name: LoadedStateMachine
+  nameWithType: LoadedStateMachine
+  fullName: Danmokou.SM.LoadedStateMachine
+  type: Class
+  source:
+    id: LoadedStateMachine
+    path: ''
+    startLine: 16905
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public class LoadedStateMachine
+    content.vb: Public Class LoadedStateMachine
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.SM.LoadedStateMachine.SM
+  commentId: P:Danmokou.SM.LoadedStateMachine.SM
+  id: SM
+  parent: Danmokou.SM.LoadedStateMachine
+  langs:
+  - csharp
+  - vb
+  name: SM
+  nameWithType: LoadedStateMachine.SM
+  fullName: Danmokou.SM.LoadedStateMachine.SM
+  type: Property
+  source:
+    id: SM
+    path: ''
+    startLine: 16906
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public StateMachine SM { get; set; }
+    parameters: []
+    return:
+      type: Danmokou.SM.StateMachine
+    content.vb: Public Property SM As StateMachine
+  overload: Danmokou.SM.LoadedStateMachine.SM*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.LoadedStateMachine.ScriptEF
+  commentId: P:Danmokou.SM.LoadedStateMachine.ScriptEF
+  id: ScriptEF
+  parent: Danmokou.SM.LoadedStateMachine
+  langs:
+  - csharp
+  - vb
+  name: ScriptEF
+  nameWithType: LoadedStateMachine.ScriptEF
+  fullName: Danmokou.SM.LoadedStateMachine.ScriptEF
+  type: Property
+  source:
+    id: ScriptEF
+    path: ''
+    startLine: 16907
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public EnvFrame? ScriptEF { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{EnvFrame}
+    content.vb: Public Property ScriptEF As EnvFrame?
+  overload: Danmokou.SM.LoadedStateMachine.ScriptEF*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.LoadedStateMachine.Preserve
+  commentId: P:Danmokou.SM.LoadedStateMachine.Preserve
+  id: Preserve
+  parent: Danmokou.SM.LoadedStateMachine
+  langs:
+  - csharp
+  - vb
+  name: Preserve
+  nameWithType: LoadedStateMachine.Preserve
+  fullName: Danmokou.SM.LoadedStateMachine.Preserve
+  type: Property
+  source:
+    id: Preserve
+    path: ''
+    startLine: 16910
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public bool Preserve { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Preserve As Boolean
+  overload: Danmokou.SM.LoadedStateMachine.Preserve*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Danmokou.SM
+  commentId: N:Danmokou.SM
+  name: Danmokou.SM
+  nameWithType: Danmokou.SM
+  fullName: Danmokou.SM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.SM.LoadedStateMachine.SM*
+  commentId: Overload:Danmokou.SM.LoadedStateMachine.SM
+  name: SM
+  nameWithType: LoadedStateMachine.SM
+  fullName: Danmokou.SM.LoadedStateMachine.SM
+- uid: Danmokou.SM.StateMachine
+  commentId: T:Danmokou.SM.StateMachine
+  parent: Danmokou.SM
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Danmokou.SM.StateMachine
+- uid: Danmokou.SM.LoadedStateMachine.ScriptEF*
+  commentId: Overload:Danmokou.SM.LoadedStateMachine.ScriptEF
+  name: ScriptEF
+  nameWithType: LoadedStateMachine.ScriptEF
+  fullName: Danmokou.SM.LoadedStateMachine.ScriptEF
+- uid: System.Nullable{EnvFrame}
+  commentId: T:System.Nullable{EnvFrame}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<EnvFrame>
+  nameWithType: Nullable<EnvFrame>
+  fullName: System.Nullable<EnvFrame>
+  nameWithType.vb: Nullable(Of EnvFrame)
+  fullName.vb: System.Nullable(Of EnvFrame)
+  name.vb: Nullable(Of EnvFrame)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.LoadedStateMachine.Preserve*
+  commentId: Overload:Danmokou.SM.LoadedStateMachine.Preserve
+  name: Preserve
+  nameWithType: LoadedStateMachine.Preserve
+  fullName: Danmokou.SM.LoadedStateMachine.Preserve
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

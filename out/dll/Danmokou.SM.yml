@@ -4,19 +4,23 @@ items:
   commentId: N:Danmokou.SM
   id: Danmokou.SM
   children:
+  - Danmokou.SM.AlternateUSM
   - Danmokou.SM.AnimatorControllerLASM
   - Danmokou.SM.AnimatorControllerLASM.Animate
   - Danmokou.SM.BreakSM
+  - Danmokou.SM.BxBCollideLASM
+  - Danmokou.SM.BxBCollideLASM.ColliderFn
   - Danmokou.SM.DerivedSMContext
   - Danmokou.SM.DialoguePhaseSM
   - Danmokou.SM.EndPSM
   - Danmokou.SM.EventLASM
   - Danmokou.SM.EventLASM.EventTask
-  - Danmokou.SM.FinishPSM
   - Danmokou.SM.GTRepeat
   - Danmokou.SM.GTRepeat2
+  - Danmokou.SM.HelperStateMachines
   - Danmokou.SM.IfUSM
   - Danmokou.SM.LineActionSM
+  - Danmokou.SM.LoadedStateMachine
   - Danmokou.SM.NoBlockUSM
   - Danmokou.SM.ParallelSM
   - Danmokou.SM.PatternContext
@@ -63,17 +67,22 @@ references:
   name: GTRepeat
   nameWithType: GTRepeat
   fullName: Danmokou.SM.GTRepeat
+- uid: Danmokou.SM.AlternateUSM
+  commentId: T:Danmokou.SM.AlternateUSM
+  name: AlternateUSM
+  nameWithType: AlternateUSM
+  fullName: Danmokou.SM.AlternateUSM
+- uid: Danmokou.SM.HelperStateMachines
+  commentId: T:Danmokou.SM.HelperStateMachines
+  name: HelperStateMachines
+  nameWithType: HelperStateMachines
+  fullName: Danmokou.SM.HelperStateMachines
 - uid: Danmokou.SM.PatternSM
   commentId: T:Danmokou.SM.PatternSM
   parent: Danmokou.SM
   name: PatternSM
   nameWithType: PatternSM
   fullName: Danmokou.SM.PatternSM
-- uid: Danmokou.SM.FinishPSM
-  commentId: T:Danmokou.SM.FinishPSM
-  name: FinishPSM
-  nameWithType: FinishPSM
-  fullName: Danmokou.SM.FinishPSM
 - uid: Danmokou.SM.PhaseSM
   commentId: T:Danmokou.SM.PhaseSM
   parent: Danmokou.SM
@@ -156,6 +165,17 @@ references:
   name: TimerControllerLASM.TimerControl
   nameWithType: TimerControllerLASM.TimerControl
   fullName: Danmokou.SM.TimerControllerLASM.TimerControl
+- uid: Danmokou.SM.BxBCollideLASM
+  commentId: T:Danmokou.SM.BxBCollideLASM
+  name: BxBCollideLASM
+  nameWithType: BxBCollideLASM
+  fullName: Danmokou.SM.BxBCollideLASM
+- uid: Danmokou.SM.BxBCollideLASM.ColliderFn
+  commentId: T:Danmokou.SM.BxBCollideLASM.ColliderFn
+  parent: Danmokou.SM
+  name: BxBCollideLASM.ColliderFn
+  nameWithType: BxBCollideLASM.ColliderFn
+  fullName: Danmokou.SM.BxBCollideLASM.ColliderFn
 - uid: Danmokou.SM.PatternProperty
   commentId: T:Danmokou.SM.PatternProperty
   parent: Danmokou.SM
@@ -194,6 +214,7 @@ references:
   fullName: Danmokou.SM.PhaseContext
 - uid: Danmokou.SM.DerivedSMContext
   commentId: T:Danmokou.SM.DerivedSMContext
+  parent: Danmokou.SM
   name: DerivedSMContext
   nameWithType: DerivedSMContext
   fullName: Danmokou.SM.DerivedSMContext
@@ -230,6 +251,11 @@ references:
   name: NoBlockUSM
   nameWithType: NoBlockUSM
   fullName: Danmokou.SM.NoBlockUSM
+- uid: Danmokou.SM.LoadedStateMachine
+  commentId: T:Danmokou.SM.LoadedStateMachine
+  name: LoadedStateMachine
+  nameWithType: LoadedStateMachine
+  fullName: Danmokou.SM.LoadedStateMachine
 - uid: Danmokou.SM.ScriptTSM
   commentId: T:Danmokou.SM.ScriptTSM
   name: ScriptTSM

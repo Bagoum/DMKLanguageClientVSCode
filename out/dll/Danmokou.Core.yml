@@ -5,7 +5,8 @@ items:
   id: Danmokou.Core
   children:
   - Danmokou.Core.AnimationType
-  - Danmokou.Core.Blocking
+  - Danmokou.Core.AutoVarExtend
+  - Danmokou.Core.AutoVarMethod
   - Danmokou.Core.DRenderMode
   - Danmokou.Core.Events
   - Danmokou.Core.Events.RuntimeEventType
@@ -33,6 +34,18 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: Danmokou.Core.AutoVarMethod
+  commentId: T:Danmokou.Core.AutoVarMethod
+  parent: Danmokou.Core
+  name: AutoVarMethod
+  nameWithType: AutoVarMethod
+  fullName: Danmokou.Core.AutoVarMethod
+- uid: Danmokou.Core.AutoVarExtend
+  commentId: T:Danmokou.Core.AutoVarExtend
+  parent: Danmokou.Core
+  name: AutoVarExtend
+  nameWithType: AutoVarExtend
+  fullName: Danmokou.Core.AutoVarExtend
 - uid: Danmokou.Core.DRenderMode
   commentId: T:Danmokou.Core.DRenderMode
   parent: Danmokou.Core
@@ -80,12 +93,6 @@ references:
   name: SAAngle
   nameWithType: SAAngle
   fullName: Danmokou.Core.SAAngle
-- uid: Danmokou.Core.Blocking
-  commentId: T:Danmokou.Core.Blocking
-  parent: Danmokou.Core
-  name: Blocking
-  nameWithType: Blocking
-  fullName: Danmokou.Core.Blocking
 - uid: Danmokou.Core.RV2ControlMethod
   commentId: T:Danmokou.Core.RV2ControlMethod
   parent: Danmokou.Core

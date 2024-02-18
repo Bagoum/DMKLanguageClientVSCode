@@ -12,8 +12,8 @@ items:
   - Danmokou.DMath.Functions.Parametrics.CXY(System.Single,System.Single)
   - Danmokou.DMath.Functions.Parametrics.CY(System.Single)
   - Danmokou.DMath.Functions.Parametrics.Divide(ExBPY,ExTP)
-  - Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExTP)
-  - Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{tfloat,tfloat},ExBPY,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.String,System.Single,ExTP)
+  - Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExBPY,ExTP)
   - Danmokou.DMath.Functions.Parametrics.goDown
   - Danmokou.DMath.Functions.Parametrics.goLeft
   - Danmokou.DMath.Functions.Parametrics.goOtherSide(ExBPY)
@@ -26,14 +26,16 @@ items:
   - Danmokou.DMath.Functions.Parametrics.LerpIn(System.Single,System.Single,ExTP)
   - Danmokou.DMath.Functions.Parametrics.LerpOut(System.Single,System.Single,ExTP)
   - Danmokou.DMath.Functions.Parametrics.LNearestEnemy
-  - Danmokou.DMath.Functions.Parametrics.Loc
+  - Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault(ExTP)
   - Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
+  - Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault(ExTP)
   - Danmokou.DMath.Functions.Parametrics.MultiplyX(ExBPY,ExTP)
   - Danmokou.DMath.Functions.Parametrics.MultiplyY(ExBPY,ExTP)
   - Danmokou.DMath.Functions.Parametrics.Pivot(ExBPY,ExBPY,ExTP,ExTP)
   - Danmokou.DMath.Functions.Parametrics.PX(ExBPY)
   - Danmokou.DMath.Functions.Parametrics.PXY(ExBPY,ExBPY)
   - Danmokou.DMath.Functions.Parametrics.PY(ExBPY)
+  - Danmokou.DMath.Functions.Parametrics.Root
   - Danmokou.DMath.Functions.Parametrics.RotateLerpPercent(ExBPY,ExTP,ExTP)
   - Danmokou.DMath.Functions.Parametrics.RotateLerpRate(ExBPY,ExTP,ExTP)
   - Danmokou.DMath.Functions.Parametrics.Rotify(ExTP)
@@ -55,7 +57,7 @@ items:
   source:
     id: Parametrics
     path: ''
-    startLine: 9043
+    startLine: 9368
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -95,16 +97,53 @@ items:
   source:
     id: LNearestEnemy
     path: ''
-    startLine: 8706
+    startLine: 8965
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
+  summary: "\nGet the location of the closest enemy. If no enemies exist, default to (0, 50).\n<br />WARNING: It is inoptimal to use this in <see cref=\"!:LaserOption\"></see>.<see cref=\"!:LaserOption.Dynamic\"></see>.\nInstead, use <see cref=\"!:LaserOption.BeforeDraw\"></see> with this function, and use the saved value in Dynamic.\n"
+  example: []
   syntax:
     content: public static ExTP LNearestEnemy()
     return:
       type: ExTP
     content.vb: Public Shared Function LNearestEnemy As ExTP
   overload: Danmokou.DMath.Functions.Parametrics.LNearestEnemy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault(ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault(ExTP)
+  id: LNearestEnemyDefault(ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: LNearestEnemyDefault(ExTP)
+  nameWithType: Parametrics.LNearestEnemyDefault(ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault(ExTP)
+  type: Method
+  source:
+    id: LNearestEnemyDefault
+    path: ''
+    startLine: 8972
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the location of the closest enemy. If no enemies exist, default to the provided location.\n<br />WARNING: It is inoptimal to use this in <see cref=\"!:LaserOption\"></see>.<see cref=\"!:LaserOption.Dynamic\"></see>.\nInstead, use <see cref=\"!:LaserOption.BeforeDraw\"></see> with this function, and use the saved value in Dynamic.\n"
+  example: []
+  syntax:
+    content: public static ExTP LNearestEnemyDefault(ExTP deflt)
+    parameters:
+    - id: deflt
+      type: ExTP
+    return:
+      type: ExTP
+    content.vb: Public Shared Function LNearestEnemyDefault(deflt As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault*
   modifiers.csharp:
   - public
   - static
@@ -125,16 +164,53 @@ items:
   source:
     id: LSaveNearestEnemy
     path: ''
-    startLine: 8717
+    startLine: 8987
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
+  summary: "\nGet the location of the closest enemy, preferring the one that was chosen in the previous frame.\nIf no enemies exist, default to (0, 50).\n"
+  example: []
   syntax:
     content: public static ExTP LSaveNearestEnemy()
     return:
       type: ExTP
     content.vb: Public Shared Function LSaveNearestEnemy As ExTP
   overload: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault(ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault(ExTP)
+  id: LSaveNearestEnemyDefault(ExTP)
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: LSaveNearestEnemyDefault(ExTP)
+  nameWithType: Parametrics.LSaveNearestEnemyDefault(ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault(ExTP)
+  type: Method
+  source:
+    id: LSaveNearestEnemyDefault
+    path: ''
+    startLine: 8994
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the location of the closest enemy, preferring the one that was chosen in the previous frame.\nIf no enemies exist, default to the provided location.\n"
+  example: []
+  syntax:
+    content: public static ExTP LSaveNearestEnemyDefault(ExTP deflt)
+    parameters:
+    - id: deflt
+      type: ExTP
+    return:
+      type: ExTP
+    content.vb: Public Shared Function LSaveNearestEnemyDefault(deflt As ExTP) As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault*
   modifiers.csharp:
   - public
   - static
@@ -155,7 +231,7 @@ items:
   source:
     id: goX
     path: ''
-    startLine: 8881
+    startLine: 9176
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -188,7 +264,7 @@ items:
   source:
     id: goY
     path: ''
-    startLine: 8882
+    startLine: 9177
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -221,7 +297,7 @@ items:
   source:
     id: goUp
     path: ''
-    startLine: 8883
+    startLine: 9178
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -251,7 +327,7 @@ items:
   source:
     id: goDown
     path: ''
-    startLine: 8884
+    startLine: 9179
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -281,7 +357,7 @@ items:
   source:
     id: goLeft
     path: ''
-    startLine: 8885
+    startLine: 9180
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -311,7 +387,7 @@ items:
   source:
     id: goRight
     path: ''
-    startLine: 8886
+    startLine: 9181
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -341,7 +417,7 @@ items:
   source:
     id: goSide
     path: ''
-    startLine: 8887
+    startLine: 9182
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -374,7 +450,7 @@ items:
   source:
     id: goOtherSide
     path: ''
-    startLine: 8888
+    startLine: 9183
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -407,7 +483,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 9051
+    startLine: 9376
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -419,6 +495,38 @@ items:
       type: ExTP
     content.vb: Public Shared Function Zero As ExTP
   overload: Danmokou.DMath.Functions.Parametrics.Zero*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.Root
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Root
+  id: Root
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: Root()
+  nameWithType: Parametrics.Root()
+  fullName: Danmokou.DMath.Functions.Parametrics.Root()
+  type: Method
+  source:
+    id: Root
+    path: ''
+    startLine: 9381
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nThe starting position of a bullet.\n"
+  example: []
+  syntax:
+    content: public static ExTP Root()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function Root As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.Root*
   modifiers.csharp:
   - public
   - static
@@ -439,7 +547,7 @@ items:
   source:
     id: CXY
     path: ''
-    startLine: 9061
+    startLine: 9393
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -479,7 +587,7 @@ items:
   source:
     id: CX
     path: ''
-    startLine: 9070
+    startLine: 9402
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -516,7 +624,7 @@ items:
   source:
     id: CY
     path: ''
-    startLine: 9079
+    startLine: 9411
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -553,7 +661,7 @@ items:
   source:
     id: CR
     path: ''
-    startLine: 9089
+    startLine: 9421
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -593,7 +701,7 @@ items:
   source:
     id: Divide
     path: ''
-    startLine: 9101
+    startLine: 9433
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -633,7 +741,7 @@ items:
   source:
     id: MultiplyX
     path: ''
-    startLine: 9115
+    startLine: 9447
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -673,7 +781,7 @@ items:
   source:
     id: MultiplyY
     path: ''
-    startLine: 9131
+    startLine: 9463
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -713,7 +821,7 @@ items:
   source:
     id: AddY
     path: ''
-    startLine: 9148
+    startLine: 9480
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -753,7 +861,7 @@ items:
   source:
     id: AddAtAngle
     path: ''
-    startLine: 9167
+    startLine: 9499
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -782,39 +890,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.Parametrics.Loc
-  commentId: M:Danmokou.DMath.Functions.Parametrics.Loc
-  id: Loc
-  parent: Danmokou.DMath.Functions.Parametrics
-  langs:
-  - csharp
-  - vb
-  name: Loc()
-  nameWithType: Parametrics.Loc()
-  fullName: Danmokou.DMath.Functions.Parametrics.Loc()
-  type: Method
-  source:
-    id: Loc
-    path: ''
-    startLine: 9193
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.DMath.Functions
-  summary: "\nGet the BPI position.\n"
-  example: []
-  syntax:
-    content: public static ExTP Loc()
-    return:
-      type: ExTP
-      description: ''
-    content.vb: Public Shared Function Loc As ExTP
-  overload: Danmokou.DMath.Functions.Parametrics.Loc*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: Danmokou.DMath.Functions.Parametrics.PXY(ExBPY,ExBPY)
   commentId: M:Danmokou.DMath.Functions.Parametrics.PXY(ExBPY,ExBPY)
   id: PXY(ExBPY,ExBPY)
@@ -829,7 +904,7 @@ items:
   source:
     id: PXY
     path: ''
-    startLine: 9203
+    startLine: 9527
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -869,7 +944,7 @@ items:
   source:
     id: PX
     path: ''
-    startLine: 9207
+    startLine: 9531
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -904,7 +979,7 @@ items:
   source:
     id: PY
     path: ''
-    startLine: 9211
+    startLine: 9535
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -939,7 +1014,7 @@ items:
   source:
     id: TP
     path: ''
-    startLine: 9216
+    startLine: 9540
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -974,7 +1049,7 @@ items:
   source:
     id: VHome
     path: ''
-    startLine: 9240
+    startLine: 9564
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1015,7 +1090,7 @@ items:
   source:
     id: VHomeTime
     path: ''
-    startLine: 9254
+    startLine: 9578
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1055,7 +1130,7 @@ items:
   source:
     id: SSVHomeT
     path: ''
-    startLine: 9260
+    startLine: 9584
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1079,90 +1154,87 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExTP)
-  commentId: M:Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExTP)
-  id: EaseDVHomeT(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExTP)
+- uid: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.String,System.Single,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.String,System.Single,ExTP)
+  id: EaseDVHomeT(System.String,System.Single,ExTP)
   parent: Danmokou.DMath.Functions.Parametrics
   langs:
   - csharp
   - vb
-  name: EaseDVHomeT(Func<TEx<Single>, TEx<Single>>, Single, ExTP)
-  nameWithType: Parametrics.EaseDVHomeT(Func<TEx<Single>, TEx<Single>>, Single, ExTP)
-  fullName: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func<TEx<System.Single>, TEx<System.Single>>, System.Single, ExTP)
+  name: EaseDVHomeT(String, Single, ExTP)
+  nameWithType: Parametrics.EaseDVHomeT(String, Single, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.String, System.Single, ExTP)
   type: Method
   source:
     id: EaseDVHomeT
     path: ''
-    startLine: 9266
+    startLine: 9591
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nShort for `eased EASE TIME ss0 vhometime TIME LOCATION`.\n<br />Note: EaseToTarget with NROFFSET is preferred. It has the same signature and avoids Riemann errors.\n"
   example: []
   syntax:
-    content: public static ExTP EaseDVHomeT(Func<TEx<float>, TEx<float>> smoother, float time, ExTP location)
+    content: public static ExTP EaseDVHomeT(string smoother, float time, ExTP location)
     parameters:
     - id: smoother
-      type: System.Func{TEx{System.Single},TEx{System.Single}}
+      type: System.String
     - id: time
       type: System.Single
     - id: location
       type: ExTP
     return:
       type: ExTP
-    content.vb: Public Shared Function EaseDVHomeT(smoother As Func(Of TEx(Of Single), TEx(Of Single)), time As Single, location As ExTP) As ExTP
+    content.vb: Public Shared Function EaseDVHomeT(smoother As String, time As Single, location As ExTP) As ExTP
   overload: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT*
-  nameWithType.vb: Parametrics.EaseDVHomeT(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExTP)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT(System.Func(Of TEx(Of System.Single), TEx(Of System.Single)), System.Single, ExTP)
-  name.vb: EaseDVHomeT(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExTP)
-- uid: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{tfloat,tfloat},ExBPY,ExTP)
-  commentId: M:Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{tfloat,tfloat},ExBPY,ExTP)
-  id: EaseToTarget(System.Func{tfloat,tfloat},ExBPY,ExTP)
+- uid: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExBPY,ExTP)
+  commentId: M:Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExBPY,ExTP)
+  id: EaseToTarget(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExBPY,ExTP)
   parent: Danmokou.DMath.Functions.Parametrics
   langs:
   - csharp
   - vb
-  name: EaseToTarget(Func<tfloat, tfloat>, ExBPY, ExTP)
-  nameWithType: Parametrics.EaseToTarget(Func<tfloat, tfloat>, ExBPY, ExTP)
-  fullName: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func<tfloat, tfloat>, ExBPY, ExTP)
+  name: EaseToTarget(Func<TExArgCtx, TEx<Func<Single, Single>>>, ExBPY, ExTP)
+  nameWithType: Parametrics.EaseToTarget(Func<TExArgCtx, TEx<Func<Single, Single>>>, ExBPY, ExTP)
+  fullName: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func<TExArgCtx, TEx<System.Func<System.Single, System.Single>>>, ExBPY, ExTP)
   type: Method
   source:
     id: EaseToTarget
     path: ''
-    startLine: 9272
+    startLine: 9597
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nShort for `* smooth / t TIME ss0 - LOCATION loc`. Use with NROFFSET.\n"
   example: []
   syntax:
-    content: public static ExTP EaseToTarget(Func<tfloat, tfloat> ease, ExBPY time, ExTP location)
+    content: public static ExTP EaseToTarget(Func<TExArgCtx, TEx<Func<float, float>>> ease, ExBPY time, ExTP location)
     parameters:
     - id: ease
-      type: System.Func{tfloat,tfloat}
+      type: System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
     - id: time
       type: ExBPY
     - id: location
       type: ExTP
     return:
       type: ExTP
-    content.vb: Public Shared Function EaseToTarget(ease As Func(Of tfloat, tfloat), time As ExBPY, location As ExTP) As ExTP
+    content.vb: Public Shared Function EaseToTarget(ease As Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), time As ExBPY, location As ExTP) As ExTP
   overload: Danmokou.DMath.Functions.Parametrics.EaseToTarget*
-  nameWithType.vb: Parametrics.EaseToTarget(Func(Of tfloat, tfloat), ExBPY, ExTP)
+  nameWithType.vb: Parametrics.EaseToTarget(Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), ExBPY, ExTP)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func(Of tfloat, tfloat), ExBPY, ExTP)
-  name.vb: EaseToTarget(Func(Of tfloat, tfloat), ExBPY, ExTP)
+  fullName.vb: Danmokou.DMath.Functions.Parametrics.EaseToTarget(System.Func(Of TExArgCtx, TEx(Of System.Func(Of System.Single, System.Single))), ExBPY, ExTP)
+  name.vb: EaseToTarget(Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), ExBPY, ExTP)
 - uid: Danmokou.DMath.Functions.Parametrics.Rotify(ExTP)
   commentId: M:Danmokou.DMath.Functions.Parametrics.Rotify(ExTP)
   id: Rotify(ExTP)
@@ -1177,7 +1249,7 @@ items:
   source:
     id: Rotify
     path: ''
-    startLine: 9287
+    startLine: 9612
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1214,7 +1286,7 @@ items:
   source:
     id: RotateLerpPercent
     path: ''
-    startLine: 9324
+    startLine: 9649
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1258,7 +1330,7 @@ items:
   source:
     id: RotateLerpRate
     path: ''
-    startLine: 9338
+    startLine: 9663
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1302,7 +1374,7 @@ items:
   source:
     id: TrueRotateLerpPercent
     path: ''
-    startLine: 9355
+    startLine: 9680
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1346,7 +1418,7 @@ items:
   source:
     id: TrueRotateLerpRate
     path: ''
-    startLine: 9367
+    startLine: 9692
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1389,7 +1461,7 @@ items:
   source:
     id: LaserRotateLerp
     path: ''
-    startLine: 9371
+    startLine: 9696
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1426,7 +1498,7 @@ items:
   source:
     id: Switch
     path: ''
-    startLine: 9386
+    startLine: 9711
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1469,7 +1541,7 @@ items:
   source:
     id: Pivot
     path: ''
-    startLine: 9403
+    startLine: 9728
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1515,7 +1587,7 @@ items:
   source:
     id: LerpIn
     path: ''
-    startLine: 9418
+    startLine: 9743
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1558,7 +1630,7 @@ items:
   source:
     id: LerpOut
     path: ''
-    startLine: 9435
+    startLine: 9760
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1895,11 +1967,21 @@ references:
   name: ExTP
   nameWithType: ExTP
   fullName: ExTP
+- uid: Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault
+  name: LNearestEnemyDefault
+  nameWithType: Parametrics.LNearestEnemyDefault
+  fullName: Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault
 - uid: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy*
   commentId: Overload:Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
   name: LSaveNearestEnemy
   nameWithType: Parametrics.LSaveNearestEnemy
   fullName: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
+- uid: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault
+  name: LSaveNearestEnemyDefault
+  nameWithType: Parametrics.LSaveNearestEnemyDefault
+  fullName: Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault
 - uid: Danmokou.DMath.Functions.Parametrics.goX*
   commentId: Overload:Danmokou.DMath.Functions.Parametrics.goX
   name: goX
@@ -1950,6 +2032,11 @@ references:
   name: Zero
   nameWithType: Parametrics.Zero
   fullName: Danmokou.DMath.Functions.Parametrics.Zero
+- uid: Danmokou.DMath.Functions.Parametrics.Root*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Root
+  name: Root
+  nameWithType: Parametrics.Root
+  fullName: Danmokou.DMath.Functions.Parametrics.Root
 - uid: Danmokou.DMath.Functions.Parametrics.CXY*
   commentId: Overload:Danmokou.DMath.Functions.Parametrics.CXY
   name: CXY
@@ -2002,11 +2089,6 @@ references:
   name: AddAtAngle
   nameWithType: Parametrics.AddAtAngle
   fullName: Danmokou.DMath.Functions.Parametrics.AddAtAngle
-- uid: Danmokou.DMath.Functions.Parametrics.Loc*
-  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Loc
-  name: Loc
-  nameWithType: Parametrics.Loc
-  fullName: Danmokou.DMath.Functions.Parametrics.Loc
 - uid: Danmokou.DMath.Functions.Parametrics.PXY*
   commentId: Overload:Danmokou.DMath.Functions.Parametrics.PXY
   name: PXY
@@ -2052,16 +2134,28 @@ references:
   name: EaseDVHomeT
   nameWithType: Parametrics.EaseDVHomeT
   fullName: Danmokou.DMath.Functions.Parametrics.EaseDVHomeT
-- uid: System.Func{TEx{System.Single},TEx{System.Single}}
-  commentId: T:System.Func{TEx{System.Single},TEx{System.Single}}
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Danmokou.DMath.Functions.Parametrics.EaseToTarget*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.EaseToTarget
+  name: EaseToTarget
+  nameWithType: Parametrics.EaseToTarget
+  fullName: Danmokou.DMath.Functions.Parametrics.EaseToTarget
+- uid: System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
+  commentId: T:System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
   parent: System
   definition: System.Func`2
-  name: Func<TEx<Single>, TEx<Single>>
-  nameWithType: Func<TEx<Single>, TEx<Single>>
-  fullName: System.Func<TEx<System.Single>, TEx<System.Single>>
-  nameWithType.vb: Func(Of TEx(Of Single), TEx(Of Single))
-  fullName.vb: System.Func(Of TEx(Of System.Single), TEx(Of System.Single))
-  name.vb: Func(Of TEx(Of Single), TEx(Of Single))
+  name: Func<TExArgCtx, TEx<Func<Single, Single>>>
+  nameWithType: Func<TExArgCtx, TEx<Func<Single, Single>>>
+  fullName: System.Func<TExArgCtx, TEx<System.Func<System.Single, System.Single>>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of Func(Of Single, Single)))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of System.Func(Of System.Single, System.Single)))
+  name.vb: Func(Of TExArgCtx, TEx(Of Func(Of Single, Single)))
   spec.csharp:
   - uid: System.Func`2
     name: Func
@@ -2071,22 +2165,11 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Single
-    name: Single
-    nameWithType: Single
-    fullName: System.Single
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: ', '
     nameWithType: ', '
     fullName: ', '
@@ -2098,11 +2181,30 @@ references:
   - name: <
     nameWithType: <
     fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Single
     name: Single
     nameWithType: Single
     fullName: System.Single
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -2118,22 +2220,11 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Single
-    name: Single
-    nameWithType: Single
-    fullName: System.Single
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
   - name: ', '
     nameWithType: ', '
     fullName: ', '
@@ -2145,11 +2236,30 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Single
     name: Single
     nameWithType: Single
     fullName: System.Single
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -2204,71 +2314,6 @@ references:
   - name: TResult
     nameWithType: TResult
     fullName: TResult
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Danmokou.DMath.Functions.Parametrics.EaseToTarget*
-  commentId: Overload:Danmokou.DMath.Functions.Parametrics.EaseToTarget
-  name: EaseToTarget
-  nameWithType: Parametrics.EaseToTarget
-  fullName: Danmokou.DMath.Functions.Parametrics.EaseToTarget
-- uid: System.Func{tfloat,tfloat}
-  commentId: T:System.Func{tfloat,tfloat}
-  parent: System
-  definition: System.Func`2
-  name: Func<tfloat, tfloat>
-  nameWithType: Func<tfloat, tfloat>
-  fullName: System.Func<tfloat, tfloat>
-  nameWithType.vb: Func(Of tfloat, tfloat)
-  fullName.vb: System.Func(Of tfloat, tfloat)
-  name.vb: Func(Of tfloat, tfloat)
-  spec.csharp:
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Func`2
-    name: Func
-    nameWithType: Func
-    fullName: System.Func
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
-    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

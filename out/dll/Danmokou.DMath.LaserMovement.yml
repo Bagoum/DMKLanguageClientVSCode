@@ -12,6 +12,7 @@ items:
   - Danmokou.DMath.LaserMovement.FlipX
   - Danmokou.DMath.LaserMovement.flipY
   - Danmokou.DMath.LaserMovement.FlipY
+  - Danmokou.DMath.LaserMovement.HasMovingRotation
   - Danmokou.DMath.LaserMovement.isSimple
   - Danmokou.DMath.LaserMovement.ResetFlip
   - Danmokou.DMath.LaserMovement.rootPos
@@ -28,7 +29,7 @@ items:
   source:
     id: LaserMovement
     path: ''
-    startLine: 7506
+    startLine: 7727
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -64,7 +65,7 @@ items:
   source:
     id: cos_rot
     path: ''
-    startLine: 7510
+    startLine: 7731
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -93,7 +94,7 @@ items:
   source:
     id: sin_rot
     path: ''
-    startLine: 7512
+    startLine: 7733
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -122,7 +123,7 @@ items:
   source:
     id: rootPos
     path: ''
-    startLine: 7514
+    startLine: 7735
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -135,6 +136,38 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: Danmokou.DMath.LaserMovement.HasMovingRotation
+  commentId: P:Danmokou.DMath.LaserMovement.HasMovingRotation
+  id: HasMovingRotation
+  parent: Danmokou.DMath.LaserMovement
+  langs:
+  - csharp
+  - vb
+  name: HasMovingRotation
+  nameWithType: LaserMovement.HasMovingRotation
+  fullName: Danmokou.DMath.LaserMovement.HasMovingRotation
+  type: Property
+  source:
+    id: HasMovingRotation
+    path: ''
+    startLine: 7738
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public readonly bool HasMovingRotation { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasMovingRotation As Boolean
+  overload: Danmokou.DMath.LaserMovement.HasMovingRotation*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: Danmokou.DMath.LaserMovement.flipX
   commentId: F:Danmokou.DMath.LaserMovement.flipX
   id: flipX
@@ -149,7 +182,7 @@ items:
   source:
     id: flipX
     path: ''
-    startLine: 7517
+    startLine: 7739
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -176,7 +209,7 @@ items:
   source:
     id: flipY
     path: ''
-    startLine: 7518
+    startLine: 7740
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -203,7 +236,7 @@ items:
   source:
     id: isSimple
     path: ''
-    startLine: 7521
+    startLine: 7743
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -232,7 +265,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7523
+    startLine: 7745
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -265,7 +298,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7542
+    startLine: 7764
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -300,7 +333,7 @@ items:
   source:
     id: Update
     path: ''
-    startLine: 7556
+    startLine: 7778
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -338,7 +371,7 @@ items:
   source:
     id: RotationDeg
     path: ''
-    startLine: 7573
+    startLine: 7795
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -369,7 +402,7 @@ items:
   source:
     id: FlipX
     path: ''
-    startLine: 7576
+    startLine: 7798
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -395,7 +428,7 @@ items:
   source:
     id: FlipY
     path: ''
-    startLine: 7581
+    startLine: 7803
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -421,7 +454,7 @@ items:
   source:
     id: ResetFlip
     path: ''
-    startLine: 7585
+    startLine: 7807
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -719,6 +752,11 @@ references:
   name: Vector2
   nameWithType: Vector2
   fullName: Vector2
+- uid: Danmokou.DMath.LaserMovement.HasMovingRotation*
+  commentId: Overload:Danmokou.DMath.LaserMovement.HasMovingRotation
+  name: HasMovingRotation
+  nameWithType: LaserMovement.HasMovingRotation
+  fullName: Danmokou.DMath.LaserMovement.HasMovingRotation
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System

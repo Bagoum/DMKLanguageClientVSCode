@@ -19,7 +19,7 @@ items:
   source:
     id: FixedDifficulty
     path: ''
-    startLine: 1166
+    startLine: 1398
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -46,7 +46,7 @@ items:
   source:
     id: Easy
     path: ''
-    startLine: 1167
+    startLine: 1399
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -74,7 +74,7 @@ items:
   source:
     id: Normal
     path: ''
-    startLine: 1168
+    startLine: 1400
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -102,7 +102,7 @@ items:
   source:
     id: Hard
     path: ''
-    startLine: 1169
+    startLine: 1401
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -130,7 +130,7 @@ items:
   source:
     id: Lunatic
     path: ''
-    startLine: 1170
+    startLine: 1402
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

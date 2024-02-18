@@ -7,17 +7,16 @@ items:
   - Danmokou.DMath.BPRV2
   - Danmokou.DMath.BPY
   - Danmokou.DMath.CoordF
+  - Danmokou.DMath.ErasedGCXF
+  - Danmokou.DMath.ErasedParametric
   - Danmokou.DMath.GCXF`1
-  - Danmokou.DMath.GCXU
-  - Danmokou.DMath.GCXU`1
   - Danmokou.DMath.LaserMovement
   - Danmokou.DMath.LimitedTimeMovement
-  - Danmokou.DMath.LocationHelpers
   - Danmokou.DMath.LPred
   - Danmokou.DMath.LVTP
   - Danmokou.DMath.Movement
   - Danmokou.DMath.ParametricInfo
-  - Danmokou.DMath.PICustomData
+  - Danmokou.DMath.PIData
   - Danmokou.DMath.Pred
   - Danmokou.DMath.RootedVTP
   - Danmokou.DMath.SBCF
@@ -38,17 +37,12 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: Danmokou.DMath.LocationHelpers
-  commentId: T:Danmokou.DMath.LocationHelpers
-  name: LocationHelpers
-  nameWithType: LocationHelpers
-  fullName: Danmokou.DMath.LocationHelpers
-- uid: Danmokou.DMath.PICustomData
-  commentId: T:Danmokou.DMath.PICustomData
+- uid: Danmokou.DMath.PIData
+  commentId: T:Danmokou.DMath.PIData
   parent: Danmokou.DMath
-  name: PICustomData
-  nameWithType: PICustomData
-  fullName: Danmokou.DMath.PICustomData
+  name: PIData
+  nameWithType: PIData
+  fullName: Danmokou.DMath.PIData
 - uid: Danmokou.DMath.ParametricInfo
   commentId: T:Danmokou.DMath.ParametricInfo
   parent: Danmokou.DMath
@@ -162,48 +156,16 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Danmokou.DMath.GCXU
-  commentId: T:Danmokou.DMath.GCXU
-  parent: Danmokou.DMath
-  name: GCXU
-  nameWithType: GCXU
-  fullName: Danmokou.DMath.GCXU
-- uid: Danmokou.DMath.GCXU`1
-  commentId: T:Danmokou.DMath.GCXU`1
-  name: GCXU<Fn>
-  nameWithType: GCXU<Fn>
-  fullName: Danmokou.DMath.GCXU<Fn>
-  nameWithType.vb: GCXU(Of Fn)
-  fullName.vb: Danmokou.DMath.GCXU(Of Fn)
-  name.vb: GCXU(Of Fn)
-  spec.csharp:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: Fn
-    nameWithType: Fn
-    fullName: Fn
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: Fn
-    nameWithType: Fn
-    fullName: Fn
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: Danmokou.DMath.ErasedGCXF
+  commentId: T:Danmokou.DMath.ErasedGCXF
+  name: ErasedGCXF
+  nameWithType: ErasedGCXF
+  fullName: Danmokou.DMath.ErasedGCXF
+- uid: Danmokou.DMath.ErasedParametric
+  commentId: T:Danmokou.DMath.ErasedParametric
+  name: ErasedParametric
+  nameWithType: ErasedParametric
+  fullName: Danmokou.DMath.ErasedParametric
 - uid: Danmokou.DMath.SBCF
   commentId: T:Danmokou.DMath.SBCF
   name: SBCF

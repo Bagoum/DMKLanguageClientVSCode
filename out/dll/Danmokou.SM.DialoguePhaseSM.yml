@@ -5,7 +5,7 @@ items:
   id: DialoguePhaseSM
   parent: Danmokou.SM
   children:
-  - Danmokou.SM.DialoguePhaseSM.#ctor(Danmokou.SM.PhaseProperties,System.String)
+  - Danmokou.SM.DialoguePhaseSM.#ctor(System.String,Danmokou.SM.PhaseProperties)
   langs:
   - csharp
   - vb
@@ -16,7 +16,7 @@ items:
   source:
     id: DialoguePhaseSM
     path: ''
-    startLine: 13707
+    startLine: 14306
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -49,32 +49,32 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Danmokou.SM.DialoguePhaseSM.#ctor(Danmokou.SM.PhaseProperties,System.String)
-  commentId: M:Danmokou.SM.DialoguePhaseSM.#ctor(Danmokou.SM.PhaseProperties,System.String)
-  id: '#ctor(Danmokou.SM.PhaseProperties,System.String)'
+- uid: Danmokou.SM.DialoguePhaseSM.#ctor(System.String,Danmokou.SM.PhaseProperties)
+  commentId: M:Danmokou.SM.DialoguePhaseSM.#ctor(System.String,Danmokou.SM.PhaseProperties)
+  id: '#ctor(System.String,Danmokou.SM.PhaseProperties)'
   parent: Danmokou.SM.DialoguePhaseSM
   langs:
   - csharp
   - vb
-  name: DialoguePhaseSM(PhaseProperties, String)
-  nameWithType: DialoguePhaseSM.DialoguePhaseSM(PhaseProperties, String)
-  fullName: Danmokou.SM.DialoguePhaseSM.DialoguePhaseSM(Danmokou.SM.PhaseProperties, System.String)
+  name: DialoguePhaseSM(String, PhaseProperties)
+  nameWithType: DialoguePhaseSM.DialoguePhaseSM(String, PhaseProperties)
+  fullName: Danmokou.SM.DialoguePhaseSM.DialoguePhaseSM(System.String, Danmokou.SM.PhaseProperties)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 13708
+    startLine: 14307
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public DialoguePhaseSM(PhaseProperties props, string file)
+    content: public DialoguePhaseSM(string file, PhaseProperties props)
     parameters:
-    - id: props
-      type: Danmokou.SM.PhaseProperties
     - id: file
       type: System.String
-    content.vb: Public Sub New(props As PhaseProperties, file As String)
+    - id: props
+      type: Danmokou.SM.PhaseProperties
+    content.vb: Public Sub New(file As String, props As PhaseProperties)
   overload: Danmokou.SM.DialoguePhaseSM.#ctor*
   modifiers.csharp:
   - public
@@ -747,12 +747,6 @@ references:
   name: DialoguePhaseSM
   nameWithType: DialoguePhaseSM.DialoguePhaseSM
   fullName: Danmokou.SM.DialoguePhaseSM.DialoguePhaseSM
-- uid: Danmokou.SM.PhaseProperties
-  commentId: T:Danmokou.SM.PhaseProperties
-  parent: Danmokou.SM
-  name: PhaseProperties
-  nameWithType: PhaseProperties
-  fullName: Danmokou.SM.PhaseProperties
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -760,3 +754,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: Danmokou.SM.PhaseProperties
+  commentId: T:Danmokou.SM.PhaseProperties
+  parent: Danmokou.SM
+  name: PhaseProperties
+  nameWithType: PhaseProperties
+  fullName: Danmokou.SM.PhaseProperties

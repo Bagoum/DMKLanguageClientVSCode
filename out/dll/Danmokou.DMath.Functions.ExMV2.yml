@@ -7,7 +7,7 @@ items:
   children:
   - Danmokou.DMath.Functions.ExMV2.Circle(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMV2.DCircle(tfloat,tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMV2.MulEntry(ev2,ev2)
+  - Danmokou.DMath.Functions.ExMV2.MulEntry(tv2,tv2)
   langs:
   - csharp
   - vb
@@ -18,7 +18,7 @@ items:
   source:
     id: ExMV2
     path: ''
-    startLine: 8167
+    startLine: 8402
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -58,7 +58,7 @@ items:
   source:
     id: Circle
     path: ''
-    startLine: 8170
+    startLine: 8405
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -95,7 +95,7 @@ items:
   source:
     id: DCircle
     path: ''
-    startLine: 8173
+    startLine: 8408
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -118,34 +118,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMV2.MulEntry(ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExMV2.MulEntry(ev2,ev2)
-  id: MulEntry(ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExMV2.MulEntry(tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExMV2.MulEntry(tv2,tv2)
+  id: MulEntry(tv2,tv2)
   parent: Danmokou.DMath.Functions.ExMV2
   langs:
   - csharp
   - vb
-  name: MulEntry(ev2, ev2)
-  nameWithType: ExMV2.MulEntry(ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExMV2.MulEntry(ev2, ev2)
+  name: MulEntry(tv2, tv2)
+  nameWithType: ExMV2.MulEntry(tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExMV2.MulEntry(tv2, tv2)
   type: Method
   source:
     id: MulEntry
     path: ''
-    startLine: 8183
+    startLine: 8418
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static tv2 MulEntry(ev2 v1, ev2 v2)
+    content: public static tv2 MulEntry(tv2 v1, tv2 v2)
     parameters:
     - id: v1
-      type: ev2
+      type: tv2
     - id: v2
-      type: ev2
+      type: tv2
     return:
       type: tv2
-    content.vb: Public Shared Function MulEntry(v1 As ev2, v2 As ev2) As tv2
+    content.vb: Public Shared Function MulEntry(v1 As tv2, v2 As tv2) As tv2
   overload: Danmokou.DMath.Functions.ExMV2.MulEntry*
   modifiers.csharp:
   - public
@@ -476,8 +476,3 @@ references:
   name: MulEntry
   nameWithType: ExMV2.MulEntry
   fullName: Danmokou.DMath.Functions.ExMV2.MulEntry
-- uid: ev2
-  isExternal: true
-  name: ev2
-  nameWithType: ev2
-  fullName: ev2

@@ -6,6 +6,7 @@ items:
   parent: Danmokou.DMath.Functions
   children:
   - Danmokou.DMath.Functions.ExM.__Combine(System.Int32,System.Int32,System.Int32)
+  - Danmokou.DMath.Functions.ExM._constNamedTimer(System.String)
   - Danmokou.DMath.Functions.ExM.Abs(tfloat)
   - Danmokou.DMath.Functions.ExM.ACos(tfloat)
   - Danmokou.DMath.Functions.ExM.ACosR(tfloat)
@@ -15,17 +16,20 @@ items:
   - Danmokou.DMath.Functions.ExM.AddNVA(trv2,tv2,tfloat)
   - Danmokou.DMath.Functions.ExM.AddRV(trv2,tv2)
   - Danmokou.DMath.Functions.ExM.AddRVA(trv2,tv3)
-  - Danmokou.DMath.Functions.ExM.ATan(ev2)
+  - Danmokou.DMath.Functions.ExM.ArrayIndex``1(TEx{``0[]},TEx{System.Int32})
+  - Danmokou.DMath.Functions.ExM.ATan(tv2)
   - Danmokou.DMath.Functions.ExM.ATan2(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.ATanR(ev2)
+  - Danmokou.DMath.Functions.ExM.ATanR(tv2)
   - Danmokou.DMath.Functions.ExM.ATanR2(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.BlockFloor(efloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.BlockRound(efloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.BounceX(tfloat,ev2,ev2)
-  - Danmokou.DMath.Functions.ExM.BounceY(tfloat,ev2,ev2)
+  - Danmokou.DMath.Functions.ExM.BlockFloor(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.BlockRound(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.BounceX(tfloat,tv2,tv2)
+  - Danmokou.DMath.Functions.ExM.BounceY(tfloat,tv2,tv2)
   - Danmokou.DMath.Functions.ExM.Ceil(tfloat)
   - Danmokou.DMath.Functions.ExM.Clamp(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Clamp01(tfloat)
+  - Danmokou.DMath.Functions.ExM.Colliding(System.Func{TExArgCtx,TEx{Bullet}})
+  - Danmokou.DMath.Functions.ExM.CollidingT(System.Func{TExArgCtx,TEx{Bullet}})
   - Danmokou.DMath.Functions.ExM.Complement(tfloat)
   - Danmokou.DMath.Functions.ExM.Cos(tfloat)
   - Danmokou.DMath.Functions.ExM.CosDeg(tfloat)
@@ -35,14 +39,14 @@ items:
   - Danmokou.DMath.Functions.ExM.DCosine(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Decrement(tfloat)
   - Danmokou.DMath.Functions.ExM.DecrementSubtract(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.DegDiff(ev2,ev2)
-  - Danmokou.DMath.Functions.ExM.DegIntoRange(efloat)
+  - Danmokou.DMath.Functions.ExM.DegDiff(tv2,tv2)
+  - Danmokou.DMath.Functions.ExM.DegIntoRange(tfloat)
   - Danmokou.DMath.Functions.ExM.DegRad(tfloat)
   - Danmokou.DMath.Functions.ExM.dFloor(Ex)
   - Danmokou.DMath.Functions.ExM.Diff(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Dist(tv2,tv2)
   - Danmokou.DMath.Functions.ExM.DistToWall(tv2,tv2)
-  - Danmokou.DMath.Functions.ExM.Div(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.Div``1(TEx{``0},tfloat)
   - Danmokou.DMath.Functions.ExM.DivInv(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.DSine(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Exp(tfloat)
@@ -51,46 +55,53 @@ items:
   - Danmokou.DMath.Functions.ExM.exPM(Ex,Ex,Ex)
   - Danmokou.DMath.Functions.ExM.FDiv(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Floor(tfloat)
-  - Danmokou.DMath.Functions.ExM.Height(tfloat,tfloat,tfloat,efloat)
-  - Danmokou.DMath.Functions.ExM.HighCut(tfloat,efloat)
-  - Danmokou.DMath.Functions.ExM.HighPass(tfloat,efloat)
+  - Danmokou.DMath.Functions.ExM.FrameNumber
+  - Danmokou.DMath.Functions.ExM.FromID(System.String)
+  - Danmokou.DMath.Functions.ExM.Height(tfloat,tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.HighCut(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.HighPass(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.HPi
-  - Danmokou.DMath.Functions.ExM.HPRatio(BEHPointer)
+  - Danmokou.DMath.Functions.ExM.HPRatio(TEx{BehaviorEntity})
   - Danmokou.DMath.Functions.ExM.IfPowerGTP``1(System.Func{TExArgCtx,TEx{``0}})
   - Danmokou.DMath.Functions.ExM.Increment(tfloat)
   - Danmokou.DMath.Functions.ExM.Instance
   - Danmokou.DMath.Functions.ExM.Is1CC
-  - Danmokou.DMath.Functions.ExM.LaserColliding(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
   - Danmokou.DMath.Functions.ExM.LaserLastActiveT(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
-  - Danmokou.DMath.Functions.ExM.LBEH(BEHPointer)
+  - Danmokou.DMath.Functions.ExM.LBEH(TEx{BehaviorEntity})
+  - Danmokou.DMath.Functions.ExM.Let``1(ReflectEx.Alias[],System.Func{TExArgCtx,TEx{``0}})
+  - Danmokou.DMath.Functions.ExM.LetBDSL2``2(System.ValueTuple{System.String,UncompiledCode{``1}}[],System.Func{TExArgCtx,TEx{``0}})
   - Danmokou.DMath.Functions.ExM.LetFloats``1(System.ValueTuple{System.String,ExBPY}[],System.Func{TExArgCtx,TEx{``0}})
   - Danmokou.DMath.Functions.ExM.LetV2s``1(System.ValueTuple{System.String,ExTP}[],System.Func{TExArgCtx,TEx{``0}})
-  - Danmokou.DMath.Functions.ExM.Limit(efloat,efloat)
+  - Danmokou.DMath.Functions.ExM.Limit(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Linear(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Ln(tfloat)
-  - Danmokou.DMath.Functions.ExM.Logsum(efloat,tfloat[])
+  - Danmokou.DMath.Functions.ExM.Logsum(ExBPY,UncompiledCode{System.Single}[])
   - Danmokou.DMath.Functions.ExM.LPlayer
+  - Danmokou.DMath.Functions.ExM.LPlayerTrue
   - Danmokou.DMath.Functions.ExM.Mag(tv2)
   - Danmokou.DMath.Functions.ExM.Mag2(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Max(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.MaxA(efloat,efloat)
+  - Danmokou.DMath.Functions.ExM.MaxA(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Min(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.MinA(efloat,efloat)
+  - Danmokou.DMath.Functions.ExM.MinA(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Mine``1
   - Danmokou.DMath.Functions.ExM.Mul``1(tfloat,TEx{``0})
   - Danmokou.DMath.Functions.ExM.MulComplement(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.MulInt(TEx{System.Int32},TEx{System.Int32})
+  - Danmokou.DMath.Functions.ExM.MulRev``1(TEx{``0},tfloat)
   - Danmokou.DMath.Functions.ExM.Neg(tfloat)
-  - Danmokou.DMath.Functions.ExM.Norm(ev2)
-  - Danmokou.DMath.Functions.ExM.Norm3(ev3)
-  - Danmokou.DMath.Functions.ExM.NPow(efloat,efloat)
-  - Danmokou.DMath.Functions.ExM.Opacity(efloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.Negate``1(TEx{``0})
+  - Danmokou.DMath.Functions.ExM.Norm(tv2)
+  - Danmokou.DMath.Functions.ExM.Norm3(tv3)
+  - Danmokou.DMath.Functions.ExM.NPow(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.Opacity(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.OptionAngle(System.Func{TExArgCtx,TEx{FireOption}})
   - Danmokou.DMath.Functions.ExM.OptionLocation(System.Func{TExArgCtx,TEx{FireOption}})
   - Danmokou.DMath.Functions.ExM.P1(Ex)
   - Danmokou.DMath.Functions.ExM.P1M(System.Int32,Ex)
   - Danmokou.DMath.Functions.ExM.P2(Ex)
   - Danmokou.DMath.Functions.ExM.P2M(System.Int32,Ex)
-  - Danmokou.DMath.Functions.ExM.PhotosTaken(BEHPointer)
+  - Danmokou.DMath.Functions.ExM.PhotosTaken(TEx{BehaviorEntity})
   - Danmokou.DMath.Functions.ExM.Pi
   - Danmokou.DMath.Functions.ExM.PlayerFiringFocusT(System.Func{TExArgCtx,TEx{PlayerController}})
   - Danmokou.DMath.Functions.ExM.PlayerFiringFreeT(System.Func{TExArgCtx,TEx{PlayerController}})
@@ -107,21 +118,22 @@ items:
   - Danmokou.DMath.Functions.ExM.PlayerUnFiringFreeT(System.Func{TExArgCtx,TEx{PlayerController}})
   - Danmokou.DMath.Functions.ExM.PlayerUnFiringT(System.Func{TExArgCtx,TEx{PlayerController}})
   - Danmokou.DMath.Functions.ExM.PM(System.Int32,System.Int32,Ex)
-  - Danmokou.DMath.Functions.ExM.Pow(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.Pow``1(TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExM.Power
   - Danmokou.DMath.Functions.ExM.PowerF
   - Danmokou.DMath.Functions.ExM.PowerIndex
   - Danmokou.DMath.Functions.ExM.PowSub(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.RadDeg(tfloat)
-  - Danmokou.DMath.Functions.ExM.RadDiff(ev2,ev2)
-  - Danmokou.DMath.Functions.ExM.RadDiffCCW(ev2,ev2)
-  - Danmokou.DMath.Functions.ExM.RadDiffCW(ev2,ev2)
-  - Danmokou.DMath.Functions.ExM.RadIntoRange(efloat)
-  - Danmokou.DMath.Functions.ExM.RadToNeg(efloat)
-  - Danmokou.DMath.Functions.ExM.RadToPos(efloat)
+  - Danmokou.DMath.Functions.ExM.RadDiff(tv2,tv2)
+  - Danmokou.DMath.Functions.ExM.RadDiffCCW(tv2,tv2)
+  - Danmokou.DMath.Functions.ExM.RadDiffCW(tv2,tv2)
+  - Danmokou.DMath.Functions.ExM.RadIntoRange(tfloat)
+  - Danmokou.DMath.Functions.ExM.RadToNeg(tfloat)
+  - Danmokou.DMath.Functions.ExM.RadToPos(tfloat)
   - Danmokou.DMath.Functions.ExM.Rand(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Randpm1
   - Danmokou.DMath.Functions.ExM.Reference``1(System.String)
+  - Danmokou.DMath.Functions.ExM.ReferenceLet``1(System.String)
   - Danmokou.DMath.Functions.ExM.ReferenceSafe``1(System.String,System.Func{TExArgCtx,TEx{``0}})
   - Danmokou.DMath.Functions.ExM.Reg2Star(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Reg2StarR(tfloat,tfloat,tfloat)
@@ -137,16 +149,17 @@ items:
   - Danmokou.DMath.Functions.ExM.RV2NY(trv2)
   - Danmokou.DMath.Functions.ExM.RV2RX(trv2)
   - Danmokou.DMath.Functions.ExM.RV2RY(trv2)
-  - Danmokou.DMath.Functions.ExM.Sign(efloat)
+  - Danmokou.DMath.Functions.ExM.Set``1(ReflectEx.Alias[],System.Func{TExArgCtx,TEx{``0}})
+  - Danmokou.DMath.Functions.ExM.Sign(tfloat)
   - Danmokou.DMath.Functions.ExM.Sin(tfloat)
   - Danmokou.DMath.Functions.ExM.SinDeg(tfloat)
   - Danmokou.DMath.Functions.ExM.Sine(tfloat,tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.Softmax(efloat,tfloat[])
+  - Danmokou.DMath.Functions.ExM.Softmax(ExBPY,UncompiledCode{System.Single}[])
   - Danmokou.DMath.Functions.ExM.Sqr(tfloat)
   - Danmokou.DMath.Functions.ExM.SqrDist(tv2,tv2)
-  - Danmokou.DMath.Functions.ExM.SqrMag(ev2)
-  - Danmokou.DMath.Functions.ExM.SqrMag2(efloat,efloat)
-  - Danmokou.DMath.Functions.ExM.SqrMag3(efloat,efloat,efloat)
+  - Danmokou.DMath.Functions.ExM.SqrMag(tv2)
+  - Danmokou.DMath.Functions.ExM.SqrMag2(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.SqrMag3(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Sqrt(tfloat)
   - Danmokou.DMath.Functions.ExM.SRand(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.SRand01(tfloat)
@@ -154,19 +167,20 @@ items:
   - Danmokou.DMath.Functions.ExM.Sub``1(TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExM.SubMax0(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Superpose``1(tfloat,TEx{``0},tfloat,TEx{``0})
-  - Danmokou.DMath.Functions.ExM.SuperposeC``1(efloat,TEx{``0},TEx{``0})
-  - Danmokou.DMath.Functions.ExM.SWing(efloat,efloat,tfloat)
-  - Danmokou.DMath.Functions.ExM.SWing2(tfloat,efloat,efloat,efloat,efloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.SuperposeC``1(tfloat,TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExM.SWing(tfloat,tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.SWing2(tfloat,tfloat,tfloat,tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Tan(tfloat)
   - Danmokou.DMath.Functions.ExM.Tau
-  - Danmokou.DMath.Functions.ExM.Timer(ETime.Timer)
-  - Danmokou.DMath.Functions.ExM.TimerSec(ETime.Timer)
+  - Danmokou.DMath.Functions.ExM.Timer(TEx{ETime.Timer})
+  - Danmokou.DMath.Functions.ExM.TimerSec(TEx{ETime.Timer})
   - Danmokou.DMath.Functions.ExM.ToWall(tv2,tv2)
   - Danmokou.DMath.Functions.ExM.Twau
+  - Danmokou.DMath.Functions.ExM.UnCollidingT(System.Func{TExArgCtx,TEx{Bullet}})
   - Danmokou.DMath.Functions.ExM.V2X(tv2)
   - Danmokou.DMath.Functions.ExM.V2Y(tv2)
   - Danmokou.DMath.Functions.ExM.v3Mag(tv3)
-  - Danmokou.DMath.Functions.ExM.v3SqrMag(ev3)
+  - Danmokou.DMath.Functions.ExM.v3SqrMag(tv3)
   - Danmokou.DMath.Functions.ExM.XMax
   - Danmokou.DMath.Functions.ExM.XMaxPlus1
   - Danmokou.DMath.Functions.ExM.XMin
@@ -187,7 +201,7 @@ items:
   source:
     id: ExM
     path: ''
-    startLine: 10869
+    startLine: 11338
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -227,7 +241,7 @@ items:
   source:
     id: YMin
     path: ''
-    startLine: 8613
+    startLine: 8851
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -260,7 +274,7 @@ items:
   source:
     id: YMax
     path: ''
-    startLine: 8617
+    startLine: 8856
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -292,7 +306,7 @@ items:
   source:
     id: XMin
     path: ''
-    startLine: 8622
+    startLine: 8862
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -325,7 +339,7 @@ items:
   source:
     id: XMax
     path: ''
-    startLine: 8626
+    startLine: 8867
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -357,7 +371,7 @@ items:
   source:
     id: YMinMinus1
     path: ''
-    startLine: 8631
+    startLine: 8873
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -390,7 +404,7 @@ items:
   source:
     id: YMaxPlus1
     path: ''
-    startLine: 8636
+    startLine: 8879
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -422,7 +436,7 @@ items:
   source:
     id: XMinMinus1
     path: ''
-    startLine: 8641
+    startLine: 8885
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -454,7 +468,7 @@ items:
   source:
     id: XMaxPlus1
     path: ''
-    startLine: 8647
+    startLine: 8892
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -487,7 +501,7 @@ items:
   source:
     id: XWidth
     path: ''
-    startLine: 8652
+    startLine: 8898
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -519,7 +533,7 @@ items:
   source:
     id: YHeight
     path: ''
-    startLine: 8656
+    startLine: 8903
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -551,7 +565,7 @@ items:
   source:
     id: LPlayer
     path: ''
-    startLine: 8665
+    startLine: 8909
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -570,41 +584,77 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.LBEH(BEHPointer)
-  commentId: M:Danmokou.DMath.Functions.ExM.LBEH(BEHPointer)
-  id: LBEH(BEHPointer)
+- uid: Danmokou.DMath.Functions.ExM.LPlayerTrue
+  commentId: M:Danmokou.DMath.Functions.ExM.LPlayerTrue
+  id: LPlayerTrue
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: LBEH(BEHPointer)
-  nameWithType: ExM.LBEH(BEHPointer)
-  fullName: Danmokou.DMath.Functions.ExM.LBEH(BEHPointer)
+  name: LPlayerTrue()
+  nameWithType: ExM.LPlayerTrue()
+  fullName: Danmokou.DMath.Functions.ExM.LPlayerTrue()
   type: Method
   source:
-    id: LBEH
+    id: LPlayerTrue
     path: ''
-    startLine: 8670
+    startLine: 8916
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nGet the location of the BehaviorEntity with the given ID.\n"
+  summary: "\nGet the true location of the player. Use this for positioning player shots.\n"
   example: []
   syntax:
-    content: public static TEx<Vector2> LBEH(BEHPointer beh)
-    parameters:
-    - id: beh
-      type: BEHPointer
+    content: public static TEx<Vector2> LPlayerTrue()
     return:
       type: TEx{Vector2}
-    content.vb: Public Shared Function LBEH(beh As BEHPointer) As TEx(Of Vector2)
-  overload: Danmokou.DMath.Functions.ExM.LBEH*
+      description: ''
+    content.vb: Public Shared Function LPlayerTrue As TEx(Of Vector2)
+  overload: Danmokou.DMath.Functions.ExM.LPlayerTrue*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+- uid: Danmokou.DMath.Functions.ExM.LBEH(TEx{BehaviorEntity})
+  commentId: M:Danmokou.DMath.Functions.ExM.LBEH(TEx{BehaviorEntity})
+  id: LBEH(TEx{BehaviorEntity})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: LBEH(TEx<BehaviorEntity>)
+  nameWithType: ExM.LBEH(TEx<BehaviorEntity>)
+  fullName: Danmokou.DMath.Functions.ExM.LBEH(TEx<BehaviorEntity>)
+  type: Method
+  source:
+    id: LBEH
+    path: ''
+    startLine: 8922
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the location of the BehaviorEntity.\n"
+  example: []
+  syntax:
+    content: public static TEx<Vector2> LBEH(TEx<BehaviorEntity> beh)
+    parameters:
+    - id: beh
+      type: TEx{BehaviorEntity}
+    return:
+      type: TEx{Vector2}
+    content.vb: Public Shared Function LBEH(beh As TEx(Of BehaviorEntity)) As TEx(Of Vector2)
+  overload: Danmokou.DMath.Functions.ExM.LBEH*
+  nameWithType.vb: ExM.LBEH(TEx(Of BehaviorEntity))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.LBEH(TEx(Of BehaviorEntity))
+  name.vb: LBEH(TEx(Of BehaviorEntity))
 - uid: Danmokou.DMath.Functions.ExM.DistToWall(tv2,tv2)
   commentId: M:Danmokou.DMath.Functions.ExM.DistToWall(tv2,tv2)
   id: DistToWall(tv2,tv2)
@@ -619,7 +669,7 @@ items:
   source:
     id: DistToWall
     path: ''
-    startLine: 8677
+    startLine: 8929
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -654,7 +704,7 @@ items:
   source:
     id: ToWall
     path: ''
-    startLine: 8678
+    startLine: 8930
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -689,7 +739,7 @@ items:
   source:
     id: Reference
     path: ''
-    startLine: 10256
+    startLine: 10555
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -716,6 +766,46 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExM.Reference(Of T)(System.String)
   name.vb: Reference(Of T)(String)
+- uid: Danmokou.DMath.Functions.ExM.ReferenceLet``1(System.String)
+  commentId: M:Danmokou.DMath.Functions.ExM.ReferenceLet``1(System.String)
+  id: ReferenceLet``1(System.String)
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: ReferenceLet<T>(String)
+  nameWithType: ExM.ReferenceLet<T>(String)
+  fullName: Danmokou.DMath.Functions.ExM.ReferenceLet<T>(System.String)
+  type: Method
+  source:
+    id: ReferenceLet
+    path: ''
+    startLine: 10562
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReference a value defined in a let function.\n"
+  example: []
+  syntax:
+    content: public static Func<TExArgCtx, TEx<T>> ReferenceLet<T>(string alias)
+    parameters:
+    - id: alias
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    content.vb: Public Shared Function ReferenceLet(Of T)(alias As String) As Func(Of TExArgCtx, TEx(Of T))
+  overload: Danmokou.DMath.Functions.ExM.ReferenceLet*
+  nameWithType.vb: ExM.ReferenceLet(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.ReferenceLet(Of T)(System.String)
+  name.vb: ReferenceLet(Of T)(String)
 - uid: Danmokou.DMath.Functions.ExM.ReferenceSafe``1(System.String,System.Func{TExArgCtx,TEx{``0}})
   commentId: M:Danmokou.DMath.Functions.ExM.ReferenceSafe``1(System.String,System.Func{TExArgCtx,TEx{``0}})
   id: ReferenceSafe``1(System.String,System.Func{TExArgCtx,TEx{``0}})
@@ -730,7 +820,7 @@ items:
   source:
     id: ReferenceSafe
     path: ''
-    startLine: 10263
+    startLine: 10571
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -772,7 +862,7 @@ items:
   source:
     id: RetrieveHoisted
     path: ''
-    startLine: 10272
+    startLine: 10581
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -816,7 +906,7 @@ items:
   source:
     id: RetrieveHoisted0
     path: ''
-    startLine: 10280
+    startLine: 10590
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -843,6 +933,51 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExM.RetrieveHoisted0(Of T)(ReflectEx.Hoist(Of T))
   name.vb: RetrieveHoisted0(Of T)(ReflectEx.Hoist(Of T))
+- uid: Danmokou.DMath.Functions.ExM.LetBDSL2``2(System.ValueTuple{System.String,UncompiledCode{``1}}[],System.Func{TExArgCtx,TEx{``0}})
+  commentId: M:Danmokou.DMath.Functions.ExM.LetBDSL2``2(System.ValueTuple{System.String,UncompiledCode{``1}}[],System.Func{TExArgCtx,TEx{``0}})
+  id: LetBDSL2``2(System.ValueTuple{System.String,UncompiledCode{``1}}[],System.Func{TExArgCtx,TEx{``0}})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: LetBDSL2<T, V>((String, UncompiledCode<V>)[], Func<TExArgCtx, TEx<T>>)
+  nameWithType: ExM.LetBDSL2<T, V>((String, UncompiledCode<V>)[], Func<TExArgCtx, TEx<T>>)
+  fullName: Danmokou.DMath.Functions.ExM.LetBDSL2<T, V>(System.ValueTuple<System.String, UncompiledCode<V>>[], System.Func<TExArgCtx, TEx<T>>)
+  type: Method
+  source:
+    id: LetBDSL2
+    path: ''
+    startLine: 10601
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nAssign local variables that can be repeatedly used without reexecution via the ReferenceLet (rflet) function.\n<br />Note: this is only for backwards compatibility and is superseded by block variable assignment.\n"
+  example: []
+  syntax:
+    content: public static Func<TExArgCtx, TEx<T>> LetBDSL2<T, V>((string, UncompiledCode<V>)[] aliases, Func<TExArgCtx, TEx<T>> inner)
+    parameters:
+    - id: aliases
+      type: System.ValueTuple{System.String,UncompiledCode{{V}}}[]
+      description: List of each variable and its assigned vector value
+    - id: inner
+      type: System.Func{TExArgCtx,TEx{{T}}}
+      description: Code to execute within the scope of the variables
+    typeParameters:
+    - id: T
+    - id: V
+    return:
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    content.vb: Public Shared Function LetBDSL2(Of T, V)(aliases As(String, UncompiledCode(Of V))(Of String , UncompiledCode(Of V))(), inner As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+  overload: Danmokou.DMath.Functions.ExM.LetBDSL2*
+  nameWithType.vb: ExM.LetBDSL2(Of T, V)((String, UncompiledCode(Of V))(Of String, UncompiledCode(Of V))(), Func(Of TExArgCtx, TEx(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.LetBDSL2(Of T, V)(System.ValueTuple(Of System.String, UncompiledCode(Of V))(), System.Func(Of TExArgCtx, TEx(Of T)))
+  name.vb: LetBDSL2(Of T, V)((String, UncompiledCode(Of V))(Of String, UncompiledCode(Of V))(), Func(Of TExArgCtx, TEx(Of T)))
 - uid: Danmokou.DMath.Functions.ExM.LetFloats``1(System.ValueTuple{System.String,ExBPY}[],System.Func{TExArgCtx,TEx{``0}})
   commentId: M:Danmokou.DMath.Functions.ExM.LetFloats``1(System.ValueTuple{System.String,ExBPY}[],System.Func{TExArgCtx,TEx{``0}})
   id: LetFloats``1(System.ValueTuple{System.String,ExBPY}[],System.Func{TExArgCtx,TEx{``0}})
@@ -857,7 +992,7 @@ items:
   source:
     id: LetFloats
     path: ''
-    startLine: 10290
+    startLine: 10611
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -901,7 +1036,7 @@ items:
   source:
     id: LetV2s
     path: ''
-    startLine: 10300
+    startLine: 10621
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -931,6 +1066,94 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExM.LetV2s(Of T)(System.ValueTuple(Of System.String, ExTP)(), System.Func(Of TExArgCtx, TEx(Of T)))
   name.vb: LetV2s(Of T)((String, ExTP)(Of String, ExTP)(), Func(Of TExArgCtx, TEx(Of T)))
+- uid: Danmokou.DMath.Functions.ExM.Let``1(ReflectEx.Alias[],System.Func{TExArgCtx,TEx{``0}})
+  commentId: M:Danmokou.DMath.Functions.ExM.Let``1(ReflectEx.Alias[],System.Func{TExArgCtx,TEx{``0}})
+  id: Let``1(ReflectEx.Alias[],System.Func{TExArgCtx,TEx{``0}})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: Let<T>(ReflectEx.Alias[], Func<TExArgCtx, TEx<T>>)
+  nameWithType: ExM.Let<T>(ReflectEx.Alias[], Func<TExArgCtx, TEx<T>>)
+  fullName: Danmokou.DMath.Functions.ExM.Let<T>(ReflectEx.Alias[], System.Func<TExArgCtx, TEx<T>>)
+  type: Method
+  source:
+    id: Let
+    path: ''
+    startLine: 10630
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nAssign local variables that can be repeatedly used without reexecution via the Reference (&amp;) function.\n"
+  example: []
+  syntax:
+    content: public static Func<TExArgCtx, TEx<T>> Let<T>(ReflectEx.Alias[] aliases, Func<TExArgCtx, TEx<T>> inner)
+    parameters:
+    - id: aliases
+      type: ReflectEx.Alias[]
+      description: List of each variable&apos;s type, name, and assigned value (eg. f myFloat 5 + t)
+    - id: inner
+      type: System.Func{TExArgCtx,TEx{{T}}}
+      description: Code to execute within the scope of the variables
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    content.vb: Public Shared Function Let(Of T)(aliases As ReflectEx.Alias(), inner As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+  overload: Danmokou.DMath.Functions.ExM.Let*
+  nameWithType.vb: ExM.Let(Of T)(ReflectEx.Alias(), Func(Of TExArgCtx, TEx(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.Let(Of T)(ReflectEx.Alias(), System.Func(Of TExArgCtx, TEx(Of T)))
+  name.vb: Let(Of T)(ReflectEx.Alias(), Func(Of TExArgCtx, TEx(Of T)))
+- uid: Danmokou.DMath.Functions.ExM.Set``1(ReflectEx.Alias[],System.Func{TExArgCtx,TEx{``0}})
+  commentId: M:Danmokou.DMath.Functions.ExM.Set``1(ReflectEx.Alias[],System.Func{TExArgCtx,TEx{``0}})
+  id: Set``1(ReflectEx.Alias[],System.Func{TExArgCtx,TEx{``0}})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: Set<T>(ReflectEx.Alias[], Func<TExArgCtx, TEx<T>>)
+  nameWithType: ExM.Set<T>(ReflectEx.Alias[], Func<TExArgCtx, TEx<T>>)
+  fullName: Danmokou.DMath.Functions.ExM.Set<T>(ReflectEx.Alias[], System.Func<TExArgCtx, TEx<T>>)
+  type: Method
+  source:
+    id: Set
+    path: ''
+    startLine: 10639
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nAssign values to the BPI firing data. The values must already exist in the <xref href=\"Danmokou.DMath.PIData\" data-throw-if-not-resolved=\"false\"></xref> context.\n"
+  example: []
+  syntax:
+    content: public static Func<TExArgCtx, TEx<T>> Set<T>(ReflectEx.Alias[] aliases, Func<TExArgCtx, TEx<T>> inner)
+    parameters:
+    - id: aliases
+      type: ReflectEx.Alias[]
+      description: List of each variable&apos;s type, name, and assigned value (eg. f myFloat 5 + t)
+    - id: inner
+      type: System.Func{TExArgCtx,TEx{{T}}}
+      description: Code to execute after values are set
+    typeParameters:
+    - id: T
+    return:
+      type: System.Func{TExArgCtx,TEx{{T}}}
+    content.vb: Public Shared Function Set(Of T)(aliases As ReflectEx.Alias(), inner As Func(Of TExArgCtx, TEx(Of T))) As Func(Of TExArgCtx, TEx(Of T))
+  overload: Danmokou.DMath.Functions.ExM.Set*
+  nameWithType.vb: ExM.Set(Of T)(ReflectEx.Alias(), Func(Of TExArgCtx, TEx(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.Set(Of T)(ReflectEx.Alias(), System.Func(Of TExArgCtx, TEx(Of T)))
+  name.vb: Set(Of T)(ReflectEx.Alias(), Func(Of TExArgCtx, TEx(Of T)))
 - uid: Danmokou.DMath.Functions.ExM.V2X(tv2)
   commentId: M:Danmokou.DMath.Functions.ExM.V2X(tv2)
   id: V2X(tv2)
@@ -945,7 +1168,7 @@ items:
   source:
     id: V2X
     path: ''
-    startLine: 10312
+    startLine: 10651
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -980,7 +1203,7 @@ items:
   source:
     id: V2Y
     path: ''
-    startLine: 10317
+    startLine: 10656
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1015,7 +1238,7 @@ items:
   source:
     id: RV2NX
     path: ''
-    startLine: 10325
+    startLine: 10664
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1051,7 +1274,7 @@ items:
   source:
     id: RV2NY
     path: ''
-    startLine: 10331
+    startLine: 10670
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1087,7 +1310,7 @@ items:
   source:
     id: RV2RX
     path: ''
-    startLine: 10337
+    startLine: 10676
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1123,7 +1346,7 @@ items:
   source:
     id: RV2RY
     path: ''
-    startLine: 10343
+    startLine: 10682
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1159,7 +1382,7 @@ items:
   source:
     id: RV2A
     path: ''
-    startLine: 10349
+    startLine: 10688
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1195,7 +1418,7 @@ items:
   source:
     id: P1
     path: ''
-    startLine: 10361
+    startLine: 10700
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1231,7 +1454,7 @@ items:
   source:
     id: P1M
     path: ''
-    startLine: 10366
+    startLine: 10706
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1269,7 +1492,7 @@ items:
   source:
     id: exP1M
     path: ''
-    startLine: 10369
+    startLine: 10710
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1304,7 +1527,7 @@ items:
   source:
     id: P2
     path: ''
-    startLine: 10377
+    startLine: 10719
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1340,7 +1563,7 @@ items:
   source:
     id: P2M
     path: ''
-    startLine: 10382
+    startLine: 10725
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1378,7 +1601,7 @@ items:
   source:
     id: exP2M
     path: ''
-    startLine: 10386
+    startLine: 10730
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1413,7 +1636,7 @@ items:
   source:
     id: PM
     path: ''
-    startLine: 10397
+    startLine: 10742
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1456,7 +1679,7 @@ items:
   source:
     id: exPM
     path: ''
-    startLine: 10402
+    startLine: 10748
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1493,7 +1716,7 @@ items:
   source:
     id: __Combine
     path: ''
-    startLine: 10407
+    startLine: 10754
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1530,7 +1753,7 @@ items:
   source:
     id: Rand
     path: ''
-    startLine: 10423
+    startLine: 10771
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1570,7 +1793,7 @@ items:
   source:
     id: Randpm1
     path: ''
-    startLine: 10428
+    startLine: 10776
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1602,7 +1825,7 @@ items:
   source:
     id: SRand
     path: ''
-    startLine: 10438
+    startLine: 10786
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1645,7 +1868,7 @@ items:
   source:
     id: SRand01
     path: ''
-    startLine: 10445
+    startLine: 10793
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1682,7 +1905,7 @@ items:
   source:
     id: SRandpm1
     path: ''
-    startLine: 10452
+    startLine: 10800
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1719,7 +1942,7 @@ items:
   source:
     id: Superpose
     path: ''
-    startLine: 10462
+    startLine: 10810
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1752,31 +1975,31 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExM.Superpose(Of T)(tfloat, TEx(Of T), tfloat, TEx(Of T))
   name.vb: Superpose(Of T)(tfloat, TEx(Of T), tfloat, TEx(Of T))
-- uid: Danmokou.DMath.Functions.ExM.SuperposeC``1(efloat,TEx{``0},TEx{``0})
-  commentId: M:Danmokou.DMath.Functions.ExM.SuperposeC``1(efloat,TEx{``0},TEx{``0})
-  id: SuperposeC``1(efloat,TEx{``0},TEx{``0})
+- uid: Danmokou.DMath.Functions.ExM.SuperposeC``1(tfloat,TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExM.SuperposeC``1(tfloat,TEx{``0},TEx{``0})
+  id: SuperposeC``1(tfloat,TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: SuperposeC<T>(efloat, TEx<T>, TEx<T>)
-  nameWithType: ExM.SuperposeC<T>(efloat, TEx<T>, TEx<T>)
-  fullName: Danmokou.DMath.Functions.ExM.SuperposeC<T>(efloat, TEx<T>, TEx<T>)
+  name: SuperposeC<T>(tfloat, TEx<T>, TEx<T>)
+  nameWithType: ExM.SuperposeC<T>(tfloat, TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExM.SuperposeC<T>(tfloat, TEx<T>, TEx<T>)
   type: Method
   source:
     id: SuperposeC
     path: ''
-    startLine: 10467
+    startLine: 10815
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns `c*x1 + (1-c)*x2`.\n"
   example: []
   syntax:
-    content: public static TEx<T> SuperposeC<T>(efloat c, TEx<T> x1, TEx<T> x2)
+    content: public static TEx<T> SuperposeC<T>(tfloat c, TEx<T> x1, TEx<T> x2)
     parameters:
     - id: c
-      type: efloat
+      type: tfloat
     - id: x1
       type: TEx{{T}}
     - id: x2
@@ -1785,47 +2008,47 @@ items:
     - id: T
     return:
       type: TEx{{T}}
-    content.vb: Public Shared Function SuperposeC(Of T)(c As efloat, x1 As TEx(Of T), x2 As TEx(Of T)) As TEx(Of T)
+    content.vb: Public Shared Function SuperposeC(Of T)(c As tfloat, x1 As TEx(Of T), x2 As TEx(Of T)) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExM.SuperposeC*
-  nameWithType.vb: ExM.SuperposeC(Of T)(efloat, TEx(Of T), TEx(Of T))
+  nameWithType.vb: ExM.SuperposeC(Of T)(tfloat, TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExM.SuperposeC(Of T)(efloat, TEx(Of T), TEx(Of T))
-  name.vb: SuperposeC(Of T)(efloat, TEx(Of T), TEx(Of T))
-- uid: Danmokou.DMath.Functions.ExM.Opacity(efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.Opacity(efloat,tfloat)
-  id: Opacity(efloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExM.SuperposeC(Of T)(tfloat, TEx(Of T), TEx(Of T))
+  name.vb: SuperposeC(Of T)(tfloat, TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExM.Opacity(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.Opacity(tfloat,tfloat)
+  id: Opacity(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Opacity(efloat, tfloat)
-  nameWithType: ExM.Opacity(efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExM.Opacity(efloat, tfloat)
+  name: Opacity(tfloat, tfloat)
+  nameWithType: ExM.Opacity(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.Opacity(tfloat, tfloat)
   type: Method
   source:
     id: Opacity
     path: ''
-    startLine: 10473
+    startLine: 10821
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns `1-opacity + opacity*x`.\n"
   example: []
   syntax:
-    content: public static tfloat Opacity(efloat opacity, tfloat x)
+    content: public static tfloat Opacity(tfloat opacity, tfloat x)
     parameters:
     - id: opacity
-      type: efloat
+      type: tfloat
     - id: x
       type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function Opacity(opacity As efloat, x As tfloat) As tfloat
+    content.vb: Public Shared Function Opacity(opacity As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.Opacity*
   modifiers.csharp:
   - public
@@ -1833,110 +2056,110 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Softmax(efloat,tfloat[])
-  commentId: M:Danmokou.DMath.Functions.ExM.Softmax(efloat,tfloat[])
-  id: Softmax(efloat,tfloat[])
+- uid: Danmokou.DMath.Functions.ExM.Softmax(ExBPY,UncompiledCode{System.Single}[])
+  commentId: M:Danmokou.DMath.Functions.ExM.Softmax(ExBPY,UncompiledCode{System.Single}[])
+  id: Softmax(ExBPY,UncompiledCode{System.Single}[])
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Softmax(efloat, tfloat[])
-  nameWithType: ExM.Softmax(efloat, tfloat[])
-  fullName: Danmokou.DMath.Functions.ExM.Softmax(efloat, tfloat[])
+  name: Softmax(ExBPY, UncompiledCode<Single>[])
+  nameWithType: ExM.Softmax(ExBPY, UncompiledCode<Single>[])
+  fullName: Danmokou.DMath.Functions.ExM.Softmax(ExBPY, UncompiledCode<System.Single>[])
   type: Method
   source:
     id: Softmax
     path: ''
-    startLine: 10485
+    startLine: 10833
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nCalculate the softmax of several values ( (Sum xe^ax) / (Sum e^ax) )\n"
   example: []
   syntax:
-    content: public static tfloat Softmax(efloat sharpness, tfloat[] against)
+    content: public static ExBPY Softmax(ExBPY sharpness, UncompiledCode<float>[] against)
     parameters:
     - id: sharpness
-      type: efloat
+      type: ExBPY
       description: >-
         The higher the absolute value of this, the more quickly the result will converge.
 
         Set negative for softmin.
     - id: against
-      type: tfloat[]
+      type: UncompiledCode{System.Single}[]
       description: Values
     return:
-      type: tfloat
+      type: ExBPY
       description: ''
-    content.vb: Public Shared Function Softmax(sharpness As efloat, against As tfloat()) As tfloat
+    content.vb: Public Shared Function Softmax(sharpness As ExBPY, against As UncompiledCode(Of Single)()) As ExBPY
   overload: Danmokou.DMath.Functions.ExM.Softmax*
-  nameWithType.vb: ExM.Softmax(efloat, tfloat())
+  nameWithType.vb: ExM.Softmax(ExBPY, UncompiledCode(Of Single)())
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExM.Softmax(efloat, tfloat())
-  name.vb: Softmax(efloat, tfloat())
-- uid: Danmokou.DMath.Functions.ExM.Logsum(efloat,tfloat[])
-  commentId: M:Danmokou.DMath.Functions.ExM.Logsum(efloat,tfloat[])
-  id: Logsum(efloat,tfloat[])
+  fullName.vb: Danmokou.DMath.Functions.ExM.Softmax(ExBPY, UncompiledCode(Of System.Single)())
+  name.vb: Softmax(ExBPY, UncompiledCode(Of Single)())
+- uid: Danmokou.DMath.Functions.ExM.Logsum(ExBPY,UncompiledCode{System.Single}[])
+  commentId: M:Danmokou.DMath.Functions.ExM.Logsum(ExBPY,UncompiledCode{System.Single}[])
+  id: Logsum(ExBPY,UncompiledCode{System.Single}[])
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Logsum(efloat, tfloat[])
-  nameWithType: ExM.Logsum(efloat, tfloat[])
-  fullName: Danmokou.DMath.Functions.ExM.Logsum(efloat, tfloat[])
+  name: Logsum(ExBPY, UncompiledCode<Single>[])
+  nameWithType: ExM.Logsum(ExBPY, UncompiledCode<Single>[])
+  fullName: Danmokou.DMath.Functions.ExM.Logsum(ExBPY, UncompiledCode<System.Single>[])
   type: Method
   source:
     id: Logsum
     path: ''
-    startLine: 10507
+    startLine: 10855
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nCalculate the logsum of several values ( (ln Sum e^ax) / a ), which is approximately equal to the largest number (smallest if sharpness is negative).\n"
   example: []
   syntax:
-    content: public static tfloat Logsum(efloat sharpness, tfloat[] against)
+    content: public static ExBPY Logsum(ExBPY sharpness, UncompiledCode<float>[] against)
     parameters:
     - id: sharpness
-      type: efloat
+      type: ExBPY
       description: The higher the absolute value of this, the more quickly the result will converge.
     - id: against
-      type: tfloat[]
+      type: UncompiledCode{System.Single}[]
       description: Values
     return:
-      type: tfloat
+      type: ExBPY
       description: ''
-    content.vb: Public Shared Function Logsum(sharpness As efloat, against As tfloat()) As tfloat
+    content.vb: Public Shared Function Logsum(sharpness As ExBPY, against As UncompiledCode(Of Single)()) As ExBPY
   overload: Danmokou.DMath.Functions.ExM.Logsum*
-  nameWithType.vb: ExM.Logsum(efloat, tfloat())
+  nameWithType.vb: ExM.Logsum(ExBPY, UncompiledCode(Of Single)())
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExM.Logsum(efloat, tfloat())
-  name.vb: Logsum(efloat, tfloat())
-- uid: Danmokou.DMath.Functions.ExM.SWing(efloat,efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.SWing(efloat,efloat,tfloat)
-  id: SWing(efloat,efloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExM.Logsum(ExBPY, UncompiledCode(Of System.Single)())
+  name.vb: Logsum(ExBPY, UncompiledCode(Of Single)())
+- uid: Danmokou.DMath.Functions.ExM.SWing(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.SWing(tfloat,tfloat,tfloat)
+  id: SWing(tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: SWing(efloat, efloat, tfloat)
-  nameWithType: ExM.SWing(efloat, efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExM.SWing(efloat, efloat, tfloat)
+  name: SWing(tfloat, tfloat, tfloat)
+  nameWithType: ExM.SWing(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.SWing(tfloat, tfloat, tfloat)
   type: Method
   source:
     id: SWing
     path: ''
-    startLine: 10532
+    startLine: 10880
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1944,13 +2167,13 @@ items:
   remarks: "\nSee https://www.desmos.com/calculator/jeo6rrqzsd\n"
   example: []
   syntax:
-    content: public static tfloat SWing(efloat period, efloat peakHeight, tfloat x)
+    content: public static tfloat SWing(tfloat period, tfloat peakHeight, tfloat x)
     parameters:
     - id: period
-      type: efloat
+      type: tfloat
       description: Period
     - id: peakHeight
-      type: efloat
+      type: tfloat
       description: Peak height
     - id: x
       type: tfloat
@@ -1958,7 +2181,7 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function SWing(period As efloat, peakHeight As efloat, x As tfloat) As tfloat
+    content.vb: Public Shared Function SWing(period As tfloat, peakHeight As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.SWing*
   modifiers.csharp:
   - public
@@ -1966,43 +2189,43 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.SWing2(tfloat,efloat,efloat,efloat,efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.SWing2(tfloat,efloat,efloat,efloat,efloat,tfloat)
-  id: SWing2(tfloat,efloat,efloat,efloat,efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExM.SWing2(tfloat,tfloat,tfloat,tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.SWing2(tfloat,tfloat,tfloat,tfloat,tfloat,tfloat)
+  id: SWing2(tfloat,tfloat,tfloat,tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: SWing2(tfloat, efloat, efloat, efloat, efloat, tfloat)
-  nameWithType: ExM.SWing2(tfloat, efloat, efloat, efloat, efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExM.SWing2(tfloat, efloat, efloat, efloat, efloat, tfloat)
+  name: SWing2(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat)
+  nameWithType: ExM.SWing2(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.SWing2(tfloat, tfloat, tfloat, tfloat, tfloat, tfloat)
   type: Method
   source:
     id: SWing2
     path: ''
-    startLine: 10557
+    startLine: 10905
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nA better sine-like swing function (also cosine phase).\n<br />See https://www.desmos.com/calculator/uwwfsslxrj\n"
   example: []
   syntax:
-    content: public static tfloat SWing2(tfloat halfwayRatio, efloat period, efloat min, efloat max, efloat overshoot, tfloat time)
+    content: public static tfloat SWing2(tfloat halfwayRatio, tfloat period, tfloat min, tfloat max, tfloat overshoot, tfloat time)
     parameters:
     - id: halfwayRatio
       type: tfloat
       description: Ratio of the period that the function is going from max to min.
     - id: period
-      type: efloat
+      type: tfloat
       description: Period of swing.
     - id: min
-      type: efloat
+      type: tfloat
       description: Minimum value.
     - id: max
-      type: efloat
+      type: tfloat
       description: Value at the beginning of the period (not actually the maximum value)
     - id: overshoot
-      type: efloat
+      type: tfloat
       description: The actual maximum value. The function rises from min to overshoot, then slowly returns to max.
     - id: time
       type: tfloat
@@ -2010,7 +2233,7 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function SWing2(halfwayRatio As tfloat, period As efloat, min As efloat, max As efloat, overshoot As efloat, time As tfloat) As tfloat
+    content.vb: Public Shared Function SWing2(halfwayRatio As tfloat, period As tfloat, min As tfloat, max As tfloat, overshoot As tfloat, time As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.SWing2*
   modifiers.csharp:
   - public
@@ -2018,98 +2241,137 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Timer(ETime.Timer)
-  commentId: M:Danmokou.DMath.Functions.ExM.Timer(ETime.Timer)
-  id: Timer(ETime.Timer)
+- uid: Danmokou.DMath.Functions.ExM._constNamedTimer(System.String)
+  commentId: M:Danmokou.DMath.Functions.ExM._constNamedTimer(System.String)
+  id: _constNamedTimer(System.String)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Timer(ETime.Timer)
-  nameWithType: ExM.Timer(ETime.Timer)
-  fullName: Danmokou.DMath.Functions.ExM.Timer(ETime.Timer)
+  name: _constNamedTimer(String)
+  nameWithType: ExM._constNamedTimer(String)
+  fullName: Danmokou.DMath.Functions.ExM._constNamedTimer(System.String)
+  type: Method
+  source:
+    id: _constNamedTimer
+    path: ''
+    startLine: 10936
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static Func<TExArgCtx, TEx<ETime.Timer>> _constNamedTimer(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Func{TExArgCtx,TEx{ETime.Timer}}
+    content.vb: Public Shared Function _constNamedTimer(name As String) As Func(Of TExArgCtx, TEx(Of ETime.Timer))
+  overload: Danmokou.DMath.Functions.ExM._constNamedTimer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExM.Timer(TEx{ETime.Timer})
+  commentId: M:Danmokou.DMath.Functions.ExM.Timer(TEx{ETime.Timer})
+  id: Timer(TEx{ETime.Timer})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: Timer(TEx<ETime.Timer>)
+  nameWithType: ExM.Timer(TEx<ETime.Timer>)
+  fullName: Danmokou.DMath.Functions.ExM.Timer(TEx<ETime.Timer>)
   type: Method
   source:
     id: Timer
     path: ''
-    startLine: 10591
+    startLine: 10943
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the time (in frames) of the given timer.\n"
   example: []
   syntax:
-    content: public static tfloat Timer(ETime.Timer timer)
+    content: public static tfloat Timer(TEx<ETime.Timer> timer)
     parameters:
     - id: timer
-      type: ETime.Timer
+      type: TEx{ETime.Timer}
     return:
       type: tfloat
-    content.vb: Public Shared Function Timer(timer As ETime.Timer) As tfloat
+    content.vb: Public Shared Function Timer(timer As TEx(Of ETime.Timer)) As tfloat
   overload: Danmokou.DMath.Functions.ExM.Timer*
+  nameWithType.vb: ExM.Timer(TEx(Of ETime.Timer))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.TimerSec(ETime.Timer)
-  commentId: M:Danmokou.DMath.Functions.ExM.TimerSec(ETime.Timer)
-  id: TimerSec(ETime.Timer)
+  fullName.vb: Danmokou.DMath.Functions.ExM.Timer(TEx(Of ETime.Timer))
+  name.vb: Timer(TEx(Of ETime.Timer))
+- uid: Danmokou.DMath.Functions.ExM.TimerSec(TEx{ETime.Timer})
+  commentId: M:Danmokou.DMath.Functions.ExM.TimerSec(TEx{ETime.Timer})
+  id: TimerSec(TEx{ETime.Timer})
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: TimerSec(ETime.Timer)
-  nameWithType: ExM.TimerSec(ETime.Timer)
-  fullName: Danmokou.DMath.Functions.ExM.TimerSec(ETime.Timer)
+  name: TimerSec(TEx<ETime.Timer>)
+  nameWithType: ExM.TimerSec(TEx<ETime.Timer>)
+  fullName: Danmokou.DMath.Functions.ExM.TimerSec(TEx<ETime.Timer>)
   type: Method
   source:
     id: TimerSec
     path: ''
-    startLine: 10595
+    startLine: 10949
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the time (in seconds) of the given timer.\n"
   example: []
   syntax:
-    content: public static tfloat TimerSec(ETime.Timer timer)
+    content: public static tfloat TimerSec(TEx<ETime.Timer> timer)
     parameters:
     - id: timer
-      type: ETime.Timer
+      type: TEx{ETime.Timer}
     return:
       type: tfloat
-    content.vb: Public Shared Function TimerSec(timer As ETime.Timer) As tfloat
+    content.vb: Public Shared Function TimerSec(timer As TEx(Of ETime.Timer)) As tfloat
   overload: Danmokou.DMath.Functions.ExM.TimerSec*
+  nameWithType.vb: ExM.TimerSec(TEx(Of ETime.Timer))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Height(tfloat,tfloat,tfloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.Height(tfloat,tfloat,tfloat,efloat)
-  id: Height(tfloat,tfloat,tfloat,efloat)
+  fullName.vb: Danmokou.DMath.Functions.ExM.TimerSec(TEx(Of ETime.Timer))
+  name.vb: TimerSec(TEx(Of ETime.Timer))
+- uid: Danmokou.DMath.Functions.ExM.Height(tfloat,tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.Height(tfloat,tfloat,tfloat,tfloat)
+  id: Height(tfloat,tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Height(tfloat, tfloat, tfloat, efloat)
-  nameWithType: ExM.Height(tfloat, tfloat, tfloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.Height(tfloat, tfloat, tfloat, efloat)
+  name: Height(tfloat, tfloat, tfloat, tfloat)
+  nameWithType: ExM.Height(tfloat, tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.Height(tfloat, tfloat, tfloat, tfloat)
   type: Method
   source:
     id: Height
     path: ''
-    startLine: 10604
+    startLine: 10959
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns the acceleration displacement function `h0 + v0*t + 0.5*g*t^2`.\n"
   example: []
   syntax:
-    content: public static tfloat Height(tfloat h0, tfloat v0, tfloat g, efloat time)
+    content: public static tfloat Height(tfloat h0, tfloat v0, tfloat g, tfloat time)
     parameters:
     - id: h0
       type: tfloat
@@ -2118,10 +2380,10 @@ items:
     - id: g
       type: tfloat
     - id: time
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function Height(h0 As tfloat, v0 As tfloat, g As tfloat, time As efloat) As tfloat
+    content.vb: Public Shared Function Height(h0 As tfloat, v0 As tfloat, g As tfloat, time As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.Height*
   modifiers.csharp:
   - public
@@ -2143,7 +2405,7 @@ items:
   source:
     id: RegPolyR
     path: ''
-    startLine: 10614
+    startLine: 10969
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2186,7 +2448,7 @@ items:
   source:
     id: RegPoly
     path: ''
-    startLine: 10626
+    startLine: 10981
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2225,7 +2487,7 @@ items:
   source:
     id: Reg2StarR
     path: ''
-    startLine: 10638
+    startLine: 10993
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2268,7 +2530,7 @@ items:
   source:
     id: Reg2Star
     path: ''
-    startLine: 10644
+    startLine: 10999
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2307,7 +2569,7 @@ items:
   source:
     id: RegSoftStarR
     path: ''
-    startLine: 10656
+    startLine: 11011
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2350,7 +2612,7 @@ items:
   source:
     id: RegSoftStar
     path: ''
-    startLine: 10662
+    startLine: 11017
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2375,38 +2637,38 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.BounceX(tfloat,ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.BounceX(tfloat,ev2,ev2)
-  id: BounceX(tfloat,ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExM.BounceX(tfloat,tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.BounceX(tfloat,tv2,tv2)
+  id: BounceX(tfloat,tv2,tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: BounceX(tfloat, ev2, ev2)
-  nameWithType: ExM.BounceX(tfloat, ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExM.BounceX(tfloat, ev2, ev2)
+  name: BounceX(tfloat, tv2, tv2)
+  nameWithType: ExM.BounceX(tfloat, tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExM.BounceX(tfloat, tv2, tv2)
   type: Method
   source:
     id: BounceX
     path: ''
-    startLine: 10671
+    startLine: 11026
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nFind the angle of fire such that a ray fired from the source bouncing off the wall X=W would hit the target.\n"
   example: []
   syntax:
-    content: public static tfloat BounceX(tfloat w, ev2 source, ev2 target)
+    content: public static tfloat BounceX(tfloat w, tv2 source, tv2 target)
     parameters:
     - id: w
       type: tfloat
     - id: source
-      type: ev2
+      type: tv2
     - id: target
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function BounceX(w As tfloat, source As ev2, target As ev2) As tfloat
+    content.vb: Public Shared Function BounceX(w As tfloat, source As tv2, target As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.BounceX*
   modifiers.csharp:
   - public
@@ -2414,38 +2676,38 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.BounceY(tfloat,ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.BounceY(tfloat,ev2,ev2)
-  id: BounceY(tfloat,ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExM.BounceY(tfloat,tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.BounceY(tfloat,tv2,tv2)
+  id: BounceY(tfloat,tv2,tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: BounceY(tfloat, ev2, ev2)
-  nameWithType: ExM.BounceY(tfloat, ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExM.BounceY(tfloat, ev2, ev2)
+  name: BounceY(tfloat, tv2, tv2)
+  nameWithType: ExM.BounceY(tfloat, tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExM.BounceY(tfloat, tv2, tv2)
   type: Method
   source:
     id: BounceY
     path: ''
-    startLine: 10676
+    startLine: 11031
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nFind the angle of fire such that a ray fired from the source bouncing off the wall Y=W would hit the target.\n"
   example: []
   syntax:
-    content: public static tfloat BounceY(tfloat w, ev2 source, ev2 target)
+    content: public static tfloat BounceY(tfloat w, tv2 source, tv2 target)
     parameters:
     - id: w
       type: tfloat
     - id: source
-      type: ev2
+      type: tv2
     - id: target
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function BounceY(w As tfloat, source As ev2, target As ev2) As tfloat
+    content.vb: Public Shared Function BounceY(w As tfloat, source As tv2, target As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.BounceY*
   modifiers.csharp:
   - public
@@ -2453,76 +2715,115 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.HPRatio(BEHPointer)
-  commentId: M:Danmokou.DMath.Functions.ExM.HPRatio(BEHPointer)
-  id: HPRatio(BEHPointer)
+- uid: Danmokou.DMath.Functions.ExM.FrameNumber
+  commentId: P:Danmokou.DMath.Functions.ExM.FrameNumber
+  id: FrameNumber
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: HPRatio(BEHPointer)
-  nameWithType: ExM.HPRatio(BEHPointer)
-  fullName: Danmokou.DMath.Functions.ExM.HPRatio(BEHPointer)
+  name: FrameNumber
+  nameWithType: ExM.FrameNumber
+  fullName: Danmokou.DMath.Functions.ExM.FrameNumber
+  type: Property
+  source:
+    id: FrameNumber
+    path: ''
+    startLine: 11038
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static Ex FrameNumber { get; }
+    parameters: []
+    return:
+      type: Ex
+    content.vb: Public Shared ReadOnly Property FrameNumber As Ex
+  overload: Danmokou.DMath.Functions.ExM.FrameNumber*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Danmokou.DMath.Functions.ExM.HPRatio(TEx{BehaviorEntity})
+  commentId: M:Danmokou.DMath.Functions.ExM.HPRatio(TEx{BehaviorEntity})
+  id: HPRatio(TEx{BehaviorEntity})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: HPRatio(TEx<BehaviorEntity>)
+  nameWithType: ExM.HPRatio(TEx<BehaviorEntity>)
+  fullName: Danmokou.DMath.Functions.ExM.HPRatio(TEx<BehaviorEntity>)
   type: Method
   source:
     id: HPRatio
     path: ''
-    startLine: 10687
+    startLine: 11047
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the HP ratio (0-1) of the BehaviorEntity.\n<br />The BEH must be an enemy, or this will cause errors.\n"
   example: []
   syntax:
-    content: public static tfloat HPRatio(BEHPointer beh)
+    content: public static tfloat HPRatio(TEx<BehaviorEntity> beh)
     parameters:
     - id: beh
-      type: BEHPointer
+      type: TEx{BehaviorEntity}
     return:
       type: tfloat
-    content.vb: Public Shared Function HPRatio(beh As BEHPointer) As tfloat
+    content.vb: Public Shared Function HPRatio(beh As TEx(Of BehaviorEntity)) As tfloat
   overload: Danmokou.DMath.Functions.ExM.HPRatio*
+  nameWithType.vb: ExM.HPRatio(TEx(Of BehaviorEntity))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.PhotosTaken(BEHPointer)
-  commentId: M:Danmokou.DMath.Functions.ExM.PhotosTaken(BEHPointer)
-  id: PhotosTaken(BEHPointer)
+  fullName.vb: Danmokou.DMath.Functions.ExM.HPRatio(TEx(Of BehaviorEntity))
+  name.vb: HPRatio(TEx(Of BehaviorEntity))
+- uid: Danmokou.DMath.Functions.ExM.PhotosTaken(TEx{BehaviorEntity})
+  commentId: M:Danmokou.DMath.Functions.ExM.PhotosTaken(TEx{BehaviorEntity})
+  id: PhotosTaken(TEx{BehaviorEntity})
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: PhotosTaken(BEHPointer)
-  nameWithType: ExM.PhotosTaken(BEHPointer)
-  fullName: Danmokou.DMath.Functions.ExM.PhotosTaken(BEHPointer)
+  name: PhotosTaken(TEx<BehaviorEntity>)
+  nameWithType: ExM.PhotosTaken(TEx<BehaviorEntity>)
+  fullName: Danmokou.DMath.Functions.ExM.PhotosTaken(TEx<BehaviorEntity>)
   type: Method
   source:
     id: PhotosTaken
     path: ''
-    startLine: 10695
+    startLine: 11055
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the number of photos taken of the given boss.\n<br />The BEH must be an enemy, or this will cause errors.\n<br />This number resets every card.\n"
   example: []
   syntax:
-    content: public static tfloat PhotosTaken(BEHPointer beh)
+    content: public static tfloat PhotosTaken(TEx<BehaviorEntity> beh)
     parameters:
     - id: beh
-      type: BEHPointer
+      type: TEx{BehaviorEntity}
     return:
       type: tfloat
-    content.vb: Public Shared Function PhotosTaken(beh As BEHPointer) As tfloat
+    content.vb: Public Shared Function PhotosTaken(beh As TEx(Of BehaviorEntity)) As tfloat
   overload: Danmokou.DMath.Functions.ExM.PhotosTaken*
+  nameWithType.vb: ExM.PhotosTaken(TEx(Of BehaviorEntity))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.PhotosTaken(TEx(Of BehaviorEntity))
+  name.vb: PhotosTaken(TEx(Of BehaviorEntity))
 - uid: Danmokou.DMath.Functions.ExM.Is1CC
   commentId: M:Danmokou.DMath.Functions.ExM.Is1CC
   id: Is1CC
@@ -2537,7 +2838,7 @@ items:
   source:
     id: Is1CC
     path: ''
-    startLine: 10701
+    startLine: 11061
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2569,7 +2870,7 @@ items:
   source:
     id: Instance
     path: ''
-    startLine: 10703
+    startLine: 11063
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2602,7 +2903,7 @@ items:
   source:
     id: PlayerFreeT
     path: ''
-    startLine: 10710
+    startLine: 11071
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2640,7 +2941,7 @@ items:
   source:
     id: PlayerFocusT
     path: ''
-    startLine: 10715
+    startLine: 11078
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2678,7 +2979,7 @@ items:
   source:
     id: PlayerFiringT
     path: ''
-    startLine: 10720
+    startLine: 11085
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2716,7 +3017,7 @@ items:
   source:
     id: PlayerFiringFreeT
     path: ''
-    startLine: 10725
+    startLine: 11092
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2754,7 +3055,7 @@ items:
   source:
     id: PlayerFiringFocusT
     path: ''
-    startLine: 10730
+    startLine: 11099
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2792,7 +3093,7 @@ items:
   source:
     id: PlayerUnFiringT
     path: ''
-    startLine: 10735
+    startLine: 11106
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2830,7 +3131,7 @@ items:
   source:
     id: PlayerUnFiringFreeT
     path: ''
-    startLine: 10740
+    startLine: 11113
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2868,7 +3169,7 @@ items:
   source:
     id: PlayerUnFiringFocusT
     path: ''
-    startLine: 10745
+    startLine: 11120
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2906,7 +3207,7 @@ items:
   source:
     id: PlayerID
     path: ''
-    startLine: 10747
+    startLine: 11123
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2942,7 +3243,7 @@ items:
   source:
     id: PlayerLerpFreeToFocus
     path: ''
-    startLine: 10750
+    startLine: 11126
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2980,7 +3281,7 @@ items:
   source:
     id: PlayerPastPos
     path: ''
-    startLine: 10752
+    startLine: 11128
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3018,7 +3319,7 @@ items:
   source:
     id: PlayerMarisaAPos
     path: ''
-    startLine: 10754
+    startLine: 11130
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3056,7 +3357,7 @@ items:
   source:
     id: PlayerPastDir
     path: ''
-    startLine: 10756
+    startLine: 11132
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3094,7 +3395,7 @@ items:
   source:
     id: PlayerMarisaADir
     path: ''
-    startLine: 10758
+    startLine: 11134
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3118,44 +3419,120 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExM.PlayerMarisaADir(System.Func(Of TExArgCtx, TEx(Of PlayerController)), ExBPY)
   name.vb: PlayerMarisaADir(Func(Of TExArgCtx, TEx(Of PlayerController)), ExBPY)
-- uid: Danmokou.DMath.Functions.ExM.LaserColliding(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
-  commentId: M:Danmokou.DMath.Functions.ExM.LaserColliding(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
-  id: LaserColliding(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
+- uid: Danmokou.DMath.Functions.ExM.Colliding(System.Func{TExArgCtx,TEx{Bullet}})
+  commentId: M:Danmokou.DMath.Functions.ExM.Colliding(System.Func{TExArgCtx,TEx{Bullet}})
+  id: Colliding(System.Func{TExArgCtx,TEx{Bullet}})
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: LaserColliding(Func<TExArgCtx, TEx<CurvedTileRenderLaser>>)
-  nameWithType: ExM.LaserColliding(Func<TExArgCtx, TEx<CurvedTileRenderLaser>>)
-  fullName: Danmokou.DMath.Functions.ExM.LaserColliding(System.Func<TExArgCtx, TEx<CurvedTileRenderLaser>>)
+  name: Colliding(Func<TExArgCtx, TEx<Bullet>>)
+  nameWithType: ExM.Colliding(Func<TExArgCtx, TEx<Bullet>>)
+  fullName: Danmokou.DMath.Functions.ExM.Colliding(System.Func<TExArgCtx, TEx<Bullet>>)
   type: Method
   source:
-    id: LaserColliding
+    id: Colliding
     path: ''
-    startLine: 10766
+    startLine: 11142
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nReturns true if the laser is colliding with an enemy (only applicable to player lasers).\n"
+  summary: "\nOn a complex bullet, returns true if the bullet is colliding.\n"
   example: []
   syntax:
-    content: public static ExPred LaserColliding(Func<TExArgCtx, TEx<CurvedTileRenderLaser>> ctr)
+    content: public static ExPred Colliding(Func<TExArgCtx, TEx<Bullet>> ctr)
     parameters:
     - id: ctr
-      type: System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}}
+      type: System.Func{TExArgCtx,TEx{Bullet}}
     return:
       type: ExPred
-    content.vb: Public Shared Function LaserColliding(ctr As Func(Of TExArgCtx, TEx(Of CurvedTileRenderLaser))) As ExPred
-  overload: Danmokou.DMath.Functions.ExM.LaserColliding*
-  nameWithType.vb: ExM.LaserColliding(Func(Of TExArgCtx, TEx(Of CurvedTileRenderLaser)))
+    content.vb: Public Shared Function Colliding(ctr As Func(Of TExArgCtx, TEx(Of Bullet))) As ExPred
+  overload: Danmokou.DMath.Functions.ExM.Colliding*
+  nameWithType.vb: ExM.Colliding(Func(Of TExArgCtx, TEx(Of Bullet)))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExM.LaserColliding(System.Func(Of TExArgCtx, TEx(Of CurvedTileRenderLaser)))
-  name.vb: LaserColliding(Func(Of TExArgCtx, TEx(Of CurvedTileRenderLaser)))
+  fullName.vb: Danmokou.DMath.Functions.ExM.Colliding(System.Func(Of TExArgCtx, TEx(Of Bullet)))
+  name.vb: Colliding(Func(Of TExArgCtx, TEx(Of Bullet)))
+- uid: Danmokou.DMath.Functions.ExM.CollidingT(System.Func{TExArgCtx,TEx{Bullet}})
+  commentId: M:Danmokou.DMath.Functions.ExM.CollidingT(System.Func{TExArgCtx,TEx{Bullet}})
+  id: CollidingT(System.Func{TExArgCtx,TEx{Bullet}})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: CollidingT(Func<TExArgCtx, TEx<Bullet>>)
+  nameWithType: ExM.CollidingT(Func<TExArgCtx, TEx<Bullet>>)
+  fullName: Danmokou.DMath.Functions.ExM.CollidingT(System.Func<TExArgCtx, TEx<Bullet>>)
+  type: Method
+  source:
+    id: CollidingT
+    path: ''
+    startLine: 11148
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nOn a complex bullet, returns the amount of time that the bullet has been continuously colliding for.\n"
+  example: []
+  syntax:
+    content: public static ExBPY CollidingT(Func<TExArgCtx, TEx<Bullet>> ctr)
+    parameters:
+    - id: ctr
+      type: System.Func{TExArgCtx,TEx{Bullet}}
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function CollidingT(ctr As Func(Of TExArgCtx, TEx(Of Bullet))) As ExBPY
+  overload: Danmokou.DMath.Functions.ExM.CollidingT*
+  nameWithType.vb: ExM.CollidingT(Func(Of TExArgCtx, TEx(Of Bullet)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.CollidingT(System.Func(Of TExArgCtx, TEx(Of Bullet)))
+  name.vb: CollidingT(Func(Of TExArgCtx, TEx(Of Bullet)))
+- uid: Danmokou.DMath.Functions.ExM.UnCollidingT(System.Func{TExArgCtx,TEx{Bullet}})
+  commentId: M:Danmokou.DMath.Functions.ExM.UnCollidingT(System.Func{TExArgCtx,TEx{Bullet}})
+  id: UnCollidingT(System.Func{TExArgCtx,TEx{Bullet}})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: UnCollidingT(Func<TExArgCtx, TEx<Bullet>>)
+  nameWithType: ExM.UnCollidingT(Func<TExArgCtx, TEx<Bullet>>)
+  fullName: Danmokou.DMath.Functions.ExM.UnCollidingT(System.Func<TExArgCtx, TEx<Bullet>>)
+  type: Method
+  source:
+    id: UnCollidingT
+    path: ''
+    startLine: 11154
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nOn a complex bullet, returns the amount of time that the bullet has been continuously *not* colliding for.\n"
+  example: []
+  syntax:
+    content: public static ExBPY UnCollidingT(Func<TExArgCtx, TEx<Bullet>> ctr)
+    parameters:
+    - id: ctr
+      type: System.Func{TExArgCtx,TEx{Bullet}}
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function UnCollidingT(ctr As Func(Of TExArgCtx, TEx(Of Bullet))) As ExBPY
+  overload: Danmokou.DMath.Functions.ExM.UnCollidingT*
+  nameWithType.vb: ExM.UnCollidingT(Func(Of TExArgCtx, TEx(Of Bullet)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.UnCollidingT(System.Func(Of TExArgCtx, TEx(Of Bullet)))
+  name.vb: UnCollidingT(Func(Of TExArgCtx, TEx(Of Bullet)))
 - uid: Danmokou.DMath.Functions.ExM.LaserLastActiveT(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
   commentId: M:Danmokou.DMath.Functions.ExM.LaserLastActiveT(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
   id: LaserLastActiveT(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
@@ -3170,7 +3547,7 @@ items:
   source:
     id: LaserLastActiveT
     path: ''
-    startLine: 10774
+    startLine: 11162
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3208,7 +3585,7 @@ items:
   source:
     id: OptionLocation
     path: ''
-    startLine: 10781
+    startLine: 11169
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3246,7 +3623,7 @@ items:
   source:
     id: OptionAngle
     path: ''
-    startLine: 10787
+    startLine: 11175
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3284,7 +3661,7 @@ items:
   source:
     id: Power
     path: ''
-    startLine: 10793
+    startLine: 11182
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3316,7 +3693,7 @@ items:
   source:
     id: PowerF
     path: ''
-    startLine: 10798
+    startLine: 11190
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3348,7 +3725,7 @@ items:
   source:
     id: PowerIndex
     path: ''
-    startLine: 10803
+    startLine: 11195
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3380,7 +3757,7 @@ items:
   source:
     id: IfPowerGTP
     path: ''
-    startLine: 10809
+    startLine: 11201
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3420,17 +3797,17 @@ items:
   source:
     id: Mine
     path: ''
-    startLine: 10820
+    startLine: 11214
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nReturns the object of type T associated with the object calling this function.\n<br />eg. If this is used by a laser fired by a player option, and T = FireOption,\nthen this function returns the FireOption that created this laser.\n"
+  summary: "\nReturns the object of type T associated with the entity calling this function.\n<br />eg. If this is used by a laser fired by a player option, and T = FireOption,\n then this function returns the FireOption that created this laser.\n<br />eg. If this is used by a bullet fired by a boss, and T = BehaviorEntity,\n then this function returns the boss that fired this bullet.\n"
   example: []
   syntax:
     content: public static Func<TExArgCtx, TEx<T>> Mine<T>()
     typeParameters:
     - id: T
-      description: One of CurvedTileRenderLaser, PlayerInput, FireOption
+      description: One of Bullet, CurvedTileRenderLaser, PlayerController, FireOption, BehaviorEntity
     return:
       type: System.Func{TExArgCtx,TEx{{T}}}
       description: ''
@@ -3445,6 +3822,39 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExM.Mine(Of T)()
   name.vb: Mine(Of T)()
+- uid: Danmokou.DMath.Functions.ExM.FromID(System.String)
+  commentId: M:Danmokou.DMath.Functions.ExM.FromID(System.String)
+  id: FromID(System.String)
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: FromID(String)
+  nameWithType: ExM.FromID(String)
+  fullName: Danmokou.DMath.Functions.ExM.FromID(System.String)
+  type: Method
+  source:
+    id: FromID
+    path: ''
+    startLine: 11231
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static Func<TExArgCtx, TEx<BehaviorEntity>> FromID(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Func{TExArgCtx,TEx{BehaviorEntity}}
+    content.vb: Public Shared Function FromID(id As String) As Func(Of TExArgCtx, TEx(Of BehaviorEntity))
+  overload: Danmokou.DMath.Functions.ExM.FromID*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.DMath.Functions.ExM.HPi
   commentId: M:Danmokou.DMath.Functions.ExM.HPi
   id: HPi
@@ -3459,7 +3869,7 @@ items:
   source:
     id: HPi
     path: ''
-    startLine: 10874
+    startLine: 11343
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3492,7 +3902,7 @@ items:
   source:
     id: Pi
     path: ''
-    startLine: 10879
+    startLine: 11348
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3525,7 +3935,7 @@ items:
   source:
     id: Tau
     path: ''
-    startLine: 10884
+    startLine: 11353
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3558,7 +3968,7 @@ items:
   source:
     id: Twau
     path: ''
-    startLine: 10889
+    startLine: 11358
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3591,7 +4001,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 10894
+    startLine: 11363
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3633,7 +4043,7 @@ items:
   source:
     id: AddNV
     path: ''
-    startLine: 10899
+    startLine: 11368
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3670,7 +4080,7 @@ items:
   source:
     id: AddA
     path: ''
-    startLine: 10903
+    startLine: 11372
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3707,7 +4117,7 @@ items:
   source:
     id: AddNVA
     path: ''
-    startLine: 10907
+    startLine: 11376
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3746,7 +4156,7 @@ items:
   source:
     id: AddRVA
     path: ''
-    startLine: 10911
+    startLine: 11380
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3783,7 +4193,7 @@ items:
   source:
     id: AddRV
     path: ''
-    startLine: 10915
+    startLine: 11384
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3820,7 +4230,7 @@ items:
   source:
     id: Sub
     path: ''
-    startLine: 10920
+    startLine: 11389
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3862,7 +4272,7 @@ items:
   source:
     id: Mul
     path: ''
-    startLine: 10925
+    startLine: 11394
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3890,6 +4300,86 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExM.Mul(Of T)(tfloat, TEx(Of T))
   name.vb: Mul(Of T)(tfloat, TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExM.MulRev``1(TEx{``0},tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.MulRev``1(TEx{``0},tfloat)
+  id: MulRev``1(TEx{``0},tfloat)
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: MulRev<T>(TEx<T>, tfloat)
+  nameWithType: ExM.MulRev<T>(TEx<T>, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.MulRev<T>(TEx<T>, tfloat)
+  type: Method
+  source:
+    id: MulRev
+    path: ''
+    startLine: 11400
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMultiply a vectype by a number.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> MulRev<T>(TEx<T> y, tfloat x)
+    parameters:
+    - id: y
+      type: TEx{{T}}
+    - id: x
+      type: tfloat
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function MulRev(Of T)(y As TEx(Of T), x As tfloat) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExM.MulRev*
+  nameWithType.vb: ExM.MulRev(Of T)(TEx(Of T), tfloat)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.MulRev(Of T)(TEx(Of T), tfloat)
+  name.vb: MulRev(Of T)(TEx(Of T), tfloat)
+- uid: Danmokou.DMath.Functions.ExM.MulInt(TEx{System.Int32},TEx{System.Int32})
+  commentId: M:Danmokou.DMath.Functions.ExM.MulInt(TEx{System.Int32},TEx{System.Int32})
+  id: MulInt(TEx{System.Int32},TEx{System.Int32})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: MulInt(TEx<Int32>, TEx<Int32>)
+  nameWithType: ExM.MulInt(TEx<Int32>, TEx<Int32>)
+  fullName: Danmokou.DMath.Functions.ExM.MulInt(TEx<System.Int32>, TEx<System.Int32>)
+  type: Method
+  source:
+    id: MulInt
+    path: ''
+    startLine: 11403
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<int> MulInt(TEx<int> x, TEx<int> y)
+    parameters:
+    - id: x
+      type: TEx{System.Int32}
+    - id: y
+      type: TEx{System.Int32}
+    return:
+      type: TEx{System.Int32}
+    content.vb: Public Shared Function MulInt(x As TEx(Of Integer), y As TEx(Of Integer)) As TEx(Of Integer)
+  overload: Danmokou.DMath.Functions.ExM.MulInt*
+  nameWithType.vb: ExM.MulInt(TEx(Of Int32), TEx(Of Int32))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.MulInt(TEx(Of System.Int32), TEx(Of System.Int32))
+  name.vb: MulInt(TEx(Of Int32), TEx(Of Int32))
 - uid: Danmokou.DMath.Functions.ExM.DegRad(tfloat)
   commentId: M:Danmokou.DMath.Functions.ExM.DegRad(tfloat)
   id: DegRad(tfloat)
@@ -3904,7 +4394,7 @@ items:
   source:
     id: DegRad
     path: ''
-    startLine: 10933
+    startLine: 11411
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3941,7 +4431,7 @@ items:
   source:
     id: RadDeg
     path: ''
-    startLine: 10940
+    startLine: 11418
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3964,44 +4454,49 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Div(tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.Div(tfloat,tfloat)
-  id: Div(tfloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExM.Div``1(TEx{``0},tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.Div``1(TEx{``0},tfloat)
+  id: Div``1(TEx{``0},tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Div(tfloat, tfloat)
-  nameWithType: ExM.Div(tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExM.Div(tfloat, tfloat)
+  name: Div<T>(TEx<T>, tfloat)
+  nameWithType: ExM.Div<T>(TEx<T>, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.Div<T>(TEx<T>, tfloat)
   type: Method
   source:
     id: Div
     path: ''
-    startLine: 10945
+    startLine: 11424
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nDivide two numbers. Alias: / x y\n"
+  summary: "\nDivide a vectype by a number. Alias: / x y\n"
   example: []
   syntax:
-    content: public static tfloat Div(tfloat x, tfloat y)
+    content: public static TEx<T> Div<T>(TEx<T> x, tfloat y)
     parameters:
     - id: x
-      type: tfloat
+      type: TEx{{T}}
     - id: y
       type: tfloat
+    typeParameters:
+    - id: T
     return:
-      type: tfloat
+      type: TEx{{T}}
       description: ''
-    content.vb: Public Shared Function Div(x As tfloat, y As tfloat) As tfloat
+    content.vb: Public Shared Function Div(Of T)(x As TEx(Of T), y As tfloat) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExM.Div*
+  nameWithType.vb: ExM.Div(Of T)(TEx(Of T), tfloat)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.Div(Of T)(TEx(Of T), tfloat)
+  name.vb: Div(Of T)(TEx(Of T), tfloat)
 - uid: Danmokou.DMath.Functions.ExM.DivInv(tfloat,tfloat)
   commentId: M:Danmokou.DMath.Functions.ExM.DivInv(tfloat,tfloat)
   id: DivInv(tfloat,tfloat)
@@ -4016,7 +4511,7 @@ items:
   source:
     id: DivInv
     path: ''
-    startLine: 10950
+    startLine: 11429
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4053,7 +4548,7 @@ items:
   source:
     id: FDiv
     path: ''
-    startLine: 10955
+    startLine: 11434
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4090,7 +4585,7 @@ items:
   source:
     id: Complement
     path: ''
-    startLine: 10960
+    startLine: 11439
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4125,7 +4620,7 @@ items:
   source:
     id: MulComplement
     path: ''
-    startLine: 10965
+    startLine: 11445
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4162,7 +4657,7 @@ items:
   source:
     id: SubMax0
     path: ''
-    startLine: 10970
+    startLine: 11451
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4199,7 +4694,7 @@ items:
   source:
     id: Increment
     path: ''
-    startLine: 10977
+    startLine: 11458
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4234,7 +4729,7 @@ items:
   source:
     id: Decrement
     path: ''
-    startLine: 10982
+    startLine: 11463
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4269,7 +4764,7 @@ items:
   source:
     id: DecrementSubtract
     path: ''
-    startLine: 10988
+    startLine: 11469
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4306,11 +4801,11 @@ items:
   source:
     id: Neg
     path: ''
-    startLine: 10994
+    startLine: 11475
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nReturns -x.\n"
+  summary: "\nReturns -1 * x.\n"
   example: []
   syntax:
     content: public static tfloat Neg(tfloat x)
@@ -4327,34 +4822,74 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Sign(efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.Sign(efloat)
-  id: Sign(efloat)
+- uid: Danmokou.DMath.Functions.ExM.Negate``1(TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExM.Negate``1(TEx{``0})
+  id: Negate``1(TEx{``0})
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Sign(efloat)
-  nameWithType: ExM.Sign(efloat)
-  fullName: Danmokou.DMath.Functions.ExM.Sign(efloat)
+  name: Negate<T>(TEx<T>)
+  nameWithType: ExM.Negate<T>(TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExM.Negate<T>(TEx<T>)
+  type: Method
+  source:
+    id: Negate
+    path: ''
+    startLine: 11480
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturns -x.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> Negate<T>(TEx<T> x)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function Negate(Of T)(x As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExM.Negate*
+  nameWithType.vb: ExM.Negate(Of T)(TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.Negate(Of T)(TEx(Of T))
+  name.vb: Negate(Of T)(TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExM.Sign(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.Sign(tfloat)
+  id: Sign(tfloat)
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: Sign(tfloat)
+  nameWithType: ExM.Sign(tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.Sign(tfloat)
   type: Method
   source:
     id: Sign
     path: ''
-    startLine: 10999
+    startLine: 11495
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns -1 if x lt 0 and 1 otherwise. (Note: Sign(0) = 1)\n"
   example: []
   syntax:
-    content: public static tfloat Sign(efloat x)
+    content: public static tfloat Sign(tfloat x)
     parameters:
     - id: x
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function Sign(x As efloat) As tfloat
+    content.vb: Public Shared Function Sign(x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.Sign*
   modifiers.csharp:
   - public
@@ -4376,7 +4911,7 @@ items:
   source:
     id: Exp
     path: ''
-    startLine: 11006
+    startLine: 11502
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4411,7 +4946,7 @@ items:
   source:
     id: Ln
     path: ''
-    startLine: 11012
+    startLine: 11508
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4446,7 +4981,7 @@ items:
   source:
     id: Sqrt
     path: ''
-    startLine: 11019
+    startLine: 11515
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4481,7 +5016,7 @@ items:
   source:
     id: Sqr
     path: ''
-    startLine: 11024
+    startLine: 11520
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4516,7 +5051,7 @@ items:
   source:
     id: Mag2
     path: ''
-    startLine: 11028
+    startLine: 11524
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4539,36 +5074,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.SqrMag2(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.SqrMag2(efloat,efloat)
-  id: SqrMag2(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExM.SqrMag2(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.SqrMag2(tfloat,tfloat)
+  id: SqrMag2(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: SqrMag2(efloat, efloat)
-  nameWithType: ExM.SqrMag2(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.SqrMag2(efloat, efloat)
+  name: SqrMag2(tfloat, tfloat)
+  nameWithType: ExM.SqrMag2(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.SqrMag2(tfloat, tfloat)
   type: Method
   source:
     id: SqrMag2
     path: ''
-    startLine: 11032
+    startLine: 11528
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns the quantity x^2+y^2.\n"
   example: []
   syntax:
-    content: public static tfloat SqrMag2(efloat x, efloat y)
+    content: public static tfloat SqrMag2(tfloat x, tfloat y)
     parameters:
     - id: x
-      type: efloat
+      type: tfloat
     - id: y
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function SqrMag2(x As efloat, y As efloat) As tfloat
+    content.vb: Public Shared Function SqrMag2(x As tfloat, y As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.SqrMag2*
   modifiers.csharp:
   - public
@@ -4576,38 +5111,38 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.SqrMag3(efloat,efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.SqrMag3(efloat,efloat,efloat)
-  id: SqrMag3(efloat,efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExM.SqrMag3(tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.SqrMag3(tfloat,tfloat,tfloat)
+  id: SqrMag3(tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: SqrMag3(efloat, efloat, efloat)
-  nameWithType: ExM.SqrMag3(efloat, efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.SqrMag3(efloat, efloat, efloat)
+  name: SqrMag3(tfloat, tfloat, tfloat)
+  nameWithType: ExM.SqrMag3(tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.SqrMag3(tfloat, tfloat, tfloat)
   type: Method
   source:
     id: SqrMag3
     path: ''
-    startLine: 11036
+    startLine: 11532
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns the quantity x^2+y^2+z^2.\n"
   example: []
   syntax:
-    content: public static tfloat SqrMag3(efloat x, efloat y, efloat z)
+    content: public static tfloat SqrMag3(tfloat x, tfloat y, tfloat z)
     parameters:
     - id: x
-      type: efloat
+      type: tfloat
     - id: y
-      type: efloat
+      type: tfloat
     - id: z
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function SqrMag3(x As efloat, y As efloat, z As efloat) As tfloat
+    content.vb: Public Shared Function SqrMag3(x As tfloat, y As tfloat, z As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.SqrMag3*
   modifiers.csharp:
   - public
@@ -4629,11 +5164,11 @@ items:
   source:
     id: Mag
     path: ''
-    startLine: 11042
+    startLine: 11538
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nGet the magnitude of a vector.\n"
+  summary: "\nGet the magnitude of a vector2.\n"
   example: []
   syntax:
     content: public static tfloat Mag(tv2 v2)
@@ -4664,11 +5199,11 @@ items:
   source:
     id: v3Mag
     path: ''
-    startLine: 11046
+    startLine: 11543
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nGet the magnitude of a vector.\n"
+  summary: "\nGet the magnitude of a vector3.\n"
   example: []
   syntax:
     content: public static tfloat v3Mag(tv3 v3)
@@ -4685,34 +5220,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Norm(ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.Norm(ev2)
-  id: Norm(ev2)
+- uid: Danmokou.DMath.Functions.ExM.Norm(tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.Norm(tv2)
+  id: Norm(tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Norm(ev2)
-  nameWithType: ExM.Norm(ev2)
-  fullName: Danmokou.DMath.Functions.ExM.Norm(ev2)
+  name: Norm(tv2)
+  nameWithType: ExM.Norm(tv2)
+  fullName: Danmokou.DMath.Functions.ExM.Norm(tv2)
   type: Method
   source:
     id: Norm
     path: ''
-    startLine: 11051
+    startLine: 11548
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nNormalize a vector.\n"
+  summary: "\nNormalize a vector2.\n"
   example: []
   syntax:
-    content: public static tv2 Norm(ev2 v2)
+    content: public static tv2 Norm(tv2 v2)
     parameters:
     - id: v2
-      type: ev2
+      type: tv2
     return:
       type: tv2
-    content.vb: Public Shared Function Norm(v2 As ev2) As tv2
+    content.vb: Public Shared Function Norm(v2 As tv2) As tv2
   overload: Danmokou.DMath.Functions.ExM.Norm*
   modifiers.csharp:
   - public
@@ -4720,34 +5255,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Norm3(ev3)
-  commentId: M:Danmokou.DMath.Functions.ExM.Norm3(ev3)
-  id: Norm3(ev3)
+- uid: Danmokou.DMath.Functions.ExM.Norm3(tv3)
+  commentId: M:Danmokou.DMath.Functions.ExM.Norm3(tv3)
+  id: Norm3(tv3)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Norm3(ev3)
-  nameWithType: ExM.Norm3(ev3)
-  fullName: Danmokou.DMath.Functions.ExM.Norm3(ev3)
+  name: Norm3(tv3)
+  nameWithType: ExM.Norm3(tv3)
+  fullName: Danmokou.DMath.Functions.ExM.Norm3(tv3)
   type: Method
   source:
     id: Norm3
     path: ''
-    startLine: 11064
+    startLine: 11560
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nNormalize a vector.\n"
+  summary: "\nNormalize a vector3.\n"
   example: []
   syntax:
-    content: public static tv3 Norm3(ev3 v3)
+    content: public static tv3 Norm3(tv3 v3)
     parameters:
     - id: v3
-      type: ev3
+      type: tv3
     return:
       type: tv3
-    content.vb: Public Shared Function Norm3(v3 As ev3) As tv3
+    content.vb: Public Shared Function Norm3(v3 As tv3) As tv3
   overload: Danmokou.DMath.Functions.ExM.Norm3*
   modifiers.csharp:
   - public
@@ -4755,34 +5290,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.SqrMag(ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.SqrMag(ev2)
-  id: SqrMag(ev2)
+- uid: Danmokou.DMath.Functions.ExM.SqrMag(tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.SqrMag(tv2)
+  id: SqrMag(tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: SqrMag(ev2)
-  nameWithType: ExM.SqrMag(ev2)
-  fullName: Danmokou.DMath.Functions.ExM.SqrMag(ev2)
+  name: SqrMag(tv2)
+  nameWithType: ExM.SqrMag(tv2)
+  fullName: Danmokou.DMath.Functions.ExM.SqrMag(tv2)
   type: Method
   source:
     id: SqrMag
     path: ''
-    startLine: 11078
+    startLine: 11574
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nGet the square magnitude of a vector.\n"
+  summary: "\nGet the square magnitude of a vector2.\n"
   example: []
   syntax:
-    content: public static tfloat SqrMag(ev2 v2)
+    content: public static tfloat SqrMag(tv2 v2)
     parameters:
     - id: v2
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function SqrMag(v2 As ev2) As tfloat
+    content.vb: Public Shared Function SqrMag(v2 As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.SqrMag*
   modifiers.csharp:
   - public
@@ -4790,34 +5325,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.v3SqrMag(ev3)
-  commentId: M:Danmokou.DMath.Functions.ExM.v3SqrMag(ev3)
-  id: v3SqrMag(ev3)
+- uid: Danmokou.DMath.Functions.ExM.v3SqrMag(tv3)
+  commentId: M:Danmokou.DMath.Functions.ExM.v3SqrMag(tv3)
+  id: v3SqrMag(tv3)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: v3SqrMag(ev3)
-  nameWithType: ExM.v3SqrMag(ev3)
-  fullName: Danmokou.DMath.Functions.ExM.v3SqrMag(ev3)
+  name: v3SqrMag(tv3)
+  nameWithType: ExM.v3SqrMag(tv3)
+  fullName: Danmokou.DMath.Functions.ExM.v3SqrMag(tv3)
   type: Method
   source:
     id: v3SqrMag
     path: ''
-    startLine: 11082
+    startLine: 11579
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
-  summary: "\nGet the square magnitude of a vector.\n"
+  summary: "\nGet the square magnitude of a vector3.\n"
   example: []
   syntax:
-    content: public static tfloat v3SqrMag(ev3 v3)
+    content: public static tfloat v3SqrMag(tv3 v3)
     parameters:
     - id: v3
-      type: ev3
+      type: tv3
     return:
       type: tfloat
-    content.vb: Public Shared Function v3SqrMag(v3 As ev3) As tfloat
+    content.vb: Public Shared Function v3SqrMag(v3 As tv3) As tfloat
   overload: Danmokou.DMath.Functions.ExM.v3SqrMag*
   modifiers.csharp:
   - public
@@ -4825,43 +5360,48 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Pow(tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.Pow(tfloat,tfloat)
-  id: Pow(tfloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExM.Pow``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExM.Pow``1(TEx{``0},TEx{``0})
+  id: Pow``1(TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Pow(tfloat, tfloat)
-  nameWithType: ExM.Pow(tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExM.Pow(tfloat, tfloat)
+  name: Pow<T>(TEx<T>, TEx<T>)
+  nameWithType: ExM.Pow<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExM.Pow<T>(TEx<T>, TEx<T>)
   type: Method
   source:
     id: Pow
     path: ''
-    startLine: 11089
+    startLine: 11586
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns (bas)^(exp).\n"
   example: []
   syntax:
-    content: public static tfloat Pow(tfloat bas, tfloat exp)
+    content: public static TEx<T> Pow<T>(TEx<T> bas, TEx<T> exp)
     parameters:
     - id: bas
-      type: tfloat
+      type: TEx{{T}}
     - id: exp
-      type: tfloat
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
     return:
-      type: tfloat
-    content.vb: Public Shared Function Pow(bas As tfloat, exp As tfloat) As tfloat
+      type: TEx{{T}}
+    content.vb: Public Shared Function Pow(Of T)(bas As TEx(Of T), exp As TEx(Of T)) As TEx(Of T)
   overload: Danmokou.DMath.Functions.ExM.Pow*
+  nameWithType.vb: ExM.Pow(Of T)(TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.Pow(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Pow(Of T)(TEx(Of T), TEx(Of T))
 - uid: Danmokou.DMath.Functions.ExM.PowSub(tfloat,tfloat)
   commentId: M:Danmokou.DMath.Functions.ExM.PowSub(tfloat,tfloat)
   id: PowSub(tfloat,tfloat)
@@ -4876,7 +5416,7 @@ items:
   source:
     id: PowSub
     path: ''
-    startLine: 11096
+    startLine: 11593
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4900,39 +5440,39 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.NPow(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.NPow(efloat,efloat)
-  id: NPow(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExM.NPow(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.NPow(tfloat,tfloat)
+  id: NPow(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: NPow(efloat, efloat)
-  nameWithType: ExM.NPow(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.NPow(efloat, efloat)
+  name: NPow(tfloat, tfloat)
+  nameWithType: ExM.NPow(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.NPow(tfloat, tfloat)
   type: Method
   source:
     id: NPow
     path: ''
-    startLine: 11113
+    startLine: 11610
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturns one number raised to the power of the other.\nIf bas is negative, then returns - (-bas)^exp. This allows fractional powers on negatives.\n(Alias: ^^ bas exp)\n"
   example: []
   syntax:
-    content: public static tfloat NPow(efloat bas, efloat exp)
+    content: public static tfloat NPow(tfloat bas, tfloat exp)
     parameters:
     - id: bas
-      type: efloat
+      type: tfloat
       description: Base
     - id: exp
-      type: efloat
+      type: tfloat
       description: Exponent
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function NPow(bas As efloat, exp As efloat) As tfloat
+    content.vb: Public Shared Function NPow(bas As tfloat, exp As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.NPow*
   modifiers.csharp:
   - public
@@ -4954,7 +5494,7 @@ items:
   source:
     id: Round
     path: ''
-    startLine: 11126
+    startLine: 11623
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4975,36 +5515,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.BlockRound(efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.BlockRound(efloat,tfloat)
-  id: BlockRound(efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExM.BlockRound(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.BlockRound(tfloat,tfloat)
+  id: BlockRound(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: BlockRound(efloat, tfloat)
-  nameWithType: ExM.BlockRound(efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExM.BlockRound(efloat, tfloat)
+  name: BlockRound(tfloat, tfloat)
+  nameWithType: ExM.BlockRound(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.BlockRound(tfloat, tfloat)
   type: Method
   source:
     id: BlockRound
     path: ''
-    startLine: 11131
+    startLine: 11628
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\n= Round(ex / block) * block\n"
   example: []
   syntax:
-    content: public static tfloat BlockRound(efloat block, tfloat ex)
+    content: public static tfloat BlockRound(tfloat block, tfloat ex)
     parameters:
     - id: block
-      type: efloat
+      type: tfloat
     - id: ex
       type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function BlockRound(block As efloat, ex As tfloat) As tfloat
+    content.vb: Public Shared Function BlockRound(block As tfloat, ex As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.BlockRound*
   modifiers.csharp:
   - public
@@ -5026,7 +5566,7 @@ items:
   source:
     id: Floor
     path: ''
-    startLine: 11137
+    startLine: 11634
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5047,36 +5587,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.BlockFloor(efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.BlockFloor(efloat,tfloat)
-  id: BlockFloor(efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExM.BlockFloor(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.BlockFloor(tfloat,tfloat)
+  id: BlockFloor(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: BlockFloor(efloat, tfloat)
-  nameWithType: ExM.BlockFloor(efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExM.BlockFloor(efloat, tfloat)
+  name: BlockFloor(tfloat, tfloat)
+  nameWithType: ExM.BlockFloor(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.BlockFloor(tfloat, tfloat)
   type: Method
   source:
     id: BlockFloor
     path: ''
-    startLine: 11141
+    startLine: 11638
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\n= Floor(ex / block) * block\n"
   example: []
   syntax:
-    content: public static tfloat BlockFloor(efloat block, tfloat ex)
+    content: public static tfloat BlockFloor(tfloat block, tfloat ex)
     parameters:
     - id: block
-      type: efloat
+      type: tfloat
     - id: ex
       type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function BlockFloor(block As efloat, ex As tfloat) As tfloat
+    content.vb: Public Shared Function BlockFloor(block As tfloat, ex As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.BlockFloor*
   modifiers.csharp:
   - public
@@ -5098,7 +5638,7 @@ items:
   source:
     id: dFloor
     path: ''
-    startLine: 11143
+    startLine: 11640
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5131,7 +5671,7 @@ items:
   source:
     id: Ceil
     path: ''
-    startLine: 11147
+    startLine: 11644
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5166,7 +5706,7 @@ items:
   source:
     id: Abs
     path: ''
-    startLine: 11156
+    startLine: 11653
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5203,7 +5743,7 @@ items:
   source:
     id: Diff
     path: ''
-    startLine: 11163
+    startLine: 11660
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5240,7 +5780,7 @@ items:
   source:
     id: Dist
     path: ''
-    startLine: 11169
+    startLine: 11666
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5278,7 +5818,7 @@ items:
   source:
     id: SqrDist
     path: ''
-    startLine: 11175
+    startLine: 11672
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5316,7 +5856,7 @@ items:
   source:
     id: Min
     path: ''
-    startLine: 11181
+    startLine: 11678
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5339,36 +5879,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.MinA(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.MinA(efloat,efloat)
-  id: MinA(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExM.MinA(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.MinA(tfloat,tfloat)
+  id: MinA(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: MinA(efloat, efloat)
-  nameWithType: ExM.MinA(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.MinA(efloat, efloat)
+  name: MinA(tfloat, tfloat)
+  nameWithType: ExM.MinA(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.MinA(tfloat, tfloat)
   type: Method
   source:
     id: MinA
     path: ''
-    startLine: 11187
+    startLine: 11684
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nOf two numbers, return the one with the smaller absolute value.\nNot well-defined when x1 = -x2.\n"
   example: []
   syntax:
-    content: public static tfloat MinA(efloat x1, efloat x2)
+    content: public static tfloat MinA(tfloat x1, tfloat x2)
     parameters:
     - id: x1
-      type: efloat
+      type: tfloat
     - id: x2
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function MinA(x1 As efloat, x2 As efloat) As tfloat
+    content.vb: Public Shared Function MinA(x1 As tfloat, x2 As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.MinA*
   modifiers.csharp:
   - public
@@ -5390,7 +5930,7 @@ items:
   source:
     id: Max
     path: ''
-    startLine: 11193
+    startLine: 11690
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5413,36 +5953,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.MaxA(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.MaxA(efloat,efloat)
-  id: MaxA(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExM.MaxA(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.MaxA(tfloat,tfloat)
+  id: MaxA(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: MaxA(efloat, efloat)
-  nameWithType: ExM.MaxA(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.MaxA(efloat, efloat)
+  name: MaxA(tfloat, tfloat)
+  nameWithType: ExM.MaxA(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.MaxA(tfloat, tfloat)
   type: Method
   source:
     id: MaxA
     path: ''
-    startLine: 11198
+    startLine: 11695
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nOf two numbers, return the one with the larger absolute value.\nNot well-defined when x1 = -x2.\n"
   example: []
   syntax:
-    content: public static tfloat MaxA(efloat x1, efloat x2)
+    content: public static tfloat MaxA(tfloat x1, tfloat x2)
     parameters:
     - id: x1
-      type: efloat
+      type: tfloat
     - id: x2
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function MaxA(x1 As efloat, x2 As efloat) As tfloat
+    content.vb: Public Shared Function MaxA(x1 As tfloat, x2 As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.MaxA*
   modifiers.csharp:
   - public
@@ -5450,39 +5990,39 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Limit(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.Limit(efloat,efloat)
-  id: Limit(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExM.Limit(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.Limit(tfloat,tfloat)
+  id: Limit(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Limit(efloat, efloat)
-  nameWithType: ExM.Limit(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.Limit(efloat, efloat)
+  name: Limit(tfloat, tfloat)
+  nameWithType: ExM.Limit(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.Limit(tfloat, tfloat)
   type: Method
   source:
     id: Limit
     path: ''
-    startLine: 11207
+    startLine: 11704
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nLimit a value x to have absolute value leq by.\n"
   example: []
   syntax:
-    content: public static tfloat Limit(efloat by, efloat x)
+    content: public static tfloat Limit(tfloat by, tfloat x)
     parameters:
     - id: by
-      type: efloat
+      type: tfloat
       description: Positive number for absolute value comparison
     - id: x
-      type: efloat
+      type: tfloat
       description: Number to be limited
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function Limit(by As efloat, x As efloat) As tfloat
+    content.vb: Public Shared Function Limit(by As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.Limit*
   modifiers.csharp:
   - public
@@ -5490,36 +6030,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.HighPass(tfloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.HighPass(tfloat,efloat)
-  id: HighPass(tfloat,efloat)
+- uid: Danmokou.DMath.Functions.ExM.HighPass(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.HighPass(tfloat,tfloat)
+  id: HighPass(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: HighPass(tfloat, efloat)
-  nameWithType: ExM.HighPass(tfloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.HighPass(tfloat, efloat)
+  name: HighPass(tfloat, tfloat)
+  nameWithType: ExM.HighPass(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.HighPass(tfloat, tfloat)
   type: Method
   source:
     id: HighPass
     path: ''
-    startLine: 11213
+    startLine: 11710
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nIf x&apos;s absolute value is less than by, then return 0 instead.\n"
   example: []
   syntax:
-    content: public static tfloat HighPass(tfloat by, efloat x)
+    content: public static tfloat HighPass(tfloat by, tfloat x)
     parameters:
     - id: by
       type: tfloat
     - id: x
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function HighPass(by As tfloat, x As efloat) As tfloat
+    content.vb: Public Shared Function HighPass(by As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.HighPass*
   modifiers.csharp:
   - public
@@ -5527,36 +6067,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.HighCut(tfloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.HighCut(tfloat,efloat)
-  id: HighCut(tfloat,efloat)
+- uid: Danmokou.DMath.Functions.ExM.HighCut(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.HighCut(tfloat,tfloat)
+  id: HighCut(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: HighCut(tfloat, efloat)
-  nameWithType: ExM.HighCut(tfloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExM.HighCut(tfloat, efloat)
+  name: HighCut(tfloat, tfloat)
+  nameWithType: ExM.HighCut(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.HighCut(tfloat, tfloat)
   type: Method
   source:
     id: HighCut
     path: ''
-    startLine: 11218
+    startLine: 11715
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nIf x&apos;s absolute value is greater than by, then return 0 instead.\n"
   example: []
   syntax:
-    content: public static tfloat HighCut(tfloat by, efloat x)
+    content: public static tfloat HighCut(tfloat by, tfloat x)
     parameters:
     - id: by
       type: tfloat
     - id: x
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function HighCut(by As tfloat, x As efloat) As tfloat
+    content.vb: Public Shared Function HighCut(by As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.HighCut*
   modifiers.csharp:
   - public
@@ -5578,7 +6118,7 @@ items:
   source:
     id: Clamp
     path: ''
-    startLine: 11226
+    startLine: 11723
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5617,7 +6157,7 @@ items:
   source:
     id: Clamp01
     path: ''
-    startLine: 11231
+    startLine: 11728
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5652,7 +6192,7 @@ items:
   source:
     id: Linear
     path: ''
-    startLine: 11236
+    startLine: 11733
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5677,36 +6217,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.RadIntoRange(efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.RadIntoRange(efloat)
-  id: RadIntoRange(efloat)
+- uid: Danmokou.DMath.Functions.ExM.RadIntoRange(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.RadIntoRange(tfloat)
+  id: RadIntoRange(tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: RadIntoRange(efloat)
-  nameWithType: ExM.RadIntoRange(efloat)
-  fullName: Danmokou.DMath.Functions.ExM.RadIntoRange(efloat)
+  name: RadIntoRange(tfloat)
+  nameWithType: ExM.RadIntoRange(tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.RadIntoRange(tfloat)
   type: Method
   source:
     id: RadIntoRange
     path: ''
-    startLine: 11243
+    startLine: 11740
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nMove a value in the range [-3pi, 3pi] to the range [-pi, pi] by adding or subtracting tau.\n"
   example: []
   syntax:
-    content: public static tfloat RadIntoRange(efloat ang_rad)
+    content: public static tfloat RadIntoRange(tfloat ang_rad)
     parameters:
     - id: ang_rad
-      type: efloat
+      type: tfloat
       description: ''
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function RadIntoRange(ang_rad As efloat) As tfloat
+    content.vb: Public Shared Function RadIntoRange(ang_rad As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.RadIntoRange*
   modifiers.csharp:
   - public
@@ -5714,36 +6254,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.RadToNeg(efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.RadToNeg(efloat)
-  id: RadToNeg(efloat)
+- uid: Danmokou.DMath.Functions.ExM.RadToNeg(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.RadToNeg(tfloat)
+  id: RadToNeg(tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: RadToNeg(efloat)
-  nameWithType: ExM.RadToNeg(efloat)
-  fullName: Danmokou.DMath.Functions.ExM.RadToNeg(efloat)
+  name: RadToNeg(tfloat)
+  nameWithType: ExM.RadToNeg(tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.RadToNeg(tfloat)
   type: Method
   source:
     id: RadToNeg
     path: ''
-    startLine: 11255
+    startLine: 11752
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nMove a value in the range [-2pi, 2pi] to the range [-2pi, 0] by subtracting tau.\n"
   example: []
   syntax:
-    content: public static tfloat RadToNeg(efloat ang_rad)
+    content: public static tfloat RadToNeg(tfloat ang_rad)
     parameters:
     - id: ang_rad
-      type: efloat
+      type: tfloat
       description: ''
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function RadToNeg(ang_rad As efloat) As tfloat
+    content.vb: Public Shared Function RadToNeg(ang_rad As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.RadToNeg*
   modifiers.csharp:
   - public
@@ -5751,36 +6291,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.RadToPos(efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.RadToPos(efloat)
-  id: RadToPos(efloat)
+- uid: Danmokou.DMath.Functions.ExM.RadToPos(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.RadToPos(tfloat)
+  id: RadToPos(tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: RadToPos(efloat)
-  nameWithType: ExM.RadToPos(efloat)
-  fullName: Danmokou.DMath.Functions.ExM.RadToPos(efloat)
+  name: RadToPos(tfloat)
+  nameWithType: ExM.RadToPos(tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.RadToPos(tfloat)
   type: Method
   source:
     id: RadToPos
     path: ''
-    startLine: 11262
+    startLine: 11759
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nMove a value in the range [-2pi, 2pi] to the range [0,2pi] by adding tau.\n"
   example: []
   syntax:
-    content: public static tfloat RadToPos(efloat ang_rad)
+    content: public static tfloat RadToPos(tfloat ang_rad)
     parameters:
     - id: ang_rad
-      type: efloat
+      type: tfloat
       description: ''
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function RadToPos(ang_rad As efloat) As tfloat
+    content.vb: Public Shared Function RadToPos(ang_rad As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.RadToPos*
   modifiers.csharp:
   - public
@@ -5788,36 +6328,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.DegIntoRange(efloat)
-  commentId: M:Danmokou.DMath.Functions.ExM.DegIntoRange(efloat)
-  id: DegIntoRange(efloat)
+- uid: Danmokou.DMath.Functions.ExM.DegIntoRange(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExM.DegIntoRange(tfloat)
+  id: DegIntoRange(tfloat)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: DegIntoRange(efloat)
-  nameWithType: ExM.DegIntoRange(efloat)
-  fullName: Danmokou.DMath.Functions.ExM.DegIntoRange(efloat)
+  name: DegIntoRange(tfloat)
+  nameWithType: ExM.DegIntoRange(tfloat)
+  fullName: Danmokou.DMath.Functions.ExM.DegIntoRange(tfloat)
   type: Method
   source:
     id: DegIntoRange
     path: ''
-    startLine: 11269
+    startLine: 11766
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nMove a value in the range [-540, 540] to the range [-180, 180] by adding or subtracting 360.\n"
   example: []
   syntax:
-    content: public static tfloat DegIntoRange(efloat ang_rad)
+    content: public static tfloat DegIntoRange(tfloat ang_rad)
     parameters:
     - id: ang_rad
-      type: efloat
+      type: tfloat
       description: ''
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function DegIntoRange(ang_rad As efloat) As tfloat
+    content.vb: Public Shared Function DegIntoRange(ang_rad As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExM.DegIntoRange*
   modifiers.csharp:
   - public
@@ -5825,36 +6365,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.DegDiff(ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.DegDiff(ev2,ev2)
-  id: DegDiff(ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExM.DegDiff(tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.DegDiff(tv2,tv2)
+  id: DegDiff(tv2,tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: DegDiff(ev2, ev2)
-  nameWithType: ExM.DegDiff(ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExM.DegDiff(ev2, ev2)
+  name: DegDiff(tv2, tv2)
+  nameWithType: ExM.DegDiff(tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExM.DegDiff(tv2, tv2)
   type: Method
   source:
     id: DegDiff
     path: ''
-    startLine: 11279
+    startLine: 11776
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the rotation required, in degrees, to rotate SOURCE to TARGET, in the range [-180,180].\n"
   example: []
   syntax:
-    content: public static tfloat DegDiff(ev2 target, ev2 source)
+    content: public static tfloat DegDiff(tv2 target, tv2 source)
     parameters:
     - id: target
-      type: ev2
+      type: tv2
     - id: source
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function DegDiff(target As ev2, source As ev2) As tfloat
+    content.vb: Public Shared Function DegDiff(target As tv2, source As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.DegDiff*
   modifiers.csharp:
   - public
@@ -5862,36 +6402,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.RadDiff(ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.RadDiff(ev2,ev2)
-  id: RadDiff(ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExM.RadDiff(tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.RadDiff(tv2,tv2)
+  id: RadDiff(tv2,tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: RadDiff(ev2, ev2)
-  nameWithType: ExM.RadDiff(ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExM.RadDiff(ev2, ev2)
+  name: RadDiff(tv2, tv2)
+  nameWithType: ExM.RadDiff(tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExM.RadDiff(tv2, tv2)
   type: Method
   source:
     id: RadDiff
     path: ''
-    startLine: 11283
+    startLine: 11780
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the rotation required, in radians, to rotate SOURCE to TARGET, in the range [-pi,pi].\n"
   example: []
   syntax:
-    content: public static tfloat RadDiff(ev2 target, ev2 source)
+    content: public static tfloat RadDiff(tv2 target, tv2 source)
     parameters:
     - id: target
-      type: ev2
+      type: tv2
     - id: source
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function RadDiff(target As ev2, source As ev2) As tfloat
+    content.vb: Public Shared Function RadDiff(target As tv2, source As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.RadDiff*
   modifiers.csharp:
   - public
@@ -5899,36 +6439,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.RadDiffCCW(ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.RadDiffCCW(ev2,ev2)
-  id: RadDiffCCW(ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExM.RadDiffCCW(tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.RadDiffCCW(tv2,tv2)
+  id: RadDiffCCW(tv2,tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: RadDiffCCW(ev2, ev2)
-  nameWithType: ExM.RadDiffCCW(ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExM.RadDiffCCW(ev2, ev2)
+  name: RadDiffCCW(tv2, tv2)
+  nameWithType: ExM.RadDiffCCW(tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExM.RadDiffCCW(tv2, tv2)
   type: Method
   source:
     id: RadDiffCCW
     path: ''
-    startLine: 11287
+    startLine: 11784
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the rotation required, in radians, to rotate SOURCE to TARGET, in the range [0,2pi].\n"
   example: []
   syntax:
-    content: public static tfloat RadDiffCCW(ev2 target, ev2 source)
+    content: public static tfloat RadDiffCCW(tv2 target, tv2 source)
     parameters:
     - id: target
-      type: ev2
+      type: tv2
     - id: source
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function RadDiffCCW(target As ev2, source As ev2) As tfloat
+    content.vb: Public Shared Function RadDiffCCW(target As tv2, source As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.RadDiffCCW*
   modifiers.csharp:
   - public
@@ -5936,36 +6476,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.RadDiffCW(ev2,ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.RadDiffCW(ev2,ev2)
-  id: RadDiffCW(ev2,ev2)
+- uid: Danmokou.DMath.Functions.ExM.RadDiffCW(tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.RadDiffCW(tv2,tv2)
+  id: RadDiffCW(tv2,tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: RadDiffCW(ev2, ev2)
-  nameWithType: ExM.RadDiffCW(ev2, ev2)
-  fullName: Danmokou.DMath.Functions.ExM.RadDiffCW(ev2, ev2)
+  name: RadDiffCW(tv2, tv2)
+  nameWithType: ExM.RadDiffCW(tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExM.RadDiffCW(tv2, tv2)
   type: Method
   source:
     id: RadDiffCW
     path: ''
-    startLine: 11292
+    startLine: 11789
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the rotation required, in radians, to rotate SOURCE to TARGET, in the range [-2pi,0].\n"
   example: []
   syntax:
-    content: public static tfloat RadDiffCW(ev2 target, ev2 source)
+    content: public static tfloat RadDiffCW(tv2 target, tv2 source)
     parameters:
     - id: target
-      type: ev2
+      type: tv2
     - id: source
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function RadDiffCW(target As ev2, source As ev2) As tfloat
+    content.vb: Public Shared Function RadDiffCW(target As tv2, source As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.RadDiffCW*
   modifiers.csharp:
   - public
@@ -5987,7 +6527,7 @@ items:
   source:
     id: Sin
     path: ''
-    startLine: 11308
+    startLine: 11805
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6023,7 +6563,7 @@ items:
   source:
     id: Cos
     path: ''
-    startLine: 11313
+    startLine: 11810
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6059,7 +6599,7 @@ items:
   source:
     id: CosSin
     path: ''
-    startLine: 11317
+    startLine: 11814
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6094,7 +6634,7 @@ items:
   source:
     id: SinDeg
     path: ''
-    startLine: 11322
+    startLine: 11819
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6130,7 +6670,7 @@ items:
   source:
     id: CosDeg
     path: ''
-    startLine: 11327
+    startLine: 11824
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6166,7 +6706,7 @@ items:
   source:
     id: CosSinDeg
     path: ''
-    startLine: 11331
+    startLine: 11828
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6201,7 +6741,7 @@ items:
   source:
     id: Sine
     path: ''
-    startLine: 11343
+    startLine: 11840
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6244,7 +6784,7 @@ items:
   source:
     id: DSine
     path: ''
-    startLine: 11351
+    startLine: 11848
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6287,7 +6827,7 @@ items:
   source:
     id: Cosine
     path: ''
-    startLine: 11365
+    startLine: 11862
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6330,7 +6870,7 @@ items:
   source:
     id: DCosine
     path: ''
-    startLine: 11373
+    startLine: 11870
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6373,7 +6913,7 @@ items:
   source:
     id: ACosR
     path: ''
-    startLine: 11385
+    startLine: 11882
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6408,7 +6948,7 @@ items:
   source:
     id: ACos
     path: ''
-    startLine: 11387
+    startLine: 11884
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6441,7 +6981,7 @@ items:
   source:
     id: Tan
     path: ''
-    startLine: 11392
+    startLine: 11889
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6476,7 +7016,7 @@ items:
   source:
     id: ATanR2
     path: ''
-    startLine: 11399
+    startLine: 11896
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6499,34 +7039,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.ATanR(ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.ATanR(ev2)
-  id: ATanR(ev2)
+- uid: Danmokou.DMath.Functions.ExM.ATanR(tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.ATanR(tv2)
+  id: ATanR(tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: ATanR(ev2)
-  nameWithType: ExM.ATanR(ev2)
-  fullName: Danmokou.DMath.Functions.ExM.ATanR(ev2)
+  name: ATanR(tv2)
+  nameWithType: ExM.ATanR(tv2)
+  fullName: Danmokou.DMath.Functions.ExM.ATanR(tv2)
   type: Method
   source:
     id: ATanR
     path: ''
-    startLine: 11404
+    startLine: 11901
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn the angle in radians whose tangent is v2.y/v2.x.\n"
   example: []
   syntax:
-    content: public static tfloat ATanR(ev2 f)
+    content: public static tfloat ATanR(tv2 f)
     parameters:
     - id: f
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function ATanR(f As ev2) As tfloat
+    content.vb: Public Shared Function ATanR(f As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.ATanR*
   modifiers.csharp:
   - public
@@ -6548,7 +7088,7 @@ items:
   source:
     id: ATan2
     path: ''
-    startLine: 11411
+    startLine: 11905
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6571,34 +7111,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.ATan(ev2)
-  commentId: M:Danmokou.DMath.Functions.ExM.ATan(ev2)
-  id: ATan(ev2)
+- uid: Danmokou.DMath.Functions.ExM.ATan(tv2)
+  commentId: M:Danmokou.DMath.Functions.ExM.ATan(tv2)
+  id: ATan(tv2)
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: ATan(ev2)
-  nameWithType: ExM.ATan(ev2)
-  fullName: Danmokou.DMath.Functions.ExM.ATan(ev2)
+  name: ATan(tv2)
+  nameWithType: ExM.ATan(tv2)
+  fullName: Danmokou.DMath.Functions.ExM.ATan(tv2)
   type: Method
   source:
     id: ATan
     path: ''
-    startLine: 11415
+    startLine: 11909
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn the angle in degrees whose tangent is v2.y/v2.x.\n"
   example: []
   syntax:
-    content: public static tfloat ATan(ev2 f)
+    content: public static tfloat ATan(tv2 f)
     parameters:
     - id: f
-      type: ev2
+      type: tv2
     return:
       type: tfloat
-    content.vb: Public Shared Function ATan(f As ev2) As tfloat
+    content.vb: Public Shared Function ATan(f As tv2) As tfloat
   overload: Danmokou.DMath.Functions.ExM.ATan*
   modifiers.csharp:
   - public
@@ -6606,6 +7146,48 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Danmokou.DMath.Functions.ExM.ArrayIndex``1(TEx{``0[]},TEx{System.Int32})
+  commentId: M:Danmokou.DMath.Functions.ExM.ArrayIndex``1(TEx{``0[]},TEx{System.Int32})
+  id: ArrayIndex``1(TEx{``0[]},TEx{System.Int32})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: ArrayIndex<T>(TEx<T[]>, TEx<Int32>)
+  nameWithType: ExM.ArrayIndex<T>(TEx<T[]>, TEx<Int32>)
+  fullName: Danmokou.DMath.Functions.ExM.ArrayIndex<T>(TEx<T[]>, TEx<System.Int32>)
+  type: Method
+  source:
+    id: ArrayIndex
+    path: ''
+    startLine: 11915
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nArray indexing operator arr[index].\n"
+  example: []
+  syntax:
+    content: public static TEx<T> ArrayIndex<T>(TEx<T[]> arr, TEx<int> index)
+    parameters:
+    - id: arr
+      type: TEx{{T}[]}
+    - id: index
+      type: TEx{System.Int32}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function ArrayIndex(Of T)(arr As TEx(Of T()), index As TEx(Of Integer)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExM.ArrayIndex*
+  nameWithType.vb: ExM.ArrayIndex(Of T)(TEx(Of T()), TEx(Of Int32))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.ArrayIndex(Of T)(TEx(Of T()), TEx(Of System.Int32))
+  name.vb: ArrayIndex(Of T)(TEx(Of T()), TEx(Of Int32))
 references:
 - uid: Danmokou.DMath.Functions
   commentId: N:Danmokou.DMath.Functions
@@ -7083,16 +7665,59 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Danmokou.DMath.Functions.ExM.LPlayerTrue*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.LPlayerTrue
+  name: LPlayerTrue
+  nameWithType: ExM.LPlayerTrue
+  fullName: Danmokou.DMath.Functions.ExM.LPlayerTrue
 - uid: Danmokou.DMath.Functions.ExM.LBEH*
   commentId: Overload:Danmokou.DMath.Functions.ExM.LBEH
   name: LBEH
   nameWithType: ExM.LBEH
   fullName: Danmokou.DMath.Functions.ExM.LBEH
-- uid: BEHPointer
-  isExternal: true
-  name: BEHPointer
-  nameWithType: BEHPointer
-  fullName: BEHPointer
+- uid: TEx{BehaviorEntity}
+  commentId: '!:TEx{BehaviorEntity}'
+  definition: TEx`1
+  name: TEx<BehaviorEntity>
+  nameWithType: TEx<BehaviorEntity>
+  fullName: TEx<BehaviorEntity>
+  nameWithType.vb: TEx(Of BehaviorEntity)
+  fullName.vb: TEx(Of BehaviorEntity)
+  name.vb: TEx(Of BehaviorEntity)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExM.DistToWall*
   commentId: Overload:Danmokou.DMath.Functions.ExM.DistToWall
   name: DistToWall
@@ -7254,6 +7879,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Danmokou.DMath.Functions.ExM.ReferenceLet*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.ReferenceLet
+  name: ReferenceLet
+  nameWithType: ExM.ReferenceLet
+  fullName: Danmokou.DMath.Functions.ExM.ReferenceLet
 - uid: Danmokou.DMath.Functions.ExM.ReferenceSafe*
   commentId: Overload:Danmokou.DMath.Functions.ExM.ReferenceSafe
   name: ReferenceSafe
@@ -7428,6 +8058,93 @@ references:
   name: RetrieveHoisted0
   nameWithType: ExM.RetrieveHoisted0
   fullName: Danmokou.DMath.Functions.ExM.RetrieveHoisted0
+- uid: Danmokou.DMath.Functions.ExM.LetBDSL2*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.LetBDSL2
+  name: LetBDSL2
+  nameWithType: ExM.LetBDSL2
+  fullName: Danmokou.DMath.Functions.ExM.LetBDSL2
+- uid: System.ValueTuple{System.String,UncompiledCode{{V}}}[]
+  isExternal: true
+  name: (T1, T2)<String, UncompiledCode<V>>[]
+  nameWithType: (T1, T2)<String, UncompiledCode<V>>[]
+  fullName: System.ValueTuple<System.String, UncompiledCode<V>>[]
+  nameWithType.vb: (T1, T2)(Of String, UncompiledCode(Of V))()
+  fullName.vb: System.ValueTuple(Of System.String, UncompiledCode(Of V))()
+  name.vb: (T1, T2)(Of String, UncompiledCode(Of V))()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: Danmokou.DMath.Functions.ExM.LetFloats*
   commentId: Overload:Danmokou.DMath.Functions.ExM.LetFloats
   name: LetFloats
@@ -7566,6 +8283,53 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: Danmokou.DMath.Functions.ExM.Let*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.Let
+  name: Let
+  nameWithType: ExM.Let
+  fullName: Danmokou.DMath.Functions.ExM.Let
+- uid: ReflectEx.Alias[]
+  isExternal: true
+  name: ReflectEx.Alias[]
+  nameWithType: ReflectEx.Alias[]
+  fullName: ReflectEx.Alias[]
+  nameWithType.vb: ReflectEx.Alias()
+  fullName.vb: ReflectEx.Alias()
+  name.vb: ReflectEx.Alias()
+  spec.csharp:
+  - uid: ReflectEx.Alias
+    name: ReflectEx.Alias
+    nameWithType: ReflectEx.Alias
+    fullName: ReflectEx.Alias
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: ReflectEx.Alias
+    name: ReflectEx.Alias
+    nameWithType: ReflectEx.Alias
+    fullName: ReflectEx.Alias
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.DMath.PIData
+  commentId: T:Danmokou.DMath.PIData
+  parent: Danmokou.DMath
+  name: PIData
+  nameWithType: PIData
+  fullName: Danmokou.DMath.PIData
+- uid: Danmokou.DMath.Functions.ExM.Set*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.Set
+  name: Set
+  nameWithType: ExM.Set
+  fullName: Danmokou.DMath.Functions.ExM.Set
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
 - uid: Danmokou.DMath.Functions.ExM.V2X*
   commentId: Overload:Danmokou.DMath.Functions.ExM.V2X
   name: V2X
@@ -7748,11 +8512,6 @@ references:
   name: SuperposeC
   nameWithType: ExM.SuperposeC
   fullName: Danmokou.DMath.Functions.ExM.SuperposeC
-- uid: efloat
-  isExternal: true
-  name: efloat
-  nameWithType: efloat
-  fullName: efloat
 - uid: Danmokou.DMath.Functions.ExM.Opacity*
   commentId: Overload:Danmokou.DMath.Functions.ExM.Opacity
   name: Opacity
@@ -7763,29 +8522,56 @@ references:
   name: Softmax
   nameWithType: ExM.Softmax
   fullName: Danmokou.DMath.Functions.ExM.Softmax
-- uid: tfloat[]
+- uid: ExBPY
   isExternal: true
-  name: tfloat[]
-  nameWithType: tfloat[]
-  fullName: tfloat[]
-  nameWithType.vb: tfloat()
-  fullName.vb: tfloat()
-  name.vb: tfloat()
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
+- uid: UncompiledCode{System.Single}[]
+  isExternal: true
+  name: UncompiledCode<Single>[]
+  nameWithType: UncompiledCode<Single>[]
+  fullName: UncompiledCode<System.Single>[]
+  nameWithType.vb: UncompiledCode(Of Single)()
+  fullName.vb: UncompiledCode(Of System.Single)()
+  name.vb: UncompiledCode(Of Single)()
   spec.csharp:
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
   spec.vb:
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: UncompiledCode`1
+    name: UncompiledCode
+    nameWithType: UncompiledCode
+    fullName: UncompiledCode
     isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: ()
     nameWithType: ()
     fullName: ()
@@ -7804,16 +8590,141 @@ references:
   name: SWing2
   nameWithType: ExM.SWing2
   fullName: Danmokou.DMath.Functions.ExM.SWing2
+- uid: Danmokou.DMath.Functions.ExM._constNamedTimer*
+  commentId: Overload:Danmokou.DMath.Functions.ExM._constNamedTimer
+  name: _constNamedTimer
+  nameWithType: ExM._constNamedTimer
+  fullName: Danmokou.DMath.Functions.ExM._constNamedTimer
+- uid: System.Func{TExArgCtx,TEx{ETime.Timer}}
+  commentId: T:System.Func{TExArgCtx,TEx{ETime.Timer}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<ETime.Timer>>
+  nameWithType: Func<TExArgCtx, TEx<ETime.Timer>>
+  fullName: System.Func<TExArgCtx, TEx<ETime.Timer>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of ETime.Timer))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of ETime.Timer))
+  name.vb: Func(Of TExArgCtx, TEx(Of ETime.Timer))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ETime.Timer
+    name: ETime.Timer
+    nameWithType: ETime.Timer
+    fullName: ETime.Timer
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ETime.Timer
+    name: ETime.Timer
+    nameWithType: ETime.Timer
+    fullName: ETime.Timer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExM.Timer*
   commentId: Overload:Danmokou.DMath.Functions.ExM.Timer
   name: Timer
   nameWithType: ExM.Timer
   fullName: Danmokou.DMath.Functions.ExM.Timer
-- uid: ETime.Timer
-  isExternal: true
-  name: ETime.Timer
-  nameWithType: ETime.Timer
-  fullName: ETime.Timer
+- uid: TEx{ETime.Timer}
+  commentId: '!:TEx{ETime.Timer}'
+  definition: TEx`1
+  name: TEx<ETime.Timer>
+  nameWithType: TEx<ETime.Timer>
+  fullName: TEx<ETime.Timer>
+  nameWithType.vb: TEx(Of ETime.Timer)
+  fullName.vb: TEx(Of ETime.Timer)
+  name.vb: TEx(Of ETime.Timer)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ETime.Timer
+    name: ETime.Timer
+    nameWithType: ETime.Timer
+    fullName: ETime.Timer
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ETime.Timer
+    name: ETime.Timer
+    nameWithType: ETime.Timer
+    fullName: ETime.Timer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExM.TimerSec*
   commentId: Overload:Danmokou.DMath.Functions.ExM.TimerSec
   name: TimerSec
@@ -7859,16 +8770,16 @@ references:
   name: BounceX
   nameWithType: ExM.BounceX
   fullName: Danmokou.DMath.Functions.ExM.BounceX
-- uid: ev2
-  isExternal: true
-  name: ev2
-  nameWithType: ev2
-  fullName: ev2
 - uid: Danmokou.DMath.Functions.ExM.BounceY*
   commentId: Overload:Danmokou.DMath.Functions.ExM.BounceY
   name: BounceY
   nameWithType: ExM.BounceY
   fullName: Danmokou.DMath.Functions.ExM.BounceY
+- uid: Danmokou.DMath.Functions.ExM.FrameNumber*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.FrameNumber
+  name: FrameNumber
+  nameWithType: ExM.FrameNumber
+  fullName: Danmokou.DMath.Functions.ExM.FrameNumber
 - uid: Danmokou.DMath.Functions.ExM.HPRatio*
   commentId: Overload:Danmokou.DMath.Functions.ExM.HPRatio
   name: HPRatio
@@ -7981,11 +8892,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: ExBPY
-  isExternal: true
-  name: ExBPY
-  nameWithType: ExBPY
-  fullName: ExBPY
 - uid: Danmokou.DMath.Functions.ExM.PlayerFocusT*
   commentId: Overload:Danmokou.DMath.Functions.ExM.PlayerFocusT
   name: PlayerFocusT
@@ -8056,11 +8962,113 @@ references:
   name: PlayerMarisaADir
   nameWithType: ExM.PlayerMarisaADir
   fullName: Danmokou.DMath.Functions.ExM.PlayerMarisaADir
-- uid: Danmokou.DMath.Functions.ExM.LaserColliding*
-  commentId: Overload:Danmokou.DMath.Functions.ExM.LaserColliding
-  name: LaserColliding
-  nameWithType: ExM.LaserColliding
-  fullName: Danmokou.DMath.Functions.ExM.LaserColliding
+- uid: Danmokou.DMath.Functions.ExM.Colliding*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.Colliding
+  name: Colliding
+  nameWithType: ExM.Colliding
+  fullName: Danmokou.DMath.Functions.ExM.Colliding
+- uid: System.Func{TExArgCtx,TEx{Bullet}}
+  commentId: T:System.Func{TExArgCtx,TEx{Bullet}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<Bullet>>
+  nameWithType: Func<TExArgCtx, TEx<Bullet>>
+  fullName: System.Func<TExArgCtx, TEx<Bullet>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of Bullet))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of Bullet))
+  name.vb: Func(Of TExArgCtx, TEx(Of Bullet))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Bullet
+    name: Bullet
+    nameWithType: Bullet
+    fullName: Bullet
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Bullet
+    name: Bullet
+    nameWithType: Bullet
+    fullName: Bullet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ExPred
+  isExternal: true
+  name: ExPred
+  nameWithType: ExPred
+  fullName: ExPred
+- uid: Danmokou.DMath.Functions.ExM.CollidingT*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.CollidingT
+  name: CollidingT
+  nameWithType: ExM.CollidingT
+  fullName: Danmokou.DMath.Functions.ExM.CollidingT
+- uid: Danmokou.DMath.Functions.ExM.UnCollidingT*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.UnCollidingT
+  name: UnCollidingT
+  nameWithType: ExM.UnCollidingT
+  fullName: Danmokou.DMath.Functions.ExM.UnCollidingT
+- uid: Danmokou.DMath.Functions.ExM.LaserLastActiveT*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.LaserLastActiveT
+  name: LaserLastActiveT
+  nameWithType: ExM.LaserLastActiveT
+  fullName: Danmokou.DMath.Functions.ExM.LaserLastActiveT
 - uid: System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}}
   commentId: T:System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}}
   parent: System
@@ -8143,16 +9151,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: ExPred
-  isExternal: true
-  name: ExPred
-  nameWithType: ExPred
-  fullName: ExPred
-- uid: Danmokou.DMath.Functions.ExM.LaserLastActiveT*
-  commentId: Overload:Danmokou.DMath.Functions.ExM.LaserLastActiveT
-  name: LaserLastActiveT
-  nameWithType: ExM.LaserLastActiveT
-  fullName: Danmokou.DMath.Functions.ExM.LaserLastActiveT
 - uid: Danmokou.DMath.Functions.ExM.OptionLocation*
   commentId: Overload:Danmokou.DMath.Functions.ExM.OptionLocation
   name: OptionLocation
@@ -8270,6 +9268,93 @@ references:
   name: Mine
   nameWithType: ExM.Mine
   fullName: Danmokou.DMath.Functions.ExM.Mine
+- uid: Danmokou.DMath.Functions.ExM.FromID*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.FromID
+  name: FromID
+  nameWithType: ExM.FromID
+  fullName: Danmokou.DMath.Functions.ExM.FromID
+- uid: System.Func{TExArgCtx,TEx{BehaviorEntity}}
+  commentId: T:System.Func{TExArgCtx,TEx{BehaviorEntity}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<BehaviorEntity>>
+  nameWithType: Func<TExArgCtx, TEx<BehaviorEntity>>
+  fullName: System.Func<TExArgCtx, TEx<BehaviorEntity>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of BehaviorEntity))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of BehaviorEntity))
+  name.vb: Func(Of TExArgCtx, TEx(Of BehaviorEntity))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExM.HPi*
   commentId: Overload:Danmokou.DMath.Functions.ExM.HPi
   name: HPi
@@ -8335,6 +9420,59 @@ references:
   name: Mul
   nameWithType: ExM.Mul
   fullName: Danmokou.DMath.Functions.ExM.Mul
+- uid: Danmokou.DMath.Functions.ExM.MulRev*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.MulRev
+  name: MulRev
+  nameWithType: ExM.MulRev
+  fullName: Danmokou.DMath.Functions.ExM.MulRev
+- uid: Danmokou.DMath.Functions.ExM.MulInt*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.MulInt
+  name: MulInt
+  nameWithType: ExM.MulInt
+  fullName: Danmokou.DMath.Functions.ExM.MulInt
+- uid: TEx{System.Int32}
+  commentId: '!:TEx{System.Int32}'
+  definition: TEx`1
+  name: TEx<Int32>
+  nameWithType: TEx<Int32>
+  fullName: TEx<System.Int32>
+  nameWithType.vb: TEx(Of Int32)
+  fullName.vb: TEx(Of System.Int32)
+  name.vb: TEx(Of Int32)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExM.DegRad*
   commentId: Overload:Danmokou.DMath.Functions.ExM.DegRad
   name: DegRad
@@ -8395,6 +9533,11 @@ references:
   name: Neg
   nameWithType: ExM.Neg
   fullName: Danmokou.DMath.Functions.ExM.Neg
+- uid: Danmokou.DMath.Functions.ExM.Negate*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.Negate
+  name: Negate
+  nameWithType: ExM.Negate
+  fullName: Danmokou.DMath.Functions.ExM.Negate
 - uid: Danmokou.DMath.Functions.ExM.Sign*
   commentId: Overload:Danmokou.DMath.Functions.ExM.Sign
   name: Sign
@@ -8455,11 +9598,6 @@ references:
   name: Norm3
   nameWithType: ExM.Norm3
   fullName: Danmokou.DMath.Functions.ExM.Norm3
-- uid: ev3
-  isExternal: true
-  name: ev3
-  nameWithType: ev3
-  fullName: ev3
 - uid: Danmokou.DMath.Functions.ExM.SqrMag*
   commentId: Overload:Danmokou.DMath.Functions.ExM.SqrMag
   name: SqrMag
@@ -8710,3 +9848,53 @@ references:
   name: ATan
   nameWithType: ExM.ATan
   fullName: Danmokou.DMath.Functions.ExM.ATan
+- uid: Danmokou.DMath.Functions.ExM.ArrayIndex*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.ArrayIndex
+  name: ArrayIndex
+  nameWithType: ExM.ArrayIndex
+  fullName: Danmokou.DMath.Functions.ExM.ArrayIndex
+- uid: TEx{{T}[]}
+  commentId: '!:TEx{``0[]}'
+  definition: TEx`1
+  name: TEx<T[]>
+  nameWithType: TEx<T[]>
+  fullName: TEx<T[]>
+  nameWithType.vb: TEx(Of T())
+  fullName.vb: TEx(Of T())
+  name.vb: TEx(Of T())
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )

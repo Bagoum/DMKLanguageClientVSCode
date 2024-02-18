@@ -19,7 +19,7 @@ items:
   source:
     id: SAAngle
     path: ''
-    startLine: 1028
+    startLine: 1274
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -48,11 +48,11 @@ items:
   source:
     id: ORIGINAL
     path: ''
-    startLine: 1033
+    startLine: 1279
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
-  summary: "\n(o) The angle from the parent is not modified.\nIf you add an angle offset, the entire summon will rotate.\n"
+  summary: "\n(o/original) The angle from the parent is not modified.\nIf you add an angle offset, the entire summon will rotate.\n"
   example: []
   syntax:
     content: ORIGINAL = 0
@@ -78,11 +78,11 @@ items:
   source:
     id: ORIGINAL_BANK
     path: ''
-    startLine: 1039
+    startLine: 1285
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
-  summary: "\n(bo) The angle from the parent is banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
+  summary: "\n(bo/bankoriginal) The angle from the parent is banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
   example: []
   syntax:
     content: ORIGINAL_BANK = 1
@@ -108,11 +108,11 @@ items:
   source:
     id: REL_ORIGIN_BANK
     path: ''
-    startLine: 1045
+    startLine: 1291
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
-  summary: "\n(br) The angle is set to the position of the summon, then banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
+  summary: "\n(br/bankrelative) The angle is set to the position of the summon, then banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
   example: []
   syntax:
     content: REL_ORIGIN_BANK = 2
@@ -138,11 +138,11 @@ items:
   source:
     id: TANGENT_BANK
     path: ''
-    startLine: 1051
+    startLine: 1297
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
-  summary: "\n(bt) The angle is set to the tangent on the summon curve, then banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
+  summary: "\n(bt/banktangent) The angle is set to the tangent on the summon curve, then banked.\nIf you add an angle offset, the summon will not rotate,\nbut the movement of the summoned pieces will.\n"
   example: []
   syntax:
     content: TANGENT_BANK = 3

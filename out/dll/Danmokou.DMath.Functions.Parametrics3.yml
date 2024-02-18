@@ -19,7 +19,7 @@ items:
   source:
     id: Parametrics3
     path: ''
-    startLine: 9470
+    startLine: 9795
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -59,7 +59,7 @@ items:
   source:
     id: TP
     path: ''
-    startLine: 9479
+    startLine: 9804
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -96,7 +96,7 @@ items:
   source:
     id: Circ
     path: ''
-    startLine: 9482
+    startLine: 9807
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -129,7 +129,7 @@ items:
   source:
     id: Wings1
     path: ''
-    startLine: 9495
+    startLine: 9820
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -172,7 +172,7 @@ items:
   source:
     id: Wings2
     path: ''
-    startLine: 9540
+    startLine: 9865
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

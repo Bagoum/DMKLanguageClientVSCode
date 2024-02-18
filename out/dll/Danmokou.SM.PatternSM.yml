@@ -5,7 +5,8 @@ items:
   id: PatternSM
   parent: Danmokou.SM
   children:
-  - Danmokou.SM.PatternSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PatternProperties)
+  - Danmokou.SM.PatternSM.#ctor(Danmokou.SM.PatternProperties,Danmokou.SM.StateMachine[])
+  - Danmokou.SM.PatternSM.EnvFrame
   - Danmokou.SM.PatternSM.Phases
   - Danmokou.SM.PatternSM.Props
   - Danmokou.SM.PatternSM.Start(Danmokou.SM.SMHandoff)
@@ -19,7 +20,7 @@ items:
   source:
     id: PatternSM
     path: ''
-    startLine: 13314
+    startLine: 13931
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -34,6 +35,8 @@ items:
   - System.Object
   - Danmokou.SM.StateMachine
   - Danmokou.SM.SequentialSM
+  implements:
+  - EnvFrameAttacher
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -62,7 +65,7 @@ items:
   source:
     id: Props
     path: ''
-    startLine: 13315
+    startLine: 13932
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -93,7 +96,7 @@ items:
   source:
     id: Phases
     path: ''
-    startLine: 13316
+    startLine: 13933
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -110,40 +113,71 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Danmokou.SM.PatternSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PatternProperties)
-  commentId: M:Danmokou.SM.PatternSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PatternProperties)
-  id: '#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PatternProperties)'
+- uid: Danmokou.SM.PatternSM.EnvFrame
+  commentId: P:Danmokou.SM.PatternSM.EnvFrame
+  id: EnvFrame
   parent: Danmokou.SM.PatternSM
   langs:
   - csharp
   - vb
-  name: PatternSM(List<StateMachine>, PatternProperties)
-  nameWithType: PatternSM.PatternSM(List<StateMachine>, PatternProperties)
-  fullName: Danmokou.SM.PatternSM.PatternSM(List<Danmokou.SM.StateMachine>, Danmokou.SM.PatternProperties)
-  type: Constructor
+  name: EnvFrame
+  nameWithType: PatternSM.EnvFrame
+  fullName: Danmokou.SM.PatternSM.EnvFrame
+  type: Property
   source:
-    id: .ctor
+    id: EnvFrame
     path: ''
-    startLine: 13318
+    startLine: 13934
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public PatternSM(List<StateMachine> states, PatternProperties props)
+    content: public EnvFrame? EnvFrame { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{EnvFrame}
+    content.vb: Public Property EnvFrame As EnvFrame?
+  overload: Danmokou.SM.PatternSM.EnvFrame*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.PatternSM.#ctor(Danmokou.SM.PatternProperties,Danmokou.SM.StateMachine[])
+  commentId: M:Danmokou.SM.PatternSM.#ctor(Danmokou.SM.PatternProperties,Danmokou.SM.StateMachine[])
+  id: '#ctor(Danmokou.SM.PatternProperties,Danmokou.SM.StateMachine[])'
+  parent: Danmokou.SM.PatternSM
+  langs:
+  - csharp
+  - vb
+  name: PatternSM(PatternProperties, StateMachine[])
+  nameWithType: PatternSM.PatternSM(PatternProperties, StateMachine[])
+  fullName: Danmokou.SM.PatternSM.PatternSM(Danmokou.SM.PatternProperties, Danmokou.SM.StateMachine[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13936
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public PatternSM(PatternProperties props, StateMachine[] states)
     parameters:
-    - id: states
-      type: List{Danmokou.SM.StateMachine}
     - id: props
       type: Danmokou.SM.PatternProperties
-    content.vb: Public Sub New(states As List(Of StateMachine), props As PatternProperties)
+    - id: states
+      type: Danmokou.SM.StateMachine[]
+    content.vb: Public Sub New(props As PatternProperties, states As StateMachine())
   overload: Danmokou.SM.PatternSM.#ctor*
-  nameWithType.vb: PatternSM.PatternSM(List(Of StateMachine), PatternProperties)
+  nameWithType.vb: PatternSM.PatternSM(PatternProperties, StateMachine())
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.SM.PatternSM.PatternSM(List(Of Danmokou.SM.StateMachine), Danmokou.SM.PatternProperties)
-  name.vb: PatternSM(List(Of StateMachine), PatternProperties)
+  fullName.vb: Danmokou.SM.PatternSM.PatternSM(Danmokou.SM.PatternProperties, Danmokou.SM.StateMachine())
+  name.vb: PatternSM(PatternProperties, StateMachine())
 - uid: Danmokou.SM.PatternSM.Start(Danmokou.SM.SMHandoff)
   commentId: M:Danmokou.SM.PatternSM.Start(Danmokou.SM.SMHandoff)
   id: Start(Danmokou.SM.SMHandoff)
@@ -158,7 +192,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 13373
+    startLine: 13991
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -209,6 +243,12 @@ references:
   name: SequentialSM
   nameWithType: SequentialSM
   fullName: Danmokou.SM.SequentialSM
+- uid: EnvFrameAttacher
+  commentId: '!:EnvFrameAttacher'
+  isExternal: true
+  name: EnvFrameAttacher
+  nameWithType: EnvFrameAttacher
+  fullName: EnvFrameAttacher
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -534,90 +574,123 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: Danmokou.SM.PatternSM.EnvFrame*
+  commentId: Overload:Danmokou.SM.PatternSM.EnvFrame
+  name: EnvFrame
+  nameWithType: PatternSM.EnvFrame
+  fullName: Danmokou.SM.PatternSM.EnvFrame
+- uid: System.Nullable{EnvFrame}
+  commentId: T:System.Nullable{EnvFrame}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<EnvFrame>
+  nameWithType: Nullable<EnvFrame>
+  fullName: System.Nullable<EnvFrame>
+  nameWithType.vb: Nullable(Of EnvFrame)
+  fullName.vb: System.Nullable(Of EnvFrame)
+  name.vb: Nullable(Of EnvFrame)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.SM.PatternSM.#ctor*
   commentId: Overload:Danmokou.SM.PatternSM.#ctor
   name: PatternSM
   nameWithType: PatternSM.PatternSM
   fullName: Danmokou.SM.PatternSM.PatternSM
-- uid: List{Danmokou.SM.StateMachine}
-  commentId: '!:List{Danmokou.SM.StateMachine}'
-  definition: List`1
-  name: List<StateMachine>
-  nameWithType: List<StateMachine>
-  fullName: List<Danmokou.SM.StateMachine>
-  nameWithType.vb: List(Of StateMachine)
-  fullName.vb: List(Of Danmokou.SM.StateMachine)
-  name.vb: List(Of StateMachine)
-  spec.csharp:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Danmokou.SM.StateMachine
-    name: StateMachine
-    nameWithType: StateMachine
-    fullName: Danmokou.SM.StateMachine
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Danmokou.SM.StateMachine
-    name: StateMachine
-    nameWithType: StateMachine
-    fullName: Danmokou.SM.StateMachine
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: List`1
+- uid: Danmokou.SM.StateMachine[]
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
+  name: StateMachine[]
+  nameWithType: StateMachine[]
+  fullName: Danmokou.SM.StateMachine[]
+  nameWithType.vb: StateMachine()
+  fullName.vb: Danmokou.SM.StateMachine()
+  name.vb: StateMachine()
   spec.csharp:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
   commentId: M:Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
   parent: Danmokou.SM.SequentialSM

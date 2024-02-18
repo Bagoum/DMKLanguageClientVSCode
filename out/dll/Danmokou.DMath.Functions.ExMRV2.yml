@@ -14,8 +14,8 @@ items:
   - Danmokou.DMath.Functions.ExMRV2.RX(tfloat)
   - Danmokou.DMath.Functions.ExMRV2.RXY(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMRV2.RY(tfloat)
-  - Danmokou.DMath.Functions.ExMRV2.V2V2F(ev2,ev2,tfloat)
-  - Danmokou.DMath.Functions.ExMRV2.V2V3(ev2,ev3)
+  - Danmokou.DMath.Functions.ExMRV2.V2V2F(tv2,tv2,tfloat)
+  - Danmokou.DMath.Functions.ExMRV2.V2V3(tv2,tv3)
   - Danmokou.DMath.Functions.ExMRV2.Zero
   langs:
   - csharp
@@ -27,7 +27,7 @@ items:
   source:
     id: ExMRV2
     path: ''
-    startLine: 8046
+    startLine: 8288
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -53,39 +53,39 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: Danmokou.DMath.Functions.ExMRV2.V2V3(ev2,ev3)
-  commentId: M:Danmokou.DMath.Functions.ExMRV2.V2V3(ev2,ev3)
-  id: V2V3(ev2,ev3)
+- uid: Danmokou.DMath.Functions.ExMRV2.V2V3(tv2,tv3)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.V2V3(tv2,tv3)
+  id: V2V3(tv2,tv3)
   parent: Danmokou.DMath.Functions.ExMRV2
   langs:
   - csharp
   - vb
-  name: V2V3(ev2, ev3)
-  nameWithType: ExMRV2.V2V3(ev2, ev3)
-  fullName: Danmokou.DMath.Functions.ExMRV2.V2V3(ev2, ev3)
+  name: V2V3(tv2, tv3)
+  nameWithType: ExMRV2.V2V3(tv2, tv3)
+  fullName: Danmokou.DMath.Functions.ExMRV2.V2V3(tv2, tv3)
   type: Method
   source:
     id: V2V3
     path: ''
-    startLine: 8054
+    startLine: 8296
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nDerive a V2RV2 from a nonrotational vector and a rotational vector3.\n"
   example: []
   syntax:
-    content: public static trv2 V2V3(ev2 nrot, ev3 rot)
+    content: public static trv2 V2V3(tv2 nrot, tv3 rot)
     parameters:
     - id: nrot
-      type: ev2
+      type: tv2
       description: Nonrotational component
     - id: rot
-      type: ev3
+      type: tv3
       description: Rotational component (x,y,angle)
     return:
       type: trv2
       description: ''
-    content.vb: Public Shared Function V2V3(nrot As ev2, rot As ev3) As trv2
+    content.vb: Public Shared Function V2V3(nrot As tv2, rot As tv3) As trv2
   overload: Danmokou.DMath.Functions.ExMRV2.V2V3*
   modifiers.csharp:
   - public
@@ -93,34 +93,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMRV2.V2V2F(ev2,ev2,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMRV2.V2V2F(ev2,ev2,tfloat)
-  id: V2V2F(ev2,ev2,tfloat)
+- uid: Danmokou.DMath.Functions.ExMRV2.V2V2F(tv2,tv2,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMRV2.V2V2F(tv2,tv2,tfloat)
+  id: V2V2F(tv2,tv2,tfloat)
   parent: Danmokou.DMath.Functions.ExMRV2
   langs:
   - csharp
   - vb
-  name: V2V2F(ev2, ev2, tfloat)
-  nameWithType: ExMRV2.V2V2F(ev2, ev2, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMRV2.V2V2F(ev2, ev2, tfloat)
+  name: V2V2F(tv2, tv2, tfloat)
+  nameWithType: ExMRV2.V2V2F(tv2, tv2, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMRV2.V2V2F(tv2, tv2, tfloat)
   type: Method
   source:
     id: V2V2F
     path: ''
-    startLine: 8067
+    startLine: 8308
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nDerive a V2RV2 from two vectors and a float.\n"
   example: []
   syntax:
-    content: public static trv2 V2V2F(ev2 nrot, ev2 rot, tfloat angle)
+    content: public static trv2 V2V2F(tv2 nrot, tv2 rot, tfloat angle)
     parameters:
     - id: nrot
-      type: ev2
+      type: tv2
       description: Nonrotational x,y
     - id: rot
-      type: ev2
+      type: tv2
       description: Rotational x,y
     - id: angle
       type: tfloat
@@ -128,7 +128,7 @@ items:
     return:
       type: trv2
       description: ''
-    content.vb: Public Shared Function V2V2F(nrot As ev2, rot As ev2, angle As tfloat) As trv2
+    content.vb: Public Shared Function V2V2F(nrot As tv2, rot As tv2, angle As tfloat) As trv2
   overload: Danmokou.DMath.Functions.ExMRV2.V2V2F*
   modifiers.csharp:
   - public
@@ -150,7 +150,7 @@ items:
   source:
     id: NRot
     path: ''
-    startLine: 8080
+    startLine: 8319
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -193,7 +193,7 @@ items:
   source:
     id: Rot
     path: ''
-    startLine: 8089
+    startLine: 8328
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -236,7 +236,7 @@ items:
   source:
     id: NX
     path: ''
-    startLine: 8095
+    startLine: 8334
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -272,7 +272,7 @@ items:
   source:
     id: NY
     path: ''
-    startLine: 8100
+    startLine: 8339
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -308,7 +308,7 @@ items:
   source:
     id: RXY
     path: ''
-    startLine: 8107
+    startLine: 8346
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -348,7 +348,7 @@ items:
   source:
     id: RX
     path: ''
-    startLine: 8112
+    startLine: 8351
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -384,7 +384,7 @@ items:
   source:
     id: RY
     path: ''
-    startLine: 8117
+    startLine: 8356
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -420,7 +420,7 @@ items:
   source:
     id: Angle
     path: ''
-    startLine: 8122
+    startLine: 8361
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -456,7 +456,7 @@ items:
   source:
     id: AnglePhi
     path: ''
-    startLine: 8128
+    startLine: 8367
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -491,7 +491,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 8136
+    startLine: 8375
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -813,16 +813,16 @@ references:
   name: V2V3
   nameWithType: ExMRV2.V2V3
   fullName: Danmokou.DMath.Functions.ExMRV2.V2V3
-- uid: ev2
+- uid: tv2
   isExternal: true
-  name: ev2
-  nameWithType: ev2
-  fullName: ev2
-- uid: ev3
+  name: tv2
+  nameWithType: tv2
+  fullName: tv2
+- uid: tv3
   isExternal: true
-  name: ev3
-  nameWithType: ev3
-  fullName: ev3
+  name: tv3
+  nameWithType: tv3
+  fullName: tv3
 - uid: trv2
   isExternal: true
   name: trv2

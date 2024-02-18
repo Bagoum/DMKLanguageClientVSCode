@@ -5,8 +5,8 @@ items:
   id: GenCtxProperty
   parent: Danmokou.Danmaku.Options
   children:
+  - Danmokou.Danmaku.Options.GenCtxProperty._AssignLexicalScope(LexicalScope)
   - Danmokou.Danmaku.Options.GenCtxProperty.Aimed
-  - Danmokou.Danmaku.Options.GenCtxProperty.Alternate(GCXF{System.Single})
   - Danmokou.Danmaku.Options.GenCtxProperty.Async(GCXF{System.Single},GCXF{System.Single},GCXF{V2RV2})
   - Danmokou.Danmaku.Options.GenCtxProperty.AsyncD(ExBPY,ExBPY,ExBPY,GCXF{V2RV2})
   - Danmokou.Danmaku.Options.GenCtxProperty.AsyncDR(ExBPY,ExBPY,ExBPY,ExBPRV2)
@@ -26,10 +26,10 @@ items:
   - Danmokou.Danmaku.Options.GenCtxProperty.Colorf(System.String[],GCXF{System.Single})
   - Danmokou.Danmaku.Options.GenCtxProperty.ColorR(System.String[])
   - Danmokou.Danmaku.Options.GenCtxProperty.Delay(GCXF{System.Single})
+  - Danmokou.Danmaku.Options.GenCtxProperty.End(ErasedGCXF)
   - Danmokou.Danmaku.Options.GenCtxProperty.End(GCRule[])
-  - Danmokou.Danmaku.Options.GenCtxProperty.Expose(System.ValueTuple{Reflector.ExType,System.String}[])
   - Danmokou.Danmaku.Options.GenCtxProperty.Face(Facing)
-  - Danmokou.Danmaku.Options.GenCtxProperty.For(GCXF{System.Single})
+  - Danmokou.Danmaku.Options.GenCtxProperty.ForTime(GCXF{System.Single})
   - Danmokou.Danmaku.Options.GenCtxProperty.FRV2(GCXF{V2RV2})
   - Danmokou.Danmaku.Options.GenCtxProperty.MaxTimes(System.Int32)
   - Danmokou.Danmaku.Options.GenCtxProperty.MutateAng(GCXF{System.Single})
@@ -38,7 +38,9 @@ items:
   - Danmokou.Danmaku.Options.GenCtxProperty.Offset(GCXF{V2RV2})
   - Danmokou.Danmaku.Options.GenCtxProperty.OnLaser(GCXF{System.Single})
   - Danmokou.Danmaku.Options.GenCtxProperty.Parametrize(Parametrization)
+  - Danmokou.Danmaku.Options.GenCtxProperty.PostLoop(ErasedGCXF)
   - Danmokou.Danmaku.Options.GenCtxProperty.PostLoop(GCRule[])
+  - Danmokou.Danmaku.Options.GenCtxProperty.PreLoop(ErasedGCXF)
   - Danmokou.Danmaku.Options.GenCtxProperty.PreLoop(GCRule[])
   - Danmokou.Danmaku.Options.GenCtxProperty.Priority
   - Danmokou.Danmaku.Options.GenCtxProperty.ResetColor
@@ -50,17 +52,20 @@ items:
   - Danmokou.Danmaku.Options.GenCtxProperty.SaveV2(System.ValueTuple{ReflectEx.Hoist{Vector2},GCXF{System.Single},GCXF{Vector2}}[])
   - Danmokou.Danmaku.Options.GenCtxProperty.Sequential
   - Danmokou.Danmaku.Options.GenCtxProperty.SetP(GCXF{System.Single})
+  - Danmokou.Danmaku.Options.GenCtxProperty.SetRV2(GCXF{V2RV2})
+  - Danmokou.Danmaku.Options.GenCtxProperty.SFX(System.String)
   - Danmokou.Danmaku.Options.GenCtxProperty.SFX(System.String[])
   - Danmokou.Danmaku.Options.GenCtxProperty.SFXf(System.String[],GCXF{System.Single})
   - Danmokou.Danmaku.Options.GenCtxProperty.SFXfIf(System.String[],GCXF{System.Single},GCXF{System.Boolean})
   - Danmokou.Danmaku.Options.GenCtxProperty.SFXIf(System.String[],GCXF{System.Boolean})
   - Danmokou.Danmaku.Options.GenCtxProperty.SLTarget(RV2ControlMethod,GCXF{Vector2})
   - Danmokou.Danmaku.Options.GenCtxProperty.Spread(GCXF{V2RV2})
+  - Danmokou.Danmaku.Options.GenCtxProperty.Start(ErasedGCXF)
   - Danmokou.Danmaku.Options.GenCtxProperty.Start(GCRule[])
   - Danmokou.Danmaku.Options.GenCtxProperty.Sync(GCXF{System.Single},GCXF{V2RV2})
   - Danmokou.Danmaku.Options.GenCtxProperty.SyncDR(ExBPY,ExBPY,ExBPRV2)
   - Danmokou.Danmaku.Options.GenCtxProperty.Target(RV2ControlMethod,GCXF{Vector2})
-  - Danmokou.Danmaku.Options.GenCtxProperty.Timer(ETime.Timer)
+  - Danmokou.Danmaku.Options.GenCtxProperty.Timer(GCXF{ETime.Timer})
   - Danmokou.Danmaku.Options.GenCtxProperty.TimeReset
   - Danmokou.Danmaku.Options.GenCtxProperty.Times(GCXF{System.Single})
   - Danmokou.Danmaku.Options.GenCtxProperty.TimesCircle(GCXF{System.Single})
@@ -70,7 +75,7 @@ items:
   - Danmokou.Danmaku.Options.GenCtxProperty.Unpause(StateMachine)
   - Danmokou.Danmaku.Options.GenCtxProperty.Wait(GCXF{System.Single})
   - Danmokou.Danmaku.Options.GenCtxProperty.WaitChild
-  - Danmokou.Danmaku.Options.GenCtxProperty.While(GCXF{System.Boolean})
+  - Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue(GCXF{System.Boolean})
   - Danmokou.Danmaku.Options.GenCtxProperty.WT(GCXF{System.Single},GCXF{System.Single})
   - Danmokou.Danmaku.Options.GenCtxProperty.WTd(ExBPY,ExBPY,ExBPY)
   - Danmokou.Danmaku.Options.GenCtxProperty.WTM(GCXF{System.Single},System.Int32,GCXF{System.Single})
@@ -84,7 +89,7 @@ items:
   source:
     id: GenCtxProperty
     path: ''
-    startLine: 2557
+    startLine: 3045
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -127,7 +132,7 @@ items:
   source:
     id: NoOp
     path: ''
-    startLine: 2562
+    startLine: 3050
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -159,7 +164,7 @@ items:
   source:
     id: Times
     path: ''
-    startLine: 2568
+    startLine: 3056
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -199,7 +204,7 @@ items:
   source:
     id: MaxTimes
     path: ''
-    startLine: 2574
+    startLine: 3062
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -235,7 +240,7 @@ items:
   source:
     id: TM
     path: ''
-    startLine: 2583
+    startLine: 3071
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -278,7 +283,7 @@ items:
   source:
     id: TMMod
     path: ''
-    startLine: 2589
+    startLine: 3077
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -315,7 +320,7 @@ items:
   source:
     id: TMIMod
     path: ''
-    startLine: 2600
+    startLine: 3088
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -352,7 +357,7 @@ items:
   source:
     id: Wait
     path: ''
-    startLine: 2612
+    startLine: 3100
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -378,44 +383,44 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.Wait(GCXF(Of System.Single))
   name.vb: Wait(GCXF(Of Single))
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.For(GCXF{System.Single})
-  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.For(GCXF{System.Single})
-  id: For(GCXF{System.Single})
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.ForTime(GCXF{System.Single})
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.ForTime(GCXF{System.Single})
+  id: ForTime(GCXF{System.Single})
   parent: Danmokou.Danmaku.Options.GenCtxProperty
   langs:
   - csharp
   - vb
-  name: For(GCXF<Single>)
-  nameWithType: GenCtxProperty.For(GCXF<Single>)
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.For(GCXF<System.Single>)
+  name: ForTime(GCXF<Single>)
+  nameWithType: GenCtxProperty.ForTime(GCXF<Single>)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.ForTime(GCXF<System.Single>)
   type: Method
   source:
-    id: For
+    id: ForTime
     path: ''
-    startLine: 2617
+    startLine: 3106
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nSet the max amount of time this function will execute for, in frames.\n"
   example: []
   syntax:
-    content: public static GenCtxProperty For(GCXF<float> frames)
+    content: public static GenCtxProperty ForTime(GCXF<float> frames)
     parameters:
     - id: frames
       type: GCXF{System.Single}
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-    content.vb: Public Shared Function For(frames As GCXF(Of Single)) As GenCtxProperty
-  overload: Danmokou.Danmaku.Options.GenCtxProperty.For*
-  nameWithType.vb: GenCtxProperty.For(GCXF(Of Single))
+    content.vb: Public Shared Function ForTime(frames As GCXF(Of Single)) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty.ForTime*
+  nameWithType.vb: GenCtxProperty.ForTime(GCXF(Of Single))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.For(GCXF(Of System.Single))
-  name.vb: For(GCXF(Of Single))
+  fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.ForTime(GCXF(Of System.Single))
+  name.vb: ForTime(GCXF(Of Single))
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.WT(GCXF{System.Single},GCXF{System.Single})
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.WT(GCXF{System.Single},GCXF{System.Single})
   id: WT(GCXF{System.Single},GCXF{System.Single})
@@ -430,7 +435,7 @@ items:
   source:
     id: WT
     path: ''
-    startLine: 2622
+    startLine: 3113
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -471,7 +476,7 @@ items:
   source:
     id: WTd
     path: ''
-    startLine: 2627
+    startLine: 3117
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -488,7 +493,6 @@ items:
       type: ExBPY
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-      description: ''
     content.vb: Public Shared Function WTd(difficulty As ExBPY, frames As ExBPY, times As ExBPY) As GenCtxProperty
   overload: Danmokou.Danmaku.Options.GenCtxProperty.WTd*
   modifiers.csharp:
@@ -511,7 +515,7 @@ items:
   source:
     id: WTM
     path: ''
-    startLine: 2635
+    startLine: 3126
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -554,7 +558,7 @@ items:
   source:
     id: Async
     path: ''
-    startLine: 2640
+    startLine: 3131
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -597,7 +601,7 @@ items:
   source:
     id: AsyncD
     path: ''
-    startLine: 2645
+    startLine: 3136
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -642,7 +646,7 @@ items:
   source:
     id: AsyncDR
     path: ''
-    startLine: 2652
+    startLine: 3144
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -684,7 +688,7 @@ items:
   source:
     id: AsyncFor
     path: ''
-    startLine: 2659
+    startLine: 3152
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -727,7 +731,7 @@ items:
   source:
     id: Sync
     path: ''
-    startLine: 2664
+    startLine: 3157
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -768,7 +772,7 @@ items:
   source:
     id: SyncDR
     path: ''
-    startLine: 2668
+    startLine: 3161
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -807,7 +811,7 @@ items:
   source:
     id: Delay
     path: ''
-    startLine: 2679
+    startLine: 3173
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -847,7 +851,7 @@ items:
   source:
     id: WaitChild
     path: ''
-    startLine: 2685
+    startLine: 3179
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -880,7 +884,7 @@ items:
   source:
     id: Sequential
     path: ''
-    startLine: 2691
+    startLine: 3185
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -899,44 +903,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.Alternate(GCXF{System.Single})
-  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Alternate(GCXF{System.Single})
-  id: Alternate(GCXF{System.Single})
-  parent: Danmokou.Danmaku.Options.GenCtxProperty
-  langs:
-  - csharp
-  - vb
-  name: Alternate(GCXF<Single>)
-  nameWithType: GenCtxProperty.Alternate(GCXF<Single>)
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.Alternate(GCXF<System.Single>)
-  type: Method
-  source:
-    id: Alternate
-    path: ''
-    startLine: 2696
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.Danmaku.Options
-  summary: "\nInstead of executing all children simultaneously,\nexecute only the one at the index given by the indexer.\n"
-  example: []
-  syntax:
-    content: public static GenCtxProperty Alternate(GCXF<float> indexer)
-    parameters:
-    - id: indexer
-      type: GCXF{System.Single}
-    return:
-      type: Danmokou.Danmaku.Options.GenCtxProperty
-    content.vb: Public Shared Function Alternate(indexer As GCXF(Of Single)) As GenCtxProperty
-  overload: Danmokou.Danmaku.Options.GenCtxProperty.Alternate*
-  nameWithType.vb: GenCtxProperty.Alternate(GCXF(Of Single))
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.Alternate(GCXF(Of System.Single))
-  name.vb: Alternate(GCXF(Of Single))
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.Root(GCXF{Vector2})
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Root(GCXF{Vector2})
   id: Root(GCXF{Vector2})
@@ -951,7 +917,7 @@ items:
   source:
     id: Root
     path: ''
-    startLine: 2702
+    startLine: 3192
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -990,7 +956,7 @@ items:
   source:
     id: RootAdjust
     path: ''
-    startLine: 2709
+    startLine: 3200
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1015,6 +981,46 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.RootAdjust(GCXF(Of Vector2))
   name.vb: RootAdjust(GCXF(Of Vector2))
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.SetRV2(GCXF{V2RV2})
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.SetRV2(GCXF{V2RV2})
+  id: SetRV2(GCXF{V2RV2})
+  parent: Danmokou.Danmaku.Options.GenCtxProperty
+  langs:
+  - csharp
+  - vb
+  name: SetRV2(GCXF<V2RV2>)
+  nameWithType: GenCtxProperty.SetRV2(GCXF<V2RV2>)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.SetRV2(GCXF<V2RV2>)
+  type: Method
+  source:
+    id: SetRV2
+    path: ''
+    startLine: 3207
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nBefore start rules, override the current V2RV2.\n"
+  example: []
+  syntax:
+    content: public static GenCtxProperty SetRV2(GCXF<V2RV2> newRV2)
+    parameters:
+    - id: newRV2
+      type: GCXF{V2RV2}
+      description: ''
+    return:
+      type: Danmokou.Danmaku.Options.GenCtxProperty
+      description: ''
+    content.vb: Public Shared Function SetRV2(newRV2 As GCXF(Of V2RV2)) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty.SetRV2*
+  nameWithType.vb: GenCtxProperty.SetRV2(GCXF(Of V2RV2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.SetRV2(GCXF(Of V2RV2))
+  name.vb: SetRV2(GCXF(Of V2RV2))
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.Bank(GCXF{V2RV2})
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Bank(GCXF{V2RV2})
   id: Bank(GCXF{V2RV2})
@@ -1029,7 +1035,7 @@ items:
   source:
     id: Bank
     path: ''
-    startLine: 2716
+    startLine: 3215
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1069,7 +1075,7 @@ items:
   source:
     id: Bank0
     path: ''
-    startLine: 2723
+    startLine: 3223
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1109,7 +1115,7 @@ items:
   source:
     id: Offset
     path: ''
-    startLine: 2728
+    startLine: 3228
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1133,6 +1139,41 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.Offset(GCXF(Of V2RV2))
   name.vb: Offset(GCXF(Of V2RV2))
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.Start(ErasedGCXF)
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Start(ErasedGCXF)
+  id: Start(ErasedGCXF)
+  parent: Danmokou.Danmaku.Options.GenCtxProperty
+  langs:
+  - csharp
+  - vb
+  name: Start(ErasedGCXF)
+  nameWithType: GenCtxProperty.Start(ErasedGCXF)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.Start(ErasedGCXF)
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 3235
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nRules that are run before any invocations.\n"
+  example: []
+  syntax:
+    content: public static GenCtxProperty Start(ErasedGCXF rule)
+    parameters:
+    - id: rule
+      type: ErasedGCXF
+    return:
+      type: Danmokou.Danmaku.Options.GenCtxProperty
+    content.vb: Public Shared Function Start(rule As ErasedGCXF) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty.Start*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.Start(GCRule[])
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Start(GCRule[])
   id: Start(GCRule[])
@@ -1147,7 +1188,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 2737
+    startLine: 3240
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1158,10 +1199,8 @@ items:
     parameters:
     - id: rules
       type: GCRule[]
-      description: ''
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-      description: ''
     content.vb: Public Shared Function Start(rules As GCRule()) As GenCtxProperty
   overload: Danmokou.Danmaku.Options.GenCtxProperty.Start*
   nameWithType.vb: GenCtxProperty.Start(GCRule())
@@ -1173,6 +1212,41 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.Start(GCRule())
   name.vb: Start(GCRule())
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.PreLoop(ErasedGCXF)
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.PreLoop(ErasedGCXF)
+  id: PreLoop(ErasedGCXF)
+  parent: Danmokou.Danmaku.Options.GenCtxProperty
+  langs:
+  - csharp
+  - vb
+  name: PreLoop(ErasedGCXF)
+  nameWithType: GenCtxProperty.PreLoop(ErasedGCXF)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.PreLoop(ErasedGCXF)
+  type: Method
+  source:
+    id: PreLoop
+    path: ''
+    startLine: 3246
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nRules that are run every loop, after `i` is set for the loop, and before the invocation.\n"
+  example: []
+  syntax:
+    content: public static GenCtxProperty PreLoop(ErasedGCXF rule)
+    parameters:
+    - id: rule
+      type: ErasedGCXF
+    return:
+      type: Danmokou.Danmaku.Options.GenCtxProperty
+    content.vb: Public Shared Function PreLoop(rule As ErasedGCXF) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty.PreLoop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.PreLoop(GCRule[])
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.PreLoop(GCRule[])
   id: PreLoop(GCRule[])
@@ -1187,7 +1261,7 @@ items:
   source:
     id: PreLoop
     path: ''
-    startLine: 2743
+    startLine: 3251
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1198,10 +1272,8 @@ items:
     parameters:
     - id: rules
       type: GCRule[]
-      description: ''
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-      description: ''
     content.vb: Public Shared Function PreLoop(rules As GCRule()) As GenCtxProperty
   overload: Danmokou.Danmaku.Options.GenCtxProperty.PreLoop*
   nameWithType.vb: GenCtxProperty.PreLoop(GCRule())
@@ -1213,6 +1285,41 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.PreLoop(GCRule())
   name.vb: PreLoop(GCRule())
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.PostLoop(ErasedGCXF)
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.PostLoop(ErasedGCXF)
+  id: PostLoop(ErasedGCXF)
+  parent: Danmokou.Danmaku.Options.GenCtxProperty
+  langs:
+  - csharp
+  - vb
+  name: PostLoop(ErasedGCXF)
+  nameWithType: GenCtxProperty.PostLoop(ErasedGCXF)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.PostLoop(ErasedGCXF)
+  type: Method
+  source:
+    id: PostLoop
+    path: ''
+    startLine: 3257
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nRules that are run every loop, after the invocation and after waiting is complete.\n"
+  example: []
+  syntax:
+    content: public static GenCtxProperty PostLoop(ErasedGCXF rule)
+    parameters:
+    - id: rule
+      type: ErasedGCXF
+    return:
+      type: Danmokou.Danmaku.Options.GenCtxProperty
+    content.vb: Public Shared Function PostLoop(rule As ErasedGCXF) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty.PostLoop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.PostLoop(GCRule[])
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.PostLoop(GCRule[])
   id: PostLoop(GCRule[])
@@ -1227,7 +1334,7 @@ items:
   source:
     id: PostLoop
     path: ''
-    startLine: 2749
+    startLine: 3262
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1238,10 +1345,8 @@ items:
     parameters:
     - id: rules
       type: GCRule[]
-      description: ''
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-      description: ''
     content.vb: Public Shared Function PostLoop(rules As GCRule()) As GenCtxProperty
   overload: Danmokou.Danmaku.Options.GenCtxProperty.PostLoop*
   nameWithType.vb: GenCtxProperty.PostLoop(GCRule())
@@ -1253,6 +1358,41 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.PostLoop(GCRule())
   name.vb: PostLoop(GCRule())
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.End(ErasedGCXF)
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.End(ErasedGCXF)
+  id: End(ErasedGCXF)
+  parent: Danmokou.Danmaku.Options.GenCtxProperty
+  langs:
+  - csharp
+  - vb
+  name: End(ErasedGCXF)
+  nameWithType: GenCtxProperty.End(ErasedGCXF)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.End(ErasedGCXF)
+  type: Method
+  source:
+    id: End
+    path: ''
+    startLine: 3268
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nRules that are run when the repeater is done.\n"
+  example: []
+  syntax:
+    content: public static GenCtxProperty End(ErasedGCXF rule)
+    parameters:
+    - id: rule
+      type: ErasedGCXF
+    return:
+      type: Danmokou.Danmaku.Options.GenCtxProperty
+    content.vb: Public Shared Function End(rule As ErasedGCXF) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty.End*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.End(GCRule[])
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.End(GCRule[])
   id: End(GCRule[])
@@ -1267,7 +1407,7 @@ items:
   source:
     id: End
     path: ''
-    startLine: 2755
+    startLine: 3273
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1278,10 +1418,8 @@ items:
     parameters:
     - id: rules
       type: GCRule[]
-      description: ''
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-      description: ''
     content.vb: Public Shared Function End(rules As GCRule()) As GenCtxProperty
   overload: Danmokou.Danmaku.Options.GenCtxProperty.End*
   nameWithType.vb: GenCtxProperty.End(GCRule())
@@ -1307,7 +1445,7 @@ items:
   source:
     id: RV2Incr
     path: ''
-    startLine: 2761
+    startLine: 3281
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1347,7 +1485,7 @@ items:
   source:
     id: Circle
     path: ''
-    startLine: 2767
+    startLine: 3287
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1379,7 +1517,7 @@ items:
   source:
     id: Spread
     path: ''
-    startLine: 2771
+    startLine: 3291
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1417,7 +1555,7 @@ items:
   source:
     id: MutateAng
     path: ''
-    startLine: 2777
+    startLine: 3297
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1456,7 +1594,7 @@ items:
   source:
     id: TimesCircle
     path: ''
-    startLine: 2781
+    startLine: 3301
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1494,7 +1632,7 @@ items:
   source:
     id: FRV2
     path: ''
-    startLine: 2788
+    startLine: 3308
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1534,7 +1672,7 @@ items:
   source:
     id: Face
     path: ''
-    startLine: 2794
+    startLine: 3314
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1557,6 +1695,41 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.SFX(System.String)
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.SFX(System.String)
+  id: SFX(System.String)
+  parent: Danmokou.Danmaku.Options.GenCtxProperty
+  langs:
+  - csharp
+  - vb
+  name: SFX(String)
+  nameWithType: GenCtxProperty.SFX(String)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.SFX(System.String)
+  type: Method
+  source:
+    id: SFX
+    path: ''
+    startLine: 3319
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Options
+  summary: "\nPlay an SFX on every loop iteration. This is run right before the invocation.\n"
+  example: []
+  syntax:
+    content: public static GenCtxProperty SFX(string sfx)
+    parameters:
+    - id: sfx
+      type: System.String
+    return:
+      type: Danmokou.Danmaku.Options.GenCtxProperty
+    content.vb: Public Shared Function SFX(sfx As String) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty.SFX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.SFX(System.String[])
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.SFX(System.String[])
   id: SFX(System.String[])
@@ -1571,7 +1744,7 @@ items:
   source:
     id: SFX
     path: ''
-    startLine: 2798
+    startLine: 3324
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1609,7 +1782,7 @@ items:
   source:
     id: SFXf
     path: ''
-    startLine: 2802
+    startLine: 3328
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1649,7 +1822,7 @@ items:
   source:
     id: SFXfIf
     path: ''
-    startLine: 2807
+    startLine: 3333
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1691,7 +1864,7 @@ items:
   source:
     id: SFXIf
     path: ''
-    startLine: 2811
+    startLine: 3337
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1731,7 +1904,7 @@ items:
   source:
     id: Parametrize
     path: ''
-    startLine: 2817
+    startLine: 3343
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1768,7 +1941,7 @@ items:
   source:
     id: MutateParametrize
     path: ''
-    startLine: 2826
+    startLine: 3352
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1811,7 +1984,7 @@ items:
   source:
     id: SetP
     path: ''
-    startLine: 2829
+    startLine: 3355
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1847,7 +2020,7 @@ items:
   source:
     id: ResetColor
     path: ''
-    startLine: 2834
+    startLine: 3360
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1879,7 +2052,7 @@ items:
   source:
     id: Color
     path: ''
-    startLine: 2838
+    startLine: 3364
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1917,7 +2090,7 @@ items:
   source:
     id: ColorR
     path: ''
-    startLine: 2842
+    startLine: 3368
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1955,7 +2128,7 @@ items:
   source:
     id: Colorf
     path: ''
-    startLine: 2850
+    startLine: 3376
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1998,7 +2171,7 @@ items:
   source:
     id: SAOffset
     path: ''
-    startLine: 2861
+    startLine: 3387
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2044,7 +2217,7 @@ items:
   source:
     id: Target
     path: ''
-    startLine: 2870
+    startLine: 3396
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2084,7 +2257,7 @@ items:
   source:
     id: SLTarget
     path: ''
-    startLine: 2874
+    startLine: 3400
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2124,7 +2297,7 @@ items:
   source:
     id: Aimed
     path: ''
-    startLine: 2879
+    startLine: 3405
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2142,28 +2315,28 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.While(GCXF{System.Boolean})
-  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.While(GCXF{System.Boolean})
-  id: While(GCXF{System.Boolean})
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue(GCXF{System.Boolean})
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue(GCXF{System.Boolean})
+  id: WhileTrue(GCXF{System.Boolean})
   parent: Danmokou.Danmaku.Options.GenCtxProperty
   langs:
   - csharp
   - vb
-  name: While(GCXF<Boolean>)
-  nameWithType: GenCtxProperty.While(GCXF<Boolean>)
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.While(GCXF<System.Boolean>)
+  name: WhileTrue(GCXF<Boolean>)
+  nameWithType: GenCtxProperty.WhileTrue(GCXF<Boolean>)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue(GCXF<System.Boolean>)
   type: Method
   source:
-    id: While
+    id: WhileTrue
     path: ''
-    startLine: 2888
+    startLine: 3415
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nRun the invocations only while a predicate is true. As long as the predicate is false,\nthe function will wait indefinitely. If an `Unpause` command is used, then the unpause function\nwill be run when this pauses and then unpauses.\nNot allowed for SyncPattern.\n"
   example: []
   syntax:
-    content: public static GenCtxProperty While(GCXF<bool> pred)
+    content: public static GenCtxProperty WhileTrue(GCXF<bool> pred)
     parameters:
     - id: pred
       type: GCXF{System.Boolean}
@@ -2171,17 +2344,17 @@ items:
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
       description: ''
-    content.vb: Public Shared Function While(pred As GCXF(Of Boolean)) As GenCtxProperty
-  overload: Danmokou.Danmaku.Options.GenCtxProperty.While*
-  nameWithType.vb: GenCtxProperty.While(GCXF(Of Boolean))
+    content.vb: Public Shared Function WhileTrue(pred As GCXF(Of Boolean)) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue*
+  nameWithType.vb: GenCtxProperty.WhileTrue(GCXF(Of Boolean))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.While(GCXF(Of System.Boolean))
-  name.vb: While(GCXF(Of Boolean))
+  fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue(GCXF(Of System.Boolean))
+  name.vb: WhileTrue(GCXF(Of Boolean))
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.Unpause(StateMachine)
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Unpause(StateMachine)
   id: Unpause(StateMachine)
@@ -2196,7 +2369,7 @@ items:
   source:
     id: Unpause
     path: ''
-    startLine: 2894
+    startLine: 3423
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2233,7 +2406,7 @@ items:
   source:
     id: SaveF
     path: ''
-    startLine: 2900
+    startLine: 3429
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2247,7 +2420,6 @@ items:
       description: ''
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-      description: ''
     content.vb: Public Shared Function SaveF(ParamArray targets As(target As ReflectEx.Hoist(Of Single), indexer As GCXF(Of Single), valuer As GCXF(Of Single))(Of ReflectEx.Hoist(Of Single) , GCXF(Of Single), GCXF(Of Single))()) As GenCtxProperty
   overload: Danmokou.Danmaku.Options.GenCtxProperty.SaveF*
   nameWithType.vb: GenCtxProperty.SaveF((target As ReflectEx.Hoist(Of Single), indexer As GCXF(Of Single), valuer As GCXF(Of Single))(Of ReflectEx.Hoist(Of Single), GCXF(Of Single), GCXF(Of Single))())
@@ -2273,7 +2445,7 @@ items:
   source:
     id: SaveV2
     path: ''
-    startLine: 2907
+    startLine: 3436
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2313,7 +2485,7 @@ items:
   source:
     id: Clip
     path: ''
-    startLine: 2914
+    startLine: 3443
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2352,7 +2524,7 @@ items:
   source:
     id: Cancel
     path: ''
-    startLine: 2920
+    startLine: 3449
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2377,44 +2549,41 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.Cancel(GCXF(Of System.Boolean))
   name.vb: Cancel(GCXF(Of Boolean))
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.Expose(System.ValueTuple{Reflector.ExType,System.String}[])
-  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Expose(System.ValueTuple{Reflector.ExType,System.String}[])
-  id: Expose(System.ValueTuple{Reflector.ExType,System.String}[])
+- uid: Danmokou.Danmaku.Options.GenCtxProperty._AssignLexicalScope(LexicalScope)
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty._AssignLexicalScope(LexicalScope)
+  id: _AssignLexicalScope(LexicalScope)
   parent: Danmokou.Danmaku.Options.GenCtxProperty
   langs:
   - csharp
   - vb
-  name: Expose((Reflector.ExType, String)[])
-  nameWithType: GenCtxProperty.Expose((Reflector.ExType, String)[])
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.Expose(System.ValueTuple<Reflector.ExType, System.String>[])
+  name: _AssignLexicalScope(LexicalScope)
+  nameWithType: GenCtxProperty._AssignLexicalScope(LexicalScope)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty._AssignLexicalScope(LexicalScope)
   type: Method
   source:
-    id: Expose
+    id: _AssignLexicalScope
     path: ''
-    startLine: 2929
+    startLine: 3454
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
-  summary: "\nMake a GCX variable available for use via private hoisting.\nYou only need to use this when making variables available to external functions like bullet controls.\nIf functions within the scope of GCX use a variable, it will be automatically exposed.\n<br />Note: this only works in script code. If you are constructing stuff directly in C#, then\n use <see cref=\"!:VTPRepo.Expose\"></see> or <see cref=\"!:Compilers.Expose&lt;T>\"></see> instead to provide information at the GCXU level.\n"
+  summary: "\n(Internal BDSL2 usage) Specify the lexical scope for a GenCtxProperties that is not yet created.\n"
   example: []
   syntax:
-    content: public static GenCtxProperty Expose((Reflector.ExType, string)[] variables)
+    content: public static GenCtxProperty _AssignLexicalScope(LexicalScope scope)
     parameters:
-    - id: variables
-      type: System.ValueTuple{Reflector.ExType,System.String}[]
+    - id: scope
+      type: LexicalScope
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-    content.vb: Public Shared Function Expose(variables As(Reflector.ExType, String)(Of Reflector.ExType , String)()) As GenCtxProperty
-  overload: Danmokou.Danmaku.Options.GenCtxProperty.Expose*
-  nameWithType.vb: GenCtxProperty.Expose((Reflector.ExType, String)(Of Reflector.ExType, String)())
+    content.vb: Public Shared Function _AssignLexicalScope(scope As LexicalScope) As GenCtxProperty
+  overload: Danmokou.Danmaku.Options.GenCtxProperty._AssignLexicalScope*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.Expose(System.ValueTuple(Of Reflector.ExType, System.String)())
-  name.vb: Expose((Reflector.ExType, String)(Of Reflector.ExType, String)())
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.TimeReset
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.TimeReset
   id: TimeReset
@@ -2429,7 +2598,7 @@ items:
   source:
     id: TimeReset
     path: ''
-    startLine: 2934
+    startLine: 3460
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2447,41 +2616,44 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.Timer(ETime.Timer)
-  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Timer(ETime.Timer)
-  id: Timer(ETime.Timer)
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.Timer(GCXF{ETime.Timer})
+  commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.Timer(GCXF{ETime.Timer})
+  id: Timer(GCXF{ETime.Timer})
   parent: Danmokou.Danmaku.Options.GenCtxProperty
   langs:
   - csharp
   - vb
-  name: Timer(ETime.Timer)
-  nameWithType: GenCtxProperty.Timer(ETime.Timer)
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.Timer(ETime.Timer)
+  name: Timer(GCXF<ETime.Timer>)
+  nameWithType: GenCtxProperty.Timer(GCXF<ETime.Timer>)
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.Timer(GCXF<ETime.Timer>)
   type: Method
   source:
     id: Timer
     path: ''
-    startLine: 2939
+    startLine: 3465
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nRestarts the given timer for every iteration of the looper. Resolved before preloop rules.\n"
   example: []
   syntax:
-    content: public static GenCtxProperty Timer(ETime.Timer timer)
+    content: public static GenCtxProperty Timer(GCXF<ETime.Timer> timer)
     parameters:
     - id: timer
-      type: ETime.Timer
+      type: GCXF{ETime.Timer}
     return:
       type: Danmokou.Danmaku.Options.GenCtxProperty
-    content.vb: Public Shared Function Timer(timer As ETime.Timer) As GenCtxProperty
+    content.vb: Public Shared Function Timer(timer As GCXF(Of ETime.Timer)) As GenCtxProperty
   overload: Danmokou.Danmaku.Options.GenCtxProperty.Timer*
+  nameWithType.vb: GenCtxProperty.Timer(GCXF(Of ETime.Timer))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+  fullName.vb: Danmokou.Danmaku.Options.GenCtxProperty.Timer(GCXF(Of ETime.Timer))
+  name.vb: Timer(GCXF(Of ETime.Timer))
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.OnLaser(GCXF{System.Single})
   commentId: M:Danmokou.Danmaku.Options.GenCtxProperty.OnLaser(GCXF{System.Single})
   id: OnLaser(GCXF{System.Single})
@@ -2496,7 +2668,7 @@ items:
   source:
     id: OnLaser
     path: ''
-    startLine: 2947
+    startLine: 3473
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2536,7 +2708,7 @@ items:
   source:
     id: Center
     path: ''
-    startLine: 2953
+    startLine: 3479
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2568,7 +2740,7 @@ items:
   source:
     id: BindArrow
     path: ''
-    startLine: 2959
+    startLine: 3485
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2601,7 +2773,7 @@ items:
   source:
     id: BindLR
     path: ''
-    startLine: 2964
+    startLine: 3492
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2634,7 +2806,7 @@ items:
   source:
     id: BindUD
     path: ''
-    startLine: 2969
+    startLine: 3499
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2667,7 +2839,7 @@ items:
   source:
     id: BindAngle
     path: ''
-    startLine: 2973
+    startLine: 3505
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2699,7 +2871,7 @@ items:
   source:
     id: BindItr
     path: ''
-    startLine: 2978
+    startLine: 3511
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -2734,7 +2906,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 3156
+    startLine: 3666
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -3266,11 +3438,11 @@ references:
   name: Wait
   nameWithType: GenCtxProperty.Wait
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.Wait
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.For*
-  commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.For
-  name: For
-  nameWithType: GenCtxProperty.For
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.For
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.ForTime*
+  commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.ForTime
+  name: ForTime
+  nameWithType: GenCtxProperty.ForTime
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.ForTime
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.WT*
   commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.WT
   name: WT
@@ -3384,11 +3556,6 @@ references:
   name: Sequential
   nameWithType: GenCtxProperty.Sequential
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.Sequential
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.Alternate*
-  commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.Alternate
-  name: Alternate
-  nameWithType: GenCtxProperty.Alternate
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.Alternate
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.Root*
   commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.Root
   name: Root
@@ -3442,6 +3609,11 @@ references:
   name: RootAdjust
   nameWithType: GenCtxProperty.RootAdjust
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.RootAdjust
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.SetRV2*
+  commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.SetRV2
+  name: SetRV2
+  nameWithType: GenCtxProperty.SetRV2
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.SetRV2
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.Bank*
   commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.Bank
   name: Bank
@@ -3462,6 +3634,11 @@ references:
   name: Start
   nameWithType: GenCtxProperty.Start
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.Start
+- uid: ErasedGCXF
+  isExternal: true
+  name: ErasedGCXF
+  nameWithType: ErasedGCXF
+  fullName: ErasedGCXF
 - uid: GCRule[]
   isExternal: true
   name: GCRule[]
@@ -3549,6 +3726,13 @@ references:
   name: SFX
   nameWithType: GenCtxProperty.SFX
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.SFX
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.String[]
   isExternal: true
   name: String[]
@@ -3703,11 +3887,11 @@ references:
   name: Aimed
   nameWithType: GenCtxProperty.Aimed
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.Aimed
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.While*
-  commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.While
-  name: While
-  nameWithType: GenCtxProperty.While
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.While
+- uid: Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue*
+  commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue
+  name: WhileTrue
+  nameWithType: GenCtxProperty.WhileTrue
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty.WhileTrue
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.Unpause*
   commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.Unpause
   name: Unpause
@@ -4030,75 +4214,16 @@ references:
   name: Cancel
   nameWithType: GenCtxProperty.Cancel
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.Cancel
-- uid: Danmokou.Danmaku.Options.GenCtxProperty.Expose*
-  commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.Expose
-  name: Expose
-  nameWithType: GenCtxProperty.Expose
-  fullName: Danmokou.Danmaku.Options.GenCtxProperty.Expose
-- uid: System.ValueTuple{Reflector.ExType,System.String}[]
+- uid: Danmokou.Danmaku.Options.GenCtxProperty._AssignLexicalScope*
+  commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty._AssignLexicalScope
+  name: _AssignLexicalScope
+  nameWithType: GenCtxProperty._AssignLexicalScope
+  fullName: Danmokou.Danmaku.Options.GenCtxProperty._AssignLexicalScope
+- uid: LexicalScope
   isExternal: true
-  name: (T1, T2)<Reflector.ExType, String>[]
-  nameWithType: (T1, T2)<Reflector.ExType, String>[]
-  fullName: System.ValueTuple<Reflector.ExType, System.String>[]
-  nameWithType.vb: (T1, T2)(Of Reflector.ExType, String)()
-  fullName.vb: System.ValueTuple(Of Reflector.ExType, System.String)()
-  name.vb: (T1, T2)(Of Reflector.ExType, String)()
-  spec.csharp:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Reflector.ExType
-    name: Reflector.ExType
-    nameWithType: Reflector.ExType
-    fullName: Reflector.ExType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Reflector.ExType
-    name: Reflector.ExType
-    nameWithType: Reflector.ExType
-    fullName: Reflector.ExType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+  name: LexicalScope
+  nameWithType: LexicalScope
+  fullName: LexicalScope
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.TimeReset*
   commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.TimeReset
   name: TimeReset
@@ -4109,11 +4234,49 @@ references:
   name: Timer
   nameWithType: GenCtxProperty.Timer
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.Timer
-- uid: ETime.Timer
-  isExternal: true
-  name: ETime.Timer
-  nameWithType: ETime.Timer
-  fullName: ETime.Timer
+- uid: GCXF{ETime.Timer}
+  commentId: '!:GCXF{ETime.Timer}'
+  definition: GCXF`1
+  name: GCXF<ETime.Timer>
+  nameWithType: GCXF<ETime.Timer>
+  fullName: GCXF<ETime.Timer>
+  nameWithType.vb: GCXF(Of ETime.Timer)
+  fullName.vb: GCXF(Of ETime.Timer)
+  name.vb: GCXF(Of ETime.Timer)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ETime.Timer
+    name: ETime.Timer
+    nameWithType: ETime.Timer
+    fullName: ETime.Timer
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ETime.Timer
+    name: ETime.Timer
+    nameWithType: ETime.Timer
+    fullName: ETime.Timer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.OnLaser*
   commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.OnLaser
   name: OnLaser
@@ -4149,13 +4312,6 @@ references:
   name: BindItr
   nameWithType: GenCtxProperty.BindItr
   fullName: Danmokou.Danmaku.Options.GenCtxProperty.BindItr
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: Danmokou.Danmaku.Options.GenCtxProperty.Priority*
   commentId: Overload:Danmokou.Danmaku.Options.GenCtxProperty.Priority
   name: Priority

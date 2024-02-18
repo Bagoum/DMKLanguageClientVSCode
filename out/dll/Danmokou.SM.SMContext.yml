@@ -6,6 +6,7 @@ items:
   parent: Danmokou.SM
   children:
   - Danmokou.SM.SMContext.CleanupObjects
+  - Danmokou.SM.SMContext.LoadCheckpoint
   - Danmokou.SM.SMContext.PhaseObjects
   langs:
   - csharp
@@ -17,7 +18,7 @@ items:
   source:
     id: SMContext
     path: ''
-    startLine: 15618
+    startLine: 16288
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -58,7 +59,7 @@ items:
   source:
     id: PhaseObjects
     path: ''
-    startLine: 15619
+    startLine: 16289
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -77,6 +78,37 @@ items:
   - Public
   - Overridable
   - ReadOnly
+- uid: Danmokou.SM.SMContext.LoadCheckpoint
+  commentId: P:Danmokou.SM.SMContext.LoadCheckpoint
+  id: LoadCheckpoint
+  parent: Danmokou.SM.SMContext
+  langs:
+  - csharp
+  - vb
+  name: LoadCheckpoint
+  nameWithType: SMContext.LoadCheckpoint
+  fullName: Danmokou.SM.SMContext.LoadCheckpoint
+  type: Property
+  source:
+    id: LoadCheckpoint
+    path: ''
+    startLine: 16290
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public Checkpoint? LoadCheckpoint { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{Checkpoint}
+    content.vb: Public Property LoadCheckpoint As Checkpoint?
+  overload: Danmokou.SM.SMContext.LoadCheckpoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: Danmokou.SM.SMContext.CleanupObjects
   commentId: M:Danmokou.SM.SMContext.CleanupObjects
   id: CleanupObjects
@@ -91,7 +123,7 @@ items:
   source:
     id: CleanupObjects
     path: ''
-    startLine: 15621
+    startLine: 16292
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -486,6 +518,94 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.SM.SMContext.LoadCheckpoint*
+  commentId: Overload:Danmokou.SM.SMContext.LoadCheckpoint
+  name: LoadCheckpoint
+  nameWithType: SMContext.LoadCheckpoint
+  fullName: Danmokou.SM.SMContext.LoadCheckpoint
+- uid: System.Nullable{Checkpoint}
+  commentId: T:System.Nullable{Checkpoint}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Checkpoint>
+  nameWithType: Nullable<Checkpoint>
+  fullName: System.Nullable<Checkpoint>
+  nameWithType.vb: Nullable(Of Checkpoint)
+  fullName.vb: System.Nullable(Of Checkpoint)
+  name.vb: Nullable(Of Checkpoint)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Checkpoint
+    name: Checkpoint
+    nameWithType: Checkpoint
+    fullName: Checkpoint
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Checkpoint
+    name: Checkpoint
+    nameWithType: Checkpoint
+    fullName: Checkpoint
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

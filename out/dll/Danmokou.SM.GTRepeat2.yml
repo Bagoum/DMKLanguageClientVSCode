@@ -16,11 +16,11 @@ items:
   source:
     id: GTRepeat2
     path: ''
-    startLine: 12729
+    startLine: 13233
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
-  summary: "\n`gtr2`: Like GTRepeat, but has specific handling for the WAIT, TIMES, and rpp properties.\n"
+  summary: "\n`gtr2`: Like <xref href=\"Danmokou.SM.GTRepeat\" data-throw-if-not-resolved=\"false\"></xref>, but has specific handling for the WAIT, TIMES, and rpp properties.\n"
   example: []
   syntax:
     content: 'public class GTRepeat2 : GTRepeat'
@@ -61,7 +61,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12735
+    startLine: 13239
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -94,6 +94,12 @@ items:
   fullName.vb: Danmokou.SM.GTRepeat2.GTRepeat2(GCXF(Of System.Single), GCXF(Of System.Single), GCXF(Of V2RV2), GenCtxProperty(), Danmokou.SM.StateMachine())
   name.vb: GTRepeat2(GCXF(Of Single), GCXF(Of Single), GCXF(Of V2RV2), GenCtxProperty(), StateMachine())
 references:
+- uid: Danmokou.SM.GTRepeat
+  commentId: T:Danmokou.SM.GTRepeat
+  parent: Danmokou.SM
+  name: GTRepeat
+  nameWithType: GTRepeat
+  fullName: Danmokou.SM.GTRepeat
 - uid: Danmokou.SM
   commentId: N:Danmokou.SM
   name: Danmokou.SM
@@ -118,12 +124,6 @@ references:
   name: UniversalSM
   nameWithType: UniversalSM
   fullName: Danmokou.SM.UniversalSM
-- uid: Danmokou.SM.GTRepeat
-  commentId: T:Danmokou.SM.GTRepeat
-  parent: Danmokou.SM
-  name: GTRepeat
-  nameWithType: GTRepeat
-  fullName: Danmokou.SM.GTRepeat
 - uid: Danmokou.SM.GTRepeat.Start(Danmokou.SM.SMHandoff)
   commentId: M:Danmokou.SM.GTRepeat.Start(Danmokou.SM.SMHandoff)
   parent: Danmokou.SM.GTRepeat

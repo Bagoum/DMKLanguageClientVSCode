@@ -5,9 +5,9 @@ items:
   id: ExMEasers
   parent: Danmokou.DMath.Functions
   children:
-  - Danmokou.DMath.Functions.ExMEasers.CEInBack(efloat,efloat)
-  - Danmokou.DMath.Functions.ExMEasers.CEIOBack(efloat,tfloat)
-  - Danmokou.DMath.Functions.ExMEasers.CEOutBack(efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.CEInBack(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.CEIOBack(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMEasers.CEOutBack(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMEasers.EBounce2(tfloat)
   - Danmokou.DMath.Functions.ExMEasers.EInBack(tfloat)
   - Danmokou.DMath.Functions.ExMEasers.EInBounce(tfloat)
@@ -40,7 +40,7 @@ items:
   source:
     id: ExMEasers
     path: ''
-    startLine: 11790
+    startLine: 12250
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -80,7 +80,7 @@ items:
   source:
     id: EInSine
     path: ''
-    startLine: 11797
+    startLine: 12257
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -115,7 +115,7 @@ items:
   source:
     id: EOutSine
     path: ''
-    startLine: 11802
+    startLine: 12262
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -150,7 +150,7 @@ items:
   source:
     id: EIOSine
     path: ''
-    startLine: 11807
+    startLine: 12267
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -185,7 +185,7 @@ items:
   source:
     id: EInQuad
     path: ''
-    startLine: 11810
+    startLine: 12270
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -218,7 +218,7 @@ items:
   source:
     id: EOutQuad
     path: ''
-    startLine: 11811
+    startLine: 12271
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -251,7 +251,7 @@ items:
   source:
     id: EIOQuad
     path: ''
-    startLine: 11812
+    startLine: 12272
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -284,7 +284,7 @@ items:
   source:
     id: EInQuart
     path: ''
-    startLine: 11819
+    startLine: 12279
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -317,7 +317,7 @@ items:
   source:
     id: EOutQuart
     path: ''
-    startLine: 11820
+    startLine: 12280
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -350,7 +350,7 @@ items:
   source:
     id: EIOQuart
     path: ''
-    startLine: 11821
+    startLine: 12281
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -383,7 +383,7 @@ items:
   source:
     id: EInBack
     path: ''
-    startLine: 11830
+    startLine: 12290
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -416,7 +416,7 @@ items:
   source:
     id: EOutBack
     path: ''
-    startLine: 11831
+    startLine: 12291
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -449,7 +449,7 @@ items:
   source:
     id: EIOBack
     path: ''
-    startLine: 11832
+    startLine: 12292
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -482,7 +482,7 @@ items:
   source:
     id: EInElastic
     path: ''
-    startLine: 11834
+    startLine: 12294
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -515,7 +515,7 @@ items:
   source:
     id: EOutElastic
     path: ''
-    startLine: 11836
+    startLine: 12296
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -548,7 +548,7 @@ items:
   source:
     id: EIOElastic
     path: ''
-    startLine: 11838
+    startLine: 12298
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -581,7 +581,7 @@ items:
   source:
     id: EInBounce
     path: ''
-    startLine: 11848
+    startLine: 12308
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -614,7 +614,7 @@ items:
   source:
     id: EOutBounce
     path: ''
-    startLine: 11849
+    startLine: 12309
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -647,7 +647,7 @@ items:
   source:
     id: EIOBounce
     path: ''
-    startLine: 11860
+    startLine: 12320
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -680,7 +680,7 @@ items:
   source:
     id: ELinear
     path: ''
-    startLine: 11870
+    startLine: 12330
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -715,7 +715,7 @@ items:
   source:
     id: EBounce2
     path: ''
-    startLine: 11872
+    startLine: 12332
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -748,7 +748,7 @@ items:
   source:
     id: ESine010
     path: ''
-    startLine: 11891
+    startLine: 12351
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -783,7 +783,7 @@ items:
   source:
     id: ESoftmod010
     path: ''
-    startLine: 11895
+    startLine: 12355
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -804,34 +804,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMEasers.CEInBack(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEInBack(efloat,efloat)
-  id: CEInBack(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExMEasers.CEInBack(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEInBack(tfloat,tfloat)
+  id: CEInBack(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMEasers
   langs:
   - csharp
   - vb
-  name: CEInBack(efloat, efloat)
-  nameWithType: ExMEasers.CEInBack(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExMEasers.CEInBack(efloat, efloat)
+  name: CEInBack(tfloat, tfloat)
+  nameWithType: ExMEasers.CEInBack(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEInBack(tfloat, tfloat)
   type: Method
   source:
     id: CEInBack
     path: ''
-    startLine: 11899
+    startLine: 12359
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static tfloat CEInBack(efloat p1, efloat x)
+    content: public static tfloat CEInBack(tfloat p1, tfloat x)
     parameters:
     - id: p1
-      type: efloat
+      type: tfloat
     - id: x
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function CEInBack(p1 As efloat, x As efloat) As tfloat
+    content.vb: Public Shared Function CEInBack(p1 As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMEasers.CEInBack*
   modifiers.csharp:
   - public
@@ -839,34 +839,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMEasers.CEOutBack(efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEOutBack(efloat,tfloat)
-  id: CEOutBack(efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExMEasers.CEOutBack(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEOutBack(tfloat,tfloat)
+  id: CEOutBack(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMEasers
   langs:
   - csharp
   - vb
-  name: CEOutBack(efloat, tfloat)
-  nameWithType: ExMEasers.CEOutBack(efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMEasers.CEOutBack(efloat, tfloat)
+  name: CEOutBack(tfloat, tfloat)
+  nameWithType: ExMEasers.CEOutBack(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEOutBack(tfloat, tfloat)
   type: Method
   source:
     id: CEOutBack
     path: ''
-    startLine: 11902
+    startLine: 12362
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static tfloat CEOutBack(efloat p1, tfloat x)
+    content: public static tfloat CEOutBack(tfloat p1, tfloat x)
     parameters:
     - id: p1
-      type: efloat
+      type: tfloat
     - id: x
       type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function CEOutBack(p1 As efloat, x As tfloat) As tfloat
+    content.vb: Public Shared Function CEOutBack(p1 As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMEasers.CEOutBack*
   modifiers.csharp:
   - public
@@ -874,34 +874,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMEasers.CEIOBack(efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEIOBack(efloat,tfloat)
-  id: CEIOBack(efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExMEasers.CEIOBack(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMEasers.CEIOBack(tfloat,tfloat)
+  id: CEIOBack(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMEasers
   langs:
   - csharp
   - vb
-  name: CEIOBack(efloat, tfloat)
-  nameWithType: ExMEasers.CEIOBack(efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMEasers.CEIOBack(efloat, tfloat)
+  name: CEIOBack(tfloat, tfloat)
+  nameWithType: ExMEasers.CEIOBack(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMEasers.CEIOBack(tfloat, tfloat)
   type: Method
   source:
     id: CEIOBack
     path: ''
-    startLine: 11905
+    startLine: 12365
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static tfloat CEIOBack(efloat p1, tfloat x)
+    content: public static tfloat CEIOBack(tfloat p1, tfloat x)
     parameters:
     - id: p1
-      type: efloat
+      type: tfloat
     - id: x
       type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function CEIOBack(p1 As efloat, x As tfloat) As tfloat
+    content.vb: Public Shared Function CEIOBack(p1 As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMEasers.CEIOBack*
   modifiers.csharp:
   - public
@@ -1332,11 +1332,6 @@ references:
   name: CEInBack
   nameWithType: ExMEasers.CEInBack
   fullName: Danmokou.DMath.Functions.ExMEasers.CEInBack
-- uid: efloat
-  isExternal: true
-  name: efloat
-  nameWithType: efloat
-  fullName: efloat
 - uid: Danmokou.DMath.Functions.ExMEasers.CEOutBack*
   commentId: Overload:Danmokou.DMath.Functions.ExMEasers.CEOutBack
   name: CEOutBack

@@ -19,7 +19,7 @@ items:
   source:
     id: Layer
     path: ''
-    startLine: 1209
+    startLine: 1441
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -46,7 +46,7 @@ items:
   source:
     id: LowProjectile
     path: ''
-    startLine: 1210
+    startLine: 1442
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -74,7 +74,7 @@ items:
   source:
     id: HighProjectile
     path: ''
-    startLine: 1211
+    startLine: 1443
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -102,7 +102,7 @@ items:
   source:
     id: LowFX
     path: ''
-    startLine: 1212
+    startLine: 1444
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -130,7 +130,7 @@ items:
   source:
     id: HighFX
     path: ''
-    startLine: 1213
+    startLine: 1445
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

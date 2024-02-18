@@ -6,6 +6,7 @@ items:
   children:
   - Danmokou.Danmaku.Patterns.AsyncHandoff
   - Danmokou.Danmaku.Patterns.AsyncPattern
+  - Danmokou.Danmaku.Patterns.AsyncPatterner
   - Danmokou.Danmaku.Patterns.AsyncPatterns
   - Danmokou.Danmaku.Patterns.AtomicPatterns
   - Danmokou.Danmaku.Patterns.CommonHandoff
@@ -15,6 +16,7 @@ items:
   - Danmokou.Danmaku.Patterns.SummonAlongHandler
   - Danmokou.Danmaku.Patterns.SyncHandoff
   - Danmokou.Danmaku.Patterns.SyncPattern
+  - Danmokou.Danmaku.Patterns.SyncPatterner
   - Danmokou.Danmaku.Patterns.SyncPatterns
   langs:
   - csharp
@@ -52,12 +54,24 @@ references:
   name: SyncPattern
   nameWithType: SyncPattern
   fullName: Danmokou.Danmaku.Patterns.SyncPattern
+- uid: Danmokou.Danmaku.Patterns.SyncPatterner
+  commentId: T:Danmokou.Danmaku.Patterns.SyncPatterner
+  parent: Danmokou.Danmaku.Patterns
+  name: SyncPatterner
+  nameWithType: SyncPatterner
+  fullName: Danmokou.Danmaku.Patterns.SyncPatterner
 - uid: Danmokou.Danmaku.Patterns.AsyncPattern
   commentId: T:Danmokou.Danmaku.Patterns.AsyncPattern
   parent: Danmokou.Danmaku.Patterns
   name: AsyncPattern
   nameWithType: AsyncPattern
   fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterner
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncPatterner
+  parent: Danmokou.Danmaku.Patterns
+  name: AsyncPatterner
+  nameWithType: AsyncPatterner
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterner
 - uid: Danmokou.Danmaku.Patterns.CommonHandoff
   commentId: T:Danmokou.Danmaku.Patterns.CommonHandoff
   parent: Danmokou.Danmaku.Patterns

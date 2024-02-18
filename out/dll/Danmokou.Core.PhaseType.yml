@@ -5,15 +5,15 @@ items:
   id: PhaseType
   parent: Danmokou.Core
   children:
-  - Danmokou.Core.PhaseType.ANNOUNCE
-  - Danmokou.Core.PhaseType.DIALOGUE
-  - Danmokou.Core.PhaseType.FINAL
-  - Danmokou.Core.PhaseType.NONSPELL
-  - Danmokou.Core.PhaseType.SPELL
-  - Danmokou.Core.PhaseType.STAGE
-  - Danmokou.Core.PhaseType.STAGEENDBOSS
-  - Danmokou.Core.PhaseType.STAGEMIDBOSS
-  - Danmokou.Core.PhaseType.TIMEOUT
+  - Danmokou.Core.PhaseType.Announce
+  - Danmokou.Core.PhaseType.Dialogue
+  - Danmokou.Core.PhaseType.FinalSpell
+  - Danmokou.Core.PhaseType.Nonspell
+  - Danmokou.Core.PhaseType.Spell
+  - Danmokou.Core.PhaseType.Stage
+  - Danmokou.Core.PhaseType.StageEndboss
+  - Danmokou.Core.PhaseType.StageMidboss
+  - Danmokou.Core.PhaseType.Timeout
   langs:
   - csharp
   - vb
@@ -24,7 +24,7 @@ items:
   source:
     id: PhaseType
     path: ''
-    startLine: 1127
+    startLine: 1359
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -39,28 +39,28 @@ items:
   modifiers.vb:
   - Public
   - Enum
-- uid: Danmokou.Core.PhaseType.NONSPELL
-  commentId: F:Danmokou.Core.PhaseType.NONSPELL
-  id: NONSPELL
+- uid: Danmokou.Core.PhaseType.Nonspell
+  commentId: F:Danmokou.Core.PhaseType.Nonspell
+  id: Nonspell
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: NONSPELL
-  nameWithType: PhaseType.NONSPELL
-  fullName: Danmokou.Core.PhaseType.NONSPELL
+  name: Nonspell
+  nameWithType: PhaseType.Nonspell
+  fullName: Danmokou.Core.PhaseType.Nonspell
   type: Field
   source:
-    id: NONSPELL
+    id: Nonspell
     path: ''
-    startLine: 1131
+    startLine: 1363
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nNonspells.\n"
   example: []
   syntax:
-    content: NONSPELL = 0
+    content: Nonspell = 0
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:
@@ -69,28 +69,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.PhaseType.SPELL
-  commentId: F:Danmokou.Core.PhaseType.SPELL
-  id: SPELL
+- uid: Danmokou.Core.PhaseType.Spell
+  commentId: F:Danmokou.Core.PhaseType.Spell
+  id: Spell
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: SPELL
-  nameWithType: PhaseType.SPELL
-  fullName: Danmokou.Core.PhaseType.SPELL
+  name: Spell
+  nameWithType: PhaseType.Spell
+  fullName: Danmokou.Core.PhaseType.Spell
   type: Field
   source:
-    id: SPELL
+    id: Spell
     path: ''
-    startLine: 1135
+    startLine: 1367
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nSpells. Automatically summons a spell cutin and spell circle if applicable.\n"
   example: []
   syntax:
-    content: SPELL = 1
+    content: Spell = 1
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:
@@ -99,28 +99,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.PhaseType.TIMEOUT
-  commentId: F:Danmokou.Core.PhaseType.TIMEOUT
-  id: TIMEOUT
+- uid: Danmokou.Core.PhaseType.Timeout
+  commentId: F:Danmokou.Core.PhaseType.Timeout
+  id: Timeout
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: TIMEOUT
-  nameWithType: PhaseType.TIMEOUT
-  fullName: Danmokou.Core.PhaseType.TIMEOUT
+  name: Timeout
+  nameWithType: PhaseType.Timeout
+  fullName: Danmokou.Core.PhaseType.Timeout
   type: Field
   source:
-    id: TIMEOUT
+    id: Timeout
     path: ''
-    startLine: 1139
+    startLine: 1371
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nTimeouts. Same as SPELL, but also sets the HP to infinity and gives full rewards for timing out.\n"
   example: []
   syntax:
-    content: TIMEOUT = 2
+    content: Timeout = 2
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:
@@ -129,28 +129,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.PhaseType.FINAL
-  commentId: F:Danmokou.Core.PhaseType.FINAL
-  id: FINAL
+- uid: Danmokou.Core.PhaseType.FinalSpell
+  commentId: F:Danmokou.Core.PhaseType.FinalSpell
+  id: FinalSpell
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: FINAL
-  nameWithType: PhaseType.FINAL
-  fullName: Danmokou.Core.PhaseType.FINAL
+  name: FinalSpell
+  nameWithType: PhaseType.FinalSpell
+  fullName: Danmokou.Core.PhaseType.FinalSpell
   type: Field
   source:
-    id: FINAL
+    id: FinalSpell
     path: ''
-    startLine: 1143
+    startLine: 1375
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nFinal spell. Same as SPELL, but doesn&apos;t drop value items on completion.\n"
   example: []
   syntax:
-    content: FINAL = 3
+    content: FinalSpell = 3
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:
@@ -159,28 +159,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.PhaseType.ANNOUNCE
-  commentId: F:Danmokou.Core.PhaseType.ANNOUNCE
-  id: ANNOUNCE
+- uid: Danmokou.Core.PhaseType.Announce
+  commentId: F:Danmokou.Core.PhaseType.Announce
+  id: Announce
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: ANNOUNCE
-  nameWithType: PhaseType.ANNOUNCE
-  fullName: Danmokou.Core.PhaseType.ANNOUNCE
+  name: Announce
+  nameWithType: PhaseType.Announce
+  fullName: Danmokou.Core.PhaseType.Announce
   type: Field
   source:
-    id: ANNOUNCE
+    id: Announce
     path: ''
-    startLine: 1147
+    startLine: 1379
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nStage section where graphics, but no enemies/bullets, appear on screen.\n"
   example: []
   syntax:
-    content: ANNOUNCE = 4
+    content: Announce = 4
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:
@@ -189,28 +189,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.PhaseType.DIALOGUE
-  commentId: F:Danmokou.Core.PhaseType.DIALOGUE
-  id: DIALOGUE
+- uid: Danmokou.Core.PhaseType.Dialogue
+  commentId: F:Danmokou.Core.PhaseType.Dialogue
+  id: Dialogue
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: DIALOGUE
-  nameWithType: PhaseType.DIALOGUE
-  fullName: Danmokou.Core.PhaseType.DIALOGUE
+  name: Dialogue
+  nameWithType: PhaseType.Dialogue
+  fullName: Danmokou.Core.PhaseType.Dialogue
   type: Field
   source:
-    id: DIALOGUE
+    id: Dialogue
     path: ''
-    startLine: 1151
+    startLine: 1383
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nDialogue section. The score multiplier is granted lenience and the executor is granted infinite health during this.\n"
   example: []
   syntax:
-    content: DIALOGUE = 5
+    content: Dialogue = 5
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:
@@ -219,28 +219,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.PhaseType.STAGE
-  commentId: F:Danmokou.Core.PhaseType.STAGE
-  id: STAGE
+- uid: Danmokou.Core.PhaseType.Stage
+  commentId: F:Danmokou.Core.PhaseType.Stage
+  id: Stage
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: STAGE
-  nameWithType: PhaseType.STAGE
-  fullName: Danmokou.Core.PhaseType.STAGE
+  name: Stage
+  nameWithType: PhaseType.Stage
+  fullName: Danmokou.Core.PhaseType.Stage
   type: Field
   source:
-    id: STAGE
+    id: Stage
     path: ''
-    startLine: 1155
+    startLine: 1387
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nStandard stage section. Only use in stage scripts.\n"
   example: []
   syntax:
-    content: STAGE = 6
+    content: Stage = 6
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:
@@ -249,28 +249,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.PhaseType.STAGEMIDBOSS
-  commentId: F:Danmokou.Core.PhaseType.STAGEMIDBOSS
-  id: STAGEMIDBOSS
+- uid: Danmokou.Core.PhaseType.StageMidboss
+  commentId: F:Danmokou.Core.PhaseType.StageMidboss
+  id: StageMidboss
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: STAGEMIDBOSS
-  nameWithType: PhaseType.STAGEMIDBOSS
-  fullName: Danmokou.Core.PhaseType.STAGEMIDBOSS
+  name: StageMidboss
+  nameWithType: PhaseType.StageMidboss
+  fullName: Danmokou.Core.PhaseType.StageMidboss
   type: Field
   source:
-    id: STAGEMIDBOSS
+    id: StageMidboss
     path: ''
-    startLine: 1159
+    startLine: 1391
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nA stage section wrapping a midboss summon. Only use in stage scripts.\n"
   example: []
   syntax:
-    content: STAGEMIDBOSS = 7
+    content: StageMidboss = 7
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:
@@ -279,28 +279,28 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: Danmokou.Core.PhaseType.STAGEENDBOSS
-  commentId: F:Danmokou.Core.PhaseType.STAGEENDBOSS
-  id: STAGEENDBOSS
+- uid: Danmokou.Core.PhaseType.StageEndboss
+  commentId: F:Danmokou.Core.PhaseType.StageEndboss
+  id: StageEndboss
   parent: Danmokou.Core.PhaseType
   langs:
   - csharp
   - vb
-  name: STAGEENDBOSS
-  nameWithType: PhaseType.STAGEENDBOSS
-  fullName: Danmokou.Core.PhaseType.STAGEENDBOSS
+  name: StageEndboss
+  nameWithType: PhaseType.StageEndboss
+  fullName: Danmokou.Core.PhaseType.StageEndboss
   type: Field
   source:
-    id: STAGEENDBOSS
+    id: StageEndboss
     path: ''
-    startLine: 1163
+    startLine: 1395
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
   summary: "\nA stage section wrapping an endboss summon. Only use in stage scripts.\n"
   example: []
   syntax:
-    content: STAGEENDBOSS = 8
+    content: StageEndboss = 8
     return:
       type: Danmokou.Core.PhaseType
   modifiers.csharp:

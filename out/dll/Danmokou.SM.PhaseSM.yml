@@ -5,7 +5,7 @@ items:
   id: PhaseSM
   parent: Danmokou.SM
   children:
-  - Danmokou.SM.PhaseSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PhaseProperties,System.Single)
+  - Danmokou.SM.PhaseSM.#ctor(System.Single,Danmokou.SM.PhaseProperties,Danmokou.SM.StateMachine[])
   - Danmokou.SM.PhaseSM.MakeContext(Danmokou.SM.PatternContext)
   - Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
   - Danmokou.SM.PhaseSM.props
@@ -21,7 +21,7 @@ items:
   source:
     id: PhaseSM
     path: ''
-    startLine: 13450
+    startLine: 14051
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -66,7 +66,7 @@ items:
   source:
     id: props
     path: ''
-    startLine: 13464
+    startLine: 14058
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -95,7 +95,7 @@ items:
   source:
     id: MakeContext
     path: ''
-    startLine: 13466
+    startLine: 14060
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -112,47 +112,47 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Danmokou.SM.PhaseSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PhaseProperties,System.Single)
-  commentId: M:Danmokou.SM.PhaseSM.#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PhaseProperties,System.Single)
-  id: '#ctor(List{Danmokou.SM.StateMachine},Danmokou.SM.PhaseProperties,System.Single)'
+- uid: Danmokou.SM.PhaseSM.#ctor(System.Single,Danmokou.SM.PhaseProperties,Danmokou.SM.StateMachine[])
+  commentId: M:Danmokou.SM.PhaseSM.#ctor(System.Single,Danmokou.SM.PhaseProperties,Danmokou.SM.StateMachine[])
+  id: '#ctor(System.Single,Danmokou.SM.PhaseProperties,Danmokou.SM.StateMachine[])'
   parent: Danmokou.SM.PhaseSM
   langs:
   - csharp
   - vb
-  name: PhaseSM(List<StateMachine>, PhaseProperties, Single)
-  nameWithType: PhaseSM.PhaseSM(List<StateMachine>, PhaseProperties, Single)
-  fullName: Danmokou.SM.PhaseSM.PhaseSM(List<Danmokou.SM.StateMachine>, Danmokou.SM.PhaseProperties, System.Single)
+  name: PhaseSM(Single, PhaseProperties, StateMachine[])
+  nameWithType: PhaseSM.PhaseSM(Single, PhaseProperties, StateMachine[])
+  fullName: Danmokou.SM.PhaseSM.PhaseSM(System.Single, Danmokou.SM.PhaseProperties, Danmokou.SM.StateMachine[])
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 13474
+    startLine: 14068
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\n"
   example: []
   syntax:
-    content: public PhaseSM(List<StateMachine> states, PhaseProperties props, float timeout)
+    content: public PhaseSM(float timeout, PhaseProperties props, params StateMachine[] states)
     parameters:
-    - id: states
-      type: List{Danmokou.SM.StateMachine}
-      description: Substates, run sequentially
-    - id: props
-      type: Danmokou.SM.PhaseProperties
-      description: Properties describing miscellaneous features of this phase
     - id: timeout
       type: System.Single
       description: Timeout in seconds before the phase automatically ends. Set to zero for no timeout
-    content.vb: Public Sub New(states As List(Of StateMachine), props As PhaseProperties, timeout As Single)
+    - id: props
+      type: Danmokou.SM.PhaseProperties
+      description: Properties describing miscellaneous features of this phase
+    - id: states
+      type: Danmokou.SM.StateMachine[]
+      description: Substates, run sequentially
+    content.vb: Public Sub New(timeout As Single, props As PhaseProperties, ParamArray states As StateMachine())
   overload: Danmokou.SM.PhaseSM.#ctor*
-  nameWithType.vb: PhaseSM.PhaseSM(List(Of StateMachine), PhaseProperties, Single)
+  nameWithType.vb: PhaseSM.PhaseSM(Single, PhaseProperties, StateMachine())
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.SM.PhaseSM.PhaseSM(List(Of Danmokou.SM.StateMachine), Danmokou.SM.PhaseProperties, System.Single)
-  name.vb: PhaseSM(List(Of StateMachine), PhaseProperties, Single)
+  fullName.vb: Danmokou.SM.PhaseSM.PhaseSM(System.Single, Danmokou.SM.PhaseProperties, Danmokou.SM.StateMachine())
+  name.vb: PhaseSM(Single, PhaseProperties, StateMachine())
 - uid: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
   commentId: M:Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
   id: PrePrepareBackgroundGraphics(Danmokou.SM.PhaseContext,System.Nullable{IBackgroundOrchestrator})
@@ -167,7 +167,7 @@ items:
   source:
     id: PrePrepareBackgroundGraphics
     path: ''
-    startLine: 13506
+    startLine: 14098
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -203,7 +203,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 13586
+    startLine: 14186
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -237,7 +237,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 13587
+    startLine: 14187
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -604,47 +604,6 @@ references:
   name: PhaseSM
   nameWithType: PhaseSM.PhaseSM
   fullName: Danmokou.SM.PhaseSM.PhaseSM
-- uid: List{Danmokou.SM.StateMachine}
-  commentId: '!:List{Danmokou.SM.StateMachine}'
-  definition: List`1
-  name: List<StateMachine>
-  nameWithType: List<StateMachine>
-  fullName: List<Danmokou.SM.StateMachine>
-  nameWithType.vb: List(Of StateMachine)
-  fullName.vb: List(Of Danmokou.SM.StateMachine)
-  name.vb: List(Of StateMachine)
-  spec.csharp:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Danmokou.SM.StateMachine
-    name: StateMachine
-    nameWithType: StateMachine
-    fullName: Danmokou.SM.StateMachine
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Danmokou.SM.StateMachine
-    name: StateMachine
-    nameWithType: StateMachine
-    fullName: Danmokou.SM.StateMachine
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Single
   commentId: T:System.Single
   parent: System
@@ -652,44 +611,30 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: List`1
+- uid: Danmokou.SM.StateMachine[]
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
+  name: StateMachine[]
+  nameWithType: StateMachine[]
+  fullName: Danmokou.SM.StateMachine[]
+  nameWithType.vb: StateMachine()
+  fullName.vb: Danmokou.SM.StateMachine()
+  name.vb: StateMachine()
   spec.csharp:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics*
   commentId: Overload:Danmokou.SM.PhaseSM.PrePrepareBackgroundGraphics
   name: PrePrepareBackgroundGraphics

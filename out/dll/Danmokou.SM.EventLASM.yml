@@ -8,7 +8,7 @@ items:
   - Danmokou.SM.EventLASM.#ctor(Danmokou.SM.EventLASM.EventTask)
   - Danmokou.SM.EventLASM.BossExplode
   - Danmokou.SM.EventLASM.BossExplodeWait
-  - Danmokou.SM.EventLASM.Listen``1(System.String,System.String,Danmokou.SM.StateMachine)
+  - Danmokou.SM.EventLASM.Listen``1(System.String,System.Func{``0,Danmokou.SM.StateMachine})
   - Danmokou.SM.EventLASM.OnNext``1(System.String,GCXF{``0})
   - Danmokou.SM.EventLASM.OnNext0(System.String)
   - Danmokou.SM.EventLASM.PlayerInvuln(System.Int32)
@@ -23,7 +23,7 @@ items:
   source:
     id: EventLASM
     path: ''
-    startLine: 13855
+    startLine: 14468
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -68,7 +68,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13859
+    startLine: 14472
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -83,53 +83,50 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Danmokou.SM.EventLASM.Listen``1(System.String,System.String,Danmokou.SM.StateMachine)
-  commentId: M:Danmokou.SM.EventLASM.Listen``1(System.String,System.String,Danmokou.SM.StateMachine)
-  id: Listen``1(System.String,System.String,Danmokou.SM.StateMachine)
+- uid: Danmokou.SM.EventLASM.Listen``1(System.String,System.Func{``0,Danmokou.SM.StateMachine})
+  commentId: M:Danmokou.SM.EventLASM.Listen``1(System.String,System.Func{``0,Danmokou.SM.StateMachine})
+  id: Listen``1(System.String,System.Func{``0,Danmokou.SM.StateMachine})
   parent: Danmokou.SM.EventLASM
   langs:
   - csharp
   - vb
-  name: Listen<T>(String, String, StateMachine)
-  nameWithType: EventLASM.Listen<T>(String, String, StateMachine)
-  fullName: Danmokou.SM.EventLASM.Listen<T>(System.String, System.String, Danmokou.SM.StateMachine)
+  name: Listen<T>(String, Func<T, StateMachine>)
+  nameWithType: EventLASM.Listen<T>(String, Func<T, StateMachine>)
+  fullName: Danmokou.SM.EventLASM.Listen<T>(System.String, System.Func<T, Danmokou.SM.StateMachine>)
   type: Method
   source:
     id: Listen
     path: ''
-    startLine: 13867
+    startLine: 14479
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nSubscribe to a runtime event and run a StateMachine when a value is provided.\n"
   example: []
   syntax:
-    content: public static EventLASM.EventTask Listen<T>(string evName, string bindVar, StateMachine exec)
+    content: public static EventLASM.EventTask Listen<T>(string evName, Func<T, StateMachine> exec)
     parameters:
     - id: evName
       type: System.String
       description: Runtime event name
-    - id: bindVar
-      type: System.String
-      description: Key to bind value of event on trigger
     - id: exec
-      type: Danmokou.SM.StateMachine
+      type: System.Func{{T},Danmokou.SM.StateMachine}
       description: StateMachine to execute with event
     typeParameters:
     - id: T
     return:
       type: Danmokou.SM.EventLASM.EventTask
-    content.vb: Public Shared Function Listen(Of T)(evName As String, bindVar As String, exec As StateMachine) As EventLASM.EventTask
+    content.vb: Public Shared Function Listen(Of T)(evName As String, exec As Func(Of T, StateMachine)) As EventLASM.EventTask
   overload: Danmokou.SM.EventLASM.Listen*
-  nameWithType.vb: EventLASM.Listen(Of T)(String, String, StateMachine)
+  nameWithType.vb: EventLASM.Listen(Of T)(String, Func(Of T, StateMachine))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.EventLASM.Listen(Of T)(System.String, System.String, Danmokou.SM.StateMachine)
-  name.vb: Listen(Of T)(String, String, StateMachine)
+  fullName.vb: Danmokou.SM.EventLASM.Listen(Of T)(System.String, System.Func(Of T, Danmokou.SM.StateMachine))
+  name.vb: Listen(Of T)(String, Func(Of T, StateMachine))
 - uid: Danmokou.SM.EventLASM.ResetTrigger(System.String,System.String)
   commentId: M:Danmokou.SM.EventLASM.ResetTrigger(System.String,System.String)
   id: ResetTrigger(System.String,System.String)
@@ -144,7 +141,7 @@ items:
   source:
     id: ResetTrigger
     path: ''
-    startLine: 13882
+    startLine: 14493
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -181,7 +178,7 @@ items:
   source:
     id: OnNext
     path: ''
-    startLine: 13891
+    startLine: 14502
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -223,7 +220,7 @@ items:
   source:
     id: OnNext0
     path: ''
-    startLine: 13901
+    startLine: 14512
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -258,7 +255,7 @@ items:
   source:
     id: PlayerInvuln
     path: ''
-    startLine: 13908
+    startLine: 14519
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -295,7 +292,7 @@ items:
   source:
     id: BossExplodeWait
     path: ''
-    startLine: 13915
+    startLine: 14526
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -324,7 +321,7 @@ items:
   source:
     id: BossExplode
     path: ''
-    startLine: 13920
+    startLine: 14531
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -715,6 +712,111 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Func{{T},Danmokou.SM.StateMachine}
+  commentId: T:System.Func{``0,Danmokou.SM.StateMachine}
+  parent: System
+  definition: System.Func`2
+  name: Func<T, StateMachine>
+  nameWithType: Func<T, StateMachine>
+  fullName: System.Func<T, Danmokou.SM.StateMachine>
+  nameWithType.vb: Func(Of T, StateMachine)
+  fullName.vb: System.Func(Of T, Danmokou.SM.StateMachine)
+  name.vb: Func(Of T, StateMachine)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.SM.EventLASM.ResetTrigger*
   commentId: Overload:Danmokou.SM.EventLASM.ResetTrigger
   name: ResetTrigger

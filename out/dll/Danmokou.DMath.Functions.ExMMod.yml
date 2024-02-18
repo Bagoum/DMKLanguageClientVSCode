@@ -9,18 +9,19 @@ items:
   - Danmokou.DMath.Functions.ExMMod.FlipXPMMod(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMMod.HMod(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMMod.HNMod(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMMod.Mod(efloat,efloat)
-  - Danmokou.DMath.Functions.ExMMod.Modh(efloat)
-  - Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,efloat,efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.Mod(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.Modh(tfloat)
+  - Danmokou.DMath.Functions.ExMMod.Modulo``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMMod.MP1Mod(tfloat)
   - Danmokou.DMath.Functions.ExMMod.PM1Mod(tfloat)
   - Danmokou.DMath.Functions.ExMMod.PMZ1(tfloat)
-  - Danmokou.DMath.Functions.ExMMod.RangeMod(efloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.RangeMod(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMMod.RangeModh(tfloat)
-  - Danmokou.DMath.Functions.ExMMod.RangeSoftMod(efloat,tfloat)
-  - Danmokou.DMath.Functions.ExMMod.RemapIndex(efloat,tfloat)
-  - Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(efloat,efloat)
-  - Danmokou.DMath.Functions.ExMMod.SoftMod(efloat,efloat)
+  - Danmokou.DMath.Functions.ExMMod.RangeSoftMod(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.RemapIndex(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMMod.SoftMod(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMMod.z1Mod(tfloat)
   - Danmokou.DMath.Functions.ExMMod.Z1PM(tfloat)
   langs:
@@ -33,7 +34,7 @@ items:
   source:
     id: ExMMod
     path: ''
-    startLine: 12398
+    startLine: 12884
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -59,39 +60,79 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: Danmokou.DMath.Functions.ExMMod.Mod(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMMod.Mod(efloat,efloat)
-  id: Mod(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExMMod.Modulo``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMMod.Modulo``1(TEx{``0},TEx{``0})
+  id: Modulo``1(TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMMod
   langs:
   - csharp
   - vb
-  name: Mod(efloat, efloat)
-  nameWithType: ExMMod.Mod(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExMMod.Mod(efloat, efloat)
+  name: Modulo<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMMod.Modulo<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMMod.Modulo<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: Modulo
+    path: ''
+    startLine: 12886
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> Modulo<T>(TEx<T> x, TEx<T> by)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: by
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function Modulo(Of T)(x As TEx(Of T), by As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMMod.Modulo*
+  nameWithType.vb: ExMMod.Modulo(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMMod.Modulo(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Modulo(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMMod.Mod(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.Mod(tfloat,tfloat)
+  id: Mod(tfloat,tfloat)
+  parent: Danmokou.DMath.Functions.ExMMod
+  langs:
+  - csharp
+  - vb
+  name: Mod(tfloat, tfloat)
+  nameWithType: ExMMod.Mod(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.Mod(tfloat, tfloat)
   type: Method
   source:
     id: Mod
     path: ''
-    startLine: 12406
+    startLine: 12895
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nGet the modulo (nonnegative) of one number by another. \n"
   example: []
   syntax:
-    content: public static tfloat Mod(efloat by, efloat x)
+    content: public static tfloat Mod(tfloat by, tfloat x)
     parameters:
     - id: by
-      type: efloat
+      type: tfloat
       description: Modulo value
     - id: x
-      type: efloat
+      type: tfloat
       description: Target value
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function Mod(by As efloat, x As efloat) As tfloat
+    content.vb: Public Shared Function Mod(by As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMMod.Mod*
   modifiers.csharp:
   - public
@@ -99,34 +140,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMMod.Modh(efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMMod.Modh(efloat)
-  id: Modh(efloat)
+- uid: Danmokou.DMath.Functions.ExMMod.Modh(tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.Modh(tfloat)
+  id: Modh(tfloat)
   parent: Danmokou.DMath.Functions.ExMMod
   langs:
   - csharp
   - vb
-  name: Modh(efloat)
-  nameWithType: ExMMod.Modh(efloat)
-  fullName: Danmokou.DMath.Functions.ExMMod.Modh(efloat)
+  name: Modh(tfloat)
+  nameWithType: ExMMod.Modh(tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.Modh(tfloat)
   type: Method
   source:
     id: Modh
     path: ''
-    startLine: 12412
+    startLine: 12901
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\n= Mod(1, 1/phi * x)\n"
   example: []
   syntax:
-    content: public static tfloat Modh(efloat x)
+    content: public static tfloat Modh(tfloat x)
     parameters:
     - id: x
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function Modh(x As efloat) As tfloat
+    content.vb: Public Shared Function Modh(x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMMod.Modh*
   modifiers.csharp:
   - public
@@ -134,21 +175,21 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMMod.SoftMod(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMMod.SoftMod(efloat,efloat)
-  id: SoftMod(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExMMod.SoftMod(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.SoftMod(tfloat,tfloat)
+  id: SoftMod(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMMod
   langs:
   - csharp
   - vb
-  name: SoftMod(efloat, efloat)
-  nameWithType: ExMMod.SoftMod(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExMMod.SoftMod(efloat, efloat)
+  name: SoftMod(tfloat, tfloat)
+  nameWithType: ExMMod.SoftMod(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.SoftMod(tfloat, tfloat)
   type: Method
   source:
     id: SoftMod
     path: ''
-    startLine: 12438
+    startLine: 12927
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -156,18 +197,18 @@ items:
   example:
   - "\n<code>FSoftMod(X(), 4)(3.95) = 3.95\nFSoftMod(X(), 4)(4.05) = 3.95\nFSoftMod(X(), 4)(4.15) = 3.85</code>\n"
   syntax:
-    content: public static tfloat SoftMod(efloat by, efloat x)
+    content: public static tfloat SoftMod(tfloat by, tfloat x)
     parameters:
     - id: by
-      type: efloat
+      type: tfloat
       description: Period
     - id: x
-      type: efloat
+      type: tfloat
       description: Value
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function SoftMod(by As efloat, x As efloat) As tfloat
+    content.vb: Public Shared Function SoftMod(by As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMMod.SoftMod*
   modifiers.csharp:
   - public
@@ -175,21 +216,21 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMMod.RangeMod(efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMMod.RangeMod(efloat,tfloat)
-  id: RangeMod(efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExMMod.RangeMod(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RangeMod(tfloat,tfloat)
+  id: RangeMod(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMMod
   langs:
   - csharp
   - vb
-  name: RangeMod(efloat, tfloat)
-  nameWithType: ExMMod.RangeMod(efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMMod.RangeMod(efloat, tfloat)
+  name: RangeMod(tfloat, tfloat)
+  nameWithType: ExMMod.RangeMod(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RangeMod(tfloat, tfloat)
   type: Method
   source:
     id: RangeMod
     path: ''
-    startLine: 12460
+    startLine: 12949
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -197,10 +238,10 @@ items:
   example:
   - "\n<code>FSoftMod(X(), 4)(3.95) = 3.95\nFSoftMod(X(), 4)(4.05) = -3.95\nFSoftMod(X(), 4)(11) = 3\nFSoftMod(X(), 4)(12.05) = -3.95</code>\n"
   syntax:
-    content: public static tfloat RangeMod(efloat by, tfloat x)
+    content: public static tfloat RangeMod(tfloat by, tfloat x)
     parameters:
     - id: by
-      type: efloat
+      type: tfloat
       description: ''
     - id: x
       type: tfloat
@@ -208,7 +249,7 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function RangeMod(by As efloat, x As tfloat) As tfloat
+    content.vb: Public Shared Function RangeMod(by As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMMod.RangeMod*
   modifiers.csharp:
   - public
@@ -230,7 +271,7 @@ items:
   source:
     id: RangeModh
     path: ''
-    startLine: 12465
+    startLine: 12954
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -251,21 +292,21 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMMod.RangeSoftMod(efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMMod.RangeSoftMod(efloat,tfloat)
-  id: RangeSoftMod(efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExMMod.RangeSoftMod(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RangeSoftMod(tfloat,tfloat)
+  id: RangeSoftMod(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMMod
   langs:
   - csharp
   - vb
-  name: RangeSoftMod(efloat, tfloat)
-  nameWithType: ExMMod.RangeSoftMod(efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMMod.RangeSoftMod(efloat, tfloat)
+  name: RangeSoftMod(tfloat, tfloat)
+  nameWithType: ExMMod.RangeSoftMod(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RangeSoftMod(tfloat, tfloat)
   type: Method
   source:
     id: RangeSoftMod
     path: ''
-    startLine: 12481
+    startLine: 12970
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -273,10 +314,10 @@ items:
   example:
   - "\n<code>FSoftMod(X(), 4)(3.95) = 3.95\nFSoftMod(X(), 4)(4.05) = 3.95\nFSoftMod(X(), 4)(11) = -3\nFSoftMod(X(), 4)(12.05) = -3.95</code>\n"
   syntax:
-    content: public static tfloat RangeSoftMod(efloat by, tfloat x)
+    content: public static tfloat RangeSoftMod(tfloat by, tfloat x)
     parameters:
     - id: by
-      type: efloat
+      type: tfloat
       description: ''
     - id: x
       type: tfloat
@@ -284,7 +325,7 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function RangeSoftMod(by As efloat, x As tfloat) As tfloat
+    content.vb: Public Shared Function RangeSoftMod(by As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMMod.RangeSoftMod*
   modifiers.csharp:
   - public
@@ -292,37 +333,37 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,efloat,efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,efloat,efloat,tfloat)
-  id: ModWithPause(tfloat,efloat,efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,tfloat,tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat,tfloat,tfloat,tfloat)
+  id: ModWithPause(tfloat,tfloat,tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMMod
   langs:
   - csharp
   - vb
-  name: ModWithPause(tfloat, efloat, efloat, tfloat)
-  nameWithType: ExMMod.ModWithPause(tfloat, efloat, efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat, efloat, efloat, tfloat)
+  name: ModWithPause(tfloat, tfloat, tfloat, tfloat)
+  nameWithType: ExMMod.ModWithPause(tfloat, tfloat, tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.ModWithPause(tfloat, tfloat, tfloat, tfloat)
   type: Method
   source:
     id: ModWithPause
     path: ''
-    startLine: 12494
+    startLine: 12983
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nPeriodize the return value of the target function with a &quot;pause&quot; at the value pauseAt for pauseLen units.\nThe true period of this function is by + pauseLen, however the output only varies [0, by].\nDuring the pause time, the return value will be stuck at pauseAt.\n"
   example: []
   syntax:
-    content: public static tfloat ModWithPause(tfloat by, efloat pauseAt, efloat pauseLen, tfloat x)
+    content: public static tfloat ModWithPause(tfloat by, tfloat pauseAt, tfloat pauseLen, tfloat x)
     parameters:
     - id: by
       type: tfloat
       description: Naive period
     - id: pauseAt
-      type: efloat
+      type: tfloat
       description: Time at which to pause
     - id: pauseLen
-      type: efloat
+      type: tfloat
       description: Length for which to pause
     - id: x
       type: tfloat
@@ -330,7 +371,7 @@ items:
     return:
       type: tfloat
       description: ''
-    content.vb: Public Shared Function ModWithPause(by As tfloat, pauseAt As efloat, pauseLen As efloat, x As tfloat) As tfloat
+    content.vb: Public Shared Function ModWithPause(by As tfloat, pauseAt As tfloat, pauseLen As tfloat, x As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMMod.ModWithPause*
   modifiers.csharp:
   - public
@@ -352,7 +393,7 @@ items:
   source:
     id: HMod
     path: ''
-    startLine: 12524
+    startLine: 13013
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -393,7 +434,7 @@ items:
   source:
     id: HNMod
     path: ''
-    startLine: 12551
+    startLine: 13040
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -434,7 +475,7 @@ items:
   source:
     id: PM1Mod
     path: ''
-    startLine: 12565
+    startLine: 13054
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -469,7 +510,7 @@ items:
   source:
     id: MP1Mod
     path: ''
-    startLine: 12571
+    startLine: 13060
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -504,7 +545,7 @@ items:
   source:
     id: z1Mod
     path: ''
-    startLine: 12577
+    startLine: 13066
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -539,7 +580,7 @@ items:
   source:
     id: FlipXMod
     path: ''
-    startLine: 12583
+    startLine: 13072
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -576,7 +617,7 @@ items:
   source:
     id: FlipXPMMod
     path: ''
-    startLine: 12588
+    startLine: 13077
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -613,7 +654,7 @@ items:
   source:
     id: PMZ1
     path: ''
-    startLine: 12593
+    startLine: 13082
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -648,7 +689,7 @@ items:
   source:
     id: Z1PM
     path: ''
-    startLine: 12597
+    startLine: 13086
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -669,36 +710,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMMod.RemapIndex(efloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMMod.RemapIndex(efloat,tfloat)
-  id: RemapIndex(efloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExMMod.RemapIndex(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RemapIndex(tfloat,tfloat)
+  id: RemapIndex(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMMod
   langs:
   - csharp
   - vb
-  name: RemapIndex(efloat, tfloat)
-  nameWithType: ExMMod.RemapIndex(efloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMMod.RemapIndex(efloat, tfloat)
+  name: RemapIndex(tfloat, tfloat)
+  nameWithType: ExMMod.RemapIndex(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RemapIndex(tfloat, tfloat)
   type: Method
   source:
     id: RemapIndex
     path: ''
-    startLine: 12606
+    startLine: 13095
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nUse Fermat&apos;s Little Theorem to reindex integers around a prime number mod.\n"
   example: []
   syntax:
-    content: public static tfloat RemapIndex(efloat mod, tfloat index)
+    content: public static tfloat RemapIndex(tfloat mod, tfloat index)
     parameters:
     - id: mod
-      type: efloat
+      type: tfloat
     - id: index
       type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function RemapIndex(mod As efloat, index As tfloat) As tfloat
+    content.vb: Public Shared Function RemapIndex(mod As tfloat, index As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMMod.RemapIndex*
   modifiers.csharp:
   - public
@@ -706,36 +747,36 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(efloat,efloat)
-  commentId: M:Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(efloat,efloat)
-  id: RemapIndexLoop(efloat,efloat)
+- uid: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(tfloat,tfloat)
+  commentId: M:Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(tfloat,tfloat)
+  id: RemapIndexLoop(tfloat,tfloat)
   parent: Danmokou.DMath.Functions.ExMMod
   langs:
   - csharp
   - vb
-  name: RemapIndexLoop(efloat, efloat)
-  nameWithType: ExMMod.RemapIndexLoop(efloat, efloat)
-  fullName: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(efloat, efloat)
+  name: RemapIndexLoop(tfloat, tfloat)
+  nameWithType: ExMMod.RemapIndexLoop(tfloat, tfloat)
+  fullName: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop(tfloat, tfloat)
   type: Method
   source:
     id: RemapIndexLoop
     path: ''
-    startLine: 12612
+    startLine: 13101
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nUse Fermat&apos;s Little Theorem to reindex integers around a prime number mod, localized to the region\n[mod\\*floor(index/mod), mod+mod\\*floor(index/mod)].\n"
   example: []
   syntax:
-    content: public static tfloat RemapIndexLoop(efloat mod, efloat index)
+    content: public static tfloat RemapIndexLoop(tfloat mod, tfloat index)
     parameters:
     - id: mod
-      type: efloat
+      type: tfloat
     - id: index
-      type: efloat
+      type: tfloat
     return:
       type: tfloat
-    content.vb: Public Shared Function RemapIndexLoop(mod As efloat, index As efloat) As tfloat
+    content.vb: Public Shared Function RemapIndexLoop(mod As tfloat, index As tfloat) As tfloat
   overload: Danmokou.DMath.Functions.ExMMod.RemapIndexLoop*
   modifiers.csharp:
   - public
@@ -1046,16 +1087,93 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Danmokou.DMath.Functions.ExMMod.Modulo*
+  commentId: Overload:Danmokou.DMath.Functions.ExMMod.Modulo
+  name: Modulo
+  nameWithType: ExMMod.Modulo
+  fullName: Danmokou.DMath.Functions.ExMMod.Modulo
+- uid: TEx{{T}}
+  commentId: '!:TEx{``0}'
+  definition: TEx`1
+  name: TEx<T>
+  nameWithType: TEx<T>
+  fullName: TEx<T>
+  nameWithType.vb: TEx(Of T)
+  fullName.vb: TEx(Of T)
+  name.vb: TEx(Of T)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx`1
+  isExternal: true
+  name: TEx<>
+  nameWithType: TEx<>
+  fullName: TEx<>
+  nameWithType.vb: TEx(Of )
+  fullName.vb: TEx(Of )
+  name.vb: TEx(Of )
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExMMod.Mod*
   commentId: Overload:Danmokou.DMath.Functions.ExMMod.Mod
   name: Mod
   nameWithType: ExMMod.Mod
   fullName: Danmokou.DMath.Functions.ExMMod.Mod
-- uid: efloat
-  isExternal: true
-  name: efloat
-  nameWithType: efloat
-  fullName: efloat
 - uid: tfloat
   isExternal: true
   name: tfloat

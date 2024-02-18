@@ -6,10 +6,11 @@ items:
   parent: Danmokou.DMath.Functions
   children:
   - Danmokou.DMath.Functions.PredicateLogic.Circ(ExTP3)
+  - Danmokou.DMath.Functions.PredicateLogic.Cooldown(ExBPY,ExPred)
   - Danmokou.DMath.Functions.PredicateLogic.OnlyOnce(ExPred)
   - Danmokou.DMath.Functions.PredicateLogic.Rect(CRect)
-  - Danmokou.DMath.Functions.PredicateLogic.RelCirc(BEHPointer,ExTP3)
-  - Danmokou.DMath.Functions.PredicateLogic.RelRect(BEHPointer,CRect)
+  - Danmokou.DMath.Functions.PredicateLogic.RelCirc(System.Func{TExArgCtx,TEx{BehaviorEntity}},ExTP3)
+  - Danmokou.DMath.Functions.PredicateLogic.RelRect(System.Func{TExArgCtx,TEx{BehaviorEntity}},CRect)
   langs:
   - csharp
   - vb
@@ -20,7 +21,7 @@ items:
   source:
     id: PredicateLogic
     path: ''
-    startLine: 8779
+    startLine: 9058
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -60,7 +61,7 @@ items:
   source:
     id: OnlyOnce
     path: ''
-    startLine: 8787
+    startLine: 9064
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -71,10 +72,8 @@ items:
     parameters:
     - id: pred
       type: ExPred
-      description: ''
     return:
       type: ExPred
-      description: ''
     content.vb: Public Shared Function OnlyOnce(pred As ExPred) As ExPred
   overload: Danmokou.DMath.Functions.PredicateLogic.OnlyOnce*
   modifiers.csharp:
@@ -83,31 +82,68 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.PredicateLogic.RelCirc(BEHPointer,ExTP3)
-  commentId: M:Danmokou.DMath.Functions.PredicateLogic.RelCirc(BEHPointer,ExTP3)
-  id: RelCirc(BEHPointer,ExTP3)
+- uid: Danmokou.DMath.Functions.PredicateLogic.Cooldown(ExBPY,ExPred)
+  commentId: M:Danmokou.DMath.Functions.PredicateLogic.Cooldown(ExBPY,ExPred)
+  id: Cooldown(ExBPY,ExPred)
   parent: Danmokou.DMath.Functions.PredicateLogic
   langs:
   - csharp
   - vb
-  name: RelCirc(BEHPointer, ExTP3)
-  nameWithType: PredicateLogic.RelCirc(BEHPointer, ExTP3)
-  fullName: Danmokou.DMath.Functions.PredicateLogic.RelCirc(BEHPointer, ExTP3)
+  name: Cooldown(ExBPY, ExPred)
+  nameWithType: PredicateLogic.Cooldown(ExBPY, ExPred)
+  fullName: Danmokou.DMath.Functions.PredicateLogic.Cooldown(ExBPY, ExPred)
+  type: Method
+  source:
+    id: Cooldown
+    path: ''
+    startLine: 9079
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nNest a predicate such that it can only return True once in a fixed period.\n"
+  example: []
+  syntax:
+    content: public static ExPred Cooldown(ExBPY cooldown, ExPred pred)
+    parameters:
+    - id: cooldown
+      type: ExBPY
+    - id: pred
+      type: ExPred
+    return:
+      type: ExPred
+    content.vb: Public Shared Function Cooldown(cooldown As ExBPY, pred As ExPred) As ExPred
+  overload: Danmokou.DMath.Functions.PredicateLogic.Cooldown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.PredicateLogic.RelCirc(System.Func{TExArgCtx,TEx{BehaviorEntity}},ExTP3)
+  commentId: M:Danmokou.DMath.Functions.PredicateLogic.RelCirc(System.Func{TExArgCtx,TEx{BehaviorEntity}},ExTP3)
+  id: RelCirc(System.Func{TExArgCtx,TEx{BehaviorEntity}},ExTP3)
+  parent: Danmokou.DMath.Functions.PredicateLogic
+  langs:
+  - csharp
+  - vb
+  name: RelCirc(Func<TExArgCtx, TEx<BehaviorEntity>>, ExTP3)
+  nameWithType: PredicateLogic.RelCirc(Func<TExArgCtx, TEx<BehaviorEntity>>, ExTP3)
+  fullName: Danmokou.DMath.Functions.PredicateLogic.RelCirc(System.Func<TExArgCtx, TEx<BehaviorEntity>>, ExTP3)
   type: Method
   source:
     id: RelCirc
     path: ''
-    startLine: 8806
+    startLine: 9100
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true if the object is in the given circle relative to a BehaviorEntity.\n"
   example: []
   syntax:
-    content: public static ExPred RelCirc(BEHPointer beh, ExTP3 circ)
+    content: public static ExPred RelCirc(Func<TExArgCtx, TEx<BehaviorEntity>> beh, ExTP3 circ)
     parameters:
     - id: beh
-      type: BEHPointer
+      type: System.Func{TExArgCtx,TEx{BehaviorEntity}}
       description: Target BehaviorEntity
     - id: circ
       type: ExTP3
@@ -115,14 +151,17 @@ items:
     return:
       type: ExPred
       description: ''
-    content.vb: Public Shared Function RelCirc(beh As BEHPointer, circ As ExTP3) As ExPred
+    content.vb: Public Shared Function RelCirc(beh As Func(Of TExArgCtx, TEx(Of BehaviorEntity)), circ As ExTP3) As ExPred
   overload: Danmokou.DMath.Functions.PredicateLogic.RelCirc*
+  nameWithType.vb: PredicateLogic.RelCirc(Func(Of TExArgCtx, TEx(Of BehaviorEntity)), ExTP3)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+  fullName.vb: Danmokou.DMath.Functions.PredicateLogic.RelCirc(System.Func(Of TExArgCtx, TEx(Of BehaviorEntity)), ExTP3)
+  name.vb: RelCirc(Func(Of TExArgCtx, TEx(Of BehaviorEntity)), ExTP3)
 - uid: Danmokou.DMath.Functions.PredicateLogic.Circ(ExTP3)
   commentId: M:Danmokou.DMath.Functions.PredicateLogic.Circ(ExTP3)
   id: Circ(ExTP3)
@@ -137,7 +176,7 @@ items:
   source:
     id: Circ
     path: ''
-    startLine: 8817
+    startLine: 9112
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -160,31 +199,31 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.PredicateLogic.RelRect(BEHPointer,CRect)
-  commentId: M:Danmokou.DMath.Functions.PredicateLogic.RelRect(BEHPointer,CRect)
-  id: RelRect(BEHPointer,CRect)
+- uid: Danmokou.DMath.Functions.PredicateLogic.RelRect(System.Func{TExArgCtx,TEx{BehaviorEntity}},CRect)
+  commentId: M:Danmokou.DMath.Functions.PredicateLogic.RelRect(System.Func{TExArgCtx,TEx{BehaviorEntity}},CRect)
+  id: RelRect(System.Func{TExArgCtx,TEx{BehaviorEntity}},CRect)
   parent: Danmokou.DMath.Functions.PredicateLogic
   langs:
   - csharp
   - vb
-  name: RelRect(BEHPointer, CRect)
-  nameWithType: PredicateLogic.RelRect(BEHPointer, CRect)
-  fullName: Danmokou.DMath.Functions.PredicateLogic.RelRect(BEHPointer, CRect)
+  name: RelRect(Func<TExArgCtx, TEx<BehaviorEntity>>, CRect)
+  nameWithType: PredicateLogic.RelRect(Func<TExArgCtx, TEx<BehaviorEntity>>, CRect)
+  fullName: Danmokou.DMath.Functions.PredicateLogic.RelRect(System.Func<TExArgCtx, TEx<BehaviorEntity>>, CRect)
   type: Method
   source:
     id: RelRect
     path: ''
-    startLine: 8828
+    startLine: 9123
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true if the object is in the given rectangle relative to a BehaviorEntity.\n"
   example: []
   syntax:
-    content: public static ExPred RelRect(BEHPointer beh, CRect rect)
+    content: public static ExPred RelRect(Func<TExArgCtx, TEx<BehaviorEntity>> beh, CRect rect)
     parameters:
     - id: beh
-      type: BEHPointer
+      type: System.Func{TExArgCtx,TEx{BehaviorEntity}}
       description: Target BehaviorEntity
     - id: rect
       type: CRect
@@ -192,14 +231,17 @@ items:
     return:
       type: ExPred
       description: ''
-    content.vb: Public Shared Function RelRect(beh As BEHPointer, rect As CRect) As ExPred
+    content.vb: Public Shared Function RelRect(beh As Func(Of TExArgCtx, TEx(Of BehaviorEntity)), rect As CRect) As ExPred
   overload: Danmokou.DMath.Functions.PredicateLogic.RelRect*
+  nameWithType.vb: PredicateLogic.RelRect(Func(Of TExArgCtx, TEx(Of BehaviorEntity)), CRect)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+  fullName.vb: Danmokou.DMath.Functions.PredicateLogic.RelRect(System.Func(Of TExArgCtx, TEx(Of BehaviorEntity)), CRect)
+  name.vb: RelRect(Func(Of TExArgCtx, TEx(Of BehaviorEntity)), CRect)
 - uid: Danmokou.DMath.Functions.PredicateLogic.Rect(CRect)
   commentId: M:Danmokou.DMath.Functions.PredicateLogic.Rect(CRect)
   id: Rect(CRect)
@@ -214,7 +256,7 @@ items:
   source:
     id: Rect
     path: ''
-    startLine: 8839
+    startLine: 9134
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -545,21 +587,159 @@ references:
   name: ExPred
   nameWithType: ExPred
   fullName: ExPred
+- uid: Danmokou.DMath.Functions.PredicateLogic.Cooldown*
+  commentId: Overload:Danmokou.DMath.Functions.PredicateLogic.Cooldown
+  name: Cooldown
+  nameWithType: PredicateLogic.Cooldown
+  fullName: Danmokou.DMath.Functions.PredicateLogic.Cooldown
+- uid: ExBPY
+  isExternal: true
+  name: ExBPY
+  nameWithType: ExBPY
+  fullName: ExBPY
 - uid: Danmokou.DMath.Functions.PredicateLogic.RelCirc*
   commentId: Overload:Danmokou.DMath.Functions.PredicateLogic.RelCirc
   name: RelCirc
   nameWithType: PredicateLogic.RelCirc
   fullName: Danmokou.DMath.Functions.PredicateLogic.RelCirc
-- uid: BEHPointer
-  isExternal: true
-  name: BEHPointer
-  nameWithType: BEHPointer
-  fullName: BEHPointer
+- uid: System.Func{TExArgCtx,TEx{BehaviorEntity}}
+  commentId: T:System.Func{TExArgCtx,TEx{BehaviorEntity}}
+  parent: System
+  definition: System.Func`2
+  name: Func<TExArgCtx, TEx<BehaviorEntity>>
+  nameWithType: Func<TExArgCtx, TEx<BehaviorEntity>>
+  fullName: System.Func<TExArgCtx, TEx<BehaviorEntity>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of BehaviorEntity))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of BehaviorEntity))
+  name.vb: Func(Of TExArgCtx, TEx(Of BehaviorEntity))
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: ExTP3
   isExternal: true
   name: ExTP3
   nameWithType: ExTP3
   fullName: ExTP3
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.PredicateLogic.Circ*
   commentId: Overload:Danmokou.DMath.Functions.PredicateLogic.Circ
   name: Circ

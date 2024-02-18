@@ -8,9 +8,9 @@ items:
   - Danmokou.SM.SMReflection.AssertComplex(System.String)
   - Danmokou.SM.SMReflection.AssertSimple(System.String)
   - Danmokou.SM.SMReflection.Async(System.String,GCXF{V2RV2},AsyncPattern)
-  - Danmokou.SM.SMReflection.AsyncStageFire(GCXF{V2RV2},AsyncPattern)
-  - Danmokou.SM.SMReflection.AsyncStageFireP(GCXF{System.Single},GCXF{V2RV2},AsyncPattern)
+  - Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},BulletManager.StyleSelector,BehaviorEntity.cBEHControl)
   - Danmokou.SM.SMReflection.Boss(System.String)
+  - Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},BulletManager.StyleSelector,BulletManager.cBulletControl)
   - Danmokou.SM.SMReflection.CreateShot1(V2RV2,System.Single,System.Single,System.String)
   - Danmokou.SM.SMReflection.CreateShot2(System.Single,System.Single,System.Single,System.Single,System.String)
   - Danmokou.SM.SMReflection.Crosshair(System.String,GCXF{Vector2},GCXF{System.Single},GCXF{System.Single},ReflectEx.Hoist{Vector2},ExBPY)
@@ -25,28 +25,31 @@ items:
   - Danmokou.SM.SMReflection.Debug(System.String)
   - Danmokou.SM.SMReflection.Delay(Danmokou.SM.Synchronizer,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.Dialogue(System.String)
-  - Danmokou.SM.SMReflection.DivertHP(BEHPointer)
+  - Danmokou.SM.SMReflection.DivertHP(GCXF{BehaviorEntity})
   - Danmokou.SM.SMReflection.dRaiko(GCXF{System.Single},GCXF{System.Single})
   - Danmokou.SM.SMReflection.dZaWarudo(GCXF{System.Single})
+  - Danmokou.SM.SMReflection.Exec(ErasedGCXF)
+  - Danmokou.SM.SMReflection.Exec``1(ErasedGCXF)
   - Danmokou.SM.SMReflection.ExecuteVN(System.Func{DMKVNState,Task},System.String)
   - Danmokou.SM.SMReflection.FadeSprite(BPY,GCXF{System.Single})
   - Danmokou.SM.SMReflection.Fire(Danmokou.SM.StateMachine,Danmokou.SM.StateMachine,Danmokou.SM.StateMachine,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.FireSame(Danmokou.SM.StateMachine,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.IMoveWrap(ExBPY,ExTP,ExBPY,ExTP,Danmokou.SM.StateMachine)
+  - Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},BulletManager.StyleSelector,CurvedTileRenderLaser.cLaserControl)
   - Danmokou.SM.SMReflection.LifeToScore(System.Int32)
-  - Danmokou.SM.SMReflection.Move(GCXF{System.Single},GCXU{VTP})
-  - Danmokou.SM.SMReflection.MoveTarget(ExBPY,System.Func{tfloat,tfloat},ExTP)
-  - Danmokou.SM.SMReflection.MoveWhile(GCXF{System.Single},System.Nullable{Pred},GCXU{VTP})
+  - Danmokou.SM.SMReflection.Move(GCXF{System.Single},VTP)
+  - Danmokou.SM.SMReflection.MoveTarget(ExBPY,System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExTP)
+  - Danmokou.SM.SMReflection.MoveWhile(GCXF{System.Single},System.Nullable{Pred},VTP)
   - Danmokou.SM.SMReflection.MoveWrap(ExBPY,ExTP,ExBPY,ExTP,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.MoveWrapFixedDelay(Danmokou.SM.Synchronizer,ExBPY,ExTP,ExBPY,ExTP,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.MoveWrapFixedDelayNB(Danmokou.SM.Synchronizer,ExBPY,ExTP,ExBPY,ExTP,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.NoOp
-  - Danmokou.SM.SMReflection.ParticleControl``1(Pred,BulletManager.StyleSelector,``0)
   - Danmokou.SM.SMReflection.PlayerVariant(System.ValueTuple{System.String,Danmokou.SM.StateMachine}[])
   - Danmokou.SM.SMReflection.Poof
   - Danmokou.SM.SMReflection.PoolControl``1(BulletManager.StyleSelector,``0)
   - Danmokou.SM.SMReflection.Pos(GCXF{Vector2})
   - Danmokou.SM.SMReflection.Position(GCXF{System.Single},GCXF{System.Single})
+  - Danmokou.SM.SMReflection.Print``1(GCXF{``0})
   - Danmokou.SM.SMReflection.Raiko(GCXF{System.Single},GCXF{System.Single},FXY)
   - Danmokou.SM.SMReflection.RunDelay(Danmokou.SM.Synchronizer,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.Save``1(ReflectEx.Hoist{``0},GCXF{System.Single},GCXF{``0})
@@ -65,6 +68,7 @@ items:
   - Danmokou.SM.SMReflection.ThenDelay(Danmokou.SM.Synchronizer,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.Vulnerable(GCXF{System.Boolean})
   - Danmokou.SM.SMReflection.Wait(Danmokou.SM.Synchronizer)
+  - Danmokou.SM.SMReflection.Wrap(GCXF{Danmokou.SM.StateMachine})
   - Danmokou.SM.SMReflection.ZaWarudo(GCXF{System.Single},GCXF{Vector2},System.Nullable{GCXF{System.Single}},System.Nullable{GCXF{System.Single}},GCXF{System.Single})
   langs:
   - csharp
@@ -76,7 +80,7 @@ items:
   source:
     id: SMReflection
     path: ''
-    startLine: 16475
+    startLine: 17149
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -116,14 +120,14 @@ items:
   source:
     id: Crosshair
     path: ''
-    startLine: 16496
+    startLine: 17170
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\n`crosshair`: Create a crosshair that follows the target for a limited amount of time\nand saves the target&apos;s position in public data hoisting.\n"
   example: []
   syntax:
-    content: public static TaskPattern Crosshair(string style, GCXF<Vector2> locator, GCXF<float> homeSec, GCXF<float> stickSec, ReflectEx.Hoist<Vector2> locSave, ExBPY indexer)
+    content: public static ReflectableLASM Crosshair(string style, GCXF<Vector2> locator, GCXF<float> homeSec, GCXF<float> stickSec, ReflectEx.Hoist<Vector2> locSave, ExBPY indexer)
     parameters:
     - id: style
       type: System.String
@@ -138,8 +142,8 @@ items:
     - id: indexer
       type: ExBPY
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Crosshair(style As String, locator As GCXF(Of Vector2), homeSec As GCXF(Of Single), stickSec As GCXF(Of Single), locSave As ReflectEx.Hoist(Of Vector2), indexer As ExBPY) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Crosshair(style As String, locator As GCXF(Of Vector2), homeSec As GCXF(Of Single), stickSec As GCXF(Of Single), locSave As ReflectEx.Hoist(Of Vector2), indexer As ExBPY) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Crosshair*
   nameWithType.vb: SMReflection.Crosshair(String, GCXF(Of Vector2), GCXF(Of Single), GCXF(Of Single), ReflectEx.Hoist(Of Vector2), ExBPY)
   modifiers.csharp:
@@ -164,18 +168,18 @@ items:
   source:
     id: dZaWarudo
     path: ''
-    startLine: 16526
+    startLine: 17200
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern dZaWarudo(GCXF<float> time)
+    content: public static ReflectableLASM dZaWarudo(GCXF<float> time)
     parameters:
     - id: time
       type: GCXF{System.Single}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function dZaWarudo(time As GCXF(Of Single)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function dZaWarudo(time As GCXF(Of Single)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.dZaWarudo*
   nameWithType.vb: SMReflection.dZaWarudo(GCXF(Of Single))
   modifiers.csharp:
@@ -200,12 +204,12 @@ items:
   source:
     id: ZaWarudo
     path: ''
-    startLine: 16527
+    startLine: 17201
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern ZaWarudo(GCXF<float> time, GCXF<Vector2> loc, GCXF<float>? t1r, GCXF<float>? t2r, GCXF<float> scale)
+    content: public static ReflectableLASM ZaWarudo(GCXF<float> time, GCXF<Vector2> loc, GCXF<float>? t1r, GCXF<float>? t2r, GCXF<float> scale)
     parameters:
     - id: time
       type: GCXF{System.Single}
@@ -218,8 +222,8 @@ items:
     - id: scale
       type: GCXF{System.Single}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function ZaWarudo(time As GCXF(Of Single), loc As GCXF(Of Vector2), t1r As GCXF(Of Single)?, t2r As GCXF(Of Single)?, scale As GCXF(Of Single)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function ZaWarudo(time As GCXF(Of Single), loc As GCXF(Of Vector2), t1r As GCXF(Of Single)?, t2r As GCXF(Of Single)?, scale As GCXF(Of Single)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.ZaWarudo*
   nameWithType.vb: SMReflection.ZaWarudo(GCXF(Of Single), GCXF(Of Vector2), Nullable(Of GCXF(Of Single)), Nullable(Of GCXF(Of Single)), GCXF(Of Single))
   modifiers.csharp:
@@ -244,17 +248,17 @@ items:
   source:
     id: ScreenClear
     path: ''
-    startLine: 16547
+    startLine: 17221
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nAutodeletes enemy bullets. Note that some types of bullets (lasers, pathers, large bullets) may be unaffected.\n"
   example: []
   syntax:
-    content: public static TaskPattern ScreenClear()
+    content: public static ReflectableLASM ScreenClear()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function ScreenClear As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function ScreenClear As ReflectableLASM
   overload: Danmokou.SM.SMReflection.ScreenClear*
   modifiers.csharp:
   - public
@@ -276,20 +280,20 @@ items:
   source:
     id: dBossExplode
     path: ''
-    startLine: 16552
+    startLine: 17226
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern dBossExplode(TP4 powerupColor, TP4 powerdownColor)
+    content: public static ReflectableLASM dBossExplode(TP4 powerupColor, TP4 powerdownColor)
     parameters:
     - id: powerupColor
       type: TP4
     - id: powerdownColor
       type: TP4
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function dBossExplode(powerupColor As TP4, powerdownColor As TP4) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function dBossExplode(powerupColor As TP4, powerdownColor As TP4) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.dBossExplode*
   modifiers.csharp:
   - public
@@ -311,14 +315,14 @@ items:
   source:
     id: Raiko
     path: ''
-    startLine: 16583
+    startLine: 17257
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nCreate screenshake.\n"
   example: []
   syntax:
-    content: public static TaskPattern Raiko(GCXF<float> magnitude, GCXF<float> time, FXY by_time)
+    content: public static ReflectableLASM Raiko(GCXF<float> magnitude, GCXF<float> time, FXY by_time)
     parameters:
     - id: magnitude
       type: GCXF{System.Single}
@@ -330,8 +334,8 @@ items:
       type: FXY
       description: Magnitude multiplier over time
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Raiko(magnitude As GCXF(Of Single), time As GCXF(Of Single), by_time As FXY) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Raiko(magnitude As GCXF(Of Single), time As GCXF(Of Single), by_time As FXY) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Raiko*
   nameWithType.vb: SMReflection.Raiko(GCXF(Of Single), GCXF(Of Single), FXY)
   modifiers.csharp:
@@ -356,20 +360,20 @@ items:
   source:
     id: dRaiko
     path: ''
-    startLine: 16590
+    startLine: 17264
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern dRaiko(GCXF<float> magnitude, GCXF<float> time)
+    content: public static ReflectableLASM dRaiko(GCXF<float> magnitude, GCXF<float> time)
     parameters:
     - id: magnitude
       type: GCXF{System.Single}
     - id: time
       type: GCXF{System.Single}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function dRaiko(magnitude As GCXF(Of Single), time As GCXF(Of Single)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function dRaiko(magnitude As GCXF(Of Single), time As GCXF(Of Single)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.dRaiko*
   nameWithType.vb: SMReflection.dRaiko(GCXF(Of Single), GCXF(Of Single))
   modifiers.csharp:
@@ -394,22 +398,22 @@ items:
   source:
     id: SeijaX
     path: ''
-    startLine: 16601
+    startLine: 17275
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nRotate the camera around the screen&apos;s X-axis.\nNote: this returns immediately.\n"
   example: []
   syntax:
-    content: public static TaskPattern SeijaX(float degrees, float time)
+    content: public static ReflectableLASM SeijaX(float degrees, float time)
     parameters:
     - id: degrees
       type: System.Single
     - id: time
       type: System.Single
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function SeijaX(degrees As Single, time As Single) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function SeijaX(degrees As Single, time As Single) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.SeijaX*
   modifiers.csharp:
   - public
@@ -431,22 +435,22 @@ items:
   source:
     id: SeijaY
     path: ''
-    startLine: 16611
+    startLine: 17284
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nRotate the camera around the screen&apos;s Y-axis.\nNote: this returns immediately.\n"
   example: []
   syntax:
-    content: public static TaskPattern SeijaY(float degrees, float time)
+    content: public static ReflectableLASM SeijaY(float degrees, float time)
     parameters:
     - id: degrees
       type: System.Single
     - id: time
       type: System.Single
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function SeijaY(degrees As Single, time As Single) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function SeijaY(degrees As Single, time As Single) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.SeijaY*
   modifiers.csharp:
   - public
@@ -468,15 +472,15 @@ items:
   source:
     id: StageAnnounce
     path: ''
-    startLine: 16618
+    startLine: 17291
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern StageAnnounce()
+    content: public static ReflectableLASM StageAnnounce()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function StageAnnounce As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function StageAnnounce As ReflectableLASM
   overload: Danmokou.SM.SMReflection.StageAnnounce*
   modifiers.csharp:
   - public
@@ -498,15 +502,15 @@ items:
   source:
     id: StageDeannounce
     path: ''
-    startLine: 16622
+    startLine: 17296
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern StageDeannounce()
+    content: public static ReflectableLASM StageDeannounce()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function StageDeannounce As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function StageDeannounce As ReflectableLASM
   overload: Danmokou.SM.SMReflection.StageDeannounce*
   modifiers.csharp:
   - public
@@ -528,15 +532,15 @@ items:
   source:
     id: NoOp
     path: ''
-    startLine: 16629
+    startLine: 17303
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern NoOp()
+    content: public static ReflectableLASM NoOp()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function NoOp As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function NoOp As ReflectableLASM
   overload: Danmokou.SM.SMReflection.NoOp*
   modifiers.csharp:
   - public
@@ -558,20 +562,20 @@ items:
   source:
     id: Boss
     path: ''
-    startLine: 16635
+    startLine: 17309
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nSummon a boss, ie. a BEH with its own action handling.\n<br />The boss configuration must be loaded in ResourceManager.\n"
   example: []
   syntax:
-    content: public static TaskPattern Boss(string bossKey)
+    content: public static ReflectableLASM Boss(string bossKey)
     parameters:
     - id: bossKey
       type: System.String
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Boss(bossKey As String) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Boss(bossKey As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Boss*
   modifiers.csharp:
   - public
@@ -579,6 +583,121 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Danmokou.SM.SMReflection.Exec(ErasedGCXF)
+  commentId: M:Danmokou.SM.SMReflection.Exec(ErasedGCXF)
+  id: Exec(ErasedGCXF)
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: Exec(ErasedGCXF)
+  nameWithType: SMReflection.Exec(ErasedGCXF)
+  fullName: Danmokou.SM.SMReflection.Exec(ErasedGCXF)
+  type: Method
+  source:
+    id: Exec
+    path: ''
+    startLine: 17324
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nRun arbitrary code as a StateMachine.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM Exec(ErasedGCXF code)
+    parameters:
+    - id: code
+      type: ErasedGCXF
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Exec(code As ErasedGCXF) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.Exec*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.SMReflection.Exec``1(ErasedGCXF)
+  commentId: M:Danmokou.SM.SMReflection.Exec``1(ErasedGCXF)
+  id: Exec``1(ErasedGCXF)
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: Exec<T>(ErasedGCXF)
+  nameWithType: SMReflection.Exec<T>(ErasedGCXF)
+  fullName: Danmokou.SM.SMReflection.Exec<T>(ErasedGCXF)
+  type: Method
+  source:
+    id: Exec
+    path: ''
+    startLine: 17333
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nRun arbitrary code as a StateMachine, SyncPattern, or AsyncPattern.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T Exec<T>(ErasedGCXF code)
+          where T : class
+    parameters:
+    - id: code
+      type: ErasedGCXF
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Exec(Of T As Class)(code As ErasedGCXF) As T
+  overload: Danmokou.SM.SMReflection.Exec*
+  nameWithType.vb: SMReflection.Exec(Of T)(ErasedGCXF)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.SMReflection.Exec(Of T)(ErasedGCXF)
+  name.vb: Exec(Of T)(ErasedGCXF)
+- uid: Danmokou.SM.SMReflection.Wrap(GCXF{Danmokou.SM.StateMachine})
+  commentId: M:Danmokou.SM.SMReflection.Wrap(GCXF{Danmokou.SM.StateMachine})
+  id: Wrap(GCXF{Danmokou.SM.StateMachine})
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: Wrap(GCXF<StateMachine>)
+  nameWithType: SMReflection.Wrap(GCXF<StateMachine>)
+  fullName: Danmokou.SM.SMReflection.Wrap(GCXF<Danmokou.SM.StateMachine>)
+  type: Method
+  source:
+    id: Wrap
+    path: ''
+    startLine: 17347
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nRun some code that returns a StateMachine, and then execute that StateMachine.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM Wrap(GCXF<StateMachine> code)
+    parameters:
+    - id: code
+      type: GCXF{Danmokou.SM.StateMachine}
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Wrap(code As GCXF(Of StateMachine)) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.Wrap*
+  nameWithType.vb: SMReflection.Wrap(GCXF(Of StateMachine))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.SMReflection.Wrap(GCXF(Of Danmokou.SM.StateMachine))
+  name.vb: Wrap(GCXF(Of StateMachine))
 - uid: Danmokou.SM.SMReflection.Wait(Danmokou.SM.Synchronizer)
   commentId: M:Danmokou.SM.SMReflection.Wait(Danmokou.SM.Synchronizer)
   id: Wait(Danmokou.SM.Synchronizer)
@@ -593,20 +712,20 @@ items:
   source:
     id: Wait
     path: ''
-    startLine: 16647
+    startLine: 17365
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nWait for a synchronization event.\n"
   example: []
   syntax:
-    content: public static TaskPattern Wait(Synchronizer sycnhr)
+    content: public static ReflectableLASM Wait(Synchronizer sycnhr)
     parameters:
     - id: sycnhr
       type: Danmokou.SM.Synchronizer
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Wait(sycnhr As Synchronizer) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Wait(sycnhr As Synchronizer) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Wait*
   modifiers.csharp:
   - public
@@ -628,22 +747,22 @@ items:
   source:
     id: Delay
     path: ''
-    startLine: 16653
+    startLine: 17371
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nWait for a synchronization event and then run the child.\n"
   example: []
   syntax:
-    content: public static TaskPattern Delay(Synchronizer synchr, StateMachine state)
+    content: public static ReflectableLASM Delay(Synchronizer synchr, StateMachine state)
     parameters:
     - id: synchr
       type: Danmokou.SM.Synchronizer
     - id: state
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Delay(synchr As Synchronizer, state As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Delay(synchr As Synchronizer, state As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Delay*
   modifiers.csharp:
   - public
@@ -665,22 +784,22 @@ items:
   source:
     id: ThenDelay
     path: ''
-    startLine: 16663
+    startLine: 17381
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nRun the child and then wait for a synchronization event.\n"
   example: []
   syntax:
-    content: public static TaskPattern ThenDelay(Synchronizer synchr, StateMachine state)
+    content: public static ReflectableLASM ThenDelay(Synchronizer synchr, StateMachine state)
     parameters:
     - id: synchr
       type: Danmokou.SM.Synchronizer
     - id: state
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function ThenDelay(synchr As Synchronizer, state As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function ThenDelay(synchr As Synchronizer, state As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.ThenDelay*
   modifiers.csharp:
   - public
@@ -702,22 +821,22 @@ items:
   source:
     id: RunDelay
     path: ''
-    startLine: 16674
+    startLine: 17392
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nRun the child nonblockingly and then wait for a synchronization event.\nSame as >> SYNCHR ~ STATE.\n"
   example: []
   syntax:
-    content: public static TaskPattern RunDelay(Synchronizer synchr, StateMachine state)
+    content: public static ReflectableLASM RunDelay(Synchronizer synchr, StateMachine state)
     parameters:
     - id: synchr
       type: Danmokou.SM.Synchronizer
     - id: state
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function RunDelay(synchr As Synchronizer, state As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function RunDelay(synchr As Synchronizer, state As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.RunDelay*
   modifiers.csharp:
   - public
@@ -739,14 +858,14 @@ items:
   source:
     id: ExecuteVN
     path: ''
-    startLine: 16688
+    startLine: 17406
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
-  summary: "\nRun the provided visual novel script.\n"
+  summary: "\nRun the provided visual novel script, disabling <see cref=\"!:PlayerController\"></see> input while it is running.\n"
   example: []
   syntax:
-    content: public static TaskPattern ExecuteVN(Func<DMKVNState, Task> vnTask, string scriptId)
+    content: public static ReflectableLASM ExecuteVN(Func<DMKVNState, Task> vnTask, string scriptId)
     parameters:
     - id: vnTask
       type: System.Func{DMKVNState,Task}
@@ -755,9 +874,9 @@ items:
       type: System.String
       description: Description of the script used when printing debug messages.
     return:
-      type: Danmokou.SM.TaskPattern
+      type: Danmokou.SM.ReflectableLASM
       description: ''
-    content.vb: Public Shared Function ExecuteVN(vnTask As Func(Of DMKVNState, Task), scriptId As String) As TaskPattern
+    content.vb: Public Shared Function ExecuteVN(vnTask As Func(Of DMKVNState, Task), scriptId As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.ExecuteVN*
   nameWithType.vb: SMReflection.ExecuteVN(Func(Of DMKVNState, Task), String)
   modifiers.csharp:
@@ -782,14 +901,14 @@ items:
   source:
     id: Async
     path: ''
-    startLine: 16706
+    startLine: 17431
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nAsynchronous bullet pattern fire.\n"
   example: []
   syntax:
-    content: public static TaskPattern Async(string style, GCXF<V2RV2> rv2, AsyncPattern ap)
+    content: public static ReflectableLASM Async(string style, GCXF<V2RV2> rv2, AsyncPattern ap)
     parameters:
     - id: style
       type: System.String
@@ -798,8 +917,8 @@ items:
     - id: ap
       type: AsyncPattern
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Async(style As String, rv2 As GCXF(Of V2RV2), ap As AsyncPattern) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Async(style As String, rv2 As GCXF(Of V2RV2), ap As AsyncPattern) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Async*
   nameWithType.vb: SMReflection.Async(String, GCXF(Of V2RV2), AsyncPattern)
   modifiers.csharp:
@@ -824,14 +943,14 @@ items:
   source:
     id: Sync
     path: ''
-    startLine: 16716
+    startLine: 17445
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nSynchronous bullet pattern fire.\n"
   example: []
   syntax:
-    content: public static TaskPattern Sync(string style, GCXF<V2RV2> rv2, SyncPattern sp)
+    content: public static ReflectableLASM Sync(string style, GCXF<V2RV2> rv2, SyncPattern sp)
     parameters:
     - id: style
       type: System.String
@@ -840,8 +959,8 @@ items:
     - id: sp
       type: SyncPattern
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Sync(style As String, rv2 As GCXF(Of V2RV2), sp As SyncPattern) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Sync(style As String, rv2 As GCXF(Of V2RV2), sp As SyncPattern) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Sync*
   nameWithType.vb: SMReflection.Sync(String, GCXF(Of V2RV2), SyncPattern)
   modifiers.csharp:
@@ -852,88 +971,6 @@ items:
   - Shared
   fullName.vb: Danmokou.SM.SMReflection.Sync(System.String, GCXF(Of V2RV2), SyncPattern)
   name.vb: Sync(String, GCXF(Of V2RV2), SyncPattern)
-- uid: Danmokou.SM.SMReflection.AsyncStageFire(GCXF{V2RV2},AsyncPattern)
-  commentId: M:Danmokou.SM.SMReflection.AsyncStageFire(GCXF{V2RV2},AsyncPattern)
-  id: AsyncStageFire(GCXF{V2RV2},AsyncPattern)
-  parent: Danmokou.SM.SMReflection
-  langs:
-  - csharp
-  - vb
-  name: AsyncStageFire(GCXF<V2RV2>, AsyncPattern)
-  nameWithType: SMReflection.AsyncStageFire(GCXF<V2RV2>, AsyncPattern)
-  fullName: Danmokou.SM.SMReflection.AsyncStageFire(GCXF<V2RV2>, AsyncPattern)
-  type: Method
-  source:
-    id: AsyncStageFire
-    path: ''
-    startLine: 16727
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.SM
-  summary: "\n= async(_, RV2, AP)\n"
-  example: []
-  syntax:
-    content: public static TaskPattern AsyncStageFire(GCXF<V2RV2> rv2, AsyncPattern ap)
-    parameters:
-    - id: rv2
-      type: GCXF{V2RV2}
-    - id: ap
-      type: AsyncPattern
-    return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function AsyncStageFire(rv2 As GCXF(Of V2RV2), ap As AsyncPattern) As TaskPattern
-  overload: Danmokou.SM.SMReflection.AsyncStageFire*
-  nameWithType.vb: SMReflection.AsyncStageFire(GCXF(Of V2RV2), AsyncPattern)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: Danmokou.SM.SMReflection.AsyncStageFire(GCXF(Of V2RV2), AsyncPattern)
-  name.vb: AsyncStageFire(GCXF(Of V2RV2), AsyncPattern)
-- uid: Danmokou.SM.SMReflection.AsyncStageFireP(GCXF{System.Single},GCXF{V2RV2},AsyncPattern)
-  commentId: M:Danmokou.SM.SMReflection.AsyncStageFireP(GCXF{System.Single},GCXF{V2RV2},AsyncPattern)
-  id: AsyncStageFireP(GCXF{System.Single},GCXF{V2RV2},AsyncPattern)
-  parent: Danmokou.SM.SMReflection
-  langs:
-  - csharp
-  - vb
-  name: AsyncStageFireP(GCXF<Single>, GCXF<V2RV2>, AsyncPattern)
-  nameWithType: SMReflection.AsyncStageFireP(GCXF<Single>, GCXF<V2RV2>, AsyncPattern)
-  fullName: Danmokou.SM.SMReflection.AsyncStageFireP(GCXF<System.Single>, GCXF<V2RV2>, AsyncPattern)
-  type: Method
-  source:
-    id: AsyncStageFireP
-    path: ''
-    startLine: 16733
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.SM
-  summary: "\n= async(_, RV2, isetp(P, AP))\n"
-  example: []
-  syntax:
-    content: public static TaskPattern AsyncStageFireP(GCXF<float> p, GCXF<V2RV2> rv2, AsyncPattern ap)
-    parameters:
-    - id: p
-      type: GCXF{System.Single}
-    - id: rv2
-      type: GCXF{V2RV2}
-    - id: ap
-      type: AsyncPattern
-    return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function AsyncStageFireP(p As GCXF(Of Single), rv2 As GCXF(Of V2RV2), ap As AsyncPattern) As TaskPattern
-  overload: Danmokou.SM.SMReflection.AsyncStageFireP*
-  nameWithType.vb: SMReflection.AsyncStageFireP(GCXF(Of Single), GCXF(Of V2RV2), AsyncPattern)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: Danmokou.SM.SMReflection.AsyncStageFireP(GCXF(Of System.Single), GCXF(Of V2RV2), AsyncPattern)
-  name.vb: AsyncStageFireP(GCXF(Of Single), GCXF(Of V2RV2), AsyncPattern)
 - uid: Danmokou.SM.SMReflection.CreateShot1(V2RV2,System.Single,System.Single,System.String)
   commentId: M:Danmokou.SM.SMReflection.CreateShot1(V2RV2,System.Single,System.Single,System.String)
   id: CreateShot1(V2RV2,System.Single,System.Single,System.String)
@@ -948,12 +985,12 @@ items:
   source:
     id: CreateShot1
     path: ''
-    startLine: 16737
+    startLine: 17456
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern CreateShot1(V2RV2 rv2, float speed, float angle, string style)
+    content: public static ReflectableLASM CreateShot1(V2RV2 rv2, float speed, float angle, string style)
     parameters:
     - id: rv2
       type: V2RV2
@@ -964,8 +1001,8 @@ items:
     - id: style
       type: System.String
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function CreateShot1(rv2 As V2RV2, speed As Single, angle As Single, style As String) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function CreateShot1(rv2 As V2RV2, speed As Single, angle As Single, style As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.CreateShot1*
   modifiers.csharp:
   - public
@@ -987,12 +1024,12 @@ items:
   source:
     id: CreateShot2
     path: ''
-    startLine: 16740
+    startLine: 17459
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern CreateShot2(float x, float y, float speed, float angle, string style)
+    content: public static ReflectableLASM CreateShot2(float x, float y, float speed, float angle, string style)
     parameters:
     - id: x
       type: System.Single
@@ -1005,8 +1042,8 @@ items:
     - id: style
       type: System.String
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function CreateShot2(x As Single, y As Single, speed As Single, angle As Single, style As String) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function CreateShot2(x As Single, y As Single, speed As Single, angle As Single, style As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.CreateShot2*
   modifiers.csharp:
   - public
@@ -1028,18 +1065,18 @@ items:
   source:
     id: Dialogue
     path: ''
-    startLine: 16744
+    startLine: 17462
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern Dialogue(string file)
+    content: public static ReflectableLASM Dialogue(string file)
     parameters:
     - id: file
       type: System.String
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Dialogue(file As String) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Dialogue(file As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Dialogue*
   modifiers.csharp:
   - public
@@ -1061,20 +1098,20 @@ items:
   source:
     id: SFX
     path: ''
-    startLine: 16756
+    startLine: 17474
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nPlay a sound.\n"
   example: []
   syntax:
-    content: public static TaskPattern SFX(string sfx)
+    content: public static ReflectableLASM SFX(string sfx)
     parameters:
     - id: sfx
       type: System.String
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function SFX(sfx As String) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function SFX(sfx As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.SFX*
   modifiers.csharp:
   - public
@@ -1096,14 +1133,14 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 16765
+    startLine: 17483
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nSave some information in public data hoisting.\n<br />Public data hoisting is two-layer: it requires a name and an index.\n"
   example: []
   syntax:
-    content: public static TaskPattern Save<T>(ReflectEx.Hoist<T> name, GCXF<float> indexer, GCXF<T> valuer)
+    content: public static ReflectableLASM Save<T>(ReflectEx.Hoist<T> name, GCXF<float> indexer, GCXF<T> valuer)
     parameters:
     - id: name
       type: ReflectEx.Hoist{{T}}
@@ -1114,8 +1151,8 @@ items:
     typeParameters:
     - id: T
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Save(Of T)(name As ReflectEx.Hoist(Of T), indexer As GCXF(Of Single), valuer As GCXF(Of T)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Save(Of T)(name As ReflectEx.Hoist(Of T), indexer As GCXF(Of Single), valuer As GCXF(Of T)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Save*
   nameWithType.vb: SMReflection.Save(Of T)(ReflectEx.Hoist(Of T), GCXF(Of Single), GCXF(Of T))
   modifiers.csharp:
@@ -1126,50 +1163,132 @@ items:
   - Shared
   fullName.vb: Danmokou.SM.SMReflection.Save(Of T)(ReflectEx.Hoist(Of T), GCXF(Of System.Single), GCXF(Of T))
   name.vb: Save(Of T)(ReflectEx.Hoist(Of T), GCXF(Of Single), GCXF(Of T))
-- uid: Danmokou.SM.SMReflection.ParticleControl``1(Pred,BulletManager.StyleSelector,``0)
-  commentId: M:Danmokou.SM.SMReflection.ParticleControl``1(Pred,BulletManager.StyleSelector,``0)
-  id: ParticleControl``1(Pred,BulletManager.StyleSelector,``0)
+- uid: Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},BulletManager.StyleSelector,BulletManager.cBulletControl)
+  commentId: M:Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},BulletManager.StyleSelector,BulletManager.cBulletControl)
+  id: BulletControl(GCXF{System.Boolean},BulletManager.StyleSelector,BulletManager.cBulletControl)
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: ParticleControl<CF>(Pred, BulletManager.StyleSelector, CF)
-  nameWithType: SMReflection.ParticleControl<CF>(Pred, BulletManager.StyleSelector, CF)
-  fullName: Danmokou.SM.SMReflection.ParticleControl<CF>(Pred, BulletManager.StyleSelector, CF)
+  name: BulletControl(GCXF<Boolean>, BulletManager.StyleSelector, BulletManager.cBulletControl)
+  nameWithType: SMReflection.BulletControl(GCXF<Boolean>, BulletManager.StyleSelector, BulletManager.cBulletControl)
+  fullName: Danmokou.SM.SMReflection.BulletControl(GCXF<System.Boolean>, BulletManager.StyleSelector, BulletManager.cBulletControl)
   type: Method
   source:
-    id: ParticleControl
+    id: BulletControl
     path: ''
-    startLine: 16776
+    startLine: 17493
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
-  summary: "\nApply a controller function to individual entities.\n"
+  summary: "\nApply bullet controls to simple bullet pools.\n"
   example: []
   syntax:
-    content: public static TaskPattern ParticleControl<CF>(Pred persist, BulletManager.StyleSelector style, CF control)
+    content: public static ReflectableLASM BulletControl(GCXF<bool> persist, BulletManager.StyleSelector style, BulletManager.cBulletControl control)
     parameters:
     - id: persist
-      type: Pred
+      type: GCXF{System.Boolean}
     - id: style
       type: BulletManager.StyleSelector
     - id: control
-      type: '{CF}'
-    typeParameters:
-    - id: CF
+      type: BulletManager.cBulletControl
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function ParticleControl(Of CF)(persist As Pred, style As BulletManager.StyleSelector, control As CF) As TaskPattern
-  overload: Danmokou.SM.SMReflection.ParticleControl*
-  nameWithType.vb: SMReflection.ParticleControl(Of CF)(Pred, BulletManager.StyleSelector, CF)
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function BulletControl(persist As GCXF(Of Boolean), style As BulletManager.StyleSelector, control As BulletManager.cBulletControl) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.BulletControl*
+  nameWithType.vb: SMReflection.BulletControl(GCXF(Of Boolean), BulletManager.StyleSelector, BulletManager.cBulletControl)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.SMReflection.ParticleControl(Of CF)(Pred, BulletManager.StyleSelector, CF)
-  name.vb: ParticleControl(Of CF)(Pred, BulletManager.StyleSelector, CF)
+  fullName.vb: Danmokou.SM.SMReflection.BulletControl(GCXF(Of System.Boolean), BulletManager.StyleSelector, BulletManager.cBulletControl)
+  name.vb: BulletControl(GCXF(Of Boolean), BulletManager.StyleSelector, BulletManager.cBulletControl)
+- uid: Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},BulletManager.StyleSelector,BehaviorEntity.cBEHControl)
+  commentId: M:Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},BulletManager.StyleSelector,BehaviorEntity.cBEHControl)
+  id: BEHControl(GCXF{System.Boolean},BulletManager.StyleSelector,BehaviorEntity.cBEHControl)
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: BEHControl(GCXF<Boolean>, BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
+  nameWithType: SMReflection.BEHControl(GCXF<Boolean>, BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
+  fullName: Danmokou.SM.SMReflection.BEHControl(GCXF<System.Boolean>, BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
+  type: Method
+  source:
+    id: BEHControl
+    path: ''
+    startLine: 17502
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nApply bullet controls to BEH bullet pools.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM BEHControl(GCXF<bool> persist, BulletManager.StyleSelector style, BehaviorEntity.cBEHControl control)
+    parameters:
+    - id: persist
+      type: GCXF{System.Boolean}
+    - id: style
+      type: BulletManager.StyleSelector
+    - id: control
+      type: BehaviorEntity.cBEHControl
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function BEHControl(persist As GCXF(Of Boolean), style As BulletManager.StyleSelector, control As BehaviorEntity.cBEHControl) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.BEHControl*
+  nameWithType.vb: SMReflection.BEHControl(GCXF(Of Boolean), BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.SMReflection.BEHControl(GCXF(Of System.Boolean), BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
+  name.vb: BEHControl(GCXF(Of Boolean), BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
+- uid: Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},BulletManager.StyleSelector,CurvedTileRenderLaser.cLaserControl)
+  commentId: M:Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},BulletManager.StyleSelector,CurvedTileRenderLaser.cLaserControl)
+  id: LaserControl(GCXF{System.Boolean},BulletManager.StyleSelector,CurvedTileRenderLaser.cLaserControl)
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: LaserControl(GCXF<Boolean>, BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  nameWithType: SMReflection.LaserControl(GCXF<Boolean>, BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  fullName: Danmokou.SM.SMReflection.LaserControl(GCXF<System.Boolean>, BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  type: Method
+  source:
+    id: LaserControl
+    path: ''
+    startLine: 17511
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nApply laser-specific bullet controls to lasers.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM LaserControl(GCXF<bool> persist, BulletManager.StyleSelector style, CurvedTileRenderLaser.cLaserControl control)
+    parameters:
+    - id: persist
+      type: GCXF{System.Boolean}
+    - id: style
+      type: BulletManager.StyleSelector
+    - id: control
+      type: CurvedTileRenderLaser.cLaserControl
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function LaserControl(persist As GCXF(Of Boolean), style As BulletManager.StyleSelector, control As CurvedTileRenderLaser.cLaserControl) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.LaserControl*
+  nameWithType.vb: SMReflection.LaserControl(GCXF(Of Boolean), BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.SMReflection.LaserControl(GCXF(Of System.Boolean), BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  name.vb: LaserControl(GCXF(Of Boolean), BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
 - uid: Danmokou.SM.SMReflection.PoolControl``1(BulletManager.StyleSelector,``0)
   commentId: M:Danmokou.SM.SMReflection.PoolControl``1(BulletManager.StyleSelector,``0)
   id: PoolControl``1(BulletManager.StyleSelector,``0)
@@ -1184,14 +1303,14 @@ items:
   source:
     id: PoolControl
     path: ''
-    startLine: 16796
+    startLine: 17520
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nApply a controller function to a pool of entities.\n"
   example: []
   syntax:
-    content: public static TaskPattern PoolControl<CF>(BulletManager.StyleSelector style, CF control)
+    content: public static ReflectableLASM PoolControl<CF>(BulletManager.StyleSelector style, CF control)
     parameters:
     - id: style
       type: BulletManager.StyleSelector
@@ -1200,8 +1319,8 @@ items:
     typeParameters:
     - id: CF
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function PoolControl(Of CF)(style As BulletManager.StyleSelector, control As CF) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function PoolControl(Of CF)(style As BulletManager.StyleSelector, control As CF) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.PoolControl*
   nameWithType.vb: SMReflection.PoolControl(Of CF)(BulletManager.StyleSelector, CF)
   modifiers.csharp:
@@ -1226,20 +1345,20 @@ items:
   source:
     id: ShiftPhaseTo
     path: ''
-    startLine: 16817
+    startLine: 17541
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nChange the running phase.\n"
   example: []
   syntax:
-    content: public static TaskPattern ShiftPhaseTo(int toPhase)
+    content: public static ReflectableLASM ShiftPhaseTo(int toPhase)
     parameters:
     - id: toPhase
       type: System.Int32
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function ShiftPhaseTo(toPhase As Integer) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function ShiftPhaseTo(toPhase As Integer) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.ShiftPhaseTo*
   modifiers.csharp:
   - public
@@ -1261,17 +1380,17 @@ items:
   source:
     id: ShiftPhase
     path: ''
-    startLine: 16827
+    startLine: 17551
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nGo to the next phase.\n"
   example: []
   syntax:
-    content: public static TaskPattern ShiftPhase()
+    content: public static ReflectableLASM ShiftPhase()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function ShiftPhase As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function ShiftPhase As ReflectableLASM
   overload: Danmokou.SM.SMReflection.ShiftPhase*
   modifiers.csharp:
   - public
@@ -1293,17 +1412,17 @@ items:
   source:
     id: Cull
     path: ''
-    startLine: 16832
+    startLine: 17556
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nKill this entity (no death effects).\n"
   example: []
   syntax:
-    content: public static TaskPattern Cull()
+    content: public static ReflectableLASM Cull()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Cull As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Cull As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Cull*
   modifiers.csharp:
   - public
@@ -1325,17 +1444,17 @@ items:
   source:
     id: Poof
     path: ''
-    startLine: 16839
+    startLine: 17564
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nKill this entity (death effects included).\n"
   example: []
   syntax:
-    content: public static TaskPattern Poof()
+    content: public static ReflectableLASM Poof()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Poof As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Poof As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Poof*
   modifiers.csharp:
   - public
@@ -1343,130 +1462,130 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.SM.SMReflection.MoveWhile(GCXF{System.Single},System.Nullable{Pred},GCXU{VTP})
-  commentId: M:Danmokou.SM.SMReflection.MoveWhile(GCXF{System.Single},System.Nullable{Pred},GCXU{VTP})
-  id: MoveWhile(GCXF{System.Single},System.Nullable{Pred},GCXU{VTP})
+- uid: Danmokou.SM.SMReflection.MoveWhile(GCXF{System.Single},System.Nullable{Pred},VTP)
+  commentId: M:Danmokou.SM.SMReflection.MoveWhile(GCXF{System.Single},System.Nullable{Pred},VTP)
+  id: MoveWhile(GCXF{System.Single},System.Nullable{Pred},VTP)
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: MoveWhile(GCXF<Single>, Nullable<Pred>, GCXU<VTP>)
-  nameWithType: SMReflection.MoveWhile(GCXF<Single>, Nullable<Pred>, GCXU<VTP>)
-  fullName: Danmokou.SM.SMReflection.MoveWhile(GCXF<System.Single>, System.Nullable<Pred>, GCXU<VTP>)
+  name: MoveWhile(GCXF<Single>, Nullable<Pred>, VTP)
+  nameWithType: SMReflection.MoveWhile(GCXF<Single>, Nullable<Pred>, VTP)
+  fullName: Danmokou.SM.SMReflection.MoveWhile(GCXF<System.Single>, System.Nullable<Pred>, VTP)
   type: Method
   source:
     id: MoveWhile
     path: ''
-    startLine: 16847
+    startLine: 17572
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nMove the executing entity, but cancel movement if the predicate is false.\n"
   example: []
   syntax:
-    content: public static TaskPattern MoveWhile(GCXF<float> time, Pred? condition, GCXU<VTP> path)
+    content: public static ReflectableLASM MoveWhile(GCXF<float> time, Pred? condition, VTP path)
     parameters:
     - id: time
       type: GCXF{System.Single}
     - id: condition
       type: System.Nullable{Pred}
     - id: path
-      type: GCXU{VTP}
+      type: VTP
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function MoveWhile(time As GCXF(Of Single), condition As Pred?, path As GCXU(Of VTP)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function MoveWhile(time As GCXF(Of Single), condition As Pred?, path As VTP) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.MoveWhile*
-  nameWithType.vb: SMReflection.MoveWhile(GCXF(Of Single), Nullable(Of Pred), GCXU(Of VTP))
+  nameWithType.vb: SMReflection.MoveWhile(GCXF(Of Single), Nullable(Of Pred), VTP)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.SMReflection.MoveWhile(GCXF(Of System.Single), System.Nullable(Of Pred), GCXU(Of VTP))
-  name.vb: MoveWhile(GCXF(Of Single), Nullable(Of Pred), GCXU(Of VTP))
-- uid: Danmokou.SM.SMReflection.Move(GCXF{System.Single},GCXU{VTP})
-  commentId: M:Danmokou.SM.SMReflection.Move(GCXF{System.Single},GCXU{VTP})
-  id: Move(GCXF{System.Single},GCXU{VTP})
+  fullName.vb: Danmokou.SM.SMReflection.MoveWhile(GCXF(Of System.Single), System.Nullable(Of Pred), VTP)
+  name.vb: MoveWhile(GCXF(Of Single), Nullable(Of Pred), VTP)
+- uid: Danmokou.SM.SMReflection.Move(GCXF{System.Single},VTP)
+  commentId: M:Danmokou.SM.SMReflection.Move(GCXF{System.Single},VTP)
+  id: Move(GCXF{System.Single},VTP)
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: Move(GCXF<Single>, GCXU<VTP>)
-  nameWithType: SMReflection.Move(GCXF<Single>, GCXU<VTP>)
-  fullName: Danmokou.SM.SMReflection.Move(GCXF<System.Single>, GCXU<VTP>)
+  name: Move(GCXF<Single>, VTP)
+  nameWithType: SMReflection.Move(GCXF<Single>, VTP)
+  fullName: Danmokou.SM.SMReflection.Move(GCXF<System.Single>, VTP)
   type: Method
   source:
     id: Move
     path: ''
-    startLine: 16870
+    startLine: 17592
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nMove the executing entity.\n"
   example: []
   syntax:
-    content: public static TaskPattern Move(GCXF<float> time, GCXU<VTP> path)
+    content: public static ReflectableLASM Move(GCXF<float> time, VTP path)
     parameters:
     - id: time
       type: GCXF{System.Single}
     - id: path
-      type: GCXU{VTP}
+      type: VTP
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Move(time As GCXF(Of Single), path As GCXU(Of VTP)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Move(time As GCXF(Of Single), path As VTP) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Move*
-  nameWithType.vb: SMReflection.Move(GCXF(Of Single), GCXU(Of VTP))
+  nameWithType.vb: SMReflection.Move(GCXF(Of Single), VTP)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.SMReflection.Move(GCXF(Of System.Single), GCXU(Of VTP))
-  name.vb: Move(GCXF(Of Single), GCXU(Of VTP))
-- uid: Danmokou.SM.SMReflection.MoveTarget(ExBPY,System.Func{tfloat,tfloat},ExTP)
-  commentId: M:Danmokou.SM.SMReflection.MoveTarget(ExBPY,System.Func{tfloat,tfloat},ExTP)
-  id: MoveTarget(ExBPY,System.Func{tfloat,tfloat},ExTP)
+  fullName.vb: Danmokou.SM.SMReflection.Move(GCXF(Of System.Single), VTP)
+  name.vb: Move(GCXF(Of Single), VTP)
+- uid: Danmokou.SM.SMReflection.MoveTarget(ExBPY,System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExTP)
+  commentId: M:Danmokou.SM.SMReflection.MoveTarget(ExBPY,System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExTP)
+  id: MoveTarget(ExBPY,System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExTP)
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: MoveTarget(ExBPY, Func<tfloat, tfloat>, ExTP)
-  nameWithType: SMReflection.MoveTarget(ExBPY, Func<tfloat, tfloat>, ExTP)
-  fullName: Danmokou.SM.SMReflection.MoveTarget(ExBPY, System.Func<tfloat, tfloat>, ExTP)
+  name: MoveTarget(ExBPY, Func<TExArgCtx, TEx<Func<Single, Single>>>, ExTP)
+  nameWithType: SMReflection.MoveTarget(ExBPY, Func<TExArgCtx, TEx<Func<Single, Single>>>, ExTP)
+  fullName: Danmokou.SM.SMReflection.MoveTarget(ExBPY, System.Func<TExArgCtx, TEx<System.Func<System.Single, System.Single>>>, ExTP)
   type: Method
   source:
     id: MoveTarget
     path: ''
-    startLine: 16875
+    startLine: 17597
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nMove the executing entity to a target position over time. This has zero error.\n"
   example: []
   syntax:
-    content: public static TaskPattern MoveTarget(ExBPY time, Func<tfloat, tfloat> ease, ExTP target)
+    content: public static ReflectableLASM MoveTarget(ExBPY time, Func<TExArgCtx, TEx<Func<float, float>>> ease, ExTP target)
     parameters:
     - id: time
       type: ExBPY
     - id: ease
-      type: System.Func{tfloat,tfloat}
+      type: System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
     - id: target
       type: ExTP
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function MoveTarget(time As ExBPY, ease As Func(Of tfloat, tfloat), target As ExTP) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function MoveTarget(time As ExBPY, ease As Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), target As ExTP) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.MoveTarget*
-  nameWithType.vb: SMReflection.MoveTarget(ExBPY, Func(Of tfloat, tfloat), ExTP)
+  nameWithType.vb: SMReflection.MoveTarget(ExBPY, Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), ExTP)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.SMReflection.MoveTarget(ExBPY, System.Func(Of tfloat, tfloat), ExTP)
-  name.vb: MoveTarget(ExBPY, Func(Of tfloat, tfloat), ExTP)
+  fullName.vb: Danmokou.SM.SMReflection.MoveTarget(ExBPY, System.Func(Of TExArgCtx, TEx(Of System.Func(Of System.Single, System.Single))), ExTP)
+  name.vb: MoveTarget(ExBPY, Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), ExTP)
 - uid: Danmokou.SM.SMReflection.MoveWrap(ExBPY,ExTP,ExBPY,ExTP,Danmokou.SM.StateMachine)
   commentId: M:Danmokou.SM.SMReflection.MoveWrap(ExBPY,ExTP,ExBPY,ExTP,Danmokou.SM.StateMachine)
   id: MoveWrap(ExBPY,ExTP,ExBPY,ExTP,Danmokou.SM.StateMachine)
@@ -1481,14 +1600,14 @@ items:
   source:
     id: MoveWrap
     path: ''
-    startLine: 16882
+    startLine: 17605
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nMove to a target position, run a state machine, and then move to another target position.\n"
   example: []
   syntax:
-    content: public static TaskPattern MoveWrap(ExBPY t1, ExTP target1, ExBPY t2, ExTP target2, StateMachine wrapped)
+    content: public static ReflectableLASM MoveWrap(ExBPY t1, ExTP target1, ExBPY t2, ExTP target2, StateMachine wrapped)
     parameters:
     - id: t1
       type: ExBPY
@@ -1501,8 +1620,8 @@ items:
     - id: wrapped
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function MoveWrap(t1 As ExBPY, target1 As ExTP, t2 As ExBPY, target2 As ExTP, wrapped As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function MoveWrap(t1 As ExBPY, target1 As ExTP, t2 As ExBPY, target2 As ExTP, wrapped As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.MoveWrap*
   modifiers.csharp:
   - public
@@ -1524,14 +1643,14 @@ items:
   source:
     id: MoveWrapFixedDelay
     path: ''
-    startLine: 16898
+    startLine: 17622
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nMove to a target position, run a state machine nonblockingly, wait for a synchronization event,\nand then move to another target position.\n"
   example: []
   syntax:
-    content: public static TaskPattern MoveWrapFixedDelay(Synchronizer s, ExBPY t1, ExTP target1, ExBPY t2, ExTP target2, StateMachine wrapped)
+    content: public static ReflectableLASM MoveWrapFixedDelay(Synchronizer s, ExBPY t1, ExTP target1, ExBPY t2, ExTP target2, StateMachine wrapped)
     parameters:
     - id: s
       type: Danmokou.SM.Synchronizer
@@ -1546,8 +1665,8 @@ items:
     - id: wrapped
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function MoveWrapFixedDelay(s As Synchronizer, t1 As ExBPY, target1 As ExTP, t2 As ExBPY, target2 As ExTP, wrapped As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function MoveWrapFixedDelay(s As Synchronizer, t1 As ExBPY, target1 As ExTP, t2 As ExBPY, target2 As ExTP, wrapped As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.MoveWrapFixedDelay*
   modifiers.csharp:
   - public
@@ -1569,14 +1688,14 @@ items:
   source:
     id: MoveWrapFixedDelayNB
     path: ''
-    startLine: 16907
+    startLine: 17632
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nRun a state machine nonblockingly, move to a target position, wait for a synchronization event,\nand then move to another target position.\n"
   example: []
   syntax:
-    content: public static TaskPattern MoveWrapFixedDelayNB(Synchronizer s, ExBPY t1, ExTP target1, ExBPY t2, ExTP target2, StateMachine wrapped)
+    content: public static ReflectableLASM MoveWrapFixedDelayNB(Synchronizer s, ExBPY t1, ExTP target1, ExBPY t2, ExTP target2, StateMachine wrapped)
     parameters:
     - id: s
       type: Danmokou.SM.Synchronizer
@@ -1591,8 +1710,8 @@ items:
     - id: wrapped
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function MoveWrapFixedDelayNB(s As Synchronizer, t1 As ExBPY, target1 As ExTP, t2 As ExBPY, target2 As ExTP, wrapped As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function MoveWrapFixedDelayNB(s As Synchronizer, t1 As ExBPY, target1 As ExTP, t2 As ExBPY, target2 As ExTP, wrapped As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.MoveWrapFixedDelayNB*
   modifiers.csharp:
   - public
@@ -1614,14 +1733,14 @@ items:
   source:
     id: IMoveWrap
     path: ''
-    startLine: 16923
+    startLine: 17649
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nMove-wrap, but the enemy is set invincible until the wrapped SM starts.\n"
   example: []
   syntax:
-    content: public static TaskPattern IMoveWrap(ExBPY t1, ExTP target1, ExBPY t2, ExTP target2, StateMachine wrapped)
+    content: public static ReflectableLASM IMoveWrap(ExBPY t1, ExTP target1, ExBPY t2, ExTP target2, StateMachine wrapped)
     parameters:
     - id: t1
       type: ExBPY
@@ -1634,8 +1753,8 @@ items:
     - id: wrapped
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function IMoveWrap(t1 As ExBPY, target1 As ExTP, t2 As ExBPY, target2 As ExTP, wrapped As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function IMoveWrap(t1 As ExBPY, target1 As ExTP, t2 As ExBPY, target2 As ExTP, wrapped As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.IMoveWrap*
   modifiers.csharp:
   - public
@@ -1657,22 +1776,22 @@ items:
   source:
     id: Position
     path: ''
-    startLine: 16940
+    startLine: 17667
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nSet the position of the executing BEH in world coordinates, with X and Y as separate arguments.\n"
   example: []
   syntax:
-    content: public static TaskPattern Position(GCXF<float> x, GCXF<float> y)
+    content: public static ReflectableLASM Position(GCXF<float> x, GCXF<float> y)
     parameters:
     - id: x
       type: GCXF{System.Single}
     - id: y
       type: GCXF{System.Single}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Position(x As GCXF(Of Single), y As GCXF(Of Single)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Position(x As GCXF(Of Single), y As GCXF(Of Single)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Position*
   nameWithType.vb: SMReflection.Position(GCXF(Of Single), GCXF(Of Single))
   modifiers.csharp:
@@ -1697,20 +1816,20 @@ items:
   source:
     id: Pos
     path: ''
-    startLine: 16947
+    startLine: 17675
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nSet the position of the executing BEH in world coordinates using one Vector2.\n"
   example: []
   syntax:
-    content: public static TaskPattern Pos(GCXF<Vector2> xy)
+    content: public static ReflectableLASM Pos(GCXF<Vector2> xy)
     parameters:
     - id: xy
       type: GCXF{Vector2}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Pos(xy As GCXF(Of Vector2)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Pos(xy As GCXF(Of Vector2)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Pos*
   nameWithType.vb: SMReflection.Pos(GCXF(Of Vector2))
   modifiers.csharp:
@@ -1721,41 +1840,44 @@ items:
   - Shared
   fullName.vb: Danmokou.SM.SMReflection.Pos(GCXF(Of Vector2))
   name.vb: Pos(GCXF(Of Vector2))
-- uid: Danmokou.SM.SMReflection.DivertHP(BEHPointer)
-  commentId: M:Danmokou.SM.SMReflection.DivertHP(BEHPointer)
-  id: DivertHP(BEHPointer)
+- uid: Danmokou.SM.SMReflection.DivertHP(GCXF{BehaviorEntity})
+  commentId: M:Danmokou.SM.SMReflection.DivertHP(GCXF{BehaviorEntity})
+  id: DivertHP(GCXF{BehaviorEntity})
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: DivertHP(BEHPointer)
-  nameWithType: SMReflection.DivertHP(BEHPointer)
-  fullName: Danmokou.SM.SMReflection.DivertHP(BEHPointer)
+  name: DivertHP(GCXF<BehaviorEntity>)
+  nameWithType: SMReflection.DivertHP(GCXF<BehaviorEntity>)
+  fullName: Danmokou.SM.SMReflection.DivertHP(GCXF<BehaviorEntity>)
   type: Method
   source:
     id: DivertHP
     path: ''
-    startLine: 16955
+    startLine: 17683
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nLink this entity&apos;s HP pool to another enemy. The other enemy will serve as the source and this will simply redirect damage.\n"
   example: []
   syntax:
-    content: public static TaskPattern DivertHP(BEHPointer target)
+    content: public static ReflectableLASM DivertHP(GCXF<BehaviorEntity> target)
     parameters:
     - id: target
-      type: BEHPointer
+      type: GCXF{BehaviorEntity}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function DivertHP(target As BEHPointer) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function DivertHP(target As GCXF(Of BehaviorEntity)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.DivertHP*
+  nameWithType.vb: SMReflection.DivertHP(GCXF(Of BehaviorEntity))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+  fullName.vb: Danmokou.SM.SMReflection.DivertHP(GCXF(Of BehaviorEntity))
+  name.vb: DivertHP(GCXF(Of BehaviorEntity))
 - uid: Danmokou.SM.SMReflection.Vulnerable(GCXF{System.Boolean})
   commentId: M:Danmokou.SM.SMReflection.Vulnerable(GCXF{System.Boolean})
   id: Vulnerable(GCXF{System.Boolean})
@@ -1770,18 +1892,18 @@ items:
   source:
     id: Vulnerable
     path: ''
-    startLine: 16960
+    startLine: 17688
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern Vulnerable(GCXF<bool> isVulnerable)
+    content: public static ReflectableLASM Vulnerable(GCXF<bool> isVulnerable)
     parameters:
     - id: isVulnerable
       type: GCXF{System.Boolean}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Vulnerable(isVulnerable As GCXF(Of Boolean)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Vulnerable(isVulnerable As GCXF(Of Boolean)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Vulnerable*
   nameWithType.vb: SMReflection.Vulnerable(GCXF(Of Boolean))
   modifiers.csharp:
@@ -1806,20 +1928,20 @@ items:
   source:
     id: FadeSprite
     path: ''
-    startLine: 16965
+    startLine: 17693
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern FadeSprite(BPY fader, GCXF<float> time)
+    content: public static ReflectableLASM FadeSprite(BPY fader, GCXF<float> time)
     parameters:
     - id: fader
       type: BPY
     - id: time
       type: GCXF{System.Single}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function FadeSprite(fader As BPY, time As GCXF(Of Single)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function FadeSprite(fader As BPY, time As GCXF(Of Single)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.FadeSprite*
   nameWithType.vb: SMReflection.FadeSprite(BPY, GCXF(Of Single))
   modifiers.csharp:
@@ -1844,20 +1966,20 @@ items:
   source:
     id: Scale
     path: ''
-    startLine: 16970
+    startLine: 17698
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern Scale(BPY scaler, GCXF<float> time)
+    content: public static ReflectableLASM Scale(BPY scaler, GCXF<float> time)
     parameters:
     - id: scaler
       type: BPY
     - id: time
       type: GCXF{System.Single}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Scale(scaler As BPY, time As GCXF(Of Single)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Scale(scaler As BPY, time As GCXF(Of Single)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Scale*
   nameWithType.vb: SMReflection.Scale(BPY, GCXF(Of Single))
   modifiers.csharp:
@@ -1882,20 +2004,20 @@ items:
   source:
     id: Slowdown
     path: ''
-    startLine: 16983
+    startLine: 17711
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nCreate a global slowdown effect. Note this will only reset when the nesting context (usually a phase)\nis cancelled.\n"
   example: []
   syntax:
-    content: public static TaskPattern Slowdown(GCXF<float> ratio)
+    content: public static ReflectableLASM Slowdown(GCXF<float> ratio)
     parameters:
     - id: ratio
       type: GCXF{System.Single}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Slowdown(ratio As GCXF(Of Single)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Slowdown(ratio As GCXF(Of Single)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Slowdown*
   nameWithType.vb: SMReflection.Slowdown(GCXF(Of Single))
   modifiers.csharp:
@@ -1920,22 +2042,22 @@ items:
   source:
     id: SlowdownFor
     path: ''
-    startLine: 16990
+    startLine: 17718
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nCreate a global slowdown effect for a limited amount of time.\n"
   example: []
   syntax:
-    content: public static TaskPattern SlowdownFor(Synchronizer time, GCXF<float> ratio)
+    content: public static ReflectableLASM SlowdownFor(Synchronizer time, GCXF<float> ratio)
     parameters:
     - id: time
       type: Danmokou.SM.Synchronizer
     - id: ratio
       type: GCXF{System.Single}
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function SlowdownFor(time As Synchronizer, ratio As GCXF(Of Single)) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function SlowdownFor(time As Synchronizer, ratio As GCXF(Of Single)) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.SlowdownFor*
   nameWithType.vb: SMReflection.SlowdownFor(Synchronizer, GCXF(Of Single))
   modifiers.csharp:
@@ -1960,15 +2082,15 @@ items:
   source:
     id: DangerBot
     path: ''
-    startLine: 16999
+    startLine: 17727
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern DangerBot()
+    content: public static ReflectableLASM DangerBot()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function DangerBot As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function DangerBot As ReflectableLASM
   overload: Danmokou.SM.SMReflection.DangerBot*
   modifiers.csharp:
   - public
@@ -1990,15 +2112,15 @@ items:
   source:
     id: DangerTop
     path: ''
-    startLine: 17002
+    startLine: 17730
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern DangerTop()
+    content: public static ReflectableLASM DangerTop()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function DangerTop As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function DangerTop As ReflectableLASM
   overload: Danmokou.SM.SMReflection.DangerTop*
   modifiers.csharp:
   - public
@@ -2020,15 +2142,15 @@ items:
   source:
     id: DangerLeft
     path: ''
-    startLine: 17005
+    startLine: 17733
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern DangerLeft()
+    content: public static ReflectableLASM DangerLeft()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function DangerLeft As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function DangerLeft As ReflectableLASM
   overload: Danmokou.SM.SMReflection.DangerLeft*
   modifiers.csharp:
   - public
@@ -2050,15 +2172,15 @@ items:
   source:
     id: DangerRight
     path: ''
-    startLine: 17008
+    startLine: 17736
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern DangerRight()
+    content: public static ReflectableLASM DangerRight()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function DangerRight As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function DangerRight As ReflectableLASM
   overload: Danmokou.SM.SMReflection.DangerRight*
   modifiers.csharp:
   - public
@@ -2080,15 +2202,15 @@ items:
   source:
     id: DangerLeft2
     path: ''
-    startLine: 17011
+    startLine: 17739
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern DangerLeft2()
+    content: public static ReflectableLASM DangerLeft2()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function DangerLeft2 As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function DangerLeft2 As ReflectableLASM
   overload: Danmokou.SM.SMReflection.DangerLeft2*
   modifiers.csharp:
   - public
@@ -2110,15 +2232,15 @@ items:
   source:
     id: DangerRight2
     path: ''
-    startLine: 17014
+    startLine: 17742
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern DangerRight2()
+    content: public static ReflectableLASM DangerRight2()
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function DangerRight2 As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function DangerRight2 As ReflectableLASM
   overload: Danmokou.SM.SMReflection.DangerRight2*
   modifiers.csharp:
   - public
@@ -2140,12 +2262,12 @@ items:
   source:
     id: Fire
     path: ''
-    startLine: 17021
+    startLine: 17749
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern Fire(StateMachine freeFire, StateMachine freeCancel, StateMachine focusFire, StateMachine focusCancel)
+    content: public static ReflectableLASM Fire(StateMachine freeFire, StateMachine freeCancel, StateMachine focusFire, StateMachine focusCancel)
     parameters:
     - id: freeFire
       type: Danmokou.SM.StateMachine
@@ -2156,8 +2278,8 @@ items:
     - id: focusCancel
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Fire(freeFire As StateMachine, freeCancel As StateMachine, focusFire As StateMachine, focusCancel As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Fire(freeFire As StateMachine, freeCancel As StateMachine, focusFire As StateMachine, focusCancel As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Fire*
   modifiers.csharp:
   - public
@@ -2179,20 +2301,20 @@ items:
   source:
     id: FireSame
     path: ''
-    startLine: 17040
+    startLine: 17785
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern FireSame(StateMachine fire, StateMachine cancel)
+    content: public static ReflectableLASM FireSame(StateMachine fire, StateMachine cancel)
     parameters:
     - id: fire
       type: Danmokou.SM.StateMachine
     - id: cancel
       type: Danmokou.SM.StateMachine
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function FireSame(fire As StateMachine, cancel As StateMachine) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function FireSame(fire As StateMachine, cancel As StateMachine) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.FireSame*
   modifiers.csharp:
   - public
@@ -2214,18 +2336,18 @@ items:
   source:
     id: AssertSimple
     path: ''
-    startLine: 17057
+    startLine: 17802
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern AssertSimple(string p_pool)
+    content: public static ReflectableLASM AssertSimple(string p_pool)
     parameters:
     - id: p_pool
       type: System.String
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function AssertSimple(p_pool As String) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function AssertSimple(p_pool As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.AssertSimple*
   modifiers.csharp:
   - public
@@ -2247,18 +2369,18 @@ items:
   source:
     id: AssertComplex
     path: ''
-    startLine: 17061
+    startLine: 17807
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static TaskPattern AssertComplex(string p_pool)
+    content: public static ReflectableLASM AssertComplex(string p_pool)
     parameters:
     - id: p_pool
       type: System.String
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function AssertComplex(p_pool As String) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function AssertComplex(p_pool As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.AssertComplex*
   modifiers.csharp:
   - public
@@ -2280,20 +2402,20 @@ items:
   source:
     id: Debug
     path: ''
-    startLine: 17073
+    startLine: 17819
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nPrint a message to the console.\n"
   example: []
   syntax:
-    content: public static TaskPattern Debug(string debug)
+    content: public static ReflectableLASM Debug(string debug)
     parameters:
     - id: debug
       type: System.String
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function Debug(debug As String) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Debug(debug As String) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.Debug*
   modifiers.csharp:
   - public
@@ -2301,6 +2423,46 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Danmokou.SM.SMReflection.Print``1(GCXF{``0})
+  commentId: M:Danmokou.SM.SMReflection.Print``1(GCXF{``0})
+  id: Print``1(GCXF{``0})
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: Print<T>(GCXF<T>)
+  nameWithType: SMReflection.Print<T>(GCXF<T>)
+  fullName: Danmokou.SM.SMReflection.Print<T>(GCXF<T>)
+  type: Method
+  source:
+    id: Print
+    path: ''
+    startLine: 17828
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nPrint a value to the console.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM Print<T>(GCXF<T> val)
+    parameters:
+    - id: val
+      type: GCXF{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Print(Of T)(val As GCXF(Of T)) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.Print*
+  nameWithType.vb: SMReflection.Print(Of T)(GCXF(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.SMReflection.Print(Of T)(GCXF(Of T))
+  name.vb: Print(Of T)(GCXF(Of T))
 - uid: Danmokou.SM.SMReflection.PlayerVariant(System.ValueTuple{System.String,Danmokou.SM.StateMachine}[])
   commentId: M:Danmokou.SM.SMReflection.PlayerVariant(System.ValueTuple{System.String,Danmokou.SM.StateMachine}[])
   id: PlayerVariant(System.ValueTuple{System.String,Danmokou.SM.StateMachine}[])
@@ -2315,20 +2477,20 @@ items:
   source:
     id: PlayerVariant
     path: ''
-    startLine: 17083
+    startLine: 17838
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nSelect one of several state machines depending on which player is currently in use.\nDisambiguates based on the &quot;key&quot; property of the PlayerConfig.\n"
   example: []
   syntax:
-    content: public static TaskPattern PlayerVariant((string key, StateMachine exec)[] options)
+    content: public static ReflectableLASM PlayerVariant((string key, StateMachine exec)[] options)
     parameters:
     - id: options
       type: System.ValueTuple{System.String,Danmokou.SM.StateMachine}[]
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function PlayerVariant(options As(key As String, exec As StateMachine)(Of String , StateMachine)()) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function PlayerVariant(options As(key As String, exec As StateMachine)(Of String , StateMachine)()) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.PlayerVariant*
   nameWithType.vb: SMReflection.PlayerVariant((key As String, exec As StateMachine)(Of String, StateMachine)())
   modifiers.csharp:
@@ -2353,20 +2515,20 @@ items:
   source:
     id: LifeToScore
     path: ''
-    startLine: 17099
+    startLine: 17854
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nConvert excess health to score at the given rate.\nThis is done with SFX over time and will not return immediately.\n"
   example: []
   syntax:
-    content: public static TaskPattern LifeToScore(int value)
+    content: public static ReflectableLASM LifeToScore(int value)
     parameters:
     - id: value
       type: System.Int32
     return:
-      type: Danmokou.SM.TaskPattern
-    content.vb: Public Shared Function LifeToScore(value As Integer) As TaskPattern
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function LifeToScore(value As Integer) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.LifeToScore*
   modifiers.csharp:
   - public
@@ -2818,12 +2980,12 @@ references:
   name: ExBPY
   nameWithType: ExBPY
   fullName: ExBPY
-- uid: Danmokou.SM.TaskPattern
-  commentId: T:Danmokou.SM.TaskPattern
+- uid: Danmokou.SM.ReflectableLASM
+  commentId: T:Danmokou.SM.ReflectableLASM
   parent: Danmokou.SM
-  name: TaskPattern
-  nameWithType: TaskPattern
-  fullName: Danmokou.SM.TaskPattern
+  name: ReflectableLASM
+  nameWithType: ReflectableLASM
+  fullName: Danmokou.SM.ReflectableLASM
 - uid: GCXF`1
   isExternal: true
   name: GCXF<>
@@ -3082,6 +3244,72 @@ references:
   name: Boss
   nameWithType: SMReflection.Boss
   fullName: Danmokou.SM.SMReflection.Boss
+- uid: Danmokou.SM.SMReflection.Exec*
+  commentId: Overload:Danmokou.SM.SMReflection.Exec
+  name: Exec
+  nameWithType: SMReflection.Exec
+  fullName: Danmokou.SM.SMReflection.Exec
+- uid: ErasedGCXF
+  isExternal: true
+  name: ErasedGCXF
+  nameWithType: ErasedGCXF
+  fullName: ErasedGCXF
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Danmokou.SM.SMReflection.Wrap*
+  commentId: Overload:Danmokou.SM.SMReflection.Wrap
+  name: Wrap
+  nameWithType: SMReflection.Wrap
+  fullName: Danmokou.SM.SMReflection.Wrap
+- uid: GCXF{Danmokou.SM.StateMachine}
+  commentId: '!:GCXF{Danmokou.SM.StateMachine}'
+  definition: GCXF`1
+  name: GCXF<StateMachine>
+  nameWithType: GCXF<StateMachine>
+  fullName: GCXF<Danmokou.SM.StateMachine>
+  nameWithType.vb: GCXF(Of StateMachine)
+  fullName.vb: GCXF(Of Danmokou.SM.StateMachine)
+  name.vb: GCXF(Of StateMachine)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.SM.SMReflection.Wait*
   commentId: Overload:Danmokou.SM.SMReflection.Wait
   name: Wait
@@ -3279,6 +3507,7 @@ references:
     nameWithType: )
     fullName: )
 - uid: AsyncPattern
+  commentId: '!:AsyncPattern'
   isExternal: true
   name: AsyncPattern
   nameWithType: AsyncPattern
@@ -3294,16 +3523,6 @@ references:
   name: SyncPattern
   nameWithType: SyncPattern
   fullName: SyncPattern
-- uid: Danmokou.SM.SMReflection.AsyncStageFire*
-  commentId: Overload:Danmokou.SM.SMReflection.AsyncStageFire
-  name: AsyncStageFire
-  nameWithType: SMReflection.AsyncStageFire
-  fullName: Danmokou.SM.SMReflection.AsyncStageFire
-- uid: Danmokou.SM.SMReflection.AsyncStageFireP*
-  commentId: Overload:Danmokou.SM.SMReflection.AsyncStageFireP
-  name: AsyncStageFireP
-  nameWithType: SMReflection.AsyncStageFireP
-  fullName: Danmokou.SM.SMReflection.AsyncStageFireP
 - uid: Danmokou.SM.SMReflection.CreateShot1*
   commentId: Overload:Danmokou.SM.SMReflection.CreateShot1
   name: CreateShot1
@@ -3412,21 +3631,92 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Danmokou.SM.SMReflection.ParticleControl*
-  commentId: Overload:Danmokou.SM.SMReflection.ParticleControl
-  name: ParticleControl
-  nameWithType: SMReflection.ParticleControl
-  fullName: Danmokou.SM.SMReflection.ParticleControl
-- uid: Pred
-  isExternal: true
-  name: Pred
-  nameWithType: Pred
-  fullName: Pred
+- uid: Danmokou.SM.SMReflection.BulletControl*
+  commentId: Overload:Danmokou.SM.SMReflection.BulletControl
+  name: BulletControl
+  nameWithType: SMReflection.BulletControl
+  fullName: Danmokou.SM.SMReflection.BulletControl
+- uid: GCXF{System.Boolean}
+  commentId: '!:GCXF{System.Boolean}'
+  definition: GCXF`1
+  name: GCXF<Boolean>
+  nameWithType: GCXF<Boolean>
+  fullName: GCXF<System.Boolean>
+  nameWithType.vb: GCXF(Of Boolean)
+  fullName.vb: GCXF(Of System.Boolean)
+  name.vb: GCXF(Of Boolean)
+  spec.csharp:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: GCXF
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: BulletManager.StyleSelector
   isExternal: true
   name: BulletManager.StyleSelector
   nameWithType: BulletManager.StyleSelector
   fullName: BulletManager.StyleSelector
+- uid: BulletManager.cBulletControl
+  commentId: '!:BulletManager.cBulletControl'
+  isExternal: true
+  name: BulletManager.cBulletControl
+  nameWithType: BulletManager.cBulletControl
+  fullName: BulletManager.cBulletControl
+- uid: Danmokou.SM.SMReflection.BEHControl*
+  commentId: Overload:Danmokou.SM.SMReflection.BEHControl
+  name: BEHControl
+  nameWithType: SMReflection.BEHControl
+  fullName: Danmokou.SM.SMReflection.BEHControl
+- uid: BehaviorEntity.cBEHControl
+  commentId: '!:BehaviorEntity.cBEHControl'
+  isExternal: true
+  name: BehaviorEntity.cBEHControl
+  nameWithType: BehaviorEntity.cBEHControl
+  fullName: BehaviorEntity.cBEHControl
+- uid: Danmokou.SM.SMReflection.LaserControl*
+  commentId: Overload:Danmokou.SM.SMReflection.LaserControl
+  name: LaserControl
+  nameWithType: SMReflection.LaserControl
+  fullName: Danmokou.SM.SMReflection.LaserControl
+- uid: CurvedTileRenderLaser.cLaserControl
+  commentId: '!:CurvedTileRenderLaser.cLaserControl'
+  isExternal: true
+  name: CurvedTileRenderLaser.cLaserControl
+  nameWithType: CurvedTileRenderLaser.cLaserControl
+  fullName: CurvedTileRenderLaser.cLaserControl
+- uid: Danmokou.SM.SMReflection.PoolControl*
+  commentId: Overload:Danmokou.SM.SMReflection.PoolControl
+  name: PoolControl
+  nameWithType: SMReflection.PoolControl
+  fullName: Danmokou.SM.SMReflection.PoolControl
 - uid: '{CF}'
   commentId: '!:CF'
   definition: CF
@@ -3434,14 +3724,10 @@ references:
   nameWithType: CF
   fullName: CF
 - uid: CF
+  commentId: '!:CF'
   name: CF
   nameWithType: CF
   fullName: CF
-- uid: Danmokou.SM.SMReflection.PoolControl*
-  commentId: Overload:Danmokou.SM.SMReflection.PoolControl
-  name: PoolControl
-  nameWithType: SMReflection.PoolControl
-  fullName: Danmokou.SM.SMReflection.PoolControl
 - uid: Danmokou.SM.SMReflection.ShiftPhaseTo*
   commentId: Overload:Danmokou.SM.SMReflection.ShiftPhaseTo
   name: ShiftPhaseTo
@@ -3518,87 +3804,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GCXU{VTP}
-  commentId: '!:GCXU{VTP}'
-  definition: GCXU`1
-  name: GCXU<VTP>
-  nameWithType: GCXU<VTP>
-  fullName: GCXU<VTP>
-  nameWithType.vb: GCXU(Of VTP)
-  fullName.vb: GCXU(Of VTP)
-  name.vb: GCXU(Of VTP)
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: VTP
-    name: VTP
-    nameWithType: VTP
-    fullName: VTP
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: VTP
-    name: VTP
-    nameWithType: VTP
-    fullName: VTP
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GCXU`1
+- uid: VTP
   isExternal: true
-  name: GCXU<>
-  nameWithType: GCXU<>
-  fullName: GCXU<>
-  nameWithType.vb: GCXU(Of )
-  fullName.vb: GCXU(Of )
-  name.vb: GCXU(Of )
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: VTP
+  nameWithType: VTP
+  fullName: VTP
 - uid: Danmokou.SM.SMReflection.Move*
   commentId: Overload:Danmokou.SM.SMReflection.Move
   name: Move
@@ -3609,16 +3819,16 @@ references:
   name: MoveTarget
   nameWithType: SMReflection.MoveTarget
   fullName: Danmokou.SM.SMReflection.MoveTarget
-- uid: System.Func{tfloat,tfloat}
-  commentId: T:System.Func{tfloat,tfloat}
+- uid: System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
+  commentId: T:System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
   parent: System
   definition: System.Func`2
-  name: Func<tfloat, tfloat>
-  nameWithType: Func<tfloat, tfloat>
-  fullName: System.Func<tfloat, tfloat>
-  nameWithType.vb: Func(Of tfloat, tfloat)
-  fullName.vb: System.Func(Of tfloat, tfloat)
-  name.vb: Func(Of tfloat, tfloat)
+  name: Func<TExArgCtx, TEx<Func<Single, Single>>>
+  nameWithType: Func<TExArgCtx, TEx<Func<Single, Single>>>
+  fullName: System.Func<TExArgCtx, TEx<System.Func<System.Single, System.Single>>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of Func(Of Single, Single)))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of System.Func(Of System.Single, System.Single)))
+  name.vb: Func(Of TExArgCtx, TEx(Of Func(Of Single, Single)))
   spec.csharp:
   - uid: System.Func`2
     name: Func
@@ -3628,19 +3838,49 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
     isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
     isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -3653,19 +3893,49 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
     isExternal: true
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - uid: tfloat
-    name: tfloat
-    nameWithType: tfloat
-    fullName: tfloat
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
     isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -3709,25 +3979,15 @@ references:
   name: DivertHP
   nameWithType: SMReflection.DivertHP
   fullName: Danmokou.SM.SMReflection.DivertHP
-- uid: BEHPointer
-  isExternal: true
-  name: BEHPointer
-  nameWithType: BEHPointer
-  fullName: BEHPointer
-- uid: Danmokou.SM.SMReflection.Vulnerable*
-  commentId: Overload:Danmokou.SM.SMReflection.Vulnerable
-  name: Vulnerable
-  nameWithType: SMReflection.Vulnerable
-  fullName: Danmokou.SM.SMReflection.Vulnerable
-- uid: GCXF{System.Boolean}
-  commentId: '!:GCXF{System.Boolean}'
+- uid: GCXF{BehaviorEntity}
+  commentId: '!:GCXF{BehaviorEntity}'
   definition: GCXF`1
-  name: GCXF<Boolean>
-  nameWithType: GCXF<Boolean>
-  fullName: GCXF<System.Boolean>
-  nameWithType.vb: GCXF(Of Boolean)
-  fullName.vb: GCXF(Of System.Boolean)
-  name.vb: GCXF(Of Boolean)
+  name: GCXF<BehaviorEntity>
+  nameWithType: GCXF<BehaviorEntity>
+  fullName: GCXF<BehaviorEntity>
+  nameWithType.vb: GCXF(Of BehaviorEntity)
+  fullName.vb: GCXF(Of BehaviorEntity)
+  name.vb: GCXF(Of BehaviorEntity)
   spec.csharp:
   - uid: GCXF`1
     name: GCXF
@@ -3737,10 +3997,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -3754,14 +4014,19 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+  - uid: BehaviorEntity
+    name: BehaviorEntity
+    nameWithType: BehaviorEntity
+    fullName: BehaviorEntity
     isExternal: true
   - name: )
     nameWithType: )
     fullName: )
+- uid: Danmokou.SM.SMReflection.Vulnerable*
+  commentId: Overload:Danmokou.SM.SMReflection.Vulnerable
+  name: Vulnerable
+  nameWithType: SMReflection.Vulnerable
+  fullName: Danmokou.SM.SMReflection.Vulnerable
 - uid: Danmokou.SM.SMReflection.FadeSprite*
   commentId: Overload:Danmokou.SM.SMReflection.FadeSprite
   name: FadeSprite
@@ -3842,6 +4107,11 @@ references:
   name: Debug
   nameWithType: SMReflection.Debug
   fullName: Danmokou.SM.SMReflection.Debug
+- uid: Danmokou.SM.SMReflection.Print*
+  commentId: Overload:Danmokou.SM.SMReflection.Print
+  name: Print
+  nameWithType: SMReflection.Print
+  fullName: Danmokou.SM.SMReflection.Print
 - uid: Danmokou.SM.SMReflection.PlayerVariant*
   commentId: Overload:Danmokou.SM.SMReflection.PlayerVariant
   name: PlayerVariant

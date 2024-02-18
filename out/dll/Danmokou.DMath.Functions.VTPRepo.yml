@@ -8,12 +8,12 @@ items:
   - Danmokou.DMath.Functions.VTPRepo.DOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExBPY)
   - Danmokou.DMath.Functions.VTPRepo.DTPOffset(ReflectEx.Hoist{Vector2},ReflectEx.Hoist{Vector2},ExBPY,ExTP)
   - Danmokou.DMath.Functions.VTPRepo.ExNoVTP
-  - Danmokou.DMath.Functions.VTPRepo.Expose(System.ValueTuple{Reflector.ExType,System.String}[],ExVTP)
   - Danmokou.DMath.Functions.VTPRepo.If(ExPred,ExVTP,ExVTP)
   - Danmokou.DMath.Functions.VTPRepo.IsNone(Danmokou.DMath.VTP)
-  - Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias[],ExVTP)
+  - Danmokou.DMath.Functions.VTPRepo.Let(ReflectEx.Alias[],ExVTP)
   - Danmokou.DMath.Functions.VTPRepo.LetFloats(System.ValueTuple{System.String,ExBPY}[],ExVTP)
   - Danmokou.DMath.Functions.VTPRepo.LetV2s(System.ValueTuple{System.String,ExTP}[],ExVTP)
+  - Danmokou.DMath.Functions.VTPRepo.None
   - Danmokou.DMath.Functions.VTPRepo.NoVTP
   - Danmokou.DMath.Functions.VTPRepo.NROffset(ExTP)
   - Danmokou.DMath.Functions.VTPRepo.NRVelocity(ExTP)
@@ -37,7 +37,7 @@ items:
   source:
     id: VTPRepo
     path: ''
-    startLine: 9984
+    startLine: 10285
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -78,7 +78,7 @@ items:
   source:
     id: IsNone
     path: ''
-    startLine: 9986
+    startLine: 10287
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -114,7 +114,7 @@ items:
   source:
     id: ExNoVTP
     path: ''
-    startLine: 9989
+    startLine: 10290
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -145,7 +145,7 @@ items:
   source:
     id: NoVTP
     path: ''
-    startLine: 9990
+    startLine: 10291
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -176,7 +176,7 @@ items:
   source:
     id: "Null"
     path: ''
-    startLine: 9996
+    startLine: 10297
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -188,6 +188,38 @@ items:
       type: ExVTP
     content.vb: Public Shared Function Null As ExVTP
   overload: Danmokou.DMath.Functions.VTPRepo.Null*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.VTPRepo.None
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.None
+  id: None
+  parent: Danmokou.DMath.Functions.VTPRepo
+  langs:
+  - csharp
+  - vb
+  name: None()
+  nameWithType: VTPRepo.None()
+  fullName: Danmokou.DMath.Functions.VTPRepo.None()
+  type: Method
+  source:
+    id: None
+    path: ''
+    startLine: 10303
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nNo movement.\n"
+  example: []
+  syntax:
+    content: public static ExVTP None()
+    return:
+      type: ExVTP
+    content.vb: Public Shared Function None As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.None*
   modifiers.csharp:
   - public
   - static
@@ -208,7 +240,7 @@ items:
   source:
     id: If
     path: ''
-    startLine: 10003
+    startLine: 10310
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -247,7 +279,7 @@ items:
   source:
     id: RVelocity
     path: ''
-    startLine: 10011
+    startLine: 10319
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -284,7 +316,7 @@ items:
   source:
     id: NRVelocity
     path: ''
-    startLine: 10019
+    startLine: 10327
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -321,7 +353,7 @@ items:
   source:
     id: Velocity
     path: ''
-    startLine: 10028
+    startLine: 10336
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -361,7 +393,7 @@ items:
   source:
     id: Velocity3D
     path: ''
-    startLine: 10038
+    startLine: 10346
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -401,7 +433,7 @@ items:
   source:
     id: ROffset
     path: ''
-    startLine: 10045
+    startLine: 10353
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -438,7 +470,7 @@ items:
   source:
     id: NROffset
     path: ''
-    startLine: 10052
+    startLine: 10360
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -475,7 +507,7 @@ items:
   source:
     id: Offset
     path: ''
-    startLine: 10060
+    startLine: 10368
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -515,7 +547,7 @@ items:
   source:
     id: Offset3D
     path: ''
-    startLine: 10070
+    startLine: 10378
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -555,7 +587,7 @@ items:
   source:
     id: DOffset
     path: ''
-    startLine: 10081
+    startLine: 10389
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -604,7 +636,7 @@ items:
   source:
     id: DTPOffset
     path: ''
-    startLine: 10096
+    startLine: 10404
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -653,7 +685,7 @@ items:
   source:
     id: Polar
     path: ''
-    startLine: 10108
+    startLine: 10416
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -693,7 +725,7 @@ items:
   source:
     id: Polar2
     path: ''
-    startLine: 10115
+    startLine: 10423
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -730,7 +762,7 @@ items:
   source:
     id: VPolar
     path: ''
-    startLine: 10124
+    startLine: 10432
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -756,46 +788,6 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.VTPRepo.Expose(System.ValueTuple{Reflector.ExType,System.String}[],ExVTP)
-  commentId: M:Danmokou.DMath.Functions.VTPRepo.Expose(System.ValueTuple{Reflector.ExType,System.String}[],ExVTP)
-  id: Expose(System.ValueTuple{Reflector.ExType,System.String}[],ExVTP)
-  parent: Danmokou.DMath.Functions.VTPRepo
-  langs:
-  - csharp
-  - vb
-  name: Expose((Reflector.ExType, String)[], ExVTP)
-  nameWithType: VTPRepo.Expose((Reflector.ExType, String)[], ExVTP)
-  fullName: Danmokou.DMath.Functions.VTPRepo.Expose(System.ValueTuple<Reflector.ExType, System.String>[], ExVTP)
-  type: Method
-  source:
-    id: Expose
-    path: ''
-    startLine: 10132
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.DMath.Functions
-  summary: "\nAssert that the variables provided are stored in the bullet&apos;s custom data, then execute the inner content.\n<br />Since <xref href=\"Danmokou.DMath.GCXU%601\" data-throw-if-not-resolved=\"false\"></xref> automatically stores variables used in its scope, you generally only\nneed to call this function when the variables will be used by some other scope, such as bullet controls.\n"
-  example: []
-  syntax:
-    content: public static ExVTP Expose((Reflector.ExType, string)[] variables, ExVTP inner)
-    parameters:
-    - id: variables
-      type: System.ValueTuple{Reflector.ExType,System.String}[]
-    - id: inner
-      type: ExVTP
-    return:
-      type: ExVTP
-    content.vb: Public Shared Function Expose(variables As(Reflector.ExType, String)(Of Reflector.ExType , String)(), inner As ExVTP) As ExVTP
-  overload: Danmokou.DMath.Functions.VTPRepo.Expose*
-  nameWithType.vb: VTPRepo.Expose((Reflector.ExType, String)(Of Reflector.ExType, String)(), ExVTP)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: Danmokou.DMath.Functions.VTPRepo.Expose(System.ValueTuple(Of Reflector.ExType, System.String)(), ExVTP)
-  name.vb: Expose((Reflector.ExType, String)(Of Reflector.ExType, String)(), ExVTP)
 - uid: Danmokou.DMath.Functions.VTPRepo.LetFloats(System.ValueTuple{System.String,ExBPY}[],ExVTP)
   commentId: M:Danmokou.DMath.Functions.VTPRepo.LetFloats(System.ValueTuple{System.String,ExBPY}[],ExVTP)
   id: LetFloats(System.ValueTuple{System.String,ExBPY}[],ExVTP)
@@ -810,7 +802,7 @@ items:
   source:
     id: LetFloats
     path: ''
-    startLine: 10144
+    startLine: 10441
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -850,7 +842,7 @@ items:
   source:
     id: LetV2s
     path: ''
-    startLine: 10150
+    startLine: 10447
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -876,28 +868,28 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.VTPRepo.LetV2s(System.ValueTuple(Of System.String, ExTP)(), ExVTP)
   name.vb: LetV2s((String, ExTP)(Of String, ExTP)(), ExVTP)
-- uid: Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias[],ExVTP)
-  commentId: M:Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias[],ExVTP)
-  id: LetDecl(ReflectEx.Alias[],ExVTP)
+- uid: Danmokou.DMath.Functions.VTPRepo.Let(ReflectEx.Alias[],ExVTP)
+  commentId: M:Danmokou.DMath.Functions.VTPRepo.Let(ReflectEx.Alias[],ExVTP)
+  id: Let(ReflectEx.Alias[],ExVTP)
   parent: Danmokou.DMath.Functions.VTPRepo
   langs:
   - csharp
   - vb
-  name: LetDecl(ReflectEx.Alias[], ExVTP)
-  nameWithType: VTPRepo.LetDecl(ReflectEx.Alias[], ExVTP)
-  fullName: Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias[], ExVTP)
+  name: Let(ReflectEx.Alias[], ExVTP)
+  nameWithType: VTPRepo.Let(ReflectEx.Alias[], ExVTP)
+  fullName: Danmokou.DMath.Functions.VTPRepo.Let(ReflectEx.Alias[], ExVTP)
   type: Method
   source:
-    id: LetDecl
+    id: Let
     path: ''
-    startLine: 10156
+    startLine: 10453
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nBind values to the aliases and then execute the inner content with those aliases.\n"
   example: []
   syntax:
-    content: public static ExVTP LetDecl(ReflectEx.Alias[] aliases, ExVTP inner)
+    content: public static ExVTP Let(ReflectEx.Alias[] aliases, ExVTP inner)
     parameters:
     - id: aliases
       type: ReflectEx.Alias[]
@@ -905,17 +897,17 @@ items:
       type: ExVTP
     return:
       type: ExVTP
-    content.vb: Public Shared Function LetDecl(aliases As ReflectEx.Alias(), inner As ExVTP) As ExVTP
-  overload: Danmokou.DMath.Functions.VTPRepo.LetDecl*
-  nameWithType.vb: VTPRepo.LetDecl(ReflectEx.Alias(), ExVTP)
+    content.vb: Public Shared Function Let(aliases As ReflectEx.Alias(), inner As ExVTP) As ExVTP
+  overload: Danmokou.DMath.Functions.VTPRepo.Let*
+  nameWithType.vb: VTPRepo.Let(ReflectEx.Alias(), ExVTP)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.VTPRepo.LetDecl(ReflectEx.Alias(), ExVTP)
-  name.vb: LetDecl(ReflectEx.Alias(), ExVTP)
+  fullName.vb: Danmokou.DMath.Functions.VTPRepo.Let(ReflectEx.Alias(), ExVTP)
+  name.vb: Let(ReflectEx.Alias(), ExVTP)
 references:
 - uid: Danmokou.DMath.Functions
   commentId: N:Danmokou.DMath.Functions
@@ -1247,6 +1239,11 @@ references:
   name: "Null"
   nameWithType: VTPRepo.Null
   fullName: Danmokou.DMath.Functions.VTPRepo.Null
+- uid: Danmokou.DMath.Functions.VTPRepo.None*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.None
+  name: None
+  nameWithType: VTPRepo.None
+  fullName: Danmokou.DMath.Functions.VTPRepo.None
 - uid: Danmokou.DMath.Functions.VTPRepo.If*
   commentId: Overload:Danmokou.DMath.Functions.VTPRepo.If
   name: If
@@ -1418,111 +1415,6 @@ references:
   name: VPolar
   nameWithType: VTPRepo.VPolar
   fullName: Danmokou.DMath.Functions.VTPRepo.VPolar
-- uid: Danmokou.DMath.GCXU`1
-  commentId: T:Danmokou.DMath.GCXU`1
-  name: GCXU<Fn>
-  nameWithType: GCXU<Fn>
-  fullName: Danmokou.DMath.GCXU<Fn>
-  nameWithType.vb: GCXU(Of Fn)
-  fullName.vb: Danmokou.DMath.GCXU(Of Fn)
-  name.vb: GCXU(Of Fn)
-  spec.csharp:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: Fn
-    nameWithType: Fn
-    fullName: Fn
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: Fn
-    nameWithType: Fn
-    fullName: Fn
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Danmokou.DMath.Functions.VTPRepo.Expose*
-  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Expose
-  name: Expose
-  nameWithType: VTPRepo.Expose
-  fullName: Danmokou.DMath.Functions.VTPRepo.Expose
-- uid: System.ValueTuple{Reflector.ExType,System.String}[]
-  isExternal: true
-  name: (T1, T2)<Reflector.ExType, String>[]
-  nameWithType: (T1, T2)<Reflector.ExType, String>[]
-  fullName: System.ValueTuple<Reflector.ExType, System.String>[]
-  nameWithType.vb: (T1, T2)(Of Reflector.ExType, String)()
-  fullName.vb: System.ValueTuple(Of Reflector.ExType, System.String)()
-  name.vb: (T1, T2)(Of Reflector.ExType, String)()
-  spec.csharp:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Reflector.ExType
-    name: Reflector.ExType
-    nameWithType: Reflector.ExType
-    fullName: Reflector.ExType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.ValueTuple`2
-    name: (T1, T2)
-    nameWithType: (T1, T2)
-    fullName: System.ValueTuple
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Reflector.ExType
-    name: Reflector.ExType
-    nameWithType: Reflector.ExType
-    fullName: Reflector.ExType
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ()
-    nameWithType: ()
-    fullName: ()
 - uid: Danmokou.DMath.Functions.VTPRepo.LetFloats*
   commentId: Overload:Danmokou.DMath.Functions.VTPRepo.LetFloats
   name: LetFloats
@@ -1661,11 +1553,11 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: Danmokou.DMath.Functions.VTPRepo.LetDecl*
-  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.LetDecl
-  name: LetDecl
-  nameWithType: VTPRepo.LetDecl
-  fullName: Danmokou.DMath.Functions.VTPRepo.LetDecl
+- uid: Danmokou.DMath.Functions.VTPRepo.Let*
+  commentId: Overload:Danmokou.DMath.Functions.VTPRepo.Let
+  name: Let
+  nameWithType: VTPRepo.Let
+  fullName: Danmokou.DMath.Functions.VTPRepo.Let
 - uid: ReflectEx.Alias[]
   isExternal: true
   name: ReflectEx.Alias[]

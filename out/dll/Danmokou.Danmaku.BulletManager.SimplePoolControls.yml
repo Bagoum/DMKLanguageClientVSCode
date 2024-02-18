@@ -8,8 +8,12 @@ items:
   - Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowCull(System.Boolean)
   - Danmokou.Danmaku.BulletManager.SimplePoolControls.AllowDelete(System.Boolean)
   - Danmokou.Danmaku.BulletManager.SimplePoolControls.CullRad(System.Single)
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.Damage(System.Int32)
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.Destructible(System.Boolean)
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.NoGraze
   - Danmokou.Danmaku.BulletManager.SimplePoolControls.Recolor(TP4,TP4)
   - Danmokou.Danmaku.BulletManager.SimplePoolControls.Reset
+  - Danmokou.Danmaku.BulletManager.SimplePoolControls.SetRenderQueue(System.Int32)
   - Danmokou.Danmaku.BulletManager.SimplePoolControls.SoftCullAll(System.String)
   - Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ
   - Danmokou.Danmaku.BulletManager.SimplePoolControls.Tint(TP4)
@@ -23,7 +27,7 @@ items:
   source:
     id: SimplePoolControls
     path: ''
-    startLine: 2088
+    startLine: 2364
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -63,7 +67,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 2095
+    startLine: 2371
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -96,7 +100,7 @@ items:
   source:
     id: CullRad
     path: ''
-    startLine: 2106
+    startLine: 2382
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -132,7 +136,7 @@ items:
   source:
     id: AllowCull
     path: ''
-    startLine: 2115
+    startLine: 2391
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -169,7 +173,7 @@ items:
   source:
     id: AllowDelete
     path: ''
-    startLine: 2123
+    startLine: 2399
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -204,7 +208,7 @@ items:
   source:
     id: SoftCullAll
     path: ''
-    startLine: 2132
+    startLine: 2408
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -241,7 +245,7 @@ items:
   source:
     id: Tint
     path: ''
-    startLine: 2147
+    startLine: 2423
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -276,7 +280,7 @@ items:
   source:
     id: Recolor
     path: ''
-    startLine: 2156
+    startLine: 2432
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -313,7 +317,7 @@ items:
   source:
     id: SortZ
     path: ''
-    startLine: 2162
+    startLine: 2438
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -325,6 +329,143 @@ items:
       type: SPCF
     content.vb: Public Shared Function SortZ As SPCF
   overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.SetRenderQueue(System.Int32)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.SetRenderQueue(System.Int32)
+  id: SetRenderQueue(System.Int32)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: SetRenderQueue(Int32)
+  nameWithType: BulletManager.SimplePoolControls.SetRenderQueue(Int32)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.SetRenderQueue(System.Int32)
+  type: Method
+  source:
+    id: SetRenderQueue
+    path: ''
+    startLine: 2445
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nOverride the render queue value of a bullet pool. Higher values render on top.\n<br />As reference, the render value of circle-X bullets is in the 3600s.\n"
+  example: []
+  syntax:
+    content: public static SPCF SetRenderQueue(int priority)
+    parameters:
+    - id: priority
+      type: System.Int32
+    return:
+      type: SPCF
+    content.vb: Public Shared Function SetRenderQueue(priority As Integer) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.SetRenderQueue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Destructible(System.Boolean)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.Destructible(System.Boolean)
+  id: Destructible(System.Boolean)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: Destructible(Boolean)
+  nameWithType: BulletManager.SimplePoolControls.Destructible(Boolean)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Destructible(System.Boolean)
+  type: Method
+  source:
+    id: Destructible
+    path: ''
+    startLine: 2451
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSet whether or not bullets in this pool will be destroyed when they collide.\n"
+  example: []
+  syntax:
+    content: public static SPCF Destructible(bool destructible)
+    parameters:
+    - id: destructible
+      type: System.Boolean
+    return:
+      type: SPCF
+    content.vb: Public Shared Function Destructible(destructible As Boolean) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.Destructible*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Damage(System.Int32)
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.Damage(System.Int32)
+  id: Damage(System.Int32)
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: Damage(Int32)
+  nameWithType: BulletManager.SimplePoolControls.Damage(Int32)
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Damage(System.Int32)
+  type: Method
+  source:
+    id: Damage
+    path: ''
+    startLine: 2460
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nSet the amount of damage bullets in this pool do to the player.\n<br />Note: bullets will be destroyed if they collide with setDamage(0), though the player will not be hit.\n<br />Note: currently, the player cannot\n take more than 1 damage at a time.\n"
+  example: []
+  syntax:
+    content: public static SPCF Damage(int damage)
+    parameters:
+    - id: damage
+      type: System.Int32
+    return:
+      type: SPCF
+    content.vb: Public Shared Function Damage(damage As Integer) As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.Damage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.NoGraze
+  commentId: M:Danmokou.Danmaku.BulletManager.SimplePoolControls.NoGraze
+  id: NoGraze
+  parent: Danmokou.Danmaku.BulletManager.SimplePoolControls
+  langs:
+  - csharp
+  - vb
+  name: NoGraze()
+  nameWithType: BulletManager.SimplePoolControls.NoGraze()
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.NoGraze()
+  type: Method
+  source:
+    id: NoGraze
+    path: ''
+    startLine: 2467
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku
+  summary: "\nDisallow grazing against bullets in this pool.\n"
+  example: []
+  syntax:
+    content: public static SPCF NoGraze()
+    return:
+      type: SPCF
+    content.vb: Public Shared Function NoGraze As SPCF
+  overload: Danmokou.Danmaku.BulletManager.SimplePoolControls.NoGraze*
   modifiers.csharp:
   - public
   - static
@@ -700,3 +841,30 @@ references:
   name: SortZ
   nameWithType: BulletManager.SimplePoolControls.SortZ
   fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.SortZ
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.SetRenderQueue*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.SetRenderQueue
+  name: SetRenderQueue
+  nameWithType: BulletManager.SimplePoolControls.SetRenderQueue
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.SetRenderQueue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Destructible*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.Destructible
+  name: Destructible
+  nameWithType: BulletManager.SimplePoolControls.Destructible
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Destructible
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.Damage*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.Damage
+  name: Damage
+  nameWithType: BulletManager.SimplePoolControls.Damage
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.Damage
+- uid: Danmokou.Danmaku.BulletManager.SimplePoolControls.NoGraze*
+  commentId: Overload:Danmokou.Danmaku.BulletManager.SimplePoolControls.NoGraze
+  name: NoGraze
+  nameWithType: BulletManager.SimplePoolControls.NoGraze
+  fullName: Danmokou.Danmaku.BulletManager.SimplePoolControls.NoGraze

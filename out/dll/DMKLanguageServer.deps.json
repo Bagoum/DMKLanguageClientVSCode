@@ -15,6 +15,7 @@
           "Microsoft.Extensions.Logging.Debug": "6.0.0",
           "NReco.Logging.File": "1.1.5",
           "Newtonsoft.Json": "13.0.1",
+          "System.Collections.Immutable": "7.0.0",
           "System.CommandLine": "2.0.0-beta4.22272.1",
           "System.Reactive": "5.0.0",
           "YamlDotNet": "12.0.0",
@@ -234,6 +235,17 @@
           }
         }
       },
+      "System.Collections.Immutable/7.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
       "System.CommandLine/2.0.0-beta4.22272.1": {
         "runtime": {
           "lib/net6.0/System.CommandLine.dll": {
@@ -377,6 +389,14 @@
           }
         }
       },
+      "UnityEngine.Physics2DModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.Physics2DModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "UnityEngine.UI/1.0.0.0": {
         "runtime": {
           "UnityEngine.UI.dll": {
@@ -453,7 +473,7 @@
         "runtime": {
           "protobuf-net.Core.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.52.35479"
+            "fileVersion": "3.1.26.27931"
           }
         }
       },
@@ -465,9 +485,33 @@
           }
         }
       },
+      "CommunityToolkit.HighPerformance/8.0.0.0": {
+        "runtime": {
+          "CommunityToolkit.HighPerformance.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.1"
+          }
+        }
+      },
       "UnityEngine.TextRenderingModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.TextRenderingModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "protobuf-net/3.0.0.0": {
+        "runtime": {
+          "protobuf-net.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.26.27931"
+          }
+        }
+      },
+      "UnityEngine.ImageConversionModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.ImageConversionModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -478,22 +522,6 @@
           "FluentIL.dll": {
             "assemblyVersion": "1.0.1.0",
             "fileVersion": "1.0.1.0"
-          }
-        }
-      },
-      "protobuf-net/3.0.0.0": {
-        "runtime": {
-          "protobuf-net.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.52.35479"
-          }
-        }
-      },
-      "UnityEngine.ImageConversionModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.ImageConversionModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -508,14 +536,6 @@
       "UnityEngine.PhysicsModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.PhysicsModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.Physics2DModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.Physics2DModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -569,9 +589,17 @@
           }
         }
       },
-      "UnityEngine.UIElementsNativeModule/0.0.0.0": {
+      "UnityEngine.PropertiesModule/0.0.0.0": {
         "runtime": {
-          "UnityEngine.UIElementsNativeModule.dll": {
+          "UnityEngine.PropertiesModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.InputForUIModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.InputForUIModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -585,6 +613,14 @@
           }
         }
       },
+      "UnityEngine.HierarchyCoreModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.HierarchyCoreModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "UnityEngine.JSONSerializeModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.JSONSerializeModule.dll": {
@@ -593,195 +629,11 @@
           }
         }
       },
-      "System.ServiceModel/4.0.0.0": {
-        "runtime": {
-          "System.ServiceModel.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
       "UnityEngine.GridModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.GridModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "System.IdentityModel/4.0.0.0": {
-        "runtime": {
-          "System.IdentityModel.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "Mono.Security/4.0.0.0": {
-        "runtime": {
-          "Mono.Security.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
-          }
-        }
-      },
-      "System.Web.ApplicationServices/4.0.0.0": {
-        "runtime": {
-          "System.Web.ApplicationServices.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.Messaging/4.0.0.0": {
-        "runtime": {
-          "System.Messaging.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.IdentityModel.Selectors/4.0.0.0": {
-        "runtime": {
-          "System.IdentityModel.Selectors.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.Web.Services/4.0.0.0": {
-        "runtime": {
-          "System.Web.Services.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.ServiceModel.Activation/4.0.0.0": {
-        "runtime": {
-          "System.ServiceModel.Activation.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.EnterpriseServices/4.0.0.0": {
-        "runtime": {
-          "System.EnterpriseServices.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.Xaml/4.0.0.0": {
-        "runtime": {
-          "System.Xaml.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.Runtime.DurableInstancing/4.0.0.0": {
-        "runtime": {
-          "System.Runtime.DurableInstancing.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "Mono.Messaging/4.0.0.0": {
-        "runtime": {
-          "Mono.Messaging.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.Configuration.Install/4.0.0.0": {
-        "runtime": {
-          "System.Configuration.Install.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.Windows.Forms/4.0.0.0": {
-        "runtime": {
-          "System.Windows.Forms.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.DirectoryServices/4.0.0.0": {
-        "runtime": {
-          "System.DirectoryServices.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.Design/4.0.0.0": {
-        "runtime": {
-          "System.Design.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.ServiceModel.Internals/0.0.0.0": {
-        "runtime": {
-          "System.ServiceModel.Internals.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
-        "runtime": {
-          "System.Runtime.Serialization.Formatters.Soap.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "Accessibility/4.0.0.0": {
-        "runtime": {
-          "Accessibility.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "Mono.WebBrowser/4.0.0.0": {
-        "runtime": {
-          "Mono.WebBrowser.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
-          }
-        }
-      },
-      "Mono.Posix/4.0.0.0": {
-        "runtime": {
-          "Mono.Posix.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
-          }
-        }
-      },
-      "Novell.Directory.Ldap/4.0.0.0": {
-        "runtime": {
-          "Novell.Directory.Ldap.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
-          }
-        }
-      },
-      "System.Drawing.Design/4.0.0.0": {
-        "runtime": {
-          "System.Drawing.Design.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.57.0"
           }
         }
       }
@@ -919,6 +771,13 @@
       "path": "nreco.logging.file/1.1.5",
       "hashPath": "nreco.logging.file.1.1.5.nupkg.sha512"
     },
+    "System.Collections.Immutable/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dQPcs0U1IKnBdRDBkrCTi1FoajSTBzLcVTpjO4MBCMC7f4pDOIPzgBoX8JjG7X6uZRJ8EBxsi8+DR1JuwjnzOQ==",
+      "path": "system.collections.immutable/7.0.0",
+      "hashPath": "system.collections.immutable.7.0.0.nupkg.sha512"
+    },
     "System.CommandLine/2.0.0-beta4.22272.1": {
       "type": "package",
       "serviceable": true,
@@ -999,6 +858,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "UnityEngine.Physics2DModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.UI/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -1054,12 +918,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.TextRenderingModule/0.0.0.0": {
+    "CommunityToolkit.HighPerformance/8.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "FluentIL/1.0.1.0": {
+    "UnityEngine.TextRenderingModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1074,17 +938,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "FluentIL/1.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.SharedInternalsModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "UnityEngine.PhysicsModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.Physics2DModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1119,7 +983,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.UIElementsNativeModule/0.0.0.0": {
+    "UnityEngine.PropertiesModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.InputForUIModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1129,127 +998,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "UnityEngine.HierarchyCoreModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.JSONSerializeModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "System.ServiceModel/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "UnityEngine.GridModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.IdentityModel/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Mono.Security/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Web.ApplicationServices/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Messaging/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.IdentityModel.Selectors/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Web.Services/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.ServiceModel.Activation/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.EnterpriseServices/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Xaml/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Runtime.DurableInstancing/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Mono.Messaging/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Configuration.Install/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Windows.Forms/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.DirectoryServices/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Design/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.ServiceModel.Internals/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Accessibility/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Mono.WebBrowser/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Mono.Posix/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Novell.Directory.Ldap/4.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Drawing.Design/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

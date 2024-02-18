@@ -7,21 +7,21 @@ items:
   children:
   - Danmokou.DMath.Functions.ExMPred.And(tbool,tbool)
   - Danmokou.DMath.Functions.ExMPred.DivBy(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMPred.Eq(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Eq``1(TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExMPred.Even(tfloat)
   - Danmokou.DMath.Functions.ExMPred.False
-  - Danmokou.DMath.Functions.ExMPred.Geq(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMPred.Gt(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Geq``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMPred.Gt``1(TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExMPred.In(tfloat,tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMPred.Leq(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMPred.Lt(tfloat,tfloat)
-  - Danmokou.DMath.Functions.ExMPred.Neq(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExMPred.Leq``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMPred.Lt``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMPred.Neq``1(TEx{``0},TEx{``0})
   - Danmokou.DMath.Functions.ExMPred.Not(tbool)
   - Danmokou.DMath.Functions.ExMPred.Odd(tfloat)
   - Danmokou.DMath.Functions.ExMPred.OffScreen(TEx{Vector2})
   - Danmokou.DMath.Functions.ExMPred.OffScreenBy(TEx{System.Single},TEx{Vector2})
-  - Danmokou.DMath.Functions.ExMPred.OnScreen(EEx{Vector2})
-  - Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx{System.Single},EEx{Vector2})
+  - Danmokou.DMath.Functions.ExMPred.OnScreen(TEx{Vector2})
+  - Danmokou.DMath.Functions.ExMPred.OnScreenBy(TEx{System.Single},TEx{Vector2})
   - Danmokou.DMath.Functions.ExMPred.Or(tbool,tbool)
   - Danmokou.DMath.Functions.ExMPred.True
   langs:
@@ -34,7 +34,7 @@ items:
   source:
     id: ExMPred
     path: ''
-    startLine: 8577
+    startLine: 8813
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -74,7 +74,7 @@ items:
   source:
     id: "True"
     path: ''
-    startLine: 7908
+    startLine: 8153
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -107,7 +107,7 @@ items:
   source:
     id: "False"
     path: ''
-    startLine: 7914
+    startLine: 8159
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -140,7 +140,7 @@ items:
   source:
     id: Not
     path: ''
-    startLine: 7920
+    startLine: 8165
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -175,7 +175,7 @@ items:
   source:
     id: And
     path: ''
-    startLine: 7927
+    startLine: 8173
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -215,7 +215,7 @@ items:
   source:
     id: Or
     path: ''
-    startLine: 7937
+    startLine: 8183
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -241,240 +241,270 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMPred.Eq(tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMPred.Eq(tfloat,tfloat)
-  id: Eq(tfloat,tfloat)
+- uid: Danmokou.DMath.Functions.ExMPred.Eq``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Eq``1(TEx{``0},TEx{``0})
+  id: Eq``1(TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMPred
   langs:
   - csharp
   - vb
-  name: Eq(tfloat, tfloat)
-  nameWithType: ExMPred.Eq(tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMPred.Eq(tfloat, tfloat)
+  name: Eq<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMPred.Eq<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMPred.Eq<T>(TEx<T>, TEx<T>)
   type: Method
   source:
     id: Eq
     path: ''
-    startLine: 7945
+    startLine: 8191
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true iff the first argument is equal to the second.\n"
   example: []
   syntax:
-    content: public static tbool Eq(tfloat b1, tfloat b2)
+    content: public static tbool Eq<T>(TEx<T> b1, TEx<T> b2)
     parameters:
     - id: b1
-      type: tfloat
+      type: TEx{{T}}
     - id: b2
-      type: tfloat
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
     return:
       type: tbool
-    content.vb: Public Shared Function Eq(b1 As tfloat, b2 As tfloat) As tbool
+    content.vb: Public Shared Function Eq(Of T)(b1 As TEx(Of T), b2 As TEx(Of T)) As tbool
   overload: Danmokou.DMath.Functions.ExMPred.Eq*
+  nameWithType.vb: ExMPred.Eq(Of T)(TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMPred.Neq(tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMPred.Neq(tfloat,tfloat)
-  id: Neq(tfloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.Eq(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Eq(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMPred.Neq``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Neq``1(TEx{``0},TEx{``0})
+  id: Neq``1(TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMPred
   langs:
   - csharp
   - vb
-  name: Neq(tfloat, tfloat)
-  nameWithType: ExMPred.Neq(tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMPred.Neq(tfloat, tfloat)
+  name: Neq<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMPred.Neq<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMPred.Neq<T>(TEx<T>, TEx<T>)
   type: Method
   source:
     id: Neq
     path: ''
-    startLine: 7951
+    startLine: 8197
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true iff the first argument is not equal to the second.\n"
   example: []
   syntax:
-    content: public static tbool Neq(tfloat b1, tfloat b2)
+    content: public static tbool Neq<T>(TEx<T> b1, TEx<T> b2)
     parameters:
     - id: b1
-      type: tfloat
+      type: TEx{{T}}
     - id: b2
-      type: tfloat
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
     return:
       type: tbool
-    content.vb: Public Shared Function Neq(b1 As tfloat, b2 As tfloat) As tbool
+    content.vb: Public Shared Function Neq(Of T)(b1 As TEx(Of T), b2 As TEx(Of T)) As tbool
   overload: Danmokou.DMath.Functions.ExMPred.Neq*
+  nameWithType.vb: ExMPred.Neq(Of T)(TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMPred.Gt(tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMPred.Gt(tfloat,tfloat)
-  id: Gt(tfloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.Neq(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Neq(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMPred.Gt``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Gt``1(TEx{``0},TEx{``0})
+  id: Gt``1(TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMPred
   langs:
   - csharp
   - vb
-  name: Gt(tfloat, tfloat)
-  nameWithType: ExMPred.Gt(tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMPred.Gt(tfloat, tfloat)
+  name: Gt<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMPred.Gt<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMPred.Gt<T>(TEx<T>, TEx<T>)
   type: Method
   source:
     id: Gt
     path: ''
-    startLine: 7961
+    startLine: 8207
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true iff the first argument is greater than the second.\n"
   example: []
   syntax:
-    content: public static tbool Gt(tfloat b1, tfloat b2)
+    content: public static tbool Gt<T>(TEx<T> b1, TEx<T> b2)
     parameters:
     - id: b1
-      type: tfloat
+      type: TEx{{T}}
       description: First BPY function
     - id: b2
-      type: tfloat
+      type: TEx{{T}}
       description: Second BPY function
+    typeParameters:
+    - id: T
     return:
       type: tbool
       description: ''
-    content.vb: Public Shared Function Gt(b1 As tfloat, b2 As tfloat) As tbool
+    content.vb: Public Shared Function Gt(Of T)(b1 As TEx(Of T), b2 As TEx(Of T)) As tbool
   overload: Danmokou.DMath.Functions.ExMPred.Gt*
+  nameWithType.vb: ExMPred.Gt(Of T)(TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMPred.Geq(tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMPred.Geq(tfloat,tfloat)
-  id: Geq(tfloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.Gt(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Gt(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMPred.Geq``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Geq``1(TEx{``0},TEx{``0})
+  id: Geq``1(TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMPred
   langs:
   - csharp
   - vb
-  name: Geq(tfloat, tfloat)
-  nameWithType: ExMPred.Geq(tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMPred.Geq(tfloat, tfloat)
+  name: Geq<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMPred.Geq<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMPred.Geq<T>(TEx<T>, TEx<T>)
   type: Method
   source:
     id: Geq
     path: ''
-    startLine: 7971
+    startLine: 8217
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true iff the first argument is greater than or equal to the second.\n"
   example: []
   syntax:
-    content: public static tbool Geq(tfloat b1, tfloat b2)
+    content: public static tbool Geq<T>(TEx<T> b1, TEx<T> b2)
     parameters:
     - id: b1
-      type: tfloat
+      type: TEx{{T}}
       description: First BPY function
     - id: b2
-      type: tfloat
+      type: TEx{{T}}
       description: Second BPY function
+    typeParameters:
+    - id: T
     return:
       type: tbool
       description: ''
-    content.vb: Public Shared Function Geq(b1 As tfloat, b2 As tfloat) As tbool
+    content.vb: Public Shared Function Geq(Of T)(b1 As TEx(Of T), b2 As TEx(Of T)) As tbool
   overload: Danmokou.DMath.Functions.ExMPred.Geq*
+  nameWithType.vb: ExMPred.Geq(Of T)(TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMPred.Lt(tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMPred.Lt(tfloat,tfloat)
-  id: Lt(tfloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.Geq(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Geq(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMPred.Lt``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Lt``1(TEx{``0},TEx{``0})
+  id: Lt``1(TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMPred
   langs:
   - csharp
   - vb
-  name: Lt(tfloat, tfloat)
-  nameWithType: ExMPred.Lt(tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMPred.Lt(tfloat, tfloat)
+  name: Lt<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMPred.Lt<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMPred.Lt<T>(TEx<T>, TEx<T>)
   type: Method
   source:
     id: Lt
     path: ''
-    startLine: 7981
+    startLine: 8227
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true iff the first argument is less than the second.\n"
   example: []
   syntax:
-    content: public static tbool Lt(tfloat b1, tfloat b2)
+    content: public static tbool Lt<T>(TEx<T> b1, TEx<T> b2)
     parameters:
     - id: b1
-      type: tfloat
+      type: TEx{{T}}
       description: First BPY function
     - id: b2
-      type: tfloat
+      type: TEx{{T}}
       description: Second BPY function
+    typeParameters:
+    - id: T
     return:
       type: tbool
       description: ''
-    content.vb: Public Shared Function Lt(b1 As tfloat, b2 As tfloat) As tbool
+    content.vb: Public Shared Function Lt(Of T)(b1 As TEx(Of T), b2 As TEx(Of T)) As tbool
   overload: Danmokou.DMath.Functions.ExMPred.Lt*
+  nameWithType.vb: ExMPred.Lt(Of T)(TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMPred.Leq(tfloat,tfloat)
-  commentId: M:Danmokou.DMath.Functions.ExMPred.Leq(tfloat,tfloat)
-  id: Leq(tfloat,tfloat)
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.Lt(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Lt(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMPred.Leq``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.Leq``1(TEx{``0},TEx{``0})
+  id: Leq``1(TEx{``0},TEx{``0})
   parent: Danmokou.DMath.Functions.ExMPred
   langs:
   - csharp
   - vb
-  name: Leq(tfloat, tfloat)
-  nameWithType: ExMPred.Leq(tfloat, tfloat)
-  fullName: Danmokou.DMath.Functions.ExMPred.Leq(tfloat, tfloat)
+  name: Leq<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMPred.Leq<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMPred.Leq<T>(TEx<T>, TEx<T>)
   type: Method
   source:
     id: Leq
     path: ''
-    startLine: 7991
+    startLine: 8237
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true iff the first argument is less than or equal to the second.\n"
   example: []
   syntax:
-    content: public static tbool Leq(tfloat b1, tfloat b2)
+    content: public static tbool Leq<T>(TEx<T> b1, TEx<T> b2)
     parameters:
     - id: b1
-      type: tfloat
+      type: TEx{{T}}
       description: First BPY function
     - id: b2
-      type: tfloat
+      type: TEx{{T}}
       description: Second BPY function
+    typeParameters:
+    - id: T
     return:
       type: tbool
       description: ''
-    content.vb: Public Shared Function Leq(b1 As tfloat, b2 As tfloat) As tbool
+    content.vb: Public Shared Function Leq(Of T)(b1 As TEx(Of T), b2 As TEx(Of T)) As tbool
   overload: Danmokou.DMath.Functions.ExMPred.Leq*
+  nameWithType.vb: ExMPred.Leq(Of T)(TEx(Of T), TEx(Of T))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.Leq(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Leq(Of T)(TEx(Of T), TEx(Of T))
 - uid: Danmokou.DMath.Functions.ExMPred.In(tfloat,tfloat,tfloat)
   commentId: M:Danmokou.DMath.Functions.ExMPred.In(tfloat,tfloat,tfloat)
   id: In(tfloat,tfloat,tfloat)
@@ -489,7 +519,7 @@ items:
   source:
     id: In
     path: ''
-    startLine: 8002
+    startLine: 8248
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -532,7 +562,7 @@ items:
   source:
     id: DivBy
     path: ''
-    startLine: 8014
+    startLine: 8260
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -567,7 +597,7 @@ items:
   source:
     id: Even
     path: ''
-    startLine: 8018
+    startLine: 8264
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -602,7 +632,7 @@ items:
   source:
     id: Odd
     path: ''
-    startLine: 8022
+    startLine: 8268
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -623,86 +653,86 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExMPred.OnScreen(EEx{Vector2})
-  commentId: M:Danmokou.DMath.Functions.ExMPred.OnScreen(EEx{Vector2})
-  id: OnScreen(EEx{Vector2})
+- uid: Danmokou.DMath.Functions.ExMPred.OnScreen(TEx{Vector2})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.OnScreen(TEx{Vector2})
+  id: OnScreen(TEx{Vector2})
   parent: Danmokou.DMath.Functions.ExMPred
   langs:
   - csharp
   - vb
-  name: OnScreen(EEx<Vector2>)
-  nameWithType: ExMPred.OnScreen(EEx<Vector2>)
-  fullName: Danmokou.DMath.Functions.ExMPred.OnScreen(EEx<Vector2>)
+  name: OnScreen(TEx<Vector2>)
+  nameWithType: ExMPred.OnScreen(TEx<Vector2>)
+  fullName: Danmokou.DMath.Functions.ExMPred.OnScreen(TEx<Vector2>)
   type: Method
   source:
     id: OnScreen
     path: ''
-    startLine: 8583
+    startLine: 8819
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true iff the location is within the playing field.\n"
   example: []
   syntax:
-    content: public static TEx<bool> OnScreen(EEx<Vector2> loc)
+    content: public static TEx<bool> OnScreen(TEx<Vector2> loc)
     parameters:
     - id: loc
-      type: EEx{Vector2}
+      type: TEx{Vector2}
       description: ''
     return:
       type: TEx{System.Boolean}
       description: ''
-    content.vb: Public Shared Function OnScreen(loc As EEx(Of Vector2)) As TEx(Of Boolean)
+    content.vb: Public Shared Function OnScreen(loc As TEx(Of Vector2)) As TEx(Of Boolean)
   overload: Danmokou.DMath.Functions.ExMPred.OnScreen*
-  nameWithType.vb: ExMPred.OnScreen(EEx(Of Vector2))
+  nameWithType.vb: ExMPred.OnScreen(TEx(Of Vector2))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMPred.OnScreen(EEx(Of Vector2))
-  name.vb: OnScreen(EEx(Of Vector2))
-- uid: Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx{System.Single},EEx{Vector2})
-  commentId: M:Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx{System.Single},EEx{Vector2})
-  id: OnScreenBy(EEx{System.Single},EEx{Vector2})
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.OnScreen(TEx(Of Vector2))
+  name.vb: OnScreen(TEx(Of Vector2))
+- uid: Danmokou.DMath.Functions.ExMPred.OnScreenBy(TEx{System.Single},TEx{Vector2})
+  commentId: M:Danmokou.DMath.Functions.ExMPred.OnScreenBy(TEx{System.Single},TEx{Vector2})
+  id: OnScreenBy(TEx{System.Single},TEx{Vector2})
   parent: Danmokou.DMath.Functions.ExMPred
   langs:
   - csharp
   - vb
-  name: OnScreenBy(EEx<Single>, EEx<Vector2>)
-  nameWithType: ExMPred.OnScreenBy(EEx<Single>, EEx<Vector2>)
-  fullName: Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx<System.Single>, EEx<Vector2>)
+  name: OnScreenBy(TEx<Single>, TEx<Vector2>)
+  nameWithType: ExMPred.OnScreenBy(TEx<Single>, TEx<Vector2>)
+  fullName: Danmokou.DMath.Functions.ExMPred.OnScreenBy(TEx<System.Single>, TEx<Vector2>)
   type: Method
   source:
     id: OnScreenBy
     path: ''
-    startLine: 8591
+    startLine: 8828
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nReturn true if the location is within BY units (square expansion) of the edge of the playing field.\n"
   example: []
   syntax:
-    content: public static TEx<bool> OnScreenBy(EEx<float> by, EEx<Vector2> loc)
+    content: public static TEx<bool> OnScreenBy(TEx<float> by, TEx<Vector2> loc)
     parameters:
     - id: by
-      type: EEx{System.Single}
+      type: TEx{System.Single}
     - id: loc
-      type: EEx{Vector2}
+      type: TEx{Vector2}
     return:
       type: TEx{System.Boolean}
-    content.vb: Public Shared Function OnScreenBy(by As EEx(Of Single), loc As EEx(Of Vector2)) As TEx(Of Boolean)
+    content.vb: Public Shared Function OnScreenBy(by As TEx(Of Single), loc As TEx(Of Vector2)) As TEx(Of Boolean)
   overload: Danmokou.DMath.Functions.ExMPred.OnScreenBy*
-  nameWithType.vb: ExMPred.OnScreenBy(EEx(Of Single), EEx(Of Vector2))
+  nameWithType.vb: ExMPred.OnScreenBy(TEx(Of Single), TEx(Of Vector2))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.ExMPred.OnScreenBy(EEx(Of System.Single), EEx(Of Vector2))
-  name.vb: OnScreenBy(EEx(Of Single), EEx(Of Vector2))
+  fullName.vb: Danmokou.DMath.Functions.ExMPred.OnScreenBy(TEx(Of System.Single), TEx(Of Vector2))
+  name.vb: OnScreenBy(TEx(Of Single), TEx(Of Vector2))
 - uid: Danmokou.DMath.Functions.ExMPred.OffScreen(TEx{Vector2})
   commentId: M:Danmokou.DMath.Functions.ExMPred.OffScreen(TEx{Vector2})
   id: OffScreen(TEx{Vector2})
@@ -717,7 +747,7 @@ items:
   source:
     id: OffScreen
     path: ''
-    startLine: 8600
+    startLine: 8838
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -755,7 +785,7 @@ items:
   source:
     id: OffScreenBy
     path: ''
-    startLine: 8605
+    startLine: 8843
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1114,11 +1144,83 @@ references:
   name: Eq
   nameWithType: ExMPred.Eq
   fullName: Danmokou.DMath.Functions.ExMPred.Eq
-- uid: tfloat
+- uid: TEx{{T}}
+  commentId: '!:TEx{``0}'
+  definition: TEx`1
+  name: TEx<T>
+  nameWithType: TEx<T>
+  fullName: TEx<T>
+  nameWithType.vb: TEx(Of T)
+  fullName.vb: TEx(Of T)
+  name.vb: TEx(Of T)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx`1
   isExternal: true
-  name: tfloat
-  nameWithType: tfloat
-  fullName: tfloat
+  name: TEx<>
+  nameWithType: TEx<>
+  fullName: TEx<>
+  nameWithType.vb: TEx(Of )
+  fullName.vb: TEx(Of )
+  name.vb: TEx(Of )
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExMPred.Neq*
   commentId: Overload:Danmokou.DMath.Functions.ExMPred.Neq
   name: Neq
@@ -1149,6 +1251,11 @@ references:
   name: In
   nameWithType: ExMPred.In
   fullName: Danmokou.DMath.Functions.ExMPred.In
+- uid: tfloat
+  isExternal: true
+  name: tfloat
+  nameWithType: tfloat
+  fullName: tfloat
 - uid: Danmokou.DMath.Functions.ExMPred.DivBy*
   commentId: Overload:Danmokou.DMath.Functions.ExMPred.DivBy
   name: DivBy
@@ -1169,20 +1276,20 @@ references:
   name: OnScreen
   nameWithType: ExMPred.OnScreen
   fullName: Danmokou.DMath.Functions.ExMPred.OnScreen
-- uid: EEx{Vector2}
-  commentId: '!:EEx{Vector2}'
-  definition: EEx`1
-  name: EEx<Vector2>
-  nameWithType: EEx<Vector2>
-  fullName: EEx<Vector2>
-  nameWithType.vb: EEx(Of Vector2)
-  fullName.vb: EEx(Of Vector2)
-  name.vb: EEx(Of Vector2)
+- uid: TEx{Vector2}
+  commentId: '!:TEx{Vector2}'
+  definition: TEx`1
+  name: TEx<Vector2>
+  nameWithType: TEx<Vector2>
+  fullName: TEx<Vector2>
+  nameWithType.vb: TEx(Of Vector2)
+  fullName.vb: TEx(Of Vector2)
+  name.vb: TEx(Of Vector2)
   spec.csharp:
-  - uid: EEx`1
-    name: EEx
-    nameWithType: EEx
-    fullName: EEx
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
     isExternal: true
   - name: <
     nameWithType: <
@@ -1196,10 +1303,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: EEx`1
-    name: EEx
-    nameWithType: EEx
-    fullName: EEx
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1255,183 +1362,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EEx`1
-  isExternal: true
-  name: EEx<>
-  nameWithType: EEx<>
-  fullName: EEx<>
-  nameWithType.vb: EEx(Of )
-  fullName.vb: EEx(Of )
-  name.vb: EEx(Of )
-  spec.csharp:
-  - uid: EEx`1
-    name: EEx
-    nameWithType: EEx
-    fullName: EEx
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EEx`1
-    name: EEx
-    nameWithType: EEx
-    fullName: EEx
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: TEx`1
-  isExternal: true
-  name: TEx<>
-  nameWithType: TEx<>
-  fullName: TEx<>
-  nameWithType.vb: TEx(Of )
-  fullName.vb: TEx(Of )
-  name.vb: TEx(Of )
-  spec.csharp:
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Danmokou.DMath.Functions.ExMPred.OnScreenBy*
   commentId: Overload:Danmokou.DMath.Functions.ExMPred.OnScreenBy
   name: OnScreenBy
   nameWithType: ExMPred.OnScreenBy
   fullName: Danmokou.DMath.Functions.ExMPred.OnScreenBy
-- uid: EEx{System.Single}
-  commentId: '!:EEx{System.Single}'
-  definition: EEx`1
-  name: EEx<Single>
-  nameWithType: EEx<Single>
-  fullName: EEx<System.Single>
-  nameWithType.vb: EEx(Of Single)
-  fullName.vb: EEx(Of System.Single)
-  name.vb: EEx(Of Single)
-  spec.csharp:
-  - uid: EEx`1
-    name: EEx
-    nameWithType: EEx
-    fullName: EEx
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Single
-    name: Single
-    nameWithType: Single
-    fullName: System.Single
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: EEx`1
-    name: EEx
-    nameWithType: EEx
-    fullName: EEx
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Single
-    name: Single
-    nameWithType: Single
-    fullName: System.Single
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Danmokou.DMath.Functions.ExMPred.OffScreen*
-  commentId: Overload:Danmokou.DMath.Functions.ExMPred.OffScreen
-  name: OffScreen
-  nameWithType: ExMPred.OffScreen
-  fullName: Danmokou.DMath.Functions.ExMPred.OffScreen
-- uid: TEx{Vector2}
-  commentId: '!:TEx{Vector2}'
-  definition: TEx`1
-  name: TEx<Vector2>
-  nameWithType: TEx<Vector2>
-  fullName: TEx<Vector2>
-  nameWithType.vb: TEx(Of Vector2)
-  fullName.vb: TEx(Of Vector2)
-  name.vb: TEx(Of Vector2)
-  spec.csharp:
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Vector2
-    name: Vector2
-    nameWithType: Vector2
-    fullName: Vector2
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Vector2
-    name: Vector2
-    nameWithType: Vector2
-    fullName: Vector2
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Danmokou.DMath.Functions.ExMPred.OffScreenBy*
-  commentId: Overload:Danmokou.DMath.Functions.ExMPred.OffScreenBy
-  name: OffScreenBy
-  nameWithType: ExMPred.OffScreenBy
-  fullName: Danmokou.DMath.Functions.ExMPred.OffScreenBy
 - uid: TEx{System.Single}
   commentId: '!:TEx{System.Single}'
   definition: TEx`1
@@ -1475,3 +1410,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Danmokou.DMath.Functions.ExMPred.OffScreen*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.OffScreen
+  name: OffScreen
+  nameWithType: ExMPred.OffScreen
+  fullName: Danmokou.DMath.Functions.ExMPred.OffScreen
+- uid: Danmokou.DMath.Functions.ExMPred.OffScreenBy*
+  commentId: Overload:Danmokou.DMath.Functions.ExMPred.OffScreenBy
+  name: OffScreenBy
+  nameWithType: ExMPred.OffScreenBy
+  fullName: Danmokou.DMath.Functions.ExMPred.OffScreenBy

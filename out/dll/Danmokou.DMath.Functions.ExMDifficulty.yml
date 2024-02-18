@@ -27,7 +27,7 @@ items:
   source:
     id: ExMDifficulty
     path: ''
-    startLine: 11645
+    startLine: 12133
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -67,7 +67,7 @@ items:
   source:
     id: D
     path: ''
-    startLine: 11656
+    startLine: 12145
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -99,7 +99,7 @@ items:
   source:
     id: Dc
     path: ''
-    startLine: 11660
+    startLine: 12150
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -131,7 +131,7 @@ items:
   source:
     id: DcL
     path: ''
-    startLine: 11664
+    startLine: 12155
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -163,7 +163,7 @@ items:
   source:
     id: DN
     path: ''
-    startLine: 11669
+    startLine: 12160
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -195,7 +195,7 @@ items:
   source:
     id: DH
     path: ''
-    startLine: 11673
+    startLine: 12165
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -227,7 +227,7 @@ items:
   source:
     id: DL
     path: ''
-    startLine: 11677
+    startLine: 12170
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -259,7 +259,7 @@ items:
   source:
     id: D3d2
     path: ''
-    startLine: 11690
+    startLine: 12183
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -292,7 +292,7 @@ items:
   source:
     id: D3d1
     path: ''
-    startLine: 11697
+    startLine: 12191
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -305,70 +305,6 @@ items:
       description: ''
     content.vb: Public Shared Function D3d1 As tfloat
   overload: Danmokou.DMath.Functions.ExMDifficulty.D3d1*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: Danmokou.DMath.Functions.ExMDifficulty.MinRank
-  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.MinRank
-  id: MinRank
-  parent: Danmokou.DMath.Functions.ExMDifficulty
-  langs:
-  - csharp
-  - vb
-  name: MinRank()
-  nameWithType: ExMDifficulty.MinRank()
-  fullName: Danmokou.DMath.Functions.ExMDifficulty.MinRank()
-  type: Method
-  source:
-    id: MinRank
-    path: ''
-    startLine: 11740
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.DMath.Functions
-  summary: "\nMinumum possible rank value (inclusive).\n"
-  example: []
-  syntax:
-    content: public static tfloat MinRank()
-    return:
-      type: tfloat
-    content.vb: Public Shared Function MinRank As tfloat
-  overload: Danmokou.DMath.Functions.ExMDifficulty.MinRank*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: Danmokou.DMath.Functions.ExMDifficulty.MaxRank
-  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.MaxRank
-  id: MaxRank
-  parent: Danmokou.DMath.Functions.ExMDifficulty
-  langs:
-  - csharp
-  - vb
-  name: MaxRank()
-  nameWithType: ExMDifficulty.MaxRank()
-  fullName: Danmokou.DMath.Functions.ExMDifficulty.MaxRank()
-  type: Method
-  source:
-    id: MaxRank
-    path: ''
-    startLine: 11744
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.DMath.Functions
-  summary: "\nMaximum possible rank value (inclusive).\n"
-  example: []
-  syntax:
-    content: public static tfloat MaxRank()
-    return:
-      type: tfloat
-    content.vb: Public Shared Function MaxRank As tfloat
-  overload: Danmokou.DMath.Functions.ExMDifficulty.MaxRank*
   modifiers.csharp:
   - public
   - static
@@ -389,7 +325,7 @@ items:
   source:
     id: Rank
     path: ''
-    startLine: 11748
+    startLine: 12202
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -421,7 +357,7 @@ items:
   source:
     id: RankRatio
     path: ''
-    startLine: 11751
+    startLine: 12204
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -431,6 +367,70 @@ items:
       type: tfloat
     content.vb: Public Shared Function RankRatio As tfloat
   overload: Danmokou.DMath.Functions.ExMDifficulty.RankRatio*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.MinRank
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.MinRank
+  id: MinRank
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: MinRank()
+  nameWithType: ExMDifficulty.MinRank()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.MinRank()
+  type: Method
+  source:
+    id: MinRank
+    path: ''
+    startLine: 12210
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMinumum possible rank value (inclusive).\n"
+  example: []
+  syntax:
+    content: public static tfloat MinRank()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function MinRank As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.MinRank*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExMDifficulty.MaxRank
+  commentId: M:Danmokou.DMath.Functions.ExMDifficulty.MaxRank
+  id: MaxRank
+  parent: Danmokou.DMath.Functions.ExMDifficulty
+  langs:
+  - csharp
+  - vb
+  name: MaxRank()
+  nameWithType: ExMDifficulty.MaxRank()
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.MaxRank()
+  type: Method
+  source:
+    id: MaxRank
+    path: ''
+    startLine: 12216
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nMaximum possible rank value (inclusive).\n"
+  example: []
+  syntax:
+    content: public static tfloat MaxRank()
+    return:
+      type: tfloat
+    content.vb: Public Shared Function MaxRank As tfloat
+  overload: Danmokou.DMath.Functions.ExMDifficulty.MaxRank*
   modifiers.csharp:
   - public
   - static
@@ -785,16 +785,6 @@ references:
   name: D3d1
   nameWithType: ExMDifficulty.D3d1
   fullName: Danmokou.DMath.Functions.ExMDifficulty.D3d1
-- uid: Danmokou.DMath.Functions.ExMDifficulty.MinRank*
-  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.MinRank
-  name: MinRank
-  nameWithType: ExMDifficulty.MinRank
-  fullName: Danmokou.DMath.Functions.ExMDifficulty.MinRank
-- uid: Danmokou.DMath.Functions.ExMDifficulty.MaxRank*
-  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.MaxRank
-  name: MaxRank
-  nameWithType: ExMDifficulty.MaxRank
-  fullName: Danmokou.DMath.Functions.ExMDifficulty.MaxRank
 - uid: Danmokou.DMath.Functions.ExMDifficulty.Rank*
   commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.Rank
   name: Rank
@@ -805,3 +795,13 @@ references:
   name: RankRatio
   nameWithType: ExMDifficulty.RankRatio
   fullName: Danmokou.DMath.Functions.ExMDifficulty.RankRatio
+- uid: Danmokou.DMath.Functions.ExMDifficulty.MinRank*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.MinRank
+  name: MinRank
+  nameWithType: ExMDifficulty.MinRank
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.MinRank
+- uid: Danmokou.DMath.Functions.ExMDifficulty.MaxRank*
+  commentId: Overload:Danmokou.DMath.Functions.ExMDifficulty.MaxRank
+  name: MaxRank
+  nameWithType: ExMDifficulty.MaxRank
+  fullName: Danmokou.DMath.Functions.ExMDifficulty.MaxRank

@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.ErasedGCXF
+  commentId: T:Danmokou.DMath.ErasedGCXF
+  id: ErasedGCXF
+  parent: Danmokou.DMath
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ErasedGCXF
+  nameWithType: ErasedGCXF
+  fullName: Danmokou.DMath.ErasedGCXF
+  type: Delegate
+  source:
+    id: ErasedGCXF
+    path: ''
+    startLine: 7494
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  summary: "\nA wrapper around <xref href=\"Danmokou.DMath.GCXF%601\" data-throw-if-not-resolved=\"false\"></xref> whose return value is discarded.\n"
+  example: []
+  syntax:
+    content: public delegate void ErasedGCXF(GenCtx gcx);
+    parameters:
+    - id: gcx
+      type: GenCtx
+    content.vb: Public Delegate Sub ErasedGCXF(gcx As GenCtx)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Danmokou.DMath.GCXF`1
+  commentId: T:Danmokou.DMath.GCXF`1
+  name: GCXF<T>
+  nameWithType: GCXF<T>
+  fullName: Danmokou.DMath.GCXF<T>
+  nameWithType.vb: GCXF(Of T)
+  fullName.vb: Danmokou.DMath.GCXF(Of T)
+  name.vb: GCXF(Of T)
+  spec.csharp:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Danmokou.DMath.GCXF`1
+    name: GCXF
+    nameWithType: GCXF
+    fullName: Danmokou.DMath.GCXF
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath
+  commentId: N:Danmokou.DMath
+  name: Danmokou.DMath
+  nameWithType: Danmokou.DMath
+  fullName: Danmokou.DMath
+- uid: GenCtx
+  isExternal: true
+  name: GenCtx
+  nameWithType: GenCtx
+  fullName: GenCtx

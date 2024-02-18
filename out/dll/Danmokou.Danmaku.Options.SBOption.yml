@@ -6,9 +6,9 @@ items:
   parent: Danmokou.Danmaku.Options
   children:
   - Danmokou.Danmaku.Options.SBOption.Dir(System.Func{TExArgCtx,TEx{System.Single}})
-  - Danmokou.Danmaku.Options.SBOption.Dir2(GCXU{SBV2})
+  - Danmokou.Danmaku.Options.SBOption.Dir2(SBV2)
   - Danmokou.Danmaku.Options.SBOption.Player(System.Int32,System.Int32,System.String)
-  - Danmokou.Danmaku.Options.SBOption.Scale(GCXU{BPY})
+  - Danmokou.Danmaku.Options.SBOption.Scale(BPY)
   langs:
   - csharp
   - vb
@@ -19,7 +19,7 @@ items:
   source:
     id: SBOption
     path: ''
-    startLine: 3936
+    startLine: 4505
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -44,44 +44,41 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Danmokou.Danmaku.Options.SBOption.Scale(GCXU{BPY})
-  commentId: M:Danmokou.Danmaku.Options.SBOption.Scale(GCXU{BPY})
-  id: Scale(GCXU{BPY})
+- uid: Danmokou.Danmaku.Options.SBOption.Scale(BPY)
+  commentId: M:Danmokou.Danmaku.Options.SBOption.Scale(BPY)
+  id: Scale(BPY)
   parent: Danmokou.Danmaku.Options.SBOption
   langs:
   - csharp
   - vb
-  name: Scale(GCXU<BPY>)
-  nameWithType: SBOption.Scale(GCXU<BPY>)
-  fullName: Danmokou.Danmaku.Options.SBOption.Scale(GCXU<BPY>)
+  name: Scale(BPY)
+  nameWithType: SBOption.Scale(BPY)
+  fullName: Danmokou.Danmaku.Options.SBOption.Scale(BPY)
   type: Method
   source:
     id: Scale
     path: ''
-    startLine: 3941
+    startLine: 4510
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nGive the bullet a custom scale.\n"
   example: []
   syntax:
-    content: public static SBOption Scale(GCXU<BPY> scale)
+    content: public static SBOption Scale(BPY scale)
     parameters:
     - id: scale
-      type: GCXU{BPY}
+      type: BPY
     return:
       type: Danmokou.Danmaku.Options.SBOption
-    content.vb: Public Shared Function Scale(scale As GCXU(Of BPY)) As SBOption
+    content.vb: Public Shared Function Scale(scale As BPY) As SBOption
   overload: Danmokou.Danmaku.Options.SBOption.Scale*
-  nameWithType.vb: SBOption.Scale(GCXU(Of BPY))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.SBOption.Scale(GCXU(Of BPY))
-  name.vb: Scale(GCXU(Of BPY))
 - uid: Danmokou.Danmaku.Options.SBOption.Dir(System.Func{TExArgCtx,TEx{System.Single}})
   commentId: M:Danmokou.Danmaku.Options.SBOption.Dir(System.Func{TExArgCtx,TEx{System.Single}})
   id: Dir(System.Func{TExArgCtx,TEx{System.Single}})
@@ -96,7 +93,7 @@ items:
   source:
     id: Dir
     path: ''
-    startLine: 3945
+    startLine: 4515
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -120,44 +117,41 @@ items:
   - Shared
   fullName.vb: Danmokou.Danmaku.Options.SBOption.Dir(System.Func(Of TExArgCtx, TEx(Of System.Single)))
   name.vb: Dir(Func(Of TExArgCtx, TEx(Of Single)))
-- uid: Danmokou.Danmaku.Options.SBOption.Dir2(GCXU{SBV2})
-  commentId: M:Danmokou.Danmaku.Options.SBOption.Dir2(GCXU{SBV2})
-  id: Dir2(GCXU{SBV2})
+- uid: Danmokou.Danmaku.Options.SBOption.Dir2(SBV2)
+  commentId: M:Danmokou.Danmaku.Options.SBOption.Dir2(SBV2)
+  id: Dir2(SBV2)
   parent: Danmokou.Danmaku.Options.SBOption
   langs:
   - csharp
   - vb
-  name: Dir2(GCXU<SBV2>)
-  nameWithType: SBOption.Dir2(GCXU<SBV2>)
-  fullName: Danmokou.Danmaku.Options.SBOption.Dir2(GCXU<SBV2>)
+  name: Dir2(SBV2)
+  nameWithType: SBOption.Dir2(SBV2)
+  fullName: Danmokou.Danmaku.Options.SBOption.Dir2(SBV2)
   type: Method
   source:
     id: Dir2
     path: ''
-    startLine: 3949
+    startLine: 4521
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
   summary: "\nGive the bullet a custom rotation function, in cos/sin coordinates.\n"
   example: []
   syntax:
-    content: public static SBOption Dir2(GCXU<SBV2> dir)
+    content: public static SBOption Dir2(SBV2 dir)
     parameters:
     - id: dir
-      type: GCXU{SBV2}
+      type: SBV2
     return:
       type: Danmokou.Danmaku.Options.SBOption
-    content.vb: Public Shared Function Dir2(dir As GCXU(Of SBV2)) As SBOption
+    content.vb: Public Shared Function Dir2(dir As SBV2) As SBOption
   overload: Danmokou.Danmaku.Options.SBOption.Dir2*
-  nameWithType.vb: SBOption.Dir2(GCXU(Of SBV2))
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.Danmaku.Options.SBOption.Dir2(GCXU(Of SBV2))
-  name.vb: Dir2(GCXU(Of SBV2))
 - uid: Danmokou.Danmaku.Options.SBOption.Player(System.Int32,System.Int32,System.String)
   commentId: M:Danmokou.Danmaku.Options.SBOption.Player(System.Int32,System.Int32,System.String)
   id: Player(System.Int32,System.Int32,System.String)
@@ -172,7 +166,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 3957
+    startLine: 4529
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -503,93 +497,17 @@ references:
   name: Scale
   nameWithType: SBOption.Scale
   fullName: Danmokou.Danmaku.Options.SBOption.Scale
-- uid: GCXU{BPY}
-  commentId: '!:GCXU{BPY}'
-  definition: GCXU`1
-  name: GCXU<BPY>
-  nameWithType: GCXU<BPY>
-  fullName: GCXU<BPY>
-  nameWithType.vb: GCXU(Of BPY)
-  fullName.vb: GCXU(Of BPY)
-  name.vb: GCXU(Of BPY)
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: BPY
-    name: BPY
-    nameWithType: BPY
-    fullName: BPY
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: BPY
-    name: BPY
-    nameWithType: BPY
-    fullName: BPY
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: BPY
+  isExternal: true
+  name: BPY
+  nameWithType: BPY
+  fullName: BPY
 - uid: Danmokou.Danmaku.Options.SBOption
   commentId: T:Danmokou.Danmaku.Options.SBOption
   parent: Danmokou.Danmaku.Options
   name: SBOption
   nameWithType: SBOption
   fullName: Danmokou.Danmaku.Options.SBOption
-- uid: GCXU`1
-  isExternal: true
-  name: GCXU<>
-  nameWithType: GCXU<>
-  fullName: GCXU<>
-  nameWithType.vb: GCXU(Of )
-  fullName.vb: GCXU(Of )
-  name.vb: GCXU(Of )
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Danmokou.Danmaku.Options.SBOption.Dir*
   commentId: Overload:Danmokou.Danmaku.Options.SBOption.Dir
   name: Dir
@@ -733,49 +651,12 @@ references:
   name: Dir2
   nameWithType: SBOption.Dir2
   fullName: Danmokou.Danmaku.Options.SBOption.Dir2
-- uid: GCXU{SBV2}
-  commentId: '!:GCXU{SBV2}'
-  definition: GCXU`1
-  name: GCXU<SBV2>
-  nameWithType: GCXU<SBV2>
-  fullName: GCXU<SBV2>
-  nameWithType.vb: GCXU(Of SBV2)
-  fullName.vb: GCXU(Of SBV2)
-  name.vb: GCXU(Of SBV2)
-  spec.csharp:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: SBV2
-    name: SBV2
-    nameWithType: SBV2
-    fullName: SBV2
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: GCXU
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: SBV2
-    name: SBV2
-    nameWithType: SBV2
-    fullName: SBV2
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+- uid: SBV2
+  commentId: '!:SBV2'
+  isExternal: true
+  name: SBV2
+  nameWithType: SBV2
+  fullName: SBV2
 - uid: Danmokou.Danmaku.Options.SBOption.Player*
   commentId: Overload:Danmokou.Danmaku.Options.SBOption.Player
   name: Player

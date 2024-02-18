@@ -6,6 +6,7 @@ items:
   parent: Danmokou.SM
   children:
   - Danmokou.SM.ReflectableLASM.#ctor(Danmokou.SM.TaskPattern)
+  - Danmokou.SM.ReflectableLASM.op_Implicit(Danmokou.SM.TaskPattern)~Danmokou.SM.ReflectableLASM
   - Danmokou.SM.ReflectableLASM.Start(Danmokou.SM.SMHandoff)
   langs:
   - csharp
@@ -17,7 +18,7 @@ items:
   source:
     id: ReflectableLASM
     path: ''
-    startLine: 13844
+    startLine: 14455
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -32,6 +33,7 @@ items:
   - Danmokou.SM.LineActionSM
   derivedClasses:
   - Danmokou.SM.AnimatorControllerLASM
+  - Danmokou.SM.BxBCollideLASM
   - Danmokou.SM.EventLASM
   - Danmokou.SM.TimerControllerLASM
   inheritedMembers:
@@ -62,7 +64,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13846
+    startLine: 14457
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -91,7 +93,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 13849
+    startLine: 14460
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -111,6 +113,42 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: Danmokou.SM.ReflectableLASM.op_Implicit(Danmokou.SM.TaskPattern)~Danmokou.SM.ReflectableLASM
+  commentId: M:Danmokou.SM.ReflectableLASM.op_Implicit(Danmokou.SM.TaskPattern)~Danmokou.SM.ReflectableLASM
+  id: op_Implicit(Danmokou.SM.TaskPattern)~Danmokou.SM.ReflectableLASM
+  parent: Danmokou.SM.ReflectableLASM
+  langs:
+  - csharp
+  - vb
+  name: Implicit(TaskPattern to ReflectableLASM)
+  nameWithType: ReflectableLASM.Implicit(TaskPattern to ReflectableLASM)
+  fullName: Danmokou.SM.ReflectableLASM.Implicit(Danmokou.SM.TaskPattern to Danmokou.SM.ReflectableLASM)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 14462
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static implicit operator ReflectableLASM(TaskPattern func)
+    parameters:
+    - id: func
+      type: Danmokou.SM.TaskPattern
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Widening Operator CType(func As TaskPattern) As ReflectableLASM
+  overload: Danmokou.SM.ReflectableLASM.op_Implicit*
+  nameWithType.vb: ReflectableLASM.Widening(TaskPattern to ReflectableLASM)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.ReflectableLASM.Widening(Danmokou.SM.TaskPattern to Danmokou.SM.ReflectableLASM)
+  name.vb: Widening(TaskPattern to ReflectableLASM)
 references:
 - uid: Danmokou.SM
   commentId: N:Danmokou.SM
@@ -484,3 +522,17 @@ references:
   name: Task
   nameWithType: Task
   fullName: Task
+- uid: Danmokou.SM.ReflectableLASM.op_Implicit*
+  commentId: Overload:Danmokou.SM.ReflectableLASM.op_Implicit
+  name: Implicit
+  nameWithType: ReflectableLASM.Implicit
+  fullName: Danmokou.SM.ReflectableLASM.Implicit
+  nameWithType.vb: ReflectableLASM.Widening
+  fullName.vb: Danmokou.SM.ReflectableLASM.Widening
+  name.vb: Widening
+- uid: Danmokou.SM.ReflectableLASM
+  commentId: T:Danmokou.SM.ReflectableLASM
+  parent: Danmokou.SM
+  name: ReflectableLASM
+  nameWithType: ReflectableLASM
+  fullName: Danmokou.SM.ReflectableLASM

@@ -17,7 +17,7 @@ items:
   source:
     id: GTRepeat
     path: ''
-    startLine: 12744
+    startLine: 13249
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -62,7 +62,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12879
+    startLine: 13403
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -96,12 +96,12 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 12883
+    startLine: 13433
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public override async Task Start(SMHandoff smh)
+    content: public override Task Start(SMHandoff smh)
     parameters:
     - id: smh
       type: Danmokou.SM.SMHandoff
@@ -113,7 +113,6 @@ items:
   modifiers.csharp:
   - public
   - override
-  - async
   modifiers.vb:
   - Public
   - Overrides

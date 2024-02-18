@@ -5,7 +5,7 @@ items:
   id: PatternContext
   parent: Danmokou.SM
   children:
-  - Danmokou.SM.PatternContext.#ctor(Danmokou.SM.PatternSM)
+  - Danmokou.SM.PatternContext.#ctor(Danmokou.SM.SMContext,Danmokou.SM.PatternSM)
   - Danmokou.SM.PatternContext.Props
   - Danmokou.SM.PatternContext.SM
   langs:
@@ -18,7 +18,7 @@ items:
   source:
     id: PatternContext
     path: ''
-    startLine: 15627
+    startLine: 16296
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -32,6 +32,7 @@ items:
   - Danmokou.SM.SMContext
   inheritedMembers:
   - Danmokou.SM.SMContext.PhaseObjects
+  - Danmokou.SM.SMContext.LoadCheckpoint
   - Danmokou.SM.SMContext.CleanupObjects
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -60,7 +61,7 @@ items:
   source:
     id: SM
     path: ''
-    startLine: 15628
+    startLine: 16297
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -91,7 +92,7 @@ items:
   source:
     id: Props
     path: ''
-    startLine: 15629
+    startLine: 16298
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -108,30 +109,32 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Danmokou.SM.PatternContext.#ctor(Danmokou.SM.PatternSM)
-  commentId: M:Danmokou.SM.PatternContext.#ctor(Danmokou.SM.PatternSM)
-  id: '#ctor(Danmokou.SM.PatternSM)'
+- uid: Danmokou.SM.PatternContext.#ctor(Danmokou.SM.SMContext,Danmokou.SM.PatternSM)
+  commentId: M:Danmokou.SM.PatternContext.#ctor(Danmokou.SM.SMContext,Danmokou.SM.PatternSM)
+  id: '#ctor(Danmokou.SM.SMContext,Danmokou.SM.PatternSM)'
   parent: Danmokou.SM.PatternContext
   langs:
   - csharp
   - vb
-  name: PatternContext(PatternSM)
-  nameWithType: PatternContext.PatternContext(PatternSM)
-  fullName: Danmokou.SM.PatternContext.PatternContext(Danmokou.SM.PatternSM)
+  name: PatternContext(SMContext, PatternSM)
+  nameWithType: PatternContext.PatternContext(SMContext, PatternSM)
+  fullName: Danmokou.SM.PatternContext.PatternContext(Danmokou.SM.SMContext, Danmokou.SM.PatternSM)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 15631
+    startLine: 16300
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public PatternContext(PatternSM sm)
+    content: public PatternContext(SMContext parent, PatternSM sm)
     parameters:
+    - id: parent
+      type: Danmokou.SM.SMContext
     - id: sm
       type: Danmokou.SM.PatternSM
-    content.vb: Public Sub New(sm As PatternSM)
+    content.vb: Public Sub New(parent As SMContext, sm As PatternSM)
   overload: Danmokou.SM.PatternContext.#ctor*
   modifiers.csharp:
   - public
@@ -162,6 +165,12 @@ references:
   name: PhaseObjects
   nameWithType: SMContext.PhaseObjects
   fullName: Danmokou.SM.SMContext.PhaseObjects
+- uid: Danmokou.SM.SMContext.LoadCheckpoint
+  commentId: P:Danmokou.SM.SMContext.LoadCheckpoint
+  parent: Danmokou.SM.SMContext
+  name: LoadCheckpoint
+  nameWithType: SMContext.LoadCheckpoint
+  fullName: Danmokou.SM.SMContext.LoadCheckpoint
 - uid: Danmokou.SM.SMContext.CleanupObjects
   commentId: M:Danmokou.SM.SMContext.CleanupObjects
   parent: Danmokou.SM.SMContext

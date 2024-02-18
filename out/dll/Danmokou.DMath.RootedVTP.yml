@@ -5,7 +5,7 @@ items:
   id: RootedVTP
   parent: Danmokou.DMath
   children:
-  - Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
+  - Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.VTP)
   - Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},ExVTP)
   - Danmokou.DMath.RootedVTP.#ctor(ExBPY,ExBPY,ExVTP)
   - Danmokou.DMath.RootedVTP.#ctor(ExTP,ExVTP)
@@ -22,7 +22,7 @@ items:
   source:
     id: RootedVTP
     path: ''
-    startLine: 7071
+    startLine: 7427
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -57,7 +57,7 @@ items:
   source:
     id: root
     path: ''
-    startLine: 7072
+    startLine: 7428
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -86,55 +86,55 @@ items:
   source:
     id: path
     path: ''
-    startLine: 7073
+    startLine: 7429
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
   syntax:
-    content: public readonly GCXU<VTP> path
+    content: public readonly VTP path
     return:
-      type: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
-    content.vb: Public ReadOnly path As GCXU(Of VTP)
+      type: Danmokou.DMath.VTP
+    content.vb: Public ReadOnly path As VTP
   modifiers.csharp:
   - public
   - readonly
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
-  commentId: M:Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})
-  id: '#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.GCXU{Danmokou.DMath.VTP})'
+- uid: Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.VTP)
+  commentId: M:Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.VTP)
+  id: '#ctor(Danmokou.DMath.GCXF{Vector2},Danmokou.DMath.VTP)'
   parent: Danmokou.DMath.RootedVTP
   langs:
   - csharp
   - vb
-  name: RootedVTP(GCXF<Vector2>, GCXU<VTP>)
-  nameWithType: RootedVTP.RootedVTP(GCXF<Vector2>, GCXU<VTP>)
-  fullName: Danmokou.DMath.RootedVTP.RootedVTP(Danmokou.DMath.GCXF<Vector2>, Danmokou.DMath.GCXU<Danmokou.DMath.VTP>)
+  name: RootedVTP(GCXF<Vector2>, VTP)
+  nameWithType: RootedVTP.RootedVTP(GCXF<Vector2>, VTP)
+  fullName: Danmokou.DMath.RootedVTP.RootedVTP(Danmokou.DMath.GCXF<Vector2>, Danmokou.DMath.VTP)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 7075
+    startLine: 7431
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
   syntax:
-    content: public RootedVTP(GCXF<Vector2> root, GCXU<VTP> path)
+    content: public RootedVTP(GCXF<Vector2> root, VTP path)
     parameters:
     - id: root
       type: Danmokou.DMath.GCXF{Vector2}
     - id: path
-      type: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
-    content.vb: Public Sub New(root As GCXF(Of Vector2), path As GCXU(Of VTP))
+      type: Danmokou.DMath.VTP
+    content.vb: Public Sub New(root As GCXF(Of Vector2), path As VTP)
   overload: Danmokou.DMath.RootedVTP.#ctor*
-  nameWithType.vb: RootedVTP.RootedVTP(GCXF(Of Vector2), GCXU(Of VTP))
+  nameWithType.vb: RootedVTP.RootedVTP(GCXF(Of Vector2), VTP)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.DMath.RootedVTP.RootedVTP(Danmokou.DMath.GCXF(Of Vector2), Danmokou.DMath.GCXU(Of Danmokou.DMath.VTP))
-  name.vb: RootedVTP(GCXF(Of Vector2), GCXU(Of VTP))
+  fullName.vb: Danmokou.DMath.RootedVTP.RootedVTP(Danmokou.DMath.GCXF(Of Vector2), Danmokou.DMath.VTP)
+  name.vb: RootedVTP(GCXF(Of Vector2), VTP)
 - uid: Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},ExVTP)
   commentId: M:Danmokou.DMath.RootedVTP.#ctor(Danmokou.DMath.GCXF{Vector2},ExVTP)
   id: '#ctor(Danmokou.DMath.GCXF{Vector2},ExVTP)'
@@ -149,7 +149,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7080
+    startLine: 7436
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -183,7 +183,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7082
+    startLine: 7438
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -216,7 +216,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7083
+    startLine: 7439
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -247,7 +247,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7084
+    startLine: 7440
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -618,82 +618,12 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
-  commentId: T:Danmokou.DMath.GCXU{Danmokou.DMath.VTP}
+- uid: Danmokou.DMath.VTP
+  commentId: T:Danmokou.DMath.VTP
   parent: Danmokou.DMath
-  definition: Danmokou.DMath.GCXU`1
-  name: GCXU<VTP>
-  nameWithType: GCXU<VTP>
-  fullName: Danmokou.DMath.GCXU<Danmokou.DMath.VTP>
-  nameWithType.vb: GCXU(Of VTP)
-  fullName.vb: Danmokou.DMath.GCXU(Of Danmokou.DMath.VTP)
-  name.vb: GCXU(Of VTP)
-  spec.csharp:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Danmokou.DMath.VTP
-    name: VTP
-    nameWithType: VTP
-    fullName: Danmokou.DMath.VTP
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Danmokou.DMath.VTP
-    name: VTP
-    nameWithType: VTP
-    fullName: Danmokou.DMath.VTP
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Danmokou.DMath.GCXU`1
-  commentId: T:Danmokou.DMath.GCXU`1
-  name: GCXU<Fn>
-  nameWithType: GCXU<Fn>
-  fullName: Danmokou.DMath.GCXU<Fn>
-  nameWithType.vb: GCXU(Of Fn)
-  fullName.vb: Danmokou.DMath.GCXU(Of Fn)
-  name.vb: GCXU(Of Fn)
-  spec.csharp:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: Fn
-    nameWithType: Fn
-    fullName: Fn
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Danmokou.DMath.GCXU`1
-    name: GCXU
-    nameWithType: GCXU
-    fullName: Danmokou.DMath.GCXU
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: Fn
-    nameWithType: Fn
-    fullName: Fn
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: VTP
+  nameWithType: VTP
+  fullName: Danmokou.DMath.VTP
 - uid: Danmokou.DMath.RootedVTP.#ctor*
   commentId: Overload:Danmokou.DMath.RootedVTP.#ctor
   name: RootedVTP

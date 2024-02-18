@@ -5,8 +5,9 @@ items:
   id: PhaseSequentialActionSM
   parent: Danmokou.SM
   children:
-  - Danmokou.SM.PhaseSequentialActionSM.#ctor(List{Danmokou.SM.StateMachine},System.Single)
+  - Danmokou.SM.PhaseSequentialActionSM.#ctor(System.Single,Danmokou.SM.StateMachine[])
   - Danmokou.SM.PhaseSequentialActionSM.Start(Danmokou.SM.SMHandoff)
+  - Danmokou.SM.PhaseSequentialActionSM.wait
   langs:
   - csharp
   - vb
@@ -17,7 +18,7 @@ items:
   source:
     id: PhaseSequentialActionSM
     path: ''
-    startLine: 13752
+    startLine: 14356
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -46,44 +47,71 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Danmokou.SM.PhaseSequentialActionSM.#ctor(List{Danmokou.SM.StateMachine},System.Single)
-  commentId: M:Danmokou.SM.PhaseSequentialActionSM.#ctor(List{Danmokou.SM.StateMachine},System.Single)
-  id: '#ctor(List{Danmokou.SM.StateMachine},System.Single)'
+- uid: Danmokou.SM.PhaseSequentialActionSM.wait
+  commentId: F:Danmokou.SM.PhaseSequentialActionSM.wait
+  id: wait
   parent: Danmokou.SM.PhaseSequentialActionSM
   langs:
   - csharp
   - vb
-  name: PhaseSequentialActionSM(List<StateMachine>, Single)
-  nameWithType: PhaseSequentialActionSM.PhaseSequentialActionSM(List<StateMachine>, Single)
-  fullName: Danmokou.SM.PhaseSequentialActionSM.PhaseSequentialActionSM(List<Danmokou.SM.StateMachine>, System.Single)
+  name: wait
+  nameWithType: PhaseSequentialActionSM.wait
+  fullName: Danmokou.SM.PhaseSequentialActionSM.wait
+  type: Field
+  source:
+    id: wait
+    path: ''
+    startLine: 14357
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public float wait
+    return:
+      type: System.Single
+    content.vb: Public wait As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Danmokou.SM.PhaseSequentialActionSM.#ctor(System.Single,Danmokou.SM.StateMachine[])
+  commentId: M:Danmokou.SM.PhaseSequentialActionSM.#ctor(System.Single,Danmokou.SM.StateMachine[])
+  id: '#ctor(System.Single,Danmokou.SM.StateMachine[])'
+  parent: Danmokou.SM.PhaseSequentialActionSM
+  langs:
+  - csharp
+  - vb
+  name: PhaseSequentialActionSM(Single, StateMachine[])
+  nameWithType: PhaseSequentialActionSM.PhaseSequentialActionSM(Single, StateMachine[])
+  fullName: Danmokou.SM.PhaseSequentialActionSM.PhaseSequentialActionSM(System.Single, Danmokou.SM.StateMachine[])
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 13759
+    startLine: 14363
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\n"
   example: []
   syntax:
-    content: public PhaseSequentialActionSM(List<StateMachine> states, float wait)
+    content: public PhaseSequentialActionSM(float wait, params StateMachine[] states)
     parameters:
-    - id: states
-      type: List{Danmokou.SM.StateMachine}
-      description: Actions to run in parallel
     - id: wait
       type: System.Single
       description: Artificial delay before this SM starts executing
-    content.vb: Public Sub New(states As List(Of StateMachine), wait As Single)
+    - id: states
+      type: Danmokou.SM.StateMachine[]
+      description: Actions to run in parallel
+    content.vb: Public Sub New(wait As Single, ParamArray states As StateMachine())
   overload: Danmokou.SM.PhaseSequentialActionSM.#ctor*
-  nameWithType.vb: PhaseSequentialActionSM.PhaseSequentialActionSM(List(Of StateMachine), Single)
+  nameWithType.vb: PhaseSequentialActionSM.PhaseSequentialActionSM(Single, StateMachine())
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: Danmokou.SM.PhaseSequentialActionSM.PhaseSequentialActionSM(List(Of Danmokou.SM.StateMachine), System.Single)
-  name.vb: PhaseSequentialActionSM(List(Of StateMachine), Single)
+  fullName.vb: Danmokou.SM.PhaseSequentialActionSM.PhaseSequentialActionSM(System.Single, Danmokou.SM.StateMachine())
+  name.vb: PhaseSequentialActionSM(Single, StateMachine())
 - uid: Danmokou.SM.PhaseSequentialActionSM.Start(Danmokou.SM.SMHandoff)
   commentId: M:Danmokou.SM.PhaseSequentialActionSM.Start(Danmokou.SM.SMHandoff)
   id: Start(Danmokou.SM.SMHandoff)
@@ -98,7 +126,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 13763
+    startLine: 14367
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -435,52 +463,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Danmokou.SM.PhaseSequentialActionSM.#ctor*
-  commentId: Overload:Danmokou.SM.PhaseSequentialActionSM.#ctor
-  name: PhaseSequentialActionSM
-  nameWithType: PhaseSequentialActionSM.PhaseSequentialActionSM
-  fullName: Danmokou.SM.PhaseSequentialActionSM.PhaseSequentialActionSM
-- uid: List{Danmokou.SM.StateMachine}
-  commentId: '!:List{Danmokou.SM.StateMachine}'
-  definition: List`1
-  name: List<StateMachine>
-  nameWithType: List<StateMachine>
-  fullName: List<Danmokou.SM.StateMachine>
-  nameWithType.vb: List(Of StateMachine)
-  fullName.vb: List(Of Danmokou.SM.StateMachine)
-  name.vb: List(Of StateMachine)
-  spec.csharp:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Danmokou.SM.StateMachine
-    name: StateMachine
-    nameWithType: StateMachine
-    fullName: Danmokou.SM.StateMachine
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Danmokou.SM.StateMachine
-    name: StateMachine
-    nameWithType: StateMachine
-    fullName: Danmokou.SM.StateMachine
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Single
   commentId: T:System.Single
   parent: System
@@ -488,44 +470,35 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: List`1
+- uid: Danmokou.SM.PhaseSequentialActionSM.#ctor*
+  commentId: Overload:Danmokou.SM.PhaseSequentialActionSM.#ctor
+  name: PhaseSequentialActionSM
+  nameWithType: PhaseSequentialActionSM.PhaseSequentialActionSM
+  fullName: Danmokou.SM.PhaseSequentialActionSM.PhaseSequentialActionSM
+- uid: Danmokou.SM.StateMachine[]
   isExternal: true
-  name: List<>
-  nameWithType: List<>
-  fullName: List<>
-  nameWithType.vb: List(Of )
-  fullName.vb: List(Of )
-  name.vb: List(Of )
+  name: StateMachine[]
+  nameWithType: StateMachine[]
+  fullName: Danmokou.SM.StateMachine[]
+  nameWithType.vb: StateMachine()
+  fullName.vb: Danmokou.SM.StateMachine()
+  name.vb: StateMachine()
   spec.csharp:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
-  - uid: List`1
-    name: List
-    nameWithType: List
-    fullName: List
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )
+  - uid: Danmokou.SM.StateMachine
+    name: StateMachine
+    nameWithType: StateMachine
+    fullName: Danmokou.SM.StateMachine
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
   commentId: M:Danmokou.SM.SequentialSM.Start(Danmokou.SM.SMHandoff)
   parent: Danmokou.SM.SequentialSM

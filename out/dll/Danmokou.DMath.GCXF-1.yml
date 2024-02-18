@@ -15,11 +15,11 @@ items:
   source:
     id: GCXF
     path: ''
-    startLine: 7133
+    startLine: 7489
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
-  summary: "\nA wrapper type used for functions that operate over a GCX.\n"
+  summary: "\nA wrapper type used for functions that operate over a <see cref=\"!:GenCtx\"></see>.\n"
   example: []
   syntax:
     content: public delegate T GCXF<T>(GenCtx gcx);

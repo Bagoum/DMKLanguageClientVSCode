@@ -1,0 +1,1013 @@
+### YamlMime:ManagedReference
+items:
+- uid: Danmokou.DMath.Functions.ExMAssign
+  commentId: T:Danmokou.DMath.Functions.ExMAssign
+  id: ExMAssign
+  parent: Danmokou.DMath.Functions
+  children:
+  - Danmokou.DMath.Functions.ExMAssign.AddAssign``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.AndAssign``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.Assign``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.DivAssign``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.ModAssign``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.MulAssign``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.OrAssign``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.PostDecrement``1(TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.PostIncrement``1(TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.PreDecrement``1(TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.PreIncrement``1(TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.SubAssign``1(TEx{``0},TEx{``0})
+  - Danmokou.DMath.Functions.ExMAssign.VariableInitialize``1(TEx{``0},TEx{``0})
+  langs:
+  - csharp
+  - vb
+  name: ExMAssign
+  nameWithType: ExMAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign
+  type: Class
+  source:
+    id: ExMAssign
+    path: ''
+    startLine: 11265
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nSee <xref href=\"Danmokou.DMath.Functions.ExM\" data-throw-if-not-resolved=\"false\"></xref>. This class contains functions related to assignment.\nIt is not reflected as it is only for use with BDSL2, which calls them explicitly.\n"
+  example: []
+  syntax:
+    content: public static class ExMAssign
+    content.vb: Public Module ExMAssign
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Danmokou.DMath.Functions.ExMAssign.VariableInitialize``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.VariableInitialize``1(TEx{``0},TEx{``0})
+  id: VariableInitialize``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: VariableInitialize<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.VariableInitialize<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.VariableInitialize<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: VariableInitialize
+    path: ''
+    startLine: 11267
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> VariableInitialize<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function VariableInitialize(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.VariableInitialize*
+  nameWithType.vb: ExMAssign.VariableInitialize(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.VariableInitialize(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: VariableInitialize(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.Assign``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.Assign``1(TEx{``0},TEx{``0})
+  id: Assign``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: Assign<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.Assign<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.Assign<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: Assign
+    path: ''
+    startLine: 11270
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> Assign<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function Assign(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.Assign*
+  nameWithType.vb: ExMAssign.Assign(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.Assign(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: Assign(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.AddAssign``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.AddAssign``1(TEx{``0},TEx{``0})
+  id: AddAssign``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: AddAssign<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.AddAssign<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.AddAssign<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: AddAssign
+    path: ''
+    startLine: 11274
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> AddAssign<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function AddAssign(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.AddAssign*
+  nameWithType.vb: ExMAssign.AddAssign(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.AddAssign(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: AddAssign(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.SubAssign``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.SubAssign``1(TEx{``0},TEx{``0})
+  id: SubAssign``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: SubAssign<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.SubAssign<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.SubAssign<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: SubAssign
+    path: ''
+    startLine: 11277
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> SubAssign<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function SubAssign(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.SubAssign*
+  nameWithType.vb: ExMAssign.SubAssign(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.SubAssign(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: SubAssign(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.MulAssign``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.MulAssign``1(TEx{``0},TEx{``0})
+  id: MulAssign``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: MulAssign<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.MulAssign<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.MulAssign<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: MulAssign
+    path: ''
+    startLine: 11280
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> MulAssign<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function MulAssign(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.MulAssign*
+  nameWithType.vb: ExMAssign.MulAssign(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.MulAssign(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: MulAssign(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.DivAssign``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.DivAssign``1(TEx{``0},TEx{``0})
+  id: DivAssign``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: DivAssign<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.DivAssign<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.DivAssign<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: DivAssign
+    path: ''
+    startLine: 11283
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> DivAssign<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function DivAssign(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.DivAssign*
+  nameWithType.vb: ExMAssign.DivAssign(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.DivAssign(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: DivAssign(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.ModAssign``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.ModAssign``1(TEx{``0},TEx{``0})
+  id: ModAssign``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: ModAssign<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.ModAssign<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.ModAssign<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: ModAssign
+    path: ''
+    startLine: 11286
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> ModAssign<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function ModAssign(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.ModAssign*
+  nameWithType.vb: ExMAssign.ModAssign(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.ModAssign(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: ModAssign(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.AndAssign``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.AndAssign``1(TEx{``0},TEx{``0})
+  id: AndAssign``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: AndAssign<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.AndAssign<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.AndAssign<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: AndAssign
+    path: ''
+    startLine: 11289
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> AndAssign<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function AndAssign(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.AndAssign*
+  nameWithType.vb: ExMAssign.AndAssign(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.AndAssign(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: AndAssign(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.OrAssign``1(TEx{``0},TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.OrAssign``1(TEx{``0},TEx{``0})
+  id: OrAssign``1(TEx{``0},TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: OrAssign<T>(TEx<T>, TEx<T>)
+  nameWithType: ExMAssign.OrAssign<T>(TEx<T>, TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.OrAssign<T>(TEx<T>, TEx<T>)
+  type: Method
+  source:
+    id: OrAssign
+    path: ''
+    startLine: 11292
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> OrAssign<T>(TEx<T> x, TEx<T> y)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    - id: y
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function OrAssign(Of T)(x As TEx(Of T), y As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.OrAssign*
+  nameWithType.vb: ExMAssign.OrAssign(Of T)(TEx(Of T), TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.OrAssign(Of T)(TEx(Of T), TEx(Of T))
+  name.vb: OrAssign(Of T)(TEx(Of T), TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.PostIncrement``1(TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.PostIncrement``1(TEx{``0})
+  id: PostIncrement``1(TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: PostIncrement<T>(TEx<T>)
+  nameWithType: ExMAssign.PostIncrement<T>(TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.PostIncrement<T>(TEx<T>)
+  type: Method
+  source:
+    id: PostIncrement
+    path: ''
+    startLine: 11306
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> PostIncrement<T>(TEx<T> x)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function PostIncrement(Of T)(x As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.PostIncrement*
+  nameWithType.vb: ExMAssign.PostIncrement(Of T)(TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.PostIncrement(Of T)(TEx(Of T))
+  name.vb: PostIncrement(Of T)(TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.PreIncrement``1(TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.PreIncrement``1(TEx{``0})
+  id: PreIncrement``1(TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: PreIncrement<T>(TEx<T>)
+  nameWithType: ExMAssign.PreIncrement<T>(TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.PreIncrement<T>(TEx<T>)
+  type: Method
+  source:
+    id: PreIncrement
+    path: ''
+    startLine: 11309
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> PreIncrement<T>(TEx<T> x)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function PreIncrement(Of T)(x As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.PreIncrement*
+  nameWithType.vb: ExMAssign.PreIncrement(Of T)(TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.PreIncrement(Of T)(TEx(Of T))
+  name.vb: PreIncrement(Of T)(TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.PostDecrement``1(TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.PostDecrement``1(TEx{``0})
+  id: PostDecrement``1(TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: PostDecrement<T>(TEx<T>)
+  nameWithType: ExMAssign.PostDecrement<T>(TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.PostDecrement<T>(TEx<T>)
+  type: Method
+  source:
+    id: PostDecrement
+    path: ''
+    startLine: 11313
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> PostDecrement<T>(TEx<T> x)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function PostDecrement(Of T)(x As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.PostDecrement*
+  nameWithType.vb: ExMAssign.PostDecrement(Of T)(TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.PostDecrement(Of T)(TEx(Of T))
+  name.vb: PostDecrement(Of T)(TEx(Of T))
+- uid: Danmokou.DMath.Functions.ExMAssign.PreDecrement``1(TEx{``0})
+  commentId: M:Danmokou.DMath.Functions.ExMAssign.PreDecrement``1(TEx{``0})
+  id: PreDecrement``1(TEx{``0})
+  parent: Danmokou.DMath.Functions.ExMAssign
+  langs:
+  - csharp
+  - vb
+  name: PreDecrement<T>(TEx<T>)
+  nameWithType: ExMAssign.PreDecrement<T>(TEx<T>)
+  fullName: Danmokou.DMath.Functions.ExMAssign.PreDecrement<T>(TEx<T>)
+  type: Method
+  source:
+    id: PreDecrement
+    path: ''
+    startLine: 11316
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<T> PreDecrement<T>(TEx<T> x)
+    parameters:
+    - id: x
+      type: TEx{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function PreDecrement(Of T)(x As TEx(Of T)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExMAssign.PreDecrement*
+  nameWithType.vb: ExMAssign.PreDecrement(Of T)(TEx(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExMAssign.PreDecrement(Of T)(TEx(Of T))
+  name.vb: PreDecrement(Of T)(TEx(Of T))
+references:
+- uid: Danmokou.DMath.Functions.ExM
+  commentId: T:Danmokou.DMath.Functions.ExM
+  name: ExM
+  nameWithType: ExM
+  fullName: Danmokou.DMath.Functions.ExM
+- uid: Danmokou.DMath.Functions
+  commentId: N:Danmokou.DMath.Functions
+  name: Danmokou.DMath.Functions
+  nameWithType: Danmokou.DMath.Functions
+  fullName: Danmokou.DMath.Functions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Danmokou.DMath.Functions.ExMAssign.VariableInitialize*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.VariableInitialize
+  name: VariableInitialize
+  nameWithType: ExMAssign.VariableInitialize
+  fullName: Danmokou.DMath.Functions.ExMAssign.VariableInitialize
+- uid: TEx{{T}}
+  commentId: '!:TEx{``0}'
+  definition: TEx`1
+  name: TEx<T>
+  nameWithType: TEx<T>
+  fullName: TEx<T>
+  nameWithType.vb: TEx(Of T)
+  fullName.vb: TEx(Of T)
+  name.vb: TEx(Of T)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TEx`1
+  isExternal: true
+  name: TEx<>
+  nameWithType: TEx<>
+  fullName: TEx<>
+  nameWithType.vb: TEx(Of )
+  fullName.vb: TEx(Of )
+  name.vb: TEx(Of )
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.ExMAssign.Assign*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.Assign
+  name: Assign
+  nameWithType: ExMAssign.Assign
+  fullName: Danmokou.DMath.Functions.ExMAssign.Assign
+- uid: Danmokou.DMath.Functions.ExMAssign.AddAssign*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.AddAssign
+  name: AddAssign
+  nameWithType: ExMAssign.AddAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign.AddAssign
+- uid: Danmokou.DMath.Functions.ExMAssign.SubAssign*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.SubAssign
+  name: SubAssign
+  nameWithType: ExMAssign.SubAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign.SubAssign
+- uid: Danmokou.DMath.Functions.ExMAssign.MulAssign*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.MulAssign
+  name: MulAssign
+  nameWithType: ExMAssign.MulAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign.MulAssign
+- uid: Danmokou.DMath.Functions.ExMAssign.DivAssign*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.DivAssign
+  name: DivAssign
+  nameWithType: ExMAssign.DivAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign.DivAssign
+- uid: Danmokou.DMath.Functions.ExMAssign.ModAssign*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.ModAssign
+  name: ModAssign
+  nameWithType: ExMAssign.ModAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign.ModAssign
+- uid: Danmokou.DMath.Functions.ExMAssign.AndAssign*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.AndAssign
+  name: AndAssign
+  nameWithType: ExMAssign.AndAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign.AndAssign
+- uid: Danmokou.DMath.Functions.ExMAssign.OrAssign*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.OrAssign
+  name: OrAssign
+  nameWithType: ExMAssign.OrAssign
+  fullName: Danmokou.DMath.Functions.ExMAssign.OrAssign
+- uid: Danmokou.DMath.Functions.ExMAssign.PostIncrement*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.PostIncrement
+  name: PostIncrement
+  nameWithType: ExMAssign.PostIncrement
+  fullName: Danmokou.DMath.Functions.ExMAssign.PostIncrement
+- uid: Danmokou.DMath.Functions.ExMAssign.PreIncrement*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.PreIncrement
+  name: PreIncrement
+  nameWithType: ExMAssign.PreIncrement
+  fullName: Danmokou.DMath.Functions.ExMAssign.PreIncrement
+- uid: Danmokou.DMath.Functions.ExMAssign.PostDecrement*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.PostDecrement
+  name: PostDecrement
+  nameWithType: ExMAssign.PostDecrement
+  fullName: Danmokou.DMath.Functions.ExMAssign.PostDecrement
+- uid: Danmokou.DMath.Functions.ExMAssign.PreDecrement*
+  commentId: Overload:Danmokou.DMath.Functions.ExMAssign.PreDecrement
+  name: PreDecrement
+  nameWithType: ExMAssign.PreDecrement
+  fullName: Danmokou.DMath.Functions.ExMAssign.PreDecrement

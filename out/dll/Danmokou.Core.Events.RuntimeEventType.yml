@@ -17,7 +17,7 @@ items:
   source:
     id: RuntimeEventType
     path: ''
-    startLine: 352
+    startLine: 492
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -44,7 +44,7 @@ items:
   source:
     id: Normal
     path: ''
-    startLine: 353
+    startLine: 493
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -72,7 +72,7 @@ items:
   source:
     id: Trigger
     path: ''
-    startLine: 354
+    startLine: 494
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

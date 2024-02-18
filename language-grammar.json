@@ -12,6 +12,15 @@
       "name": "comment.line"
     },
     {
+      "begin": "///",
+      "end": "///",
+      "name": "comment.line"
+    },
+    {
+      "match": "//.*",
+      "name": "comment.line"
+    },
+    {
       "match": "\\$[0-9a-zA-Z_]+",
       "name": "macroinvoke"
     },

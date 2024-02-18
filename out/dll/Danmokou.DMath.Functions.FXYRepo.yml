@@ -5,8 +5,8 @@ items:
   id: FXYRepo
   parent: Danmokou.DMath.Functions
   children:
-  - Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
-  - Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  - Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},System.Single,ExBPY)
+  - Danmokou.DMath.Functions.FXYRepo.EaseFD(System.String,System.Single,ExBPY)
   - Danmokou.DMath.Functions.FXYRepo.SoftmaxShift(ExBPY,ExBPY,ExBPY,ExBPY)
   langs:
   - csharp
@@ -18,7 +18,7 @@ items:
   source:
     id: FXYRepo
     path: ''
-    startLine: 8496
+    startLine: 8732
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -44,31 +44,31 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
-  commentId: M:Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
-  id: EaseF(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+- uid: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},System.Single,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},System.Single,ExBPY)
+  id: EaseF(System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},System.Single,ExBPY)
   parent: Danmokou.DMath.Functions.FXYRepo
   langs:
   - csharp
   - vb
-  name: EaseF(Func<TEx<Single>, TEx<Single>>, Single, ExBPY)
-  nameWithType: FXYRepo.EaseF(Func<TEx<Single>, TEx<Single>>, Single, ExBPY)
-  fullName: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func<TEx<System.Single>, TEx<System.Single>>, System.Single, ExBPY)
+  name: EaseF(Func<TExArgCtx, TEx<Func<Single, Single>>>, Single, ExBPY)
+  nameWithType: FXYRepo.EaseF(Func<TExArgCtx, TEx<Func<Single, Single>>>, Single, ExBPY)
+  fullName: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func<TExArgCtx, TEx<System.Func<System.Single, System.Single>>>, System.Single, ExBPY)
   type: Method
   source:
     id: EaseF
     path: ''
-    startLine: 8507
+    startLine: 8743
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nApply a ease function on top of a target function that uses time as a controller.\n"
   example: []
   syntax:
-    content: public static ExBPY EaseF(Func<TEx<float>, TEx<float>> smoother, float maxTime, ExBPY f)
+    content: public static ExBPY EaseF(Func<TExArgCtx, TEx<Func<float, float>>> smoother, float maxTime, ExBPY f)
     parameters:
     - id: smoother
-      type: System.Func{TEx{System.Single},TEx{System.Single}}
+      type: System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
       description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: maxTime
       type: System.Single
@@ -79,43 +79,43 @@ items:
     return:
       type: ExBPY
       description: ''
-    content.vb: Public Shared Function EaseF(smoother As Func(Of TEx(Of Single), TEx(Of Single)), maxTime As Single, f As ExBPY) As ExBPY
+    content.vb: Public Shared Function EaseF(smoother As Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), maxTime As Single, f As ExBPY) As ExBPY
   overload: Danmokou.DMath.Functions.FXYRepo.EaseF*
-  nameWithType.vb: FXYRepo.EaseF(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExBPY)
+  nameWithType.vb: FXYRepo.EaseF(Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), Single, ExBPY)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func(Of TEx(Of System.Single), TEx(Of System.Single)), System.Single, ExBPY)
-  name.vb: EaseF(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExBPY)
-- uid: Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
-  commentId: M:Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
-  id: EaseFD(System.Func{TEx{System.Single},TEx{System.Single}},System.Single,ExBPY)
+  fullName.vb: Danmokou.DMath.Functions.FXYRepo.EaseF(System.Func(Of TExArgCtx, TEx(Of System.Func(Of System.Single, System.Single))), System.Single, ExBPY)
+  name.vb: EaseF(Func(Of TExArgCtx, TEx(Of Func(Of Single, Single))), Single, ExBPY)
+- uid: Danmokou.DMath.Functions.FXYRepo.EaseFD(System.String,System.Single,ExBPY)
+  commentId: M:Danmokou.DMath.Functions.FXYRepo.EaseFD(System.String,System.Single,ExBPY)
+  id: EaseFD(System.String,System.Single,ExBPY)
   parent: Danmokou.DMath.Functions.FXYRepo
   langs:
   - csharp
   - vb
-  name: EaseFD(Func<TEx<Single>, TEx<Single>>, Single, ExBPY)
-  nameWithType: FXYRepo.EaseFD(Func<TEx<Single>, TEx<Single>>, Single, ExBPY)
-  fullName: Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func<TEx<System.Single>, TEx<System.Single>>, System.Single, ExBPY)
+  name: EaseFD(String, Single, ExBPY)
+  nameWithType: FXYRepo.EaseFD(String, Single, ExBPY)
+  fullName: Danmokou.DMath.Functions.FXYRepo.EaseFD(System.String, System.Single, ExBPY)
   type: Method
   source:
     id: EaseFD
     path: ''
-    startLine: 8518
+    startLine: 8754
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   summary: "\nApply a ease function on top of a target derivative function that uses time as a controller.\n"
   example: []
   syntax:
-    content: public static ExBPY EaseFD(Func<TEx<float>, TEx<float>> smoother, float maxTime, ExBPY fd)
+    content: public static ExBPY EaseFD(string smoother, float maxTime, ExBPY fd)
     parameters:
     - id: smoother
-      type: System.Func{TEx{System.Single},TEx{System.Single}}
-      description: Smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
+      type: System.String
+      description: Name of a float->float smoothing function (<xref href="Danmokou.DMath.Functions.ExMEasers" data-throw-if-not-resolved="false"></xref>)
     - id: maxTime
       type: System.Single
       description: Time over which to perform easing
@@ -125,17 +125,14 @@ items:
     return:
       type: ExBPY
       description: ''
-    content.vb: Public Shared Function EaseFD(smoother As Func(Of TEx(Of Single), TEx(Of Single)), maxTime As Single, fd As ExBPY) As ExBPY
+    content.vb: Public Shared Function EaseFD(smoother As String, maxTime As Single, fd As ExBPY) As ExBPY
   overload: Danmokou.DMath.Functions.FXYRepo.EaseFD*
-  nameWithType.vb: FXYRepo.EaseFD(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExBPY)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.DMath.Functions.FXYRepo.EaseFD(System.Func(Of TEx(Of System.Single), TEx(Of System.Single)), System.Single, ExBPY)
-  name.vb: EaseFD(Func(Of TEx(Of Single), TEx(Of Single)), Single, ExBPY)
 - uid: Danmokou.DMath.Functions.FXYRepo.SoftmaxShift(ExBPY,ExBPY,ExBPY,ExBPY)
   commentId: M:Danmokou.DMath.Functions.FXYRepo.SoftmaxShift(ExBPY,ExBPY,ExBPY,ExBPY)
   id: SoftmaxShift(ExBPY,ExBPY,ExBPY,ExBPY)
@@ -150,7 +147,7 @@ items:
   source:
     id: SoftmaxShift
     path: ''
-    startLine: 8524
+    startLine: 8760
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -485,16 +482,16 @@ references:
   name: EaseF
   nameWithType: FXYRepo.EaseF
   fullName: Danmokou.DMath.Functions.FXYRepo.EaseF
-- uid: System.Func{TEx{System.Single},TEx{System.Single}}
-  commentId: T:System.Func{TEx{System.Single},TEx{System.Single}}
+- uid: System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
+  commentId: T:System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}}
   parent: System
   definition: System.Func`2
-  name: Func<TEx<Single>, TEx<Single>>
-  nameWithType: Func<TEx<Single>, TEx<Single>>
-  fullName: System.Func<TEx<System.Single>, TEx<System.Single>>
-  nameWithType.vb: Func(Of TEx(Of Single), TEx(Of Single))
-  fullName.vb: System.Func(Of TEx(Of System.Single), TEx(Of System.Single))
-  name.vb: Func(Of TEx(Of Single), TEx(Of Single))
+  name: Func<TExArgCtx, TEx<Func<Single, Single>>>
+  nameWithType: Func<TExArgCtx, TEx<Func<Single, Single>>>
+  fullName: System.Func<TExArgCtx, TEx<System.Func<System.Single, System.Single>>>
+  nameWithType.vb: Func(Of TExArgCtx, TEx(Of Func(Of Single, Single)))
+  fullName.vb: System.Func(Of TExArgCtx, TEx(Of System.Func(Of System.Single, System.Single)))
+  name.vb: Func(Of TExArgCtx, TEx(Of Func(Of Single, Single)))
   spec.csharp:
   - uid: System.Func`2
     name: Func
@@ -504,22 +501,11 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
     isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Single
-    name: Single
-    nameWithType: Single
-    fullName: System.Single
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
   - name: ', '
     nameWithType: ', '
     fullName: ', '
@@ -531,11 +517,30 @@ references:
   - name: <
     nameWithType: <
     fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Single
     name: Single
     nameWithType: Single
     fullName: System.Single
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -551,22 +556,11 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
+  - uid: TExArgCtx
+    name: TExArgCtx
+    nameWithType: TExArgCtx
+    fullName: TExArgCtx
     isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Single
-    name: Single
-    nameWithType: Single
-    fullName: System.Single
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
   - name: ', '
     nameWithType: ', '
     fullName: ', '
@@ -578,11 +572,30 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Single
     name: Single
     nameWithType: Single
     fullName: System.Single
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -657,6 +670,13 @@ references:
   name: EaseFD
   nameWithType: FXYRepo.EaseFD
   fullName: Danmokou.DMath.Functions.FXYRepo.EaseFD
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
   commentId: M:Danmokou.DMath.Functions.BPYRepo.SoftmaxShift(System.String,ExBPY,ExBPY,ExBPY,ExBPY)
   isExternal: true

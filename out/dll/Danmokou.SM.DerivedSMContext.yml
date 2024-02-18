@@ -5,8 +5,8 @@ items:
   id: DerivedSMContext
   parent: Danmokou.SM
   children:
-  - Danmokou.SM.DerivedSMContext.#ctor(Danmokou.SM.SMContext)
   - Danmokou.SM.DerivedSMContext.CleanupObjects
+  - Danmokou.SM.DerivedSMContext.DeriveFrom(Danmokou.SM.SMContext)
   - Danmokou.SM.DerivedSMContext.PhaseObjects
   langs:
   - csharp
@@ -18,7 +18,7 @@ items:
   source:
     id: DerivedSMContext
     path: ''
-    startLine: 15672
+    startLine: 16343
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -33,6 +33,7 @@ items:
   - System.Object
   - Danmokou.SM.SMContext
   inheritedMembers:
+  - Danmokou.SM.SMContext.LoadCheckpoint
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -60,7 +61,7 @@ items:
   source:
     id: PhaseObjects
     path: ''
-    startLine: 15674
+    startLine: 16345
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -80,35 +81,39 @@ items:
   - Public
   - Overrides
   - ReadOnly
-- uid: Danmokou.SM.DerivedSMContext.#ctor(Danmokou.SM.SMContext)
-  commentId: M:Danmokou.SM.DerivedSMContext.#ctor(Danmokou.SM.SMContext)
-  id: '#ctor(Danmokou.SM.SMContext)'
+- uid: Danmokou.SM.DerivedSMContext.DeriveFrom(Danmokou.SM.SMContext)
+  commentId: M:Danmokou.SM.DerivedSMContext.DeriveFrom(Danmokou.SM.SMContext)
+  id: DeriveFrom(Danmokou.SM.SMContext)
   parent: Danmokou.SM.DerivedSMContext
   langs:
   - csharp
   - vb
-  name: DerivedSMContext(SMContext)
-  nameWithType: DerivedSMContext.DerivedSMContext(SMContext)
-  fullName: Danmokou.SM.DerivedSMContext.DerivedSMContext(Danmokou.SM.SMContext)
-  type: Constructor
+  name: DeriveFrom(SMContext)
+  nameWithType: DerivedSMContext.DeriveFrom(SMContext)
+  fullName: Danmokou.SM.DerivedSMContext.DeriveFrom(Danmokou.SM.SMContext)
+  type: Method
   source:
-    id: .ctor
+    id: DeriveFrom
     path: ''
-    startLine: 15676
+    startLine: 16351
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public DerivedSMContext(SMContext parent)
+    content: public static DerivedSMContext DeriveFrom(SMContext parent)
     parameters:
     - id: parent
       type: Danmokou.SM.SMContext
-    content.vb: Public Sub New(parent As SMContext)
-  overload: Danmokou.SM.DerivedSMContext.#ctor*
+    return:
+      type: Danmokou.SM.DerivedSMContext
+    content.vb: Public Shared Function DeriveFrom(parent As SMContext) As DerivedSMContext
+  overload: Danmokou.SM.DerivedSMContext.DeriveFrom*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
+  - Shared
 - uid: Danmokou.SM.DerivedSMContext.CleanupObjects
   commentId: M:Danmokou.SM.DerivedSMContext.CleanupObjects
   id: CleanupObjects
@@ -123,7 +128,7 @@ items:
   source:
     id: CleanupObjects
     path: ''
-    startLine: 15680
+    startLine: 16354
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -157,6 +162,12 @@ references:
   name: SMContext
   nameWithType: SMContext
   fullName: Danmokou.SM.SMContext
+- uid: Danmokou.SM.SMContext.LoadCheckpoint
+  commentId: P:Danmokou.SM.SMContext.LoadCheckpoint
+  parent: Danmokou.SM.SMContext
+  name: LoadCheckpoint
+  nameWithType: SMContext.LoadCheckpoint
+  fullName: Danmokou.SM.SMContext.LoadCheckpoint
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -534,11 +545,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Danmokou.SM.DerivedSMContext.#ctor*
-  commentId: Overload:Danmokou.SM.DerivedSMContext.#ctor
+- uid: Danmokou.SM.DerivedSMContext.DeriveFrom*
+  commentId: Overload:Danmokou.SM.DerivedSMContext.DeriveFrom
+  name: DeriveFrom
+  nameWithType: DerivedSMContext.DeriveFrom
+  fullName: Danmokou.SM.DerivedSMContext.DeriveFrom
+- uid: Danmokou.SM.DerivedSMContext
+  commentId: T:Danmokou.SM.DerivedSMContext
+  parent: Danmokou.SM
   name: DerivedSMContext
-  nameWithType: DerivedSMContext.DerivedSMContext
-  fullName: Danmokou.SM.DerivedSMContext.DerivedSMContext
+  nameWithType: DerivedSMContext
+  fullName: Danmokou.SM.DerivedSMContext
 - uid: Danmokou.SM.SMContext.CleanupObjects
   commentId: M:Danmokou.SM.SMContext.CleanupObjects
   parent: Danmokou.SM.SMContext

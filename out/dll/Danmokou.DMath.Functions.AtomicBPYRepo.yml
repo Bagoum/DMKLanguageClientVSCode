@@ -5,11 +5,14 @@ items:
   id: AtomicBPYRepo
   parent: Danmokou.DMath.Functions
   children:
+  - Danmokou.DMath.Functions.AtomicBPYRepo.Angle
   - Danmokou.DMath.Functions.AtomicBPYRepo.BRand(ExBPY,ExBPY)
   - Danmokou.DMath.Functions.AtomicBPYRepo.BRand01
   - Danmokou.DMath.Functions.AtomicBPYRepo.BRand2(ExBPY,ExBPY)
   - Danmokou.DMath.Functions.AtomicBPYRepo.BRandpm1
   - Danmokou.DMath.Functions.AtomicBPYRepo.Const(System.Single)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.CosRot
+  - Danmokou.DMath.Functions.AtomicBPYRepo.LT
   - Danmokou.DMath.Functions.AtomicBPYRepo.P
   - Danmokou.DMath.Functions.AtomicBPYRepo.P1
   - Danmokou.DMath.Functions.AtomicBPYRepo.P1M(System.Int32)
@@ -25,6 +28,7 @@ items:
   - Danmokou.DMath.Functions.AtomicBPYRepo.PMa(System.Int32,System.Int32[])
   - Danmokou.DMath.Functions.AtomicBPYRepo.PMaf(ExBPY,ExBPY[])
   - Danmokou.DMath.Functions.AtomicBPYRepo.PMf(ExBPY,ExBPY)
+  - Danmokou.DMath.Functions.AtomicBPYRepo.SinRot
   - Danmokou.DMath.Functions.AtomicBPYRepo.T
   - Danmokou.DMath.Functions.AtomicBPYRepo.X
   - Danmokou.DMath.Functions.AtomicBPYRepo.Y
@@ -39,7 +43,7 @@ items:
   source:
     id: AtomicBPYRepo
     path: ''
-    startLine: 7619
+    startLine: 7842
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -79,7 +83,7 @@ items:
   source:
     id: T
     path: ''
-    startLine: 7626
+    startLine: 7849
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -92,6 +96,134 @@ items:
       description: ''
     content.vb: Public Shared Function T As ExBPY
   overload: Danmokou.DMath.Functions.AtomicBPYRepo.T*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.LT
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.LT
+  id: LT
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: LT()
+  nameWithType: AtomicBPYRepo.LT()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.LT()
+  type: Method
+  source:
+    id: LT
+    path: ''
+    startLine: 7854
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the lifetime of a laser. (This function only works on lasers.)\n"
+  example: []
+  syntax:
+    content: public static ExBPY LT()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function LT As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.LT*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.Angle
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.Angle
+  id: Angle
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: Angle()
+  nameWithType: AtomicBPYRepo.Angle()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.Angle()
+  type: Method
+  source:
+    id: Angle
+    path: ''
+    startLine: 7861
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nThe starting angle of rotation of a bullet.\n"
+  example: []
+  syntax:
+    content: public static ExBPY Angle()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function Angle As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.Angle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.CosRot
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.CosRot
+  id: CosRot
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: CosRot()
+  nameWithType: AtomicBPYRepo.CosRot()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.CosRot()
+  type: Method
+  source:
+    id: CosRot
+    path: ''
+    startLine: 7867
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nThe starting cosine of rotation of a bullet.\n"
+  example: []
+  syntax:
+    content: public static ExBPY CosRot()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function CosRot As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.CosRot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.SinRot
+  commentId: M:Danmokou.DMath.Functions.AtomicBPYRepo.SinRot
+  id: SinRot
+  parent: Danmokou.DMath.Functions.AtomicBPYRepo
+  langs:
+  - csharp
+  - vb
+  name: SinRot()
+  nameWithType: AtomicBPYRepo.SinRot()
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.SinRot()
+  type: Method
+  source:
+    id: SinRot
+    path: ''
+    startLine: 7873
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nThe starting cosine of rotation of a bullet.\n"
+  example: []
+  syntax:
+    content: public static ExBPY SinRot()
+    return:
+      type: ExBPY
+    content.vb: Public Shared Function SinRot As ExBPY
+  overload: Danmokou.DMath.Functions.AtomicBPYRepo.SinRot*
   modifiers.csharp:
   - public
   - static
@@ -112,7 +244,7 @@ items:
   source:
     id: P
     path: ''
-    startLine: 7631
+    startLine: 7880
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -145,7 +277,7 @@ items:
   source:
     id: P1
     path: ''
-    startLine: 7636
+    startLine: 7885
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -178,7 +310,7 @@ items:
   source:
     id: P1M
     path: ''
-    startLine: 7641
+    startLine: 7890
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -214,7 +346,7 @@ items:
   source:
     id: P1Ma
     path: ''
-    startLine: 7643
+    startLine: 7892
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -250,7 +382,7 @@ items:
   source:
     id: P1Mf
     path: ''
-    startLine: 7645
+    startLine: 7894
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -283,7 +415,7 @@ items:
   source:
     id: P1Maf
     path: ''
-    startLine: 7647
+    startLine: 7896
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -319,7 +451,7 @@ items:
   source:
     id: P2
     path: ''
-    startLine: 7654
+    startLine: 7903
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -352,7 +484,7 @@ items:
   source:
     id: P2M
     path: ''
-    startLine: 7660
+    startLine: 7909
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -388,7 +520,7 @@ items:
   source:
     id: P2Ma
     path: ''
-    startLine: 7662
+    startLine: 7911
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -424,7 +556,7 @@ items:
   source:
     id: P2Mf
     path: ''
-    startLine: 7664
+    startLine: 7913
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -457,7 +589,7 @@ items:
   source:
     id: P2Maf
     path: ''
-    startLine: 7666
+    startLine: 7915
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -493,7 +625,7 @@ items:
   source:
     id: PM
     path: ''
-    startLine: 7672
+    startLine: 7921
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -531,7 +663,7 @@ items:
   source:
     id: PMa
     path: ''
-    startLine: 7674
+    startLine: 7923
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -569,7 +701,7 @@ items:
   source:
     id: PMf
     path: ''
-    startLine: 7676
+    startLine: 7925
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -604,7 +736,7 @@ items:
   source:
     id: PMaf
     path: ''
-    startLine: 7678
+    startLine: 7927
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -642,7 +774,7 @@ items:
   source:
     id: X
     path: ''
-    startLine: 7685
+    startLine: 7934
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -675,7 +807,7 @@ items:
   source:
     id: Y
     path: ''
-    startLine: 7690
+    startLine: 7939
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -708,7 +840,7 @@ items:
   source:
     id: Z
     path: ''
-    startLine: 7695
+    startLine: 7944
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -741,7 +873,7 @@ items:
   source:
     id: BRand
     path: ''
-    startLine: 7706
+    startLine: 7955
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -781,7 +913,7 @@ items:
   source:
     id: BRand2
     path: ''
-    startLine: 7714
+    startLine: 7963
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -821,7 +953,7 @@ items:
   source:
     id: BRand01
     path: ''
-    startLine: 7720
+    startLine: 7969
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -854,7 +986,7 @@ items:
   source:
     id: BRandpm1
     path: ''
-    startLine: 7726
+    startLine: 7975
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -887,7 +1019,7 @@ items:
   source:
     id: Const
     path: ''
-    startLine: 7728
+    startLine: 7977
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1219,6 +1351,26 @@ references:
   name: ExBPY
   nameWithType: ExBPY
   fullName: ExBPY
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.LT*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.LT
+  name: LT
+  nameWithType: AtomicBPYRepo.LT
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.LT
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.Angle*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.Angle
+  name: Angle
+  nameWithType: AtomicBPYRepo.Angle
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.Angle
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.CosRot*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.CosRot
+  name: CosRot
+  nameWithType: AtomicBPYRepo.CosRot
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.CosRot
+- uid: Danmokou.DMath.Functions.AtomicBPYRepo.SinRot*
+  commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.SinRot
+  name: SinRot
+  nameWithType: AtomicBPYRepo.SinRot
+  fullName: Danmokou.DMath.Functions.AtomicBPYRepo.SinRot
 - uid: Danmokou.DMath.Functions.AtomicBPYRepo.P*
   commentId: Overload:Danmokou.DMath.Functions.AtomicBPYRepo.P
   name: P

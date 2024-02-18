@@ -4,41 +4,377 @@ items:
   commentId: T:Danmokou.Danmaku.Patterns.AsyncPattern
   id: AsyncPattern
   parent: Danmokou.Danmaku.Patterns
-  children: []
+  children:
+  - Danmokou.Danmaku.Patterns.AsyncPattern.#ctor(Danmokou.Danmaku.Patterns.AsyncPatterner,System.Nullable{EnvFrame})
+  - Danmokou.Danmaku.Patterns.AsyncPattern.EnvFrame
+  - Danmokou.Danmaku.Patterns.AsyncPattern.op_Implicit(Danmokou.Danmaku.Patterns.AsyncPatterner)~Danmokou.Danmaku.Patterns.AsyncPattern
+  - Danmokou.Danmaku.Patterns.AsyncPattern.Run(Danmokou.Danmaku.Patterns.AsyncHandoff)
   langs:
   - csharp
   - vb
   name: AsyncPattern
   nameWithType: AsyncPattern
   fullName: Danmokou.Danmaku.Patterns.AsyncPattern
-  type: Delegate
+  type: Class
   source:
     id: AsyncPattern
     path: ''
-    startLine: 4640
+    startLine: 5280
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
   syntax:
-    content: public delegate IEnumerator AsyncPattern(AsyncHandoff abh);
+    content: 'public class AsyncPattern : EnvFrameAttacher, IEquatable<AsyncPattern>'
+    content.vb: >-
+      Public Class AsyncPattern
+          Inherits EnvFrameAttacher
+          Implements IEquatable(Of AsyncPattern)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Danmokou.Danmaku.Patterns.AsyncPattern}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern.#ctor(Danmokou.Danmaku.Patterns.AsyncPatterner,System.Nullable{EnvFrame})
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPattern.#ctor(Danmokou.Danmaku.Patterns.AsyncPatterner,System.Nullable{EnvFrame})
+  id: '#ctor(Danmokou.Danmaku.Patterns.AsyncPatterner,System.Nullable{EnvFrame})'
+  parent: Danmokou.Danmaku.Patterns.AsyncPattern
+  langs:
+  - csharp
+  - vb
+  name: AsyncPattern(AsyncPatterner, Nullable<EnvFrame>)
+  nameWithType: AsyncPattern.AsyncPattern(AsyncPatterner, Nullable<EnvFrame>)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern.AsyncPattern(Danmokou.Danmaku.Patterns.AsyncPatterner, System.Nullable<EnvFrame>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5280
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public AsyncPattern(AsyncPatterner Exec, EnvFrame? EnvFrame = null)
+    parameters:
+    - id: Exec
+      type: Danmokou.Danmaku.Patterns.AsyncPatterner
+    - id: EnvFrame
+      type: System.Nullable{EnvFrame}
+    content.vb: Public Sub New(Exec As AsyncPatterner, EnvFrame As EnvFrame? = Nothing)
+  overload: Danmokou.Danmaku.Patterns.AsyncPattern.#ctor*
+  nameWithType.vb: AsyncPattern.AsyncPattern(AsyncPatterner, Nullable(Of EnvFrame))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPattern.AsyncPattern(Danmokou.Danmaku.Patterns.AsyncPatterner, System.Nullable(Of EnvFrame))
+  name.vb: AsyncPattern(AsyncPatterner, Nullable(Of EnvFrame))
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern.EnvFrame
+  commentId: P:Danmokou.Danmaku.Patterns.AsyncPattern.EnvFrame
+  id: EnvFrame
+  parent: Danmokou.Danmaku.Patterns.AsyncPattern
+  langs:
+  - csharp
+  - vb
+  name: EnvFrame
+  nameWithType: AsyncPattern.EnvFrame
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern.EnvFrame
+  type: Property
+  source:
+    id: EnvFrame
+    path: ''
+    startLine: 5282
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public EnvFrame? EnvFrame { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{EnvFrame}
+    content.vb: Public Property EnvFrame As EnvFrame?
+  overload: Danmokou.Danmaku.Patterns.AsyncPattern.EnvFrame*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern.Run(Danmokou.Danmaku.Patterns.AsyncHandoff)
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPattern.Run(Danmokou.Danmaku.Patterns.AsyncHandoff)
+  id: Run(Danmokou.Danmaku.Patterns.AsyncHandoff)
+  parent: Danmokou.Danmaku.Patterns.AsyncPattern
+  langs:
+  - csharp
+  - vb
+  name: Run(AsyncHandoff)
+  nameWithType: AsyncPattern.Run(AsyncHandoff)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern.Run(Danmokou.Danmaku.Patterns.AsyncHandoff)
+  type: Method
+  source:
+    id: Run
+    path: ''
+    startLine: 5284
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public IEnumerator Run(AsyncHandoff abh)
     parameters:
     - id: abh
       type: Danmokou.Danmaku.Patterns.AsyncHandoff
     return:
       type: IEnumerator
-    content.vb: Public Delegate Function AsyncPattern(abh As AsyncHandoff) As IEnumerator
+    content.vb: Public Function Run(abh As AsyncHandoff) As IEnumerator
+  overload: Danmokou.Danmaku.Patterns.AsyncPattern.Run*
   modifiers.csharp:
   - public
-  - delegate
   modifiers.vb:
   - Public
-  - Delegate
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern.op_Implicit(Danmokou.Danmaku.Patterns.AsyncPatterner)~Danmokou.Danmaku.Patterns.AsyncPattern
+  commentId: M:Danmokou.Danmaku.Patterns.AsyncPattern.op_Implicit(Danmokou.Danmaku.Patterns.AsyncPatterner)~Danmokou.Danmaku.Patterns.AsyncPattern
+  id: op_Implicit(Danmokou.Danmaku.Patterns.AsyncPatterner)~Danmokou.Danmaku.Patterns.AsyncPattern
+  parent: Danmokou.Danmaku.Patterns.AsyncPattern
+  langs:
+  - csharp
+  - vb
+  name: Implicit(AsyncPatterner to AsyncPattern)
+  nameWithType: AsyncPattern.Implicit(AsyncPatterner to AsyncPattern)
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern.Implicit(Danmokou.Danmaku.Patterns.AsyncPatterner to Danmokou.Danmaku.Patterns.AsyncPattern)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 5296
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.Danmaku.Patterns
+  syntax:
+    content: public static implicit operator AsyncPattern(AsyncPatterner ap)
+    parameters:
+    - id: ap
+      type: Danmokou.Danmaku.Patterns.AsyncPatterner
+    return:
+      type: Danmokou.Danmaku.Patterns.AsyncPattern
+    content.vb: Public Shared Widening Operator CType(ap As AsyncPatterner) As AsyncPattern
+  overload: Danmokou.Danmaku.Patterns.AsyncPattern.op_Implicit*
+  nameWithType.vb: AsyncPattern.Widening(AsyncPatterner to AsyncPattern)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPattern.Widening(Danmokou.Danmaku.Patterns.AsyncPatterner to Danmokou.Danmaku.Patterns.AsyncPattern)
+  name.vb: Widening(AsyncPatterner to AsyncPattern)
 references:
 - uid: Danmokou.Danmaku.Patterns
   commentId: N:Danmokou.Danmaku.Patterns
   name: Danmokou.Danmaku.Patterns
   nameWithType: Danmokou.Danmaku.Patterns
   fullName: Danmokou.Danmaku.Patterns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IEquatable{Danmokou.Danmaku.Patterns.AsyncPattern}
+  commentId: T:System.IEquatable{Danmokou.Danmaku.Patterns.AsyncPattern}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<AsyncPattern>
+  nameWithType: IEquatable<AsyncPattern>
+  fullName: System.IEquatable<Danmokou.Danmaku.Patterns.AsyncPattern>
+  nameWithType.vb: IEquatable(Of AsyncPattern)
+  fullName.vb: System.IEquatable(Of Danmokou.Danmaku.Patterns.AsyncPattern)
+  name.vb: IEquatable(Of AsyncPattern)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Danmokou.Danmaku.Patterns.AsyncPattern
+    name: AsyncPattern
+    nameWithType: AsyncPattern
+    fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Danmokou.Danmaku.Patterns.AsyncPattern
+    name: AsyncPattern
+    nameWithType: AsyncPattern
+    fullName: Danmokou.Danmaku.Patterns.AsyncPattern
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern.#ctor*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPattern.#ctor
+  name: AsyncPattern
+  nameWithType: AsyncPattern.AsyncPattern
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern.AsyncPattern
+- uid: Danmokou.Danmaku.Patterns.AsyncPatterner
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncPatterner
+  parent: Danmokou.Danmaku.Patterns
+  name: AsyncPatterner
+  nameWithType: AsyncPatterner
+  fullName: Danmokou.Danmaku.Patterns.AsyncPatterner
+- uid: System.Nullable{EnvFrame}
+  commentId: T:System.Nullable{EnvFrame}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<EnvFrame>
+  nameWithType: Nullable<EnvFrame>
+  fullName: System.Nullable<EnvFrame>
+  nameWithType.vb: Nullable(Of EnvFrame)
+  fullName.vb: System.Nullable(Of EnvFrame)
+  name.vb: Nullable(Of EnvFrame)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: EnvFrame
+    name: EnvFrame
+    nameWithType: EnvFrame
+    fullName: EnvFrame
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern.EnvFrame*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPattern.EnvFrame
+  name: EnvFrame
+  nameWithType: AsyncPattern.EnvFrame
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern.EnvFrame
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern.Run*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPattern.Run
+  name: Run
+  nameWithType: AsyncPattern.Run
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern.Run
 - uid: Danmokou.Danmaku.Patterns.AsyncHandoff
   commentId: T:Danmokou.Danmaku.Patterns.AsyncHandoff
   parent: Danmokou.Danmaku.Patterns
@@ -50,3 +386,17 @@ references:
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: IEnumerator
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern.op_Implicit*
+  commentId: Overload:Danmokou.Danmaku.Patterns.AsyncPattern.op_Implicit
+  name: Implicit
+  nameWithType: AsyncPattern.Implicit
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern.Implicit
+  nameWithType.vb: AsyncPattern.Widening
+  fullName.vb: Danmokou.Danmaku.Patterns.AsyncPattern.Widening
+  name.vb: Widening
+- uid: Danmokou.Danmaku.Patterns.AsyncPattern
+  commentId: T:Danmokou.Danmaku.Patterns.AsyncPattern
+  parent: Danmokou.Danmaku.Patterns
+  name: AsyncPattern
+  nameWithType: AsyncPattern
+  fullName: Danmokou.Danmaku.Patterns.AsyncPattern
