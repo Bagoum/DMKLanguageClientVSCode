@@ -4,7 +4,7 @@
   "publisher": "Bagoum",
   "description": "Language extension for Danmokou's scripting language.",
   "repository": {"url": "https://github.com/Bagoum/DMKLanguageClientVSCode"},
-  "version": "1.2.0",
+  "version": "1.3.0",
   "icon": "ext_icon.png",
   "engines": {
     "vscode": "^1.69.0"

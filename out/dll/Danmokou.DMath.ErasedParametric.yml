@@ -15,7 +15,7 @@ items:
   source:
     id: ErasedParametric
     path: ''
-    startLine: 7499
+    startLine: 7584
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath

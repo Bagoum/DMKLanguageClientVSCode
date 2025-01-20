@@ -27,6 +27,7 @@ items:
   - Danmokou.DMath.Functions.Parametrics.LerpOut(System.Single,System.Single,ExTP)
   - Danmokou.DMath.Functions.Parametrics.LNearestEnemy
   - Danmokou.DMath.Functions.Parametrics.LNearestEnemyDefault(ExTP)
+  - Danmokou.DMath.Functions.Parametrics.Loc
   - Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemy
   - Danmokou.DMath.Functions.Parametrics.LSaveNearestEnemyDefault(ExTP)
   - Danmokou.DMath.Functions.Parametrics.MultiplyX(ExBPY,ExTP)
@@ -57,7 +58,7 @@ items:
   source:
     id: Parametrics
     path: ''
-    startLine: 9368
+    startLine: 9461
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -97,7 +98,7 @@ items:
   source:
     id: LNearestEnemy
     path: ''
-    startLine: 8965
+    startLine: 9058
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -129,7 +130,7 @@ items:
   source:
     id: LNearestEnemyDefault
     path: ''
-    startLine: 8972
+    startLine: 9065
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -164,7 +165,7 @@ items:
   source:
     id: LSaveNearestEnemy
     path: ''
-    startLine: 8987
+    startLine: 9080
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -196,7 +197,7 @@ items:
   source:
     id: LSaveNearestEnemyDefault
     path: ''
-    startLine: 8994
+    startLine: 9087
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -231,7 +232,7 @@ items:
   source:
     id: goX
     path: ''
-    startLine: 9176
+    startLine: 9269
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -264,7 +265,7 @@ items:
   source:
     id: goY
     path: ''
-    startLine: 9177
+    startLine: 9270
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -297,7 +298,7 @@ items:
   source:
     id: goUp
     path: ''
-    startLine: 9178
+    startLine: 9271
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -327,7 +328,7 @@ items:
   source:
     id: goDown
     path: ''
-    startLine: 9179
+    startLine: 9272
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -357,7 +358,7 @@ items:
   source:
     id: goLeft
     path: ''
-    startLine: 9180
+    startLine: 9273
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -387,7 +388,7 @@ items:
   source:
     id: goRight
     path: ''
-    startLine: 9181
+    startLine: 9274
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -417,7 +418,7 @@ items:
   source:
     id: goSide
     path: ''
-    startLine: 9182
+    startLine: 9275
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -450,7 +451,7 @@ items:
   source:
     id: goOtherSide
     path: ''
-    startLine: 9183
+    startLine: 9276
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -483,7 +484,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 9376
+    startLine: 9469
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -495,6 +496,38 @@ items:
       type: ExTP
     content.vb: Public Shared Function Zero As ExTP
   overload: Danmokou.DMath.Functions.Parametrics.Zero*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.Parametrics.Loc
+  commentId: M:Danmokou.DMath.Functions.Parametrics.Loc
+  id: Loc
+  parent: Danmokou.DMath.Functions.Parametrics
+  langs:
+  - csharp
+  - vb
+  name: Loc()
+  nameWithType: Parametrics.Loc()
+  fullName: Danmokou.DMath.Functions.Parametrics.Loc()
+  type: Method
+  source:
+    id: Loc
+    path: ''
+    startLine: 9474
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nReturn the global location of the entity.\n"
+  example: []
+  syntax:
+    content: public static ExTP Loc()
+    return:
+      type: ExTP
+    content.vb: Public Shared Function Loc As ExTP
+  overload: Danmokou.DMath.Functions.Parametrics.Loc*
   modifiers.csharp:
   - public
   - static
@@ -515,7 +548,7 @@ items:
   source:
     id: Root
     path: ''
-    startLine: 9381
+    startLine: 9479
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -547,7 +580,7 @@ items:
   source:
     id: CXY
     path: ''
-    startLine: 9393
+    startLine: 9492
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -587,7 +620,7 @@ items:
   source:
     id: CX
     path: ''
-    startLine: 9402
+    startLine: 9501
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -624,7 +657,7 @@ items:
   source:
     id: CY
     path: ''
-    startLine: 9411
+    startLine: 9510
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -661,7 +694,7 @@ items:
   source:
     id: CR
     path: ''
-    startLine: 9421
+    startLine: 9520
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -701,7 +734,7 @@ items:
   source:
     id: Divide
     path: ''
-    startLine: 9433
+    startLine: 9532
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -741,7 +774,7 @@ items:
   source:
     id: MultiplyX
     path: ''
-    startLine: 9447
+    startLine: 9546
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -781,7 +814,7 @@ items:
   source:
     id: MultiplyY
     path: ''
-    startLine: 9463
+    startLine: 9562
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -821,7 +854,7 @@ items:
   source:
     id: AddY
     path: ''
-    startLine: 9480
+    startLine: 9579
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -861,7 +894,7 @@ items:
   source:
     id: AddAtAngle
     path: ''
-    startLine: 9499
+    startLine: 9598
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -904,7 +937,7 @@ items:
   source:
     id: PXY
     path: ''
-    startLine: 9527
+    startLine: 9626
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -944,7 +977,7 @@ items:
   source:
     id: PX
     path: ''
-    startLine: 9531
+    startLine: 9630
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -979,7 +1012,7 @@ items:
   source:
     id: PY
     path: ''
-    startLine: 9535
+    startLine: 9634
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1014,7 +1047,7 @@ items:
   source:
     id: TP
     path: ''
-    startLine: 9540
+    startLine: 9639
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1049,7 +1082,7 @@ items:
   source:
     id: VHome
     path: ''
-    startLine: 9564
+    startLine: 9663
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1090,7 +1123,7 @@ items:
   source:
     id: VHomeTime
     path: ''
-    startLine: 9578
+    startLine: 9677
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1130,7 +1163,7 @@ items:
   source:
     id: SSVHomeT
     path: ''
-    startLine: 9584
+    startLine: 9683
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1168,7 +1201,7 @@ items:
   source:
     id: EaseDVHomeT
     path: ''
-    startLine: 9591
+    startLine: 9690
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1207,7 +1240,7 @@ items:
   source:
     id: EaseToTarget
     path: ''
-    startLine: 9597
+    startLine: 9696
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1249,7 +1282,7 @@ items:
   source:
     id: Rotify
     path: ''
-    startLine: 9612
+    startLine: 9711
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1286,7 +1319,7 @@ items:
   source:
     id: RotateLerpPercent
     path: ''
-    startLine: 9649
+    startLine: 9748
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1330,7 +1363,7 @@ items:
   source:
     id: RotateLerpRate
     path: ''
-    startLine: 9663
+    startLine: 9762
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1374,7 +1407,7 @@ items:
   source:
     id: TrueRotateLerpPercent
     path: ''
-    startLine: 9680
+    startLine: 9779
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1418,7 +1451,7 @@ items:
   source:
     id: TrueRotateLerpRate
     path: ''
-    startLine: 9692
+    startLine: 9791
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1461,7 +1494,7 @@ items:
   source:
     id: LaserRotateLerp
     path: ''
-    startLine: 9696
+    startLine: 9795
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1498,7 +1531,7 @@ items:
   source:
     id: Switch
     path: ''
-    startLine: 9711
+    startLine: 9810
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1541,7 +1574,7 @@ items:
   source:
     id: Pivot
     path: ''
-    startLine: 9728
+    startLine: 9827
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1587,7 +1620,7 @@ items:
   source:
     id: LerpIn
     path: ''
-    startLine: 9743
+    startLine: 9842
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1630,7 +1663,7 @@ items:
   source:
     id: LerpOut
     path: ''
-    startLine: 9760
+    startLine: 9859
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2032,6 +2065,11 @@ references:
   name: Zero
   nameWithType: Parametrics.Zero
   fullName: Danmokou.DMath.Functions.Parametrics.Zero
+- uid: Danmokou.DMath.Functions.Parametrics.Loc*
+  commentId: Overload:Danmokou.DMath.Functions.Parametrics.Loc
+  name: Loc
+  nameWithType: Parametrics.Loc
+  fullName: Danmokou.DMath.Functions.Parametrics.Loc
 - uid: Danmokou.DMath.Functions.Parametrics.Root*
   commentId: Overload:Danmokou.DMath.Functions.Parametrics.Root
   name: Root

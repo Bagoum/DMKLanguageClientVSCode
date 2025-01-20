@@ -21,7 +21,7 @@ items:
   source:
     id: PredicateLogic
     path: ''
-    startLine: 9058
+    startLine: 9151
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -61,7 +61,7 @@ items:
   source:
     id: OnlyOnce
     path: ''
-    startLine: 9064
+    startLine: 9157
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -96,7 +96,7 @@ items:
   source:
     id: Cooldown
     path: ''
-    startLine: 9079
+    startLine: 9172
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -133,7 +133,7 @@ items:
   source:
     id: RelCirc
     path: ''
-    startLine: 9100
+    startLine: 9193
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -176,7 +176,7 @@ items:
   source:
     id: Circ
     path: ''
-    startLine: 9112
+    startLine: 9205
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -213,7 +213,7 @@ items:
   source:
     id: RelRect
     path: ''
-    startLine: 9123
+    startLine: 9216
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -256,7 +256,7 @@ items:
   source:
     id: Rect
     path: ''
-    startLine: 9134
+    startLine: 9227
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

@@ -43,7 +43,7 @@ items:
   source:
     id: LaserOption
     path: ''
-    startLine: 3888
+    startLine: 3958
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -86,7 +86,7 @@ items:
   source:
     id: Length
     path: ''
-    startLine: 3893
+    startLine: 3963
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -124,7 +124,7 @@ items:
   source:
     id: VarLength
     path: ''
-    startLine: 3897
+    startLine: 3967
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -164,7 +164,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 3902
+    startLine: 3972
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -199,7 +199,7 @@ items:
   source:
     id: Delete
     path: ''
-    startLine: 3909
+    startLine: 3979
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -234,7 +234,7 @@ items:
   source:
     id: Deactivate
     path: ''
-    startLine: 3914
+    startLine: 3984
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -269,7 +269,7 @@ items:
   source:
     id: Repeat
     path: ''
-    startLine: 3920
+    startLine: 3990
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -302,7 +302,7 @@ items:
   source:
     id: RepeatF
     path: ''
-    startLine: 3925
+    startLine: 3995
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -341,7 +341,7 @@ items:
   source:
     id: Straight
     path: ''
-    startLine: 3931
+    startLine: 4001
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -381,7 +381,7 @@ items:
   source:
     id: Rotate
     path: ''
-    startLine: 3938
+    startLine: 4008
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -424,7 +424,7 @@ items:
   source:
     id: Static
     path: ''
-    startLine: 3942
+    startLine: 4012
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -459,7 +459,7 @@ items:
   source:
     id: Dynamic
     path: ''
-    startLine: 3946
+    startLine: 4016
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -494,7 +494,7 @@ items:
   source:
     id: BeforeDraw
     path: ''
-    startLine: 3953
+    startLine: 4023
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -531,7 +531,7 @@ items:
   source:
     id: Endpoint
     path: ''
-    startLine: 3957
+    startLine: 4027
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -566,7 +566,7 @@ items:
   source:
     id: SM
     path: ''
-    startLine: 3961
+    startLine: 4031
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -601,7 +601,7 @@ items:
   source:
     id: SFX
     path: ''
-    startLine: 3965
+    startLine: 4035
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -636,7 +636,7 @@ items:
   source:
     id: SFX2
     path: ''
-    startLine: 3969
+    startLine: 4039
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -673,7 +673,7 @@ items:
   source:
     id: dSFX
     path: ''
-    startLine: 3975
+    startLine: 4045
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -706,7 +706,7 @@ items:
   source:
     id: S
     path: ''
-    startLine: 3979
+    startLine: 4049
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -744,7 +744,7 @@ items:
   source:
     id: Low
     path: ''
-    startLine: 3981
+    startLine: 4051
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -774,7 +774,7 @@ items:
   source:
     id: High
     path: ''
-    startLine: 3982
+    startLine: 4052
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -804,7 +804,7 @@ items:
   source:
     id: Stagger
     path: ''
-    startLine: 3984
+    startLine: 4054
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -837,7 +837,7 @@ items:
   source:
     id: HueShift
     path: ''
-    startLine: 3990
+    startLine: 4060
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -872,7 +872,7 @@ items:
   source:
     id: Recolor
     path: ''
-    startLine: 3997
+    startLine: 4067
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -909,7 +909,7 @@ items:
   source:
     id: Tint
     path: ''
-    startLine: 4003
+    startLine: 4073
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -944,7 +944,7 @@ items:
   source:
     id: Nonpiercing
     path: ''
-    startLine: 4009
+    startLine: 4079
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -976,7 +976,7 @@ items:
   source:
     id: Damage
     path: ''
-    startLine: 4014
+    startLine: 4084
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1014,7 +1014,7 @@ items:
   source:
     id: NoGraze
     path: ''
-    startLine: 4019
+    startLine: 4089
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options
@@ -1046,7 +1046,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 4021
+    startLine: 4091
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Options

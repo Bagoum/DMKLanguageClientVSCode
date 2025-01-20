@@ -8,6 +8,7 @@ items:
   - Danmokou.DMath.Functions.ExMV2.Circle(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMV2.DCircle(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExMV2.MulEntry(tv2,tv2)
+  - Danmokou.DMath.Functions.ExMV2.PtMul(tv2,tv2)
   langs:
   - csharp
   - vb
@@ -18,7 +19,7 @@ items:
   source:
     id: ExMV2
     path: ''
-    startLine: 8402
+    startLine: 8490
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -44,6 +45,43 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: Danmokou.DMath.Functions.ExMV2.PtMul(tv2,tv2)
+  commentId: M:Danmokou.DMath.Functions.ExMV2.PtMul(tv2,tv2)
+  id: PtMul(tv2,tv2)
+  parent: Danmokou.DMath.Functions.ExMV2
+  langs:
+  - csharp
+  - vb
+  name: PtMul(tv2, tv2)
+  nameWithType: ExMV2.PtMul(tv2, tv2)
+  fullName: Danmokou.DMath.Functions.ExMV2.PtMul(tv2, tv2)
+  type: Method
+  source:
+    id: PtMul
+    path: ''
+    startLine: 8495
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nPointwise-multiply two vectors.\n"
+  example: []
+  syntax:
+    content: public static tv2 PtMul(tv2 a, tv2 b)
+    parameters:
+    - id: a
+      type: tv2
+    - id: b
+      type: tv2
+    return:
+      type: tv2
+    content.vb: Public Shared Function PtMul(a As tv2, b As tv2) As tv2
+  overload: Danmokou.DMath.Functions.ExMV2.PtMul*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.DMath.Functions.ExMV2.Circle(tfloat,tfloat,tfloat)
   commentId: M:Danmokou.DMath.Functions.ExMV2.Circle(tfloat,tfloat,tfloat)
   id: Circle(tfloat,tfloat,tfloat)
@@ -58,7 +96,7 @@ items:
   source:
     id: Circle
     path: ''
-    startLine: 8405
+    startLine: 8498
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -95,7 +133,7 @@ items:
   source:
     id: DCircle
     path: ''
-    startLine: 8408
+    startLine: 8501
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -132,7 +170,7 @@ items:
   source:
     id: MulEntry
     path: ''
-    startLine: 8418
+    startLine: 8511
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -451,6 +489,16 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Danmokou.DMath.Functions.ExMV2.PtMul*
+  commentId: Overload:Danmokou.DMath.Functions.ExMV2.PtMul
+  name: PtMul
+  nameWithType: ExMV2.PtMul
+  fullName: Danmokou.DMath.Functions.ExMV2.PtMul
+- uid: tv2
+  isExternal: true
+  name: tv2
+  nameWithType: tv2
+  fullName: tv2
 - uid: Danmokou.DMath.Functions.ExMV2.Circle*
   commentId: Overload:Danmokou.DMath.Functions.ExMV2.Circle
   name: Circle
@@ -461,11 +509,6 @@ references:
   name: tfloat
   nameWithType: tfloat
   fullName: tfloat
-- uid: tv2
-  isExternal: true
-  name: tv2
-  nameWithType: tv2
-  fullName: tv2
 - uid: Danmokou.DMath.Functions.ExMV2.DCircle*
   commentId: Overload:Danmokou.DMath.Functions.ExMV2.DCircle
   name: DCircle

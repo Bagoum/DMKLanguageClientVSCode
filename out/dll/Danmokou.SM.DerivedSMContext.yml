@@ -18,7 +18,7 @@ items:
   source:
     id: DerivedSMContext
     path: ''
-    startLine: 16343
+    startLine: 16477
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -61,7 +61,7 @@ items:
   source:
     id: PhaseObjects
     path: ''
-    startLine: 16345
+    startLine: 16479
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -95,7 +95,7 @@ items:
   source:
     id: DeriveFrom
     path: ''
-    startLine: 16351
+    startLine: 16485
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -128,7 +128,7 @@ items:
   source:
     id: CleanupObjects
     path: ''
-    startLine: 16354
+    startLine: 16488
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

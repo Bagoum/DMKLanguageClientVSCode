@@ -15,7 +15,7 @@ items:
   source:
     id: BehaviorEntity
     path: ''
-    startLine: 643
+    startLine: 646
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior

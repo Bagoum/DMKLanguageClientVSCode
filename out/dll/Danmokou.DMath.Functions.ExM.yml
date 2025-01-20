@@ -26,6 +26,7 @@ items:
   - Danmokou.DMath.Functions.ExM.BounceX(tfloat,tv2,tv2)
   - Danmokou.DMath.Functions.ExM.BounceY(tfloat,tv2,tv2)
   - Danmokou.DMath.Functions.ExM.Ceil(tfloat)
+  - Danmokou.DMath.Functions.ExM.CFeature``1
   - Danmokou.DMath.Functions.ExM.Clamp(tfloat,tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Clamp01(tfloat)
   - Danmokou.DMath.Functions.ExM.Colliding(System.Func{TExArgCtx,TEx{Bullet}})
@@ -64,6 +65,7 @@ items:
   - Danmokou.DMath.Functions.ExM.HPRatio(TEx{BehaviorEntity})
   - Danmokou.DMath.Functions.ExM.IfPowerGTP``1(System.Func{TExArgCtx,TEx{``0}})
   - Danmokou.DMath.Functions.ExM.Increment(tfloat)
+  - Danmokou.DMath.Functions.ExM.inst
   - Danmokou.DMath.Functions.ExM.Instance
   - Danmokou.DMath.Functions.ExM.Is1CC
   - Danmokou.DMath.Functions.ExM.LaserLastActiveT(System.Func{TExArgCtx,TEx{CurvedTileRenderLaser}})
@@ -84,6 +86,7 @@ items:
   - Danmokou.DMath.Functions.ExM.MaxA(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.Min(tfloat,tfloat)
   - Danmokou.DMath.Functions.ExM.MinA(tfloat,tfloat)
+  - Danmokou.DMath.Functions.ExM.MIndex``1(TEx{``0[]},TEx{System.Single})
   - Danmokou.DMath.Functions.ExM.Mine``1
   - Danmokou.DMath.Functions.ExM.Mul``1(tfloat,TEx{``0})
   - Danmokou.DMath.Functions.ExM.MulComplement(tfloat,tfloat)
@@ -201,7 +204,7 @@ items:
   source:
     id: ExM
     path: ''
-    startLine: 11338
+    startLine: 11439
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -241,7 +244,7 @@ items:
   source:
     id: YMin
     path: ''
-    startLine: 8851
+    startLine: 8944
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -274,7 +277,7 @@ items:
   source:
     id: YMax
     path: ''
-    startLine: 8856
+    startLine: 8949
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -306,7 +309,7 @@ items:
   source:
     id: XMin
     path: ''
-    startLine: 8862
+    startLine: 8955
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -339,7 +342,7 @@ items:
   source:
     id: XMax
     path: ''
-    startLine: 8867
+    startLine: 8960
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -371,7 +374,7 @@ items:
   source:
     id: YMinMinus1
     path: ''
-    startLine: 8873
+    startLine: 8966
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -404,7 +407,7 @@ items:
   source:
     id: YMaxPlus1
     path: ''
-    startLine: 8879
+    startLine: 8972
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -436,7 +439,7 @@ items:
   source:
     id: XMinMinus1
     path: ''
-    startLine: 8885
+    startLine: 8978
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -468,7 +471,7 @@ items:
   source:
     id: XMaxPlus1
     path: ''
-    startLine: 8892
+    startLine: 8985
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -501,7 +504,7 @@ items:
   source:
     id: XWidth
     path: ''
-    startLine: 8898
+    startLine: 8991
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -533,7 +536,7 @@ items:
   source:
     id: YHeight
     path: ''
-    startLine: 8903
+    startLine: 8996
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -565,7 +568,7 @@ items:
   source:
     id: LPlayer
     path: ''
-    startLine: 8909
+    startLine: 9002
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -598,7 +601,7 @@ items:
   source:
     id: LPlayerTrue
     path: ''
-    startLine: 8916
+    startLine: 9009
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -631,7 +634,7 @@ items:
   source:
     id: LBEH
     path: ''
-    startLine: 8922
+    startLine: 9015
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -669,7 +672,7 @@ items:
   source:
     id: DistToWall
     path: ''
-    startLine: 8929
+    startLine: 9022
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -704,7 +707,7 @@ items:
   source:
     id: ToWall
     path: ''
-    startLine: 8930
+    startLine: 9023
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -739,7 +742,7 @@ items:
   source:
     id: Reference
     path: ''
-    startLine: 10555
+    startLine: 10650
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -780,7 +783,7 @@ items:
   source:
     id: ReferenceLet
     path: ''
-    startLine: 10562
+    startLine: 10657
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -820,7 +823,7 @@ items:
   source:
     id: ReferenceSafe
     path: ''
-    startLine: 10571
+    startLine: 10666
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -862,7 +865,7 @@ items:
   source:
     id: RetrieveHoisted
     path: ''
-    startLine: 10581
+    startLine: 10676
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -906,7 +909,7 @@ items:
   source:
     id: RetrieveHoisted0
     path: ''
-    startLine: 10590
+    startLine: 10685
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -947,7 +950,7 @@ items:
   source:
     id: LetBDSL2
     path: ''
-    startLine: 10601
+    startLine: 10696
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -992,7 +995,7 @@ items:
   source:
     id: LetFloats
     path: ''
-    startLine: 10611
+    startLine: 10706
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1036,7 +1039,7 @@ items:
   source:
     id: LetV2s
     path: ''
-    startLine: 10621
+    startLine: 10716
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1080,7 +1083,7 @@ items:
   source:
     id: Let
     path: ''
-    startLine: 10630
+    startLine: 10725
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1124,7 +1127,7 @@ items:
   source:
     id: Set
     path: ''
-    startLine: 10639
+    startLine: 10734
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1168,7 +1171,7 @@ items:
   source:
     id: V2X
     path: ''
-    startLine: 10651
+    startLine: 10746
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1203,7 +1206,7 @@ items:
   source:
     id: V2Y
     path: ''
-    startLine: 10656
+    startLine: 10751
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1238,7 +1241,7 @@ items:
   source:
     id: RV2NX
     path: ''
-    startLine: 10664
+    startLine: 10759
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1274,7 +1277,7 @@ items:
   source:
     id: RV2NY
     path: ''
-    startLine: 10670
+    startLine: 10765
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1310,7 +1313,7 @@ items:
   source:
     id: RV2RX
     path: ''
-    startLine: 10676
+    startLine: 10771
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1346,7 +1349,7 @@ items:
   source:
     id: RV2RY
     path: ''
-    startLine: 10682
+    startLine: 10777
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1382,7 +1385,7 @@ items:
   source:
     id: RV2A
     path: ''
-    startLine: 10688
+    startLine: 10783
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1418,7 +1421,7 @@ items:
   source:
     id: P1
     path: ''
-    startLine: 10700
+    startLine: 10795
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1454,7 +1457,7 @@ items:
   source:
     id: P1M
     path: ''
-    startLine: 10706
+    startLine: 10801
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1492,7 +1495,7 @@ items:
   source:
     id: exP1M
     path: ''
-    startLine: 10710
+    startLine: 10805
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1527,7 +1530,7 @@ items:
   source:
     id: P2
     path: ''
-    startLine: 10719
+    startLine: 10814
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1563,7 +1566,7 @@ items:
   source:
     id: P2M
     path: ''
-    startLine: 10725
+    startLine: 10820
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1601,7 +1604,7 @@ items:
   source:
     id: exP2M
     path: ''
-    startLine: 10730
+    startLine: 10825
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1636,7 +1639,7 @@ items:
   source:
     id: PM
     path: ''
-    startLine: 10742
+    startLine: 10837
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1679,7 +1682,7 @@ items:
   source:
     id: exPM
     path: ''
-    startLine: 10748
+    startLine: 10843
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1716,7 +1719,7 @@ items:
   source:
     id: __Combine
     path: ''
-    startLine: 10754
+    startLine: 10849
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1753,7 +1756,7 @@ items:
   source:
     id: Rand
     path: ''
-    startLine: 10771
+    startLine: 10866
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1793,7 +1796,7 @@ items:
   source:
     id: Randpm1
     path: ''
-    startLine: 10776
+    startLine: 10871
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1825,7 +1828,7 @@ items:
   source:
     id: SRand
     path: ''
-    startLine: 10786
+    startLine: 10881
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1868,7 +1871,7 @@ items:
   source:
     id: SRand01
     path: ''
-    startLine: 10793
+    startLine: 10888
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1905,7 +1908,7 @@ items:
   source:
     id: SRandpm1
     path: ''
-    startLine: 10800
+    startLine: 10895
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1942,7 +1945,7 @@ items:
   source:
     id: Superpose
     path: ''
-    startLine: 10810
+    startLine: 10905
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -1989,7 +1992,7 @@ items:
   source:
     id: SuperposeC
     path: ''
-    startLine: 10815
+    startLine: 10910
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2033,7 +2036,7 @@ items:
   source:
     id: Opacity
     path: ''
-    startLine: 10821
+    startLine: 10916
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2070,7 +2073,7 @@ items:
   source:
     id: Softmax
     path: ''
-    startLine: 10833
+    startLine: 10928
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2116,7 +2119,7 @@ items:
   source:
     id: Logsum
     path: ''
-    startLine: 10855
+    startLine: 10950
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2159,7 +2162,7 @@ items:
   source:
     id: SWing
     path: ''
-    startLine: 10880
+    startLine: 10975
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2203,7 +2206,7 @@ items:
   source:
     id: SWing2
     path: ''
-    startLine: 10905
+    startLine: 11000
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2255,7 +2258,7 @@ items:
   source:
     id: _constNamedTimer
     path: ''
-    startLine: 10936
+    startLine: 11031
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2288,7 +2291,7 @@ items:
   source:
     id: Timer
     path: ''
-    startLine: 10943
+    startLine: 11038
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2326,7 +2329,7 @@ items:
   source:
     id: TimerSec
     path: ''
-    startLine: 10949
+    startLine: 11044
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2364,7 +2367,7 @@ items:
   source:
     id: Height
     path: ''
-    startLine: 10959
+    startLine: 11054
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2405,7 +2408,7 @@ items:
   source:
     id: RegPolyR
     path: ''
-    startLine: 10969
+    startLine: 11064
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2448,7 +2451,7 @@ items:
   source:
     id: RegPoly
     path: ''
-    startLine: 10981
+    startLine: 11076
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2487,7 +2490,7 @@ items:
   source:
     id: Reg2StarR
     path: ''
-    startLine: 10993
+    startLine: 11088
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2530,7 +2533,7 @@ items:
   source:
     id: Reg2Star
     path: ''
-    startLine: 10999
+    startLine: 11094
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2569,7 +2572,7 @@ items:
   source:
     id: RegSoftStarR
     path: ''
-    startLine: 11011
+    startLine: 11106
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2612,7 +2615,7 @@ items:
   source:
     id: RegSoftStar
     path: ''
-    startLine: 11017
+    startLine: 11112
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2651,7 +2654,7 @@ items:
   source:
     id: BounceX
     path: ''
-    startLine: 11026
+    startLine: 11121
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2690,7 +2693,7 @@ items:
   source:
     id: BounceY
     path: ''
-    startLine: 11031
+    startLine: 11126
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2729,16 +2732,16 @@ items:
   source:
     id: FrameNumber
     path: ''
-    startLine: 11038
+    startLine: 11133
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static Ex FrameNumber { get; }
+    content: public static TEx<int> FrameNumber { get; }
     parameters: []
     return:
-      type: Ex
-    content.vb: Public Shared ReadOnly Property FrameNumber As Ex
+      type: TEx{System.Int32}
+    content.vb: Public Shared ReadOnly Property FrameNumber As TEx(Of Integer)
   overload: Danmokou.DMath.Functions.ExM.FrameNumber*
   modifiers.csharp:
   - public
@@ -2762,7 +2765,7 @@ items:
   source:
     id: HPRatio
     path: ''
-    startLine: 11047
+    startLine: 11141
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2800,7 +2803,7 @@ items:
   source:
     id: PhotosTaken
     path: ''
-    startLine: 11055
+    startLine: 11149
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2838,7 +2841,7 @@ items:
   source:
     id: Is1CC
     path: ''
-    startLine: 11061
+    startLine: 11155
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2856,31 +2859,31 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.DMath.Functions.ExM.Instance
-  commentId: P:Danmokou.DMath.Functions.ExM.Instance
-  id: Instance
+- uid: Danmokou.DMath.Functions.ExM.inst
+  commentId: P:Danmokou.DMath.Functions.ExM.inst
+  id: inst
   parent: Danmokou.DMath.Functions.ExM
   langs:
   - csharp
   - vb
-  name: Instance
-  nameWithType: ExM.Instance
-  fullName: Danmokou.DMath.Functions.ExM.Instance
+  name: inst
+  nameWithType: ExM.inst
+  fullName: Danmokou.DMath.Functions.ExM.inst
   type: Property
   source:
-    id: Instance
+    id: inst
     path: ''
-    startLine: 11063
+    startLine: 11157
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
   syntax:
-    content: public static Ex Instance { get; }
+    content: public static Ex inst { get; }
     parameters: []
     return:
       type: Ex
-    content.vb: Public Shared ReadOnly Property Instance As Ex
-  overload: Danmokou.DMath.Functions.ExM.Instance*
+    content.vb: Public Shared ReadOnly Property inst As Ex
+  overload: Danmokou.DMath.Functions.ExM.inst*
   modifiers.csharp:
   - public
   - static
@@ -2889,6 +2892,73 @@ items:
   - Public
   - Shared
   - ReadOnly
+- uid: Danmokou.DMath.Functions.ExM.Instance
+  commentId: M:Danmokou.DMath.Functions.ExM.Instance
+  id: Instance
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: Instance()
+  nameWithType: ExM.Instance()
+  fullName: Danmokou.DMath.Functions.ExM.Instance()
+  type: Method
+  source:
+    id: Instance
+    path: ''
+    startLine: 11158
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  syntax:
+    content: public static TEx<InstanceData> Instance()
+    return:
+      type: TEx{InstanceData}
+    content.vb: Public Shared Function Instance As TEx(Of InstanceData)
+  overload: Danmokou.DMath.Functions.ExM.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.DMath.Functions.ExM.CFeature``1
+  commentId: M:Danmokou.DMath.Functions.ExM.CFeature``1
+  id: CFeature``1
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: CFeature<T>()
+  nameWithType: ExM.CFeature<T>()
+  fullName: Danmokou.DMath.Functions.ExM.CFeature<T>()
+  type: Method
+  source:
+    id: CFeature
+    path: ''
+    startLine: 11164
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nGet the custom feature of type T from the instance data.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> CFeature<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function CFeature(Of T) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExM.CFeature*
+  nameWithType.vb: ExM.CFeature(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.CFeature(Of T)()
+  name.vb: CFeature(Of T)()
 - uid: Danmokou.DMath.Functions.ExM.PlayerFreeT(System.Func{TExArgCtx,TEx{PlayerController}})
   commentId: M:Danmokou.DMath.Functions.ExM.PlayerFreeT(System.Func{TExArgCtx,TEx{PlayerController}})
   id: PlayerFreeT(System.Func{TExArgCtx,TEx{PlayerController}})
@@ -2903,7 +2973,7 @@ items:
   source:
     id: PlayerFreeT
     path: ''
-    startLine: 11071
+    startLine: 11170
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2941,7 +3011,7 @@ items:
   source:
     id: PlayerFocusT
     path: ''
-    startLine: 11078
+    startLine: 11177
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -2979,7 +3049,7 @@ items:
   source:
     id: PlayerFiringT
     path: ''
-    startLine: 11085
+    startLine: 11184
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3017,7 +3087,7 @@ items:
   source:
     id: PlayerFiringFreeT
     path: ''
-    startLine: 11092
+    startLine: 11191
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3055,7 +3125,7 @@ items:
   source:
     id: PlayerFiringFocusT
     path: ''
-    startLine: 11099
+    startLine: 11198
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3093,7 +3163,7 @@ items:
   source:
     id: PlayerUnFiringT
     path: ''
-    startLine: 11106
+    startLine: 11205
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3131,7 +3201,7 @@ items:
   source:
     id: PlayerUnFiringFreeT
     path: ''
-    startLine: 11113
+    startLine: 11212
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3169,7 +3239,7 @@ items:
   source:
     id: PlayerUnFiringFocusT
     path: ''
-    startLine: 11120
+    startLine: 11219
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3207,7 +3277,7 @@ items:
   source:
     id: PlayerID
     path: ''
-    startLine: 11123
+    startLine: 11222
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3243,7 +3313,7 @@ items:
   source:
     id: PlayerLerpFreeToFocus
     path: ''
-    startLine: 11126
+    startLine: 11225
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3281,7 +3351,7 @@ items:
   source:
     id: PlayerPastPos
     path: ''
-    startLine: 11128
+    startLine: 11227
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3319,7 +3389,7 @@ items:
   source:
     id: PlayerMarisaAPos
     path: ''
-    startLine: 11130
+    startLine: 11229
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3357,7 +3427,7 @@ items:
   source:
     id: PlayerPastDir
     path: ''
-    startLine: 11132
+    startLine: 11231
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3395,7 +3465,7 @@ items:
   source:
     id: PlayerMarisaADir
     path: ''
-    startLine: 11134
+    startLine: 11233
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3433,7 +3503,7 @@ items:
   source:
     id: Colliding
     path: ''
-    startLine: 11142
+    startLine: 11241
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3471,7 +3541,7 @@ items:
   source:
     id: CollidingT
     path: ''
-    startLine: 11148
+    startLine: 11247
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3509,7 +3579,7 @@ items:
   source:
     id: UnCollidingT
     path: ''
-    startLine: 11154
+    startLine: 11253
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3547,7 +3617,7 @@ items:
   source:
     id: LaserLastActiveT
     path: ''
-    startLine: 11162
+    startLine: 11261
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3585,7 +3655,7 @@ items:
   source:
     id: OptionLocation
     path: ''
-    startLine: 11169
+    startLine: 11268
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3623,7 +3693,7 @@ items:
   source:
     id: OptionAngle
     path: ''
-    startLine: 11175
+    startLine: 11274
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3661,7 +3731,7 @@ items:
   source:
     id: Power
     path: ''
-    startLine: 11182
+    startLine: 11281
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3693,7 +3763,7 @@ items:
   source:
     id: PowerF
     path: ''
-    startLine: 11190
+    startLine: 11289
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3725,7 +3795,7 @@ items:
   source:
     id: PowerIndex
     path: ''
-    startLine: 11195
+    startLine: 11294
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3757,7 +3827,7 @@ items:
   source:
     id: IfPowerGTP
     path: ''
-    startLine: 11201
+    startLine: 11300
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3797,7 +3867,7 @@ items:
   source:
     id: Mine
     path: ''
-    startLine: 11214
+    startLine: 11313
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3836,7 +3906,7 @@ items:
   source:
     id: FromID
     path: ''
-    startLine: 11231
+    startLine: 11332
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3869,7 +3939,7 @@ items:
   source:
     id: HPi
     path: ''
-    startLine: 11343
+    startLine: 11444
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3902,7 +3972,7 @@ items:
   source:
     id: Pi
     path: ''
-    startLine: 11348
+    startLine: 11449
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3935,7 +4005,7 @@ items:
   source:
     id: Tau
     path: ''
-    startLine: 11353
+    startLine: 11454
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -3968,7 +4038,7 @@ items:
   source:
     id: Twau
     path: ''
-    startLine: 11358
+    startLine: 11459
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4001,7 +4071,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 11363
+    startLine: 11464
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4043,7 +4113,7 @@ items:
   source:
     id: AddNV
     path: ''
-    startLine: 11368
+    startLine: 11469
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4080,7 +4150,7 @@ items:
   source:
     id: AddA
     path: ''
-    startLine: 11372
+    startLine: 11473
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4117,7 +4187,7 @@ items:
   source:
     id: AddNVA
     path: ''
-    startLine: 11376
+    startLine: 11477
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4156,7 +4226,7 @@ items:
   source:
     id: AddRVA
     path: ''
-    startLine: 11380
+    startLine: 11481
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4193,7 +4263,7 @@ items:
   source:
     id: AddRV
     path: ''
-    startLine: 11384
+    startLine: 11485
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4230,7 +4300,7 @@ items:
   source:
     id: Sub
     path: ''
-    startLine: 11389
+    startLine: 11490
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4272,7 +4342,7 @@ items:
   source:
     id: Mul
     path: ''
-    startLine: 11394
+    startLine: 11495
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4314,7 +4384,7 @@ items:
   source:
     id: MulRev
     path: ''
-    startLine: 11400
+    startLine: 11501
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4356,7 +4426,7 @@ items:
   source:
     id: MulInt
     path: ''
-    startLine: 11403
+    startLine: 11504
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4394,7 +4464,7 @@ items:
   source:
     id: DegRad
     path: ''
-    startLine: 11411
+    startLine: 11512
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4431,7 +4501,7 @@ items:
   source:
     id: RadDeg
     path: ''
-    startLine: 11418
+    startLine: 11519
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4468,7 +4538,7 @@ items:
   source:
     id: Div
     path: ''
-    startLine: 11424
+    startLine: 11525
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4511,7 +4581,7 @@ items:
   source:
     id: DivInv
     path: ''
-    startLine: 11429
+    startLine: 11530
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4548,7 +4618,7 @@ items:
   source:
     id: FDiv
     path: ''
-    startLine: 11434
+    startLine: 11535
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4585,7 +4655,7 @@ items:
   source:
     id: Complement
     path: ''
-    startLine: 11439
+    startLine: 11540
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4620,7 +4690,7 @@ items:
   source:
     id: MulComplement
     path: ''
-    startLine: 11445
+    startLine: 11546
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4657,7 +4727,7 @@ items:
   source:
     id: SubMax0
     path: ''
-    startLine: 11451
+    startLine: 11552
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4694,7 +4764,7 @@ items:
   source:
     id: Increment
     path: ''
-    startLine: 11458
+    startLine: 11559
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4729,7 +4799,7 @@ items:
   source:
     id: Decrement
     path: ''
-    startLine: 11463
+    startLine: 11564
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4764,7 +4834,7 @@ items:
   source:
     id: DecrementSubtract
     path: ''
-    startLine: 11469
+    startLine: 11570
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4801,7 +4871,7 @@ items:
   source:
     id: Neg
     path: ''
-    startLine: 11475
+    startLine: 11576
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4836,7 +4906,7 @@ items:
   source:
     id: Negate
     path: ''
-    startLine: 11480
+    startLine: 11581
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4876,7 +4946,7 @@ items:
   source:
     id: Sign
     path: ''
-    startLine: 11495
+    startLine: 11596
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4911,7 +4981,7 @@ items:
   source:
     id: Exp
     path: ''
-    startLine: 11502
+    startLine: 11603
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4946,7 +5016,7 @@ items:
   source:
     id: Ln
     path: ''
-    startLine: 11508
+    startLine: 11609
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -4981,7 +5051,7 @@ items:
   source:
     id: Sqrt
     path: ''
-    startLine: 11515
+    startLine: 11616
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5016,7 +5086,7 @@ items:
   source:
     id: Sqr
     path: ''
-    startLine: 11520
+    startLine: 11621
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5051,7 +5121,7 @@ items:
   source:
     id: Mag2
     path: ''
-    startLine: 11524
+    startLine: 11625
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5088,7 +5158,7 @@ items:
   source:
     id: SqrMag2
     path: ''
-    startLine: 11528
+    startLine: 11629
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5125,7 +5195,7 @@ items:
   source:
     id: SqrMag3
     path: ''
-    startLine: 11532
+    startLine: 11633
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5164,7 +5234,7 @@ items:
   source:
     id: Mag
     path: ''
-    startLine: 11538
+    startLine: 11639
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5199,7 +5269,7 @@ items:
   source:
     id: v3Mag
     path: ''
-    startLine: 11543
+    startLine: 11644
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5234,7 +5304,7 @@ items:
   source:
     id: Norm
     path: ''
-    startLine: 11548
+    startLine: 11649
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5269,7 +5339,7 @@ items:
   source:
     id: Norm3
     path: ''
-    startLine: 11560
+    startLine: 11661
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5304,7 +5374,7 @@ items:
   source:
     id: SqrMag
     path: ''
-    startLine: 11574
+    startLine: 11675
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5339,7 +5409,7 @@ items:
   source:
     id: v3SqrMag
     path: ''
-    startLine: 11579
+    startLine: 11680
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5374,7 +5444,7 @@ items:
   source:
     id: Pow
     path: ''
-    startLine: 11586
+    startLine: 11687
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5416,7 +5486,7 @@ items:
   source:
     id: PowSub
     path: ''
-    startLine: 11593
+    startLine: 11694
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5454,7 +5524,7 @@ items:
   source:
     id: NPow
     path: ''
-    startLine: 11610
+    startLine: 11711
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5494,7 +5564,7 @@ items:
   source:
     id: Round
     path: ''
-    startLine: 11623
+    startLine: 11724
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5529,7 +5599,7 @@ items:
   source:
     id: BlockRound
     path: ''
-    startLine: 11628
+    startLine: 11729
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5566,7 +5636,7 @@ items:
   source:
     id: Floor
     path: ''
-    startLine: 11634
+    startLine: 11735
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5601,7 +5671,7 @@ items:
   source:
     id: BlockFloor
     path: ''
-    startLine: 11638
+    startLine: 11739
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5638,7 +5708,7 @@ items:
   source:
     id: dFloor
     path: ''
-    startLine: 11640
+    startLine: 11741
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5671,7 +5741,7 @@ items:
   source:
     id: Ceil
     path: ''
-    startLine: 11644
+    startLine: 11745
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5706,7 +5776,7 @@ items:
   source:
     id: Abs
     path: ''
-    startLine: 11653
+    startLine: 11754
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5743,7 +5813,7 @@ items:
   source:
     id: Diff
     path: ''
-    startLine: 11660
+    startLine: 11761
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5780,7 +5850,7 @@ items:
   source:
     id: Dist
     path: ''
-    startLine: 11666
+    startLine: 11767
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5818,7 +5888,7 @@ items:
   source:
     id: SqrDist
     path: ''
-    startLine: 11672
+    startLine: 11773
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5856,7 +5926,7 @@ items:
   source:
     id: Min
     path: ''
-    startLine: 11678
+    startLine: 11779
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5893,7 +5963,7 @@ items:
   source:
     id: MinA
     path: ''
-    startLine: 11684
+    startLine: 11785
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5930,7 +6000,7 @@ items:
   source:
     id: Max
     path: ''
-    startLine: 11690
+    startLine: 11791
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -5967,7 +6037,7 @@ items:
   source:
     id: MaxA
     path: ''
-    startLine: 11695
+    startLine: 11796
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6004,7 +6074,7 @@ items:
   source:
     id: Limit
     path: ''
-    startLine: 11704
+    startLine: 11805
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6044,7 +6114,7 @@ items:
   source:
     id: HighPass
     path: ''
-    startLine: 11710
+    startLine: 11811
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6081,7 +6151,7 @@ items:
   source:
     id: HighCut
     path: ''
-    startLine: 11715
+    startLine: 11816
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6118,7 +6188,7 @@ items:
   source:
     id: Clamp
     path: ''
-    startLine: 11723
+    startLine: 11824
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6157,7 +6227,7 @@ items:
   source:
     id: Clamp01
     path: ''
-    startLine: 11728
+    startLine: 11829
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6192,7 +6262,7 @@ items:
   source:
     id: Linear
     path: ''
-    startLine: 11733
+    startLine: 11834
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6231,7 +6301,7 @@ items:
   source:
     id: RadIntoRange
     path: ''
-    startLine: 11740
+    startLine: 11841
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6268,7 +6338,7 @@ items:
   source:
     id: RadToNeg
     path: ''
-    startLine: 11752
+    startLine: 11853
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6305,7 +6375,7 @@ items:
   source:
     id: RadToPos
     path: ''
-    startLine: 11759
+    startLine: 11860
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6342,7 +6412,7 @@ items:
   source:
     id: DegIntoRange
     path: ''
-    startLine: 11766
+    startLine: 11867
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6379,7 +6449,7 @@ items:
   source:
     id: DegDiff
     path: ''
-    startLine: 11776
+    startLine: 11877
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6416,7 +6486,7 @@ items:
   source:
     id: RadDiff
     path: ''
-    startLine: 11780
+    startLine: 11881
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6453,7 +6523,7 @@ items:
   source:
     id: RadDiffCCW
     path: ''
-    startLine: 11784
+    startLine: 11885
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6490,7 +6560,7 @@ items:
   source:
     id: RadDiffCW
     path: ''
-    startLine: 11789
+    startLine: 11890
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6527,7 +6597,7 @@ items:
   source:
     id: Sin
     path: ''
-    startLine: 11805
+    startLine: 11906
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6563,7 +6633,7 @@ items:
   source:
     id: Cos
     path: ''
-    startLine: 11810
+    startLine: 11911
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6599,7 +6669,7 @@ items:
   source:
     id: CosSin
     path: ''
-    startLine: 11814
+    startLine: 11915
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6634,7 +6704,7 @@ items:
   source:
     id: SinDeg
     path: ''
-    startLine: 11819
+    startLine: 11920
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6670,7 +6740,7 @@ items:
   source:
     id: CosDeg
     path: ''
-    startLine: 11824
+    startLine: 11925
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6706,7 +6776,7 @@ items:
   source:
     id: CosSinDeg
     path: ''
-    startLine: 11828
+    startLine: 11929
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6741,7 +6811,7 @@ items:
   source:
     id: Sine
     path: ''
-    startLine: 11840
+    startLine: 11941
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6784,7 +6854,7 @@ items:
   source:
     id: DSine
     path: ''
-    startLine: 11848
+    startLine: 11949
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6827,7 +6897,7 @@ items:
   source:
     id: Cosine
     path: ''
-    startLine: 11862
+    startLine: 11963
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6870,7 +6940,7 @@ items:
   source:
     id: DCosine
     path: ''
-    startLine: 11870
+    startLine: 11971
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6913,7 +6983,7 @@ items:
   source:
     id: ACosR
     path: ''
-    startLine: 11882
+    startLine: 11983
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6948,7 +7018,7 @@ items:
   source:
     id: ACos
     path: ''
-    startLine: 11884
+    startLine: 11985
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -6981,7 +7051,7 @@ items:
   source:
     id: Tan
     path: ''
-    startLine: 11889
+    startLine: 11990
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -7016,7 +7086,7 @@ items:
   source:
     id: ATanR2
     path: ''
-    startLine: 11896
+    startLine: 11997
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -7053,7 +7123,7 @@ items:
   source:
     id: ATanR
     path: ''
-    startLine: 11901
+    startLine: 12002
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -7088,7 +7158,7 @@ items:
   source:
     id: ATan2
     path: ''
-    startLine: 11905
+    startLine: 12006
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -7125,7 +7195,7 @@ items:
   source:
     id: ATan
     path: ''
-    startLine: 11909
+    startLine: 12010
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -7160,7 +7230,7 @@ items:
   source:
     id: ArrayIndex
     path: ''
-    startLine: 11915
+    startLine: 12016
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -7188,6 +7258,48 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.Functions.ExM.ArrayIndex(Of T)(TEx(Of T()), TEx(Of System.Int32))
   name.vb: ArrayIndex(Of T)(TEx(Of T()), TEx(Of Int32))
+- uid: Danmokou.DMath.Functions.ExM.MIndex``1(TEx{``0[]},TEx{System.Single})
+  commentId: M:Danmokou.DMath.Functions.ExM.MIndex``1(TEx{``0[]},TEx{System.Single})
+  id: MIndex``1(TEx{``0[]},TEx{System.Single})
+  parent: Danmokou.DMath.Functions.ExM
+  langs:
+  - csharp
+  - vb
+  name: MIndex<T>(TEx<T[]>, TEx<Single>)
+  nameWithType: ExM.MIndex<T>(TEx<T[]>, TEx<Single>)
+  fullName: Danmokou.DMath.Functions.ExM.MIndex<T>(TEx<T[]>, TEx<System.Single>)
+  type: Method
+  source:
+    id: MIndex
+    path: ''
+    startLine: 12026
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath.Functions
+  summary: "\nIndex into the provided array, treating the index as an integer and looping around to the front\nif it goes out of bounds.\n"
+  example: []
+  syntax:
+    content: public static TEx<T> MIndex<T>(TEx<T[]> arr, TEx<float> index)
+    parameters:
+    - id: arr
+      type: TEx{{T}[]}
+    - id: index
+      type: TEx{System.Single}
+    typeParameters:
+    - id: T
+    return:
+      type: TEx{{T}}
+    content.vb: Public Shared Function MIndex(Of T)(arr As TEx(Of T()), index As TEx(Of Single)) As TEx(Of T)
+  overload: Danmokou.DMath.Functions.ExM.MIndex*
+  nameWithType.vb: ExM.MIndex(Of T)(TEx(Of T()), TEx(Of Single))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.DMath.Functions.ExM.MIndex(Of T)(TEx(Of T()), TEx(Of System.Single))
+  name.vb: MIndex(Of T)(TEx(Of T()), TEx(Of Single))
 references:
 - uid: Danmokou.DMath.Functions
   commentId: N:Danmokou.DMath.Functions
@@ -8780,6 +8892,49 @@ references:
   name: FrameNumber
   nameWithType: ExM.FrameNumber
   fullName: Danmokou.DMath.Functions.ExM.FrameNumber
+- uid: TEx{System.Int32}
+  commentId: '!:TEx{System.Int32}'
+  definition: TEx`1
+  name: TEx<Int32>
+  nameWithType: TEx<Int32>
+  fullName: TEx<System.Int32>
+  nameWithType.vb: TEx(Of Int32)
+  fullName.vb: TEx(Of System.Int32)
+  name.vb: TEx(Of Int32)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Danmokou.DMath.Functions.ExM.HPRatio*
   commentId: Overload:Danmokou.DMath.Functions.ExM.HPRatio
   name: HPRatio
@@ -8800,11 +8955,64 @@ references:
   name: tbool
   nameWithType: tbool
   fullName: tbool
+- uid: Danmokou.DMath.Functions.ExM.inst*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.inst
+  name: inst
+  nameWithType: ExM.inst
+  fullName: Danmokou.DMath.Functions.ExM.inst
 - uid: Danmokou.DMath.Functions.ExM.Instance*
   commentId: Overload:Danmokou.DMath.Functions.ExM.Instance
   name: Instance
   nameWithType: ExM.Instance
   fullName: Danmokou.DMath.Functions.ExM.Instance
+- uid: TEx{InstanceData}
+  commentId: '!:TEx{InstanceData}'
+  definition: TEx`1
+  name: TEx<InstanceData>
+  nameWithType: TEx<InstanceData>
+  fullName: TEx<InstanceData>
+  nameWithType.vb: TEx(Of InstanceData)
+  fullName.vb: TEx(Of InstanceData)
+  name.vb: TEx(Of InstanceData)
+  spec.csharp:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: InstanceData
+    name: InstanceData
+    nameWithType: InstanceData
+    fullName: InstanceData
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TEx`1
+    name: TEx
+    nameWithType: TEx
+    fullName: TEx
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: InstanceData
+    name: InstanceData
+    nameWithType: InstanceData
+    fullName: InstanceData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Danmokou.DMath.Functions.ExM.CFeature*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.CFeature
+  name: CFeature
+  nameWithType: ExM.CFeature
+  fullName: Danmokou.DMath.Functions.ExM.CFeature
 - uid: Danmokou.DMath.Functions.ExM.PlayerFreeT*
   commentId: Overload:Danmokou.DMath.Functions.ExM.PlayerFreeT
   name: PlayerFreeT
@@ -9430,49 +9638,6 @@ references:
   name: MulInt
   nameWithType: ExM.MulInt
   fullName: Danmokou.DMath.Functions.ExM.MulInt
-- uid: TEx{System.Int32}
-  commentId: '!:TEx{System.Int32}'
-  definition: TEx`1
-  name: TEx<Int32>
-  nameWithType: TEx<Int32>
-  fullName: TEx<System.Int32>
-  nameWithType.vb: TEx(Of Int32)
-  fullName.vb: TEx(Of System.Int32)
-  name.vb: TEx(Of Int32)
-  spec.csharp:
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: TEx`1
-    name: TEx
-    nameWithType: TEx
-    fullName: TEx
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: Danmokou.DMath.Functions.ExM.DegRad*
   commentId: Overload:Danmokou.DMath.Functions.ExM.DegRad
   name: DegRad
@@ -9898,3 +10063,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Danmokou.DMath.Functions.ExM.MIndex*
+  commentId: Overload:Danmokou.DMath.Functions.ExM.MIndex
+  name: MIndex
+  nameWithType: ExM.MIndex
+  fullName: Danmokou.DMath.Functions.ExM.MIndex

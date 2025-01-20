@@ -17,7 +17,7 @@ items:
   source:
     id: SequentialSM
     path: ''
-    startLine: 16803
+    startLine: 16944
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -64,7 +64,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16804
+    startLine: 16945
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -96,7 +96,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 16806
+    startLine: 16947
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

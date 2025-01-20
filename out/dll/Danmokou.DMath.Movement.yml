@@ -37,7 +37,7 @@ items:
   source:
     id: Movement
     path: ''
-    startLine: 7553
+    startLine: 7638
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -73,7 +73,7 @@ items:
   source:
     id: rootPos
     path: ''
-    startLine: 7559
+    startLine: 7644
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -100,7 +100,7 @@ items:
   source:
     id: angle
     path: ''
-    startLine: 7561
+    startLine: 7646
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -127,7 +127,7 @@ items:
   source:
     id: cos_rot
     path: ''
-    startLine: 7562
+    startLine: 7647
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -154,7 +154,7 @@ items:
   source:
     id: sin_rot
     path: ''
-    startLine: 7563
+    startLine: 7648
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -181,7 +181,7 @@ items:
   source:
     id: flipX
     path: ''
-    startLine: 7564
+    startLine: 7649
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -208,7 +208,7 @@ items:
   source:
     id: flipY
     path: ''
-    startLine: 7565
+    startLine: 7650
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -235,7 +235,7 @@ items:
   source:
     id: Direction
     path: ''
-    startLine: 7566
+    startLine: 7651
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -267,7 +267,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7574
+    startLine: 7659
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -305,7 +305,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7584
+    startLine: 7669
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -338,7 +338,7 @@ items:
   source:
     id: WithNoMovement
     path: ''
-    startLine: 7594
+    startLine: 7679
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -366,7 +366,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7596
+    startLine: 7681
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -395,7 +395,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7603
+    startLine: 7688
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -430,7 +430,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 7605
+    startLine: 7690
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -464,7 +464,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7607
+    startLine: 7692
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -495,7 +495,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7616
+    startLine: 7701
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -526,7 +526,7 @@ items:
   source:
     id: UpdateZero
     path: ''
-    startLine: 7629
+    startLine: 7714
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -564,7 +564,7 @@ items:
   source:
     id: UpdateDeltaNoTime
     path: ''
-    startLine: 7685
+    startLine: 7770
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -596,7 +596,7 @@ items:
   source:
     id: UpdateDeltaNoTime
     path: ''
-    startLine: 7695
+    startLine: 7780
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -627,7 +627,7 @@ items:
   source:
     id: UpdateDeltaAssignDelta
     path: ''
-    startLine: 7706
+    startLine: 7791
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -668,7 +668,7 @@ items:
   source:
     id: FlipX
     path: ''
-    startLine: 7715
+    startLine: 7800
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -694,7 +694,7 @@ items:
   source:
     id: FlipY
     path: ''
-    startLine: 7718
+    startLine: 7803
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -720,7 +720,7 @@ items:
   source:
     id: IsEmpty
     path: ''
-    startLine: 7721
+    startLine: 7806
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath

@@ -29,7 +29,7 @@ items:
   source:
     id: LoopControl
     path: ''
-    startLine: 5709
+    startLine: 5779
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -68,7 +68,7 @@ items:
   source:
     id: props
     path: ''
-    startLine: 5710
+    startLine: 5780
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -99,7 +99,7 @@ items:
   source:
     id: times
     path: ''
-    startLine: 5713
+    startLine: 5783
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -130,7 +130,7 @@ items:
   source:
     id: Handoff
     path: ''
-    startLine: 5716
+    startLine: 5786
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -164,7 +164,7 @@ items:
   source:
     id: GCX
     path: ''
-    startLine: 5717
+    startLine: 5787
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -198,7 +198,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5718
+    startLine: 5788
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -234,7 +234,7 @@ items:
   source:
     id: RemainsExceptLast
     path: ''
-    startLine: 5787
+    startLine: 5857
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -268,7 +268,7 @@ items:
   source:
     id: Remains
     path: ''
-    startLine: 5788
+    startLine: 5858
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -302,7 +302,7 @@ items:
   source:
     id: IsUnpaused
     path: ''
-    startLine: 5790
+    startLine: 5860
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -336,7 +336,7 @@ items:
   source:
     id: WaitStep
     path: ''
-    startLine: 5794
+    startLine: 5864
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -364,7 +364,7 @@ items:
   source:
     id: GetFiringIndex
     path: ''
-    startLine: 5801
+    startLine: 5871
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -406,7 +406,7 @@ items:
   source:
     id: PrepareIteration
     path: ''
-    startLine: 5823
+    startLine: 5893
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -436,7 +436,7 @@ items:
   source:
     id: PrepareLastIteration
     path: ''
-    startLine: 5889
+    startLine: 5962
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -466,7 +466,7 @@ items:
   source:
     id: FinishIteration
     path: ''
-    startLine: 5896
+    startLine: 5969
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -494,7 +494,7 @@ items:
   source:
     id: IAmDone
     path: ''
-    startLine: 5902
+    startLine: 5975
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

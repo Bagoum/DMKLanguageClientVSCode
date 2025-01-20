@@ -43,6 +43,7 @@ items:
   - Danmokou.DMath.PIData.SetValue(TExArgCtx,System.Type,System.String,System.Func{TExArgCtx,TEx})
   - Danmokou.DMath.PIData.SetValueDynamic(TExArgCtx,System.Type,System.String,System.Func{TExArgCtx,TEx})
   - Danmokou.DMath.PIData.SetValueDynamic``1(TExArgCtx,System.String,Expression)
+  - Danmokou.DMath.PIData.UpdateFirer(System.Nullable{GenCtx})
   langs:
   - csharp
   - vb
@@ -53,7 +54,7 @@ items:
   source:
     id: PIData
     path: ''
-    startLine: 7106
+    startLine: 7183
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -92,7 +93,7 @@ items:
   source:
     id: Empty
     path: ''
-    startLine: 7107
+    startLine: 7184
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -123,7 +124,7 @@ items:
   source:
     id: GetDynamicKey
     path: ''
-    startLine: 7111
+    startLine: 7191
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -158,7 +159,7 @@ items:
   source:
     id: Allocated
     path: ''
-    startLine: 7117
+    startLine: 7196
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -191,7 +192,7 @@ items:
   source:
     id: Popped
     path: ''
-    startLine: 7118
+    startLine: 7197
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -224,7 +225,7 @@ items:
   source:
     id: Recached
     path: ''
-    startLine: 7119
+    startLine: 7198
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -257,7 +258,7 @@ items:
   source:
     id: Copied
     path: ''
-    startLine: 7120
+    startLine: 7199
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -290,7 +291,7 @@ items:
   source:
     id: Cleared
     path: ''
-    startLine: 7121
+    startLine: 7200
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -323,7 +324,7 @@ items:
   source:
     id: culledBulletTime
     path: ''
-    startLine: 7125
+    startLine: 7204
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -350,7 +351,7 @@ items:
   source:
     id: envFrame
     path: ''
-    startLine: 7129
+    startLine: 7208
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -377,7 +378,7 @@ items:
   source:
     id: boundInts
     path: ''
-    startLine: 7132
+    startLine: 7211
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -406,7 +407,7 @@ items:
   source:
     id: boundFloats
     path: ''
-    startLine: 7133
+    startLine: 7212
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -435,7 +436,7 @@ items:
   source:
     id: boundV2s
     path: ''
-    startLine: 7134
+    startLine: 7213
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -464,7 +465,7 @@ items:
   source:
     id: boundV3s
     path: ''
-    startLine: 7135
+    startLine: 7214
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -493,7 +494,7 @@ items:
   source:
     id: boundRV2s
     path: ''
-    startLine: 7136
+    startLine: 7215
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -522,7 +523,7 @@ items:
   source:
     id: firer
     path: ''
-    startLine: 7138
+    startLine: 7217
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -549,7 +550,7 @@ items:
   source:
     id: Firer
     path: ''
-    startLine: 7140
+    startLine: 7219
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -580,7 +581,7 @@ items:
   source:
     id: playerController
     path: ''
-    startLine: 7146
+    startLine: 7225
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -607,7 +608,7 @@ items:
   source:
     id: PlayerController
     path: ''
-    startLine: 7147
+    startLine: 7226
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -638,7 +639,7 @@ items:
   source:
     id: OptionFirer
     path: ''
-    startLine: 7154
+    startLine: 7233
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -669,7 +670,7 @@ items:
   source:
     id: bullet
     path: ''
-    startLine: 7158
+    startLine: 7237
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -696,7 +697,7 @@ items:
   source:
     id: Bullet
     path: ''
-    startLine: 7162
+    startLine: 7241
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -729,7 +730,7 @@ items:
   source:
     id: laserController
     path: ''
-    startLine: 7166
+    startLine: 7245
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -756,7 +757,7 @@ items:
   source:
     id: Laser
     path: ''
-    startLine: 7170
+    startLine: 7249
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -789,7 +790,7 @@ items:
   source:
     id: playerBullet
     path: ''
-    startLine: 7172
+    startLine: 7251
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -816,7 +817,7 @@ items:
   source:
     id: CopyInto
     path: ''
-    startLine: 7178
+    startLine: 7257
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -849,7 +850,7 @@ items:
   source:
     id: Clone_NoAlloc
     path: ''
-    startLine: 7197
+    startLine: 7276
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -879,7 +880,7 @@ items:
   source:
     id: RevertToGCX
     path: ''
-    startLine: 7204
+    startLine: 7283
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -914,7 +915,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 7213
+    startLine: 7292
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -940,7 +941,7 @@ items:
   source:
     id: GetIfDefined
     path: ''
-    startLine: 7237
+    startLine: 7316
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -984,7 +985,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 7247
+    startLine: 7326
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1028,7 +1029,7 @@ items:
   source:
     id: SetValueDynamic
     path: ''
-    startLine: 7252
+    startLine: 7331
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1070,7 +1071,7 @@ items:
   source:
     id: ContainsDynamic
     path: ''
-    startLine: 7276
+    startLine: 7357
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1107,7 +1108,7 @@ items:
   source:
     id: ContainsDynamic
     path: ''
-    startLine: 7279
+    startLine: 7360
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1147,7 +1148,7 @@ items:
   source:
     id: GetValueDynamic
     path: ''
-    startLine: 7281
+    startLine: 7362
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1189,7 +1190,7 @@ items:
   source:
     id: SetValueDynamic
     path: ''
-    startLine: 7285
+    startLine: 7366
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1231,7 +1232,7 @@ items:
   source:
     id: GetDict
     path: ''
-    startLine: 7288
+    startLine: 7369
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1266,7 +1267,7 @@ items:
   source:
     id: New
     path: ''
-    startLine: 7302
+    startLine: 7383
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -1288,6 +1289,38 @@ items:
   - Shared
   fullName.vb: Danmokou.DMath.PIData.New(System.Nullable(Of System.ValueTuple(Of LexicalScope, GenCtx)))
   name.vb: New(Nullable(Of (scope As LexicalScope, gcx As GenCtx)(Of LexicalScope, GenCtx)))
+- uid: Danmokou.DMath.PIData.UpdateFirer(System.Nullable{GenCtx})
+  commentId: M:Danmokou.DMath.PIData.UpdateFirer(System.Nullable{GenCtx})
+  id: UpdateFirer(System.Nullable{GenCtx})
+  parent: Danmokou.DMath.PIData
+  langs:
+  - csharp
+  - vb
+  name: UpdateFirer(Nullable<GenCtx>)
+  nameWithType: PIData.UpdateFirer(Nullable<GenCtx>)
+  fullName: Danmokou.DMath.PIData.UpdateFirer(System.Nullable<GenCtx>)
+  type: Method
+  source:
+    id: UpdateFirer
+    path: ''
+    startLine: 7400
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.DMath
+  syntax:
+    content: public void UpdateFirer(GenCtx? gcx)
+    parameters:
+    - id: gcx
+      type: System.Nullable{GenCtx}
+    content.vb: Public Sub UpdateFirer(gcx As GenCtx?)
+  overload: Danmokou.DMath.PIData.UpdateFirer*
+  nameWithType.vb: PIData.UpdateFirer(Nullable(Of GenCtx))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Danmokou.DMath.PIData.UpdateFirer(System.Nullable(Of GenCtx))
+  name.vb: UpdateFirer(Nullable(Of GenCtx))
 - uid: Danmokou.DMath.PIData.NewUnscoped(System.Nullable{GenCtx})
   commentId: M:Danmokou.DMath.PIData.NewUnscoped(System.Nullable{GenCtx})
   id: NewUnscoped(System.Nullable{GenCtx})
@@ -1302,7 +1335,7 @@ items:
   source:
     id: NewUnscoped
     path: ''
-    startLine: 7331
+    startLine: 7416
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -2737,11 +2770,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Danmokou.DMath.PIData.NewUnscoped*
-  commentId: Overload:Danmokou.DMath.PIData.NewUnscoped
-  name: NewUnscoped
-  nameWithType: PIData.NewUnscoped
-  fullName: Danmokou.DMath.PIData.NewUnscoped
+- uid: Danmokou.DMath.PIData.UpdateFirer*
+  commentId: Overload:Danmokou.DMath.PIData.UpdateFirer
+  name: UpdateFirer
+  nameWithType: PIData.UpdateFirer
+  fullName: Danmokou.DMath.PIData.UpdateFirer
 - uid: System.Nullable{GenCtx}
   commentId: T:System.Nullable{GenCtx}
   parent: System
@@ -2786,3 +2819,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: Danmokou.DMath.PIData.NewUnscoped*
+  commentId: Overload:Danmokou.DMath.PIData.NewUnscoped
+  name: NewUnscoped
+  nameWithType: PIData.NewUnscoped
+  fullName: Danmokou.DMath.PIData.NewUnscoped

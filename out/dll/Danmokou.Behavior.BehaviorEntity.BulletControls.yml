@@ -10,7 +10,6 @@ items:
   - Danmokou.Behavior.BehaviorEntity.BulletControls.DT(System.Single,Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.DX(System.Single,Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.DY(System.Single,Pred)
-  - Danmokou.Behavior.BehaviorEntity.BulletControls.Effect(System.String,Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.Exec(ErasedParametric,Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.FlipX(Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.FlipXGT(BPY,Pred)
@@ -26,6 +25,7 @@ items:
   - Danmokou.Behavior.BehaviorEntity.BulletControls.SFX(System.String,Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.SM(Pred,StateMachine)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull(System.String,Pred)
+  - Danmokou.Behavior.BehaviorEntity.BulletControls.SpawnOn(System.String,Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.Time(System.Single,Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateF(System.ValueTuple{System.String,ExBPY}[],Pred)
   - Danmokou.Behavior.BehaviorEntity.BulletControls.UpdateV2(System.ValueTuple{System.String,ExTP}[],Pred)
@@ -39,7 +39,7 @@ items:
   source:
     id: BulletControls
     path: ''
-    startLine: 805
+    startLine: 808
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -79,7 +79,7 @@ items:
   source:
     id: Time
     path: ''
-    startLine: 814
+    startLine: 817
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -119,7 +119,7 @@ items:
   source:
     id: Restyle
     path: ''
-    startLine: 827
+    startLine: 830
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -159,7 +159,7 @@ items:
   source:
     id: Softcull
     path: ''
-    startLine: 846
+    startLine: 849
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -185,28 +185,28 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect(System.String,Pred)
-  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.Effect(System.String,Pred)
-  id: Effect(System.String,Pred)
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.SpawnOn(System.String,Pred)
+  commentId: M:Danmokou.Behavior.BehaviorEntity.BulletControls.SpawnOn(System.String,Pred)
+  id: SpawnOn(System.String,Pred)
   parent: Danmokou.Behavior.BehaviorEntity.BulletControls
   langs:
   - csharp
   - vb
-  name: Effect(String, Pred)
-  nameWithType: BehaviorEntity.BulletControls.Effect(String, Pred)
-  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect(System.String, Pred)
+  name: SpawnOn(String, Pred)
+  nameWithType: BehaviorEntity.BulletControls.SpawnOn(String, Pred)
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.SpawnOn(System.String, Pred)
   type: Method
   source:
-    id: Effect
+    id: SpawnOn
     path: ''
-    startLine: 862
+    startLine: 865
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
   summary: "\nRun a spawn effect on objects.\n"
   example: []
   syntax:
-    content: public static BehaviorEntity.cBEHControl Effect(string target, Pred cond)
+    content: public static BehaviorEntity.cBEHControl SpawnOn(string target, Pred cond)
     parameters:
     - id: target
       type: System.String
@@ -217,8 +217,8 @@ items:
     return:
       type: Danmokou.Behavior.BehaviorEntity.cBEHControl
       description: ''
-    content.vb: Public Shared Function Effect(target As String, cond As Pred) As BehaviorEntity.cBEHControl
-  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect*
+    content.vb: Public Shared Function SpawnOn(target As String, cond As Pred) As BehaviorEntity.cBEHControl
+  overload: Danmokou.Behavior.BehaviorEntity.BulletControls.SpawnOn*
   modifiers.csharp:
   - public
   - static
@@ -239,7 +239,7 @@ items:
   source:
     id: Cull
     path: ''
-    startLine: 872
+    startLine: 875
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -276,7 +276,7 @@ items:
   source:
     id: Poof
     path: ''
-    startLine: 884
+    startLine: 887
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -313,7 +313,7 @@ items:
   source:
     id: FlipX
     path: ''
-    startLine: 897
+    startLine: 900
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -350,7 +350,7 @@ items:
   source:
     id: FlipY
     path: ''
-    startLine: 910
+    startLine: 913
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -387,7 +387,7 @@ items:
   source:
     id: FlipXGT
     path: ''
-    startLine: 923
+    startLine: 926
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -427,7 +427,7 @@ items:
   source:
     id: FlipXLT
     path: ''
-    startLine: 941
+    startLine: 944
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -467,7 +467,7 @@ items:
   source:
     id: FlipYGT
     path: ''
-    startLine: 959
+    startLine: 962
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -507,7 +507,7 @@ items:
   source:
     id: FlipYLT
     path: ''
-    startLine: 977
+    startLine: 980
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -547,7 +547,7 @@ items:
   source:
     id: DX
     path: ''
-    startLine: 995
+    startLine: 998
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -587,7 +587,7 @@ items:
   source:
     id: DY
     path: ''
-    startLine: 1010
+    startLine: 1013
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -627,7 +627,7 @@ items:
   source:
     id: DT
     path: ''
-    startLine: 1024
+    startLine: 1027
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -667,7 +667,7 @@ items:
   source:
     id: SFX
     path: ''
-    startLine: 1038
+    startLine: 1041
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -707,7 +707,7 @@ items:
   source:
     id: Freeze
     path: ''
-    startLine: 1048
+    startLine: 1051
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -742,7 +742,7 @@ items:
   source:
     id: UpdateF
     path: ''
-    startLine: 1053
+    startLine: 1056
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -780,7 +780,7 @@ items:
   source:
     id: UpdateV2
     path: ''
-    startLine: 1065
+    startLine: 1068
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -818,7 +818,7 @@ items:
   source:
     id: Exec
     path: ''
-    startLine: 1081
+    startLine: 1084
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -855,7 +855,7 @@ items:
   source:
     id: Batch
     path: ''
-    startLine: 1093
+    startLine: 1096
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -895,7 +895,7 @@ items:
   source:
     id: SM
     path: ''
-    startLine: 1108
+    startLine: 1111
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -932,7 +932,7 @@ items:
   source:
     id: OnCollide
     path: ''
-    startLine: 1121
+    startLine: 1124
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -969,7 +969,7 @@ items:
   source:
     id: OnDestroy
     path: ''
-    startLine: 1134
+    startLine: 1137
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Behavior
@@ -1330,11 +1330,11 @@ references:
   name: Softcull
   nameWithType: BehaviorEntity.BulletControls.Softcull
   fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Softcull
-- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect*
-  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Effect
-  name: Effect
-  nameWithType: BehaviorEntity.BulletControls.Effect
-  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.Effect
+- uid: Danmokou.Behavior.BehaviorEntity.BulletControls.SpawnOn*
+  commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.SpawnOn
+  name: SpawnOn
+  nameWithType: BehaviorEntity.BulletControls.SpawnOn
+  fullName: Danmokou.Behavior.BehaviorEntity.BulletControls.SpawnOn
 - uid: Danmokou.Behavior.BehaviorEntity.BulletControls.Cull*
   commentId: Overload:Danmokou.Behavior.BehaviorEntity.BulletControls.Cull
   name: Cull

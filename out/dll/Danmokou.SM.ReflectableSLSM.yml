@@ -17,7 +17,7 @@ items:
   source:
     id: ReflectableSLSM
     path: ''
-    startLine: 17090
+    startLine: 17235
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -58,7 +58,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 17092
+    startLine: 17237
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -87,7 +87,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 17095
+    startLine: 17240
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

@@ -8,9 +8,9 @@ items:
   - Danmokou.SM.SMReflection.AssertComplex(System.String)
   - Danmokou.SM.SMReflection.AssertSimple(System.String)
   - Danmokou.SM.SMReflection.Async(System.String,GCXF{V2RV2},AsyncPattern)
-  - Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},BulletManager.StyleSelector,BehaviorEntity.cBEHControl)
+  - Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},StyleSelector,BehaviorEntity.cBEHControl)
   - Danmokou.SM.SMReflection.Boss(System.String)
-  - Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},BulletManager.StyleSelector,BulletManager.cBulletControl)
+  - Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},StyleSelector,BulletManager.cBulletControl)
   - Danmokou.SM.SMReflection.CreateShot1(V2RV2,System.Single,System.Single,System.String)
   - Danmokou.SM.SMReflection.CreateShot2(System.Single,System.Single,System.Single,System.Single,System.String)
   - Danmokou.SM.SMReflection.Crosshair(System.String,GCXF{Vector2},GCXF{System.Single},GCXF{System.Single},ReflectEx.Hoist{Vector2},ExBPY)
@@ -28,6 +28,7 @@ items:
   - Danmokou.SM.SMReflection.DivertHP(GCXF{BehaviorEntity})
   - Danmokou.SM.SMReflection.dRaiko(GCXF{System.Single},GCXF{System.Single})
   - Danmokou.SM.SMReflection.dZaWarudo(GCXF{System.Single})
+  - Danmokou.SM.SMReflection.Effect(System.String,GCXF{Vector2})
   - Danmokou.SM.SMReflection.Exec(ErasedGCXF)
   - Danmokou.SM.SMReflection.Exec``1(ErasedGCXF)
   - Danmokou.SM.SMReflection.ExecuteVN(System.Func{DMKVNState,Task},System.String)
@@ -35,8 +36,10 @@ items:
   - Danmokou.SM.SMReflection.Fire(Danmokou.SM.StateMachine,Danmokou.SM.StateMachine,Danmokou.SM.StateMachine,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.FireSame(Danmokou.SM.StateMachine,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.IMoveWrap(ExBPY,ExTP,ExBPY,ExTP,Danmokou.SM.StateMachine)
-  - Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},BulletManager.StyleSelector,CurvedTileRenderLaser.cLaserControl)
+  - Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},StyleSelector,CurvedTileRenderLaser.cLaserControl)
   - Danmokou.SM.SMReflection.LifeToScore(System.Int32)
+  - Danmokou.SM.SMReflection.LoadBEHTextures(StyleSelector)
+  - Danmokou.SM.SMReflection.LoadSBTextures(StyleSelector)
   - Danmokou.SM.SMReflection.Move(GCXF{System.Single},VTP)
   - Danmokou.SM.SMReflection.MoveTarget(ExBPY,System.Func{TExArgCtx,TEx{System.Func{System.Single,System.Single}}},ExTP)
   - Danmokou.SM.SMReflection.MoveWhile(GCXF{System.Single},System.Nullable{Pred},VTP)
@@ -46,7 +49,7 @@ items:
   - Danmokou.SM.SMReflection.NoOp
   - Danmokou.SM.SMReflection.PlayerVariant(System.ValueTuple{System.String,Danmokou.SM.StateMachine}[])
   - Danmokou.SM.SMReflection.Poof
-  - Danmokou.SM.SMReflection.PoolControl``1(BulletManager.StyleSelector,``0)
+  - Danmokou.SM.SMReflection.PoolControl``1(StyleSelector,``0)
   - Danmokou.SM.SMReflection.Pos(GCXF{Vector2})
   - Danmokou.SM.SMReflection.Position(GCXF{System.Single},GCXF{System.Single})
   - Danmokou.SM.SMReflection.Print``1(GCXF{``0})
@@ -60,6 +63,7 @@ items:
   - Danmokou.SM.SMReflection.SFX(System.String)
   - Danmokou.SM.SMReflection.ShiftPhase
   - Danmokou.SM.SMReflection.ShiftPhaseTo(System.Int32)
+  - Danmokou.SM.SMReflection.SkipTime(System.Single)
   - Danmokou.SM.SMReflection.Slowdown(GCXF{System.Single})
   - Danmokou.SM.SMReflection.SlowdownFor(Danmokou.SM.Synchronizer,GCXF{System.Single})
   - Danmokou.SM.SMReflection.StageAnnounce
@@ -67,6 +71,7 @@ items:
   - Danmokou.SM.SMReflection.Sync(System.String,GCXF{V2RV2},SyncPattern)
   - Danmokou.SM.SMReflection.ThenDelay(Danmokou.SM.Synchronizer,Danmokou.SM.StateMachine)
   - Danmokou.SM.SMReflection.Vulnerable(GCXF{System.Boolean})
+  - Danmokou.SM.SMReflection.VulnerableAfter(Danmokou.SM.Synchronizer)
   - Danmokou.SM.SMReflection.Wait(Danmokou.SM.Synchronizer)
   - Danmokou.SM.SMReflection.Wrap(GCXF{Danmokou.SM.StateMachine})
   - Danmokou.SM.SMReflection.ZaWarudo(GCXF{System.Single},GCXF{Vector2},System.Nullable{GCXF{System.Single}},System.Nullable{GCXF{System.Single}},GCXF{System.Single})
@@ -80,7 +85,7 @@ items:
   source:
     id: SMReflection
     path: ''
-    startLine: 17149
+    startLine: 17298
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -120,7 +125,7 @@ items:
   source:
     id: Crosshair
     path: ''
-    startLine: 17170
+    startLine: 17319
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -168,7 +173,7 @@ items:
   source:
     id: dZaWarudo
     path: ''
-    startLine: 17200
+    startLine: 17349
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -204,7 +209,7 @@ items:
   source:
     id: ZaWarudo
     path: ''
-    startLine: 17201
+    startLine: 17350
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -248,7 +253,7 @@ items:
   source:
     id: ScreenClear
     path: ''
-    startLine: 17221
+    startLine: 17370
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -280,7 +285,7 @@ items:
   source:
     id: dBossExplode
     path: ''
-    startLine: 17226
+    startLine: 17375
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -301,6 +306,81 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Danmokou.SM.SMReflection.Effect(System.String,GCXF{Vector2})
+  commentId: M:Danmokou.SM.SMReflection.Effect(System.String,GCXF{Vector2})
+  id: Effect(System.String,GCXF{Vector2})
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: Effect(String, GCXF<Vector2>)
+  nameWithType: SMReflection.Effect(String, GCXF<Vector2>)
+  fullName: Danmokou.SM.SMReflection.Effect(System.String, GCXF<Vector2>)
+  type: Method
+  source:
+    id: Effect
+    path: ''
+    startLine: 17401
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSpawn an effect at the given location.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM Effect(string effect, GCXF<Vector2> loc)
+    parameters:
+    - id: effect
+      type: System.String
+    - id: loc
+      type: GCXF{Vector2}
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function Effect(effect As String, loc As GCXF(Of Vector2)) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.Effect*
+  nameWithType.vb: SMReflection.Effect(String, GCXF(Of Vector2))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.SMReflection.Effect(System.String, GCXF(Of Vector2))
+  name.vb: Effect(String, GCXF(Of Vector2))
+- uid: Danmokou.SM.SMReflection.SkipTime(System.Single)
+  commentId: M:Danmokou.SM.SMReflection.SkipTime(System.Single)
+  id: SkipTime(System.Single)
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: SkipTime(Single)
+  nameWithType: SMReflection.SkipTime(Single)
+  fullName: Danmokou.SM.SMReflection.SkipTime(System.Single)
+  type: Method
+  source:
+    id: SkipTime
+    path: ''
+    startLine: 17412
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\n(For debugging use) Skip forward in time in the engine. The player will be invulnerable during this time.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM SkipTime(float seconds)
+    parameters:
+    - id: seconds
+      type: System.Single
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function SkipTime(seconds As Single) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.SkipTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.SM.SMReflection.Raiko(GCXF{System.Single},GCXF{System.Single},FXY)
   commentId: M:Danmokou.SM.SMReflection.Raiko(GCXF{System.Single},GCXF{System.Single},FXY)
   id: Raiko(GCXF{System.Single},GCXF{System.Single},FXY)
@@ -315,7 +395,7 @@ items:
   source:
     id: Raiko
     path: ''
-    startLine: 17257
+    startLine: 17427
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -360,7 +440,7 @@ items:
   source:
     id: dRaiko
     path: ''
-    startLine: 17264
+    startLine: 17434
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -398,7 +478,7 @@ items:
   source:
     id: SeijaX
     path: ''
-    startLine: 17275
+    startLine: 17445
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -435,7 +515,7 @@ items:
   source:
     id: SeijaY
     path: ''
-    startLine: 17284
+    startLine: 17454
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -472,7 +552,7 @@ items:
   source:
     id: StageAnnounce
     path: ''
-    startLine: 17291
+    startLine: 17461
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -502,7 +582,7 @@ items:
   source:
     id: StageDeannounce
     path: ''
-    startLine: 17296
+    startLine: 17466
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -532,7 +612,7 @@ items:
   source:
     id: NoOp
     path: ''
-    startLine: 17303
+    startLine: 17473
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -562,7 +642,7 @@ items:
   source:
     id: Boss
     path: ''
-    startLine: 17309
+    startLine: 17479
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -597,7 +677,7 @@ items:
   source:
     id: Exec
     path: ''
-    startLine: 17324
+    startLine: 17494
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -632,7 +712,7 @@ items:
   source:
     id: Exec
     path: ''
-    startLine: 17333
+    startLine: 17503
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -674,7 +754,7 @@ items:
   source:
     id: Wrap
     path: ''
-    startLine: 17347
+    startLine: 17517
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -712,7 +792,7 @@ items:
   source:
     id: Wait
     path: ''
-    startLine: 17365
+    startLine: 17535
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -747,7 +827,7 @@ items:
   source:
     id: Delay
     path: ''
-    startLine: 17371
+    startLine: 17541
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -784,7 +864,7 @@ items:
   source:
     id: ThenDelay
     path: ''
-    startLine: 17381
+    startLine: 17551
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -821,7 +901,7 @@ items:
   source:
     id: RunDelay
     path: ''
-    startLine: 17392
+    startLine: 17562
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -858,7 +938,7 @@ items:
   source:
     id: ExecuteVN
     path: ''
-    startLine: 17406
+    startLine: 17576
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -901,7 +981,7 @@ items:
   source:
     id: Async
     path: ''
-    startLine: 17431
+    startLine: 17603
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -943,7 +1023,7 @@ items:
   source:
     id: Sync
     path: ''
-    startLine: 17445
+    startLine: 17617
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -985,7 +1065,7 @@ items:
   source:
     id: CreateShot1
     path: ''
-    startLine: 17456
+    startLine: 17628
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1024,7 +1104,7 @@ items:
   source:
     id: CreateShot2
     path: ''
-    startLine: 17459
+    startLine: 17631
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1065,7 +1145,7 @@ items:
   source:
     id: Dialogue
     path: ''
-    startLine: 17462
+    startLine: 17634
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1098,7 +1178,7 @@ items:
   source:
     id: SFX
     path: ''
-    startLine: 17474
+    startLine: 17646
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1133,7 +1213,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 17483
+    startLine: 17655
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1163,174 +1243,244 @@ items:
   - Shared
   fullName.vb: Danmokou.SM.SMReflection.Save(Of T)(ReflectEx.Hoist(Of T), GCXF(Of System.Single), GCXF(Of T))
   name.vb: Save(Of T)(ReflectEx.Hoist(Of T), GCXF(Of Single), GCXF(Of T))
-- uid: Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},BulletManager.StyleSelector,BulletManager.cBulletControl)
-  commentId: M:Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},BulletManager.StyleSelector,BulletManager.cBulletControl)
-  id: BulletControl(GCXF{System.Boolean},BulletManager.StyleSelector,BulletManager.cBulletControl)
+- uid: Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},StyleSelector,BulletManager.cBulletControl)
+  commentId: M:Danmokou.SM.SMReflection.BulletControl(GCXF{System.Boolean},StyleSelector,BulletManager.cBulletControl)
+  id: BulletControl(GCXF{System.Boolean},StyleSelector,BulletManager.cBulletControl)
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: BulletControl(GCXF<Boolean>, BulletManager.StyleSelector, BulletManager.cBulletControl)
-  nameWithType: SMReflection.BulletControl(GCXF<Boolean>, BulletManager.StyleSelector, BulletManager.cBulletControl)
-  fullName: Danmokou.SM.SMReflection.BulletControl(GCXF<System.Boolean>, BulletManager.StyleSelector, BulletManager.cBulletControl)
+  name: BulletControl(GCXF<Boolean>, StyleSelector, BulletManager.cBulletControl)
+  nameWithType: SMReflection.BulletControl(GCXF<Boolean>, StyleSelector, BulletManager.cBulletControl)
+  fullName: Danmokou.SM.SMReflection.BulletControl(GCXF<System.Boolean>, StyleSelector, BulletManager.cBulletControl)
   type: Method
   source:
     id: BulletControl
     path: ''
-    startLine: 17493
+    startLine: 17665
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nApply bullet controls to simple bullet pools.\n"
   example: []
   syntax:
-    content: public static ReflectableLASM BulletControl(GCXF<bool> persist, BulletManager.StyleSelector style, BulletManager.cBulletControl control)
+    content: public static ReflectableLASM BulletControl(GCXF<bool> persist, StyleSelector style, BulletManager.cBulletControl control)
     parameters:
     - id: persist
       type: GCXF{System.Boolean}
     - id: style
-      type: BulletManager.StyleSelector
+      type: StyleSelector
     - id: control
       type: BulletManager.cBulletControl
     return:
       type: Danmokou.SM.ReflectableLASM
-    content.vb: Public Shared Function BulletControl(persist As GCXF(Of Boolean), style As BulletManager.StyleSelector, control As BulletManager.cBulletControl) As ReflectableLASM
+    content.vb: Public Shared Function BulletControl(persist As GCXF(Of Boolean), style As StyleSelector, control As BulletManager.cBulletControl) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.BulletControl*
-  nameWithType.vb: SMReflection.BulletControl(GCXF(Of Boolean), BulletManager.StyleSelector, BulletManager.cBulletControl)
+  nameWithType.vb: SMReflection.BulletControl(GCXF(Of Boolean), StyleSelector, BulletManager.cBulletControl)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.SMReflection.BulletControl(GCXF(Of System.Boolean), BulletManager.StyleSelector, BulletManager.cBulletControl)
-  name.vb: BulletControl(GCXF(Of Boolean), BulletManager.StyleSelector, BulletManager.cBulletControl)
-- uid: Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},BulletManager.StyleSelector,BehaviorEntity.cBEHControl)
-  commentId: M:Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},BulletManager.StyleSelector,BehaviorEntity.cBEHControl)
-  id: BEHControl(GCXF{System.Boolean},BulletManager.StyleSelector,BehaviorEntity.cBEHControl)
+  fullName.vb: Danmokou.SM.SMReflection.BulletControl(GCXF(Of System.Boolean), StyleSelector, BulletManager.cBulletControl)
+  name.vb: BulletControl(GCXF(Of Boolean), StyleSelector, BulletManager.cBulletControl)
+- uid: Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},StyleSelector,BehaviorEntity.cBEHControl)
+  commentId: M:Danmokou.SM.SMReflection.BEHControl(GCXF{System.Boolean},StyleSelector,BehaviorEntity.cBEHControl)
+  id: BEHControl(GCXF{System.Boolean},StyleSelector,BehaviorEntity.cBEHControl)
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: BEHControl(GCXF<Boolean>, BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
-  nameWithType: SMReflection.BEHControl(GCXF<Boolean>, BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
-  fullName: Danmokou.SM.SMReflection.BEHControl(GCXF<System.Boolean>, BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
+  name: BEHControl(GCXF<Boolean>, StyleSelector, BehaviorEntity.cBEHControl)
+  nameWithType: SMReflection.BEHControl(GCXF<Boolean>, StyleSelector, BehaviorEntity.cBEHControl)
+  fullName: Danmokou.SM.SMReflection.BEHControl(GCXF<System.Boolean>, StyleSelector, BehaviorEntity.cBEHControl)
   type: Method
   source:
     id: BEHControl
     path: ''
-    startLine: 17502
+    startLine: 17674
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nApply bullet controls to BEH bullet pools.\n"
   example: []
   syntax:
-    content: public static ReflectableLASM BEHControl(GCXF<bool> persist, BulletManager.StyleSelector style, BehaviorEntity.cBEHControl control)
+    content: public static ReflectableLASM BEHControl(GCXF<bool> persist, StyleSelector style, BehaviorEntity.cBEHControl control)
     parameters:
     - id: persist
       type: GCXF{System.Boolean}
     - id: style
-      type: BulletManager.StyleSelector
+      type: StyleSelector
     - id: control
       type: BehaviorEntity.cBEHControl
     return:
       type: Danmokou.SM.ReflectableLASM
-    content.vb: Public Shared Function BEHControl(persist As GCXF(Of Boolean), style As BulletManager.StyleSelector, control As BehaviorEntity.cBEHControl) As ReflectableLASM
+    content.vb: Public Shared Function BEHControl(persist As GCXF(Of Boolean), style As StyleSelector, control As BehaviorEntity.cBEHControl) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.BEHControl*
-  nameWithType.vb: SMReflection.BEHControl(GCXF(Of Boolean), BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
+  nameWithType.vb: SMReflection.BEHControl(GCXF(Of Boolean), StyleSelector, BehaviorEntity.cBEHControl)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.SMReflection.BEHControl(GCXF(Of System.Boolean), BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
-  name.vb: BEHControl(GCXF(Of Boolean), BulletManager.StyleSelector, BehaviorEntity.cBEHControl)
-- uid: Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},BulletManager.StyleSelector,CurvedTileRenderLaser.cLaserControl)
-  commentId: M:Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},BulletManager.StyleSelector,CurvedTileRenderLaser.cLaserControl)
-  id: LaserControl(GCXF{System.Boolean},BulletManager.StyleSelector,CurvedTileRenderLaser.cLaserControl)
+  fullName.vb: Danmokou.SM.SMReflection.BEHControl(GCXF(Of System.Boolean), StyleSelector, BehaviorEntity.cBEHControl)
+  name.vb: BEHControl(GCXF(Of Boolean), StyleSelector, BehaviorEntity.cBEHControl)
+- uid: Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},StyleSelector,CurvedTileRenderLaser.cLaserControl)
+  commentId: M:Danmokou.SM.SMReflection.LaserControl(GCXF{System.Boolean},StyleSelector,CurvedTileRenderLaser.cLaserControl)
+  id: LaserControl(GCXF{System.Boolean},StyleSelector,CurvedTileRenderLaser.cLaserControl)
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: LaserControl(GCXF<Boolean>, BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
-  nameWithType: SMReflection.LaserControl(GCXF<Boolean>, BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
-  fullName: Danmokou.SM.SMReflection.LaserControl(GCXF<System.Boolean>, BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  name: LaserControl(GCXF<Boolean>, StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  nameWithType: SMReflection.LaserControl(GCXF<Boolean>, StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  fullName: Danmokou.SM.SMReflection.LaserControl(GCXF<System.Boolean>, StyleSelector, CurvedTileRenderLaser.cLaserControl)
   type: Method
   source:
     id: LaserControl
     path: ''
-    startLine: 17511
+    startLine: 17683
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nApply laser-specific bullet controls to lasers.\n"
   example: []
   syntax:
-    content: public static ReflectableLASM LaserControl(GCXF<bool> persist, BulletManager.StyleSelector style, CurvedTileRenderLaser.cLaserControl control)
+    content: public static ReflectableLASM LaserControl(GCXF<bool> persist, StyleSelector style, CurvedTileRenderLaser.cLaserControl control)
     parameters:
     - id: persist
       type: GCXF{System.Boolean}
     - id: style
-      type: BulletManager.StyleSelector
+      type: StyleSelector
     - id: control
       type: CurvedTileRenderLaser.cLaserControl
     return:
       type: Danmokou.SM.ReflectableLASM
-    content.vb: Public Shared Function LaserControl(persist As GCXF(Of Boolean), style As BulletManager.StyleSelector, control As CurvedTileRenderLaser.cLaserControl) As ReflectableLASM
+    content.vb: Public Shared Function LaserControl(persist As GCXF(Of Boolean), style As StyleSelector, control As CurvedTileRenderLaser.cLaserControl) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.LaserControl*
-  nameWithType.vb: SMReflection.LaserControl(GCXF(Of Boolean), BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  nameWithType.vb: SMReflection.LaserControl(GCXF(Of Boolean), StyleSelector, CurvedTileRenderLaser.cLaserControl)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.SMReflection.LaserControl(GCXF(Of System.Boolean), BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
-  name.vb: LaserControl(GCXF(Of Boolean), BulletManager.StyleSelector, CurvedTileRenderLaser.cLaserControl)
-- uid: Danmokou.SM.SMReflection.PoolControl``1(BulletManager.StyleSelector,``0)
-  commentId: M:Danmokou.SM.SMReflection.PoolControl``1(BulletManager.StyleSelector,``0)
-  id: PoolControl``1(BulletManager.StyleSelector,``0)
+  fullName.vb: Danmokou.SM.SMReflection.LaserControl(GCXF(Of System.Boolean), StyleSelector, CurvedTileRenderLaser.cLaserControl)
+  name.vb: LaserControl(GCXF(Of Boolean), StyleSelector, CurvedTileRenderLaser.cLaserControl)
+- uid: Danmokou.SM.SMReflection.PoolControl``1(StyleSelector,``0)
+  commentId: M:Danmokou.SM.SMReflection.PoolControl``1(StyleSelector,``0)
+  id: PoolControl``1(StyleSelector,``0)
   parent: Danmokou.SM.SMReflection
   langs:
   - csharp
   - vb
-  name: PoolControl<CF>(BulletManager.StyleSelector, CF)
-  nameWithType: SMReflection.PoolControl<CF>(BulletManager.StyleSelector, CF)
-  fullName: Danmokou.SM.SMReflection.PoolControl<CF>(BulletManager.StyleSelector, CF)
+  name: PoolControl<CF>(StyleSelector, CF)
+  nameWithType: SMReflection.PoolControl<CF>(StyleSelector, CF)
+  fullName: Danmokou.SM.SMReflection.PoolControl<CF>(StyleSelector, CF)
   type: Method
   source:
     id: PoolControl
     path: ''
-    startLine: 17520
+    startLine: 17692
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   summary: "\nApply a controller function to a pool of entities.\n"
   example: []
   syntax:
-    content: public static ReflectableLASM PoolControl<CF>(BulletManager.StyleSelector style, CF control)
+    content: public static ReflectableLASM PoolControl<CF>(StyleSelector style, CF control)
     parameters:
     - id: style
-      type: BulletManager.StyleSelector
+      type: StyleSelector
     - id: control
       type: '{CF}'
     typeParameters:
     - id: CF
     return:
       type: Danmokou.SM.ReflectableLASM
-    content.vb: Public Shared Function PoolControl(Of CF)(style As BulletManager.StyleSelector, control As CF) As ReflectableLASM
+    content.vb: Public Shared Function PoolControl(Of CF)(style As StyleSelector, control As CF) As ReflectableLASM
   overload: Danmokou.SM.SMReflection.PoolControl*
-  nameWithType.vb: SMReflection.PoolControl(Of CF)(BulletManager.StyleSelector, CF)
+  nameWithType.vb: SMReflection.PoolControl(Of CF)(StyleSelector, CF)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Danmokou.SM.SMReflection.PoolControl(Of CF)(BulletManager.StyleSelector, CF)
-  name.vb: PoolControl(Of CF)(BulletManager.StyleSelector, CF)
+  fullName.vb: Danmokou.SM.SMReflection.PoolControl(Of CF)(StyleSelector, CF)
+  name.vb: PoolControl(Of CF)(StyleSelector, CF)
+- uid: Danmokou.SM.SMReflection.LoadSBTextures(StyleSelector)
+  commentId: M:Danmokou.SM.SMReflection.LoadSBTextures(StyleSelector)
+  id: LoadSBTextures(StyleSelector)
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: LoadSBTextures(StyleSelector)
+  nameWithType: SMReflection.LoadSBTextures(StyleSelector)
+  fullName: Danmokou.SM.SMReflection.LoadSBTextures(StyleSelector)
+  type: Method
+  source:
+    id: LoadSBTextures
+    path: ''
+    startLine: 17712
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nLoad textures for the provided styles. Textures are normally loaded the first time a bullet\nis instantiated, but this may cause lag spikes on some platforms, in which case loading them ahead\nof time may be better.\n<br />For simple bullets, also instantiate the bullet for a few frames to trigger a shader compile.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM LoadSBTextures(StyleSelector styles)
+    parameters:
+    - id: styles
+      type: StyleSelector
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function LoadSBTextures(styles As StyleSelector) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.LoadSBTextures*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Danmokou.SM.SMReflection.LoadBEHTextures(StyleSelector)
+  commentId: M:Danmokou.SM.SMReflection.LoadBEHTextures(StyleSelector)
+  id: LoadBEHTextures(StyleSelector)
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: LoadBEHTextures(StyleSelector)
+  nameWithType: SMReflection.LoadBEHTextures(StyleSelector)
+  fullName: Danmokou.SM.SMReflection.LoadBEHTextures(StyleSelector)
+  type: Method
+  source:
+    id: LoadBEHTextures
+    path: ''
+    startLine: 17728
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nLoad textures for the provided styles. Textures are normally loaded the first time a bullet\nis instantiated, but this may cause lag spikes on some platforms, in which case loading them ahead\nof time may be better.\n<br />For simple bullets, also instantiate the bullet for a few frames to trigger a shader compile.\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM LoadBEHTextures(StyleSelector styles)
+    parameters:
+    - id: styles
+      type: StyleSelector
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function LoadBEHTextures(styles As StyleSelector) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.LoadBEHTextures*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.SM.SMReflection.ShiftPhaseTo(System.Int32)
   commentId: M:Danmokou.SM.SMReflection.ShiftPhaseTo(System.Int32)
   id: ShiftPhaseTo(System.Int32)
@@ -1345,7 +1495,7 @@ items:
   source:
     id: ShiftPhaseTo
     path: ''
-    startLine: 17541
+    startLine: 17740
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1380,7 +1530,7 @@ items:
   source:
     id: ShiftPhase
     path: ''
-    startLine: 17551
+    startLine: 17750
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1412,7 +1562,7 @@ items:
   source:
     id: Cull
     path: ''
-    startLine: 17556
+    startLine: 17755
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1444,7 +1594,7 @@ items:
   source:
     id: Poof
     path: ''
-    startLine: 17564
+    startLine: 17763
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1476,7 +1626,7 @@ items:
   source:
     id: MoveWhile
     path: ''
-    startLine: 17572
+    startLine: 17771
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1518,7 +1668,7 @@ items:
   source:
     id: Move
     path: ''
-    startLine: 17592
+    startLine: 17791
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1558,7 +1708,7 @@ items:
   source:
     id: MoveTarget
     path: ''
-    startLine: 17597
+    startLine: 17796
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1600,7 +1750,7 @@ items:
   source:
     id: MoveWrap
     path: ''
-    startLine: 17605
+    startLine: 17804
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1643,7 +1793,7 @@ items:
   source:
     id: MoveWrapFixedDelay
     path: ''
-    startLine: 17622
+    startLine: 17821
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1688,7 +1838,7 @@ items:
   source:
     id: MoveWrapFixedDelayNB
     path: ''
-    startLine: 17632
+    startLine: 17831
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1733,7 +1883,7 @@ items:
   source:
     id: IMoveWrap
     path: ''
-    startLine: 17649
+    startLine: 17848
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1776,7 +1926,7 @@ items:
   source:
     id: Position
     path: ''
-    startLine: 17667
+    startLine: 17866
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1816,7 +1966,7 @@ items:
   source:
     id: Pos
     path: ''
-    startLine: 17675
+    startLine: 17874
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1854,7 +2004,7 @@ items:
   source:
     id: DivertHP
     path: ''
-    startLine: 17683
+    startLine: 17882
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1892,10 +2042,12 @@ items:
   source:
     id: Vulnerable
     path: ''
-    startLine: 17688
+    startLine: 17890
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
+  summary: "\nSet the enemy to be vulnerable if the condition returns true, otherwise set it to be invulnerable.\n"
+  example: []
   syntax:
     content: public static ReflectableLASM Vulnerable(GCXF<bool> isVulnerable)
     parameters:
@@ -1914,6 +2066,41 @@ items:
   - Shared
   fullName.vb: Danmokou.SM.SMReflection.Vulnerable(GCXF(Of System.Boolean))
   name.vb: Vulnerable(GCXF(Of Boolean))
+- uid: Danmokou.SM.SMReflection.VulnerableAfter(Danmokou.SM.Synchronizer)
+  commentId: M:Danmokou.SM.SMReflection.VulnerableAfter(Danmokou.SM.Synchronizer)
+  id: VulnerableAfter(Danmokou.SM.Synchronizer)
+  parent: Danmokou.SM.SMReflection
+  langs:
+  - csharp
+  - vb
+  name: VulnerableAfter(Synchronizer)
+  nameWithType: SMReflection.VulnerableAfter(Synchronizer)
+  fullName: Danmokou.SM.SMReflection.VulnerableAfter(Danmokou.SM.Synchronizer)
+  type: Method
+  source:
+    id: VulnerableAfter
+    path: ''
+    startLine: 17899
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  summary: "\nSet the enemy invulnerable, wait for a synchronization event, and then set it vulnerable.\n(This SM is blocking.)\n"
+  example: []
+  syntax:
+    content: public static ReflectableLASM VulnerableAfter(Synchronizer sync)
+    parameters:
+    - id: sync
+      type: Danmokou.SM.Synchronizer
+    return:
+      type: Danmokou.SM.ReflectableLASM
+    content.vb: Public Shared Function VulnerableAfter(sync As Synchronizer) As ReflectableLASM
+  overload: Danmokou.SM.SMReflection.VulnerableAfter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Danmokou.SM.SMReflection.FadeSprite(BPY,GCXF{System.Single})
   commentId: M:Danmokou.SM.SMReflection.FadeSprite(BPY,GCXF{System.Single})
   id: FadeSprite(BPY,GCXF{System.Single})
@@ -1928,7 +2115,7 @@ items:
   source:
     id: FadeSprite
     path: ''
-    startLine: 17693
+    startLine: 17906
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -1966,7 +2153,7 @@ items:
   source:
     id: Scale
     path: ''
-    startLine: 17698
+    startLine: 17911
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2004,7 +2191,7 @@ items:
   source:
     id: Slowdown
     path: ''
-    startLine: 17711
+    startLine: 17924
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2042,7 +2229,7 @@ items:
   source:
     id: SlowdownFor
     path: ''
-    startLine: 17718
+    startLine: 17931
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2082,7 +2269,7 @@ items:
   source:
     id: DangerBot
     path: ''
-    startLine: 17727
+    startLine: 17940
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2112,7 +2299,7 @@ items:
   source:
     id: DangerTop
     path: ''
-    startLine: 17730
+    startLine: 17943
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2142,7 +2329,7 @@ items:
   source:
     id: DangerLeft
     path: ''
-    startLine: 17733
+    startLine: 17946
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2172,7 +2359,7 @@ items:
   source:
     id: DangerRight
     path: ''
-    startLine: 17736
+    startLine: 17949
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2202,7 +2389,7 @@ items:
   source:
     id: DangerLeft2
     path: ''
-    startLine: 17739
+    startLine: 17952
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2232,7 +2419,7 @@ items:
   source:
     id: DangerRight2
     path: ''
-    startLine: 17742
+    startLine: 17955
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2262,7 +2449,7 @@ items:
   source:
     id: Fire
     path: ''
-    startLine: 17749
+    startLine: 17962
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2301,7 +2488,7 @@ items:
   source:
     id: FireSame
     path: ''
-    startLine: 17785
+    startLine: 17998
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2336,7 +2523,7 @@ items:
   source:
     id: AssertSimple
     path: ''
-    startLine: 17802
+    startLine: 18015
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2369,7 +2556,7 @@ items:
   source:
     id: AssertComplex
     path: ''
-    startLine: 17807
+    startLine: 18020
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2402,7 +2589,7 @@ items:
   source:
     id: Debug
     path: ''
-    startLine: 17819
+    startLine: 18032
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2437,7 +2624,7 @@ items:
   source:
     id: Print
     path: ''
-    startLine: 17828
+    startLine: 18041
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2477,7 +2664,7 @@ items:
   source:
     id: PlayerVariant
     path: ''
-    startLine: 17838
+    startLine: 18051
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -2515,7 +2702,7 @@ items:
   source:
     id: LifeToScore
     path: ''
-    startLine: 17854
+    startLine: 18067
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -3192,6 +3379,23 @@ references:
   name: TP4
   nameWithType: TP4
   fullName: TP4
+- uid: Danmokou.SM.SMReflection.Effect*
+  commentId: Overload:Danmokou.SM.SMReflection.Effect
+  name: Effect
+  nameWithType: SMReflection.Effect
+  fullName: Danmokou.SM.SMReflection.Effect
+- uid: Danmokou.SM.SMReflection.SkipTime*
+  commentId: Overload:Danmokou.SM.SMReflection.SkipTime
+  name: SkipTime
+  nameWithType: SMReflection.SkipTime
+  fullName: Danmokou.SM.SMReflection.SkipTime
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
 - uid: Danmokou.SM.SMReflection.Raiko*
   commentId: Overload:Danmokou.SM.SMReflection.Raiko
   name: Raiko
@@ -3212,13 +3416,6 @@ references:
   name: SeijaX
   nameWithType: SMReflection.SeijaX
   fullName: Danmokou.SM.SMReflection.SeijaX
-- uid: System.Single
-  commentId: T:System.Single
-  parent: System
-  isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
 - uid: Danmokou.SM.SMReflection.SeijaY*
   commentId: Overload:Danmokou.SM.SMReflection.SeijaY
   name: SeijaY
@@ -3679,11 +3876,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: BulletManager.StyleSelector
+- uid: StyleSelector
   isExternal: true
-  name: BulletManager.StyleSelector
-  nameWithType: BulletManager.StyleSelector
-  fullName: BulletManager.StyleSelector
+  name: StyleSelector
+  nameWithType: StyleSelector
+  fullName: StyleSelector
 - uid: BulletManager.cBulletControl
   commentId: '!:BulletManager.cBulletControl'
   isExternal: true
@@ -3728,6 +3925,19 @@ references:
   name: CF
   nameWithType: CF
   fullName: CF
+- uid: Danmokou.SM.SMReflection.LoadSBTextures*
+  commentId: Overload:Danmokou.SM.SMReflection.LoadSBTextures
+  name: LoadSBTextures
+  nameWithType: SMReflection.LoadSBTextures
+  fullName: Danmokou.SM.SMReflection.LoadSBTextures
+- uid: Danmokou.SM.SMReflection.LoadSBTextures(StyleSelector)
+  commentId: M:Danmokou.SM.SMReflection.LoadSBTextures(StyleSelector)
+  isExternal: true
+- uid: Danmokou.SM.SMReflection.LoadBEHTextures*
+  commentId: Overload:Danmokou.SM.SMReflection.LoadBEHTextures
+  name: LoadBEHTextures
+  nameWithType: SMReflection.LoadBEHTextures
+  fullName: Danmokou.SM.SMReflection.LoadBEHTextures
 - uid: Danmokou.SM.SMReflection.ShiftPhaseTo*
   commentId: Overload:Danmokou.SM.SMReflection.ShiftPhaseTo
   name: ShiftPhaseTo
@@ -4027,6 +4237,11 @@ references:
   name: Vulnerable
   nameWithType: SMReflection.Vulnerable
   fullName: Danmokou.SM.SMReflection.Vulnerable
+- uid: Danmokou.SM.SMReflection.VulnerableAfter*
+  commentId: Overload:Danmokou.SM.SMReflection.VulnerableAfter
+  name: VulnerableAfter
+  nameWithType: SMReflection.VulnerableAfter
+  fullName: Danmokou.SM.SMReflection.VulnerableAfter
 - uid: Danmokou.SM.SMReflection.FadeSprite*
   commentId: Overload:Danmokou.SM.SMReflection.FadeSprite
   name: FadeSprite

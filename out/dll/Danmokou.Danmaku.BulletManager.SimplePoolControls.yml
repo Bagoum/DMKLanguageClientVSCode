@@ -27,7 +27,7 @@ items:
   source:
     id: SimplePoolControls
     path: ''
-    startLine: 2364
+    startLine: 2239
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -67,7 +67,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 2371
+    startLine: 2246
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -100,7 +100,7 @@ items:
   source:
     id: CullRad
     path: ''
-    startLine: 2382
+    startLine: 2257
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -136,7 +136,7 @@ items:
   source:
     id: AllowCull
     path: ''
-    startLine: 2391
+    startLine: 2266
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -173,7 +173,7 @@ items:
   source:
     id: AllowDelete
     path: ''
-    startLine: 2399
+    startLine: 2274
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -208,7 +208,7 @@ items:
   source:
     id: SoftCullAll
     path: ''
-    startLine: 2408
+    startLine: 2283
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -245,7 +245,7 @@ items:
   source:
     id: Tint
     path: ''
-    startLine: 2423
+    startLine: 2298
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -280,7 +280,7 @@ items:
   source:
     id: Recolor
     path: ''
-    startLine: 2432
+    startLine: 2307
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -317,7 +317,7 @@ items:
   source:
     id: SortZ
     path: ''
-    startLine: 2438
+    startLine: 2313
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -349,7 +349,7 @@ items:
   source:
     id: SetRenderQueue
     path: ''
-    startLine: 2445
+    startLine: 2320
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -384,7 +384,7 @@ items:
   source:
     id: Destructible
     path: ''
-    startLine: 2451
+    startLine: 2326
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -419,7 +419,7 @@ items:
   source:
     id: Damage
     path: ''
-    startLine: 2460
+    startLine: 2335
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku
@@ -454,7 +454,7 @@ items:
   source:
     id: NoGraze
     path: ''
-    startLine: 2467
+    startLine: 2342
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku

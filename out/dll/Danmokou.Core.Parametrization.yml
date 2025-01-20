@@ -20,7 +20,7 @@ items:
   source:
     id: Parametrization
     path: ''
-    startLine: 1243
+    startLine: 1255
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -49,7 +49,7 @@ items:
   source:
     id: THIS
     path: ''
-    startLine: 1247
+    startLine: 1259
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -79,7 +79,7 @@ items:
   source:
     id: DEFER
     path: ''
-    startLine: 1251
+    startLine: 1263
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -109,7 +109,7 @@ items:
   source:
     id: ADDITIVE
     path: ''
-    startLine: 1255
+    startLine: 1267
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -139,7 +139,7 @@ items:
   source:
     id: MOD
     path: ''
-    startLine: 1261
+    startLine: 1273
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -169,7 +169,7 @@ items:
   source:
     id: INVMOD
     path: ''
-    startLine: 1268
+    startLine: 1280
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

@@ -54,7 +54,7 @@ items:
   source:
     id: AtomicPatterns
     path: ''
-    startLine: 5451
+    startLine: 5521
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -94,7 +94,7 @@ items:
   source:
     id: DS
     path: ''
-    startLine: 5135
+    startLine: 5205
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -138,7 +138,7 @@ items:
   source:
     id: dPather
     path: ''
-    startLine: 5142
+    startLine: 5212
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -168,7 +168,7 @@ items:
   source:
     id: Erase
     path: ''
-    startLine: 5457
+    startLine: 5527
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -206,7 +206,7 @@ items:
   source:
     id: Noop
     path: ''
-    startLine: 5465
+    startLine: 5535
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -239,7 +239,7 @@ items:
   source:
     id: SFX
     path: ''
-    startLine: 5470
+    startLine: 5540
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -272,7 +272,7 @@ items:
   source:
     id: Event
     path: ''
-    startLine: 5476
+    startLine: 5546
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -314,7 +314,7 @@ items:
   source:
     id: Event0
     path: ''
-    startLine: 5483
+    startLine: 5553
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -349,7 +349,7 @@ items:
   source:
     id: LifeItem
     path: ''
-    startLine: 5487
+    startLine: 5557
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -379,7 +379,7 @@ items:
   source:
     id: ValueItem
     path: ''
-    startLine: 5490
+    startLine: 5560
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -409,7 +409,7 @@ items:
   source:
     id: SmallValueItem
     path: ''
-    startLine: 5493
+    startLine: 5563
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -439,7 +439,7 @@ items:
   source:
     id: PointPPItem
     path: ''
-    startLine: 5496
+    startLine: 5566
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -469,7 +469,7 @@ items:
   source:
     id: GemItem
     path: ''
-    startLine: 5499
+    startLine: 5569
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -499,7 +499,7 @@ items:
   source:
     id: OneUpItem
     path: ''
-    startLine: 5502
+    startLine: 5572
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -529,7 +529,7 @@ items:
   source:
     id: PowerupShiftItem
     path: ''
-    startLine: 5506
+    startLine: 5576
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -559,7 +559,7 @@ items:
   source:
     id: S
     path: ''
-    startLine: 5518
+    startLine: 5588
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -596,7 +596,7 @@ items:
   source:
     id: Simple
     path: ''
-    startLine: 5528
+    startLine: 5598
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -636,7 +636,7 @@ items:
   source:
     id: Complex
     path: ''
-    startLine: 5545
+    startLine: 5615
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -676,7 +676,7 @@ items:
   source:
     id: Pather
     path: ''
-    startLine: 5558
+    startLine: 5628
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -722,7 +722,7 @@ items:
   source:
     id: Laser
     path: ''
-    startLine: 5571
+    startLine: 5641
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -771,7 +771,7 @@ items:
   source:
     id: SafeLaser
     path: ''
-    startLine: 5576
+    startLine: 5646
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -809,7 +809,7 @@ items:
   source:
     id: SafeLaserM
     path: ''
-    startLine: 5579
+    startLine: 5649
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -849,7 +849,7 @@ items:
   source:
     id: SummonS
     path: ''
-    startLine: 5582
+    startLine: 5652
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -887,7 +887,7 @@ items:
   source:
     id: SummonSUP
     path: ''
-    startLine: 5584
+    startLine: 5654
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -925,7 +925,7 @@ items:
   source:
     id: Inode
     path: ''
-    startLine: 5586
+    startLine: 5656
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -963,7 +963,7 @@ items:
   source:
     id: Summon
     path: ''
-    startLine: 5600
+    startLine: 5670
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1003,7 +1003,7 @@ items:
   source:
     id: SummonUP
     path: ''
-    startLine: 5603
+    startLine: 5673
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1043,7 +1043,7 @@ items:
   source:
     id: SummonR
     path: ''
-    startLine: 5606
+    startLine: 5676
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1083,7 +1083,7 @@ items:
   source:
     id: SummonRUP
     path: ''
-    startLine: 5611
+    startLine: 5681
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1123,7 +1123,7 @@ items:
   source:
     id: SummonRZ
     path: ''
-    startLine: 5616
+    startLine: 5686
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1161,7 +1161,7 @@ items:
   source:
     id: Circ
     path: ''
-    startLine: 5634
+    startLine: 5704
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1196,7 +1196,7 @@ items:
   source:
     id: gRelCirc
     path: ''
-    startLine: 5638
+    startLine: 5708
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1235,7 +1235,7 @@ items:
   source:
     id: RelCirc
     path: ''
-    startLine: 5643
+    startLine: 5713
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1277,7 +1277,7 @@ items:
   source:
     id: Rect
     path: ''
-    startLine: 5645
+    startLine: 5715
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1312,7 +1312,7 @@ items:
   source:
     id: gRelRect
     path: ''
-    startLine: 5649
+    startLine: 5719
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1351,7 +1351,7 @@ items:
   source:
     id: RelRect
     path: ''
-    startLine: 5654
+    startLine: 5724
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1393,7 +1393,7 @@ items:
   source:
     id: Darkness
     path: ''
-    startLine: 5658
+    startLine: 5728
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1430,7 +1430,7 @@ items:
   source:
     id: PowerAura
     path: ''
-    startLine: 5663
+    startLine: 5733
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1463,7 +1463,7 @@ items:
   source:
     id: Powerup
     path: ''
-    startLine: 5676
+    startLine: 5746
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1524,7 +1524,7 @@ items:
   source:
     id: PowerupStatic
     path: ''
-    startLine: 5696
+    startLine: 5766
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

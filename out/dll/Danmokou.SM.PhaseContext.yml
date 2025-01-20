@@ -26,7 +26,7 @@ items:
   source:
     id: PhaseContext
     path: ''
-    startLine: 16306
+    startLine: 16440
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -69,7 +69,7 @@ items:
   source:
     id: Pattern
     path: ''
-    startLine: 16307
+    startLine: 16441
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -100,7 +100,7 @@ items:
   source:
     id: Index
     path: ''
-    startLine: 16308
+    startLine: 16442
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -131,7 +131,7 @@ items:
   source:
     id: Props
     path: ''
-    startLine: 16309
+    startLine: 16443
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -162,7 +162,7 @@ items:
   source:
     id: BossPhotoHP
     path: ''
-    startLine: 16311
+    startLine: 16445
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -193,7 +193,7 @@ items:
   source:
     id: Boss
     path: ''
-    startLine: 16312
+    startLine: 16446
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -224,7 +224,7 @@ items:
   source:
     id: PhaseType
     path: ''
-    startLine: 16313
+    startLine: 16447
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -255,7 +255,7 @@ items:
   source:
     id: Background
     path: ''
-    startLine: 16314
+    startLine: 16448
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -286,7 +286,7 @@ items:
   source:
     id: BgTransitionIn
     path: ''
-    startLine: 16316
+    startLine: 16450
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -317,7 +317,7 @@ items:
   source:
     id: BgTransitionOut
     path: ''
-    startLine: 16318
+    startLine: 16452
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -348,7 +348,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16321
+    startLine: 16455
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -381,7 +381,7 @@ items:
   source:
     id: GetSpellCutin
     path: ''
-    startLine: 16328
+    startLine: 16462
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

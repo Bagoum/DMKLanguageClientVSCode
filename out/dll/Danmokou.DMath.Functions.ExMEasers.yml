@@ -40,7 +40,7 @@ items:
   source:
     id: ExMEasers
     path: ''
-    startLine: 12250
+    startLine: 12362
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -80,7 +80,7 @@ items:
   source:
     id: EInSine
     path: ''
-    startLine: 12257
+    startLine: 12369
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -115,7 +115,7 @@ items:
   source:
     id: EOutSine
     path: ''
-    startLine: 12262
+    startLine: 12374
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -150,7 +150,7 @@ items:
   source:
     id: EIOSine
     path: ''
-    startLine: 12267
+    startLine: 12379
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -185,7 +185,7 @@ items:
   source:
     id: EInQuad
     path: ''
-    startLine: 12270
+    startLine: 12382
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -218,7 +218,7 @@ items:
   source:
     id: EOutQuad
     path: ''
-    startLine: 12271
+    startLine: 12383
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -251,7 +251,7 @@ items:
   source:
     id: EIOQuad
     path: ''
-    startLine: 12272
+    startLine: 12384
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -284,7 +284,7 @@ items:
   source:
     id: EInQuart
     path: ''
-    startLine: 12279
+    startLine: 12391
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -317,7 +317,7 @@ items:
   source:
     id: EOutQuart
     path: ''
-    startLine: 12280
+    startLine: 12392
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -350,7 +350,7 @@ items:
   source:
     id: EIOQuart
     path: ''
-    startLine: 12281
+    startLine: 12393
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -383,7 +383,7 @@ items:
   source:
     id: EInBack
     path: ''
-    startLine: 12290
+    startLine: 12402
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -416,7 +416,7 @@ items:
   source:
     id: EOutBack
     path: ''
-    startLine: 12291
+    startLine: 12403
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -449,7 +449,7 @@ items:
   source:
     id: EIOBack
     path: ''
-    startLine: 12292
+    startLine: 12404
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -482,7 +482,7 @@ items:
   source:
     id: EInElastic
     path: ''
-    startLine: 12294
+    startLine: 12406
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -515,7 +515,7 @@ items:
   source:
     id: EOutElastic
     path: ''
-    startLine: 12296
+    startLine: 12408
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -548,7 +548,7 @@ items:
   source:
     id: EIOElastic
     path: ''
-    startLine: 12298
+    startLine: 12410
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -581,7 +581,7 @@ items:
   source:
     id: EInBounce
     path: ''
-    startLine: 12308
+    startLine: 12420
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -614,7 +614,7 @@ items:
   source:
     id: EOutBounce
     path: ''
-    startLine: 12309
+    startLine: 12421
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -647,7 +647,7 @@ items:
   source:
     id: EIOBounce
     path: ''
-    startLine: 12320
+    startLine: 12432
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -680,7 +680,7 @@ items:
   source:
     id: ELinear
     path: ''
-    startLine: 12330
+    startLine: 12442
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -715,7 +715,7 @@ items:
   source:
     id: EBounce2
     path: ''
-    startLine: 12332
+    startLine: 12444
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -748,7 +748,7 @@ items:
   source:
     id: ESine010
     path: ''
-    startLine: 12351
+    startLine: 12463
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -783,7 +783,7 @@ items:
   source:
     id: ESoftmod010
     path: ''
-    startLine: 12355
+    startLine: 12467
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -818,7 +818,7 @@ items:
   source:
     id: CEInBack
     path: ''
-    startLine: 12359
+    startLine: 12471
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -853,7 +853,7 @@ items:
   source:
     id: CEOutBack
     path: ''
-    startLine: 12362
+    startLine: 12474
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -888,7 +888,7 @@ items:
   source:
     id: CEIOBack
     path: ''
-    startLine: 12365
+    startLine: 12477
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

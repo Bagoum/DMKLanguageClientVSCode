@@ -32,7 +32,7 @@ items:
   source:
     id: ExMV3
     path: ''
-    startLine: 8447
+    startLine: 8540
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -72,7 +72,7 @@ items:
   source:
     id: WithZ
     path: ''
-    startLine: 8452
+    startLine: 8545
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -109,7 +109,7 @@ items:
   source:
     id: PXYZ
     path: ''
-    startLine: 8461
+    startLine: 8554
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -152,7 +152,7 @@ items:
   source:
     id: PXY0
     path: ''
-    startLine: 8469
+    startLine: 8562
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -192,7 +192,7 @@ items:
   source:
     id: PX
     path: ''
-    startLine: 8476
+    startLine: 8569
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -229,7 +229,7 @@ items:
   source:
     id: PY
     path: ''
-    startLine: 8483
+    startLine: 8576
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -266,7 +266,7 @@ items:
   source:
     id: PZ
     path: ''
-    startLine: 8490
+    startLine: 8583
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -303,7 +303,7 @@ items:
   source:
     id: TP3
     path: ''
-    startLine: 8497
+    startLine: 8590
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -340,7 +340,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 8502
+    startLine: 8595
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -372,7 +372,7 @@ items:
   source:
     id: QRotate
     path: ''
-    startLine: 8511
+    startLine: 8604
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -412,7 +412,7 @@ items:
   source:
     id: V3Rotate
     path: ''
-    startLine: 8519
+    startLine: 8612
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -452,7 +452,7 @@ items:
   source:
     id: XZrY
     path: ''
-    startLine: 8530
+    startLine: 8623
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -498,7 +498,7 @@ items:
   source:
     id: YZrX
     path: ''
-    startLine: 8542
+    startLine: 8635
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -544,7 +544,7 @@ items:
   source:
     id: XYrZ
     path: ''
-    startLine: 8554
+    startLine: 8647
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -590,7 +590,7 @@ items:
   source:
     id: MultiplyX
     path: ''
-    startLine: 8564
+    startLine: 8657
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -630,7 +630,7 @@ items:
   source:
     id: MultiplyY
     path: ''
-    startLine: 8574
+    startLine: 8667
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -670,7 +670,7 @@ items:
   source:
     id: MultiplyZ
     path: ''
-    startLine: 8584
+    startLine: 8677
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -710,7 +710,7 @@ items:
   source:
     id: CylinderWrap
     path: ''
-    startLine: 8599
+    startLine: 8692
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

@@ -31,7 +31,7 @@ items:
   source:
     id: ParametricInfo
     path: ''
-    startLine: 7339
+    startLine: 7424
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -67,7 +67,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 7340
+    startLine: 7425
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -96,7 +96,7 @@ items:
   source:
     id: id
     path: ''
-    startLine: 7342
+    startLine: 7427
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -127,7 +127,7 @@ items:
   source:
     id: index
     path: ''
-    startLine: 7344
+    startLine: 7429
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -158,7 +158,7 @@ items:
   source:
     id: loc
     path: ''
-    startLine: 7346
+    startLine: 7431
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -187,7 +187,7 @@ items:
   source:
     id: t
     path: ''
-    startLine: 7348
+    startLine: 7433
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -216,7 +216,7 @@ items:
   source:
     id: ctx
     path: ''
-    startLine: 7350
+    startLine: 7435
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -245,7 +245,7 @@ items:
   source:
     id: LocV2
     path: ''
-    startLine: 7355
+    startLine: 7440
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -279,7 +279,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7358
+    startLine: 7443
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -319,7 +319,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7360
+    startLine: 7445
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -359,7 +359,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7367
+    startLine: 7452
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -399,7 +399,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7369
+    startLine: 7454
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -439,7 +439,7 @@ items:
   source:
     id: Rehash
     path: ''
-    startLine: 7377
+    startLine: 7462
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -467,7 +467,7 @@ items:
   source:
     id: CopyWithT
     path: ''
-    startLine: 7378
+    startLine: 7463
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -498,7 +498,7 @@ items:
   source:
     id: CopyCtx
     path: ''
-    startLine: 7380
+    startLine: 7465
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -529,7 +529,7 @@ items:
   source:
     id: FlipSimple
     path: ''
-    startLine: 7387
+    startLine: 7472
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -564,7 +564,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 7395
+    startLine: 7480
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath

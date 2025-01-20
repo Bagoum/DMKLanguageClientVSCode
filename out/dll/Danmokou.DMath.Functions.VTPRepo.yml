@@ -37,7 +37,7 @@ items:
   source:
     id: VTPRepo
     path: ''
-    startLine: 10285
+    startLine: 10380
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -78,7 +78,7 @@ items:
   source:
     id: IsNone
     path: ''
-    startLine: 10287
+    startLine: 10382
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -114,7 +114,7 @@ items:
   source:
     id: ExNoVTP
     path: ''
-    startLine: 10290
+    startLine: 10385
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -145,7 +145,7 @@ items:
   source:
     id: NoVTP
     path: ''
-    startLine: 10291
+    startLine: 10386
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -176,7 +176,7 @@ items:
   source:
     id: "Null"
     path: ''
-    startLine: 10297
+    startLine: 10392
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -208,7 +208,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 10303
+    startLine: 10398
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -240,7 +240,7 @@ items:
   source:
     id: If
     path: ''
-    startLine: 10310
+    startLine: 10405
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -279,7 +279,7 @@ items:
   source:
     id: RVelocity
     path: ''
-    startLine: 10319
+    startLine: 10414
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -316,7 +316,7 @@ items:
   source:
     id: NRVelocity
     path: ''
-    startLine: 10327
+    startLine: 10422
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -353,7 +353,7 @@ items:
   source:
     id: Velocity
     path: ''
-    startLine: 10336
+    startLine: 10431
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -393,7 +393,7 @@ items:
   source:
     id: Velocity3D
     path: ''
-    startLine: 10346
+    startLine: 10441
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -433,7 +433,7 @@ items:
   source:
     id: ROffset
     path: ''
-    startLine: 10353
+    startLine: 10448
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -470,7 +470,7 @@ items:
   source:
     id: NROffset
     path: ''
-    startLine: 10360
+    startLine: 10455
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -507,7 +507,7 @@ items:
   source:
     id: Offset
     path: ''
-    startLine: 10368
+    startLine: 10463
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -547,7 +547,7 @@ items:
   source:
     id: Offset3D
     path: ''
-    startLine: 10378
+    startLine: 10473
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -587,7 +587,7 @@ items:
   source:
     id: DOffset
     path: ''
-    startLine: 10389
+    startLine: 10484
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -636,7 +636,7 @@ items:
   source:
     id: DTPOffset
     path: ''
-    startLine: 10404
+    startLine: 10499
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -685,7 +685,7 @@ items:
   source:
     id: Polar
     path: ''
-    startLine: 10416
+    startLine: 10511
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -725,7 +725,7 @@ items:
   source:
     id: Polar2
     path: ''
-    startLine: 10423
+    startLine: 10518
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -762,7 +762,7 @@ items:
   source:
     id: VPolar
     path: ''
-    startLine: 10432
+    startLine: 10527
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -802,7 +802,7 @@ items:
   source:
     id: LetFloats
     path: ''
-    startLine: 10441
+    startLine: 10536
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -842,7 +842,7 @@ items:
   source:
     id: LetV2s
     path: ''
-    startLine: 10447
+    startLine: 10542
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -882,7 +882,7 @@ items:
   source:
     id: Let
     path: ''
-    startLine: 10453
+    startLine: 10548
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

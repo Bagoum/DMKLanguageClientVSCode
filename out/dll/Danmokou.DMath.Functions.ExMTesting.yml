@@ -19,7 +19,7 @@ items:
   source:
     id: ExMTesting
     path: ''
-    startLine: 13180
+    startLine: 13292
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -57,7 +57,7 @@ items:
   source:
     id: TestLookup2
     path: ''
-    startLine: 13182
+    startLine: 13294
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -99,7 +99,7 @@ items:
   source:
     id: TestLookup1
     path: ''
-    startLine: 13184
+    startLine: 13296
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -139,7 +139,7 @@ items:
   source:
     id: AddTest
     path: ''
-    startLine: 13186
+    startLine: 13298
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -179,7 +179,7 @@ items:
   source:
     id: MulTest
     path: ''
-    startLine: 13187
+    startLine: 13299
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

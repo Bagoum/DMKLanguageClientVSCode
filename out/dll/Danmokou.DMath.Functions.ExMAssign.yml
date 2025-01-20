@@ -28,7 +28,7 @@ items:
   source:
     id: ExMAssign
     path: ''
-    startLine: 11265
+    startLine: 11366
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -68,7 +68,7 @@ items:
   source:
     id: VariableInitialize
     path: ''
-    startLine: 11267
+    startLine: 11368
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -108,7 +108,7 @@ items:
   source:
     id: Assign
     path: ''
-    startLine: 11270
+    startLine: 11371
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -148,7 +148,7 @@ items:
   source:
     id: AddAssign
     path: ''
-    startLine: 11274
+    startLine: 11375
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -188,7 +188,7 @@ items:
   source:
     id: SubAssign
     path: ''
-    startLine: 11277
+    startLine: 11378
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -228,7 +228,7 @@ items:
   source:
     id: MulAssign
     path: ''
-    startLine: 11280
+    startLine: 11381
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -268,7 +268,7 @@ items:
   source:
     id: DivAssign
     path: ''
-    startLine: 11283
+    startLine: 11384
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -308,7 +308,7 @@ items:
   source:
     id: ModAssign
     path: ''
-    startLine: 11286
+    startLine: 11387
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -348,7 +348,7 @@ items:
   source:
     id: AndAssign
     path: ''
-    startLine: 11289
+    startLine: 11390
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -388,7 +388,7 @@ items:
   source:
     id: OrAssign
     path: ''
-    startLine: 11292
+    startLine: 11393
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -428,7 +428,7 @@ items:
   source:
     id: PostIncrement
     path: ''
-    startLine: 11306
+    startLine: 11407
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -466,7 +466,7 @@ items:
   source:
     id: PreIncrement
     path: ''
-    startLine: 11309
+    startLine: 11410
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -504,7 +504,7 @@ items:
   source:
     id: PostDecrement
     path: ''
-    startLine: 11313
+    startLine: 11414
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -542,7 +542,7 @@ items:
   source:
     id: PreDecrement
     path: ''
-    startLine: 11316
+    startLine: 11417
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

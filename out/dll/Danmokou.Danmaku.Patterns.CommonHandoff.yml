@@ -25,7 +25,7 @@ items:
   source:
     id: CommonHandoff
     path: ''
-    startLine: 5301
+    startLine: 5371
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -63,7 +63,7 @@ items:
   source:
     id: cT
     path: ''
-    startLine: 5302
+    startLine: 5372
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -92,7 +92,7 @@ items:
   source:
     id: bc
     path: ''
-    startLine: 5303
+    startLine: 5373
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -119,7 +119,7 @@ items:
   source:
     id: gcx
     path: ''
-    startLine: 5304
+    startLine: 5374
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -148,7 +148,7 @@ items:
   source:
     id: rv2Override
     path: ''
-    startLine: 5305
+    startLine: 5375
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -175,7 +175,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5310
+    startLine: 5380
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -215,7 +215,7 @@ items:
   source:
     id: TryDerive
     path: ''
-    startLine: 5320
+    startLine: 5390
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -252,7 +252,7 @@ items:
   source:
     id: OverrideFrame
     path: ''
-    startLine: 5334
+    startLine: 5404
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -289,7 +289,7 @@ items:
   source:
     id: Copy
     path: ''
-    startLine: 5345
+    startLine: 5415
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -320,7 +320,7 @@ items:
   source:
     id: Mirror
     path: ''
-    startLine: 5353
+    startLine: 5423
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -352,7 +352,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 5357
+    startLine: 5427
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

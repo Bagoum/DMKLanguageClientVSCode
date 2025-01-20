@@ -16,7 +16,7 @@ items:
   source:
     id: ExMExternal
     path: ''
-    startLine: 12389
+    startLine: 12501
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -56,7 +56,7 @@ items:
   source:
     id: CampaignCompleted
     path: ''
-    startLine: 12396
+    startLine: 12508
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

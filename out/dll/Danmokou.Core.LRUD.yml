@@ -19,7 +19,7 @@ items:
   source:
     id: LRUD
     path: ''
-    startLine: 443
+    startLine: 446
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -48,7 +48,7 @@ items:
   source:
     id: LEFT
     path: ''
-    startLine: 444
+    startLine: 447
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -76,7 +76,7 @@ items:
   source:
     id: RIGHT
     path: ''
-    startLine: 445
+    startLine: 448
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -104,7 +104,7 @@ items:
   source:
     id: UP
     path: ''
-    startLine: 446
+    startLine: 449
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -132,7 +132,7 @@ items:
   source:
     id: DOWN
     path: ''
-    startLine: 447
+    startLine: 450
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

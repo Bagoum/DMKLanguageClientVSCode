@@ -8,6 +8,7 @@ items:
   - Danmokou.SM.PatternProperty.BGM(System.ValueTuple{System.Int32,System.String}[])
   - Danmokou.SM.PatternProperty.Boss(System.String)
   - Danmokou.SM.PatternProperty.Bosses(System.String[],System.ValueTuple{System.Int32,System.Int32}[])
+  - Danmokou.SM.PatternProperty.Mixer(System.ValueTuple{System.Int32,System.ValueTuple{System.String,BPY}[]}[])
   - Danmokou.SM.PatternProperty.SetUIFrom(System.Int32)
   langs:
   - csharp
@@ -19,7 +20,7 @@ items:
   source:
     id: PatternProperty
     path: ''
-    startLine: 15748
+    startLine: 15879
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -58,7 +59,7 @@ items:
   source:
     id: Boss
     path: ''
-    startLine: 15755
+    startLine: 15886
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -95,7 +96,7 @@ items:
   source:
     id: Bosses
     path: ''
-    startLine: 15757
+    startLine: 15888
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -126,27 +127,27 @@ items:
   langs:
   - csharp
   - vb
-  name: BGM((Int32, String)[])
-  nameWithType: PatternProperty.BGM((Int32, String)[])
+  name: BGM((Int32 phase, String track)[])
+  nameWithType: PatternProperty.BGM((Int32 phase, String track)[])
   fullName: Danmokou.SM.PatternProperty.BGM(System.ValueTuple<System.Int32, System.String>[])
   type: Method
   source:
     id: BGM
     path: ''
-    startLine: 15759
+    startLine: 15890
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
   syntax:
-    content: public static PatternProperty BGM((int, string)[] phasesAndTracks)
+    content: public static PatternProperty BGM((int phase, string track)[] tracks)
     parameters:
-    - id: phasesAndTracks
+    - id: tracks
       type: System.ValueTuple{System.Int32,System.String}[]
     return:
       type: Danmokou.SM.PatternProperty
-    content.vb: Public Shared Function BGM(phasesAndTracks As(Integer, String)(Of Integer , String)()) As PatternProperty
+    content.vb: Public Shared Function BGM(tracks As(phase As Integer, track As String)(Of Integer , String)()) As PatternProperty
   overload: Danmokou.SM.PatternProperty.BGM*
-  nameWithType.vb: PatternProperty.BGM((Int32, String)(Of Int32, String)())
+  nameWithType.vb: PatternProperty.BGM((phase As Int32, track As String)(Of Int32, String)())
   modifiers.csharp:
   - public
   - static
@@ -154,7 +155,43 @@ items:
   - Public
   - Shared
   fullName.vb: Danmokou.SM.PatternProperty.BGM(System.ValueTuple(Of System.Int32, System.String)())
-  name.vb: BGM((Int32, String)(Of Int32, String)())
+  name.vb: BGM((phase As Int32, track As String)(Of Int32, String)())
+- uid: Danmokou.SM.PatternProperty.Mixer(System.ValueTuple{System.Int32,System.ValueTuple{System.String,BPY}[]}[])
+  commentId: M:Danmokou.SM.PatternProperty.Mixer(System.ValueTuple{System.Int32,System.ValueTuple{System.String,BPY}[]}[])
+  id: Mixer(System.ValueTuple{System.Int32,System.ValueTuple{System.String,BPY}[]}[])
+  parent: Danmokou.SM.PatternProperty
+  langs:
+  - csharp
+  - vb
+  name: Mixer((Int32 phase, (String track, BPY volume)[])[])
+  nameWithType: PatternProperty.Mixer((Int32 phase, (String track, BPY volume)[])[])
+  fullName: Danmokou.SM.PatternProperty.Mixer(System.ValueTuple<System.Int32, System.ValueTuple<System.String, BPY>[]>[])
+  type: Method
+  source:
+    id: Mixer
+    path: ''
+    startLine: 15893
+  assemblies:
+  - cs.temp.dll
+  namespace: Danmokou.SM
+  syntax:
+    content: public static PatternProperty Mixer((int phase, (string track, BPY volume)[])[] tracks)
+    parameters:
+    - id: tracks
+      type: System.ValueTuple{System.Int32,System.ValueTuple{System.String,BPY}[]}[]
+    return:
+      type: Danmokou.SM.PatternProperty
+    content.vb: Public Shared Function Mixer(tracks As(phase As Integer, (track As String, volume As BPY)(Of String , BPY)())(Of Integer , (track As String, volume As BPY)(Of String, BPY)())()) As PatternProperty
+  overload: Danmokou.SM.PatternProperty.Mixer*
+  nameWithType.vb: PatternProperty.Mixer((phase As Int32, (track As String, volume As BPY)(Of String, BPY)())(Of Int32, (track As String, volume As BPY)(Of String, BPY)())())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Danmokou.SM.PatternProperty.Mixer(System.ValueTuple(Of System.Int32, System.ValueTuple(Of System.String, BPY)())())
+  name.vb: Mixer((phase As Int32, (track As String, volume As BPY)(Of String, BPY)())(Of Int32, (track As String, volume As BPY)(Of String, BPY)())())
 - uid: Danmokou.SM.PatternProperty.SetUIFrom(System.Int32)
   commentId: M:Danmokou.SM.PatternProperty.SetUIFrom(System.Int32)
   id: SetUIFrom(System.Int32)
@@ -169,7 +206,7 @@ items:
   source:
     id: SetUIFrom
     path: ''
-    startLine: 15761
+    startLine: 15895
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -662,6 +699,119 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Danmokou.SM.PatternProperty.Mixer*
+  commentId: Overload:Danmokou.SM.PatternProperty.Mixer
+  name: Mixer
+  nameWithType: PatternProperty.Mixer
+  fullName: Danmokou.SM.PatternProperty.Mixer
+- uid: System.ValueTuple{System.Int32,System.ValueTuple{System.String,BPY}[]}[]
+  isExternal: true
+  name: (T1, T2)<Int32, (T1, T2)<String, BPY>[]>[]
+  nameWithType: (T1, T2)<Int32, (T1, T2)<String, BPY>[]>[]
+  fullName: System.ValueTuple<System.Int32, System.ValueTuple<System.String, BPY>[]>[]
+  nameWithType.vb: (T1, T2)(Of Int32, (T1, T2)(Of String, BPY)())()
+  fullName.vb: System.ValueTuple(Of System.Int32, System.ValueTuple(Of System.String, BPY)())()
+  name.vb: (T1, T2)(Of Int32, (T1, T2)(Of String, BPY)())()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BPY
+    name: BPY
+    nameWithType: BPY
+    fullName: BPY
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: (T1, T2)
+    nameWithType: (T1, T2)
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BPY
+    name: BPY
+    nameWithType: BPY
+    fullName: BPY
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
     nameWithType: )
     fullName: )

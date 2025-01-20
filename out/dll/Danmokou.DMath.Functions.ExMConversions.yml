@@ -36,7 +36,7 @@ items:
   source:
     id: ExMConversions
     path: ''
-    startLine: 11989
+    startLine: 12101
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -76,7 +76,7 @@ items:
   source:
     id: Polar2ToXY
     path: ''
-    startLine: 11992
+    startLine: 12104
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -109,7 +109,7 @@ items:
   source:
     id: PolarToXY
     path: ''
-    startLine: 11996
+    startLine: 12108
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -146,7 +146,7 @@ items:
   source:
     id: PolarToXYRad
     path: ''
-    startLine: 12001
+    startLine: 12113
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -183,7 +183,7 @@ items:
   source:
     id: XYToPolar
     path: ''
-    startLine: 12006
+    startLine: 12118
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -218,7 +218,7 @@ items:
   source:
     id: XYToPolarRad
     path: ''
-    startLine: 12011
+    startLine: 12123
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -253,7 +253,7 @@ items:
   source:
     id: RV2ToXY
     path: ''
-    startLine: 12016
+    startLine: 12128
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -288,7 +288,7 @@ items:
   source:
     id: RV2ToPolar
     path: ''
-    startLine: 12023
+    startLine: 12135
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -323,7 +323,7 @@ items:
   source:
     id: Rotate
     path: ''
-    startLine: 12028
+    startLine: 12140
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -360,7 +360,7 @@ items:
   source:
     id: RotateRad
     path: ''
-    startLine: 12033
+    startLine: 12145
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -397,7 +397,7 @@ items:
   source:
     id: Rotate2
     path: ''
-    startLine: 12038
+    startLine: 12150
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -436,7 +436,7 @@ items:
   source:
     id: RotateRad2
     path: ''
-    startLine: 12043
+    startLine: 12155
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -475,7 +475,7 @@ items:
   source:
     id: RotateV
     path: ''
-    startLine: 12048
+    startLine: 12160
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -512,7 +512,7 @@ items:
   source:
     id: RotateV2
     path: ''
-    startLine: 12054
+    startLine: 12166
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -551,7 +551,7 @@ items:
   source:
     id: RotateCS
     path: ''
-    startLine: 12059
+    startLine: 12171
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -590,7 +590,7 @@ items:
   source:
     id: RotateCS2
     path: ''
-    startLine: 12065
+    startLine: 12177
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -631,7 +631,7 @@ items:
   source:
     id: ConvertBasis
     path: ''
-    startLine: 12070
+    startLine: 12182
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -666,7 +666,7 @@ items:
   source:
     id: DeconvertBasis
     path: ''
-    startLine: 12078
+    startLine: 12190
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -701,7 +701,7 @@ items:
   source:
     id: ToSphere
     path: ''
-    startLine: 12083
+    startLine: 12195
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -736,7 +736,7 @@ items:
   source:
     id: FromSphere
     path: ''
-    startLine: 12088
+    startLine: 12200
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -771,7 +771,7 @@ items:
   source:
     id: CrossProduct
     path: ''
-    startLine: 12098
+    startLine: 12210
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions
@@ -806,7 +806,7 @@ items:
   source:
     id: RotateInPlane
     path: ''
-    startLine: 12106
+    startLine: 12218
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

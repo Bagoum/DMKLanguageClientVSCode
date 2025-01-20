@@ -26,7 +26,8 @@
           "Danmokou.SiMP": "0.0.0.0",
           "LanguageServer.Contracts": "1.0.0.0",
           "LanguageServer.VsCode": "0.3.6.2",
-          "Mizuhashi": "1.0.0.0"
+          "Mizuhashi": "1.0.0.0",
+          "Scriptor": "1.0.0.0"
         },
         "runtime": {
           "DMKLanguageServer.dll": {}
@@ -381,6 +382,14 @@
           }
         }
       },
+      "Scriptor/1.0.0.0": {
+        "runtime": {
+          "Scriptor.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "UnityEngine.CoreModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.CoreModule.dll": {
@@ -392,22 +401,6 @@
       "UnityEngine.Physics2DModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.Physics2DModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.UI/1.0.0.0": {
-        "runtime": {
-          "UnityEngine.UI.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.InputLegacyModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.InputLegacyModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -453,9 +446,25 @@
           }
         }
       },
+      "UnityEngine.UI/1.0.0.0": {
+        "runtime": {
+          "UnityEngine.UI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "UnityEngine.UIModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.UIModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.TilemapModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.TilemapModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -477,14 +486,6 @@
           }
         }
       },
-      "CurvedTMP/0.0.0.0": {
-        "runtime": {
-          "CurvedTMP.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "CommunityToolkit.HighPerformance/8.0.0.0": {
         "runtime": {
           "CommunityToolkit.HighPerformance.dll": {
@@ -496,6 +497,30 @@
       "UnityEngine.TextRenderingModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.TextRenderingModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.InputLegacyModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.InputLegacyModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.GridModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.GridModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.PhysicsModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.PhysicsModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -517,14 +542,6 @@
           }
         }
       },
-      "FluentIL/1.0.1.0": {
-        "runtime": {
-          "FluentIL.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
-          }
-        }
-      },
       "UnityEngine.SharedInternalsModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.SharedInternalsModule.dll": {
@@ -533,9 +550,9 @@
           }
         }
       },
-      "UnityEngine.PhysicsModule/0.0.0.0": {
+      "UnityEngine.TextCoreFontEngineModule/0.0.0.0": {
         "runtime": {
-          "UnityEngine.PhysicsModule.dll": {
+          "UnityEngine.TextCoreFontEngineModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -544,38 +561,6 @@
       "UnityEngine.IMGUIModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.IMGUIModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.AnimationModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.AnimationModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.TilemapModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.TilemapModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.SpriteShapeModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.SpriteShapeModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "UnityEngine.TextCoreFontEngineModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.TextCoreFontEngineModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -597,9 +582,9 @@
           }
         }
       },
-      "UnityEngine.InputForUIModule/0.0.0.0": {
+      "UnityEngine.HierarchyCoreModule/0.0.0.0": {
         "runtime": {
-          "UnityEngine.InputForUIModule.dll": {
+          "UnityEngine.HierarchyCoreModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -613,9 +598,9 @@
           }
         }
       },
-      "UnityEngine.HierarchyCoreModule/0.0.0.0": {
+      "UnityEngine.InputForUIModule/0.0.0.0": {
         "runtime": {
-          "UnityEngine.HierarchyCoreModule.dll": {
+          "UnityEngine.InputForUIModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -629,9 +614,17 @@
           }
         }
       },
-      "UnityEngine.GridModule/0.0.0.0": {
+      "UnityEngine.AnimationModule/0.0.0.0": {
         "runtime": {
-          "UnityEngine.GridModule.dll": {
+          "UnityEngine.AnimationModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.SpriteShapeModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.SpriteShapeModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -853,22 +846,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Scriptor/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.CoreModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "UnityEngine.Physics2DModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.UI/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.InputLegacyModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -898,7 +886,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "UnityEngine.UI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.UIModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.TilemapModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -913,17 +911,27 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CurvedTMP/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CommunityToolkit.HighPerformance/8.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "UnityEngine.TextRenderingModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.InputLegacyModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.GridModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.PhysicsModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -938,42 +946,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentIL/1.0.1.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "UnityEngine.SharedInternalsModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.PhysicsModule/0.0.0.0": {
+    "UnityEngine.TextCoreFontEngineModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "UnityEngine.IMGUIModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.AnimationModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.TilemapModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.SpriteShapeModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.TextCoreFontEngineModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -988,7 +971,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.InputForUIModule/0.0.0.0": {
+    "UnityEngine.HierarchyCoreModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -998,7 +981,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.HierarchyCoreModule/0.0.0.0": {
+    "UnityEngine.InputForUIModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1008,7 +991,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "UnityEngine.GridModule/0.0.0.0": {
+    "UnityEngine.AnimationModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.SpriteShapeModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

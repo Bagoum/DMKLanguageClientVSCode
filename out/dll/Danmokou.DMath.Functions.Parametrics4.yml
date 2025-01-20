@@ -15,7 +15,7 @@ items:
   source:
     id: Parametrics4
     path: ''
-    startLine: 9894
+    startLine: 9993
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath.Functions

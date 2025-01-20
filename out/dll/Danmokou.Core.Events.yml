@@ -11,7 +11,6 @@ items:
   - Danmokou.Core.Events.FindAnyRuntimeEvent(System.String)
   - Danmokou.Core.Events.FindRuntimeEvent``1(System.String)
   - Danmokou.Core.Events.ProcRuntimeEvent``1(System.String,``0)
-  - Danmokou.Core.Events.SceneCleared
   langs:
   - csharp
   - vb
@@ -22,7 +21,7 @@ items:
   source:
     id: Events
     path: ''
-    startLine: 491
+    startLine: 495
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -62,7 +61,7 @@ items:
   source:
     id: CreateRuntimeEventCreator
     path: ''
-    startLine: 499
+    startLine: 503
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -102,7 +101,7 @@ items:
   source:
     id: CreateRuntimeEvent
     path: ''
-    startLine: 502
+    startLine: 506
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -144,7 +143,7 @@ items:
   source:
     id: FindAnyRuntimeEvent
     path: ''
-    startLine: 583
+    startLine: 587
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -177,7 +176,7 @@ items:
   source:
     id: FindRuntimeEvent
     path: ''
-    startLine: 587
+    startLine: 591
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -215,7 +214,7 @@ items:
   source:
     id: ProcRuntimeEvent
     path: ''
-    startLine: 592
+    startLine: 596
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -253,7 +252,7 @@ items:
   source:
     id: exProcRuntimeEvent
     path: ''
-    startLine: 596
+    startLine: 600
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -274,37 +273,6 @@ items:
   - Shared
   fullName.vb: Danmokou.Core.Events.exProcRuntimeEvent(Of T)()
   name.vb: exProcRuntimeEvent(Of T)()
-- uid: Danmokou.Core.Events.SceneCleared
-  commentId: F:Danmokou.Core.Events.SceneCleared
-  id: SceneCleared
-  parent: Danmokou.Core.Events
-  langs:
-  - csharp
-  - vb
-  name: SceneCleared
-  nameWithType: Events.SceneCleared
-  fullName: Danmokou.Core.Events.SceneCleared
-  type: Field
-  source:
-    id: SceneCleared
-    path: ''
-    startLine: 601
-  assemblies:
-  - cs.temp.dll
-  namespace: Danmokou.Core
-  syntax:
-    content: public static readonly Event<Unit> SceneCleared
-    return:
-      type: Event{Unit}
-    content.vb: 'Public Shared ReadOnly SceneCleared As '
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 references:
 - uid: Danmokou.Core
   commentId: N:Danmokou.Core
@@ -832,85 +800,3 @@ references:
   name: ExFunction
   nameWithType: ExFunction
   fullName: ExFunction
-- uid: Event{Unit}
-  commentId: '!:Event{Unit}'
-  definition: Event`1
-  name: Event<Unit>
-  nameWithType: Event<Unit>
-  fullName: Event<Unit>
-  nameWithType.vb: Event(Of Unit)
-  fullName.vb: Event(Of Unit)
-  name.vb: Event(Of Unit)
-  spec.csharp:
-  - uid: Event`1
-    name: Event
-    nameWithType: Event
-    fullName: Event
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: Unit
-    name: Unit
-    nameWithType: Unit
-    fullName: Unit
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Event`1
-    name: Event
-    nameWithType: Event
-    fullName: Event
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: Unit
-    name: Unit
-    nameWithType: Unit
-    fullName: Unit
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: Event`1
-  commentId: '!:Event`1'
-  isExternal: true
-  name: Event<>
-  nameWithType: Event<>
-  fullName: Event<>
-  nameWithType.vb: Event(Of )
-  fullName.vb: Event(Of )
-  name.vb: Event(Of )
-  spec.csharp:
-  - uid: Event`1
-    name: Event
-    nameWithType: Event
-    fullName: Event
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: Event`1
-    name: Event
-    nameWithType: Event
-    fullName: Event
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: )
-    nameWithType: )
-    fullName: )

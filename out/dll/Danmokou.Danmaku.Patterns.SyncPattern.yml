@@ -19,7 +19,7 @@ items:
   source:
     id: SyncPattern
     path: ''
-    startLine: 5261
+    startLine: 5331
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -53,7 +53,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5261
+    startLine: 5331
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -87,7 +87,7 @@ items:
   source:
     id: EnvFrame
     path: ''
-    startLine: 5263
+    startLine: 5333
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -118,7 +118,7 @@ items:
   source:
     id: Run
     path: ''
-    startLine: 5265
+    startLine: 5335
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -147,7 +147,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 5275
+    startLine: 5345
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

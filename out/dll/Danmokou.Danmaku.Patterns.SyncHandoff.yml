@@ -25,7 +25,7 @@ items:
   source:
     id: SyncHandoff
     path: ''
-    startLine: 5366
+    startLine: 5436
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -65,7 +65,7 @@ items:
   source:
     id: ch
     path: ''
-    startLine: 5367
+    startLine: 5437
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -92,7 +92,7 @@ items:
   source:
     id: bc
     path: ''
-    startLine: 5368
+    startLine: 5438
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -124,7 +124,7 @@ items:
   source:
     id: RV2
     path: ''
-    startLine: 5369
+    startLine: 5439
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -156,7 +156,7 @@ items:
   source:
     id: index
     path: ''
-    startLine: 5370
+    startLine: 5440
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -188,7 +188,7 @@ items:
   source:
     id: timeOffset
     path: ''
-    startLine: 5374
+    startLine: 5444
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -217,7 +217,7 @@ items:
   source:
     id: GCX
     path: ''
-    startLine: 5375
+    startLine: 5445
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -249,7 +249,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5380
+    startLine: 5450
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -287,7 +287,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5388
+    startLine: 5458
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -323,7 +323,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 5393
+    startLine: 5463
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -359,7 +359,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 5395
+    startLine: 5465
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

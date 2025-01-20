@@ -39,7 +39,7 @@ items:
   source:
     id: SyncPatterns
     path: ''
-    startLine: 5970
+    startLine: 6043
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -79,7 +79,7 @@ items:
   source:
     id: Exec
     path: ''
-    startLine: 5976
+    startLine: 6049
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -114,7 +114,7 @@ items:
   source:
     id: Wrap
     path: ''
-    startLine: 5982
+    startLine: 6055
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -152,7 +152,7 @@ items:
   source:
     id: World
     path: ''
-    startLine: 6002
+    startLine: 6075
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -189,7 +189,7 @@ items:
   source:
     id: Loc0
     path: ''
-    startLine: 6011
+    startLine: 6084
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -226,7 +226,7 @@ items:
   source:
     id: Loc0c
     path: ''
-    startLine: 6025
+    startLine: 6098
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -266,7 +266,7 @@ items:
   source:
     id: AddTime
     path: ''
-    startLine: 6034
+    startLine: 6107
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -309,7 +309,7 @@ items:
   source:
     id: Alternate
     path: ''
-    startLine: 6044
+    startLine: 6117
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -349,7 +349,7 @@ items:
   source:
     id: RandomX
     path: ''
-    startLine: 6050
+    startLine: 6123
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -388,7 +388,7 @@ items:
   source:
     id: RandomY
     path: ''
-    startLine: 6060
+    startLine: 6133
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -427,7 +427,7 @@ items:
   source:
     id: PSSFX
     path: ''
-    startLine: 6073
+    startLine: 6146
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -467,7 +467,7 @@ items:
   source:
     id: Color
     path: ''
-    startLine: 6078
+    startLine: 6151
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -504,7 +504,7 @@ items:
   source:
     id: ColorR
     path: ''
-    startLine: 6083
+    startLine: 6156
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -541,7 +541,7 @@ items:
   source:
     id: DoubleFlipY
     path: ''
-    startLine: 6092
+    startLine: 6165
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -578,7 +578,7 @@ items:
   source:
     id: DoubleFlipX
     path: ''
-    startLine: 6104
+    startLine: 6177
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -615,7 +615,7 @@ items:
   source:
     id: DoubleFlipXY
     path: ''
-    startLine: 6116
+    startLine: 6189
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -652,7 +652,7 @@ items:
   source:
     id: SetP
     path: ''
-    startLine: 6122
+    startLine: 6195
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -690,7 +690,7 @@ items:
   source:
     id: GuideEmpty2
     path: ''
-    startLine: 6137
+    startLine: 6210
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -734,7 +734,7 @@ items:
   source:
     id: GuideEmpty
     path: ''
-    startLine: 6150
+    startLine: 6223
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -789,7 +789,7 @@ items:
   source:
     id: PlayerGuideEmpty
     path: ''
-    startLine: 6157
+    startLine: 6230
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -837,7 +837,7 @@ items:
   source:
     id: GSRepeat
     path: ''
-    startLine: 6240
+    startLine: 6313
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -880,7 +880,7 @@ items:
   source:
     id: GSRepeat2
     path: ''
-    startLine: 6266
+    startLine: 6339
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -929,7 +929,7 @@ items:
   source:
     id: GSRepeatFRV2
     path: ''
-    startLine: 6280
+    startLine: 6353
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -978,7 +978,7 @@ items:
   source:
     id: GSRepeat2c
     path: ''
-    startLine: 6294
+    startLine: 6367
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns
@@ -1024,7 +1024,7 @@ items:
   source:
     id: GSRepeat2dr
     path: ''
-    startLine: 6302
+    startLine: 6375
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Danmaku.Patterns

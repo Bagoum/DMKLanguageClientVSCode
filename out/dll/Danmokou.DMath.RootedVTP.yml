@@ -22,7 +22,7 @@ items:
   source:
     id: RootedVTP
     path: ''
-    startLine: 7427
+    startLine: 7512
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -57,7 +57,7 @@ items:
   source:
     id: root
     path: ''
-    startLine: 7428
+    startLine: 7513
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -86,7 +86,7 @@ items:
   source:
     id: path
     path: ''
-    startLine: 7429
+    startLine: 7514
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -115,7 +115,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7431
+    startLine: 7516
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -149,7 +149,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7436
+    startLine: 7521
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -183,7 +183,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7438
+    startLine: 7523
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -216,7 +216,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7439
+    startLine: 7524
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath
@@ -247,7 +247,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7440
+    startLine: 7525
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.DMath

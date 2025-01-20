@@ -16,7 +16,7 @@ items:
   source:
     id: DialoguePhaseSM
     path: ''
-    startLine: 14306
+    startLine: 14438
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM
@@ -63,7 +63,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 14307
+    startLine: 14439
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.SM

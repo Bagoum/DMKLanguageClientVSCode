@@ -19,7 +19,7 @@ items:
   source:
     id: PhaseClearMethod
     path: ''
-    startLine: 1448
+    startLine: 1460
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -46,7 +46,7 @@ items:
   source:
     id: HP
     path: ''
-    startLine: 1449
+    startLine: 1461
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -74,7 +74,7 @@ items:
   source:
     id: PHOTO
     path: ''
-    startLine: 1450
+    startLine: 1462
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -102,7 +102,7 @@ items:
   source:
     id: TIMEOUT
     path: ''
-    startLine: 1451
+    startLine: 1463
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -130,7 +130,7 @@ items:
   source:
     id: CANCELLED
     path: ''
-    startLine: 1452
+    startLine: 1464
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core

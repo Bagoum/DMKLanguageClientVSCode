@@ -22,7 +22,7 @@ items:
   source:
     id: AnimationType
     path: ''
-    startLine: 450
+    startLine: 453
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -49,7 +49,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 451
+    startLine: 454
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -77,7 +77,7 @@ items:
   source:
     id: Left
     path: ''
-    startLine: 452
+    startLine: 455
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -105,7 +105,7 @@ items:
   source:
     id: Right
     path: ''
-    startLine: 453
+    startLine: 456
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -133,7 +133,7 @@ items:
   source:
     id: Up
     path: ''
-    startLine: 454
+    startLine: 457
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -161,7 +161,7 @@ items:
   source:
     id: Down
     path: ''
-    startLine: 455
+    startLine: 458
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -189,7 +189,7 @@ items:
   source:
     id: Attack
     path: ''
-    startLine: 456
+    startLine: 459
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
@@ -217,7 +217,7 @@ items:
   source:
     id: Death
     path: ''
-    startLine: 457
+    startLine: 460
   assemblies:
   - cs.temp.dll
   namespace: Danmokou.Core
